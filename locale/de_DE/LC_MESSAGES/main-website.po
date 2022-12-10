@@ -1,0 +1,2546 @@
+#
+# Daniel Winzen <daniel@danwin1210.de>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-18 15:57+0100\n"
+"PO-Revision-Date: 2022-12-17 23:03+0100\n"
+"Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
+"Language-Team: German - Germany <daniel@danwin1210.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: .\n"
+
+#: index.php:6
+msgid "Daniel - Home"
+msgstr "Daniel - Startseite"
+
+#: index.php:10
+msgid ""
+"Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
+"enthusiast"
+msgstr ""
+"Persönliche Webseite von Daniel Winzen, dem Webentwickler, Sysadmin und "
+"Privatsphäre-Enthusiast"
+
+#: index.php:14 common.php:81
+msgid "Home"
+msgstr "Startseite"
+
+#: index.php:15
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. This is my personal website, that I develop in my free time. "
+"This site is available as <a href=\"http://"
+"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor hidden "
+"service</a> or via my clearnet proxy <a href=\"https://danwin1210."
+"de\">danwin1210.de</a>. To learn more about me and this site, check <a "
+"href=\"/about.php\">the about page</a>."
+msgstr ""
+"Hallo, ich bin Daniel Winzen, ein deutscher Webentwickler und "
+"Systemadministrator. Das hier ist meine persönliche Webseite, die ich in "
+"meiner Freizeit entwickle. Die Seite ist verfügbar als <a href=\"http://"
+"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor hidden "
+"service</a> oder über meinen clearnet Proxy <a href=\"https://danwin1210."
+"de\">danwin1210.de</a>. Um mehr über mich und diese Seite zu erfahren, siehe "
+"<a href=\"/about.php\">die Über Seite</a>."
+
+#: index.php:16
+msgid ""
+"This is just the landing page. You can navigate to the pages that interest "
+"you most, such as my free and anonymous <a href=\"/mail/\">mail service</a> "
+"or <a href=\"https://onions.danwin1210.de\">Tor darknet link collection</a>, "
+"by clicking on the entries in the navigation bar on the left."
+msgstr ""
+"Dies ist nur die Startseite. Du kannst zu den Seiten, die dich am meisten "
+"Interessieren, wie meinem kostenlosen und anonymen <a href=\"/mail/\">E-Mail "
+"Dienst</a> oder der <a href=\"https://onions.danwin1210.de\">Tor darknet "
+"Linksamlung</a>, durch Klicken auf die Einträge in der Navigationsleiste "
+"links gelangen."
+
+#: index.php:17
+msgid ""
+"You can download and/or contribute to my various open-source projects on <a "
+"href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>."
+msgstr ""
+"Du kannst meine diversen  open-source Projekte auf <a href=\"https://github."
+"com/DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a> "
+"herunterladen, oder zu diesen beitragen."
+
+#: index.php:18 about.php:46
+#, php-format
+msgid ""
+"If you like, what I've built here, you can support me by donating via "
+"Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
+"contact.php\">contact me</a>."
+msgstr ""
+"Wenn dir gefällt, was ich hier gebaut habe, kannst du mich mit einer Spende "
+"unterstützen mittels Monero: %1$s oder Bitcoin: %2$s . Mehr Optionen sind "
+"verfügbar, <a href=\"/contact.php\">kontaktier mich</a> einfach."
+
+#: about.php:6
+msgid "Daniel - About"
+msgstr "Daniel - Über"
+
+#: about.php:10
+msgid ""
+"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
+"this site"
+msgstr ""
+"Über den Webentwickler, Sysadmin und Privatsphäre-Enthusiast Daniel Winzen "
+"und diese Seite"
+
+#: about.php:14 common.php:89
+msgid "About"
+msgstr "Über"
+
+#: about.php:15
+msgid "About me"
+msgstr "Über mich"
+
+#: about.php:16
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. In my free time I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up in times of the covid "
+"pandemic and resulting home office, because it's fun and keeps me fit."
+msgstr ""
+"Hallo, ich bin Daniel Winzen, ein deutscher Webentwickler und "
+"Systemadministrator. In meiner Freizeit lese ich gerne Bücher, programmieren "
+"an meinen open-source Projekten und gehe zum Poledance, was ich in Zeiten "
+"der Covid-Pandemie und dem daraus resultierenden  Homeoffice angefangen "
+"habe, denn es macht Spaß und hält mich fit."
+
+#: about.php:17
+msgid ""
+"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+"also know some basics of Perl, Python, C, C++ and more. With my experience "
+"I'm able to quickly adapt and work with new languages, when necessary."
+msgstr ""
+"Programmiersprachen die ich regelmäßig benutze sind PHP, SQL und JavaScript, "
+"aber ich kenne auch die Basics von Perl, Python, C, C++ und mehr. Mit meiner "
+"Erfahrung bin ich in der Lage mich schnell in neue Sprachen einzuarbeiten, "
+"um damit zu arbeiten, sofern nötig."
+
+#: about.php:18
+msgid ""
+"Before I got into coding and server management, I contributed German "
+"translation to various open-source projects since the end of 2011."
+msgstr ""
+"Bevor ich mit Programmierung und Serververwaltung angefangen habe, habe ich  "
+"seit Ende 2011 zu verschieden open-source Projekten deutsche Übersetzungen "
+"beigesteuert."
+
+#: about.php:19
+msgid ""
+"Managing servers, email services and developing new web projects is what I "
+"thrive on. I like optimizing systems for performance and getting the best "
+"out of what I have. Do you need help with managing and optimizing your "
+"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
+"touch</a> and we'll discuss details."
+msgstr ""
+"Server und E-Mail Dienste verwalten und neue Web-Projekte zu entwickeln ist "
+"was mich treibt. Ich mag es Systeme für Performace zu optimieren und das "
+"beste aus dem was ich habe zu machen. Brauchst du hilfe mit dem Verwalten "
+"und optimieren deiner Infrastruktur oder Webseite? Ich helfe gerne dabei.  "
+"<a href=\"/contact.php\">Schreib mir</a> und wir können über Details reden."
+
+#: about.php:20
+msgid "Profiles on other sites that I am active on:"
+msgstr "Profile auf anderen Seiten, auf denen ich auch aktiv bin:"
+
+#: about.php:27
+msgid "About this site"
+msgstr "Über diese Seite"
+
+#: about.php:28
+msgid ""
+"This is my personal site, that I develop in my free time. I started "
+"development of this site in August/September 2013 when I wanted to have a "
+"platform to host files on, to use at school."
+msgstr ""
+"Dies ist meine persönliche Seite, die ich in meiner Freizeit entwickle. Ich "
+"habe mit der Entwicklung dieser Seite im August/September 2013 angefangen, "
+"als ich eine Platform zum Teilen von Dateien in der Schule haben wollte."
+
+#: about.php:29
+msgid ""
+"Quickly the idea of using a chat at school came up and I came across a "
+"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
+"deployed that on my Raspberry Pi it was running very slowly and wasn't "
+"really usable for use with several people. So I decided to port some parts I "
+"needed to PHP."
+msgstr ""
+"Schnell kam auch die Idee eines Chats in der Schule auf und ich bin auf ein "
+"einfaches Perl Chat-Skript gestoßen, welches sich <a href=\"https://github."
+"com/virtualghetto/lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-"
+"CHAT</a> nennt. Als ich es auf meinem Raspberry Pi installiert hatte, lief "
+"es nur sehr langsam und war nicht wirklich nutzbar für mehrere Leute. "
+"Deshalb habe ich mich entschieden einige Teile davon zu PHP zu portieren."
+
+#: about.php:30
+msgid ""
+"This has been the start for me to get deeper into web-development and I have "
+"since open-sourced that chat script and several other scripts of this site "
+"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
+"many new features and improved reliability and my code a lot."
+msgstr ""
+"Dies war für mich der Start tiefer in Webentwicklung einzusteigen und ich "
+"habe seit dem mein Chat-Skript, sowie einige andere Projekte dieser Seite "
+"auf meinem <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub Konto</a> als open-source Projekte "
+"veröffentlicht. Seit dem habe ich viele neue Funktionen hinzugefügt sowie "
+"die Zuverlässigkeit und meine Codequalität verbessert."
+
+#: about.php:31
+msgid ""
+"I used to offer free file hosting, an url shortener, a chat and even a free "
+"darknet web hosting service. All these projects have taught me a lot about "
+"coding, security and server management. As of now, only the anonymous email "
+"and XMPP hosting, as well as the onion link list are still actively "
+"maintained."
+msgstr ""
+"Ich habe früher ein kostenloses Datei-Hosting, einen URL-Shortener, einen "
+"Chat und sogar einen kostenlosen Darknet Webhosting Dienst bereitgestellt. "
+"All diese Projekte haben mir sehr viel über Programmierung, Sicherheit und "
+"Serververwaltung beigebracht. Aktuell werden nur noch das anonyme E-Mail und "
+"XMPP Hosting, sowie die Onion Linkliste aktiv gewartet."
+
+#: about.php:32
+msgid "About the setup"
+msgstr "Über das Setup"
+
+#: about.php:33
+msgid ""
+"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
+"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
+"sh and Wireguard."
+msgstr ""
+"DiesSftware, die ich verwende sind Debian sid mit Ceph, NginX, MariaDB, "
+"Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, "
+"bind9, acme.sh und Wireguard."
+
+#: about.php:34
+msgid ""
+"The clearnet gateways on <a href=\"https://danwin1210.de\" "
+"target=\"_blank\">danwin1210.de</a> are an NginX Proxy that will forward all "
+"requests to the raspberry pis at home. Additionally they run a Postfix "
+"instance only listening on the VPN network to send out mails to clearnet."
+msgstr ""
+"Die clearnet Gateways unter <a href=\"https://danwin1210.de\" "
+"target=\"_blank\">danwin1210.de</a> sind ein NginX Proxy, der alle Anfragen "
+"zu den Raspberry Pis zu Hause weiterleitet. Zusätzliche läuft hier eine "
+"Postfix Instanz, die nur auf dem  VPN Netzwerk erreichbar ist, um Mails and "
+"das clearnet zu senden."
+
+#: about.php:35
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr "Alle Server sind per Wireguard VPN miteinander verbunden."
+
+#: about.php:36
+msgid "Hosting providers I use(ed) and servers hosted there:"
+msgstr "Hostingprovider die Ich verwende(t habe) und die Server dort:"
+
+#: about.php:38 about.php:39
+#, php-format
+msgid "%s - good for short-term and/or low-bandwidth projects"
+msgstr "%s - gut für kurze und/order Projekte mit wenig Bandbreite"
+
+#: about.php:40
+#, php-format
+msgid "%s - good and reliable"
+msgstr "%s - gut und zuverlässig"
+
+#: about.php:41
+#, php-format
+msgid "%s - comparably expensive but good and reliable"
+msgstr "%s - vergleichsweise teuer, aber gut und zuverlässig"
+
+#: about.php:42
+#, php-format
+msgid "%s - (Used for my clearnet gateway) - good and reliable"
+msgstr "%s - (Verwendet für meinen clearnet Gateway) - gut und zuverlässig"
+
+#: about.php:43
+#, php-format
+msgid ""
+"%s - (Used for my clearnet gateway + Domain registration) - good and "
+"reliable, hosted in my city"
+msgstr ""
+"%s - (Verwendet für meinen clearnet Gateway + Domain Registrierung) -gut und "
+"zuverlässig, gehosted in meiner Stadt"
+
+#: about.php:44
+msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
+msgstr "Zu Hause gehosted: 4 Raspberry Pi 4 mit der Hauptseite und den Daten"
+
+#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:14 common.php:87
+msgid "GitHub IPv6 proxy"
+msgstr "GitHub IPv6 Proxy"
+
+#: github-ipv6-proxy.php:10
+msgid ""
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+msgstr ""
+"GitHub IPv6 Proxy ermöglicht es GitHub Repositories auf nur-IPv6 Servern "
+"herunterzuladen"
+
+#: github-ipv6-proxy.php:15
+#, php-format
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %s. Unfortunately I realized "
+"that GitHub still <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
+"support IPv6</a>."
+msgstr ""
+"Kürzlich musste ich ein git Repository auf GitHub über einen nur-IPv6 Server "
+"klonen, den ich bei meinem Lieblingshoster %s gemietet habe. Leider musste "
+"ich feststellen, dass GitHub <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">IPv6 immer "
+"noch nicht unterstützt</a>."
+
+#: github-ipv6-proxy.php:16
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+"Meine Umgehung war einen WireGuard VPN mit einem meiner dual-stack server "
+"einzurichten. Eine Alternative hätte auch sein können Tor zu installieren um "
+"anonym herunterzuladen."
+
+#: github-ipv6-proxy.php:17
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+"Da ich bei weitem nicht der einzige Nutzer von nur-IPv6 Servern bin, der "
+"Repositories von GitHub herunterladen möchte, habe ich mich dazu entschieden "
+"einen öffentlichen Proxyserver anzubieten, der benutzt werden kann um auf "
+"GitHub von IPv6 Netzwerken zuzugreifen, bis GitHub native IPv6 Unterstützung "
+"hinzufügt. Dieser Proxy ist nur auf IPv6 verfügbar, um IPv4 Nutzer davon "
+"abzuhalten diesen Proxy zu verwenden und unnötig Ressourcen zu verschwenden, "
+"da diese bereits direkt von GitHub klonen können."
+
+#: github-ipv6-proxy.php:18
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+"Hinweis, der https Proxy verwendet ein SSL-Zertifikat ausgestellt für meine "
+"Domain, was bedeutet dass ich deinen Verkehr entschlüssle und neu "
+"verschlüssle (und potenziell rein-schauen könnte, es aber nicht tue). Dies "
+"ist nötig, da du anderenfalls eine ungültiges Zertifikat Warnung bekommen "
+"würdest und GitHub dich umleiten würde auf den Standardport, nach "
+"Akzeptieren des Zertifikats. Siehe unten für eine bessere permanente Lösung, "
+"die Privatsphäre-freundlicher ist."
+
+#: github-ipv6-proxy.php:19
+#, php-format
+msgid ""
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
+msgstr ""
+"Also wie funktioniert es? Lass uns annehmen, dass du mein PHP Chat Skript, "
+"welches ich unter %s veröffentlicht habe, klonen möchtest. Normalerweise "
+"würde das Klonen so funktionieren:"
+
+#: github-ipv6-proxy.php:21
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr ""
+"Mit einer IPv6 Verbindung kannst du meinen Proxy-Dienst wie folgt benutzen:"
+
+#: github-ipv6-proxy.php:23
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr ""
+"Und wenn du über ssh klonen wilst, kannst du dies auch wie folgt machen:"
+
+#: github-ipv6-proxy.php:25
+msgid ""
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
+msgstr ""
+"Diejenigen, die den Proxy permanent nutzen möchten, und/oder direkt mit "
+"GitHub kommunizieren möchten, ohne dass ich den Verkehr neu verschlüssle, "
+"sollten folgendes zu /etc/hosts hinzufügen:"
+
+#: github-ipv6-proxy.php:30
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr ""
+"Einmal hinzugefügt, kannst du normal klonen, ohne irgend welche Änderungen:"
+
+#: github-ipv6-proxy.php:33
+msgid ""
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
+msgstr ""
+"All dies ist mit der folgenden nginx Konfiguration auf einem Dual-Stack "
+"Server gemacht:"
+
+#: github-ipv6-proxy.php:71 chat/index.php:19
+msgid ""
+"If there are any further questions, feel free to <a href=\"/contact."
+"php\">contact me</a>."
+msgstr ""
+"Wenn noch weitere Fragen offen sind, <a href=\"/contact.php\">schreib mir</"
+"a> gerne."
+
+#: contact.php:6
+msgid "Daniel - Contact"
+msgstr "Daniel - Kontakt"
+
+#: contact.php:10
+msgid "Contact Daniel Winzen"
+msgstr "Kontaktiere Daniel Winzen"
+
+#: contact.php:14 common.php:91
+msgid "Contact"
+msgstr "Kontakt"
+
+#: contact.php:15
+msgid ""
+"You can send me a message here. Don't forget to leave a contact option, if "
+"you want me to answer."
+msgstr ""
+"Du kannst mir hier eine Nachricht senden. Vergiss nicht mir eine "
+"Kontaktmöglichkeit zu hinterlassen, wenn ich antworten soll."
+
+#: contact.php:17
+msgid "Name:"
+msgstr "Name:"
+
+#: contact.php:20
+msgid "Honeypot (do not fill anything):"
+msgstr "Honeypot (nicht ausfüllen):"
+
+#: contact.php:21
+msgid "Subject:"
+msgstr "Betreff:"
+
+#: contact.php:24
+msgid "Message:"
+msgstr "Nachricht:"
+
+#: contact.php:44
+msgid "You filled out the honeypot field :( Are you a human?"
+msgstr "Du hast das Honeypot Feld ausgefüllt :( Bist du ein Mensch?"
+
+#: contact.php:48
+msgid "You haven't entered a message yet."
+msgstr "Du hast noch keine Nachricht eingegeben."
+
+#: contact.php:57
+msgid "Message successfully sent!"
+msgstr "Nachricht erfolgreich gesendet!"
+
+#: contact.php:63
+msgid ""
+"If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
+"target=\"_blank\">my public PGP key</a>."
+msgstr ""
+"Wenn du deine Nachricht verschlüsseln möchtest, kannst du <a href=\"/pgp."
+"txt\" target=\"_blank\">meinen öffentlichen PGP-Schlüssel</a> verwenden."
+
+#: contact.php:64
+msgid ""
+"If you prefer to directly get in contact with me, email me at <a "
+"href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+msgstr ""
+"Wenn du lieber direkt mit mir in Kontakt treten möchtest, schreib mir eine E-"
+"Mail an <a href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+
+#: contact.php:66
+msgid "Disclaimer - External links"
+msgstr "Haftungsausschluss - Externe Links"
+
+#: contact.php:67
+msgid ""
+"This website contains links to third party websites (\"external links\"). "
+"These websites are subject to the liability of the respective operator. When "
+"linking first time third-party content, the provider checked whether there "
+"are any legal violations. At the time there were none legal violations "
+"evident. The provider has no influence on the current and future design and "
+"the content of the linked pages. Setting external links does not mean that "
+"the provider claims ownership of the content behind the reference or link. "
+"Constant control of the external links are not reasonable for the provider "
+"without concrete evidence of legal violations. At knowledge of legal "
+"violations, however, such external links will be deleted immediately."
+msgstr ""
+"Diese Website enthält Links zu Webseiten Dritter (\"externe Links\"). Diese "
+"Webseiten unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat "
+"bei der erstmaligen Verlinkung die fremden Inhalte daraufhin überprüft, ob "
+"etwaige Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße "
+"ersichtlich. Der Anbieter hat keinerlei Einfluss auf die aktuelle und "
+"zukünftige Gestaltung und auf die Inhalte der verlinkten Seiten. Das Setzen "
+"von externen Links bedeutet nicht, dass sich der Anbieter die hinter dem "
+"Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige Kontrolle "
+"der externen Links ist für den Anbieter ohne konkrete Hinweise auf "
+"Rechtsverstöße nicht zumutbar. Bei Kenntnisnahme von Rechtsverstößen werden "
+"jedoch derartige externe Links unverzüglich gelöscht."
+
+#: faq.php:6
+msgid "Daniel - FAQ - Frequently Asked Questions"
+msgstr "Daniel - FAQ - Häufig gestellte Fragen"
+
+#: faq.php:9
+msgid ""
+"A list of frequently asked questions regarding the services I provide and "
+"their answers"
+msgstr ""
+"Eine Liste der häufig gestellten Fragen zu den Diensten die ich "
+"bereitstelle, und deren Antworten"
+
+#: faq.php:13
+msgid "FAQ - Frequently Asked Questions"
+msgstr "FAQ - Häufig gestellte Fragen"
+
+#: faq.php:14
+msgid ""
+"Here you have a list of frequently asked questions regarding the services I "
+"provide and their answers."
+msgstr ""
+"Hier hast du eine Liste der häufig gestellten Fragen zu den Diensten die ich "
+"bereitstelle, und deren Antworten."
+
+#: faq.php:17
+msgid "Question"
+msgstr "Frage"
+
+#: faq.php:18
+msgid "Answer"
+msgstr "Antwort"
+
+#: faq.php:21
+msgid "I found an illegal link/content on your site, can you remove it?"
+msgstr ""
+"Ich habe einen Illegalen Link/Inhalt auf deiner Seite gefunden, kannst du "
+"das entfernen?"
+
+#: faq.php:22
+msgid ""
+"Yes, please <a href=\"contact.php\">report it</a> and I will remove it as "
+"soon as possible."
+msgstr ""
+"Ja, bitte <a href=\"contact.php\">melde es</a> und Ich werde es so bald wie "
+"möglich entfernen."
+
+#: faq.php:25
+msgid "What is PGP?"
+msgstr "Was ist PGP?"
+
+#: faq.php:26
+msgid ""
+"PGP is an encryption program, that can be used to encrypt or sign emails and "
+"files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia "
+"article</a>."
+msgstr ""
+"PGP ist ein Verschlüsselungsprogramm, welches zum Verschlüsseln und "
+"signieren von E-Mails und Dateien verwendet werden kann. <a href=\"https://"
+"de.wikipedia.org/wiki/Pretty_Good_Privacy\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Mehr Informationen in diesem Wikipedia Artikel</a>."
+
+#: faq.php:29
+msgid "I have an idea how to make your site better, can you add feature xyz?"
+msgstr ""
+"Ich habe eine Idee, wie du deine Seite besser machen kannst. Kannst du "
+"Funktion xyz hinzufügen?"
+
+#: faq.php:30
+msgid ""
+"Yes, please <a href=\"contact.php\">contact me</a> and I may add it on my "
+"ToDo list. It might take a while until your feature gets added though."
+msgstr ""
+"Ja, bitte <a href=\"contact.php\">schreib mir</a> und vielleicht füge ich es "
+"meiner Todo-Liste hinzu. Es könnte aber eine Weile dauern, bis ich die "
+"Funktion hinzufüge."
+
+#: faq.php:33
+msgid ""
+"I want to translate your site and services into another language, how can I "
+"do this?"
+msgstr ""
+"Ich möchte deine Seite und Dienste in eine andere Sprache übersetzen. Wie "
+"kann ich das machen?"
+
+#: faq.php:34
+msgid ""
+"Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
+"individual projects you would like to translate."
+msgstr ""
+"Bitte siehe meine <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub repositories</a> und schaue dir die "
+"einzelnen Projekte an, die du übersetzen möchtest."
+
+#: faq.php:37
+msgid "I heard of red rooms, live murder streams or similar. Are they real?"
+msgstr ""
+"Ich have von Red-Rooms, Live-Stream Mord und ähnlichem gehört. Sind die echt?"
+
+#: faq.php:38
+msgid ""
+"No, they are just horror stories people commonly tell you. Many people make "
+"YouTube videos about the \"deep web\" and claim there were sites like these. "
+"However, many scammers jump on the train and create a site where they tell "
+"you to pay bitcoins to gain access. Don't pay, because they simply do not "
+"exist."
+msgstr ""
+"Nein, diese sind nur Horror-Geschichten, die gerne erzählt werden. Viele "
+"Menschen machen YouTube Videos über das \"deep web\" und behaupten diese Art "
+"von Seiten würden existieren. Tatsächlich greifen dies viele Scammer auf und "
+"erstellen dann solche Seiten, die man mit Bitcoins bezahlen soll, um Zugriff "
+"zu bekommen. Zahle nicht, denn diese Seiten existieren einfach nicht."
+
+#: faq.php:41
+msgid ""
+"I heard of the shadow web, marianas web or closed shell network. How can I "
+"access them?"
+msgstr ""
+"Ich habe vom Shadow Web, Marianas Web oder Closed Shell Netzwerk gehört. Wie "
+"kann ich auf diese zugreifen?"
+
+#: faq.php:42
+msgid ""
+"You can't, because they do not exist. Some scammers want to sell it to you "
+"though. Don't pay because you won't get anything in return for your money."
+msgstr ""
+"Das kannst du nicht, weil diese nicht existieren. Einige Scammer wollen es "
+"dir aber  verkaufen. Zahle nicht, denn du wirst nichts dafür bekommen."
+
+#: faq.php:45
+msgid ""
+"Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
+"find any interesting sites?"
+msgstr ""
+"Soll das Darknet nicht gruselig voller unheimlichen Scheiß sein? Warum kann "
+"ich keine interessanten Seiten finden?"
+
+#: faq.php:46
+msgid ""
+"No, the Tor darknet was created to be able to anonymously browse the "
+"internet, circumvent censorship and anonymously host websites. Of course, "
+"it's not only used for a good cause. There are many phishing sites, scammers "
+"and child porn sites. But apart from the fact that you are anonymous, there "
+"isn't that much of a difference to the clearnet (normal internet). So most "
+"horror stories you have heard about Tor are just that, stories."
+msgstr ""
+"Nein, das Tor Darknet wurde erstellt um anonym das Internet zu benutzen, "
+"Zensur zu umgehen und anonym Webseiten zu betreiben. Natürlich wird es nicht "
+"nur für gutes verwendet. Es gibt viele Phishing-Seiten, Scammer und "
+"Kinderpornografie. Aber bis auf den Fakt, dass du anonym bist, gibt es kaum "
+"einen unterschied zum Clearnet (normales Internet). Also die meisten Horror-"
+"Geschichten die du über Tor gehört hast sind nur das, Geschichten."
+
+#: faq.php:49
+msgid "What's the difference between deep web and darknet?"
+msgstr "Wo ist der Unterschied zwischen Deep web und Darknet?"
+
+#: faq.php:50
+msgid ""
+"The deep web is any site that can't be indexed by a search engine, so "
+"basically any site where you have to log in or be part of a private network. "
+"To access a darknet, it requires special software like Tor, I2P or Freenet. "
+"The darknet is a small part of the deep web."
+msgstr ""
+"Das Deep Web bezeichnet alle Seiten, die nicht von Suchmaschinen indiziert "
+"werden können, also prinzipiell alle Seiten, zu denen du dich anmelden "
+"musst, oder Teil eines privaten Netzwerks sein musst. Um auf das Darknet "
+"zuzugreifen, braucht man eine spezielle Software wie Tor, I2P oder Freenet. "
+"Das Darknet ist ein kleiner Teil des Deep Web."
+
+#: faq.php:53
+msgid "Can you hold my hands and teach me programming or hacking step by step?"
+msgstr ""
+"Kannst du meine Hände halten und mir Schritt für Schritt Programmieren oder "
+"Hacken beibringen?"
+
+#: faq.php:55
+msgid ""
+"Yes, marry me and I might actually do that. But only if you teach me "
+"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
+"Sorry guys, only considering females."
+msgstr ""
+"Ja, heirate mich und vielleicht mache ich das. Aber nur wenn du mir etwas im "
+"Gegenzug beibringst. <a href=\"contact.php\">Schick mir deinen Antrag</a>. "
+"Sorry Jungs, nur Frauen kommen in Betracht."
+
+#: faq.php:57
+msgid ""
+"Joking aside, Teaching you programming or hacking is a task that will take a "
+"long time (years). I've been learning for 10 years and still learn new "
+"things all the time. But for the beginning I would recommend reading a "
+"beginners introduction book, which can guide you with some simple programs "
+"you build yourself and examples. If you prefer watching videos, there are a "
+"lot of tutorials on YouTube too. But most importantly you will have to take "
+"your keyboard and start typing some programs. Start with something simple "
+"and keep yourself challenged with new tasks."
+msgstr ""
+"Spaß beiseite, dir Programmieren oder Hacken beizubringen, ist eine Aufgabe "
+"die eine lange Zeit brauchen wird (Jahre). Ich lerne seit 10 Jahren und "
+"lerne immer noch ständig neues hinzu. Für den Anfang würde ich empfehlen ein "
+"Buch für Anfänger zu lesen, welches dich durch einfache Programme und "
+"Beispiele leitet, die du selbst bauen kannst. Wenn du lieber Videos schaust, "
+"gibt es auch sehr viele Anleitungen auf YouTube. Aber am Wichtigsten ist es, "
+"dass du deine Tastatur benutzt und selbst ein paar Programme schreibst. "
+"Starte mit etwas einfachem und vordere dich mit neuen Aufgaben heraus."
+
+#: faq.php:61
+msgid ""
+"- Can you hack my school or university and change my grades, or find someone "
+"who would do that?"
+msgstr ""
+"- Kannst du meine Schule oder Universität hacken, um meine Noten zu ändern, "
+"oder jemanden finden, der dies tut?"
+
+#: faq.php:61
+msgid ""
+"- Can you give me, or tell me where to reliably get stolen PayPal accounts "
+"or credit cards?"
+msgstr ""
+"- Kannst du mir zuverlässig gestohlene PayPal Konten oder Kredit Karten "
+"geben, oder sagen wo ich diese bekomme?"
+
+#: faq.php:61
+msgid "- Can you issue fake Covid19 test results?"
+msgstr "- Kannst du mir ein Fake Covid19 Testergebnis ausstellen?"
+
+#: faq.php:61
+msgid "- Can you do some other illegal things for me?"
+msgstr "- Kannst du andere Illegale Dinge für mich machen?"
+
+#: faq.php:62
+msgid ""
+"Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
+"can't help you with that."
+msgstr ""
+"Ja, ich würde sehr gerne für dich in's Gefängnis gehen. - Ehm, oder lieber "
+"nicht. Sorry, damit kann ich dir leider nicht helfen."
+
+#: faq.php:65
+msgid "Can you hack my girlfriend? I think she's cheating."
+msgstr "Kannst du meine Freundin hacken, ich glaube sie Betrügt mich."
+
+#: faq.php:66
+msgid ""
+"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"you that, because they are all scams. This is ethically just wrong and is "
+"more likely going to hurt your relationship than helping you. Talk to her, "
+"it's the best you can do. If you are at the point of thinking to hire a "
+"hacker, you should definitely think about breaking up, because relationships "
+"are based on trust, but obviously you can't trust anymore."
+msgstr ""
+"Ja, ich könnte es versuchen, werde es aber nicht tun. Vertraue keiner Seite, "
+"die behauptet dies zu anzubieten, denn diese sind alle Scams. Es ist Ethisch "
+"falsch und schadet deiner Beziehung viel mehr, als es dir hilft. Sprich mit "
+"ihr, das ist das beste was du tun kannst. Wenn du an dem Punkt angelangt "
+"bist, wo du darüber nachdenkst einen Hacker einzustellen, solltest du "
+"definitiv über eine Trennung nachdenken, denn eine Beziehung ist auf "
+"Vertrauen aufgebaut, aber offensichtlich kannst du nicht mehr vertrauen."
+
+#: faq.php:69
+msgid "My email doesn't get sent. I'm getting an error about TLS"
+msgstr ""
+"Meine E-Mail wird nicht gesendet. Ich bekomme einen Fehler bezüglich TLS"
+
+#: faq.php:70
+msgid ""
+"You've tried sending an email to a mail server that doesn't accept emails "
+"via encrypted transfer, or is using insecure protocols. This is very "
+"unfortunate, because it would leak your email content to anyone on the "
+"internet, who can intercept your email before it reaches the destination. "
+"You can disable mandatory encryption in your <a href=\"/mail/manage_account."
+"php\">account settings</a>, if you still need to send this email."
+msgstr ""
+"Du hast versucht eine E-Mail an einen Server zu schicken, der keine "
+"verschlüsselte Übertragung zulässt, oder unsichere Protokolle verwendet. Das "
+"ist sehr schade, denn es würde den Inhalt deiner E-Mail an jeden im Internet "
+"preisgeben, der die E-Mail abfängt, bevor sie ihr Ziel erreicht. Du kannst "
+"erzwungene Verschlüsselung in deinen <a href=\"/mail/manage_account."
+"php\">Kontoeinstellungen</a> deaktivieren, wenn du diese E-Mail dennoch "
+"versenden musst."
+
+#: faq.php:73
+msgid "I can't receive email, the sender gets an error about TLS"
+msgstr ""
+"Ich kann eine E-Mail nicht empfangen, der Sender bekommt einen Fehler "
+"bezüglich TLS"
+
+#: faq.php:74
+msgid ""
+"Someone tried emailing you from a mail server that doesn't support sending "
+"emails via encrypted transfer, or is using insecure protocols. This is very "
+"unfortunate, because it would leak your email content to anyone on the "
+"internet, who can intercept your email before it reaches the destination. "
+"You can disable mandatory encryption in your <a href=\"/mail/manage_account."
+"php\">account settings</a>, if you still need to receive this email."
+msgstr ""
+"Jemand hat versucht dir eine E-Mail von einen Server aus zu schicken, der "
+"keine verschlüsselte Übertragung kann, oder unsichere Protokolle verwendet. "
+"Das ist sehr schade, denn es würde den Inhalt deiner E-Mail an jeden im "
+"Internet preisgeben, der die E-Mail abfängt, bevor sie ihr Ziel erreicht. Du "
+"kannst erzwungene Verschlüsselung in deinen <a href=\"/mail/manage_account."
+"php\">Kontoeinstellungen</a> deaktivieren, wenn du diese E-Mail dennoch "
+"empfangen musst."
+
+#: faq.php:77
+msgid "I have more Questions."
+msgstr "Ich habe mehr Fragen."
+
+#: faq.php:78
+msgid "Feel free, to <a href=\"contact.php\">contact me</a>."
+msgstr "<a href=\"contact.php\">Schreib mir</a> gerne."
+
+#: common.php:82
+msgid "Chat"
+msgstr "Chat"
+
+#: common.php:83
+msgid "Online-Test"
+msgstr "Online-Test"
+
+#: common.php:84
+msgid "Onion link list"
+msgstr "Onion Linkliste"
+
+#: common.php:85
+msgid "E-Mail + XMPP"
+msgstr "E-Mail + XMPP"
+
+#: common.php:86 tutorials/index.php:14
+msgid "Tutorials"
+msgstr "Anleitungen"
+
+#: common.php:88
+msgid "FAQ"
+msgstr "FAQ"
+
+#: common.php:90
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: common.php:102
+msgid "Add translation"
+msgstr ""
+
+#: new-domain.php:6
+msgid "Daniel - New domain"
+msgstr "Daniel - Neue Domain"
+
+#: new-domain.php:10
+msgid "We moved to a brand new domain - migrate your accounts"
+msgstr "Wir sind zu einer Brandneuen Domain umgezogen - migriere deine Konten"
+
+#: new-domain.php:14
+msgid "New domain - DanWin1210.Me is now DanWin1210.De"
+msgstr "Neue Domain - DanWin1210.Me ist jetzt DanWin1210.De"
+
+#: new-domain.php:15
+msgid "Why this sudden and drastic change?"
+msgstr "Warum die plötzliche Änderung?"
+
+#: new-domain.php:16
+msgid ""
+"In mid-October 2021 I noticed that I was locked out of my registrar's "
+"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q>. After contacting their "
+"customer support multiple times, even after more than a year, all I have "
+"ever gotten back from them is that I will hear from them soon, as they need "
+"more time to investigate, and they appreciate my patience. I was refused "
+"renewing the domain or moving to a different registrar."
+msgstr ""
+"Mitte Oktober 2021 habe ich bemerkt, dass ich aus meinem Registrar's Control "
+"Panel (Namecheap Inc.) wegen <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q> ausgesperrt wurde. Nachdem ich "
+"den Kundensupport mehrfach kontaktiert habe, selbst nach einem Jahr, ist "
+"alles was ich dazu bisher gehört habe, dass ich bald von ihnen höre und sie "
+"mehr Zeit brauchen, um mein Problem zu analysieren, und meine Geduld "
+"wertschätzen. Eine Verlängerung, sowie der Umzug zu einem anderen Registrar "
+"wurde mir nicht ermöglicht."
+
+#: new-domain.php:17
+msgid ""
+"Given that I was unable to get a satisfying answer and the old domain was "
+"due to expire, I went ahead and bought the new domain danwin1210.de, to "
+"switch over to. danwin1210.me went down after expiry, but thankfully I was "
+"allowed to pay for extension by creating a new account and depositing the "
+"money for renewal there, so it was back up shortly afterwards."
+msgstr ""
+"Da ich keine zufriedenstellende Antwort bekommen konnte und die alte Domain "
+"am ablaufen war, habe ich die neue Domain danwin1210.de gekauft, um dahin "
+"umzustellen. danwin1210.me ist nach Ablauf offline gegangen, aber zum Glück "
+"durfte ich die Verlängerungsgebühr in einem neuen Konto einzahlen, sodass "
+"die Domain kurz später dann wieder online war."
+
+#: new-domain.php:18
+msgid ""
+"After a year my domain was due expiry again, so I enquired if I could move "
+"to a different registrar now. They offered me again to pay via an alternate "
+"account, because: <q>Unfortunately, we need more time to investigate your "
+"issue.</q> A year should be more than enough time to solve whatever issue "
+"they might have with my account... This time I decided to let it expire for "
+"good, since almost everyone should have switched over to the new domain by "
+"now."
+msgstr ""
+"Nach einem Jahr war meine Domain wieder am ablaufen, also habe ich "
+"nachgefragt, ob ich nun zu einem anderen Registrar umziehen kann. Mir wurde "
+"wieder nur das Zahlen über ein anderes Konto angeboten, weil: "
+"<q>Unfortunately, we need more time to investigate your issue.</q> Ein Jahr "
+"sollte mehr als genug sein, um was auch immer für ein Problem sie mit meinem "
+"Konto haben, zu lösen. Dieses Mal habe ich mich dazu entschieden sie "
+"ablaufen zu lassen, da nun fast alle umgestellt haben sollten."
+
+#: new-domain.php:19
+msgid "What does it mean for users?"
+msgstr "Was bedeutet dies für Nutzer?"
+
+#: new-domain.php:20
+msgid ""
+"You don't have an account and just browse the site? Not much will change, "
+"just the address in your browsers URL bar."
+msgstr ""
+"Du hast kein Konto und besuchst nur diese Seite? Nicht viel ändert sich, nur "
+"die Adresse in deiner Browser URL Leiste."
+
+#: new-domain.php:21
+msgid ""
+"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
+"you some struggles, as you now only have a few days left to migrate all your "
+"contacts/accounts to the new address. Any service where you registered with "
+"your email address will need to be updated to reflect the new domain. You "
+"might otherwise get locked out of your accounts, if they require you to e.g. "
+"click a link in your email for login. (Still recommended, but no longer "
+"necessary. See update above)"
+msgstr ""
+"Du benutzt den XMPP/E-Mail Dienst? Tut mir leid, aber das bedeutet "
+"vermutlich ein paar Probleme, da du nun nur wenige Tage Zeit hast um alle "
+"Kontakte/Konten zur neuen Adresse zu ändern. Jeder Dienst, mit der deine E-"
+"Mail Adresse registriert wurde, muss aktualisiert werden, um die neue Domain "
+"zu verwenden. Andernfalls wirst du möglicherweise aus diesen Konten "
+"ausgesperrt, wenn diese z.B. einen Link in der E-Mail anklicken erfordern."
+
+#: new-domain.php:22
+msgid ""
+"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
+"php\" target=\"_blank\">in their account settings</a> to reflect the new "
+"domain and allow WKD clients to grab your key automatically."
+msgstr ""
+"E-Mail Nutzer sollten auch ihren PGP-Schlüssel <a href=\"/mail/"
+"manage_account.php\" target=\"_blank\">in ihren Kontoeinstellungen</a> "
+"ändern, um die neue Domain abzubilden und WKD clients das automatische "
+"abfragen des Schlüssels zu ermöglichen."
+
+#: new-domain.php:23
+msgid ""
+"You can still login with your .me user credentials, but the account is going "
+"to be .de. As long as the old domain is still online, you can also receive "
+"emails on the .me domain, while sending is switched over to .de."
+msgstr ""
+"Du kannst dich noch mit deinen .me Daten anmelden, aber das Konto ist .de. "
+"So lange die alte Domain noch online ist, kannst du auch noch E-Mails auf "
+"der .me Domain empfangen, aber Versand wird auf .de umgestellt."
+
+#: new-domain.php:24
+msgid ""
+"XMPP users will most likely notice their account stopped working. "
+"Unfortunately there is no easy way to migrate accounts with prosody (the "
+"XMPP server), as there is with email. You will need to update your account "
+"settings to reflect the new domain in order to login and re-connect with all "
+"your buddies."
+msgstr ""
+"XMPP Nutzer werden höchst wahrscheinlich merken, dass ihr Konto nicht mehr "
+"funktioniert. Leider ist es hier nicht so einfach Konten mit prosody (dem "
+"XMPP Server) zu migrieren, wie bei E-Mail. Du wirst deine Kontoeinstellungen "
+"ändern müssen, um die neue Domain zu verwenden und dich neu mit deinen "
+"Kontakten verknüpfen müssen."
+
+#: new-domain.php:25
+msgid "Will the old address still work?"
+msgstr "Wird die alte Adresse noch funktionieren?"
+
+#: new-domain.php:26
+msgid ""
+"After a very brief downtime, it was back online. Now, after a year, it's "
+"expired once more. I may be able to buy it again after NameCheap returns the "
+"domain to the registry."
+msgstr ""
+"Nach einer sehr kurzen Offline-Zeit, war sie wieder online. Jetzt, nach "
+"einem Jahr, ist sie wieder abgelaufen. Vielleicht kann ich die Domain wieder "
+"kaufen, sobald NameCheap diese wieder an die Registry zurück gibt."
+
+#: new-domain.php:27
+msgid "I have a question, something is broken with my account."
+msgstr "Ich habe eine Frage, etwas ist mit meinem Konto kaputt."
+
+#: new-domain.php:28
+msgid ""
+"Make sure you have switched all your settings to the new domain. It should "
+"work as before. Stil not working correctly? Feel free to <a href=\"/contact."
+"php\">contact me</a> for help."
+msgstr ""
+"Stelle sicher, dass du alle Einstellungen auf die neue Domain geändert hast. "
+"Es sollte so funktionieren wie vorher. Funktioniert es immer noch nicht "
+"korrekt? <a href=\"/contact.php\">Schrieb mir</a> gerne für Hilfe."
+
+#: new-domain.php:29
+msgid ""
+"How do I know you are still the same person? This could be law enforcement "
+"taking over the servers."
+msgstr ""
+"Wie weiß ich, dass du noch immer die gleiche Person bist? Du könntest doch "
+"auch eine Ermittlungsbehörde sein, die den Server übernommen hat."
+
+#: new-domain.php:30
+msgid ""
+"I have taken the opportunity to create a <a href=\"/pgp.txt\" "
+"target=\"_blank\">new PGP key</a> and signed it with my <a href=\"/old_pgp."
+"txt\" target=\"_blank\">old PGP key</a>. This can be verified by running a "
+"command like this:"
+msgstr ""
+"Ich habe die Gelegenheit genutzt einen <a href=\"/pgp.txt\" "
+"target=\"_blank\">neuen PGP-Schlüssel</a> zu erzeugen und habe diesen mit <a "
+"href=\"/old_pgp.txt\" target=\"_blank\">meinem alten PGP-Schlüssel</a> "
+"signiert. Das kann mit einem Befehl wie folgendem verifiziert werden:"
+
+#: new-domain.php:32
+msgid ""
+"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
+"code>. I have also included signatures of previous keys on my old key, so "
+"you can even verify the key, in case you have an older key I was using "
+"before."
+msgstr ""
+"Dies sollte einen Beweis zeigen, dass der Schlüssel mit meinem alten "
+"Schlüssel <code>F8B8CFC35FBDB40D</code> signiert wurde. Ich habe auch alte "
+"Signaturen meines alten Schlüssels inkludiert, so dass du den Schlüssel auch "
+"verifizieren kannst, wenn du einen älteren Schlüssel, den ich vorher mal "
+"verwendet habe, hast."
+
+#: hosting/index.php:6 hosting/index.php:14
+msgid "Hosting - Info"
+msgstr "Hosting - Info"
+
+#: hosting/index.php:10
+msgid "Daniel's Hosting - a former darknet web hosting service"
+msgstr "Daniel's Hosting - ein ehemaliger darknet Webhosting Dienst"
+
+#: hosting/index.php:15
+msgid ""
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at <a "
+"href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
+"rel=\"noopener\">https://github.com/DanWin/hosting</a>."
+msgstr ""
+"Im März 2020 hat ein Hacker alle Datenbanken in Bezug auf mein Hosting "
+"gelöscht, deshalb war ich gezwungen meinen Hostingdienst einzustellen. Wenn "
+"du zum Setup beitragen möchtest, oder dein eigenes Hosting starten willst, "
+"schau mal bei meinem Open Source Projekt auf <a href=\"https://github.com/"
+"DanWin/hosting\" target=\"_blank\" rel=\"noopener\">https://github.com/"
+"DanWin/hosting</a> vorbei."
+
+#: hosting/index.php:16
+msgid ""
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a "
+"href=\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/"
+"\" target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+"rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
+"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+"rel=\"noopener\">available for download</a>, which should enable anyone "
+"willing to become the next darknet shared hosting provider to start where I "
+"left of."
+msgstr ""
+"Darknet Hoster zu sein hat mir viele Dinge beigebracht. Allerdings war dies "
+"ein Freizeitprojekt, welches ich neben meinem Vollzeitjob gemacht habe und "
+"es ist sehr Zeitfressend den Server von illegalen und Scammy Seiten frei zu "
+"halten. Ich habe 10 mal mehr Zeit darein investiert Konten zu löschen, als "
+"ich in die weitere Entwicklung stecken konnte. Aktuell plane ich nicht das "
+"Hosting weiter zu führen, aber das muss nicht das Ende sein. Es gibt andere "
+"Hostingprovider wie <a href=\"http://"
+"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
+"target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> oder einen Clearnet "
+"Proxy Dienst <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+"rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> und mein Projekt "
+"ist <a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+"rel=\"noopener\">zum Download verfügbar</a>, was jeden dazu in die Lage "
+"versetzen sollte, der nächste Darknet Shared Hoster zu werden und da weiter "
+"zu machen, wo ich aufgehört habe."
+
+#: privacy.php:6
+msgid "Daniel - Privacy policy"
+msgstr "Daniel - Datenschutzerklärung"
+
+#: privacy.php:10
+msgid "Privacy policy of Daniel Winzen"
+msgstr "Datenschutzerklärung von Daniel Winzen"
+
+#: privacy.php:14
+msgid "Privacy policy"
+msgstr "Datenschutzerklärung"
+
+#: privacy.php:15
+msgid ""
+"Data protection is of a particularly high priority for Daniel Winzen. The "
+"use of the Internet pages of Daniel Winzen is possible without any "
+"indication of personal data. However, if a data subject wants to use "
+"services via my website, processing of personal data could become necessary. "
+"If the processing of personal data is necessary and there is no statutory "
+"basis for such processing, I generally obtain consent from the data subject."
+msgstr ""
+"Datenschutz hat einen besonders hohen Stellenwert für Daniel Winzen. Eine "
+"Nutzung der Internetseiten von Daniel Winzen ist grundsätzlich ohne jede "
+"Angabe personenbezogener Daten möglich. Sofern eine betroffene Person "
+"besondere Dienste über meine Internetseite in Anspruch nehmen möchte, könnte "
+"jedoch eine Verarbeitung personenbezogener Daten erforderlich werden. Ist "
+"die Verarbeitung personenbezogener Daten erforderlich und besteht für eine "
+"solche Verarbeitung keine gesetzliche Grundlage, hole ich generell eine "
+"Einwilligung der betroffenen Person ein."
+
+#: privacy.php:16
+msgid ""
+"The processing of personal data, such as the name, e-mail address, or "
+"telephone number of a data subject shall always be in line with the General "
+"Data Protection Regulation (GDPR), and in accordance with Germany's data "
+"protection regulations. By means of this data protection declaration, I "
+"would like to inform the general public of the nature, scope, and purpose of "
+"the personal data I collect, use and process. Furthermore, data subjects are "
+"informed, by means of this data protection declaration, of the rights to "
+"which they are entitled."
+msgstr ""
+"Die Verarbeitung personenbezogener Daten, beispielsweise des Namens, der "
+"Anschrift, E-Mail-Adresse oder Telefonnummer einer betroffenen Person, "
+"erfolgt stets im Einklang mit der Datenschutz-Grundverordnung (DSGVO) und in "
+"Übereinstimmung mit den für mich geltenden landesspezifischen "
+"Datenschutzbestimmungen. Mittels dieser Datenschutzerklärung möchte ich die "
+"Öffentlichkeit über Art, Umfang und Zweck der von mir erhobenen, genutzten "
+"und verarbeiteten personenbezogenen Daten informieren. Ferner werden "
+"betroffene Personen mittels dieser Datenschutzerklärung über die ihnen "
+"zustehenden Rechte aufgeklärt."
+
+#: privacy.php:17
+msgid ""
+"As the controller, Daniel Winzen has implemented numerous technical and "
+"organizational measures to ensure the most complete protection of personal "
+"data processed through this website. However, Internet-based data "
+"transmissions may in principle have security gaps, so absolute protection "
+"may not be guaranteed. For this reason, every data subject is free to "
+"transfer personal data to me via alternative means, e.g. by mail."
+msgstr ""
+"Daniel Winzen hat als für die Verarbeitung Verantwortlicher zahlreiche "
+"technische und organisatorische Maßnahmen umgesetzt, um einen möglichst "
+"lückenlosen Schutz der über diese Internetseite verarbeiteten "
+"personenbezogenen Daten sicherzustellen. Dennoch können internetbasierte "
+"Datenübertragungen grundsätzlich Sicherheitslücken aufweisen, sodass ein "
+"absoluter Schutz nicht gewährleistet werden kann. Aus diesem Grund steht es "
+"jeder betroffenen Person frei, personenbezogene Daten auch auf alternativen "
+"Wegen, z.B. per Post, an mich zu übermitteln."
+
+#: privacy.php:18
+msgid "1. Definitions"
+msgstr "1. Definitionen"
+
+#: privacy.php:19
+msgid ""
+"The data protection declaration of Daniel Winzen is based on the terms used "
+"by the European legislator for the adoption of the General Data Protection "
+"Regulation (GDPR). My data protection declaration should be legible and "
+"understandable for the general public, as well as my users. To ensure this, "
+"I would like to first explain the terminology used."
+msgstr ""
+"Die Datenschutzerklärung von Daniel Winzen beruht auf den Begrifflichkeiten, "
+"die durch den Europäischen Richtlinien- und Verordnungsgeber beim Erlass der "
+"Datenschutz-Grundverordnung (DS-GVO) verwendet wurden. Meine "
+"Datenschutzerklärung soll sowohl für die Öffentlichkeit als auch für meine "
+"Nutzer einfach lesbar und verständlich sein. Um dies zu gewährleisten, "
+"möchte ich zunächst die verwendete Terminologie erläutern."
+
+#: privacy.php:20
+msgid ""
+"In this data protection declaration, I use, among other things, the "
+"following terms:"
+msgstr ""
+"In dieser Datenschutzerklärung verwende ich, neben anderen Dingen, die "
+"folgenden Begriffe:"
+
+#: privacy.php:21
+msgid "a) Personal data"
+msgstr "a) Persönliche Daten"
+
+#: privacy.php:22
+msgid ""
+"Personal data means any information relating to an identified or "
+"identifiable natural person (\"data subject\"). An identifiable natural "
+"person is one who can be identified, directly or indirectly, in particular "
+"by reference to an identifier such as a name, an identification number, "
+"location data, an online identifier or to one or more factors specific to "
+"the physical, physiological, genetic, mental, economic, cultural or social "
+"identity of that natural person."
+msgstr ""
+"Personenbezogene Daten sind alle Informationen, die sich auf eine "
+"identifizierte oder identifizierbare natürliche Person (\"betroffene "
+"Person\") beziehen. Als identifizierbar wird eine natürliche Person "
+"angesehen, die direkt oder indirekt identifiziert werden kann, insbesondere "
+"durch Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu "
+"Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren "
+"besonderen Merkmalen, die Ausdruck der physischen, physiologischen, "
+"genetischen, psychischen, wirtschaftlichen, kulturellen oder sozialen "
+"Identität dieser natürlichen Person sind."
+
+#: privacy.php:23
+msgid "b) Data subject"
+msgstr "b) Betroffene Person"
+
+#: privacy.php:24
+msgid ""
+"Data subject is any identified or identifiable natural person, whose "
+"personal data is processed by the controller responsible for the processing."
+msgstr ""
+"Betroffene Person ist jede identifizierte oder identifizierbare natürliche "
+"Person, deren personenbezogene Daten von dem für die Verarbeitung "
+"Verantwortlichen verarbeitet werden."
+
+#: privacy.php:25
+msgid "c) Processing"
+msgstr "c) Verarbeitung"
+
+#: privacy.php:26
+msgid ""
+"Processing is any operation or set of operations which is performed on "
+"personal data or on sets of personal data, whether by automated means, such "
+"as collection, recording, organisation, structuring, storage, adaptation or "
+"alteration, retrieval, consultation, use, disclosure by transmission, "
+"dissemination or otherwise making available, alignment or combination, "
+"restriction, erasure or destruction."
+msgstr ""
+"Verarbeitung ist jeder Vorgang oder jede Vorgangsreihe im Zusammenhang mit "
+"personenbezogenen Daten oder einer Reihe personenbezogener Daten, ob "
+"automatisiert, wie das Erheben, das Erfassen, die Organisation, die "
+"Strukturierung, die Speicherung, die Anpassung oder Veränderung, das "
+"Auslesen, das Abfragen, die Benutzung, die Weitergabe durch Übermittlung, "
+"Verbreitung oder jede andere Form der Bereitstellung, die Kombination oder "
+"die Verknüpfung sowie das Einschränken, Löschen oder Vernichten."
+
+#: privacy.php:27
+msgid "d) Restriction of processing"
+msgstr "d) Beschränkung der Verarbeitung"
+
+#: privacy.php:28
+msgid ""
+"Restriction of processing is the marking of stored personal data with the "
+"aim of limiting their processing in the future."
+msgstr ""
+"Die Einschränkung der Verarbeitung ist die Kennzeichnung gespeicherter "
+"personenbezogener Daten mit dem Ziel, ihre Verarbeitung in Zukunft "
+"einzuschränken."
+
+#: privacy.php:29
+msgid "e) Profiling"
+msgstr "e) Profiling"
+
+#: privacy.php:30
+msgid ""
+"Profiling means any form of automated processing of personal data consisting "
+"of the use of personal data to evaluate certain personal aspects relating to "
+"a natural person, in particular to analyse or predict aspects concerning "
+"that natural person's performance at work, economic situation, health, "
+"personal preferences, interests, reliability, behaviour, location or "
+"movements."
+msgstr ""
+"Profiling ist jede Form der automatisierten Verarbeitung personenbezogener "
+"Daten, die darin besteht, dass diese personenbezogenen Daten verwendet "
+"werden, um bestimmte persönliche Aspekte, die sich auf eine natürliche "
+"Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich "
+"Arbeitsleistung, wirtschaftlicher Lage, Gesundheit, persönlicher Vorlieben, "
+"Interessen, Zuverlässigkeit, Verhalten, Standort oder Ortswechsel dieser "
+"natürlichen Person zu analysieren oder vorherzusagen."
+
+#: privacy.php:31
+msgid "f) Controller or controller responsible for the processing"
+msgstr "f) Verantwortlicher oder für die Verarbeitung Verantwortlicher"
+
+#: privacy.php:32
+msgid ""
+"Controller or controller responsible for the processing is the natural or "
+"legal person, public authority, agency or other body which, alone or jointly "
+"with others, determines the purposes and means of the processing of personal "
+"data; where the purposes and means of such processing are determined by "
+"Union or Member State law, the controller or the specific criteria for its "
+"nomination may be provided for by Union or Member State law."
+msgstr ""
+"Verantwortlicher oder für die Verarbeitung Verantwortlicher ist die "
+"natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, "
+"die allein oder gemeinsam mit anderen über die Zwecke und Mittel der "
+"Verarbeitung personenbezogener Daten entscheidet; werden die Zwecke und "
+"Mittel der Verarbeitung durch das Recht der Union oder der Mitgliedstaaten "
+"bestimmt, so können der für die Verarbeitung Verantwortliche oder die "
+"spezifischen Kriterien für seine Benennung im Recht der Union oder der "
+"Mitgliedstaaten vorgesehen werden."
+
+#: privacy.php:33
+msgid "g) Processor"
+msgstr "g) Verarbeiter"
+
+#: privacy.php:34
+msgid ""
+"Processor is a natural or legal person, public authority, agency or other "
+"body which processes personal data on behalf of the controller."
+msgstr ""
+"Auftragsverarbeiter ist eine natürliche oder juristische Person, Behörde, "
+"Einrichtung oder andere Stelle, die personenbezogene Daten im Auftrag des "
+"für die Verarbeitung Verantwortlichen verarbeitet."
+
+#: privacy.php:35
+msgid "h) Recipient"
+msgstr "h) Empfänger"
+
+#: privacy.php:36
+msgid ""
+"Recipient is a natural or legal person, public authority, agency or another "
+"body, to which the personal data are disclosed, whether a third party or "
+"not. However, public authorities which may receive personal data in the "
+"framework of a particular inquiry in accordance with Union or Member State "
+"law shall not be regarded as recipients; the processing of those data by "
+"those public authorities shall be in compliance with the applicable data "
+"protection rules according to the purposes of the processing."
+msgstr ""
+"Empfänger ist eine natürliche oder juristische Person, Behörde, Einrichtung "
+"oder andere Stelle, der die personenbezogenen Daten offengelegt werden, "
+"unabhängig davon, ob es sich um einen Dritten handelt oder nicht. "
+"Öffentliche Stellen, die personenbezogene Daten im Rahmen einer bestimmten "
+"Untersuchung im Einklang mit dem Unionsrecht oder dem Recht der "
+"Mitgliedstaaten erhalten können, gelten jedoch nicht als Empfänger; die "
+"Verarbeitung dieser Daten durch diese öffentlichen Stellen muss im Einklang "
+"mit den geltenden Datenschutzvorschriften entsprechend dem Zweck der "
+"Verarbeitung erfolgen."
+
+#: privacy.php:37
+msgid "i) Third party"
+msgstr "i) Dritter"
+
+#: privacy.php:38
+msgid ""
+"Third party is a natural or legal person, public authority, agency or body "
+"other than the data subject, controller, processor and persons who, under "
+"the direct authority of the controller or processor, are authorised to "
+"process personal data."
+msgstr ""
+"Dritter ist eine natürliche oder juristische Person, Behörde, Einrichtung "
+"oder andere Stelle als die betroffene Person, der für die Verarbeitung "
+"Verantwortliche, der Auftragsverarbeiter und die Personen, die unter der "
+"unmittelbaren Verantwortung des für die Verarbeitung Verantwortlichen oder "
+"des Auftragsverarbeiters befugt sind, personenbezogene Daten zu verarbeiten."
+
+#: privacy.php:39
+msgid "j) Consent"
+msgstr "j) Einwilligung"
+
+#: privacy.php:40
+msgid ""
+"Consent of the data subject is any freely given, specific, informed and "
+"unambiguous indication of the data subject's wishes by which they, by a "
+"statement or by a clear affirmative action, signifies agreement to the "
+"processing of personal data relating to him or her."
+msgstr ""
+"Die Einwilligung der betroffenen Person ist jede Willensbekundung, die ohne "
+"Zwang, für den konkreten Fall, in Kenntnis der Sachlage und "
+"unmissverständlich erfolgt und mit der die betroffene Person durch eine "
+"Erklärung oder eine eindeutige bestätigende Handlung ihr Einverständnis mit "
+"der Verarbeitung der sie betreffenden personenbezogenen Daten zum Ausdruck "
+"bringt."
+
+#: privacy.php:41
+msgid "2. Name and Address of the controller"
+msgstr "2. Name und Anschrift des für die Verarbeitung Verantwortlichen"
+
+#: privacy.php:42
+msgid ""
+"Controller for the purposes of the General Data Protection Regulation "
+"(GDPR), other data protection laws applicable in Member states of the "
+"European Union and other provisions related to data protection is:"
+msgstr ""
+"Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO), anderer "
+"in den Mitgliedstaaten der Europäischen Union geltender Datenschutzgesetze "
+"und anderer datenschutzrechtlicher Bestimmungen ist:"
+
+#: privacy.php:50
+msgid "3. Cookies"
+msgstr "3. Cookies"
+
+#: privacy.php:51
+msgid ""
+"The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
+"are stored in a computer system via an Internet browser."
+msgstr ""
+"Die Internetseiten von Daniel Winzen verwenden Cookies. Bei Cookies handelt "
+"es sich um Textdateien, die über einen Internetbrowser auf einem "
+"Computersystem abgelegt werden."
+
+#: privacy.php:52
+msgid ""
+"Many Internet sites and servers use cookies. Many cookies contain a so-"
+"called cookie ID. A cookie ID is a unique identifier of the cookie. It "
+"consists of a character string through which Internet pages and servers can "
+"be assigned to the specific Internet browser in which the cookie was stored. "
+"This allows visited Internet sites and servers to differentiate the "
+"individual browser of the data subject from other Internet browsers that "
+"contain other cookies. A specific Internet browser can be recognized and "
+"identified using the unique cookie ID."
+msgstr ""
+"Viele Internet-Seiten und -Server verwenden Cookies. Viele Cookies enthalten "
+"eine sogenannte Cookie-ID. Eine Cookie-ID ist eine eindeutige Kennung des "
+"Cookies. Sie besteht aus einer Zeichenfolge, durch welche Internetseiten und "
+"Server dem konkreten Internetbrowser zugeordnet werden können, in dem das "
+"Cookie gespeichert wurde. Dies ermöglicht es den besuchten Internetseiten "
+"und Servern, den individuellen Browser der betroffenen Person von anderen "
+"Internetbrowsern, die andere Cookies enthalten, zu unterscheiden. Ein "
+"bestimmter Internetbrowser kann über die eindeutige Cookie-ID wiedererkannt "
+"und identifiziert werden."
+
+#: privacy.php:53
+msgid ""
+"Through the use of cookies, Daniel Winzen can provide the users of this "
+"website with more user-friendly services that would not be possible without "
+"the cookie setting."
+msgstr ""
+"Durch den Einsatz von Cookies kann Daniel Winzen den Nutzern dieser "
+"Internetseite nutzerfreundlichere Services bereitstellen, die ohne die "
+"Cookie-Setzung nicht möglich wären."
+
+#: privacy.php:54
+msgid ""
+"By means of a cookie, the information and offers on my website can be "
+"optimized with the user in mind. Cookies allow me, as previously mentioned, "
+"to recognize my website users. The purpose of this recognition is to make it "
+"easier for users to utilize my website. An example for the use of a cookie "
+"is when you log in to the mail client, the cookie assures that you stay "
+"logged in with your account until closing your browser or logging out."
+msgstr ""
+"Mit Hilfe eines Cookies können die Informationen und Angebote auf meiner "
+"Website im Hinblick auf den Nutzer optimiert werden. Cookies ermöglichen es "
+"mir, wie bereits erwähnt, die Nutzer meiner Website zu erkennen. Der Zweck "
+"dieser Wiedererkennung ist es, den Nutzern die Verwendung meiner Website zu "
+"erleichtern. Ein Beispiel für die Verwendung eines Cookies ist das Einloggen "
+"in den Mail-Client. Das Cookie stellt sicher, dass Sie mit Ihrem Konto "
+"eingeloggt bleiben, bis Sie Ihren Browser schließen oder sich abmelden."
+
+#: privacy.php:55
+msgid ""
+"This site makes only use of technically necessary session cookies and does "
+"not use any form of tracking cookies."
+msgstr ""
+"Diese Website verwendet nur technisch notwendige Sitzungscookies und keine "
+"Tracking-Cookies."
+
+#: privacy.php:56
+msgid ""
+"The data subject may, at any time, prevent the setting of cookies through my "
+"website by means of a corresponding setting of the Internet browser used, "
+"and may thus permanently deny the setting of cookies. Furthermore, already "
+"set cookies may be deleted at any time via an Internet browser or other "
+"software programs. This is possible in all popular Internet browsers. If the "
+"data subject deactivates the setting of cookies in the Internet browser "
+"used, not all functions of my website may be entirely usable."
+msgstr ""
+"Die betroffene Person kann die Setzung von Cookies durch meine Website "
+"jederzeit mittels einer entsprechenden Einstellung des genutzten "
+"Internetbrowsers verhindern und damit der Setzung von Cookies dauerhaft "
+"widersprechen. Ferner können bereits gesetzte Cookies jederzeit über einen "
+"Internetbrowser oder andere Softwareprogramme gelöscht werden. Dies ist in "
+"allen gängigen Internetbrowsern möglich. Deaktiviert die betroffene Person "
+"die Setzung von Cookies in dem genutzten Internetbrowser, sind unter "
+"Umständen nicht alle Funktionen meiner Internetseite vollumfänglich nutzbar."
+
+#: privacy.php:57
+msgid "4. Collection of general data and information"
+msgstr "4. Erhebung von allgemeinen Daten und Informationen"
+
+#: privacy.php:58
+msgid ""
+"The server of Daniel Winzen collects a series of general data and "
+"information when a data subject or automated system calls up the website or "
+"other provided services. This general data and information is stored in the "
+"server log files. Collected may be (1) the browser types and versions used, "
+"(2) the operating system used by the accessing system, (3) the website from "
+"which an accessing system reaches my website (so-called referrers), (4) the "
+"sub-websites, (5) the date and time of access to the Internet site / email "
+"transmission, (6) sender and recipient of an email, and (7) any other "
+"similar data and information that may be used in the event of attacks on my "
+"information technology systems."
+msgstr ""
+"Der Server von Daniel Winzen erfasst mit jedem Aufruf der Website oder "
+"anderer bereitgestellter Dienste durch eine betroffene Person oder ein "
+"automatisiertes System eine Reihe von allgemeinen Daten und Informationen. "
+"Diese allgemeinen Daten und Informationen werden in den Server-Logfiles "
+"gespeichert. Erfasst werden können (1) die verwendeten Browsertypen und -"
+"versionen, (2) das vom zugreifenden System verwendete Betriebssystem, (3) "
+"die Website, von der ein zugreifendes System auf meine Website gelangt "
+"(sogenannte Referrer), (4) die sub -Websites, (5) Datum und Uhrzeit des "
+"Zugriffs auf die Internetseite / E-Mail-Versand, (6) Absender und Empfänger "
+"einer E-Mail und (7) sonstige ähnliche Daten und Informationen, die im Falle "
+"von Angriffen auf verwendet werden können meine IT-Systeme."
+
+#: privacy.php:59
+msgid ""
+"When using these general data and information, Daniel Winzen does not draw "
+"any conclusions about the data subject. Rather, this information is needed "
+"to (1) deliver the content of my website and services correctly, (2) "
+"optimize my services, (3) ensure the long-term viability of my information "
+"technology systems and website technology. Therefore, I may analyze "
+"anonymously collected data and information statistically, with the aim of "
+"increasing the data protection and data security of my services, and to "
+"ensure an optimal level of protection for the personal data I process. The "
+"anonymous data of the server log files are stored separately from all "
+"personal data provided by a data subject for up to 48 hours and are then "
+"permanently deleted."
+msgstr ""
+"Bei der Nutzung dieser allgemeinen Daten und Informationen zieht Daniel "
+"Winzen keine Rückschlüsse auf die betroffene Person. Diese Informationen "
+"werden vielmehr benötigt, um (1) die Inhalte meiner Website und Dienste "
+"korrekt auszuliefern, (2) meine Dienste zu optimieren, (3) die dauerhafte "
+"Funktionsfähigkeit meiner informationstechnologischen Systeme und der "
+"Technik meiner Website zu gewährleisten. Anonym erhobene Daten und "
+"Informationen werde ich daher ggf. statistisch auswerten, mit dem Ziel, den "
+"Datenschutz und die Datensicherheit meiner Dienste zu erhöhen und ein "
+"optimales Schutzniveau für die von mir verarbeiteten personenbezogenen Daten "
+"sicherzustellen. Die anonymen Daten der Server-Logfiles werden getrennt von "
+"allen durch eine betroffene Person angegebenen personenbezogenen Daten für "
+"bis zu 48 Stunden gespeichert und danach endgültig gelöscht."
+
+#: privacy.php:60
+msgid "5. Registration on my website"
+msgstr "5. Registrierung auf meiner Webseite"
+
+#: privacy.php:61
+msgid ""
+"The data subject has the possibility to register on the website of the "
+"controller with the indication of personal data. Which personal data are "
+"transmitted to the controller is determined by the respective input mask "
+"used for the registration. The personal data entered by the data subject are "
+"collected and stored exclusively for internal use by the controller, and for "
+"his own purposes. The controller may request transfer to one or more "
+"processors (e.g. an email server that a data subject wants to email) that "
+"also uses personal data for an internal purpose which is attributable to the "
+"controller."
+msgstr ""
+"Die betroffene Person hat die Möglichkeit, sich auf der Internetseite des "
+"für die Verarbeitung Verantwortlichen unter Angabe von personenbezogenen "
+"Daten zu registrieren. Welche personenbezogenen Daten dabei an den für die "
+"Verarbeitung Verantwortlichen übermittelt werden, ergibt sich aus der "
+"jeweiligen Eingabemaske, die für die Registrierung verwendet wird. Die von "
+"der betroffenen Person eingegebenen personenbezogenen Daten werden "
+"ausschließlich für die interne Verwendung durch den für die Verarbeitung "
+"Verantwortlichen und für dessen eigene Zwecke erhoben und gespeichert. Der "
+"für die Verarbeitung Verantwortliche kann die Übermittlung an einen oder "
+"mehrere Auftragsverarbeiter (z.B. einen E-Mail-Server, an den eine "
+"betroffene Person eine E-Mail senden möchte) veranlassen, der die "
+"personenbezogenen Daten ebenfalls für einen internen, dem für die "
+"Verarbeitung Verantwortlichen zuzurechnenden Zweck nutzt."
+
+#: privacy.php:62
+msgid ""
+"By registering on the website of the controller, date and time of the "
+"registration are also stored. The storage of this data takes place against "
+"the background that this is the only way to prevent the misuse of my "
+"services, and, if necessary, to make it possible to investigate committed "
+"offenses. Insofar, the storage of this data is necessary to secure the "
+"controller. This data is not passed on to third parties unless there is a "
+"statutory obligation to pass on the data, or if the transfer serves the aim "
+"of criminal prosecution."
+msgstr ""
+"Mit der Registrierung auf der Website des für die Verarbeitung "
+"Verantwortlichen werden auch Datum und Uhrzeit der Registrierung "
+"gespeichert. Die Speicherung dieser Daten erfolgt vor dem Hintergrund, dass "
+"dies die einzige Möglichkeit ist, den Missbrauch meiner Dienste zu "
+"verhindern und ggf. die Aufklärung begangener Straftaten zu ermöglichen. "
+"Insofern ist die Speicherung dieser Daten zur Absicherung des "
+"Verantwortlichen erforderlich. Eine Weitergabe dieser Daten an Dritte "
+"erfolgt nicht, es sei denn, es besteht eine gesetzliche Verpflichtung zur "
+"Weitergabe der Daten oder die Weitergabe dient dem Zweck der Strafverfolgung."
+
+#: privacy.php:63
+msgid ""
+"The registration of the data subject, with the voluntary indication of "
+"personal data, is intended to enable the controller to offer the data "
+"subject contents or services that may only be offered to registered users "
+"due to the nature of the matter in question. Registered persons are free to "
+"change the personal data specified during the registration at any time, or "
+"to have them completely deleted from the data stock of the controller."
+msgstr ""
+"Die Registrierung der betroffenen Person unter freiwilliger Angabe "
+"personenbezogener Daten soll es dem für die Verarbeitung Verantwortlichen "
+"ermöglichen, der betroffenen Person Inhalte oder Dienstleistungen "
+"anzubieten, die aufgrund der Natur der Sache nur registrierten Nutzern "
+"angeboten werden können. Registrierten Personen steht es frei, die bei der "
+"Registrierung angegebenen personenbezogenen Daten jederzeit zu ändern oder "
+"vollständig aus dem Datenbestand des für die Verarbeitung Verantwortlichen "
+"löschen zu lassen."
+
+#: privacy.php:64
+msgid ""
+"The data controller shall, at any time, provide information upon request to "
+"each data subject as to what personal data are stored about the data "
+"subject. In addition, the data controller shall correct or erase personal "
+"data at the request or indication of the data subject, insofar as there are "
+"no statutory storage obligations."
+msgstr ""
+"Der für die Verarbeitung Verantwortliche erteilt jeder betroffenen Person "
+"jederzeit auf Anfrage Auskunft darüber, welche personenbezogenen Daten über "
+"die betroffene Person gespeichert sind. Darüber hinaus berichtigt oder "
+"löscht der für die Verarbeitung Verantwortliche personenbezogene Daten auf "
+"Antrag oder Hinweis der betroffenen Person, soweit keine gesetzlichen "
+"Aufbewahrungspflichten bestehen."
+
+#: privacy.php:65
+msgid "6. Contact possibility via the website"
+msgstr "6. Kontaktmöglichkeit über die Webseite"
+
+#: privacy.php:66
+msgid ""
+"The website of Daniel Winzen contains information that enables a quick "
+"electronic contact to me, as well as direct communication with me, which "
+"also includes a general address of the so-called electronic mail (e-mail "
+"address). If a data subject contacts the controller by e-mail or via a "
+"contact form, the personal data transmitted by the data subject are "
+"automatically stored. Such personal data transmitted on a voluntary basis by "
+"a data subject to the data controller are stored for the purpose of "
+"processing or contacting the data subject. There is no transfer of this "
+"personal data to third parties."
+msgstr ""
+"The website of Daniel Winzen contains information that enables a quick "
+"electronic contact to me, as well as direct communication with me, which "
+"also includes a general address of the so-called electronic mail (e-mail "
+"address). If a data subject contacts the controller by e-mail or via a "
+"contact form, the personal data transmitted by the data subject are "
+"automatically stored. Such personal data transmitted on a voluntary basis by "
+"a data subject to the data controller are stored for the purpose of "
+"processing or contacting the data subject. There is no transfer of this "
+"personal data to third parties."
+
+#: privacy.php:67
+msgid "7. Routine erasure and blocking of personal data"
+msgstr "7. Routinemäßige Löschung und Sperrung von personenbezogenen Daten"
+
+#: privacy.php:68
+msgid ""
+"The data controller shall process and store the personal data of the data "
+"subject only for the period necessary to achieve the purpose of storage, or "
+"as far as this is granted by the European legislator or other legislators in "
+"laws or regulations to which the controller is subject to."
+msgstr ""
+"Der für die Verarbeitung Verantwortliche verarbeitet und speichert die "
+"personenbezogenen Daten der betroffenen Person nur für den Zeitraum, der zur "
+"Erreichung des Speicherungszwecks erforderlich ist oder sofern dies durch "
+"den Europäischen Richtlinien- und Verordnungsgeber oder einen anderen "
+"Gesetzgeber in Gesetzen oder Vorschriften, denen der für die Verarbeitung "
+"Verantwortliche unterliegt, vorgesehen wurde."
+
+#: privacy.php:69
+msgid ""
+"If the storage purpose is not applicable, or if a storage period prescribed "
+"by the European legislator or another competent legislator expires, the "
+"personal data are routinely erased in accordance with legal requirements."
+msgstr ""
+"Entfällt der Speicherungszweck oder läuft eine vom Europäischen Richtlinien- "
+"und Verordnungsgeber oder einem anderen zuständigen Gesetzgeber "
+"vorgeschriebene Speicherfrist ab, werden die personenbezogenen Daten "
+"routinemäßig und entsprechend den gesetzlichen Vorschriften gelöscht."
+
+#: privacy.php:70
+msgid "8. Rights of the data subject"
+msgstr "8. Rechte des Datensubjekts"
+
+#: privacy.php:71
+msgid "a) Right of confirmation"
+msgstr "a) Recht auf Bestätigung"
+
+#: privacy.php:72
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"obtain from the controller the confirmation whether personal data concerning "
+"them are being processed. If a data subject wishes to avail themselves of "
+"this right of confirmation, they may, at any time, contact the controller."
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber eingeräumte "
+"Recht, von dem für die Verarbeitung Verantwortlichen eine Bestätigung "
+"darüber zu verlangen, ob sie betreffende personenbezogene Daten verarbeitet "
+"werden. Möchte eine betroffene Person dieses Bestätigungsrecht in Anspruch "
+"nehmen, kann sie sich jederzeit an den für die Verarbeitung Verantwortlichen "
+"wenden."
+
+#: privacy.php:73
+msgid "b) Right of access"
+msgstr "b) Recht auf Zugriff"
+
+#: privacy.php:74
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"obtain from the controller free information about their personal data stored "
+"at any time and a copy of this information. Furthermore, the European "
+"directives and regulations grant the data subject access to the following "
+"information:"
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber eingeräumte "
+"Recht, von dem für die Verarbeitung Verantwortlichen jederzeit unentgeltlich "
+"Auskunft über die zu ihrer Person gespeicherten Daten und eine Kopie dieser "
+"Auskunft zu erhalten. Darüber hinaus gewähren die europäischen Richtlinien "
+"und Verordnungen der betroffenen Person Zugang zu den folgenden "
+"Informationen:"
+
+#: privacy.php:76
+msgid "the purposes of the processing"
+msgstr "die Zwecke der Datenverarbeitung"
+
+#: privacy.php:77
+msgid "the categories of personal data concerned"
+msgstr "die Kategorien der betroffenen personenbezogenen Daten"
+
+#: privacy.php:78
+msgid ""
+"the recipients or categories of recipients to whom the personal data have "
+"been or will be disclosed, in particular recipients in third countries or "
+"international organisations"
+msgstr ""
+"die Empfänger oder Kategorien von Empfängern, an die die personenbezogenen "
+"Daten weitergegeben wurden oder werden, insbesondere Empfänger in "
+"Drittländern oder internationale Organisationen"
+
+#: privacy.php:79
+msgid ""
+"where possible, the envisaged period for which the personal data will be "
+"stored, or, if not possible, the criteria used to determine that period"
+msgstr ""
+"wenn möglich, den vorgesehenen Zeitraum, für den die personenbezogenen Daten "
+"gespeichert werden, oder, falls dies nicht möglich ist, die Kriterien für "
+"die Festlegung dieses Zeitraums"
+
+#: privacy.php:80
+msgid ""
+"the existence of the right to request from the controller rectification or "
+"erasure of personal data, or restriction of processing of personal data "
+"concerning the data subject, or to object to such processing"
+msgstr ""
+"das Bestehen des Rechts, von dem für die Verarbeitung Verantwortlichen die "
+"Berichtigung oder Löschung personenbezogener Daten oder die Einschränkung "
+"der Verarbeitung personenbezogener Daten, die die betroffene Person "
+"betreffen, zu verlangen oder einer solchen Verarbeitung zu widersprechen"
+
+#: privacy.php:81
+msgid ""
+"the existence of the right to lodge a complaint with a supervisory authority"
+msgstr "das Recht, eine Beschwerde bei einer Aufsichtsbehörde einzureichen"
+
+#: privacy.php:82
+msgid ""
+"where the personal data are not collected from the data subject, any "
+"available information as to their source"
+msgstr ""
+"wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben "
+"wurden, alle verfügbaren Informationen über ihre Herkunft"
+
+#: privacy.php:83
+msgid ""
+"the existence of automated decision-making, including profiling, referred to "
+"in Article 22(1) and (4) of the GDPR and, at least in those cases, "
+"meaningful information about the logic involved, as well as the significance "
+"and envisaged consequences of such processing for the data subject."
+msgstr ""
+"das Vorhandensein einer automatisierten Entscheidungsfindung, einschließlich "
+"Profiling, gemäß Artikel 22 Absätze 1 und 4 DSGVO und - zumindest in diesen "
+"Fällen - aussagekräftige Informationen über die zugrunde liegende Logik "
+"sowie die Bedeutung und die voraussichtlichen Folgen einer solchen "
+"Verarbeitung für die betroffene Person."
+
+#: privacy.php:85
+msgid ""
+"Furthermore, the data subject shall have a right to obtain information "
+"whether personal data are transferred to a third country or to an "
+"international organisation. Where this is the case, the data subject shall "
+"have the right to be informed of the appropriate safeguards relating to the "
+"transfer."
+msgstr ""
+"Ferner hat die betroffene Person das Recht, Auskunft darüber zu erhalten, ob "
+"personenbezogene Daten in ein Drittland oder an eine internationale "
+"Organisation übermittelt werden. Ist dies der Fall, so hat die betroffene "
+"Person das Recht, über die geeigneten Garantien im Zusammenhang mit der "
+"Übermittlung unterrichtet zu werden."
+
+#: privacy.php:86
+msgid ""
+"If a data subject wishes to avail himself of this right of access, they may, "
+"at any time, contact the controller."
+msgstr ""
+"Möchte eine betroffene Person dieses Auskunftsrecht in Anspruch nehmen, so "
+"kann sie sich hierzu jederzeit an den für die Verarbeitung Verantwortlichen "
+"wenden."
+
+#: privacy.php:87
+msgid "c) Right to rectification"
+msgstr "c) Recht auf Berichtigung"
+
+#: privacy.php:88
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"obtain from the controller without undue delay the rectification of "
+"inaccurate personal data concerning them. Taking into account the purposes "
+"of the processing, the data subject shall have the right to have incomplete "
+"personal data completed, including by means of providing a supplementary "
+"statement."
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber eingeräumte "
+"Recht, von dem für die Verarbeitung Verantwortlichen unverzüglich die "
+"Berichtigung sie betreffender unrichtiger personenbezogener Daten zu "
+"verlangen. Die betroffene Person hat das Recht, unter Berücksichtigung der "
+"Zwecke der Verarbeitung, die Vervollständigung unvollständiger "
+"personenbezogener Daten - auch mittels einer ergänzenden Erklärung - zu "
+"verlangen."
+
+#: privacy.php:89
+msgid ""
+"If a data subject wishes to exercise this right to rectification, they may, "
+"at any time, contact the controller."
+msgstr ""
+"Möchte eine betroffene Person dieses Recht auf Berichtigung in Anspruch "
+"nehmen, kann sie sich jederzeit an den für die Verarbeitung Verantwortlichen "
+"wenden."
+
+#: privacy.php:90
+msgid "d) Right to erasure (Right to be forgotten)"
+msgstr "d) Recht auf Löschung (Recht vergessen zu werden)"
+
+#: privacy.php:91
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"obtain from the controller the erasure of personal data concerning him or "
+"her without undue delay, and the controller shall have the obligation to "
+"erase personal data without undue delay where one of the following grounds "
+"applies, as long as the processing is not necessary:"
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber eingeräumte "
+"Recht, von dem für die Verarbeitung Verantwortlichen zu verlangen, dass sie "
+"betreffende personenbezogene Daten unverzüglich gelöscht werden, und der für "
+"die Verarbeitung Verantwortliche ist verpflichtet, personenbezogene Daten "
+"unverzüglich zu löschen, sofern einer der nachstehend aufgeführten Gründe "
+"zutrifft und die Verarbeitung nicht erforderlich ist:"
+
+#: privacy.php:93
+msgid ""
+"The personal data are no longer necessary in relation to the purposes for "
+"which they were collected or otherwise processed."
+msgstr ""
+"Die personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder "
+"anderweitig verarbeitet wurden, nicht mehr erforderlich."
+
+#: privacy.php:94
+msgid ""
+"The data subject withdraws consent to which the processing is based "
+"according to point (a) of Article 6(1) of the GDPR, or point (a) of Article "
+"9(2) of the GDPR, and where there is no other legal ground for the "
+"processing."
+msgstr ""
+"Die betroffene Person widerruft die Einwilligung, auf die sich die "
+"Verarbeitung gemäß Artikel 6 Absatz 1 Buchstabe a der DSGVO oder Artikel 9 "
+"Absatz 2 Buchstabe a der DSGVO stützt, und es gibt keinen anderen "
+"Rechtsgrund für die Verarbeitung."
+
+#: privacy.php:95
+msgid ""
+"The data subject objects to the processing pursuant to Article 21(1) of the "
+"GDPR and there are no overriding legitimate grounds for the processing, or "
+"the data subject objects to the processing pursuant to Article 21(2) of the "
+"GDPR."
+msgstr ""
+"Die betroffene Person legt gemäß Artikel 21 Absatz 1 der DSGVO Widerspruch "
+"gegen die Verarbeitung ein, und es liegen keine vorrangigen berechtigten "
+"Gründe für die Verarbeitung vor, oder die betroffene Person legt gemäß "
+"Artikel 21 Absatz 2 der DSGVO Widerspruch gegen die Verarbeitung ein."
+
+#: privacy.php:96
+msgid "The personal data have been unlawfully processed."
+msgstr "Die personenbezogenen Daten sind unrechtmäßig verarbeitet worden."
+
+#: privacy.php:97
+msgid ""
+"The personal data must be erased for compliance with a legal obligation in "
+"Union or Member State law to which the controller is subject."
+msgstr ""
+"Die personenbezogenen Daten müssen zur Erfüllung einer rechtlichen "
+"Verpflichtung nach dem Unionsrecht oder dem Recht eines Mitgliedstaats, dem "
+"der für die Verarbeitung Verantwortliche unterliegt, gelöscht werden."
+
+#: privacy.php:98
+msgid ""
+"The personal data have been collected in relation to the offer of "
+"information society services referred to in Article 8(1) of the GDPR."
+msgstr ""
+"Die personenbezogenen Daten wurden im Zusammenhang mit dem Angebot von "
+"Diensten der Informationsgesellschaft gemäß Artikel 8 Absatz 1 der "
+"Datenschutz-Grundverordnung erhoben."
+
+#: privacy.php:100
+msgid ""
+"If one of the aforementioned reasons applies, and a data subject wishes to "
+"request the erasure of personal data stored by Daniel Winzen, they may, at "
+"any time, contact the controller. Daniel Winzen shall promptly ensure that "
+"the erasure request is complied with immediately."
+msgstr ""
+"Sofern einer der oben genannten Gründe zutrifft und eine betroffene Person "
+"die Löschung von personenbezogenen Daten, die bei Daniel Winzen gespeichert "
+"sind, veranlassen möchte, kann sie sich hierzu jederzeit an den für die "
+"Verarbeitung Verantwortlichen wenden. Daniel Winzen wird veranlassen, dass "
+"dem Löschverlangen unverzüglich nachgekommen wird."
+
+#: privacy.php:101
+msgid ""
+"Where the controller has made personal data public and is obliged pursuant "
+"to Article 17(1) to erase the personal data, the controller, taking account "
+"of available technology and the cost of implementation, shall take "
+"reasonable steps, including technical measures, to inform other controllers "
+"processing the personal data that the data subject has requested erasure by "
+"such controllers of any links to, or copy or replication of, those personal "
+"data, as far as processing is not required. Daniel Winzen will arrange the "
+"necessary measures in individual cases."
+msgstr ""
+"Hat der für die Verarbeitung Verantwortliche personenbezogene Daten "
+"öffentlich gemacht und ist er gemäß Artikel 17 Absatz 1 verpflichtet, diese "
+"zu löschen, so trifft er unter Berücksichtigung der verfügbaren Technologie "
+"und der Implementierungskosten angemessene Maßnahmen, auch technischer Art, "
+"um andere für die Verarbeitung Verantwortliche, die die personenbezogenen "
+"Daten verarbeiten, davon in Kenntnis zu setzen, dass die betroffene Person "
+"von diesen anderen für die Verarbeitung Verantwortlichen die Löschung aller "
+"Links zu diesen personenbezogenen Daten oder von Kopien oder Replikationen "
+"dieser Daten verlangt hat, soweit die Verarbeitung nicht erforderlich ist. "
+"Daniel Winzen wird im Einzelfall das Notwendige veranlassen."
+
+#: privacy.php:102
+msgid "e) Right of restriction of processing"
+msgstr "e) Recht auf Einschränkung der Verarbeitung"
+
+#: privacy.php:103
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"obtain from the controller restriction of processing where one of the "
+"following applies:"
+msgstr ""
+"Jede betroffene Person hat das vom europäischen Gesetzgeber eingeräumte "
+"Recht, von dem für die Verarbeitung Verantwortlichen die Einschränkung der "
+"Verarbeitung zu verlangen, wenn einer der folgenden Fälle vorliegt:"
+
+#: privacy.php:105
+msgid ""
+"The accuracy of the personal data is contested by the data subject, for a "
+"period enabling the controller to verify the accuracy of the personal data."
+msgstr ""
+"Die Richtigkeit der personenbezogenen Daten wird von der betroffenen Person "
+"bestritten, und zwar während einer Frist, die es dem für die Verarbeitung "
+"Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu "
+"überprüfen."
+
+#: privacy.php:106
+msgid ""
+"The processing is unlawful and the data subject opposes the erasure of the "
+"personal data and requests instead the restriction of their use instead."
+msgstr ""
+"Die Verarbeitung ist unrechtmäßig und die betroffene Person widerspricht der "
+"Löschung der personenbezogenen Daten und fordert stattdessen die "
+"Einschränkung ihrer Verwendung."
+
+#: privacy.php:107
+msgid ""
+"The controller no longer needs the personal data for the purposes of the "
+"processing, but they are required by the data subject for the establishment, "
+"exercise or defence of legal claims."
+msgstr ""
+"Der für die Verarbeitung Verantwortliche benötigt die personenbezogenen "
+"Daten für die Zwecke der Verarbeitung nicht mehr, sie werden jedoch von der "
+"betroffenen Person zur Geltendmachung, Ausübung oder Verteidigung von "
+"Rechtsansprüchen benötigt."
+
+#: privacy.php:108
+msgid ""
+"The data subject has objected to processing pursuant to Article 21(1) of the "
+"GDPR pending the verification whether the legitimate grounds of the "
+"controller override those of the data subject."
+msgstr ""
+"Die betroffene Person hat gemäß Artikel 21 Absatz 1 DSGVO Widerspruch gegen "
+"die Verarbeitung eingelegt, solange nicht geprüft wurde, ob die berechtigten "
+"Gründe des für die Verarbeitung Verantwortlichen gegenüber denen der "
+"betroffenen Person überwiegen."
+
+#: privacy.php:110
+msgid ""
+"If one of the aforementioned conditions is met, and a data subject wishes to "
+"request the restriction of the processing of personal data stored by Daniel "
+"Winzen, they may at any time contact the controller. Daniel Winzen will "
+"arrange the restriction of the processing."
+msgstr ""
+"Sofern eine der oben genannten Voraussetzungen gegeben ist und eine "
+"betroffene Person die Einschränkung von personenbezogenen Daten, die bei "
+"Daniel Winzen gespeichert sind, verlangen möchte, kann sie sich hierzu "
+"jederzeit an den für die Verarbeitung Verantwortlichen wenden. Daniel Winzen "
+"wird die Einschränkung der Verarbeitung veranlassen."
+
+#: privacy.php:111
+msgid "f) Right to data portability"
+msgstr "f) Recht auf Datenübertragbarkeit"
+
+#: privacy.php:112
+msgid ""
+"Each data subject shall have the right granted by the European legislator, "
+"to receive the personal data concerning them, which was provided to a "
+"controller, in a structured, commonly used and machine-readable format. They "
+"shall have the right to transmit those data to another controller without "
+"hindrance from the controller to which the personal data have been provided, "
+"as long as the processing is based on consent pursuant to point (a) of "
+"Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a "
+"contract pursuant to point (b) of Article 6(1) of the GDPR, and the "
+"processing is carried out by automated means, as long as the processing is "
+"not necessary for the performance of a task carried out in the public "
+"interest or in the exercise of official authority vested in the controller."
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber gewährte Recht, "
+"die sie betreffenden personenbezogenen Daten, die einem für die Verarbeitung "
+"Verantwortlichen bereitgestellt wurden, in einem strukturierten, gängigen "
+"und maschinenlesbaren Format zu erhalten. Sie hat das Recht, diese Daten "
+"einem anderen für die Verarbeitung Verantwortlichen zu übermitteln, ohne "
+"dass der für die Verarbeitung Verantwortliche, dem die personenbezogenen "
+"Daten übermittelt wurden, hieran gehindert wird, sofern die Verarbeitung auf "
+"einer Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a der Datenschutz-"
+"Grundverordnung oder Artikel 9 Absatz 2 Buchstabe a der Datenschutz-"
+"Grundverordnung beruht, oder auf einem Vertrag gemäß Artikel 6 Absatz 1 "
+"Buchstabe b der DSGVO beruht und die Verarbeitung mit Hilfe automatisierter "
+"Verfahren erfolgt, sofern die Verarbeitung nicht für die Wahrnehmung einer "
+"Aufgabe erforderlich ist, die im öffentlichen Interesse liegt oder in "
+"Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen "
+"wurde."
+
+#: privacy.php:113
+msgid ""
+"Furthermore, in exercising their right to data portability pursuant to "
+"Article 20(1) of the GDPR, the data subject shall have the right to have "
+"personal data transmitted directly from one controller to another, where "
+"technically feasible and when doing so does not adversely affect the rights "
+"and freedoms of others."
+msgstr ""
+"Ferner hat die betroffene Person bei der Ausübung ihres Rechts auf "
+"Datenübertragbarkeit gemäß Artikel 20 Absatz 1 DSGVO das Recht, dass "
+"personenbezogene Daten direkt von einem für die Verarbeitung "
+"Verantwortlichen an einen anderen übermittelt werden, sofern dies technisch "
+"machbar ist und die Rechte und Freiheiten anderer Personen dadurch nicht "
+"beeinträchtigt werden."
+
+#: privacy.php:114
+msgid ""
+"In order to assert the right to data portability, the data subject may at "
+"any time contact Daniel Winzen."
+msgstr ""
+"Um das Recht auf Datenübertragbarkeit geltend zu machen, kann sich die "
+"betroffene Person jederzeit an Daniel Winzen wenden."
+
+#: privacy.php:115
+msgid "g) Right to object"
+msgstr "g) Recht auf Widerspruch"
+
+#: privacy.php:116
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"object, on grounds relating to his or her particular situation, at any time, "
+"to processing of personal data concerning them, which is based on point (e) "
+"or (f) of Article 6(1) of the GDPR. This also applies to profiling based on "
+"these provisions."
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber eingeräumte "
+"Recht, aus Gründen, die sich aus ihrer besonderen Situation ergeben, "
+"jederzeit gegen die Verarbeitung sie betreffender personenbezogener Daten, "
+"die aufgrund von Artikel 6 Absatz 1 Buchstaben e oder f DSGVO erfolgt, "
+"Widerspruch einzulegen. Dies gilt auch für ein auf diese Bestimmungen "
+"gestütztes Profiling."
+
+#: privacy.php:117
+msgid ""
+"Daniel Winzen shall no longer process the personal data in the event of the "
+"objection, unless he can demonstrate compelling legitimate grounds for the "
+"processing which override the interests, rights and freedoms of the data "
+"subject, or for the establishment, exercise or defence of legal claims."
+msgstr ""
+"Daniel Winzen verarbeitet die personenbezogenen Daten im Falle des "
+"Widerspruchs nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe "
+"für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten "
+"der betroffenen Person überwiegen, oder die Verarbeitung dient der "
+"Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen."
+
+#: privacy.php:118
+msgid ""
+"In addition, the data subject has the right, on grounds relating to their "
+"particular situation, to object to processing of personal data concerning "
+"them by Daniel Winzen for scientific or historical research purposes, or for "
+"statistical purposes pursuant to Article 89(1) of the GDPR, unless the "
+"processing is necessary for the performance of a task carried out for "
+"reasons of public interest."
+msgstr ""
+"Zudem hat die betroffene Person das Recht, aus Gründen, die sich aus ihrer "
+"besonderen Situation ergeben, gegen die sie betreffende Verarbeitung "
+"personenbezogener Daten, die bei Daniel Winzen zu wissenschaftlichen oder "
+"historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel "
+"89 Absatz 1 DS-GVO erfolgen, Widerspruch einzulegen, es sei denn, eine "
+"solche Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse "
+"liegenden Aufgabe erforderlich."
+
+#: privacy.php:119
+msgid ""
+"In order to exercise the right to object, the data subject may contact "
+"Daniel Winzen. In addition, the data subject is free in the context of the "
+"use of information society services, and notwithstanding Directive 2002/58/"
+"EC, to use their right to object by automated means using technical "
+"specifications."
+msgstr ""
+"Zur Ausübung des Rechts auf Widerspruch kann sich die betroffene Person an "
+"Daniel Winzen wenden. Der betroffenen Person steht es ferner frei, im Rahmen "
+"der Nutzung von Diensten der Informationsgesellschaft und ungeachtet der "
+"Richtlinie 2002/58/EG ihr Widerspruchsrecht mittels automatisierter "
+"Verfahren auszuüben, bei denen technische Spezifikationen verwendet werden."
+
+#: privacy.php:120
+msgid "h) Right to withdraw data protection consent"
+msgstr "h) Recht auf Widerruf der datenschutzrechtlichen Einwilligung"
+
+#: privacy.php:121
+msgid ""
+"Each data subject shall have the right granted by the European legislator to "
+"withdraw their consent to processing of their personal data at any time."
+msgstr ""
+"Jede betroffene Person hat das vom Europäischen Gesetzgeber eingeräumte "
+"Recht, ihre Einwilligung zur Verarbeitung ihrer personenbezogenen Daten "
+"jederzeit zu widerrufen."
+
+#: privacy.php:122
+msgid ""
+"If the data subject wishes to exercise the right to withdraw the consent, "
+"they may, at any time, contact Daniel Winzen."
+msgstr ""
+"Möchte die betroffene Person ihr Recht auf Widerruf einer Einwilligung "
+"geltend machen, kann sie sich hierzu jederzeit an Daniel Winzen wenden."
+
+#: privacy.php:123
+msgid "9. Legal basis for the processing"
+msgstr "9. Rechtsgrundlage für die Verarbeitung"
+
+#: privacy.php:124
+msgid ""
+"Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
+"for which I obtain consent for a specific processing purpose. If the "
+"processing of personal data is necessary for the performance of a contract "
+"to which the data subject is party, as is the case, for example, when "
+"processing operations are necessary to provide services, the processing is "
+"based on Article 6(1) lit. b GDPR. The same applies to such processing "
+"operations which are necessary for carrying out pre-contractual measures, "
+"for example in the case of inquiries concerning my services. If I am subject "
+"to a legal obligation by which processing of personal data is required, such "
+"as for the fulfillment of tax obligations, the processing is based on Art. "
+"6(1) lit. c GDPR."
+msgstr ""
+"Art. 6(1) lit. a DSGVO dient als Rechtsgrundlage für Verarbeitungsvorgänge, "
+"für die ich eine Einwilligung für einen bestimmten Verarbeitungszweck "
+"einhole. Ist die Verarbeitung personenbezogener Daten zur Erfüllung eines "
+"Vertrags, dessen Vertragspartei die betroffene Person ist, erforderlich, wie "
+"dies beispielsweise bei Verarbeitungsvorgängen der Fall ist, die zur "
+"Erbringung von Dienstleistungen erforderlich sind, so beruht die "
+"Verarbeitung auf Art. 6 Abs. 1 lit. b DS-GVO. Gleiches gilt für solche "
+"Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen "
+"erforderlich sind, beispielsweise bei Anfragen zu meinen Leistungen. "
+"Unterliege ich einer rechtlichen Verpflichtung, durch die eine Verarbeitung "
+"personenbezogener Daten erforderlich wird, wie z.B. zur Erfüllung "
+"steuerlicher Pflichten, beruht die Verarbeitung auf Art. 6(1) lit. c GDPR."
+
+#: privacy.php:125
+msgid ""
+"Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
+"This legal basis is used for processing operations which are not covered by "
+"any of the above-mentioned legal grounds, if processing is necessary for the "
+"purposes of the legitimate interests pursued by me or by a third party, "
+"except where such interests are overridden by the interests or fundamental "
+"rights and freedoms of the data subject which require protection of personal "
+"data. Such processing operations are particularly permissible because they "
+"have been specifically mentioned by the European legislator. He considered "
+"that a legitimate interest could be assumed if the data subject is a client "
+"of the controller (Recital 47 Sentence 2 GDPR)."
+msgstr ""
+"Schließlich könnten Verarbeitungen auf Artikel 6 Absatz 1 Buchstabe f DSGVO "
+"gestützt werden. Auf diese Rechtsgrundlage stützen sich Verarbeitungen, die "
+"von keiner der vorgenannten Rechtsgrundlagen erfasst werden, wenn die "
+"Verarbeitung zur Wahrung eines berechtigten Interesses erforderlich ist, das "
+"von mir oder einem Dritten verfolgt wird, sofern nicht die Interessen oder "
+"Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz "
+"personenbezogener Daten erfordern, überwiegen. Solche Verarbeitungen sind "
+"insbesondere deshalb zulässig, weil sie vom europäischen Gesetzgeber "
+"ausdrücklich erwähnt wurden. Ein berechtigtes Interesse könne angenommen "
+"werden, wenn die betroffene Person ein Kunde des für die Verarbeitung "
+"Verantwortlichen ist (Erwägungsgrund 47 Satz 2 DSGVO)."
+
+#: privacy.php:126
+msgid ""
+"10. The legitimate interests pursued by the controller or by a third party"
+msgstr ""
+"10. Die von dem für die Verarbeitung Verantwortlichen oder von einem Dritten "
+"verfolgten berechtigten Interessen"
+
+#: privacy.php:127
+msgid ""
+"Where the processing of personal data is based on Article 6(1) lit. f GDPR "
+"my legitimate interest is to carry out my business in favor of the well-"
+"being of all my data subjects and myself."
+msgstr ""
+"Wenn die Verarbeitung personenbezogener Daten auf Artikel 6 Absatz 1 "
+"Buchstabe f DSGVO beruht, besteht mein berechtigtes Interesse darin, meine "
+"Tätigkeit zugunsten des Wohlergehens aller betroffenen Personen und meiner "
+"Person auszuüben."
+
+#: privacy.php:128
+msgid "11. Period for which the personal data will be stored"
+msgstr "11. Zeitraum, für den die personenbezogenen Daten gespeichert werden"
+
+#: privacy.php:129
+msgid ""
+"The criteria used to determine the period of storage of personal data is the "
+"respective statutory retention period. After expiration of that period, the "
+"corresponding data is routinely deleted, as long as it is no longer "
+"necessary for the fulfillment of the contract or the initiation of a "
+"contract."
+msgstr ""
+"Maßgeblich für die Dauer der Speicherung der personenbezogenen Daten ist die "
+"jeweilige gesetzliche Aufbewahrungsfrist. Nach Ablauf dieser Frist werden "
+"die entsprechenden Daten routinemäßig gelöscht, sofern sie nicht mehr für "
+"die Vertragserfüllung oder Vertragsanbahnung erforderlich sind."
+
+#: privacy.php:130
+msgid ""
+"12. Provision of personal data as statutory or contractual requirement; "
+"Requirement necessary to enter into a contract; Obligation of the data "
+"subject to provide the personal data; possible consequences of failure to "
+"provide such data"
+msgstr ""
+"12. Bereitstellung personenbezogener Daten als gesetzliches oder "
+"vertragliches Erfordernis; Erfordernis für den Abschluss eines Vertrags; "
+"Verpflichtung der betroffenen Person zur Bereitstellung der "
+"personenbezogenen Daten; mögliche Folgen der Nichtbereitstellung dieser Daten"
+
+#: privacy.php:131
+msgid ""
+"I clarify that the provision of personal data is partly required by law (e."
+"g. tax regulations) or can also result from contractual provisions (e.g. "
+"information on the contractual partner)."
+msgstr ""
+"Ich weise darauf hin, dass die Bereitstellung personenbezogener Daten zum "
+"Teil gesetzlich vorgeschrieben ist (z.B. Steuervorschriften) oder sich auch "
+"aus vertraglichen Regelungen (z.B. Angaben zum Vertragspartner) ergeben kann."
+
+#: privacy.php:132
+msgid "13. Existence of automated decision-making"
+msgstr "13. Vorhandensein einer automatisierten Entscheidungsfindung"
+
+#: privacy.php:133
+msgid "I do not use automatic decision-making or profiling."
+msgstr "Ich verwende keine automatische Entscheidungsfindung oder Profiling."
+
+#: chat/index.php:6
+msgid "Daniel - Chat"
+msgstr "Daniel - Chat"
+
+#: chat/index.php:10
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr "Daniel's Chat - eine ehemalige darknet Chat Community"
+
+#: chat/index.php:14
+msgid "Daniel's Chat"
+msgstr "Daniel's Chat"
+
+#: chat/index.php:15
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr "Nach 9 Jahren stellen ich den Chat endgültig ein."
+
+#: chat/index.php:16
+msgid ""
+"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">my onion link list</a>. If you are interested in running a similar "
+"chat community, you can download my chat script on <a href=\"https://github."
+"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>."
+msgstr ""
+"Du kannst alternative Chats auf <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">meiner onion Linkliste</a> finden. Wenn du Interesse hast eine "
+"ähnliche Chat Comunity zu hosten, kannst du mein Chat Skript auf <a "
+"href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub</a> herunterladen."
+
+#: chat/index.php:17
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+"Dieser Chat hat 2013 als Hobbyprojekt zur Nutzung in der Schule angefangen "
+"und hat sich schnell in eine sehr aktive Darknet Chat Community "
+"weiterentwickelt. Seit 2017 habe ich die Administration des Chats an diverse "
+"andere Leute abgegeben, da ich nicht mehr die Zeit oder Motivation hatte, um "
+"den Chat zu verwalten. In den letzten Monaten hat die aktive Administration "
+"den Chat sehr privat gehalten, Leute stundenlang im Warteraum gelassen und "
+"zufällig ohne Grund Gäste rausgeworfen. Das hat dann mein Postfach mit "
+"Nachrichten von Gästen gefüllt, die Hilfe beim Zugriff auf den Chat wollten "
+"und die Aufrufe sind auf einen Bruchteil des vorherigen Aufkommens "
+"zusammengeschrumft. In diesem Zustand macht es keinen Sinn diesen Dienst "
+"weiter zur Verfügung zu stellen. Deshalb habe ich mich dazu entschieden den "
+"Chat im Dezember 2022, nach 9 Jahren, endgültig einzustellen."
+
+#: chat/index.php:18
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+"Da mich einige Leute gefragt haben, diese als Admin einzusetzen und den Chat "
+"wieder zu aktivieren: Nein, diese Entscheidung wurde gefällt und war lange "
+"überfällig. Der Chat hatte nichts mehr mit mir zu tun, außer dass ich ihn "
+"programmiert habe und den Server verwalte. Jeder kann gerne seinen eigenen "
+"Chat erstellen, aber nicht hier auf meiner Seite."
+
+#: tutorials/index.php:6
+msgid "Daniel - Tutorials"
+msgstr "Daniel - Anleitungen"
+
+#: tutorials/index.php:10
+msgid "Various tutorials provided by Daniel Winzen"
+msgstr "Diverse Anleitungen bereitgestellt von Daniel Winzen"
+
+#: tutorials/index.php:15
+msgid ""
+"Here I upload tutorials that have been asked for a number of times. If you "
+"have suggestions on how to improve a tutorial or want me to make one another "
+"one, you can <a href=\"/contact.php\">contact me here</a>."
+msgstr ""
+"Hier lade ich Anleitungen hoch, nach denen ich einige Male gefragt wurde. "
+"Wenn du Vorschläge hast, wie man eine Anleitung verbessern könnte, oder von "
+"mir ein anderes sehen möchtest, kannst du <a href=\"/contact.php\">mich hier "
+"kontaktieren</a>."
+
+#: tutorials/index.php:17
+msgid "Name"
+msgstr "Name"
+
+#: tutorials/index.php:17
+msgid "Short description"
+msgstr "Kurzbeschreibung"
+
+#: tutorials/index.php:18
+msgid "Torify FTP clients"
+msgstr "FTP-Clients über Tor verbinden"
+
+#: tutorials/index.php:18
+msgid "This tutorial will show you how to torify FTP clients."
+msgstr ""
+"Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst."
+
+#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:15
+msgid "Tutorials - Torify FTP clients"
+msgstr "Anleitungen - FTP-Clients über Tor verbinden"
+
+#: tutorials/torify-ftp/index.php:10
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of "
+"FileZilla and WinSCP."
+msgstr ""
+"Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst im "
+"Beispiel von FileZilla und WinSCP."
+
+#: tutorials/torify-ftp/index.php:16
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of <a "
+"href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
+msgstr ""
+"Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst im "
+"Beispiel von <a href=\"#filezilla\">FileZilla</a> und <a "
+"href=\"#winscp\">WinSCP</a>."
+
+#: tutorials/torify-ftp/index.php:17
+msgid ""
+"Let's assume you have created an account on my former Hosting service and "
+"you want to upload your files. To do that, you connect with the detials "
+"given in your dashboard. Clearnet works out of the box, but is not torified. "
+"To connect to the hidden service, you need to make a few changes to the "
+"configuration."
+msgstr ""
+"Lass uns annehmen, dass du ein Konto auf meinem ehemaligen Hostingdienst "
+"erstellt hast und nun eine Datei hochladen möchtest. Um das zu tun, kannst "
+"du dich mit den Details in deinem Dashboard verbinden. Clearnet funktioniert "
+"direkt, aber ist nicht über Tor geleitet. Um dich mit dem Hidden service zu "
+"verbinden, musst du ein paar Änderungen in deiner Konfiguration vornehmen."
+
+#: tutorials/torify-ftp/index.php:20
+msgid "Hosting dashboard"
+msgstr "Hosting Dashboard"
+
+#: tutorials/torify-ftp/index.php:22
+msgid "1. FileZilla"
+msgstr "1. FileZilla"
+
+#: tutorials/torify-ftp/index.php:23
+msgid ""
+"If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
+"project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">download FileZilla here</a>."
+msgstr ""
+"Wenn du FileZilla noch nicht installiert hast, kannst du <a href=\"https://"
+"filezilla-project.org/download.php?type=client\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">FileZilla hier herunterladen</a>."
+
+#: tutorials/torify-ftp/index.php:24
+msgid ""
+"Go to Generic Proxy settings and change the type to SOCKS5, host to "
+"localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
+"TorBrowser)."
+msgstr ""
+"Gehe zu Allgemeiner Proxy Einstellungen und ändere den Typ zu SOCKS5, Host "
+"zu localhost und Port zu 9050 (wenn du Tor als Daemon nutzt) oder 9150 (wenn "
+"du TorBrowser verwendest)."
+
+#: tutorials/torify-ftp/index.php:29
+msgid "FileZilla settings"
+msgstr "FileZilla Einstellungen"
+
+#: tutorials/torify-ftp/index.php:36
+msgid "FileZilla Generic Proxy settings"
+msgstr "FileZilla Allgemeiner Proxy Einstellungen"
+
+#: tutorials/torify-ftp/index.php:39
+msgid ""
+"If you have changed your proxy settings and get the following error: "
+"\"ECONNREFUSED - Connection refused by server\" that likely means you have "
+"configured your proxy incorrectly. Check if everything is set correctly, Tor "
+"is running and if you still have the issue, switch the Port between 9050 and "
+"9150. This is what's causing most connection issues people have."
+msgstr ""
+"Wenn du deine Proxyeinstellungen geändert hast und den folgenden Fehler "
+"bekommst: \"ECONNREFUSED - Verbindung vom Server abgelehnt\", bedeutet dies "
+"hächst wahrscheinlich, dass du den Proxy falsch eingestellt hast. Prüfe ob "
+"alles korrekt ist, Tor läuft und wenn du immer noch das Problem hast, ändere "
+"den Port zwischen 9050 und 9150. Dies ist für die Meisten Leute die Ursache."
+
+#: tutorials/torify-ftp/index.php:43
+msgid "FileZilla connection error"
+msgstr "FileZilla Verbindungsfehler"
+
+#: tutorials/torify-ftp/index.php:45
+msgid ""
+"Once you have configured everything correctly, you should be able to "
+"successfully connect and start uploading files."
+msgstr ""
+"Sobald du alles korrekt konfiguriert hast, solltest du in der Lage sein "
+"erfolgreich dich zu verbinden und Dateien hoch zu laden."
+
+#: tutorials/torify-ftp/index.php:50
+msgid "FileZilla success"
+msgstr "FileZilla Erfolg"
+
+#: tutorials/torify-ftp/index.php:54
+msgid "2. WinSCP"
+msgstr "2. WinSCP"
+
+#: tutorials/torify-ftp/index.php:55
+msgid ""
+"If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
+"eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
+"WinSCP here</a>."
+msgstr ""
+"Wenn du WinSCP noch nicht installiert hast, kannst du <a href=\"https://"
+"winscp.net/eng/download.php\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">WinSCP hier herunterladen</a>."
+
+#: tutorials/torify-ftp/index.php:56
+msgid "When started, enter your connection details."
+msgstr "Sobald gestartet, gib deine Verbindungsdetails ein."
+
+#: tutorials/torify-ftp/index.php:60
+msgid "Connection details"
+msgstr "Verbindungsdetails"
+
+#: tutorials/torify-ftp/index.php:62
+msgid ""
+"Click on the Advanced... button and under Connection, change timeout to 50 "
+"as Tor can be slow at times."
+msgstr ""
+"Klicke auf den Erwetiert... Knopf und unter Verbindung, ändere die "
+"Zeitüberschreitung zu 50, da Tor manchmal sehr langsam sein kann."
+
+#: tutorials/torify-ftp/index.php:66
+msgid "Connection optimizations"
+msgstr "Verbindungsoptimierungen"
+
+#: tutorials/torify-ftp/index.php:68
+msgid ""
+"Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
+"and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
+"and set \"Do DNS name lookup at proxy end\" to yes."
+msgstr ""
+"Nun gehe zum Proxy Reiter und ändere den Proxy-Typ zu SOCKS5, Host zu "
+"127.0.0.1 und Port zu 9050 (wenn du Tor als Daemon nutzt) oder 9150 (wenn du "
+"TorBrowser verwendest) und aktiviere \"Löse DNS Namen über den Proxy auf\"."
+
+#: tutorials/torify-ftp/index.php:72
+msgid "Proxy configuration"
+msgstr "Proxykonfiguration"
+
+#, php-format
+#~ msgid "Update %s:"
+#~ msgstr "Aktualisierung %s:"
+
+#~ msgid "Y-m-d H:i"
+#~ msgstr "d.m.Y H:i"
+
+#, php-format
+#~ msgid "- 90% of spammers"
+#~ msgstr "- 90% der Spammer"
+
+#~ msgid ""
+#~ "If there are any further questions, feel free to <a href=\"/contact.php\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">contact me</a>."
+#~ msgstr ""
+#~ "Wenn noch weitere Fragen offen sind, <a href=\"/contact.php\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">schreib mir</a> gerne."
