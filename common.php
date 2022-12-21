@@ -40,9 +40,9 @@ header("Cross-Origin-Opener-Policy: same-origin");
 header("Cross-Origin-Resource-Policy: same-origin");
 
 const LANGUAGES = [
-	'de' => ['name' => 'Deutsch', 'locale' => 'de_DE', 'flag' => '🇩🇪'],
-	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧'],
-	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺'],
+	'de' => ['name' => 'Deutsch', 'locale' => 'de_DE', 'flag' => '🇩🇪', 'show_in_menu' => true],
+	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧', 'show_in_menu' => true],
+	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => false],
 ];
 $language = 'en';
 $locale = 'en_GB';
@@ -94,7 +94,7 @@ function menu(string $title = ''): void
 	echo '<details id="language">';
 	echo '<summary title="'.LANGUAGES[$language]['name'].'">'.LANGUAGES[$language]['flag'].'</summary>';
 	foreach(LANGUAGES as $lang => $data) {
-		if($lang === $language){
+		if($lang === $language || !$data['show_in_menu']){
 			continue;
 		}
 		echo '<div><a href="?lang='.$lang.'" title="'.$data['name'].'">'.$data['flag'].'</a></div>';

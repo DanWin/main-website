@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 15:57+0100\n"
-"PO-Revision-Date: 2022-12-17 23:03+0100\n"
+"PO-Revision-Date: 2022-12-21 18:46+0100\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: German - Germany <daniel@danwin1210.de>\n"
 "Language: de_DE\n"
@@ -840,7 +840,7 @@ msgstr "Datenschutz"
 
 #: common.php:102
 msgid "Add translation"
-msgstr ""
+msgstr "Übersetzung hinzufügen"
 
 #: new-domain.php:6
 msgid "Daniel - New domain"
