@@ -9,6 +9,7 @@ global $language;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo _('We moved to a brand new domain - migrate your accounts'); ?>">
 <link rel="canonical" href="https://danwin1210.de/new-domain.php">
+<link rel="alternate" href="https://danwin1210.de/new-domain.php" hreflang="x-default">
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('New domain - DanWin1210.Me is now DanWin1210.De')); ?>

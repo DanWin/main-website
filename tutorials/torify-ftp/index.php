@@ -9,6 +9,7 @@ global $language;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo _('This tutorial will show you how to torify FTP clients in the example of FileZilla and WinSCP.'); ?>">
 <link rel="canonical" href="https://danwin1210.de/tutorials/torify-ftp/">
+<link rel="alternate" href="https://danwin1210.de/tutorials/torify-ftp/" hreflang="x-default">
 <?php alt_links(); ?>
 <style>img{max-width:100%}</style>
 </head><body>

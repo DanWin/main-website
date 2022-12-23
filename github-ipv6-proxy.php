@@ -9,6 +9,7 @@ global $language;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo _('GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers'); ?>">
 <link rel="canonical" href="https://danwin1210.de/github-ipv6-proxy.php">
+<link rel="alternate" href="https://danwin1210.de/github-ipv6-proxy.php" hreflang="x-default">
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('GitHub IPv6 proxy')); ?>

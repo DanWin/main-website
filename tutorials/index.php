@@ -9,6 +9,7 @@ global $language;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo _('Various tutorials provided by Daniel Winzen'); ?>">
 <link rel="canonical" href="https://danwin1210.de/tutorials/">
+<link rel="alternate" href="https://danwin1210.de/tutorials/" hreflang="x-default">
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('Tutorials')); ?>

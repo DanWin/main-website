@@ -9,6 +9,7 @@ global $language;
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="<?php echo _('Daniel\'s Hosting - a former darknet web hosting service'); ?>">
 <link rel="canonical" href="https://danwin1210.de/hosting/">
+<link rel="alternate" href="https://danwin1210.de/hosting/" hreflang="x-default">
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('Hosting - Info')); ?>
