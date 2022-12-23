@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 16:02+0100\n"
-"PO-Revision-Date: 2022-12-23 13:26+0100\n"
+"PO-Revision-Date: 2022-12-23 18:36+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: index.php:6
 msgid "Daniel - Home"
-msgstr "Daniel - Домашняя страница"
+msgstr "Даниэль - Домашняя страница"
 
 #: index.php:10
 msgid ""
@@ -45,11 +45,11 @@ msgid ""
 msgstr ""
 "Здравствуйте, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
 "системный администратор. Это мой персональный веб сайт, который я "
-"разрабатываю в свободное время. Так же мой сайт доступен через <a "
+"разрабатываю в свободное время. Также мой сайт доступен через <a "
 "href=\"http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid."
 "onion\">сеть Tor сеть</a> или же как обычный сервис <a href=\"https://"
-"danwin1210.de\">danwin1210.de</a>. Чтобы узнать больше обо мне и этом "
-"сайте , Посетите <a href=\"/about.php\">эту страницу</a>."
+"danwin1210.de\">danwin1210.de</a>. Чтобы узнать больше обо мне и этом сайте, "
+"посетите <a href=\"/about.php\">эту страницу</a>."
 
 #: index.php:16
 msgid ""
@@ -59,7 +59,7 @@ msgid ""
 "by clicking on the entries in the navigation bar on the left."
 msgstr ""
 "Это всего лишь информационная страница. Вы можете воспользоваться другими "
-"разделами сайта такие как моя бесплатная и анонимная <a href=\"/mail/"
+"разделами сайта, такими как моя бесплатная, и анонимная <a href=\"/mail/"
 "\">электронная почта</a> или <a href=\"https://onions.danwin1210."
 "de\">коллекцией ссылок Tor</a>, нажав на записи в панели навигации слева."
 
@@ -69,9 +69,9 @@ msgid ""
 "href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">GitHub</a>."
 msgstr ""
-"Вы можете скачать и/или внести свой вклад в мои различные проекты с открытым "
-"исходным кодом на <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">GitHub</a>."
+"Вы также можете скачать и/или внести свой вклад в мои различные проекты с "
+"открытым исходным кодом на <a href=\"https://github.com/DanWin/\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
 #: index.php:18 about.php:46
 #, php-format
@@ -80,9 +80,9 @@ msgid ""
 "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
 "contact.php\">contact me</a>."
 msgstr ""
-"Если вам нравятся мои проекты, то вы можете поддержать меня, пожертвовав "
-"через Monero: %1$s or Bitcoin: %2$s . Так же доступны другие варианты "
-"доната, просто <a href=\"/contact.php\">свяжитесь со мной</a>."
+"Если вам нравятся мои проекты, то вы можете поддержать меня, пожертвовав не "
+"много Monero: %1$s или Bitcoin: %2$s . Также присутствуют и другие варианты "
+"Доната, просто <a href=\"/contact.php\">свяжитесь со мной</a>."
 
 #: about.php:6
 msgid "Daniel - About"
@@ -319,11 +319,11 @@ msgstr ""
 
 #: contact.php:6
 msgid "Daniel - Contact"
-msgstr "Daniel - Контакт"
+msgstr "Даниэль - Контакт"
 
 #: contact.php:10
 msgid "Contact Daniel Winzen"
-msgstr "Контакт Daniel Winzen"
+msgstr "Связаться с Даниэль Винзен"
 
 #: contact.php:14 common.php:91
 msgid "Contact"
