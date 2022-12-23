@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 16:02+0100\n"
-"PO-Revision-Date: 2022-12-23 11:13+0100\n"
+"PO-Revision-Date: 2022-12-23 13:26+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: index.php:6
 msgid "Daniel - Home"
-msgstr ""
+msgstr "Daniel - Домашняя страница"
 
 #: index.php:10
 msgid ""
@@ -31,7 +31,7 @@ msgstr ""
 
 #: index.php:14 common.php:81
 msgid "Home"
-msgstr ""
+msgstr "Домашняя страница"
 
 #: index.php:15
 msgid ""
@@ -319,15 +319,15 @@ msgstr ""
 
 #: contact.php:6
 msgid "Daniel - Contact"
-msgstr ""
+msgstr "Daniel - Контакт"
 
 #: contact.php:10
 msgid "Contact Daniel Winzen"
-msgstr ""
+msgstr "Контакт Daniel Winzen"
 
 #: contact.php:14 common.php:91
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #: contact.php:15
 msgid ""
@@ -658,7 +658,7 @@ msgstr "Вы можете <a href=\"contact.php\">написать мне</a>."
 
 #: common.php:82
 msgid "Chat"
-msgstr ""
+msgstr "Чат"
 
 #: common.php:83
 msgid "Online-Test"
@@ -1647,7 +1647,7 @@ msgstr ""
 
 #: chat/index.php:15
 msgid "After 9 years, I'm shutting down the chat for good."
-msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда"
+msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда."
 
 #: chat/index.php:16
 msgid ""

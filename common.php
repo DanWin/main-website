@@ -42,7 +42,7 @@ header("Cross-Origin-Resource-Policy: same-origin");
 const LANGUAGES = [
 	'de' => ['name' => 'Deutsch', 'locale' => 'de_DE', 'flag' => '🇩🇪', 'show_in_menu' => true],
 	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧', 'show_in_menu' => true],
-	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => false],
+	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => true],
 ];
 $language = 'en';
 $locale = 'en_GB';
@@ -54,6 +54,25 @@ if(isset($_REQUEST['lang']) && isset(LANGUAGES[$_REQUEST['lang']])){
 }elseif(isset($_COOKIE['language']) && isset(LANGUAGES[$_COOKIE['language']])){
 	$locale = LANGUAGES[$_COOKIE['language']]['locale'];
 	$language = $_COOKIE['language'];
+}elseif(!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
+	$prefLocales = array_reduce(
+		explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']),
+		function (array $res, string $el) {
+			list($l, $q) = array_merge(explode(';q=', $el), [1]);
+			$res[$l] = (float) $q;
+			return $res;
+		}, []);
+	arsort($prefLocales);
+	foreach($prefLocales as $l => $q){
+		$lang = locale_lookup(array_keys(LANGUAGES), $l);
+		if(!empty($lang)){
+			$locale = LANGUAGES[$lang]['locale'];
+			$language = $lang;
+			setcookie('language', $lang, ['expires' => 0, 'path' => '/', 'domain' => '', 'secure' => ($_SERVER['HTTPS'] ?? '' === 'on'), 'httponly' => true, 'samesite' => 'Strict']);
+			break;
+		}
+	}
+
 }
 putenv('LC_ALL='.$locale);
 setlocale(LC_ALL, $locale);
