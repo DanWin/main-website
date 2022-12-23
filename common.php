@@ -1,18 +1,18 @@
 <?php
-global $global_style, $language;
+global $global_style, $language, $dir;
 $global_style = 'body{margin:0;font-size:18px}';
 $global_style .= 'header{padding:0 50px;background:#00F;min-height:61px;display:flex;align-items:center}';
 //$global_style .= 'header.notice{background:#F00;height:25px;display:flex;align-items:center} header.notice a{width:100%;display:flex} header.notice span{margin:auto}';
 $global_style .= 'header h1{font-size:24px;color:#fff;margin:auto}';
 $global_style .= 'main{margin-bottom:30px;padding:1em;word-wrap:break-word}';
-$global_style .= 'nav{padding:0;margin-top:11px;background-color:#FFF;text-align:left;width:100%;z-index:1;display:block;position:absolute}';
+$global_style .= 'nav{padding:0;background-color:#FFF;width:100%;z-index:1;display:block;position:absolute}';
 $global_style .= 'nav a{display:block;font-weight:bold;margin:10px;margin-bottom:20px}';
 $global_style .= 'nav a:link{color:#000;background-color:#eee}';
 $global_style .= 'nav a:visited{color:#666;background-color:#eee}';
 $global_style .= 'nav a:hover{color:#000;background-color:#fff}';
 $global_style .= 'nav a:active{color:#fff;background-color:#888}';
-$global_style .= '#menu{margin-top:-50px}#menu summary,#language summary{display:block;width:50px;cursor:pointer}#menu summary::-webkit-details-marker,#language summary::-webkit-details-marker{display: none}';
-$global_style .= '#language{right:0;position:absolute;font-size:2em;margin-top:-40px}#language a{text-decoration:none}';
+$global_style .= '#menu summary{top:11px;left:2px;position:absolute}#menu summary,#language summary{display:block;width:50px;cursor:pointer}#menu summary::-webkit-details-marker,#language summary::-webkit-details-marker{display: none}';
+$global_style .= '#language{top:11px;right:0;position:absolute;font-size:2em}#language a{text-decoration:none}';
 $global_style .= '.row{display:flex;flex-wrap:wrap}.cell{border: 1px solid #999999;flex:1;padding:3px 3px}.headerrow{display:flex;font-weight:bold}.col{display:flex;flex:1;padding:3px 3px;flex-direction:column;min-width:5em}';
 $global_style .= '.form_limit{max-width:1024px}.red{color:red}.green{color:green}';
 $global_style .= '.burger_nav .bar1,.burger_nav .bar2,.burger_nav .bar3{display:block;width:35px;height:5px;background-color:#fff;margin:6px 6px}';
@@ -28,6 +28,9 @@ $global_style .= 'nav a:visited{color:#ccc;background-color:#333}';
 $global_style .= 'nav a:hover{color:#fff;background-color:#000}';
 $global_style .= 'nav a:active{color:#fff;background-color:#555}';
 $global_style .= '}';
+$global_style .= '[dir="rtl"] #menu summary{right:2px;left:unset}';
+$global_style .= '[dir="rtl"] #language{left:2px;right:unset}';
+$global_style .= '@media (min-width: 769px){[dir="rtl"] nav{border-right:unset;border-left:1px solid silver;}}';
 header("Content-Security-Policy: base-uri 'self'; default-src 'none'; img-src 'self' data:; style-src 'self' 'sha256-DXBEMP36VCfgXuraJi2UnvYIOsGysSts59C82uw58v8=' 'sha256-".base64_encode(hash('sha256', $global_style, true))."'; frame-ancestors 'self'; form-action 'self'; require-trusted-types-for 'script'");
 header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: sameorigin');
@@ -40,20 +43,23 @@ header("Cross-Origin-Opener-Policy: same-origin");
 header("Cross-Origin-Resource-Policy: same-origin");
 
 const LANGUAGES = [
-	'de' => ['name' => 'Deutsch', 'locale' => 'de_DE', 'flag' => '🇩🇪', 'show_in_menu' => true],
-	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧', 'show_in_menu' => true],
-	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => true],
+	'de' => ['name' => 'Deutsch', 'locale' => 'de_DE', 'flag' => '🇩🇪', 'show_in_menu' => true, 'dir' => 'ltr'],
+	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧', 'show_in_menu' => true, 'dir' => 'ltr'],
+	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => true, 'dir' => 'ltr'],
 ];
 $language = 'en';
 $locale = 'en_GB';
+$dir = 'ltr';
 
 if(isset($_REQUEST['lang']) && isset(LANGUAGES[$_REQUEST['lang']])){
 	$locale = LANGUAGES[$_REQUEST['lang']]['locale'];
 	$language = $_REQUEST['lang'];
+	$dir = LANGUAGES[$_REQUEST['lang']]['dir'];
 	setcookie('language', $_REQUEST['lang'], ['expires' => 0, 'path' => '/', 'domain' => '', 'secure' => ($_SERVER['HTTPS'] ?? '' === 'on'), 'httponly' => true, 'samesite' => 'Strict']);
 }elseif(isset($_COOKIE['language']) && isset(LANGUAGES[$_COOKIE['language']])){
 	$locale = LANGUAGES[$_COOKIE['language']]['locale'];
 	$language = $_COOKIE['language'];
+	$dir = LANGUAGES[$_COOKIE['language']]['dir'];
 }elseif(!empty($_SERVER['HTTP_ACCEPT_LANGUAGE'])){
 	$prefLocales = array_reduce(
 		explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']),
@@ -68,6 +74,7 @@ if(isset($_REQUEST['lang']) && isset(LANGUAGES[$_REQUEST['lang']])){
 		if(!empty($lang)){
 			$locale = LANGUAGES[$lang]['locale'];
 			$language = $lang;
+			$dir = LANGUAGES[$lang]['dir'];
 			setcookie('language', $lang, ['expires' => 0, 'path' => '/', 'domain' => '', 'secure' => ($_SERVER['HTTPS'] ?? '' === 'on'), 'httponly' => true, 'samesite' => 'Strict']);
 			break;
 		}

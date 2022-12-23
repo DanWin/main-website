@@ -1,8 +1,8 @@
 <?php
 require_once('common.php');
-global $language;
+global $language, $dir;
 ?>
-<!DOCTYPE html><html lang="<?php echo $language; ?>"><head>
+<!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('GitHub IPv6 proxy'); ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="author" content="Daniel Winzen">

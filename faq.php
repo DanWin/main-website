@@ -1,8 +1,8 @@
 <?php
 require_once('common.php');
-global $language;
+global $language, $dir;
 ?>
-<!DOCTYPE html><html lang="<?php echo $language; ?>"><head>
+<!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Daniel - FAQ - Frequently Asked Questions'); ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">

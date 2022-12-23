@@ -1,8 +1,8 @@
 <?php
 require_once('common.php');
-global $language;
+global $language, $dir;
 ?>
-<!DOCTYPE html><html lang="<?php echo $language; ?>"><head>
+<!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Daniel - About'); ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="author" content="Daniel Winzen">
@@ -32,7 +32,7 @@ global $language;
 <br><?php echo _('I used to offer free file hosting, an url shortener, a chat and even a free darknet web hosting service. All these projects have taught me a lot about coding, security and server management. As of now, only the anonymous email and XMPP hosting, as well as the onion link list are still actively maintained.'); ?></p>
 <h2><?php echo _('About the setup'); ?></h2>
 <p><?php echo _('The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme.sh and Wireguard.'); ?>
-<br><?php echo _('The clearnet gateways on <a href="https://danwin1210.de" target="_blank">danwin1210.de</a> are an NginX Proxy that will forward all requests to the raspberry pis at home. Additionally they run a Postfix instance only listening on the VPN network to send out mails to clearnet.'); ?>
+<br><?php echo _('The clearnet gateways on <a href="https://danwin1210.de" target="_blank">danwin1210.de</a> are an NginX Proxy that will forward all requests to the raspberry pis at home. Additionally, they run a Postfix instance only listening on the VPN network to send out mails to clearnet.'); ?>
 <br><?php echo _('All servers are interconnected with a Wireguard VPN.'); ?></p>
 <p><?php echo _('Hosting providers I use(ed) and servers hosted there:'); ?></p>
 <ul>
