@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-18 16:02+0100\n"
-"PO-Revision-Date: 2022-12-23 18:36+0100\n"
+"PO-Revision-Date: 2022-12-24 10:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -48,7 +48,7 @@ msgstr ""
 "разрабатываю в свободное время. Также мой сайт доступен через <a "
 "href=\"http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid."
 "onion\">сеть Tor сеть</a> или же как обычный сервис <a href=\"https://"
-"danwin1210.de\">danwin1210.de</a>. Чтобы узнать больше обо мне и этом сайте, "
+"danwin1210.de\">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, "
 "посетите <a href=\"/about.php\">эту страницу</a>."
 
 #: index.php:16
@@ -80,9 +80,9 @@ msgid ""
 "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
 "contact.php\">contact me</a>."
 msgstr ""
-"Если вам нравятся мои проекты, то вы можете поддержать меня, пожертвовав не "
-"много Monero: %1$s или Bitcoin: %2$s . Также присутствуют и другие варианты "
-"Доната, просто <a href=\"/contact.php\">свяжитесь со мной</a>."
+"Если вам нравятся мои проекты, то вы можете поддержать меня, пожертвовав "
+"немного Monero: %1$s или Bitcoin: %2$s . Также присутствуют и другие "
+"варианты Доната, просто <a href=\"/contact.php\">свяжитесь со мной</a>."
 
 #: about.php:6
 msgid "Daniel - About"
@@ -334,10 +334,12 @@ msgid ""
 "You can send me a message here. Don't forget to leave a contact option, if "
 "you want me to answer."
 msgstr ""
+"На этой странице вы можете отправить мне сообщение. Пожалуйста оставьте свой "
+"email чтобы я смог вам ответить."
 
 #: contact.php:17
 msgid "Name:"
-msgstr ""
+msgstr "Имя:"
 
 #: contact.php:20
 msgid "Honeypot (do not fill anything):"
@@ -345,11 +347,11 @@ msgstr ""
 
 #: contact.php:21
 msgid "Subject:"
-msgstr ""
+msgstr "Тема:"
 
 #: contact.php:24
 msgid "Message:"
-msgstr ""
+msgstr "Сообщение:"
 
 #: contact.php:44
 msgid "You filled out the honeypot field :( Are you a human?"
@@ -361,19 +363,23 @@ msgstr ""
 
 #: contact.php:57
 msgid "Message successfully sent!"
-msgstr ""
+msgstr "Сообщение успешно отправлено!"
 
 #: contact.php:63
 msgid ""
 "If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
 "target=\"_blank\">my public PGP key</a>."
 msgstr ""
+"Если вы предпочитаете шифрование, пожалуйста используйте <a href=\"/pgp."
+"txt\" target=\"_blank\">мой публичный ключ - PGP</a>."
 
 #: contact.php:64
 msgid ""
 "If you prefer to directly get in contact with me, email me at <a "
 "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgstr ""
+"Вы так же можете связаться со мной напрямую через электронную почту <a "
+"href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 
 #: contact.php:66
 msgid "Disclaimer - External links"
@@ -1677,15 +1683,15 @@ msgid ""
 "decided to shut down the chat for good in December 2022, after 9 years."
 msgstr ""
 "Данный чат я сделал в 2013 году, как хобби-проект, для использования в "
-"школе ,после чего он превратился в очень активное сообщество чатов в "
+"школе, после чего он превратился в очень активное сообщество чатов в "
 "даркнете. В 2017 году я передал управление чатом другим людям, так как у "
 "меня больше не было, ни времени, ни желания на него, но в последнее время "
 "администраторы практически перестали пускать людей в чат, заставляя их ждать "
-"одобрение входа часами или кикать участников чата просто так Все это привело "
-"к тому, что моя почта просто заполнилась просьбами, от людей добавить их в "
-"чат, и в добавок это привело к упадку посещаемости моего сайта. По этому я "
-"не вижу смысла продолжать размещать у себя этот чат. В итоге я решил закрыть "
-"его навсегда, в Декабре 2022 года, спустя 9 лет."
+"одобрение входа часами, еще начали кикать участников из чата просто так. Все "
+"это привело к тому, что моя почта просто заполнилась просьбами от людей, "
+"добавить их в чат, и в добавок это привело к упадку посещаемости моего "
+"сайта. По этому я больше не вижу смысла продолжать размещать у себя этот "
+"чат. В итоге я решил закрыть его навсегда, в Декабре 2022 года, спустя 9 лет."
 
 #: chat/index.php:18
 msgid ""
@@ -1697,9 +1703,9 @@ msgstr ""
 "Ко мне обращались несколько человек, с просьбой перезапустить чат, и "
 "назначить их администраторами: Я отказал им, так как я принял окончательное "
 "решение. С того момента, как я передал управление чатом, он больше не имел "
-"ко мне никакого отношения за исключением того, что я его разработал, и "
-"разместил у себя. Если у вас есть желание, вы можете скачать этот чат на "
-"GitHub, в моем репо, по ссылке которая находится выше и установить у себя на "
+"ко мне никакого отношения за исключением того, что я разработал, и разместил "
+"его у себя. Если у вас есть желание, вы можете скачать этот чат на GitHub, в "
+"моем репозитории, по ссылке которая находится выше и установить у себя на "
 "сайте, или сервере."
 
 #: tutorials/index.php:6
@@ -1716,14 +1722,18 @@ msgid ""
 "have suggestions on how to improve a tutorial or want me to make one another "
 "one, you can <a href=\"/contact.php\">contact me here</a>."
 msgstr ""
+"Здесь я размещаю учебные пособия о которых меня просили. Если у вас есть "
+"предложение как улучшить учебное пособие или вы хотите чтобы я сделал еще "
+"какое-нибудь пособие, вы можете <a href=\"/contact.php\">связаться со мной "
+"здесь</a>."
 
 #: tutorials/index.php:17
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: tutorials/index.php:17
 msgid "Short description"
-msgstr ""
+msgstr "Краткое описание"
 
 #: tutorials/index.php:18
 msgid "Torify FTP clients"
