@@ -25,7 +25,7 @@ echo htmlspecialchars($_POST['real_subj'] ?? '');
 <label><?php echo _('Message:'); ?> <br><textarea name="msg" rows="5" cols="30" required><?php
 echo htmlspecialchars($_POST['msg'] ?? '');
 ?></textarea></label><br>
-<label><input type="checkbox" name="accept_privacy" required<?php echo isset($_REQUEST['accept_privacy']) ? ' checked' : ''; ?>>I have read and agreed to the <a href="/privacy.php" target="_blank">Privacy Policy</a></label><br>
+<label><input type="checkbox" name="accept_privacy" required<?php echo isset($_REQUEST['accept_privacy']) ? ' checked' : ''; ?>><?php echo _('I have read and agreed to the <a href="/privacy.php" target="_blank">Privacy Policy</a>'); ?></label><br>
 <input type="submit" name="action" value="Send"></form><br>
 <?php
 if($_SERVER['REQUEST_METHOD']==='POST'){
