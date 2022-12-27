@@ -1,6 +1,6 @@
 <?php
 require_once('common.php');
-global $language, $dir;
+global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('GitHub IPv6 proxy'); ?></title>
@@ -10,6 +10,23 @@ global $language, $dir;
 <meta name="description" content="<?php echo _('GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers'); ?>">
 <link rel="canonical" href="https://danwin1210.de/github-ipv6-proxy.php">
 <link rel="alternate" href="https://danwin1210.de/github-ipv6-proxy.php" hreflang="x-default">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2022-08-20">
+<meta property="article:modified_time" content="2022-11-04">
+<meta property="article:tag" content="IPv6">
+<meta property="article:tag" content="GitHub">
+<meta property="article:tag" content="proxy">
+<meta property="article:section" content="Technology">
+<meta property="og:title" content="<?php echo _('GitHub IPv6 proxy'); ?>">
+<meta property="og:description" content="<?php echo _('GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers'); ?>">
+<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
+<meta property="og:url" content="https://danwin1210.de/github-ipv6-proxy.php">
+<meta property="og:locale" content="<?php echo $locale; ?>">
+<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('GitHub IPv6 proxy')); ?>

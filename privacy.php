@@ -1,6 +1,6 @@
 <?php
 require_once('common.php');
-global $language, $dir;
+global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Daniel - Privacy policy'); ?></title>
@@ -11,6 +11,17 @@ global $language, $dir;
 <link rel="canonical" href="https://danwin1210.de/privacy.php">
 <link rel="alternate" href="https://danwin1210.de/privacy.php" hreflang="x-default">
 <?php alt_links(); ?>
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo _('Daniel - Privacy policy'); ?>">
+<meta property="og:description" content="<?php echo _('Privacy policy of Daniel Winzen'); ?>">
+<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
+<meta property="og:url" content="https://danwin1210.de/privacy.php">
+<meta property="og:locale" content="<?php echo $locale; ?>">
+<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 </head><body>
 <?php menu(_('Privacy policy')); ?>
 <p><?php echo _('Data protection is of a particularly high priority for Daniel Winzen. The use of the Internet pages of Daniel Winzen is possible without any indication of personal data. However, if a data subject wants to use services via my website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, I generally obtain consent from the data subject.'); ?></p>

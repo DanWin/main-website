@@ -1,6 +1,6 @@
 <?php
 require_once('../../common.php');
-global $language, $dir;
+global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Tutorials - Torify FTP clients'); ?></title>
@@ -11,6 +11,25 @@ global $language, $dir;
 <link rel="canonical" href="https://danwin1210.de/tutorials/torify-ftp/">
 <link rel="alternate" href="https://danwin1210.de/tutorials/torify-ftp/" hreflang="x-default">
 <?php alt_links(); ?>
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-10-21">
+<meta property="article:tag" content="FTP">
+<meta property="article:tag" content="SFTP">
+<meta property="article:tag" content="Tor">
+<meta property="article:tag" content="Proxy">
+<meta property="article:tag" content="FileZilla">
+<meta property="article:tag" content="WinSCP">
+<meta property="article:section" content="Technology">
+<meta property="og:title" content="<?php echo _('Tutorials - Torify FTP clients'); ?>">
+<meta property="og:description" content="<?php echo _('This tutorial will show you how to torify FTP clients in the example of FileZilla and WinSCP.'); ?>">
+<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
+<meta property="og:url" content="https://danwin1210.de/tutorials/torify-ftp/">
+<meta property="og:locale" content="<?php echo $locale; ?>">
+<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 <style>img{max-width:100%}</style>
 </head><body>
 <?php menu(_('Tutorials - Torify FTP clients')); ?>

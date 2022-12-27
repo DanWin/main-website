@@ -92,10 +92,9 @@ function menu(string $title = ''): void
 {
 	global $global_style, $language;
 	echo "<style>$global_style</style>";
-	echo '<input id="burger_check" type="checkbox" hidden>';
 	echo "<header><h1>$title</h1></header>";
 	echo '<details id="menu">';
-	echo '<summary class="burger_nav" for="burger_check" aria-controls="nav" aria-label="Toggle navigation" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
+	echo '<summary class="burger_nav" aria-controls="nav" aria-label="Toggle navigation" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
 	echo '<nav>';
 	if(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.de$/', $_SERVER['HTTP_HOST'])){
 		$host='https://danwin1210.de';
@@ -139,5 +138,6 @@ function alt_links(): void
 			continue;
 		}
 		echo '<link rel="alternate" href="?lang='.$lang.'" hreflang="'.$lang.'" />';
+		echo '<meta property="og:locale:alternate" content="'.$data['locale'].'">';
 	}
 }

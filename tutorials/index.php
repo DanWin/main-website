@@ -1,6 +1,6 @@
 <?php
 require_once('../common.php');
-global $language, $dir;
+global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Daniel - Tutorials'); ?></title>
@@ -11,6 +11,17 @@ global $language, $dir;
 <link rel="canonical" href="https://danwin1210.de/tutorials/">
 <link rel="alternate" href="https://danwin1210.de/tutorials/" hreflang="x-default">
 <?php alt_links(); ?>
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo _('Daniel - Tutorials'); ?>">
+<meta property="og:description" content="<?php echo _('Various tutorials provided by Daniel Winzen'); ?>">
+<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
+<meta property="og:url" content="https://danwin1210.de/tutorials/">
+<meta property="og:locale" content="<?php echo $locale; ?>">
+<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 </head><body>
 <?php menu(_('Tutorials')); ?>
 <p><?php echo _('Here I upload tutorials that have been asked for a number of times. If you have suggestions on how to improve a tutorial or want me to make one another one, you can <a href="/contact.php">contact me here</a>.'); ?></p>

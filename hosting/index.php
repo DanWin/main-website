@@ -1,6 +1,6 @@
 <?php
 require_once('../common.php');
-global $language, $dir;
+global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Hosting - Info'); ?></title>
@@ -11,6 +11,17 @@ global $language, $dir;
 <link rel="canonical" href="https://danwin1210.de/hosting/">
 <link rel="alternate" href="https://danwin1210.de/hosting/" hreflang="x-default">
 <?php alt_links(); ?>
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo _('Hosting - Info'); ?>">
+<meta property="og:description" content="<?php echo _('Daniel\'s Hosting - a former darknet web hosting service'); ?>">
+<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
+<meta property="og:url" content="https://danwin1210.de/hosting/">
+<meta property="og:locale" content="<?php echo $locale; ?>">
+<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 </head><body>
 <?php menu(_('Hosting - Info')); ?>
 <p><?php echo _('In March 2020 a hacker deleted all databases related to my hosting, thus I was forced to shut down my hosting service. If you want to contribute or setup your own hosting, check out my open source project at <a href="https://github.com/DanWin/hosting" target="_blank" rel="noopener">https://github.com/DanWin/hosting</a>.'); ?></p>

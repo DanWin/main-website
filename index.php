@@ -1,6 +1,6 @@
 <?php
 require_once('common.php');
-global $language, $dir;
+global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
 <title><?php echo _('Daniel - Home'); ?></title>
@@ -11,6 +11,17 @@ global $language, $dir;
 <link rel="canonical" href="https://danwin1210.de/">
 <link rel="alternate" href="https://danwin1210.de/" hreflang="x-default">
 <?php alt_links(); ?>
+<meta property="og:type" content="website">
+<meta property="og:title" content="<?php echo _('Daniel - Home'); ?>">
+<meta property="og:description" content="<?php echo _('Personal website of Daniel Winzen, the web developer, sysadmin and privacy enthusiast'); ?>">
+<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
+<meta property="og:url" content="https://danwin1210.de/">
+<meta property="og:locale" content="<?php echo $locale; ?>">
+<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 </head><body>
 <?php menu(_('Home')); ?>
 <p><?php echo _('Hello, my name is Daniel Winzen, a german web developer and system administrator. This is my personal website, that I develop in my free time. This site is available as <a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion">Tor hidden service</a> or via my clearnet proxy <a href="https://danwin1210.de">danwin1210.de</a>. To learn more about me and this site, check <a href="/about.php">the about page</a>.'); ?></p>
