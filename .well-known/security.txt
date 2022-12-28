@@ -1,0 +1,15 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:daniel@danwin1210.de
+Contact: https://danwin1210.de/contact.php
+Encryption: https://danwin1210.de/pgp.txt
+Preferred-Languages: en, de
+Canonical: https://danwin1210.de/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iIsEARYIADMWIQT6rtkMfHvibtXGX4MiL8w/NcQQdwUCY6xD4BUcZGFuaWVsQGRh
+bndpbjEyMTAuZGUACgkQIi/MPzXEEHeANAEAzxfe04TevW4IWzJU9AtGHIjogEC5
+eCMVlkN1Ckjzd8wBAPflsWEmZT610GORT6NXwg1AC7IGTGyKq8nkoAG45wcJ
+=Mz+0
+-----END PGP SIGNATURE-----

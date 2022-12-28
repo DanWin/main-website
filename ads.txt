@@ -1,0 +1,4 @@
+placeholder.example.com, placeholder, DIRECT, placeholder
+contact=daniel@danwin1210.de
+contact=https://danwin1210.de/contact.php
+
