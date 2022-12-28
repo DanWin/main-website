@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-25 12:38+0100\n"
+"POT-Creation-Date: 2022-12-28 19:16+0100\n"
 "PO-Revision-Date: 2022-12-25 12:38+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -19,21 +19,35 @@ msgstr ""
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Generator: Poedit 3.1.1\n"
 
-#: index.php:6
+#: index.php:6 index.php:15
 msgid "Daniel - Home"
 msgstr "Даниэль - Домашняя страница"
 
-#: index.php:10
+#: index.php:10 index.php:16
 msgid ""
 "Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
 "enthusiast"
 msgstr ""
 
-#: index.php:15 common.php:107
+#: index.php:21 about.php:23 github-ipv6-proxy.php:26 contact.php:21 faq.php:20
+#: new-domain.php:23 hosting/index.php:21 privacy.php:21 chat/index.php:21
+#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
+#, fuzzy
+msgid "An avatar representing Daniel Winzen"
+msgstr "Связаться с Даниэль Винзен"
+
+#: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
+#: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
+#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
+#, fuzzy
+msgid "Daniel"
+msgstr "Даниэль - Домашняя страница"
+
+#: index.php:26 common.php:106
 msgid "Home"
 msgstr "Домашняя страница"
 
-#: index.php:16
+#: index.php:27
 msgid ""
 "Hello, my name is Daniel Winzen, a german web developer and system "
 "administrator. This is my personal website, that I develop in my free time. "
@@ -51,7 +65,7 @@ msgstr ""
 "danwin1210.de\">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, "
 "посетите <a href=\"/about.php\">эту страницу</a>."
 
-#: index.php:17
+#: index.php:28
 msgid ""
 "This is just the landing page. You can navigate to the pages that interest "
 "you most, such as my free and anonymous <a href=\"/mail/\">mail service</a> "
@@ -63,7 +77,7 @@ msgstr ""
 "\">электронная почта</a> или <a href=\"https://onions.danwin1210."
 "de\">коллекцией ссылок Tor</a>, нажав на записи в панели навигации слева."
 
-#: index.php:18
+#: index.php:29
 msgid ""
 "You can download and/or contribute to my various open-source projects on <a "
 "href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
@@ -73,7 +87,7 @@ msgstr ""
 "открытым исходным кодом на <a href=\"https://github.com/DanWin/\" "
 "target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
-#: index.php:19 about.php:47
+#: index.php:30 about.php:60
 #, php-format
 msgid ""
 "If you like, what I've built here, you can support me by donating via "
@@ -84,25 +98,25 @@ msgstr ""
 "немного Monero: %1$s или Bitcoin: %2$s . Также присутствуют и другие "
 "варианты Доната, просто <a href=\"/contact.php\">свяжитесь со мной</a>."
 
-#: about.php:6
+#: about.php:6 about.php:17
 msgid "Daniel - About"
 msgstr ""
 
-#: about.php:10
+#: about.php:10 about.php:18
 msgid ""
 "About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
 "this site"
 msgstr ""
 
-#: about.php:15 common.php:115
+#: about.php:28 common.php:114
 msgid "About"
 msgstr ""
 
-#: about.php:16
+#: about.php:29
 msgid "About me"
 msgstr ""
 
-#: about.php:17
+#: about.php:30
 msgid ""
 "Hello, my name is Daniel Winzen, a german web developer and system "
 "administrator. In my free time I like reading books, programming on my open-"
@@ -110,20 +124,20 @@ msgid ""
 "pandemic and resulting home office, because it's fun and keeps me fit."
 msgstr ""
 
-#: about.php:18
+#: about.php:31
 msgid ""
 "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
 "also know some basics of Perl, Python, C, C++ and more. With my experience "
 "I'm able to quickly adapt and work with new languages, when necessary."
 msgstr ""
 
-#: about.php:19
+#: about.php:32
 msgid ""
 "Before I got into coding and server management, I contributed German "
 "translation to various open-source projects since the end of 2011."
 msgstr ""
 
-#: about.php:20
+#: about.php:33
 msgid ""
 "Managing servers, email services and developing new web projects is what I "
 "thrive on. I like optimizing systems for performance and getting the best "
@@ -132,22 +146,22 @@ msgid ""
 "touch</a> and we'll discuss details."
 msgstr ""
 
-#: about.php:21
+#: about.php:34
 msgid "Profiles on other sites that I am active on:"
 msgstr ""
 
-#: about.php:28
+#: about.php:41
 msgid "About this site"
 msgstr ""
 
-#: about.php:29
+#: about.php:42
 msgid ""
 "This is my personal site, that I develop in my free time. I started "
 "development of this site in August/September 2013 when I wanted to have a "
 "platform to host files on, to use at school."
 msgstr ""
 
-#: about.php:30
+#: about.php:43
 msgid ""
 "Quickly the idea of using a chat at school came up and I came across a "
 "simple perl chat script called <a href=\"https://github.com/virtualghetto/"
@@ -157,7 +171,7 @@ msgid ""
 "needed to PHP."
 msgstr ""
 
-#: about.php:31
+#: about.php:44
 msgid ""
 "This has been the start for me to get deeper into web-development and I have "
 "since open-sourced that chat script and several other scripts of this site "
@@ -166,7 +180,7 @@ msgid ""
 "many new features and improved reliability and my code a lot."
 msgstr ""
 
-#: about.php:32
+#: about.php:45
 msgid ""
 "I used to offer free file hosting, an url shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
@@ -175,18 +189,18 @@ msgid ""
 "maintained."
 msgstr ""
 
-#: about.php:33
+#: about.php:46
 msgid "About the setup"
 msgstr ""
 
-#: about.php:34
+#: about.php:47
 msgid ""
 "The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
 "Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
 "sh and Wireguard."
 msgstr ""
 
-#: about.php:35
+#: about.php:48
 msgid ""
 "The clearnet gateways on <a href=\"https://danwin1210.de\" "
 "target=\"_blank\">danwin1210.de</a> are an NginX Proxy that will forward all "
@@ -194,55 +208,56 @@ msgid ""
 "instance only listening on the VPN network to send out mails to clearnet."
 msgstr ""
 
-#: about.php:36
+#: about.php:49
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr ""
 
-#: about.php:37
+#: about.php:50
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr ""
 
-#: about.php:39 about.php:40
+#: about.php:52 about.php:53
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
 
-#: about.php:41
+#: about.php:54
 #, php-format
 msgid "%s - good and reliable"
 msgstr ""
 
-#: about.php:42
+#: about.php:55
 #, php-format
 msgid "%s - comparably expensive but good and reliable"
 msgstr ""
 
-#: about.php:43
+#: about.php:56
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr ""
 
-#: about.php:44
+#: about.php:57
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
 "reliable, hosted in my city"
 msgstr ""
 
-#: about.php:45
+#: about.php:58
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr ""
 
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:15 common.php:113
+#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:32
+#: common.php:112
 msgid "GitHub IPv6 proxy"
 msgstr ""
 
-#: github-ipv6-proxy.php:10
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
 "GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
 msgstr ""
 
-#: github-ipv6-proxy.php:16
+#: github-ipv6-proxy.php:33
 #, php-format
 msgid ""
 "Recently I had to clone a git repository on GitHub via an IPv6 only server "
@@ -252,14 +267,14 @@ msgid ""
 "support IPv6</a>."
 msgstr ""
 
-#: github-ipv6-proxy.php:17
+#: github-ipv6-proxy.php:34
 msgid ""
 "My workaround was setting up a WireGuard VPN with one of my dual-stack "
 "servers. An alternative could have been installing Tor to download "
 "anonymously."
 msgstr ""
 
-#: github-ipv6-proxy.php:18
+#: github-ipv6-proxy.php:35
 msgid ""
 "As I'm by far not the only user with an IPv6 only server looking to download "
 "repositories from GitHub, I decided to provide a public proxy server that "
@@ -269,7 +284,7 @@ msgid ""
 "GitHub directly."
 msgstr ""
 
-#: github-ipv6-proxy.php:19
+#: github-ipv6-proxy.php:36
 msgid ""
 "Note, that my https proxy is serving a ssl certificate issued for my domain, "
 "which means I decrypt and re-encrypt your traffic (and could potentially "
@@ -279,57 +294,57 @@ msgid ""
 "privacy-friendly."
 msgstr ""
 
-#: github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:37
 #, php-format
 msgid ""
 "So how does it work? Let's assume we want to clone the PHP Chat script I've "
 "published at %s. Normally cloning the repository would look like this:"
 msgstr ""
 
-#: github-ipv6-proxy.php:22
+#: github-ipv6-proxy.php:39
 msgid "On an IPv6 connection, you can use my proxy service like this:"
 msgstr ""
 
-#: github-ipv6-proxy.php:24
+#: github-ipv6-proxy.php:41
 msgid "And if you would like to clone via ssh you can also do it like this:"
 msgstr ""
 
-#: github-ipv6-proxy.php:26
+#: github-ipv6-proxy.php:43
 msgid ""
 "Those wanting to use the proxy more permanently and/or talk directly to "
 "GitHub, without me re-encrypting your traffic, should add the following to /"
 "etc/hosts:"
 msgstr ""
 
-#: github-ipv6-proxy.php:31
+#: github-ipv6-proxy.php:48
 msgid "Once added, you can clone as usual, without any changes:"
 msgstr ""
 
-#: github-ipv6-proxy.php:34
+#: github-ipv6-proxy.php:51
 msgid ""
 "All of this is done with the following nginx configuration on a dual stack "
 "server:"
 msgstr ""
 
-#: github-ipv6-proxy.php:72 chat/index.php:20
+#: github-ipv6-proxy.php:89 chat/index.php:31
 msgid ""
 "If there are any further questions, feel free to <a href=\"/contact."
 "php\">contact me</a>."
 msgstr ""
 
-#: contact.php:6
+#: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
 msgstr "Даниэль - Контакт"
 
-#: contact.php:10
+#: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
 msgstr "Связаться с Даниэль Винзен"
 
-#: contact.php:15 common.php:117
+#: contact.php:26 common.php:116
 msgid "Contact"
 msgstr "Контакт"
 
-#: contact.php:16
+#: contact.php:27
 msgid ""
 "You can send me a message here. Don't forget to leave a contact option, if "
 "you want me to answer."
@@ -337,41 +352,41 @@ msgstr ""
 "На этой странице вы можете отправить мне сообщение. Пожалуйста, оставьте "
 "свой email чтобы я смог вам ответить."
 
-#: contact.php:18
+#: contact.php:29
 msgid "Name:"
 msgstr "Имя:"
 
-#: contact.php:21
+#: contact.php:32
 msgid "Honeypot (do not fill anything):"
 msgstr ""
 
-#: contact.php:22
+#: contact.php:33
 msgid "Subject:"
 msgstr "Тема:"
 
-#: contact.php:25
+#: contact.php:36
 msgid "Message:"
 msgstr "Сообщение:"
 
-#: contact.php:28
+#: contact.php:39
 msgid ""
 "I have read and agreed to the <a href=\"/privacy.php\" "
 "target=\"_blank\">Privacy Policy</a>"
 msgstr ""
 
-#: contact.php:45
+#: contact.php:56
 msgid "You filled out the honeypot field :( Are you a human?"
 msgstr ""
 
-#: contact.php:49
+#: contact.php:60
 msgid "You haven't entered a message yet."
 msgstr ""
 
-#: contact.php:58
+#: contact.php:69
 msgid "Message successfully sent!"
 msgstr "Сообщение успешно отправлено!"
 
-#: contact.php:64
+#: contact.php:75
 msgid ""
 "If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
 "target=\"_blank\">my public PGP key</a>."
@@ -379,7 +394,7 @@ msgstr ""
 "Если вы предпочитаете шифрование, пожалуйста используйте <a href=\"/pgp."
 "txt\" target=\"_blank\">мой публичный ключ - PGP</a>."
 
-#: contact.php:65
+#: contact.php:76
 msgid ""
 "If you prefer to directly get in contact with me, email me at <a "
 "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
@@ -387,11 +402,11 @@ msgstr ""
 "Вы так же можете связаться со мной напрямую через электронную почту <a "
 "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 
-#: contact.php:67
+#: contact.php:78
 msgid "Disclaimer - External links"
 msgstr ""
 
-#: contact.php:68
+#: contact.php:79
 msgid ""
 "This website contains links to third party websites (\"external links\"). "
 "These websites are subject to the liability of the respective operator. When "
@@ -405,11 +420,11 @@ msgid ""
 "violations, however, such external links will be deleted immediately."
 msgstr ""
 
-#: faq.php:6
+#: faq.php:6 faq.php:14
 msgid "Daniel - FAQ - Frequently Asked Questions"
 msgstr ""
 
-#: faq.php:9
+#: faq.php:9 faq.php:15
 msgid ""
 "A list of frequently asked questions regarding the services I provide and "
 "their answers"
@@ -417,31 +432,31 @@ msgstr ""
 "Список часто задаваемых вопросов о предоставляемых мною услугах и ответы на "
 "них"
 
-#: faq.php:14
+#: faq.php:25
 msgid "FAQ - Frequently Asked Questions"
 msgstr ""
 
-#: faq.php:15
+#: faq.php:26
 msgid ""
 "Here you have a list of frequently asked questions regarding the services I "
 "provide and their answers."
 msgstr ""
 
-#: faq.php:18
+#: faq.php:29
 msgid "Question"
 msgstr "Вопрос"
 
-#: faq.php:19
+#: faq.php:30
 msgid "Answer"
 msgstr "Ответ"
 
-#: faq.php:22
+#: faq.php:33
 msgid "I found an illegal link/content on your site, can you remove it?"
 msgstr ""
 "Я наткнулся на нелегальную ссылку или содержание на вашем хостинге. Могу ли "
 "я удалить их?"
 
-#: faq.php:23
+#: faq.php:34
 msgid ""
 "Yes, please <a href=\"contact.php\">report it</a> and I will remove it as "
 "soon as possible."
@@ -449,11 +464,11 @@ msgstr ""
 "Да, пожалуйста, <a href=\"contact.php\">зарепортил это</a>, и я займусь "
 "удалением, как только смогу."
 
-#: faq.php:26
+#: faq.php:37
 msgid "What is PGP?"
 msgstr "Что такое PGP?"
 
-#: faq.php:27
+#: faq.php:38
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" "
@@ -465,12 +480,12 @@ msgstr ""
 "target=\"_blank\" rel=\"noopener noreferrer\">Больше информации в этой "
 "статье Википедии</a>."
 
-#: faq.php:30
+#: faq.php:41
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
 "У меня есть идея улучшения для твоего сайта, можешь добавить такую-то фичу?"
 
-#: faq.php:31
+#: faq.php:42
 msgid ""
 "Yes, please <a href=\"contact.php\">contact me</a> and I may add it on my "
 "ToDo list. It might take a while until your feature gets added though."
@@ -478,27 +493,27 @@ msgstr ""
 "Да, пожалуйста, <a href=\"contact.php\">напиши мне</a>. Возможно, я закинув "
 "её в свой TODO-список. Но придётся подождать, пока я смогу её разработать."
 
-#: faq.php:34
+#: faq.php:45
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
 msgstr ""
 "Я хочу перевести ваш сайт и услуги на другой язык, как мне это сделать?"
 
-#: faq.php:35
+#: faq.php:46
 msgid ""
 "Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
 "individual projects you would like to translate."
 msgstr ""
 
-#: faq.php:38
+#: faq.php:49
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr ""
 "Я слышал про редрумы или красные комнаты, стримы убийств и тому подобное. "
 "Это правда?"
 
-#: faq.php:39
+#: faq.php:50
 msgid ""
 "No, they are just horror stories people commonly tell you. Many people make "
 "YouTube videos about the \"deep web\" and claim there were sites like these. "
@@ -512,7 +527,7 @@ msgstr ""
 "сайт, похожий на редрум, и просят оплату в биткоинах за доступ. Никогда не "
 "платите! Эти сайты ненастоящие."
 
-#: faq.php:42
+#: faq.php:53
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
@@ -520,7 +535,7 @@ msgstr ""
 "Я слышал про теневую сеть (shadow web), Марианскую сеть (marianas web) или "
 "CLOS (closed shell network). Как мне получить доступ туда?"
 
-#: faq.php:43
+#: faq.php:54
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
@@ -528,7 +543,7 @@ msgstr ""
 "Никак, потому что они не существуют. Мошенники, впрочем, будут пытаться "
 "продать вам такой доступ. Не платите, вы ничего не получите."
 
-#: faq.php:46
+#: faq.php:57
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
@@ -536,7 +551,7 @@ msgstr ""
 "Разве даркнет не должен быть страшным, чтобы на каждом углу были ужасные "
 "вещи? Почему мне не попадаются интересные сайты?"
 
-#: faq.php:47
+#: faq.php:58
 msgid ""
 "No, the Tor darknet was created to be able to anonymously browse the "
 "internet, circumvent censorship and anonymously host websites. Of course, "
@@ -552,11 +567,11 @@ msgstr ""
 "отличается от клирнета (обычного интернета). Большинство жутких историй, "
 "которые можно услышать о тёмном интернете - просто байки."
 
-#: faq.php:50
+#: faq.php:61
 msgid "What's the difference between deep web and darknet?"
 msgstr "В чём разница между дипвебом и даркнетом?"
 
-#: faq.php:51
+#: faq.php:62
 msgid ""
 "The deep web is any site that can't be indexed by a search engine, so "
 "basically any site where you have to log in or be part of a private network. "
@@ -569,18 +584,18 @@ msgstr ""
 "нужно специальное ПО: это Тор, I2P, Freenet. Даркнет является малой частью "
 "всего дипвеба."
 
-#: faq.php:54
+#: faq.php:65
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr ""
 
-#: faq.php:56
+#: faq.php:67
 msgid ""
 "Yes, marry me and I might actually do that. But only if you teach me "
 "something in return. <a href=\"contact.php\">Send me your proposals</a>. "
 "Sorry guys, only considering females."
 msgstr ""
 
-#: faq.php:58
+#: faq.php:69
 msgid ""
 "Joking aside, Teaching you programming or hacking is a task that will take a "
 "long time (years). I've been learning for 10 years and still learn new "
@@ -592,37 +607,37 @@ msgid ""
 "and keep yourself challenged with new tasks."
 msgstr ""
 
-#: faq.php:62
+#: faq.php:73
 msgid ""
 "- Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
 msgstr ""
 
-#: faq.php:62
+#: faq.php:73
 msgid ""
 "- Can you give me, or tell me where to reliably get stolen PayPal accounts "
 "or credit cards?"
 msgstr ""
 
-#: faq.php:62
+#: faq.php:73
 msgid "- Can you issue fake Covid19 test results?"
 msgstr ""
 
-#: faq.php:62
+#: faq.php:73
 msgid "- Can you do some other illegal things for me?"
 msgstr ""
 
-#: faq.php:63
+#: faq.php:74
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
 msgstr ""
 
-#: faq.php:66
+#: faq.php:77
 msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr ""
 
-#: faq.php:67
+#: faq.php:78
 msgid ""
 "Yes, I could try, but I won't. Don't trust the any sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -632,11 +647,11 @@ msgid ""
 "are based on trust, but obviously you can't trust anymore."
 msgstr ""
 
-#: faq.php:70
+#: faq.php:81
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr ""
 
-#: faq.php:71
+#: faq.php:82
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
 "via encrypted transfer, or is using insecure protocols. This is very "
@@ -646,11 +661,11 @@ msgid ""
 "php\">account settings</a>, if you still need to send this email."
 msgstr ""
 
-#: faq.php:74
+#: faq.php:85
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr ""
 
-#: faq.php:75
+#: faq.php:86
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
 "emails via encrypted transfer, or is using insecure protocols. This is very "
@@ -660,63 +675,63 @@ msgid ""
 "php\">account settings</a>, if you still need to receive this email."
 msgstr ""
 
-#: faq.php:78
+#: faq.php:89
 msgid "I have more Questions."
 msgstr "У меня есть ещё вопросы."
 
-#: faq.php:79
+#: faq.php:90
 msgid "Feel free, to <a href=\"contact.php\">contact me</a>."
 msgstr "Вы можете <a href=\"contact.php\">написать мне</a>."
 
-#: common.php:108
+#: common.php:107
 msgid "Chat"
 msgstr "Чат"
 
-#: common.php:109
+#: common.php:108
 msgid "Online-Test"
 msgstr ""
 
-#: common.php:110
+#: common.php:109
 msgid "Onion link list"
 msgstr ""
 
-#: common.php:111
+#: common.php:110
 msgid "E-Mail + XMPP"
 msgstr ""
 
-#: common.php:112 tutorials/index.php:15
+#: common.php:111 tutorials/index.php:26
 msgid "Tutorials"
 msgstr ""
 
-#: common.php:114
+#: common.php:113
 msgid "FAQ"
 msgstr ""
 
-#: common.php:116
+#: common.php:115
 msgid "Privacy"
 msgstr ""
 
-#: common.php:128
+#: common.php:127
 msgid "Add translation"
 msgstr ""
 
-#: new-domain.php:6
+#: new-domain.php:6 new-domain.php:17
 msgid "Daniel - New domain"
 msgstr ""
 
-#: new-domain.php:10
+#: new-domain.php:10 new-domain.php:18
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr ""
 
-#: new-domain.php:15
+#: new-domain.php:28
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr ""
 
-#: new-domain.php:16
+#: new-domain.php:29
 msgid "Why this sudden and drastic change?"
 msgstr ""
 
-#: new-domain.php:17
+#: new-domain.php:30
 msgid ""
 "In mid-October 2021 I noticed that I was locked out of my registrar's "
 "control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
@@ -727,7 +742,7 @@ msgid ""
 "renewing the domain or moving to a different registrar."
 msgstr ""
 
-#: new-domain.php:18
+#: new-domain.php:31
 msgid ""
 "Given that I was unable to get a satisfying answer and the old domain was "
 "due to expire, I went ahead and bought the new domain danwin1210.de, to "
@@ -736,7 +751,7 @@ msgid ""
 "money for renewal there, so it was back up shortly afterwards."
 msgstr ""
 
-#: new-domain.php:19
+#: new-domain.php:32
 msgid ""
 "After a year my domain was due expiry again, so I enquired if I could move "
 "to a different registrar now. They offered me again to pay via an alternate "
@@ -747,17 +762,17 @@ msgid ""
 "now."
 msgstr ""
 
-#: new-domain.php:20
+#: new-domain.php:33
 msgid "What does it mean for users?"
 msgstr ""
 
-#: new-domain.php:21
+#: new-domain.php:34
 msgid ""
 "You don't have an account and just browse the site? Not much will change, "
 "just the address in your browsers URL bar."
 msgstr ""
 
-#: new-domain.php:22
+#: new-domain.php:35
 msgid ""
 "You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
 "you some struggles, as you now only have a few days left to migrate all your "
@@ -768,21 +783,21 @@ msgid ""
 "necessary. See update above)"
 msgstr ""
 
-#: new-domain.php:23
+#: new-domain.php:36
 msgid ""
 "E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
 "php\" target=\"_blank\">in their account settings</a> to reflect the new "
 "domain and allow WKD clients to grab your key automatically."
 msgstr ""
 
-#: new-domain.php:24
+#: new-domain.php:37
 msgid ""
 "You can still login with your .me user credentials, but the account is going "
 "to be .de. As long as the old domain is still online, you can also receive "
 "emails on the .me domain, while sending is switched over to .de."
 msgstr ""
 
-#: new-domain.php:25
+#: new-domain.php:38
 msgid ""
 "XMPP users will most likely notice their account stopped working. "
 "Unfortunately there is no easy way to migrate accounts with prosody (the "
@@ -791,35 +806,35 @@ msgid ""
 "your buddies."
 msgstr ""
 
-#: new-domain.php:26
+#: new-domain.php:39
 msgid "Will the old address still work?"
 msgstr ""
 
-#: new-domain.php:27
+#: new-domain.php:40
 msgid ""
 "After a very brief downtime, it was back online. Now, after a year, it's "
 "expired once more. I may be able to buy it again after NameCheap returns the "
 "domain to the registry."
 msgstr ""
 
-#: new-domain.php:28
+#: new-domain.php:41
 msgid "I have a question, something is broken with my account."
 msgstr ""
 
-#: new-domain.php:29
+#: new-domain.php:42
 msgid ""
 "Make sure you have switched all your settings to the new domain. It should "
 "work as before. Stil not working correctly? Feel free to <a href=\"/contact."
 "php\">contact me</a> for help."
 msgstr ""
 
-#: new-domain.php:30
+#: new-domain.php:43
 msgid ""
 "How do I know you are still the same person? This could be law enforcement "
 "taking over the servers."
 msgstr ""
 
-#: new-domain.php:31
+#: new-domain.php:44
 msgid ""
 "I have taken the opportunity to create a <a href=\"/pgp.txt\" "
 "target=\"_blank\">new PGP key</a> and signed it with my <a href=\"/old_pgp."
@@ -827,7 +842,7 @@ msgid ""
 "command like this:"
 msgstr ""
 
-#: new-domain.php:33
+#: new-domain.php:46
 msgid ""
 "It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
 "code>. I have also included signatures of previous keys on my old key, so "
@@ -835,15 +850,15 @@ msgid ""
 "before."
 msgstr ""
 
-#: hosting/index.php:6 hosting/index.php:15
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:26
 msgid "Hosting - Info"
 msgstr ""
 
-#: hosting/index.php:10
+#: hosting/index.php:10 hosting/index.php:16
 msgid "Daniel's Hosting - a former darknet web hosting service"
 msgstr ""
 
-#: hosting/index.php:16
+#: hosting/index.php:27
 msgid ""
 "In March 2020 a hacker deleted all databases related to my hosting, thus I "
 "was forced to shut down my hosting service. If you want to contribute or "
@@ -852,7 +867,7 @@ msgid ""
 "rel=\"noopener\">https://github.com/DanWin/hosting</a>."
 msgstr ""
 
-#: hosting/index.php:17
+#: hosting/index.php:28
 msgid ""
 "Being a darknet hoster has taught me many things. However, this was a free "
 "time project I did next to my full time job and it's very time-consuming to "
@@ -874,217 +889,55 @@ msgid ""
 "left of."
 msgstr ""
 
-#: privacy.php:6
+#: privacy.php:6 privacy.php:15
 msgid "Daniel - Privacy policy"
 msgstr ""
 
-#: privacy.php:10
+#: privacy.php:10 privacy.php:16
 msgid "Privacy policy of Daniel Winzen"
 msgstr ""
 
-#: privacy.php:15
+#: privacy.php:26
 msgid "Privacy policy"
 msgstr ""
 
-#: privacy.php:16
-msgid ""
-"Data protection is of a particularly high priority for Daniel Winzen. The "
-"use of the Internet pages of Daniel Winzen is possible without any "
-"indication of personal data. However, if a data subject wants to use "
-"services via my website, processing of personal data could become necessary. "
-"If the processing of personal data is necessary and there is no statutory "
-"basis for such processing, I generally obtain consent from the data subject."
-msgstr ""
-
-#: privacy.php:17
-msgid ""
-"The processing of personal data, such as the name, e-mail address, or "
-"telephone number of a data subject shall always be in line with the General "
-"Data Protection Regulation (GDPR), and in accordance with Germany's data "
-"protection regulations. By means of this data protection declaration, I "
-"would like to inform the general public of the nature, scope, and purpose of "
-"the personal data I collect, use and process. Furthermore, data subjects are "
-"informed, by means of this data protection declaration, of the rights to "
-"which they are entitled."
-msgstr ""
-
-#: privacy.php:18
-msgid ""
-"As the controller, Daniel Winzen has implemented numerous technical and "
-"organizational measures to ensure the most complete protection of personal "
-"data processed through this website. However, Internet-based data "
-"transmissions may in principle have security gaps, so absolute protection "
-"may not be guaranteed. For this reason, every data subject is free to "
-"transfer personal data to me via alternative means, e.g. by mail."
-msgstr ""
-
-#: privacy.php:19
-msgid "1. Definitions"
-msgstr ""
-
-#: privacy.php:20
-msgid ""
-"The data protection declaration of Daniel Winzen is based on the terms used "
-"by the European legislator for the adoption of the General Data Protection "
-"Regulation (GDPR). My data protection declaration should be legible and "
-"understandable for the general public, as well as my users. To ensure this, "
-"I would like to first explain the terminology used."
-msgstr ""
-
-#: privacy.php:21
-msgid ""
-"In this data protection declaration, I use, among other things, the "
-"following terms:"
-msgstr ""
-
-#: privacy.php:22
-msgid "a) Personal data"
-msgstr ""
-
-#: privacy.php:23
-msgid ""
-"Personal data means any information relating to an identified or "
-"identifiable natural person (\"data subject\"). An identifiable natural "
-"person is one who can be identified, directly or indirectly, in particular "
-"by reference to an identifier such as a name, an identification number, "
-"location data, an online identifier or to one or more factors specific to "
-"the physical, physiological, genetic, mental, economic, cultural or social "
-"identity of that natural person."
-msgstr ""
-
-#: privacy.php:24
-msgid "b) Data subject"
-msgstr ""
-
-#: privacy.php:25
-msgid ""
-"Data subject is any identified or identifiable natural person, whose "
-"personal data is processed by the controller responsible for the processing."
-msgstr ""
-
-#: privacy.php:26
-msgid "c) Processing"
-msgstr ""
-
 #: privacy.php:27
-msgid ""
-"Processing is any operation or set of operations which is performed on "
-"personal data or on sets of personal data, whether by automated means, such "
-"as collection, recording, organisation, structuring, storage, adaptation or "
-"alteration, retrieval, consultation, use, disclosure by transmission, "
-"dissemination or otherwise making available, alignment or combination, "
-"restriction, erasure or destruction."
+msgid "1. Name and Address of the controller"
 msgstr ""
 
 #: privacy.php:28
-msgid "d) Restriction of processing"
-msgstr ""
-
-#: privacy.php:29
-msgid ""
-"Restriction of processing is the marking of stored personal data with the "
-"aim of limiting their processing in the future."
-msgstr ""
-
-#: privacy.php:30
-msgid "e) Profiling"
-msgstr ""
-
-#: privacy.php:31
-msgid ""
-"Profiling means any form of automated processing of personal data consisting "
-"of the use of personal data to evaluate certain personal aspects relating to "
-"a natural person, in particular to analyse or predict aspects concerning "
-"that natural person's performance at work, economic situation, health, "
-"personal preferences, interests, reliability, behaviour, location or "
-"movements."
-msgstr ""
-
-#: privacy.php:32
-msgid "f) Controller or controller responsible for the processing"
-msgstr ""
-
-#: privacy.php:33
-msgid ""
-"Controller or controller responsible for the processing is the natural or "
-"legal person, public authority, agency or other body which, alone or jointly "
-"with others, determines the purposes and means of the processing of personal "
-"data; where the purposes and means of such processing are determined by "
-"Union or Member State law, the controller or the specific criteria for its "
-"nomination may be provided for by Union or Member State law."
-msgstr ""
-
-#: privacy.php:34
-msgid "g) Processor"
-msgstr ""
-
-#: privacy.php:35
-msgid ""
-"Processor is a natural or legal person, public authority, agency or other "
-"body which processes personal data on behalf of the controller."
-msgstr ""
-
-#: privacy.php:36
-msgid "h) Recipient"
-msgstr ""
-
-#: privacy.php:37
-msgid ""
-"Recipient is a natural or legal person, public authority, agency or another "
-"body, to which the personal data are disclosed, whether a third party or "
-"not. However, public authorities which may receive personal data in the "
-"framework of a particular inquiry in accordance with Union or Member State "
-"law shall not be regarded as recipients; the processing of those data by "
-"those public authorities shall be in compliance with the applicable data "
-"protection rules according to the purposes of the processing."
-msgstr ""
-
-#: privacy.php:38
-msgid "i) Third party"
-msgstr ""
-
-#: privacy.php:39
-msgid ""
-"Third party is a natural or legal person, public authority, agency or body "
-"other than the data subject, controller, processor and persons who, under "
-"the direct authority of the controller or processor, are authorised to "
-"process personal data."
-msgstr ""
-
-#: privacy.php:40
-msgid "j) Consent"
-msgstr ""
-
-#: privacy.php:41
-msgid ""
-"Consent of the data subject is any freely given, specific, informed and "
-"unambiguous indication of the data subject's wishes by which they, by a "
-"statement or by a clear affirmative action, signifies agreement to the "
-"processing of personal data relating to him or her."
-msgstr ""
-
-#: privacy.php:42
-msgid "2. Name and Address of the controller"
-msgstr ""
-
-#: privacy.php:43
 msgid ""
 "Controller for the purposes of the General Data Protection Regulation "
 "(GDPR), other data protection laws applicable in Member states of the "
 "European Union and other provisions related to data protection is:"
 msgstr ""
 
-#: privacy.php:51
-msgid "3. Cookies"
+#: privacy.php:33
+#, php-format
+msgid "Phone: %s"
 msgstr ""
 
-#: privacy.php:52
+#: privacy.php:34
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: privacy.php:35
+#, php-format
+msgid "Website: %s"
+msgstr ""
+
+#: privacy.php:36
+msgid "2. Cookies"
+msgstr ""
+
+#: privacy.php:37
 msgid ""
 "The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
 "are stored in a computer system via an Internet browser."
 msgstr ""
 
-#: privacy.php:53
+#: privacy.php:38
 msgid ""
 "Many Internet sites and servers use cookies. Many cookies contain a so-"
 "called cookie ID. A cookie ID is a unique identifier of the cookie. It "
@@ -1096,14 +949,14 @@ msgid ""
 "identified using the unique cookie ID."
 msgstr ""
 
-#: privacy.php:54
+#: privacy.php:39
 msgid ""
 "Through the use of cookies, Daniel Winzen can provide the users of this "
 "website with more user-friendly services that would not be possible without "
 "the cookie setting."
 msgstr ""
 
-#: privacy.php:55
+#: privacy.php:40
 msgid ""
 "By means of a cookie, the information and offers on my website can be "
 "optimized with the user in mind. Cookies allow me, as previously mentioned, "
@@ -1113,13 +966,13 @@ msgid ""
 "logged in with your account until closing your browser or logging out."
 msgstr ""
 
-#: privacy.php:56
+#: privacy.php:41
 msgid ""
 "This site makes only use of technically necessary session cookies and does "
 "not use any form of tracking cookies."
 msgstr ""
 
-#: privacy.php:57
+#: privacy.php:42
 msgid ""
 "The data subject may, at any time, prevent the setting of cookies through my "
 "website by means of a corresponding setting of the Internet browser used, "
@@ -1130,11 +983,11 @@ msgid ""
 "used, not all functions of my website may be entirely usable."
 msgstr ""
 
-#: privacy.php:58
-msgid "4. Collection of general data and information"
+#: privacy.php:43
+msgid "3. Collection of general data and information"
 msgstr ""
 
-#: privacy.php:59
+#: privacy.php:44
 msgid ""
 "The server of Daniel Winzen collects a series of general data and "
 "information when a data subject or automated system calls up the website or "
@@ -1148,7 +1001,7 @@ msgid ""
 "information technology systems."
 msgstr ""
 
-#: privacy.php:60
+#: privacy.php:45
 msgid ""
 "When using these general data and information, Daniel Winzen does not draw "
 "any conclusions about the data subject. Rather, this information is needed "
@@ -1163,76 +1016,11 @@ msgid ""
 "permanently deleted."
 msgstr ""
 
-#: privacy.php:61
-msgid "5. Registration on my website"
+#: privacy.php:46
+msgid "4. Routine erasure and blocking of personal data"
 msgstr ""
 
-#: privacy.php:62
-msgid ""
-"The data subject has the possibility to register on the website of the "
-"controller with the indication of personal data. Which personal data are "
-"transmitted to the controller is determined by the respective input mask "
-"used for the registration. The personal data entered by the data subject are "
-"collected and stored exclusively for internal use by the controller, and for "
-"his own purposes. The controller may request transfer to one or more "
-"processors (e.g. an email server that a data subject wants to email) that "
-"also uses personal data for an internal purpose which is attributable to the "
-"controller."
-msgstr ""
-
-#: privacy.php:63
-msgid ""
-"By registering on the website of the controller, date and time of the "
-"registration are also stored. The storage of this data takes place against "
-"the background that this is the only way to prevent the misuse of my "
-"services, and, if necessary, to make it possible to investigate committed "
-"offenses. Insofar, the storage of this data is necessary to secure the "
-"controller. This data is not passed on to third parties unless there is a "
-"statutory obligation to pass on the data, or if the transfer serves the aim "
-"of criminal prosecution."
-msgstr ""
-
-#: privacy.php:64
-msgid ""
-"The registration of the data subject, with the voluntary indication of "
-"personal data, is intended to enable the controller to offer the data "
-"subject contents or services that may only be offered to registered users "
-"due to the nature of the matter in question. Registered persons are free to "
-"change the personal data specified during the registration at any time, or "
-"to have them completely deleted from the data stock of the controller."
-msgstr ""
-
-#: privacy.php:65
-msgid ""
-"The data controller shall, at any time, provide information upon request to "
-"each data subject as to what personal data are stored about the data "
-"subject. In addition, the data controller shall correct or erase personal "
-"data at the request or indication of the data subject, insofar as there are "
-"no statutory storage obligations."
-msgstr ""
-
-#: privacy.php:66
-msgid "6. Contact possibility via the website"
-msgstr ""
-
-#: privacy.php:67
-msgid ""
-"The website of Daniel Winzen contains information that enables a quick "
-"electronic contact to me, as well as direct communication with me, which "
-"also includes a general address of the so-called electronic mail (e-mail "
-"address). If a data subject contacts the controller by e-mail or via a "
-"contact form, the personal data transmitted by the data subject are "
-"automatically stored. Such personal data transmitted on a voluntary basis by "
-"a data subject to the data controller are stored for the purpose of "
-"processing or contacting the data subject. There is no transfer of this "
-"personal data to third parties."
-msgstr ""
-
-#: privacy.php:68
-msgid "7. Routine erasure and blocking of personal data"
-msgstr ""
-
-#: privacy.php:69
+#: privacy.php:47
 msgid ""
 "The data controller shall process and store the personal data of the data "
 "subject only for the period necessary to achieve the purpose of storage, or "
@@ -1240,335 +1028,32 @@ msgid ""
 "laws or regulations to which the controller is subject to."
 msgstr ""
 
-#: privacy.php:70
+#: privacy.php:48
 msgid ""
 "If the storage purpose is not applicable, or if a storage period prescribed "
 "by the European legislator or another competent legislator expires, the "
 "personal data are routinely erased in accordance with legal requirements."
 msgstr ""
 
-#: privacy.php:71
-msgid "8. Rights of the data subject"
+#: privacy.php:49
+msgid "5. Rights of the data subject"
 msgstr ""
 
-#: privacy.php:72
-msgid "a) Right of confirmation"
-msgstr ""
-
-#: privacy.php:73
+#: privacy.php:50
 msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"obtain from the controller the confirmation whether personal data concerning "
-"them are being processed. If a data subject wishes to avail themselves of "
-"this right of confirmation, they may, at any time, contact the controller."
+"Each data subject shall have the right of confirmation and access according "
+"to Article 15 GDPR, Right to rectification according to Article 16 GDPR, "
+"Right to erasure (Right to be forgotten) according to Article 17 GDPR, Right "
+"of restriction of processing according to Article 18 GDPR, Right to data "
+"portability according to GDPR article 20, Right to object according to "
+"Article 21 GDPR"
 msgstr ""
 
-#: privacy.php:74
-msgid "b) Right of access"
+#: privacy.php:51
+msgid "6. Legal basis for the processing"
 msgstr ""
 
-#: privacy.php:75
-msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"obtain from the controller free information about their personal data stored "
-"at any time and a copy of this information. Furthermore, the European "
-"directives and regulations grant the data subject access to the following "
-"information:"
-msgstr ""
-
-#: privacy.php:77
-msgid "the purposes of the processing"
-msgstr ""
-
-#: privacy.php:78
-msgid "the categories of personal data concerned"
-msgstr ""
-
-#: privacy.php:79
-msgid ""
-"the recipients or categories of recipients to whom the personal data have "
-"been or will be disclosed, in particular recipients in third countries or "
-"international organisations"
-msgstr ""
-
-#: privacy.php:80
-msgid ""
-"where possible, the envisaged period for which the personal data will be "
-"stored, or, if not possible, the criteria used to determine that period"
-msgstr ""
-
-#: privacy.php:81
-msgid ""
-"the existence of the right to request from the controller rectification or "
-"erasure of personal data, or restriction of processing of personal data "
-"concerning the data subject, or to object to such processing"
-msgstr ""
-
-#: privacy.php:82
-msgid ""
-"the existence of the right to lodge a complaint with a supervisory authority"
-msgstr ""
-
-#: privacy.php:83
-msgid ""
-"where the personal data are not collected from the data subject, any "
-"available information as to their source"
-msgstr ""
-
-#: privacy.php:84
-msgid ""
-"the existence of automated decision-making, including profiling, referred to "
-"in Article 22(1) and (4) of the GDPR and, at least in those cases, "
-"meaningful information about the logic involved, as well as the significance "
-"and envisaged consequences of such processing for the data subject."
-msgstr ""
-
-#: privacy.php:86
-msgid ""
-"Furthermore, the data subject shall have a right to obtain information "
-"whether personal data are transferred to a third country or to an "
-"international organisation. Where this is the case, the data subject shall "
-"have the right to be informed of the appropriate safeguards relating to the "
-"transfer."
-msgstr ""
-
-#: privacy.php:87
-msgid ""
-"If a data subject wishes to avail himself of this right of access, they may, "
-"at any time, contact the controller."
-msgstr ""
-
-#: privacy.php:88
-msgid "c) Right to rectification"
-msgstr ""
-
-#: privacy.php:89
-msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"obtain from the controller without undue delay the rectification of "
-"inaccurate personal data concerning them. Taking into account the purposes "
-"of the processing, the data subject shall have the right to have incomplete "
-"personal data completed, including by means of providing a supplementary "
-"statement."
-msgstr ""
-
-#: privacy.php:90
-msgid ""
-"If a data subject wishes to exercise this right to rectification, they may, "
-"at any time, contact the controller."
-msgstr ""
-
-#: privacy.php:91
-msgid "d) Right to erasure (Right to be forgotten)"
-msgstr ""
-
-#: privacy.php:92
-msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"obtain from the controller the erasure of personal data concerning him or "
-"her without undue delay, and the controller shall have the obligation to "
-"erase personal data without undue delay where one of the following grounds "
-"applies, as long as the processing is not necessary:"
-msgstr ""
-
-#: privacy.php:94
-msgid ""
-"The personal data are no longer necessary in relation to the purposes for "
-"which they were collected or otherwise processed."
-msgstr ""
-
-#: privacy.php:95
-msgid ""
-"The data subject withdraws consent to which the processing is based "
-"according to point (a) of Article 6(1) of the GDPR, or point (a) of Article "
-"9(2) of the GDPR, and where there is no other legal ground for the "
-"processing."
-msgstr ""
-
-#: privacy.php:96
-msgid ""
-"The data subject objects to the processing pursuant to Article 21(1) of the "
-"GDPR and there are no overriding legitimate grounds for the processing, or "
-"the data subject objects to the processing pursuant to Article 21(2) of the "
-"GDPR."
-msgstr ""
-
-#: privacy.php:97
-msgid "The personal data have been unlawfully processed."
-msgstr ""
-
-#: privacy.php:98
-msgid ""
-"The personal data must be erased for compliance with a legal obligation in "
-"Union or Member State law to which the controller is subject."
-msgstr ""
-
-#: privacy.php:99
-msgid ""
-"The personal data have been collected in relation to the offer of "
-"information society services referred to in Article 8(1) of the GDPR."
-msgstr ""
-
-#: privacy.php:101
-msgid ""
-"If one of the aforementioned reasons applies, and a data subject wishes to "
-"request the erasure of personal data stored by Daniel Winzen, they may, at "
-"any time, contact the controller. Daniel Winzen shall promptly ensure that "
-"the erasure request is complied with immediately."
-msgstr ""
-
-#: privacy.php:102
-msgid ""
-"Where the controller has made personal data public and is obliged pursuant "
-"to Article 17(1) to erase the personal data, the controller, taking account "
-"of available technology and the cost of implementation, shall take "
-"reasonable steps, including technical measures, to inform other controllers "
-"processing the personal data that the data subject has requested erasure by "
-"such controllers of any links to, or copy or replication of, those personal "
-"data, as far as processing is not required. Daniel Winzen will arrange the "
-"necessary measures in individual cases."
-msgstr ""
-
-#: privacy.php:103
-msgid "e) Right of restriction of processing"
-msgstr ""
-
-#: privacy.php:104
-msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"obtain from the controller restriction of processing where one of the "
-"following applies:"
-msgstr ""
-
-#: privacy.php:106
-msgid ""
-"The accuracy of the personal data is contested by the data subject, for a "
-"period enabling the controller to verify the accuracy of the personal data."
-msgstr ""
-
-#: privacy.php:107
-msgid ""
-"The processing is unlawful and the data subject opposes the erasure of the "
-"personal data and requests instead the restriction of their use instead."
-msgstr ""
-
-#: privacy.php:108
-msgid ""
-"The controller no longer needs the personal data for the purposes of the "
-"processing, but they are required by the data subject for the establishment, "
-"exercise or defence of legal claims."
-msgstr ""
-
-#: privacy.php:109
-msgid ""
-"The data subject has objected to processing pursuant to Article 21(1) of the "
-"GDPR pending the verification whether the legitimate grounds of the "
-"controller override those of the data subject."
-msgstr ""
-
-#: privacy.php:111
-msgid ""
-"If one of the aforementioned conditions is met, and a data subject wishes to "
-"request the restriction of the processing of personal data stored by Daniel "
-"Winzen, they may at any time contact the controller. Daniel Winzen will "
-"arrange the restriction of the processing."
-msgstr ""
-
-#: privacy.php:112
-msgid "f) Right to data portability"
-msgstr ""
-
-#: privacy.php:113
-msgid ""
-"Each data subject shall have the right granted by the European legislator, "
-"to receive the personal data concerning them, which was provided to a "
-"controller, in a structured, commonly used and machine-readable format. They "
-"shall have the right to transmit those data to another controller without "
-"hindrance from the controller to which the personal data have been provided, "
-"as long as the processing is based on consent pursuant to point (a) of "
-"Article 6(1) of the GDPR or point (a) of Article 9(2) of the GDPR, or on a "
-"contract pursuant to point (b) of Article 6(1) of the GDPR, and the "
-"processing is carried out by automated means, as long as the processing is "
-"not necessary for the performance of a task carried out in the public "
-"interest or in the exercise of official authority vested in the controller."
-msgstr ""
-
-#: privacy.php:114
-msgid ""
-"Furthermore, in exercising their right to data portability pursuant to "
-"Article 20(1) of the GDPR, the data subject shall have the right to have "
-"personal data transmitted directly from one controller to another, where "
-"technically feasible and when doing so does not adversely affect the rights "
-"and freedoms of others."
-msgstr ""
-
-#: privacy.php:115
-msgid ""
-"In order to assert the right to data portability, the data subject may at "
-"any time contact Daniel Winzen."
-msgstr ""
-
-#: privacy.php:116
-msgid "g) Right to object"
-msgstr ""
-
-#: privacy.php:117
-msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"object, on grounds relating to his or her particular situation, at any time, "
-"to processing of personal data concerning them, which is based on point (e) "
-"or (f) of Article 6(1) of the GDPR. This also applies to profiling based on "
-"these provisions."
-msgstr ""
-
-#: privacy.php:118
-msgid ""
-"Daniel Winzen shall no longer process the personal data in the event of the "
-"objection, unless he can demonstrate compelling legitimate grounds for the "
-"processing which override the interests, rights and freedoms of the data "
-"subject, or for the establishment, exercise or defence of legal claims."
-msgstr ""
-
-#: privacy.php:119
-msgid ""
-"In addition, the data subject has the right, on grounds relating to their "
-"particular situation, to object to processing of personal data concerning "
-"them by Daniel Winzen for scientific or historical research purposes, or for "
-"statistical purposes pursuant to Article 89(1) of the GDPR, unless the "
-"processing is necessary for the performance of a task carried out for "
-"reasons of public interest."
-msgstr ""
-
-#: privacy.php:120
-msgid ""
-"In order to exercise the right to object, the data subject may contact "
-"Daniel Winzen. In addition, the data subject is free in the context of the "
-"use of information society services, and notwithstanding Directive 2002/58/"
-"EC, to use their right to object by automated means using technical "
-"specifications."
-msgstr ""
-
-#: privacy.php:121
-msgid "h) Right to withdraw data protection consent"
-msgstr ""
-
-#: privacy.php:122
-msgid ""
-"Each data subject shall have the right granted by the European legislator to "
-"withdraw their consent to processing of their personal data at any time."
-msgstr ""
-
-#: privacy.php:123
-msgid ""
-"If the data subject wishes to exercise the right to withdraw the consent, "
-"they may, at any time, contact Daniel Winzen."
-msgstr ""
-
-#: privacy.php:124
-msgid "9. Legal basis for the processing"
-msgstr ""
-
-#: privacy.php:125
+#: privacy.php:52
 msgid ""
 "Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
 "for which I obtain consent for a specific processing purpose. If the "
@@ -1583,7 +1068,7 @@ msgid ""
 "6(1) lit. c GDPR."
 msgstr ""
 
-#: privacy.php:126
+#: privacy.php:53
 msgid ""
 "Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
 "This legal basis is used for processing operations which are not covered by "
@@ -1597,71 +1082,23 @@ msgid ""
 "of the controller (Recital 47 Sentence 2 GDPR)."
 msgstr ""
 
-#: privacy.php:127
-msgid ""
-"10. The legitimate interests pursued by the controller or by a third party"
-msgstr ""
-
-#: privacy.php:128
-msgid ""
-"Where the processing of personal data is based on Article 6(1) lit. f GDPR "
-"my legitimate interest is to carry out my business in favor of the well-"
-"being of all my data subjects and myself."
-msgstr ""
-
-#: privacy.php:129
-msgid "11. Period for which the personal data will be stored"
-msgstr ""
-
-#: privacy.php:130
-msgid ""
-"The criteria used to determine the period of storage of personal data is the "
-"respective statutory retention period. After expiration of that period, the "
-"corresponding data is routinely deleted, as long as it is no longer "
-"necessary for the fulfillment of the contract or the initiation of a "
-"contract."
-msgstr ""
-
-#: privacy.php:131
-msgid ""
-"12. Provision of personal data as statutory or contractual requirement; "
-"Requirement necessary to enter into a contract; Obligation of the data "
-"subject to provide the personal data; possible consequences of failure to "
-"provide such data"
-msgstr ""
-
-#: privacy.php:132
-msgid ""
-"I clarify that the provision of personal data is partly required by law (e."
-"g. tax regulations) or can also result from contractual provisions (e.g. "
-"information on the contractual partner)."
-msgstr ""
-
-#: privacy.php:133
-msgid "13. Existence of automated decision-making"
-msgstr ""
-
-#: privacy.php:134
-msgid "I do not use automatic decision-making or profiling."
-msgstr ""
-
-#: chat/index.php:6
+#: chat/index.php:6 chat/index.php:15
 msgid "Daniel - Chat"
 msgstr ""
 
-#: chat/index.php:10
+#: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
 msgstr ""
 
-#: chat/index.php:15
+#: chat/index.php:26
 msgid "Daniel's Chat"
 msgstr ""
 
-#: chat/index.php:16
+#: chat/index.php:27
 msgid "After 9 years, I'm shutting down the chat for good."
 msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда."
 
-#: chat/index.php:17
+#: chat/index.php:28
 msgid ""
 "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
 "cat=2\">my onion link list</a>. If you are interested in running a similar "
@@ -1675,7 +1112,7 @@ msgstr ""
 "href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">GitHub</a>."
 
-#: chat/index.php:18
+#: chat/index.php:29
 msgid ""
 "This chat started as a hobby project for use in school in 2013 and evolved "
 "into a very active darknet chat community. I handed over chat administration "
@@ -1699,7 +1136,7 @@ msgstr ""
 "сайта. По этому я больше не вижу смысла продолжать размещать у себя этот "
 "чат. В итоге я решил закрыть его навсегда, в Декабре 2022 года, спустя 9 лет."
 
-#: chat/index.php:19
+#: chat/index.php:30
 msgid ""
 "Since a few people asked me to make them admin and re-enable the chat: No, "
 "this decision has been made and was long overdue. The chat had nothing at "
@@ -1714,15 +1151,15 @@ msgstr ""
 "GitHub в моем репозитории, по ссылке которая находится выше и установить у "
 "себя на сайте, или сервере."
 
-#: tutorials/index.php:6
+#: tutorials/index.php:6 tutorials/index.php:15
 msgid "Daniel - Tutorials"
 msgstr ""
 
-#: tutorials/index.php:10
+#: tutorials/index.php:10 tutorials/index.php:16
 msgid "Various tutorials provided by Daniel Winzen"
 msgstr ""
 
-#: tutorials/index.php:16
+#: tutorials/index.php:27
 msgid ""
 "Here I upload tutorials that have been asked for a number of times. If you "
 "have suggestions on how to improve a tutorial or want me to make one another "
@@ -1733,39 +1170,40 @@ msgstr ""
 "какое-нибудь пособие, вы можете <a href=\"/contact.php\">связаться со мной "
 "здесь</a>."
 
-#: tutorials/index.php:18
+#: tutorials/index.php:29
 msgid "Name"
 msgstr "Название"
 
-#: tutorials/index.php:18
+#: tutorials/index.php:29
 msgid "Short description"
 msgstr "Краткое описание"
 
-#: tutorials/index.php:19
+#: tutorials/index.php:30
 msgid "Torify FTP clients"
 msgstr ""
 
-#: tutorials/index.php:19
+#: tutorials/index.php:30
 msgid "This tutorial will show you how to torify FTP clients."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:16
+#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
+#: tutorials/torify-ftp/index.php:35
 msgid "Tutorials - Torify FTP clients"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:10
+#: tutorials/torify-ftp/index.php:10 tutorials/torify-ftp/index.php:24
 msgid ""
 "This tutorial will show you how to torify FTP clients in the example of "
 "FileZilla and WinSCP."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:17
+#: tutorials/torify-ftp/index.php:36
 msgid ""
 "This tutorial will show you how to torify FTP clients in the example of <a "
 "href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:18
+#: tutorials/torify-ftp/index.php:37
 msgid ""
 "Let's assume you have created an account on my former Hosting service and "
 "you want to upload your files. To do that, you connect with the detials "
@@ -1774,37 +1212,37 @@ msgid ""
 "configuration."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:21
+#: tutorials/torify-ftp/index.php:40
 msgid "Hosting dashboard"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:23
+#: tutorials/torify-ftp/index.php:42
 msgid "1. FileZilla"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:24
+#: tutorials/torify-ftp/index.php:43
 msgid ""
 "If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
 "project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">download FileZilla here</a>."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:25
+#: tutorials/torify-ftp/index.php:44
 msgid ""
 "Go to Generic Proxy settings and change the type to SOCKS5, host to "
 "localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
 "TorBrowser)."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:30
+#: tutorials/torify-ftp/index.php:49
 msgid "FileZilla settings"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:37
+#: tutorials/torify-ftp/index.php:56
 msgid "FileZilla Generic Proxy settings"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:40
+#: tutorials/torify-ftp/index.php:59
 msgid ""
 "If you have changed your proxy settings and get the following error: "
 "\"ECONNREFUSED - Connection refused by server\" that likely means you have "
@@ -1813,56 +1251,56 @@ msgid ""
 "9150. This is what's causing most connection issues people have."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:44
+#: tutorials/torify-ftp/index.php:63
 msgid "FileZilla connection error"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:46
+#: tutorials/torify-ftp/index.php:65
 msgid ""
 "Once you have configured everything correctly, you should be able to "
 "successfully connect and start uploading files."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:51
+#: tutorials/torify-ftp/index.php:70
 msgid "FileZilla success"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:55
+#: tutorials/torify-ftp/index.php:74
 msgid "2. WinSCP"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:56
+#: tutorials/torify-ftp/index.php:75
 msgid ""
 "If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
 "eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
 "WinSCP here</a>."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:57
+#: tutorials/torify-ftp/index.php:76
 msgid "When started, enter your connection details."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:61
+#: tutorials/torify-ftp/index.php:80
 msgid "Connection details"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:63
+#: tutorials/torify-ftp/index.php:82
 msgid ""
 "Click on the Advanced... button and under Connection, change timeout to 50 "
 "as Tor can be slow at times."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:67
+#: tutorials/torify-ftp/index.php:86
 msgid "Connection optimizations"
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:69
+#: tutorials/torify-ftp/index.php:88
 msgid ""
 "Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
 "and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
 "and set \"Do DNS name lookup at proxy end\" to yes."
 msgstr ""
 
-#: tutorials/torify-ftp/index.php:73
+#: tutorials/torify-ftp/index.php:92
 msgid "Proxy configuration"
 msgstr ""
