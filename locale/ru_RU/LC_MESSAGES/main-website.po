@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-28 19:16+0100\n"
-"PO-Revision-Date: 2022-12-25 12:38+0100\n"
+"PO-Revision-Date: 2022-12-30 11:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -39,9 +39,8 @@ msgstr "Связаться с Даниэль Винзен"
 #: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
 #: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
 #: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
-#, fuzzy
 msgid "Daniel"
-msgstr "Даниэль - Домашняя страница"
+msgstr "Даниэль"
 
 #: index.php:26 common.php:106
 msgid "Home"
@@ -61,9 +60,9 @@ msgstr ""
 "системный администратор. Это мой персональный веб сайт, который я "
 "разрабатываю в свободное время. Также мой сайт доступен через <a "
 "href=\"http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid."
-"onion\">сеть Tor сеть</a> или же как обычный сервис <a href=\"https://"
-"danwin1210.de\">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, "
-"посетите <a href=\"/about.php\">эту страницу</a>."
+"onion\">Tor сеть</a> или же как обычный сервис <a href=\"https://danwin1210."
+"de\">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, посетите "
+"<a href=\"/about.php\">эту страницу</a>."
 
 #: index.php:28
 msgid ""
@@ -100,7 +99,7 @@ msgstr ""
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
-msgstr ""
+msgstr "Даниэль - Об"
 
 #: about.php:10 about.php:18
 msgid ""
@@ -110,11 +109,11 @@ msgstr ""
 
 #: about.php:28 common.php:114
 msgid "About"
-msgstr ""
+msgstr "Об"
 
 #: about.php:29
 msgid "About me"
-msgstr ""
+msgstr "Обо мне"
 
 #: about.php:30
 msgid ""
@@ -123,6 +122,11 @@ msgid ""
 "source projects and pole dancing, which I picked up in times of the covid "
 "pandemic and resulting home office, because it's fun and keeps me fit."
 msgstr ""
+"Здравствуйте, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
+"системный администратор. В свободное время мне нравится читать книги, и "
+"заниматься своими проектами с открытым исходным кодом and pole dancing, "
+"which I picked up in times of the covid pandemic and resulting home office, "
+"because it's fun and keeps me fit."
 
 #: about.php:31
 msgid ""
@@ -130,12 +134,19 @@ msgid ""
 "also know some basics of Perl, Python, C, C++ and more. With my experience "
 "I'm able to quickly adapt and work with new languages, when necessary."
 msgstr ""
+"Языки программирования которые я регулярно использую - это PHP, SQL и "
+"JavaScript, но я также знаю некоторые основы Perl, Python, C, C++ и другие. "
+"С моим опытом я могу быстро адаптироваться и работать с новыми языками когда "
+"это необходимо."
 
 #: about.php:32
 msgid ""
 "Before I got into coding and server management, I contributed German "
 "translation to various open-source projects since the end of 2011."
 msgstr ""
+"До того, как я занялся программированием и управлением серверами, с конца "
+"2011 года я занимался переводом на немецкий язык, различных проектов, с "
+"открытым исходным кодом ."
 
 #: about.php:33
 msgid ""
@@ -145,10 +156,16 @@ msgid ""
 "infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
 "touch</a> and we'll discuss details."
 msgstr ""
+"Управление серверами, электронной почтой разработка новых веб-проектов - это "
+"то, в чем я силен. Мне нравится оптимизировать системы с точки зрения "
+"производительности и извлекать максимум пользы из того что у меня есть. Если "
+"вам нужна помощь в управлении и оптимизации вашей инфраструктуры или веб-"
+"сайта, я с радостью готов помочь. <a href=\"/contact.php\">Свяжитесь со "
+"мной</a> и мы обсудим детали."
 
 #: about.php:34
 msgid "Profiles on other sites that I am active on:"
-msgstr ""
+msgstr "Профили на других сайтах где я активен:"
 
 #: about.php:41
 msgid "About this site"
