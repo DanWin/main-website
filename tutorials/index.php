@@ -22,6 +22,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/tutorials/">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"<?php echo _('Daniel - Tutorials'); ?>", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Tutorials')); ?>
 <p><?php echo _('Here I upload tutorials that have been asked for a number of times. If you have suggestions on how to improve a tutorial or want me to make one another one, you can <a href="/contact.php">contact me here</a>.'); ?></p>

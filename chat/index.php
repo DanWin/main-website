@@ -22,6 +22,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/chat/">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"<?php echo _('Daniel - Chat'); ?>", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Daniel\'s Chat')); ?>
 <p><?php echo _('After 9 years, I\'m shutting down the chat for good.'); ?></p>

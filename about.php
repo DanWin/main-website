@@ -24,6 +24,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/about.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","about":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('About')); ?>
 <h2><?php echo _('About me'); ?></h2>

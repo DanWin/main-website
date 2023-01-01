@@ -22,6 +22,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/hosting/">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"<?php echo _('Hosting - Info'); ?>", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Hosting - Info')); ?>
 <p><?php echo _('In March 2020 a hacker deleted all databases related to my hosting, thus I was forced to shut down my hosting service. If you want to contribute or setup your own hosting, check out my open source project at <a href="https://github.com/DanWin/hosting" target="_blank" rel="noopener">https://github.com/DanWin/hosting</a>.'); ?></p>
