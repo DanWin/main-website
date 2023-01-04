@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-01 12:20+0100\n"
-"PO-Revision-Date: 2023-01-01 12:35+0100\n"
+"PO-Revision-Date: 2023-01-04 23:44+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -177,7 +177,7 @@ msgid ""
 "development of this site in August/September 2013 when I wanted to have a "
 "platform to host files on, to use at school."
 msgstr ""
-"то мой личный сайт который я разрабатываю в свободное время. Я начал "
+"Это мой личный сайт который я разрабатываю в свободное время. Я начал "
 "разработку моего сайта в Августе/Сентябре 2013-го года когда мне захотелось "
 "иметь платформу для размещения файлов, что бы использовать ее в школе."
 
@@ -190,11 +190,11 @@ msgid ""
 "really usable for use with several people. So I decided to port some parts I "
 "needed to PHP."
 msgstr ""
-"Так же у меня возникла идея использовать чат в школе и я наткнулся на "
+"Так же у меня возникла идея использовать чат в школе, и я наткнулся на "
 "простой скрипт чата на языке Perl <a href=\"https://github.com/virtualghetto/"
 "lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. Когда я "
-"развернул его на своем Raspberry Pi он работал очень медленно, не стабильно "
-"и был не пригоден для использования несколькими людьми. По этому я решил "
+"развернул его на своем Raspberry Pi он работал очень медленно, нестабильно и "
+"был не пригоден для использования несколькими людьми. По этому я решил "
 "портатировать его на PHP."
 
 #: about.php:45
@@ -205,12 +205,12 @@ msgid ""
 "rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
 "many new features and improved reliability and my code a lot."
 msgstr ""
-"Это стало для меня началом более глубого погружения в веб разработку. После "
-"чего я разместил скрипт этого чата и несколько других скриптов моего сайта с "
-"открытым исходным кодом у себя на <a href=\"https://github.com/DanWin/\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">GitHub аккаунте</a>. С тех "
-"пор, я вложил много усилий в свой код, и значительно улучшил его надежность "
-"и производительность."
+"Это стало для меня началом более глубокого погружения в веб разработку. "
+"После чего я разместил скрипт этого чата и несколько других скриптов моего "
+"сайта с открытым исходным кодом у себя на <a href=\"https://github.com/"
+"DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub аккаунте</a>. "
+"С тех пор, я вложил много усилий в свой код, и значительно улучшил его "
+"надежность и производительность."
 
 #: about.php:46
 msgid ""
@@ -220,15 +220,15 @@ msgid ""
 "and XMPP hosting, as well as the onion link list are still actively "
 "maintained."
 msgstr ""
-"Раньше я предлагал бесплатный файловый хостинг, сервис сокращения ссылок,чат "
-"и даже бесплатный веб-хостинг в даркнете. Все эти проекты многому научили "
-"меня в области программирования, безопасности и управлении серверами. На "
-"данный момент активно поддерживается только анонимная электронная почта и "
-"хостинг XMPP, а также список onion ссылок."
+"Раньше я предлагал бесплатный файловый хостинг, сервис сокращения ссылок, "
+"чат и даже бесплатный веб-хостинг в даркнете. Все эти проекты многому "
+"научили меня в области программирования, безопасности и управлении "
+"серверами. На данный момент активно поддерживается только анонимная "
+"электронная почта и хостинг XMPP, а также список onion ссылок."
 
 #: about.php:47
 msgid "About the setup"
-msgstr ""
+msgstr "Настройки сайта"
 
 #: about.php:48
 msgid ""
@@ -236,6 +236,9 @@ msgid ""
 "Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
 "sh and Wireguard."
 msgstr ""
+"Программное обеспечение которое я использую это Debian sid под управлением "
+"Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, "
+"Prosody, Tor, ssh, bind9, acme.sh and Wireguard."
 
 #: about.php:49
 msgid ""
@@ -251,27 +254,29 @@ msgstr ""
 
 #: about.php:51
 msgid "Hosting providers I use(ed) and servers hosted there:"
-msgstr ""
+msgstr "Хостинг-провайдеры которые я использую и сервера размещеные у них:"
 
 #: about.php:53 about.php:54
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
+"%s - подходит для краткосрочных проектов и/или проектов с низкой пропускной "
+"способностью"
 
 #: about.php:55
 #, php-format
 msgid "%s - good and reliable"
-msgstr ""
+msgstr "%s - хороший и надежный провайдер"
 
 #: about.php:56
 #, php-format
 msgid "%s - comparably expensive but good and reliable"
-msgstr ""
+msgstr "%s - довольно дорогой, но хороший и надежный"
 
 #: about.php:57
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
-msgstr ""
+msgstr "%s - (Используется для моего шлюза clearnet) - хороший и надежный"
 
 #: about.php:58
 #, php-format
@@ -279,10 +284,12 @@ msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
 "reliable, hosted in my city"
 msgstr ""
+"%s - (Используется для моего шлюза clearnet + регистрация домена) - хороший "
+"и надежный, расположен в моем городе."
 
 #: about.php:59
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
-msgstr ""
+msgstr "Домашний хостинг: 4 Raspberry Pi 4 с основным сайтом и данными"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
 #: github-ipv6-proxy.php:33 common.php:112
