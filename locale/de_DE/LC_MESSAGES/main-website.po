@@ -4,17 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-01-06 20:40+0100\n"
-"PO-Revision-Date: 2023-01-01 12:17+0100\n"
+"PO-Revision-Date: 2023-01-06 19:59+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
-"Language-Team: German - Germany <daniel@danwin1210.de>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/main-website/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15\n"
 "X-Poedit-Basepath: .\n"
 
 #: index.php:6 index.php:15
@@ -82,7 +83,7 @@ msgid ""
 "href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">GitHub</a>."
 msgstr ""
-"Du kannst meine diversen  open-source Projekte auf <a href=\"https://github."
+"Du kannst meine diversen open-source Projekte auf <a href=\"https://github."
 "com/DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a> "
 "herunterladen, oder zu diesen beitragen."
 
@@ -127,8 +128,8 @@ msgstr ""
 "Hallo, ich bin Daniel Winzen, ein deutscher Webentwickler und "
 "Systemadministrator. In meiner Freizeit lese ich gerne Bücher, programmieren "
 "an meinen open-source Projekten und gehe zum Poledance, was ich in Zeiten "
-"der Covid-Pandemie und dem daraus resultierenden  Homeoffice angefangen "
-"habe, denn es macht Spaß und hält mich fit."
+"der Covid-Pandemie und dem daraus resultierenden Homeoffice angefangen habe, "
+"denn es macht Spaß und hält mich fit."
 
 #: about.php:32
 msgid ""
@@ -146,9 +147,9 @@ msgid ""
 "Before I got into coding and server management, I contributed German "
 "translation to various open-source projects since the end of 2011."
 msgstr ""
-"Bevor ich mit Programmierung und Serververwaltung angefangen habe, habe ich  "
-"seit Ende 2011 zu verschieden open-source Projekten deutsche Übersetzungen "
-"beigesteuert."
+"Bevor ich angefangen habe mich für Programmierung und Serververwaltung zu "
+"interessieren, habe ich seit Ende 2011 zu verschieden open-source Projekten "
+"deutsche Übersetzungen beigesteuert."
 
 #: about.php:34
 msgid ""
@@ -161,8 +162,8 @@ msgstr ""
 "Server und E-Mail Dienste verwalten und neue Web-Projekte zu entwickeln ist "
 "was mich treibt. Ich mag es Systeme für Performace zu optimieren und das "
 "beste aus dem was ich habe zu machen. Brauchst du hilfe mit dem Verwalten "
-"und optimieren deiner Infrastruktur oder Webseite? Ich helfe gerne dabei.  "
-"<a href=\"/contact.php\">Schreib mir</a> und wir können über Details reden."
+"und optimieren deiner Infrastruktur oder Webseite? Ich helfe gerne dabei. <a "
+"href=\"/contact.php\">Schreib mir</a> und wir können über Details reden."
 
 #: about.php:35
 msgid "Profiles on other sites that I am active on:"
@@ -248,11 +249,11 @@ msgid ""
 "requests to the raspberry pis at home. Additionally, they run a Postfix "
 "instance only listening on the VPN network to send out mails to clearnet."
 msgstr ""
-"Die clearnet Gateways unter <a href=\"https://danwin1210.de\" "
-"target=\"_blank\">danwin1210.de</a> sind ein NginX Proxy, der alle Anfragen "
-"zu den Raspberry Pis zu Hause weiterleitet. Zusätzliche läuft hier eine "
-"Postfix Instanz, die nur auf dem  VPN Netzwerk erreichbar ist, um Mails and "
-"das clearnet zu senden."
+"Die clearnet Gateways unter <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> sind ein NginX Proxy, der alle Anfragen zu den "
+"Raspberry Pis zu Hause weiterleitet. Zusätzliche läuft hier eine Postfix "
+"Instanz, die nur auf dem VPN Netzwerk erreichbar ist, um Mails and das "
+"clearnet zu senden."
 
 #: about.php:50
 msgid "All servers are interconnected with a Wireguard VPN."
@@ -628,7 +629,7 @@ msgid ""
 "though. Don't pay because you won't get anything in return for your money."
 msgstr ""
 "Das kannst du nicht, weil diese nicht existieren. Einige Scammer wollen es "
-"dir aber  verkaufen. Zahle nicht, denn du wirst nichts dafür bekommen."
+"dir aber verkaufen. Zahle nicht, denn du wirst nichts dafür bekommen."
 
 #: faq.php:31 faq.php:76
 msgid ""
@@ -917,7 +918,6 @@ msgstr ""
 "die Domain kurz später dann wieder online war."
 
 #: new-domain.php:33
-#, fuzzy
 msgid ""
 "After a year my domain was due expiry again, so I enquired if I could move "
 "to a different registrar now. They offered me again to pay via an alternate "
@@ -932,7 +932,7 @@ msgstr ""
 "wieder nur das Zahlen über ein anderes Konto angeboten, weil: "
 "<q>Unfortunately, we need more time to investigate your issue.</q> Ein Jahr "
 "sollte mehr als genug sein, um was auch immer für ein Problem sie mit meinem "
-"Konto haben, zu lösen. Dieses Mal habe ich mich dazu entschieden sie "
+"Konto haben, zu lösen… Dieses Mal habe ich mich dazu entschieden sie "
 "ablaufen zu lassen, da nun fast alle umgestellt haben sollten."
 
 #: new-domain.php:34
@@ -948,7 +948,6 @@ msgstr ""
 "die Adresse in deiner Browser URL Leiste."
 
 #: new-domain.php:36
-#, fuzzy
 msgid ""
 "You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
 "you some struggles, as you now only have a few days left to migrate all your "
@@ -1579,12 +1578,11 @@ msgid "Change connection timeout"
 msgstr "Zeitüberschreitung anpassen"
 
 #: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:83
-#, fuzzy
 msgid ""
 "Click on the Advanced… button and under Connection, change timeout to 50 as "
 "Tor can be slow at times."
 msgstr ""
-"Klicke auf den Erwetiert... Knopf und unter Verbindung, ändere die "
+"Klicke auf den Erwetiert… Knopf und unter Verbindung, ändere die "
 "Zeitüberschreitung zu 50, da Tor manchmal sehr langsam sein kann."
 
 #: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:89
