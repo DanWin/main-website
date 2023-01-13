@@ -38,7 +38,7 @@ global $language, $dir, $locale;
 <p><?php echo _('You can still login with your .me user credentials, but the account is going to be .de. As long as the old domain is still online, you can also receive emails on the .me domain, while sending is switched over to .de.'); ?></p>
 <p><?php echo _('XMPP users will most likely notice their account stopped working. Unfortunately there is no easy way to migrate accounts with prosody (the XMPP server), as there is with email. You will need to update your account settings to reflect the new domain in order to login and re-connect with all your buddies.'); ?></p>
 <h2><?php echo _('Will the old address still work?'); ?></h2>
-<p><?php echo _('After a very brief downtime, it was back online. Now, after a year, it\'s expired once more. I may be able to buy it again after NameCheap returns the domain to the registry.'); ?></p>
+<p><?php echo _('After a very brief downtime, it was back online. Now, after a year, it\'s expired once more. I may be able to buy it again after Namecheap returns the domain to the registry. However, Namecheap apparently sells the domain now for $400…'); ?></p>
 <h2><?php echo _('I have a question, something is broken with my account.'); ?></h2>
 <p><?php echo _('Make sure you have switched all your settings to the new domain. It should work as before. Stil not working correctly? Feel free to <a href="/contact.php">contact me</a> for help.'); ?></p>
 <h2><?php echo _('How do I know you are still the same person? This could be law enforcement taking over the servers.'); ?></h2>
