@@ -6,19 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-01-13 13:57+0100\n"
-"PO-Revision-Date: 2023-01-13 13:49+0100\n"
-"Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
-"Language-Team: Russian <https://weblate.danwin1210.de/projects/main-website/"
+"PO-Revision-Date: 2023-01-16 19:49+0000\n"
+"Last-Translator: Goatli <goatli@porcod.io>\n"
+"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 3.1.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15\n"
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
@@ -29,12 +29,14 @@ msgid ""
 "Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
 "enthusiast"
 msgstr ""
+"Персональный веб-сайт Дэниела Винцена, веб-разработчика, системного "
+"администратора и энтузиаста в области интернет конфиденциальности"
 
 #: index.php:21 about.php:23 github-ipv6-proxy.php:26 contact.php:21 faq.php:20
 #: new-domain.php:23 hosting/index.php:21 privacy.php:21 chat/index.php:21
 #: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
 msgid "An avatar representing Daniel Winzen"
-msgstr ""
+msgstr "Мой аватар"
 
 #: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
 #: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
@@ -56,12 +58,12 @@ msgid ""
 "\">danwin1210.de</a>. To learn more about me and this site, check <a href=\"/"
 "about.php\">the about page</a>."
 msgstr ""
-"Здравствуйте, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
+"Добро пожаловать, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
 "системный администратор. Это мой персональный веб сайт, который я "
-"разрабатываю в свободное время. Также мой сайт доступен через <a href="
-"\"http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion"
-"\">Tor сеть</a> или же как обычный сервис <a href=\"https://danwin1210.de"
-"\">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, посетите <a "
+"разрабатываю в свободное время. Также мой сайт доступен через <a href=\"http"
+"://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+"сеть</a> или же как обычный сервис <a href=\"https://danwin1210.de\""
+">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, посетите <a "
 "href=\"/about.php\">эту страницу</a>."
 
 #: index.php:29
@@ -105,7 +107,7 @@ msgstr "Даниэль - Обо мне"
 msgid ""
 "About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
 "this site"
-msgstr ""
+msgstr "Информация обо мне и моем сайте"
 
 #: about.php:29 common.php:114
 msgid "About"
@@ -248,10 +250,14 @@ msgid ""
 "the raspberry pis at home. Additionally, they run a Postfix instance only "
 "listening on the VPN network to send out mails to clearnet."
 msgstr ""
+"Шлюзы clearnet на <a href=\"https://danwin1210.de\" цель=\"_blank\""
+">danwin1210.de </a> - это прокси-сервер NginX, который будет перенаправлять "
+"все запросы на домашнюю raspberry pi. Кроме того, они запускают экземпляр "
+"Postfix, который прослушивает только VPN-сеть для отправки писем в clearnet."
 
 #: about.php:50
 msgid "All servers are interconnected with a Wireguard VPN."
-msgstr ""
+msgstr "Все серверы соединены между собой с помощью Wireguard VPN."
 
 #: about.php:51
 msgid "Hosting providers I use(ed) and servers hosted there:"
@@ -301,6 +307,8 @@ msgstr ""
 msgid ""
 "GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
 msgstr ""
+"Прокси-сервер GitHub IPv6 позволяет загружать репозитории GitHub только на "
+"серверах IPv6"
 
 #: github-ipv6-proxy.php:34
 #, php-format
@@ -311,6 +319,11 @@ msgid ""
 "discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
 "support IPv6</a>."
 msgstr ""
+"Недавно мне пришлось клонировать репозиторий git на GitHub через сервер "
+"только для IPv6, который я арендовал у моего любимого хостинг-провайдера %s. "
+"К сожалению, я понял, что GitHub все еще <a href=\"https://github.com/orgs/"
+"community/discussions/10539 \" target=\"_blank\" rel=\"noopener noreferrer\""
+">не поддерживает IPv6</a>."
 
 #: github-ipv6-proxy.php:35
 msgid ""
@@ -318,6 +331,9 @@ msgid ""
 "servers. An alternative could have been installing Tor to download "
 "anonymously."
 msgstr ""
+"Моим обходным путем была настройка WireGuard VPN с одним из моих серверов с "
+"двойным стеком. Альтернативой могла бы быть установка Tor для анонимной "
+"загрузки."
 
 #: github-ipv6-proxy.php:36
 msgid ""
@@ -328,6 +344,12 @@ msgid ""
 "users from using unnecessary resources, as they can already clone from "
 "GitHub directly."
 msgstr ""
+"Поскольку я далеко не единственный пользователь с сервером только для IPv6, "
+"который хочет загружать репозитории с GitHub, я решил предоставить "
+"общедоступный прокси-сервер, который можно использовать для доступа к GitHub "
+"в сети IPv6, пока GitHub не предоставит встроенную поддержку IPv6. Прокси "
+"доступен только на IPv6, чтобы пользователи IPv4 не использовали ненужные "
+"ресурсы, поскольку они уже могут клонировать напрямую с GitHub."
 
 #: github-ipv6-proxy.php:37
 msgid ""
@@ -338,6 +360,13 @@ msgid ""
 "after accepting it. See below for a more permanent solution, that's more "
 "privacy-friendly."
 msgstr ""
+"Обратите внимание, что мой https-прокси обслуживает ssl-сертификат, выданный "
+"для моего домена, что означает, что я расшифровываю и повторно шифрую ваш "
+"трафик (и потенциально мог бы изучить его, но я этого не делаю). Это "
+"необходимо, так как в противном случае вы получите предупреждение о "
+"недопустимом сертификате ssl + github перенаправит на порт по умолчанию "
+"после его принятия. Смотрите ниже более постоянное решение, которое более "
+"благоприятно для конфиденциальности."
 
 #: github-ipv6-proxy.php:38
 #, php-format
@@ -345,14 +374,21 @@ msgid ""
 "So how does it work? Let's assume we want to clone the PHP Chat script I've "
 "published at %s. Normally cloning the repository would look like this:"
 msgstr ""
+"Так как же это работает? Давайте предположим, что мы хотим клонировать PHP-"
+"скрипт чата, который я опубликовал в %s. Обычно клонирование репозитория "
+"выглядело бы следующим образом:"
 
 #: github-ipv6-proxy.php:40
 msgid "On an IPv6 connection, you can use my proxy service like this:"
 msgstr ""
+"При подключении по протоколу IPv6 вы можете использовать мой прокси-сервис "
+"следующим образом:"
 
 #: github-ipv6-proxy.php:42
 msgid "And if you would like to clone via ssh you can also do it like this:"
 msgstr ""
+"И если вы хотите клонировать через ssh, вы также можете сделать это "
+"следующим образом:"
 
 #: github-ipv6-proxy.php:44
 msgid ""
@@ -360,22 +396,30 @@ msgid ""
 "GitHub, without me re-encrypting your traffic, should add the following to /"
 "etc/hosts:"
 msgstr ""
+"Те, кто хочет использовать прокси более постоянно и / или напрямую общаться "
+"с GitHub, без того, чтобы я повторно шифровал ваш трафик, должны добавить "
+"следующее в /etc /hosts:"
 
 #: github-ipv6-proxy.php:49
 msgid "Once added, you can clone as usual, without any changes:"
 msgstr ""
+"После добавления вы можете клонировать как обычно, без каких-либо изменений:"
 
 #: github-ipv6-proxy.php:52
 msgid ""
 "All of this is done with the following nginx configuration on a dual stack "
 "server:"
 msgstr ""
+"Все это делается с помощью следующей конфигурации nginx на сервере с двойным "
+"стеком:"
 
 #: github-ipv6-proxy.php:90 chat/index.php:32
 msgid ""
 "If there are any further questions, feel free to <a href=\"/contact.php"
 "\">contact me</a>."
 msgstr ""
+"Если есть какие-либо дополнительные вопросы, не стесняйтесь <a href=\"/"
+"contact.php \">свяжитесь со мной</a>."
 
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
@@ -403,7 +447,7 @@ msgstr "Имя:"
 
 #: contact.php:33
 msgid "Honeypot (do not fill anything):"
-msgstr ""
+msgstr "Горшочек для меда (ничего не пишите):"
 
 #: contact.php:34
 msgid "Subject:"
@@ -418,14 +462,16 @@ msgid ""
 "I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
 "\">Privacy Policy</a>"
 msgstr ""
+"Я прочитал и согласен с <a href=\"/privacy.php \" target=\"_blank\""
+">Политикой конфиденциальности</a>"
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
-msgstr ""
+msgstr "Вы заполнили поле \"Горшочек с медом\" : ( Вы человек?"
 
 #: contact.php:61
 msgid "You haven't entered a message yet."
-msgstr ""
+msgstr "Вы не ввели сообщение."
 
 #: contact.php:70
 msgid "Message successfully sent!"
@@ -450,6 +496,7 @@ msgstr ""
 #: contact.php:79
 msgid "Disclaimer - External links"
 msgstr ""
+"Отказ от ответственности за размещенные ссылки ведущие на сторонние сайты"
 
 #: contact.php:80
 msgid ""
@@ -464,10 +511,22 @@ msgid ""
 "without concrete evidence of legal violations. At knowledge of legal "
 "violations, however, such external links will be deleted immediately."
 msgstr ""
+"Этот веб-сайт содержит ссылки на веб-сайты третьих лиц (\"внешние ссылки\"). "
+"Ответственность за эти веб-сайты несет соответствующий оператор. При первом "
+"размещении ссылок на сторонний контент провайдер (то есть я) проверил, нет "
+"ли каких-либо нарушений закона. Во время проверки и размещения не было "
+"никаких очевидных нарушений закона. Я как поставщик не имею никакого влияния "
+"на текущий и будущий дизайн и содержание страниц и в целом сайта, на которые "
+"даны ссылки в разделе onion link и других разделов. Установка ссылок ведущих "
+"на внешнее сайты не означает, что поставщик заявляет о праве собственности "
+"на контент, стоящий за ссылкой. Постоянный контроль внешних ссылок "
+"нецелесообразен для провайдера без конкретных доказательств нарушений "
+"законодательства. Однако, если станет известно о нарушениях закона, такие "
+"внешние ссылки будут немедленно удалены с моего сайта."
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
-msgstr ""
+msgstr "Даниэль - FAQ - Часто задаваемые вопросы"
 
 #: faq.php:9 faq.php:15
 msgid ""
@@ -480,8 +539,8 @@ msgstr ""
 #: faq.php:25 faq.php:52
 msgid "I found an illegal link/content on your site, can you remove it?"
 msgstr ""
-"Я наткнулся на нелегальную ссылку или содержание на вашем хостинге. Могу ли "
-"я удалить их?"
+"Я наткнулся на нелегальную ссылку или содержание на вашем хостинге. Куда я "
+"могу обратиться для их удаления?"
 
 #: faq.php:25 faq.php:53
 #, php-format
@@ -489,7 +548,7 @@ msgid ""
 "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
 "possible."
 msgstr ""
-"Да, пожалуйста, <a href=\"%s\">зарепортил это</a>, и я займусь удалением, "
+"Да, конечно, <a href=\"%s\">свяжитесь со мной</a>, и я займусь удалением, "
 "как только смогу."
 
 #: faq.php:26 faq.php:56
@@ -503,15 +562,16 @@ msgid ""
 "\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia article</"
 "a>."
 msgstr ""
-"PGP это программ шифрования, который используется для зашифровывания или "
-"подписи в почте и файлах. <a href=\"https://ru.wikipedia.org/wiki/PGP\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">Больше информации в этой "
-"статье Википедии</a>."
+"PGP - это программа шифрования, которую можно использовать для шифрования "
+"или подписи электронных писем и файлов. <a href=\"https://ru.wikipedia.org/"
+"wiki/PGP\" target=\"_blank\" rel=\"noopener noreferrer\">Больше информации "
+"вы можете узнать в Википедии</a>."
 
 #: faq.php:27 faq.php:60
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
-"У меня есть идея улучшения для твоего сайта, можешь добавить такую-то фичу?"
+"У меня есть идея по улучшению сайта и сервисов, или добавления какой либо "
+"функции, как мне её предложить?"
 
 #: faq.php:27 faq.php:61
 #, php-format
@@ -519,8 +579,8 @@ msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
 "It might take a while until your feature gets added though."
 msgstr ""
-"Да, пожалуйста, <a href=\"%s\">напиши мне</a>. Возможно, я закинув её в свой "
-"TODO-список. Но придётся подождать, пока я смогу её разработать."
+"Да, пожалуйста, <a href=\"%s\">свяжитесь со мной</a>. Я рассмотрю её в "
+"ближайшее время. Но придётся подождать, пока я смогу её разработать."
 
 #: faq.php:28 faq.php:64
 msgid ""
@@ -556,8 +616,8 @@ msgstr ""
 "Нет, это просто расхожие страшилки. Сейчас на YouTube полно роликов про так "
 "называемый дипвеб (deep web), авторы которых уверяют, что видели такие "
 "сайты. Вот только на этой легенде кормятся обычные мошенники. Они создают "
-"сайт, похожий на редрум, и просят оплату в биткоинах за доступ. Никогда не "
-"платите! Эти сайты ненастоящие."
+"сайт, похожий на редрум, и просят оплату в биткоинах за доступ к ним. "
+"Никогда не платите! Эти сайты ненастоящие."
 
 #: faq.php:30 faq.php:72
 msgid ""
@@ -593,11 +653,11 @@ msgid ""
 "horror stories you have heard about Tor are just that, stories."
 msgstr ""
 "Нет, даркнет-сеть Тор создавалась для возможности анонимно пользоваться "
-"интернетом, обходить цензуру и анонимно размещать сайты. Да, конечно, это "
+"интернетом, обходить цензуру и анонимно размещать сайты. И, конечно же , это "
 "используют не только для благих целей. Есть много фишинговых сайтов, "
 "мошенников, детской порнографии. Но помимо факта анонимности, Тор не особо "
 "отличается от клирнета (обычного интернета). Большинство жутких историй, "
-"которые можно услышать о тёмном интернете - просто байки."
+"которые можно услышать о тёмном интернете - просто выдумки."
 
 #: faq.php:32 faq.php:80
 msgid "What's the difference between deep web and darknet?"
@@ -631,36 +691,49 @@ msgid ""
 "your keyboard and start typing some programs. Start with something simple "
 "and keep yourself challenged with new tasks."
 msgstr ""
+"Шутки в сторону, обучить вас программированию или хакерству - это задача, "
+"которая займет много времени (лет). Я учусь уже 10 лет и до сих пор "
+"постоянно узнаю что-то новое. Но для начала я бы порекомендовал прочитать "
+"вводную литературу для начинающих, которая поможет вам научиться создавать "
+"простые программы самостоятельно. Если вы предпочитаете смотреть видео, на "
+"YouTube тоже есть много обучающих программ. Но самое главное, вам придется "
+"взять клавиатуру и начать писать букавки. Начните с чего-нибудь простого и "
+"ставьте перед собой новые задачи."
 
 #: faq.php:34 faq.php:94
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
 msgstr ""
+"Можете ли вы взломать мою школу или техникум и изменить мои оценки или найти "
+"кого-нибудь, кто это сделает?"
 
 #: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:100
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
-msgstr ""
+msgstr "Да, мне очень охота в тюрьму! Извините, не могу вам с этим помочь."
 
 #: faq.php:35 faq.php:95
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
 msgstr ""
+"Можете ли вы подсказать, где можно надежно получить украденные учетные "
+"записи PayPal или кредитные карты?"
 
 #: faq.php:36 faq.php:96
 msgid "Can you issue fake Covid19 test results?"
 msgstr ""
+"Можете ли вы мне помочь с получением поддельных результатов теста на Covid19?"
 
 #: faq.php:37 faq.php:97
 msgid "Can you do some other illegal things for me?"
-msgstr ""
+msgstr "Можете ли вы сделать для меня еще какие-нибудь незаконные вещи?"
 
 #: faq.php:38 faq.php:103
 msgid "Can you hack my girlfriend? I think she's cheating."
-msgstr ""
+msgstr "Можешь ли ты взломать мою девушку? Я подозреваю её в измене."
 
 #: faq.php:38 faq.php:104
 msgid ""
@@ -671,10 +744,18 @@ msgid ""
 "hacker, you should definitely think about breaking up, because relationships "
 "are based on trust, but obviously you can't trust anymore."
 msgstr ""
+"Да, я мог бы попытаться, но я не буду. Не доверяйте сайтам, которые "
+"предагают вам данную услугу, потому что все они мошенники. Это просто "
+"неправильно с этической точки зрения и, это больше повредит вашим "
+"отношениям, чем поможет вам. Поговори с ней, это лучшее, что ты можешь "
+"сделать. Если вы подумываете нанять хакера, вам определенно следует подумать "
+"о разрыве отношений, потому что отношения основаны на доверии, но, видимо, "
+"вы больше не можете доверять друг другу."
 
 #: faq.php:39 faq.php:107
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr ""
+"Мое электронное письмо не отправляется. Я получаю сообщение об ошибке TLS"
 
 #: faq.php:39 faq.php:108
 #, php-format
@@ -686,10 +767,20 @@ msgid ""
 "You can disable mandatory encryption in your <a href=\"%s\">account "
 "settings</a>, if you still need to send this email."
 msgstr ""
+"Скорее всего вы пытаетесь отправить письмо на почтовый сервер, который не "
+"принимает электронные письма с помощью зашифрованной передачи или использует "
+"небезопасные протоколы. Это очень прискорбно, потому что это приведет к "
+"утечке содержимого вашей электронной почты любому пользователю Интернета, "
+"который может перехватить ваше электронное письмо до того, как оно достигнет "
+"адресата. Вы можете отключить обязательное шифрование в настройках своей "
+"учетной записи <a href=\"%s\"></a>, если вам все еще нужно отправить это "
+"электронное письмо."
 
 #: faq.php:40 faq.php:111
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr ""
+"Я не могу получить электронное письмо, отправитель получает сообщение об "
+"ошибке TLS"
 
 #: faq.php:40 faq.php:112
 #, php-format
@@ -701,25 +792,35 @@ msgid ""
 "You can disable mandatory encryption in your <a href=\"%s\">account "
 "settings</a>, if you still need to receive this email."
 msgstr ""
+"Скорее всего вам пытаются отправить электронное письмо с почтового сервера, "
+"который не поддерживает отправку электронных писем с помощью зашифрованной "
+"передачи или использует небезопасные протоколы. Это очень прискорбно, потому "
+"что это приведет к утечке содержимого вашей электронной почты любому "
+"пользователю Интернета, который может перехватить ваше электронное письмо до "
+"того, как оно достигнет адресата. Вы можете отключить обязательное "
+"шифрование в настройках своей учетной записи <a href=\"%s\"></a>, если вам "
+"все еще нужно получить это электронное письмо."
 
 #: faq.php:41 faq.php:115
 msgid "I have more Questions."
-msgstr "У меня есть ещё вопросы."
+msgstr "У меня остались вопросы."
 
 #: faq.php:41 faq.php:116
 #, php-format
 msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr "Вы можете <a href=\"%s\">написать мне</a>."
+msgstr "Вы можете <a href=\"%s\">связаться со мной</a>."
 
 #: faq.php:44
 msgid "FAQ - Frequently Asked Questions"
-msgstr ""
+msgstr "FAQ - Часто задаваемые вопросы"
 
 #: faq.php:45
 msgid ""
 "Here you have a list of frequently asked questions regarding the services I "
 "provide and their answers."
 msgstr ""
+"Здесь находится список часто задаваемых вопросов, касающихся предоставления "
+"моих услуг, и ответы на них."
 
 #: faq.php:48
 msgid "Question"
@@ -736,8 +837,8 @@ msgid ""
 "Sorry guys, only considering females."
 msgstr ""
 "Да, выходи за меня замуж и я тебя обучу, но если ты научишь меня кое-чему "
-"взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Sorry guys, only "
-"considering females."
+"взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Предложение "
+"действительно только для женского пола."
 
 #: common.php:107
 msgid "Chat"
@@ -745,31 +846,31 @@ msgstr "Чат"
 
 #: common.php:108
 msgid "Online-Test"
-msgstr ""
+msgstr "Онлайн-Тест"
 
 #: common.php:109
 msgid "Onion link list"
-msgstr ""
+msgstr "Список ссылок Onion"
 
 #: common.php:110
 msgid "E-Mail + XMPP"
-msgstr ""
+msgstr "Эл.почта + Jabber"
 
 #: common.php:111 tutorials/index.php:27
 msgid "Tutorials"
-msgstr ""
+msgstr "Учебники"
 
 #: common.php:113
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: common.php:115
 msgid "Privacy"
-msgstr ""
+msgstr "Политика конфиденциальности"
 
 #: common.php:127
 msgid "Add translation"
-msgstr ""
+msgstr "Добавить перевод"
 
 #: new-domain.php:6 new-domain.php:17 new-domain.php:27
 msgid "Daniel - New domain"
@@ -781,11 +882,11 @@ msgstr ""
 
 #: new-domain.php:29
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
-msgstr ""
+msgstr "Старый домен - DanWin1210.Me, новый домен - DanWin1210.De"
 
 #: new-domain.php:30
 msgid "Why this sudden and drastic change?"
-msgstr ""
+msgstr "Почему произошла эта внезапная и резкая перемена?"
 
 #: new-domain.php:31
 msgid ""
@@ -797,6 +898,14 @@ msgid ""
 "more time to investigate, and they appreciate my patience. I was refused "
 "renewing the domain or moving to a different registrar."
 msgstr ""
+"В середине октября 2021 года я заметил, что я был заблокирован из панели "
+"управления моего регистратора (Namecheap Inc.) за <q> подозрение в "
+"мошенничестве, возврате платежей или каком-либо подобном нарушении наших "
+"условий предоставления услуг</q>. После многократных обращений к ним в "
+"службу поддержки клиентов, даже спустя более года, все, что я добился от "
+"них, - это то, что я скоро получу от них весточку, поскольку им нужно больше "
+"времени для расследования, и они ценят мое терпение. Мне было отказано в "
+"продлении домена или переходе к другому регистратору."
 
 #: new-domain.php:32
 msgid ""
@@ -820,13 +929,15 @@ msgstr ""
 
 #: new-domain.php:34
 msgid "What does it mean for users?"
-msgstr ""
+msgstr "Что это означает для пользователей?"
 
 #: new-domain.php:35
 msgid ""
 "You don't have an account and just browse the site? Not much will change, "
 "just the address in your browsers URL bar."
 msgstr ""
+"Если у вас нет учетной записи и вы просто просматриваете сайт? Мало что "
+"изменится, только адрес в строке URL вашего браузера."
 
 #: new-domain.php:36
 msgid ""
@@ -837,6 +948,14 @@ msgid ""
 "might otherwise get locked out of your accounts, if they require you to e.g. "
 "click a link in your email for login."
 msgstr ""
+"Если вы зарегистрированы и используете службу XMPP или электронную почту то "
+"скорее всего, это вызовет у вас некоторые трудности, так как теперь у вас "
+"осталось всего несколько дней, чтобы перенести все ваши контакты / учетные "
+"записи на новый адрес. Любой сервис, где вы зарегистрировались со своим "
+"адресом электронной почты, необходимо будет обновить, чтобы отразить новый "
+"домен. В противном случае вы можете быть заблокированы из своих учетных "
+"записей, если они потребуют, чтобы вы, например, нажали на ссылку в своем "
+"электронном письме для входа в систему."
 
 #: new-domain.php:37
 msgid ""
@@ -844,6 +963,10 @@ msgid ""
 "php\" target=\"_blank\">in their account settings</a> to reflect the new "
 "domain and allow WKD clients to grab your key automatically."
 msgstr ""
+"Пользователи электронной почты также должны обновить свой PGP-ключ <a href=\""
+"/mail/manage_account.php \" target =\"_blank\">в настройках своей учетной "
+"записи</a>, чтобы отразить новый домен и позволить клиентам WKD "
+"автоматически получать ваш ключ."
 
 #: new-domain.php:38
 msgid ""
@@ -851,6 +974,10 @@ msgid ""
 "to be .de. As long as the old domain is still online, you can also receive "
 "emails on the .me domain, while sending is switched over to .de."
 msgstr ""
+"Вы все еще можете войти в систему, используя свои учетные данные "
+"пользователя .me, но учетная запись будет .de. Пока старый домен все еще "
+"доступен, вы также можете получать электронные письма на домене .me, в то "
+"время как отправка переключена на .de."
 
 #: new-domain.php:39
 msgid ""
@@ -860,10 +987,15 @@ msgid ""
 "settings to reflect the new domain in order to login and re-connect with all "
 "your buddies."
 msgstr ""
+"Пользователи XMPP, скорее всего, заметят, что их учетная запись перестала "
+"работать. К сожалению, нет простого способа перенести учетные записи с "
+"помощью prosody (XMPP-сервер), как это происходит с электронной почтой. Вам "
+"нужно будет обновить настройки своей учетной записи, чтобы войти в систему и "
+"продолжить общаться своими друзьям."
 
 #: new-domain.php:40
 msgid "Will the old address still work?"
-msgstr ""
+msgstr "Будет ли старый адрес по-прежнему работать?"
 
 #: new-domain.php:41
 msgid ""
@@ -875,7 +1007,7 @@ msgstr ""
 
 #: new-domain.php:42
 msgid "I have a question, something is broken with my account."
-msgstr ""
+msgstr "У меня вопрос, что-то не так с моей учетной записью."
 
 #: new-domain.php:43
 msgid ""
@@ -971,19 +1103,19 @@ msgstr ""
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
-msgstr ""
+msgstr "Политика конфиденциальности Даниэля"
 
 #: privacy.php:10 privacy.php:16
 msgid "Privacy policy of Daniel Winzen"
-msgstr ""
+msgstr "Политика конфиденциальности"
 
 #: privacy.php:27
 msgid "Privacy policy"
-msgstr ""
+msgstr "Политика конфиденциальности"
 
 #: privacy.php:28
 msgid "1. Name and Address of the controller"
-msgstr ""
+msgstr "1. Имя и адрес контролера"
 
 #: privacy.php:29
 msgid ""
@@ -991,31 +1123,37 @@ msgid ""
 "(GDPR), other data protection laws applicable in Member states of the "
 "European Union and other provisions related to data protection is:"
 msgstr ""
+"Контролер для целей Общего регламента по защите данных (GDPR), других "
+"законов о защите данных, применимых в государствах - членах Европейского "
+"Союза, и других положений, связанных с защитой данных, является:"
 
 #: privacy.php:34
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Телефон: %s"
 
 #: privacy.php:35
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Эл.почта: %s"
 
 #: privacy.php:36
 #, php-format
 msgid "Website: %s"
-msgstr ""
+msgstr "Сайт: %s"
 
 #: privacy.php:37
 msgid "2. Cookies"
-msgstr ""
+msgstr "2. Cookies (куки)"
 
 #: privacy.php:38
 msgid ""
 "The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
 "are stored in a computer system via an Internet browser."
 msgstr ""
+"Интернет-страницы Daniel Winzen используют файлы cookie. Файлы cookie - это "
+"текстовые файлы, которые сохраняются в компьютерной системе через "
+"интернет-браузер."
 
 #: privacy.php:39
 msgid ""
@@ -1028,6 +1166,15 @@ msgid ""
 "contain other cookies. A specific Internet browser can be recognized and "
 "identified using the unique cookie ID."
 msgstr ""
+"Многие интернет-сайты и серверы используют файлы cookie. Многие файлы cookie "
+"содержат так называемый идентификатор файла cookie. Идентификатор файла "
+"cookie - это уникальный идентификатор файла cookie. Он состоит из символьной "
+"строки, с помощью которой интернет-страницы и серверы могут быть назначены "
+"конкретному интернет-браузеру, в котором был сохранен файл cookie. Это "
+"позволяет посещаемым интернет-сайтам и серверам отличать индивидуальный "
+"браузер субъекта данных от других интернет-браузеров, содержащих другие "
+"файлы cookie. Конкретный интернет-браузер может быть распознан и "
+"идентифицирован с помощью уникального идентификатора файла cookie."
 
 #: privacy.php:40
 msgid ""
@@ -1035,6 +1182,9 @@ msgid ""
 "website with more user-friendly services that would not be possible without "
 "the cookie setting."
 msgstr ""
+"Используя файлы cookie, данный сайт может предоставлять пользователям этого "
+"веб-сайта более удобные услуги, которые были бы невозможны без использования "
+"файлов cookie."
 
 #: privacy.php:41
 msgid ""
@@ -1045,12 +1195,21 @@ msgid ""
 "is when you log in to the mail client, the cookie assures that you stay "
 "logged in with your account until closing your browser or logging out."
 msgstr ""
+"С помощью файлов cookie информация и предложения на моем веб-сайте могут "
+"быть оптимизированы с учетом потребностей пользователя. Файлы cookie "
+"позволяют мне, как упоминалось ранее, распознавать пользователей моего веб-"
+"сайта. Цель этого признания - облегчить пользователям использование моего "
+"веб-сайта. Примером использования файлов cookie является то, что когда вы "
+"входите в почтовый клиент, файл cookie гарантирует, что вы остаетесь в своей "
+"учетной записи до закрытия браузера или выхода из системы."
 
 #: privacy.php:42
 msgid ""
 "This site makes only use of technically necessary session cookies and does "
 "not use any form of tracking cookies."
 msgstr ""
+"Этот сайт использует только технически необходимые сессионные файлы cookie и "
+"не использует какие-либо формы отслеживающих файлов cookie."
 
 #: privacy.php:43
 msgid ""
@@ -1062,10 +1221,18 @@ msgid ""
 "data subject deactivates the setting of cookies in the Internet browser "
 "used, not all functions of my website may be entirely usable."
 msgstr ""
+"Субъект данных (он же посетитель моего сайта) может в любое время запретить "
+"установку файлов cookie через мой веб-сайт посредством соответствующей "
+"настройки используемого интернет-браузера и, таким образом, может навсегда "
+"запретить установку файлов cookie. Кроме того, уже установленные файлы "
+"cookie могут быть удалены в любое время с помощью интернет-браузера или "
+"других программ. Это возможно во всех популярных интернет-браузерах. Если "
+"субъект данных отключит настройку файлов cookie в используемом интернет-"
+"браузере, не все функции моего веб-сайта могут полноценно работать."
 
 #: privacy.php:44
 msgid "3. Collection of general data and information"
-msgstr ""
+msgstr "3. Сбор общих данных и информации"
 
 #: privacy.php:45
 msgid ""
@@ -1080,6 +1247,17 @@ msgid ""
 "similar data and information that may be used in the event of attacks on my "
 "information technology systems."
 msgstr ""
+"Сервер Daniel Winzen собирает ряд общих данных и информации, когда субъект "
+"данных или автоматизированная система обращается к веб-сайту или другим "
+"предоставляемым услугам. Эти общие данные и информация хранятся в файлах "
+"журнала сервера. Собираемыми могут быть (1) типы и версии используемых "
+"браузеров, (2) операционная система, используемая системой доступа, (3) веб-"
+"сайт, с которого система доступа попадает на мой веб-сайт (так называемые "
+"рефереры), (4) вспомогательные веб-сайты, (5) дата и время доступа к "
+"интернет-сайту / передаче электронной почты, (6) отправитель и получатель "
+"электронной почты и (7) любые другие аналогичные данные и информация, "
+"которые могут быть использованы в случае атак на мои информационно-"
+"технологические системы."
 
 #: privacy.php:46
 msgid ""
@@ -1095,10 +1273,21 @@ msgid ""
 "personal data provided by a data subject for up to 48 hours and are then "
 "permanently deleted."
 msgstr ""
+"При использовании этих общих данных и информации Я (Daniel Winzen) не делаю "
+"никаких выводов о субъекте данных. Скорее, эта информация необходима для (1) "
+"правильного предоставления содержимого моего веб-сайта и услуг, (2) "
+"оптимизации моих услуг, (3) обеспечения долгосрочной жизнеспособности моих "
+"систем информационных технологий и технологии веб-сайта. Таким образом, я "
+"могу анализировать анонимно собранные данные и информацию статистически, с "
+"целью повышения защиты данных и информационной безопасности моих услуг, а "
+"также для обеспечения оптимального уровня защиты персональных данных, "
+"которые я обрабатываю. Анонимные данные из файлов журнала сервера хранятся "
+"отдельно от всех персональных данных, предоставленных субъектом данных, в "
+"течение 48 часов, а затем удаляются безвозвратно."
 
 #: privacy.php:47
 msgid "4. Routine erasure and blocking of personal data"
-msgstr ""
+msgstr "4. Удаление и блокирование персональных данных"
 
 #: privacy.php:48
 msgid ""
@@ -1107,6 +1296,11 @@ msgid ""
 "as far as this is granted by the European legislator or other legislators in "
 "laws or regulations to which the controller is subject to."
 msgstr ""
+"Контролер данных должен обрабатывать и хранить персональные данные субъекта "
+"данных только в течение периода, необходимого для достижения цели хранения, "
+"или в той мере, в какой это разрешено европейским законодателем или другими "
+"законодателями в законах или нормативных актах, которым подчиняется "
+"контролер."
 
 #: privacy.php:49
 msgid ""
@@ -1114,10 +1308,14 @@ msgid ""
 "by the European legislator or another competent legislator expires, the "
 "personal data are routinely erased in accordance with legal requirements."
 msgstr ""
+"Если цель хранения неприменима или если срок хранения, предписанный "
+"европейским законодателем или другим компетентным законодателем, истекает, "
+"персональные данные обычно удаляются в соответствии с требованиями "
+"законодательства."
 
 #: privacy.php:50
 msgid "5. Rights of the data subject"
-msgstr ""
+msgstr "5. Права субъекта данных"
 
 #: privacy.php:51
 msgid ""
@@ -1128,10 +1326,16 @@ msgid ""
 "portability according to GDPR article 20, Right to object according to "
 "Article 21 GDPR"
 msgstr ""
+"Каждый субъект данных должен иметь право на подтверждение и доступ в "
+"соответствии со статьей 15 GDPR, Право на исправление в соответствии со "
+"статьей 16 GDPR, Право на удаление (право на забвение) в соответствии со "
+"статьей 17 GDPR, Право на ограничение обработки в соответствии со статьей 18 "
+"GDPR, Право на переносимость данных в соответствии со статьей GDPR 20, Право "
+"на возражение в соответствии со статьей 21 GDPR"
 
 #: privacy.php:52
 msgid "6. Legal basis for the processing"
-msgstr ""
+msgstr "6. Правовая основа для обработки"
 
 #: privacy.php:53
 msgid ""
@@ -1147,6 +1351,17 @@ msgid ""
 "as for the fulfillment of tax obligations, the processing is based on Art. "
 "6(1) lit. c GDPR."
 msgstr ""
+"Статья 6(1) лит. GDPR служит правовой основой для операций обработки, на "
+"которые я получаю согласие с определенной целью обработки. Если обработка "
+"персональных данных необходима для выполнения договора, стороной которого "
+"является субъект данных, как в случае, например, когда операции по обработке "
+"необходимы для предоставления услуг, обработка основана на статье 6(1) lit. "
+"b GDPR. То же самое относится к таким операциям обработки, которые "
+"необходимы для проведения преддоговорных мероприятий, например, в случае "
+"запросов, касающихся моих услуг. Если на меня распространяется юридическое "
+"обязательство, в соответствии с которым требуется обработка персональных "
+"данных, например, для выполнения налоговых обязательств, обработка основана "
+"на статье 6(1) lit. c GDPR."
 
 #: privacy.php:54
 msgid ""
@@ -1161,6 +1376,19 @@ msgid ""
 "that a legitimate interest could be assumed if the data subject is a client "
 "of the controller (Recital 47 Sentence 2 GDPR)."
 msgstr ""
+"Наконец, операции по обработке могли бы основываться на статье 6(1) lit. f "
+"GDPR. Это правовое основание используется для операций обработки, которые не "
+"подпадают ни под одно из вышеупомянутых правовых оснований, если обработка "
+"необходима для целей законных интересов, преследуемых мной или третьей "
+"стороной, за исключением случаев, когда такие интересы перекрываются "
+"интересами или основными правами и свободами субъекта данных. которые "
+"требуют защиты персональных данных. Такие операции по обработке особенно "
+"допустимы, поскольку они были специально упомянуты европейским "
+"законодателем. Он счел, что можно предположить законный интерес, если "
+"субъект данных является клиентом контролера (пункт 47 предложения 2 GDPR).\n"
+"\n"
+"*В случаях судебного разбирательства, или иных юридических тяжб, политика "
+"конфиденциальности на английском языке должна считаться приоритетной."
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:25
 msgid "Daniel - Chat"
@@ -1246,9 +1474,8 @@ msgid ""
 "one, you can <a href=\"/contact.php\">contact me here</a>."
 msgstr ""
 "Здесь я размещаю учебные пособия о которых меня просили. Если у вас есть "
-"предложение как улучшить учебное пособие или вы хотите чтобы я сделал еще "
-"какое-нибудь пособие, вы можете <a href=\"/contact.php\">связаться со мной "
-"здесь</a>."
+"предложение как улучшить пособие или вы хотите чтобы я сделал еще одно, вы "
+"можете <a href=\"/contact.php\">связаться со мной здесь</a>."
 
 #: tutorials/index.php:30
 msgid "Name"
