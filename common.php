@@ -79,7 +79,6 @@ if(isset($_REQUEST['lang']) && isset(LANGUAGES[$_REQUEST['lang']])){
 			break;
 		}
 	}
-
 }
 putenv('LC_ALL='.$locale);
 setlocale(LC_ALL, $locale);
