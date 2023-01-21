@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 08:53+0100\n"
+"POT-Creation-Date: 2023-01-21 12:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,15 +27,15 @@ msgid ""
 "enthusiast"
 msgstr ""
 
-#: index.php:21 chat/index.php:21 about.php:23 privacy.php:21 contact.php:21
-#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29 faq.php:20
-#: hosting/index.php:21 github-ipv6-proxy.php:26 new-domain.php:23
+#: index.php:21 about.php:23 github-ipv6-proxy.php:26 contact.php:21 faq.php:20
+#: new-domain.php:23 hosting/index.php:21 privacy.php:21 chat/index.php:21
+#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
 msgid "An avatar representing Daniel Winzen"
 msgstr ""
 
-#: index.php:24 chat/index.php:24 about.php:26 privacy.php:24 contact.php:24
-#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32 faq.php:23
-#: hosting/index.php:24 github-ipv6-proxy.php:29 new-domain.php:26
+#: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
+#: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
+#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
 msgid "Daniel"
 msgstr ""
 
@@ -75,59 +75,6 @@ msgid ""
 "If you like, what I've built here, you can support me by donating via "
 "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
 "contact.php\">contact me</a>."
-msgstr ""
-
-#: chat/index.php:6 chat/index.php:15 chat/index.php:25
-msgid "Daniel - Chat"
-msgstr ""
-
-#: chat/index.php:10 chat/index.php:16
-msgid "Daniel's Chat - a former darknet chat community"
-msgstr ""
-
-#: chat/index.php:27
-msgid "Daniel's Chat"
-msgstr ""
-
-#: chat/index.php:28
-msgid "After 9 years, I'm shutting down the chat for good."
-msgstr ""
-
-#: chat/index.php:29
-msgid ""
-"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">my onion link list</a>. If you are interested in running a similar "
-"chat community, you can download my chat script on <a href=\"https://github."
-"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">GitHub</a>."
-msgstr ""
-
-#: chat/index.php:30
-msgid ""
-"This chat started as a hobby project for use in school in 2013 and evolved "
-"into a very active darknet chat community. I handed over chat administration "
-"to various other people since 2017, as I was no longer able to find the time "
-"or motivation to administrate the chat. In recent months, the administration "
-"that took over, kept the chat very private, made people spend hours waiting "
-"to get access and randomly kicked people for no reason. This in turn filled "
-"my inbox with messages of people asking for assistance to access the chat "
-"and traffic has decreased to a fraction of what it used to be. In this "
-"state, it doesn't make sense to continue providing the service. Thus I "
-"decided to shut down the chat for good in December 2022, after 9 years."
-msgstr ""
-
-#: chat/index.php:31
-msgid ""
-"Since a few people asked me to make them admin and re-enable the chat: No, "
-"this decision has been made and was long overdue. The chat had nothing at "
-"all to do with me anymore, except that I've programmed it and I maintain the "
-"server. Anyone is welcome to create their own chat, but not here on my site."
-msgstr ""
-
-#: chat/index.php:32 github-ipv6-proxy.php:90
-msgid ""
-"If there are any further questions, feel free to <a href=\"/contact."
-"php\">contact me</a>."
 msgstr ""
 
 #: about.php:6 about.php:17
@@ -279,205 +226,89 @@ msgstr ""
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr ""
 
-#: privacy.php:6 privacy.php:15 privacy.php:25
-msgid "Daniel - Privacy policy"
+#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
+#: github-ipv6-proxy.php:33 common.php:111
+msgid "GitHub IPv6 proxy"
 msgstr ""
 
-#: privacy.php:10 privacy.php:16
-msgid "Privacy policy of Daniel Winzen"
-msgstr ""
-
-#: privacy.php:27
-msgid "Privacy policy"
-msgstr ""
-
-#: privacy.php:28
-msgid "1. Name and Address of the controller"
-msgstr ""
-
-#: privacy.php:29
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
-"Controller for the purposes of the General Data Protection Regulation "
-"(GDPR), other data protection laws applicable in Member states of the "
-"European Union and other provisions related to data protection is:"
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
 msgstr ""
 
-#: privacy.php:34
+#: github-ipv6-proxy.php:34
 #, php-format
-msgid "Phone: %s"
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %s. Unfortunately I realized "
+"that GitHub still <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
+"support IPv6</a>."
 msgstr ""
 
-#: privacy.php:35
+#: github-ipv6-proxy.php:35
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+
+#: github-ipv6-proxy.php:36
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+
+#: github-ipv6-proxy.php:37
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+
+#: github-ipv6-proxy.php:38
 #, php-format
-msgid "Email: %s"
-msgstr ""
-
-#: privacy.php:36
-#, php-format
-msgid "Website: %s"
-msgstr ""
-
-#: privacy.php:37
-msgid "2. Cookies"
-msgstr ""
-
-#: privacy.php:38
 msgid ""
-"The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
-"are stored in a computer system via an Internet browser."
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
 msgstr ""
 
-#: privacy.php:39
+#: github-ipv6-proxy.php:40
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr ""
+
+#: github-ipv6-proxy.php:42
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr ""
+
+#: github-ipv6-proxy.php:44
 msgid ""
-"Many Internet sites and servers use cookies. Many cookies contain a so-"
-"called cookie ID. A cookie ID is a unique identifier of the cookie. It "
-"consists of a character string through which Internet pages and servers can "
-"be assigned to the specific Internet browser in which the cookie was stored. "
-"This allows visited Internet sites and servers to differentiate the "
-"individual browser of the data subject from other Internet browsers that "
-"contain other cookies. A specific Internet browser can be recognized and "
-"identified using the unique cookie ID."
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
 msgstr ""
 
-#: privacy.php:40
+#: github-ipv6-proxy.php:49
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr ""
+
+#: github-ipv6-proxy.php:52
 msgid ""
-"Through the use of cookies, Daniel Winzen can provide the users of this "
-"website with more user-friendly services that would not be possible without "
-"the cookie setting."
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
 msgstr ""
 
-#: privacy.php:41
+#: github-ipv6-proxy.php:90 chat/index.php:32
 msgid ""
-"By means of a cookie, the information and offers on my website can be "
-"optimized with the user in mind. Cookies allow me, as previously mentioned, "
-"to recognize my website users. The purpose of this recognition is to make it "
-"easier for users to utilize my website. An example for the use of a cookie "
-"is when you log in to the mail client, the cookie assures that you stay "
-"logged in with your account until closing your browser or logging out."
-msgstr ""
-
-#: privacy.php:42
-msgid ""
-"This site makes only use of technically necessary session cookies and does "
-"not use any form of tracking cookies."
-msgstr ""
-
-#: privacy.php:43
-msgid ""
-"The data subject may, at any time, prevent the setting of cookies through my "
-"website by means of a corresponding setting of the Internet browser used, "
-"and may thus permanently deny the setting of cookies. Furthermore, already "
-"set cookies may be deleted at any time via an Internet browser or other "
-"software programs. This is possible in all popular Internet browsers. If the "
-"data subject deactivates the setting of cookies in the Internet browser "
-"used, not all functions of my website may be entirely usable."
-msgstr ""
-
-#: privacy.php:44
-msgid "3. Collection of general data and information"
-msgstr ""
-
-#: privacy.php:45
-msgid ""
-"The server of Daniel Winzen collects a series of general data and "
-"information when a data subject or automated system calls up the website or "
-"other provided services. This general data and information is stored in the "
-"server log files. Collected may be (1) the browser types and versions used, "
-"(2) the operating system used by the accessing system, (3) the website from "
-"which an accessing system reaches my website (so-called referrers), (4) the "
-"sub-websites, (5) the date and time of access to the Internet site / email "
-"transmission, (6) sender and recipient of an email, and (7) any other "
-"similar data and information that may be used in the event of attacks on my "
-"information technology systems."
-msgstr ""
-
-#: privacy.php:46
-msgid ""
-"When using these general data and information, Daniel Winzen does not draw "
-"any conclusions about the data subject. Rather, this information is needed "
-"to (1) deliver the content of my website and services correctly, (2) "
-"optimize my services, (3) ensure the long-term viability of my information "
-"technology systems and website technology. Therefore, I may analyze "
-"anonymously collected data and information statistically, with the aim of "
-"increasing the data protection and data security of my services, and to "
-"ensure an optimal level of protection for the personal data I process. The "
-"anonymous data of the server log files are stored separately from all "
-"personal data provided by a data subject for up to 48 hours and are then "
-"permanently deleted."
-msgstr ""
-
-#: privacy.php:47
-msgid "4. Routine erasure and blocking of personal data"
-msgstr ""
-
-#: privacy.php:48
-msgid ""
-"The data controller shall process and store the personal data of the data "
-"subject only for the period necessary to achieve the purpose of storage, or "
-"as far as this is granted by the European legislator or other legislators in "
-"laws or regulations to which the controller is subject to."
-msgstr ""
-
-#: privacy.php:49
-msgid ""
-"If the storage purpose is not applicable, or if a storage period prescribed "
-"by the European legislator or another competent legislator expires, the "
-"personal data are routinely erased in accordance with legal requirements."
-msgstr ""
-
-#: privacy.php:50
-msgid "5. Rights of the data subject"
-msgstr ""
-
-#: privacy.php:51
-msgid ""
-"Each data subject shall have the right of confirmation and access according "
-"to Article 15 GDPR, Right to rectification according to Article 16 GDPR, "
-"Right to erasure (Right to be forgotten) according to Article 17 GDPR, Right "
-"of restriction of processing according to Article 18 GDPR, Right to data "
-"portability according to GDPR article 20, Right to object according to "
-"Article 21 GDPR"
-msgstr ""
-
-#: privacy.php:52
-msgid "6. Legal basis for the processing"
-msgstr ""
-
-#: privacy.php:53
-msgid ""
-"Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
-"for which I obtain consent for a specific processing purpose. If the "
-"processing of personal data is necessary for the performance of a contract "
-"to which the data subject is party, as is the case, for example, when "
-"processing operations are necessary to provide services, the processing is "
-"based on Article 6(1) lit. b GDPR. The same applies to such processing "
-"operations which are necessary for carrying out pre-contractual measures, "
-"for example in the case of inquiries concerning my services. If I am subject "
-"to a legal obligation by which processing of personal data is required, such "
-"as for the fulfillment of tax obligations, the processing is based on Art. "
-"6(1) lit. c GDPR."
-msgstr ""
-
-#: privacy.php:54
-msgid ""
-"Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
-"This legal basis is used for processing operations which are not covered by "
-"any of the above-mentioned legal grounds, if processing is necessary for the "
-"purposes of the legitimate interests pursued by me or by a third party, "
-"except where such interests are overridden by the interests or fundamental "
-"rights and freedoms of the data subject which require protection of personal "
-"data. Such processing operations are particularly permissible because they "
-"have been specifically mentioned by the European legislator. He considered "
-"that a legitimate interest could be assumed if the data subject is a client "
-"of the controller (Recital 47 Sentence 2 GDPR)."
-msgstr ""
-
-#: privacy.php:55
-msgid "7. Legally binding translation"
-msgstr ""
-
-#: privacy.php:56
-msgid "Legally binding is only the English version of this privacy policy"
+"If there are any further questions, feel free to <a href=\"/contact."
+"php\">contact me</a>."
 msgstr ""
 
 #: contact.php:6 contact.php:15
@@ -560,189 +391,6 @@ msgid ""
 "Constant control of the external links are not reasonable for the provider "
 "without concrete evidence of legal violations. At knowledge of legal "
 "violations, however, such external links will be deleted immediately."
-msgstr ""
-
-#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
-msgid "Daniel - Tutorials"
-msgstr ""
-
-#: tutorials/index.php:10 tutorials/index.php:16
-msgid "Various tutorials provided by Daniel Winzen"
-msgstr ""
-
-#: tutorials/index.php:27 common.php:110
-msgid "Tutorials"
-msgstr ""
-
-#: tutorials/index.php:28
-msgid ""
-"Here I upload tutorials that have been asked for a number of times. If you "
-"have suggestions on how to improve a tutorial or want me to make one another "
-"one, you can <a href=\"/contact.php\">contact me here</a>."
-msgstr ""
-
-#: tutorials/index.php:30
-msgid "Name"
-msgstr ""
-
-#: tutorials/index.php:30
-msgid "Short description"
-msgstr ""
-
-#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
-msgid "Torify FTP clients"
-msgstr ""
-
-#: tutorials/index.php:31
-msgid "This tutorial will show you how to torify FTP clients."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
-#: tutorials/torify-ftp/index.php:36
-msgid "Tutorials - Torify FTP clients"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:10 tutorials/torify-ftp/index.php:24
-msgid ""
-"This tutorial will show you how to torify FTP clients in the example of "
-"FileZilla and WinSCP."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid "Download FileZilla"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid ""
-"If you haven't installed FileZilla yet, you need to first download FileZilla."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid "Configure proxy"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:45
-msgid ""
-"Go to Generic Proxy settings and change the type to SOCKS5, host to "
-"localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
-"TorBrowser)."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid "Alternatively download WinSCP"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid "If you haven't installed WinSCP yet, you need to first download WinSCP."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid "Enter connection details"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:77
-msgid "When started, enter your connection details."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33
-msgid "Change connection timeout"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:83
-msgid ""
-"Click on the Advanced… button and under Connection, change timeout to 50 as "
-"Tor can be slow at times."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:89
-msgid ""
-"Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
-"and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
-"and set \"Do DNS name lookup at proxy end\" to yes."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:37
-msgid ""
-"This tutorial will show you how to torify FTP clients in the example of <a "
-"href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:38
-msgid ""
-"Let's assume you have created an account on my former Hosting service and "
-"you want to upload your files. To do that, you connect with the detials "
-"given in your dashboard. Clearnet works out of the box, but is not torified. "
-"To connect to the hidden service, you need to make a few changes to the "
-"configuration."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:41
-msgid "Hosting dashboard"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:43
-msgid "1. FileZilla"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:44
-msgid ""
-"If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
-"project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">download FileZilla here</a>."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:50
-msgid "FileZilla settings"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:57
-msgid "FileZilla Generic Proxy settings"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:60
-msgid ""
-"If you have changed your proxy settings and get the following error: "
-"\"ECONNREFUSED - Connection refused by server\" that likely means you have "
-"configured your proxy incorrectly. Check if everything is set correctly, Tor "
-"is running and if you still have the issue, switch the Port between 9050 and "
-"9150. This is what's causing most connection issues people have."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:64
-msgid "FileZilla connection error"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:66
-msgid ""
-"Once you have configured everything correctly, you should be able to "
-"successfully connect and start uploading files."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:71
-msgid "FileZilla success"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:75
-msgid "2. WinSCP"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:76
-msgid ""
-"If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
-"eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
-"WinSCP here</a>."
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:81
-msgid "Connection details"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:87
-msgid "Connection optimizations"
-msgstr ""
-
-#: tutorials/torify-ftp/index.php:93
-msgid "Proxy configuration"
 msgstr ""
 
 #: faq.php:6 faq.php:14 faq.php:24
@@ -975,123 +623,36 @@ msgid ""
 "Sorry guys, only considering females."
 msgstr ""
 
-#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
-#: hosting/index.php:27
-msgid "Hosting - Info"
+#: common.php:106
+msgid "Chat"
 msgstr ""
 
-#: hosting/index.php:10 hosting/index.php:16
-msgid "Daniel's Hosting - a former darknet web hosting service"
+#: common.php:107
+msgid "Online-Test"
 msgstr ""
 
-#: hosting/index.php:28
-msgid ""
-"In March 2020 a hacker deleted all databases related to my hosting, thus I "
-"was forced to shut down my hosting service. If you want to contribute or "
-"setup your own hosting, check out my open source project at <a "
-"href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
-"rel=\"noopener\">https://github.com/DanWin/hosting</a>."
+#: common.php:108
+msgid "Onion link list"
 msgstr ""
 
-#: hosting/index.php:29
-msgid ""
-"Being a darknet hoster has taught me many things. However, this was a free "
-"time project I did next to my full time job and it's very time-consuming to "
-"try and keep the server clean from illegal and scammy sites. I've spent 10 "
-"times more time on deleting accounts than I could find time to continue "
-"development. At this time I do not plan on continuing the hosting project, "
-"but this doesn't have to be the end. There are other hosting providers like "
-"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
-"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a "
-"href=\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/"
-"\" target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
-"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
-"rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
-"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
-"rel=\"noopener\">available for download</a>, which should enable anyone "
-"willing to become the next darknet shared hosting provider to start where I "
-"left of."
+#: common.php:109
+msgid "E-Mail + XMPP"
 msgstr ""
 
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:111
-msgid "GitHub IPv6 proxy"
+#: common.php:110 tutorials/index.php:27
+msgid "Tutorials"
 msgstr ""
 
-#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
-msgid ""
-"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+#: common.php:112
+msgid "FAQ"
 msgstr ""
 
-#: github-ipv6-proxy.php:34
-#, php-format
-msgid ""
-"Recently I had to clone a git repository on GitHub via an IPv6 only server "
-"that I rented at my favourite hosting provider %s. Unfortunately I realized "
-"that GitHub still <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
-"support IPv6</a>."
+#: common.php:114
+msgid "Privacy"
 msgstr ""
 
-#: github-ipv6-proxy.php:35
-msgid ""
-"My workaround was setting up a WireGuard VPN with one of my dual-stack "
-"servers. An alternative could have been installing Tor to download "
-"anonymously."
-msgstr ""
-
-#: github-ipv6-proxy.php:36
-msgid ""
-"As I'm by far not the only user with an IPv6 only server looking to download "
-"repositories from GitHub, I decided to provide a public proxy server that "
-"can be used to access GitHub on an IPv6 network, until GitHub provides "
-"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
-"users from using unnecessary resources, as they can already clone from "
-"GitHub directly."
-msgstr ""
-
-#: github-ipv6-proxy.php:37
-msgid ""
-"Note, that my https proxy is serving a ssl certificate issued for my domain, "
-"which means I decrypt and re-encrypt your traffic (and could potentially "
-"look into it, but I don't). It is necessary as you'd get an invalid ssl "
-"certificate warning otherwise + github would redirect to the default port "
-"after accepting it. See below for a more permanent solution, that's more "
-"privacy-friendly."
-msgstr ""
-
-#: github-ipv6-proxy.php:38
-#, php-format
-msgid ""
-"So how does it work? Let's assume we want to clone the PHP Chat script I've "
-"published at %s. Normally cloning the repository would look like this:"
-msgstr ""
-
-#: github-ipv6-proxy.php:40
-msgid "On an IPv6 connection, you can use my proxy service like this:"
-msgstr ""
-
-#: github-ipv6-proxy.php:42
-msgid "And if you would like to clone via ssh you can also do it like this:"
-msgstr ""
-
-#: github-ipv6-proxy.php:44
-msgid ""
-"Those wanting to use the proxy more permanently and/or talk directly to "
-"GitHub, without me re-encrypting your traffic, should add the following to /"
-"etc/hosts:"
-msgstr ""
-
-#: github-ipv6-proxy.php:49
-msgid "Once added, you can clone as usual, without any changes:"
-msgstr ""
-
-#: github-ipv6-proxy.php:52
-msgid ""
-"All of this is done with the following nginx configuration on a dual stack "
-"server:"
+#: common.php:126
+msgid "Add translation"
 msgstr ""
 
 #: new-domain.php:6 new-domain.php:17 new-domain.php:27
@@ -1229,30 +790,469 @@ msgid ""
 "before."
 msgstr ""
 
-#: common.php:106
-msgid "Chat"
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
+#: hosting/index.php:27
+msgid "Hosting - Info"
 msgstr ""
 
-#: common.php:107
-msgid "Online-Test"
+#: hosting/index.php:10 hosting/index.php:16
+msgid "Daniel's Hosting - a former darknet web hosting service"
 msgstr ""
 
-#: common.php:108
-msgid "Onion link list"
+#: hosting/index.php:28
+msgid ""
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at <a "
+"href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
+"rel=\"noopener\">https://github.com/DanWin/hosting</a>."
 msgstr ""
 
-#: common.php:109
-msgid "E-Mail + XMPP"
+#: hosting/index.php:29
+msgid ""
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a "
+"href=\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/"
+"\" target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+"rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
+"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+"rel=\"noopener\">available for download</a>, which should enable anyone "
+"willing to become the next darknet shared hosting provider to start where I "
+"left of."
 msgstr ""
 
-#: common.php:112
-msgid "FAQ"
+#: privacy.php:6 privacy.php:15 privacy.php:25
+msgid "Daniel - Privacy policy"
 msgstr ""
 
-#: common.php:114
-msgid "Privacy"
+#: privacy.php:10 privacy.php:16
+msgid "Privacy policy of Daniel Winzen"
 msgstr ""
 
-#: common.php:126
-msgid "Add translation"
+#: privacy.php:27
+msgid "Privacy policy"
+msgstr ""
+
+#: privacy.php:28
+msgid "1. Name and Address of the controller"
+msgstr ""
+
+#: privacy.php:29
+msgid ""
+"Controller for the purposes of the General Data Protection Regulation "
+"(GDPR), other data protection laws applicable in Member states of the "
+"European Union and other provisions related to data protection is:"
+msgstr ""
+
+#: privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: privacy.php:36
+#, php-format
+msgid "Website: %s"
+msgstr ""
+
+#: privacy.php:37
+msgid "2. Cookies"
+msgstr ""
+
+#: privacy.php:38
+msgid ""
+"The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
+"are stored in a computer system via an Internet browser."
+msgstr ""
+
+#: privacy.php:39
+msgid ""
+"Many Internet sites and servers use cookies. Many cookies contain a so-"
+"called cookie ID. A cookie ID is a unique identifier of the cookie. It "
+"consists of a character string through which Internet pages and servers can "
+"be assigned to the specific Internet browser in which the cookie was stored. "
+"This allows visited Internet sites and servers to differentiate the "
+"individual browser of the data subject from other Internet browsers that "
+"contain other cookies. A specific Internet browser can be recognized and "
+"identified using the unique cookie ID."
+msgstr ""
+
+#: privacy.php:40
+msgid ""
+"Through the use of cookies, Daniel Winzen can provide the users of this "
+"website with more user-friendly services that would not be possible without "
+"the cookie setting."
+msgstr ""
+
+#: privacy.php:41
+msgid ""
+"By means of a cookie, the information and offers on my website can be "
+"optimized with the user in mind. Cookies allow me, as previously mentioned, "
+"to recognize my website users. The purpose of this recognition is to make it "
+"easier for users to utilize my website. An example for the use of a cookie "
+"is when you log in to the mail client, the cookie assures that you stay "
+"logged in with your account until closing your browser or logging out."
+msgstr ""
+
+#: privacy.php:42
+msgid ""
+"This site makes only use of technically necessary session cookies and does "
+"not use any form of tracking cookies."
+msgstr ""
+
+#: privacy.php:43
+msgid ""
+"The data subject may, at any time, prevent the setting of cookies through my "
+"website by means of a corresponding setting of the Internet browser used, "
+"and may thus permanently deny the setting of cookies. Furthermore, already "
+"set cookies may be deleted at any time via an Internet browser or other "
+"software programs. This is possible in all popular Internet browsers. If the "
+"data subject deactivates the setting of cookies in the Internet browser "
+"used, not all functions of my website may be entirely usable."
+msgstr ""
+
+#: privacy.php:44
+msgid "3. Collection of general data and information"
+msgstr ""
+
+#: privacy.php:45
+msgid ""
+"The server of Daniel Winzen collects a series of general data and "
+"information when a data subject or automated system calls up the website or "
+"other provided services. This general data and information is stored in the "
+"server log files. Collected may be (1) the browser types and versions used, "
+"(2) the operating system used by the accessing system, (3) the website from "
+"which an accessing system reaches my website (so-called referrers), (4) the "
+"sub-websites, (5) the date and time of access to the Internet site / email "
+"transmission, (6) sender and recipient of an email, and (7) any other "
+"similar data and information that may be used in the event of attacks on my "
+"information technology systems."
+msgstr ""
+
+#: privacy.php:46
+msgid ""
+"When using these general data and information, Daniel Winzen does not draw "
+"any conclusions about the data subject. Rather, this information is needed "
+"to (1) deliver the content of my website and services correctly, (2) "
+"optimize my services, (3) ensure the long-term viability of my information "
+"technology systems and website technology. Therefore, I may analyze "
+"anonymously collected data and information statistically, with the aim of "
+"increasing the data protection and data security of my services, and to "
+"ensure an optimal level of protection for the personal data I process. The "
+"general data of the server log files are stored separately from all personal "
+"data provided by a data subject for up to 48 hours and are then permanently "
+"deleted."
+msgstr ""
+
+#: privacy.php:47
+msgid "4. Routine erasure and blocking of personal data"
+msgstr ""
+
+#: privacy.php:48
+msgid ""
+"The data controller shall process and store the personal data of the data "
+"subject only for the period necessary to achieve the purpose of storage, or "
+"as far as this is granted by the European legislator or other legislators in "
+"laws or regulations to which the controller is subject to."
+msgstr ""
+
+#: privacy.php:49
+msgid ""
+"If the storage purpose is not applicable, or if a storage period prescribed "
+"by the European legislator or another competent legislator expires, the "
+"personal data are routinely erased in accordance with legal requirements."
+msgstr ""
+
+#: privacy.php:50
+msgid "5. Rights of the data subject"
+msgstr ""
+
+#: privacy.php:51
+msgid ""
+"Each data subject shall have the right of confirmation and access according "
+"to Article 15 GDPR, Right to rectification according to Article 16 GDPR, "
+"Right to erasure (Right to be forgotten) according to Article 17 GDPR, Right "
+"of restriction of processing according to Article 18 GDPR, Right to data "
+"portability according to GDPR article 20, Right to object according to "
+"Article 21 GDPR"
+msgstr ""
+
+#: privacy.php:52
+msgid "6. Legal basis for the processing"
+msgstr ""
+
+#: privacy.php:53
+msgid ""
+"Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
+"for which I obtain consent for a specific processing purpose. If the "
+"processing of personal data is necessary for the performance of a contract "
+"to which the data subject is party, as is the case, for example, when "
+"processing operations are necessary to provide services, the processing is "
+"based on Article 6(1) lit. b GDPR. The same applies to such processing "
+"operations which are necessary for carrying out pre-contractual measures, "
+"for example in the case of inquiries concerning my services. If I am subject "
+"to a legal obligation by which processing of personal data is required, such "
+"as for the fulfillment of tax obligations, the processing is based on Art. "
+"6(1) lit. c GDPR."
+msgstr ""
+
+#: privacy.php:54
+msgid ""
+"Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
+"This legal basis is used for processing operations which are not covered by "
+"any of the above-mentioned legal grounds, if processing is necessary for the "
+"purposes of the legitimate interests pursued by me or by a third party, "
+"except where such interests are overridden by the interests or fundamental "
+"rights and freedoms of the data subject which require protection of personal "
+"data. Such processing operations are particularly permissible because they "
+"have been specifically mentioned by the European legislator. He considered "
+"that a legitimate interest could be assumed if the data subject is a client "
+"of the controller (Recital 47 Sentence 2 GDPR)."
+msgstr ""
+
+#: privacy.php:55
+msgid "7. Legally binding translation"
+msgstr ""
+
+#: privacy.php:56
+msgid "Legally binding is only the English version of this privacy policy"
+msgstr ""
+
+#: chat/index.php:6 chat/index.php:15 chat/index.php:25
+msgid "Daniel - Chat"
+msgstr ""
+
+#: chat/index.php:10 chat/index.php:16
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr ""
+
+#: chat/index.php:27
+msgid "Daniel's Chat"
+msgstr ""
+
+#: chat/index.php:28
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr ""
+
+#: chat/index.php:29
+msgid ""
+"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">my onion link list</a>. If you are interested in running a similar "
+"chat community, you can download my chat script on <a href=\"https://github."
+"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>."
+msgstr ""
+
+#: chat/index.php:30
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+
+#: chat/index.php:31
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+
+#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
+msgid "Daniel - Tutorials"
+msgstr ""
+
+#: tutorials/index.php:10 tutorials/index.php:16
+msgid "Various tutorials provided by Daniel Winzen"
+msgstr ""
+
+#: tutorials/index.php:28
+msgid ""
+"Here I upload tutorials that have been asked for a number of times. If you "
+"have suggestions on how to improve a tutorial or want me to make one another "
+"one, you can <a href=\"/contact.php\">contact me here</a>."
+msgstr ""
+
+#: tutorials/index.php:30
+msgid "Name"
+msgstr ""
+
+#: tutorials/index.php:30
+msgid "Short description"
+msgstr ""
+
+#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
+msgid "Torify FTP clients"
+msgstr ""
+
+#: tutorials/index.php:31
+msgid "This tutorial will show you how to torify FTP clients."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
+#: tutorials/torify-ftp/index.php:36
+msgid "Tutorials - Torify FTP clients"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:10 tutorials/torify-ftp/index.php:24
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of "
+"FileZilla and WinSCP."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Download FileZilla"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid ""
+"If you haven't installed FileZilla yet, you need to first download FileZilla."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Configure proxy"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:45
+msgid ""
+"Go to Generic Proxy settings and change the type to SOCKS5, host to "
+"localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
+"TorBrowser)."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Alternatively download WinSCP"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "If you haven't installed WinSCP yet, you need to first download WinSCP."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Enter connection details"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:77
+msgid "When started, enter your connection details."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Change connection timeout"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:83
+msgid ""
+"Click on the Advanced… button and under Connection, change timeout to 50 as "
+"Tor can be slow at times."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:89
+msgid ""
+"Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
+"and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
+"and set \"Do DNS name lookup at proxy end\" to yes."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:37
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of <a "
+"href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:38
+msgid ""
+"Let's assume you have created an account on my former Hosting service and "
+"you want to upload your files. To do that, you connect with the detials "
+"given in your dashboard. Clearnet works out of the box, but is not torified. "
+"To connect to the hidden service, you need to make a few changes to the "
+"configuration."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:41
+msgid "Hosting dashboard"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:43
+msgid "1. FileZilla"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:44
+msgid ""
+"If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
+"project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">download FileZilla here</a>."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:50
+msgid "FileZilla settings"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:57
+msgid "FileZilla Generic Proxy settings"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:60
+msgid ""
+"If you have changed your proxy settings and get the following error: "
+"\"ECONNREFUSED - Connection refused by server\" that likely means you have "
+"configured your proxy incorrectly. Check if everything is set correctly, Tor "
+"is running and if you still have the issue, switch the Port between 9050 and "
+"9150. This is what's causing most connection issues people have."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:64
+msgid "FileZilla connection error"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:66
+msgid ""
+"Once you have configured everything correctly, you should be able to "
+"successfully connect and start uploading files."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:71
+msgid "FileZilla success"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:75
+msgid "2. WinSCP"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:76
+msgid ""
+"If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
+"eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
+"WinSCP here</a>."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:81
+msgid "Connection details"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:87
+msgid "Connection optimizations"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:93
+msgid "Proxy configuration"
 msgstr ""
