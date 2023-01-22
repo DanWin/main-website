@@ -46,6 +46,7 @@ const LANGUAGES = [
 	'de' => ['name' => 'Deutsch', 'locale' => 'de_DE', 'flag' => '🇩🇪', 'show_in_menu' => true, 'dir' => 'ltr'],
 	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧', 'show_in_menu' => true, 'dir' => 'ltr'],
 	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => true, 'dir' => 'ltr'],
+	'zh-Hans' => ['name' => '简体中文', 'locale' => 'zh_CN', 'flag' => '🇨🇳', 'show_in_menu' => true, 'dir' => 'ltr'],
 ];
 $language = 'en';
 $locale = 'en_GB';
