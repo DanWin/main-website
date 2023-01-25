@@ -8,11 +8,11 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-01-21 12:41+0100\n"
-"PO-Revision-Date: 2023-01-22 14:11+0000\n"
+"PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
 "DanWin/main-website/zh_Hans/>\n"
-"Language: zh_Hans\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -294,6 +294,10 @@ msgid ""
 "discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
 "support IPv6</a>."
 msgstr ""
+"最近我需要在一个只有IPv6的服务器上下载GitHub仓库那可是我最心爱的VPS %s。"
+"不幸的是我了解到GitHub<a href=\"https://github.com/orgs/community/"
+"discussions/10539 \" target=\"_blank\" rel=\"noopener noreferrer\""
+">仍不支持IPv6</a>。"
 
 #: github-ipv6-proxy.php:35
 msgid ""
@@ -408,11 +412,11 @@ msgstr "消息内容"
 msgid ""
 "I have read and agreed to the <a href=\"/privacy.php\" "
 "target=\"_blank\">Privacy Policy</a>"
-msgstr "我已同意 с <a href=\"/privacy.php \" target=\"_blank\">隐私条款</a>"
+msgstr "我已同意 <a href=\"/privacy.php \" target=\"_blank\">隐私条款</a>"
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
-msgstr ""
+msgstr "你填充了蜜罐消息: ( 你是人类吗?"
 
 #: contact.php:61
 msgid "You haven't entered a message yet."
@@ -426,17 +430,20 @@ msgstr "消息成功发送！"
 msgid ""
 "If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
 "target=\"_blank\">my public PGP key</a>."
-msgstr ""
+msgstr "如果你希望加密你的消息，你可以使用<a href=\"/pgp.txt\" target=\"_blank\""
+">我的PGP公钥</a>."
 
 #: contact.php:77
 msgid ""
 "If you prefer to directly get in contact with me, email me at <a "
 "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgstr ""
+"如果你希望直接联系我，请发电子邮件至<a href=\"mailto:daniel@danwin1210.de\""
+">daniel@danwin1210.de</a>."
 
 #: contact.php:79
 msgid "Disclaimer - External links"
-msgstr ""
+msgstr "声明 - 外部链接"
 
 #: contact.php:80
 msgid ""
@@ -451,31 +458,36 @@ msgid ""
 "without concrete evidence of legal violations. At knowledge of legal "
 "violations, however, such external links will be deleted immediately."
 msgstr ""
+"这个网站提供第三方链接(\"外部链接\"). 这些网站由各自的运营商承担责任。当首次"
+"链接第三方内容时,提供商检查是否有这些网站任何违法行为。当时没有违法行为明显。"
+"提供商对当前和未来的设计没有影响，并且链接页面的内容。设置外部链接并不意味着"
+"提供商声称对引用或链接背后的内容拥有所有权。对外部链接的持续控制对提供商来说"
+"是不合理的没有违反法律的具体证据。在法律知识但是，此类外部链接将立即删除。"
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
-msgstr ""
+msgstr "丹尼尔 - FAQ - 常被提及的问题"
 
 #: faq.php:9 faq.php:15
 msgid ""
 "A list of frequently asked questions regarding the services I provide and "
 "their answers"
-msgstr ""
+msgstr "这是一个收集了大部分关于我的服务的常问问题以及它们对应的答案"
 
 #: faq.php:25 faq.php:52
 msgid "I found an illegal link/content on your site, can you remove it?"
-msgstr ""
+msgstr "我在你的网站上发现了非法链接/内容，你能删除它吗？"
 
 #: faq.php:25 faq.php:53
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
 "possible."
-msgstr ""
+msgstr "当然行，请 <a href=\"%s\">报告它</a>，然后我将会立刻删除它"
 
 #: faq.php:26 faq.php:56
 msgid "What is PGP?"
-msgstr ""
+msgstr "什么是PGP？"
 
 #: faq.php:26 faq.php:57
 msgid ""
@@ -484,10 +496,13 @@ msgid ""
 "target=\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia "
 "article</a>."
 msgstr ""
+"PGP是一种加密程序，他可以用于加密或签名电子邮件和文件<a href=\"https://zh."
+"wikipedia.org/wiki/PGP\" target=\"_blank\" rel=\"noopener noreferrer\""
+">在维基百科上查看更多信息</a>."
 
 #: faq.php:27 faq.php:60
 msgid "I have an idea how to make your site better, can you add feature xyz?"
-msgstr ""
+msgstr "我有一个能让你的网站变得更好的主意，你能不能添加这个功能？"
 
 #: faq.php:27 faq.php:61
 #, php-format
@@ -495,12 +510,14 @@ msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
 "It might take a while until your feature gets added though."
 msgstr ""
+"当然可以, 请 <a href=\"%s\">联系我</a>。然后 "
+"我可能会将其添加到我的ToDo列表中。这可能需要一段时间直到我完成添加功能的工作"
 
 #: faq.php:28 faq.php:64
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
-msgstr ""
+msgstr "我想要翻译你的网站和服务，我该怎么做？"
 
 #: faq.php:28 faq.php:65
 msgid ""
@@ -508,10 +525,12 @@ msgid ""
 "rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
 "individual projects you would like to translate."
 msgstr ""
+"请查看我的<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub仓库</a> 并找找 你想翻译哪个项目"
 
 #: faq.php:29 faq.php:68
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
-msgstr ""
+msgstr "我听说过红房间、杀人直播或者其他类似的内容。它们是真的吗？"
 
 #: faq.php:29 faq.php:69
 msgid ""
@@ -521,24 +540,28 @@ msgid ""
 "you to pay bitcoins to gain access. Don't pay, because they simply do not "
 "exist."
 msgstr ""
+"不。这只是人们通常会讲的“都市传说”，很多人制作(深网)有关的YouTube视频, 并声明"
+"真的有像这样的网站然而现实的版本确是很多骗子只是创建了一个Tor网站并让你给他们"
+"支付比特币，然后他们会让你观看这些内容不要付钱！因为这些内容从未存在过。"
 
 #: faq.php:30 faq.php:72
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
-msgstr ""
+msgstr "我听说过影子网络、马里亚纳网络或者其他封闭的网络 我该怎么进入这些网络？"
 
 #: faq.php:30 faq.php:73
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
-msgstr ""
+msgstr "你不可以，因为它们从来没存在过。一些骗子想要把这些网络销售给你。不要付钱，因"
+"为他们不会给你任何回馈！"
 
 #: faq.php:31 faq.php:76
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
-msgstr ""
+msgstr "难道Tor暗网中不应该是可怕的且还有许多神秘的东西吗？为什么我找不到有趣的网站？"
 
 #: faq.php:31 faq.php:77
 msgid ""
@@ -549,10 +572,14 @@ msgid ""
 "isn't that much of a difference to the clearnet (normal internet). So most "
 "horror stories you have heard about Tor are just that, stories."
 msgstr ""
+"非也。Tor暗网的创建是为了让人们能够匿名上网，对抗审查，匿名地托管网站。当然，"
+"它不仅仅可以用于做好事。Tor暗网上有着大量钓鱼网站、诈骗甚至儿童色情网站。但无"
+"论如何，你都是匿名的。Tor暗网相对于明网而言并没有太多不同之处。所以那些Tor的“"
+"都市传说”都只是传说而已，并非事实。"
 
 #: faq.php:32 faq.php:80
 msgid "What's the difference between deep web and darknet?"
-msgstr ""
+msgstr "暗网与深网的区别是什么？"
 
 #: faq.php:32 faq.php:81
 msgid ""
@@ -561,10 +588,13 @@ msgid ""
 "To access a darknet, it requires special software like Tor, I2P or Freenet. "
 "The darknet is a small part of the deep web."
 msgstr ""
+"深网网站是不可以被搜索引擎检索的，所以基本上任何需要登录的网站基本上都属于深"
+"网的一部分如果你希望进入暗网，你便需要特殊的软件像Tor、I2P或Freenet。但请注意"
+"，暗网只是深网中极少的一部分，并不占整个网络的96%。"
 
 #: faq.php:33 faq.php:84
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
-msgstr ""
+msgstr "你能否手把手地教会我编程或黑客渗透？"
 
 #: faq.php:33 faq.php:88
 msgid ""
@@ -577,36 +607,41 @@ msgid ""
 "your keyboard and start typing some programs. Start with something simple "
 "and keep yourself challenged with new tasks."
 msgstr ""
+"以上只是一个玩笑，教授你编程或黑客渗透是一个需要很长时间的艰巨的任务。我学习"
+"程序设计整整10年且至今仍在汲取新的知识。但对于初学者来说，我会建议他们阅读一"
+"本针对初学者的入门书，它可以让你编写一些简易的程序如果你更喜欢观看视频，YouTu"
+"be和B站上都有大量教程视频。但最重要的是，你需要将手指放到键盘上开始编程实战。"
+"先从简单的程序开始，再挑战较难的程序。"
 
 #: faq.php:34 faq.php:94
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
-msgstr ""
+msgstr "你能不能黑进我的学校或大学来修改我的成绩，或者找到某人能完成这件事？"
 
 #: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:100
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
-msgstr ""
+msgstr "是的，我非常愿意为你去警局喝茶！ - 嗯，算了，我还是不要了。不好意思。"
 
 #: faq.php:35 faq.php:95
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
-msgstr ""
+msgstr "你能否给我Paypal账户或信用卡帐号，或告诉我哪里能得到这些失窃的账户？"
 
 #: faq.php:36 faq.php:96
 msgid "Can you issue fake Covid19 test results?"
-msgstr ""
+msgstr "你能否伪造新冠病毒核酸结果？"
 
 #: faq.php:37 faq.php:97
 msgid "Can you do some other illegal things for me?"
-msgstr ""
+msgstr "你能否为我做一些非法的事情？"
 
 #: faq.php:38 faq.php:103
 msgid "Can you hack my girlfriend? I think she's cheating."
-msgstr ""
+msgstr "你能否黑进我的女友的账户？我担心她背叛了我。"
 
 #: faq.php:38 faq.php:104
 msgid ""
@@ -617,10 +652,14 @@ msgid ""
 "hacker, you should definitely think about breaking up, because relationships "
 "are based on trust, but obviously you can't trust anymore."
 msgstr ""
+"是的。我可以去试试。但我不会那么做的。不要信任那些承诺这些非法活动的网站因为"
+"它们都是骗人的。黑进女友的账户是完全错误的且会伤害你们两人的感情。与她进行交"
+"谈，是你唯一能做的。如果你有雇佣黑客的想法，请你放弃这个想法，因为感情是基于"
+"信任的。但显而易见，你不信任任何人。"
 
 #: faq.php:39 faq.php:107
 msgid "My email doesn't get sent. I'm getting an error about TLS"
-msgstr ""
+msgstr "我的电子邮件发送失败。我的到了一个有关TLS的错误"
 
 #: faq.php:39 faq.php:108
 #, php-format
@@ -632,10 +671,14 @@ msgid ""
 "You can disable mandatory encryption in your <a href=\"%s\">account "
 "settings</a>, if you still need to send this email."
 msgstr ""
+"这是因为你已经尝试发送电子邮件到一个无法接受加密运输的邮件服务器 或者这个服务"
+"器正在使用不安全的协议。这是极为不幸的，因为这会将你的邮件内容泄露到任何一个"
+"人的手中他们可以在中途截下你的邮件。如果你仍希望发出邮件，你可以在你的<a "
+"href=\"%s\">用户设置</a>中禁用加密。"
 
 #: faq.php:40 faq.php:111
 msgid "I can't receive email, the sender gets an error about TLS"
-msgstr ""
+msgstr "我无法收到电子邮件，发送者收到一个关于TLS的错误。"
 
 #: faq.php:40 faq.php:112
 #, php-format
@@ -647,33 +690,37 @@ msgid ""
 "You can disable mandatory encryption in your <a href=\"%s\">account "
 "settings</a>, if you still need to receive this email."
 msgstr ""
+"这是因为有些人尝试从一个不支持加密传输的邮件服务器上给你发送邮件或者这个服务"
+"器正在使用不安全的协议。这是极为不幸的，因为这会将你的邮件内容泄露到任何一个"
+"人的手中他们可以在中途截下你的邮件。如果你仍希望收到邮件。你可以在你的<a "
+"href=\"%s\">用户设置</a>禁用加密。"
 
 #: faq.php:41 faq.php:115
 msgid "I have more Questions."
-msgstr ""
+msgstr "我有更多问题"
 
 #: faq.php:41 faq.php:116
 #, php-format
 msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr ""
+msgstr "请<a href=\"%s\">联系我</a>."
 
 #: faq.php:44
 msgid "FAQ - Frequently Asked Questions"
-msgstr ""
+msgstr "FAQ - 常问问题"
 
 #: faq.php:45
 msgid ""
 "Here you have a list of frequently asked questions regarding the services I "
 "provide and their answers."
-msgstr ""
+msgstr "这是一个关于我的服务的常问问题列表以及它们的答案。"
 
 #: faq.php:48
 msgid "Question"
-msgstr ""
+msgstr "问题"
 
 #: faq.php:49
 msgid "Answer"
-msgstr ""
+msgstr "答案"
 
 #: faq.php:86
 msgid ""
@@ -681,38 +728,40 @@ msgid ""
 "something in return. <a href=\"contact.php\">Send me your proposals</a>. "
 "Sorry guys, only considering females."
 msgstr ""
+"好啊，嫁给我我就有可能教你。但除非你能回馈我。взамен. <a href=\"contact.php\""
+">联系我</a>. 不好意思现在只考虑女性。"
 
 #: common.php:106
 msgid "Chat"
-msgstr ""
+msgstr "聊天室"
 
 #: common.php:107
 msgid "Online-Test"
-msgstr ""
+msgstr "在线测试"
 
 #: common.php:108
 msgid "Onion link list"
-msgstr ""
+msgstr "Tor网站列表"
 
 #: common.php:109
 msgid "E-Mail + XMPP"
-msgstr ""
+msgstr "电子邮箱 + XMPP"
 
 #: common.php:110 tutorials/index.php:27
 msgid "Tutorials"
-msgstr ""
+msgstr "教程"
 
 #: common.php:112
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: common.php:114
 msgid "Privacy"
-msgstr ""
+msgstr "隐私条款"
 
 #: common.php:126
 msgid "Add translation"
-msgstr ""
+msgstr "添加翻译"
 
 #: new-domain.php:6 new-domain.php:17 new-domain.php:27
 msgid "Daniel - New domain"
@@ -1092,19 +1141,19 @@ msgstr ""
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:25
 msgid "Daniel - Chat"
-msgstr ""
+msgstr "丹尼尔 - 聊天室"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
-msgstr ""
+msgstr "丹尼尔的聊天室 - 曾经的暗网聊天社区"
 
 #: chat/index.php:27
 msgid "Daniel's Chat"
-msgstr ""
+msgstr "丹尼尔的聊天室"
 
 #: chat/index.php:28
 msgid "After 9 years, I'm shutting down the chat for good."
-msgstr ""
+msgstr "9年之后，我关闭了聊天室"
 
 #: chat/index.php:29
 msgid ""
@@ -1114,6 +1163,10 @@ msgid ""
 "com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">GitHub</a>."
 msgstr ""
+"你可以找到其他替代的聊天室<a href=\"https://onions.danwin1210.de/?cat=2\""
+">我的Tor网站列表</a> 如果你对建立一个聊天社区很感兴趣，你可以在<ahref=\"https"
+"://github.com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>上下载我的聊天室脚本。"
 
 #: chat/index.php:30
 msgid ""
@@ -1128,6 +1181,12 @@ msgid ""
 "state, it doesn't make sense to continue providing the service. Thus I "
 "decided to shut down the chat for good in December 2022, after 9 years."
 msgstr ""
+"2013年是，这个聊天室一开始只是作为我在学校的一个兴趣类的项目。它是一个非常活"
+"跃的聊天社区。2017年开始，我将管理员的职位交由多个人。因为我没有太多时间来管"
+"理聊天室了。在最近几个月里，管理员被取代了。原因是她将聊天室变得十分封闭。好"
+"多人都需要等好几个小时来进入聊天室。更可恶的是，她还随意地将访客踢出聊天室。"
+"这导致我的邮箱中充满了要求批准进入聊天室的邮件。因此，我决心关停聊天室，因为"
+"它没有存在的必要了。"
 
 #: chat/index.php:31
 msgid ""
@@ -1136,6 +1195,9 @@ msgid ""
 "all to do with me anymore, except that I've programmed it and I maintain the "
 "server. Anyone is welcome to create their own chat, but not here on my site."
 msgstr ""
+"有些人希望获得我的聊天室的管理员权限并重新开启聊天室：不，它不会再开启了。这"
+"个决定不会再更改了。我会继续维护聊天室脚本任何人都可以建立他们自己的聊天室，"
+"但不是在我的网站上。"
 
 #: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
 msgid "Daniel - Tutorials"
