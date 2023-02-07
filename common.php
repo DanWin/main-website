@@ -1,4 +1,6 @@
 <?php
+const DONATE_XMR = '8AJ7wCCshe6Vni5VxQqDgR9VyghZx1ZTJP2gmpEBpi8S4ZbX91eBnGkdZbR1HBgS5pNSE2D7hKyYmDFcNRv26dA71wq7wqE';
+const DONATE_BTC = '1Ba8AV59YtqbKBe7YMopjY9kd1e5QqKdsv';
 global $global_style, $language, $dir;
 $global_style = 'body{margin:0;font-size:18px}';
 $global_style .= 'header{padding:0 50px;background:#00F;min-height:61px;display:flex;align-items:center}';

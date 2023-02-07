@@ -58,6 +58,6 @@ global $language, $dir, $locale;
 <li><?php printf(_('%s - (Used for my clearnet gateway + Domain registration) - good and reliable, hosted in my city'), '<a href="https://hosting.de/?partnerId=JZ0DZSUdrJUVJTKoHq7l" target="_blank" rel="noopener noreferrer">Hosting.de</a>'); ?></li>
 <li><?php echo _('Home hosted: 4 Raspberry Pi 4 with the main site and data'); ?></li>
 </ul>
-<p><?php printf(_('If you like, what I\'ve built here, you can support me by donating via Monero: %1$s or Bitcoin: %2$s . More options available, just <a href="/contact.php">contact me</a>.'), '432Z3PTrRso52GHHpmPRpvLhecsnc7EFsVd2TzsCJaNmK4vivDxghRB5yVCj2nzCEGajeF3rBqJ43PcpxRnvZkMs49fufzD', 'bc1q8jcfxsmcz7lhk7g9urnzxpwhxsje2n2gz34cya'); ?></p>
+<p><?php printf(_('If you like, what I\'ve built here, you can support me by donating via Monero: %1$s or Bitcoin: %2$s . More options available, just <a href="/contact.php">contact me</a>.'), DONATE_XMR, DONATE_BTC); ?></p>
 </main>
 </body></html>
