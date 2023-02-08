@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-01-21 12:41+0100\n"
-"PO-Revision-Date: 2023-02-07 08:25+0000\n"
+"PO-Revision-Date: 2023-02-08 17:31+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
@@ -424,7 +424,7 @@ msgstr ""
 
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
-msgstr "Даниэль - Обратная связь"
+msgstr "Даниэль - Контакт"
 
 #: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
@@ -432,7 +432,7 @@ msgstr "Связаться с Даниэль Винзен"
 
 #: contact.php:27 common.php:115
 msgid "Contact"
-msgstr "Обратная связь"
+msgstr "Контакт"
 
 #: contact.php:28
 msgid ""
