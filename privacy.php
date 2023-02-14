@@ -27,13 +27,14 @@ global $language, $dir, $locale;
 <?php menu(_('Privacy policy')); ?>
 <h2><?php echo _('1. Name and Address of the controller'); ?></h2>
 <p><?php echo _('Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:'); ?></p>
-<p>Daniel Winzen<br>
-Steinkaulstraße 47<br>
-52070 Aachen<br>
-Germany<br>
+<p><?php echo CONTACT_NAME; ?><br>
+<?php echo CONTACT_STREET; ?><br>
+<?php echo CONTACT_ZIP . ' ' . CONTACT_CITY; ?><br>
+<?php echo CONTACT_COUNTRY; ?><br>
 <?php printf(_('Phone: %s'), '+4917698819809'); ?><br>
 <?php printf(_('Email: %s'), 'daniel@danwin1210.de'); ?><br>
-<?php printf(_('Website: %s'), 'https://danwin1210.de'); ?></p>
+<?php printf(_('Website: %s'), 'https://danwin1210.de'); ?><br>
+<?php printf(_('VAT ID number: %s'), CONTACT_VAT_ID_NUMBER); ?></p>
 <h2><?php echo _('2. Cookies'); ?></h2>
 <p><?php echo _('The Internet pages of Daniel Winzen use cookies. Cookies are text files that are stored in a computer system via an Internet browser.'); ?></p>
 <p><?php echo _('Many Internet sites and servers use cookies. Many cookies contain a so-called cookie ID. A cookie ID is a unique identifier of the cookie. It consists of a character string through which Internet pages and servers can be assigned to the specific Internet browser in which the cookie was stored. This allows visited Internet sites and servers to differentiate the individual browser of the data subject from other Internet browsers that contain other cookies. A specific Internet browser can be recognized and identified using the unique cookie ID.'); ?></p>

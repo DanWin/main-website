@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-21 12:41+0100\n"
+"POT-Creation-Date: 2023-02-14 10:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "Daniel"
 msgstr ""
 
-#: index.php:27 common.php:105
+#: index.php:27 common.php:117
 msgid "Home"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgid ""
 "this site"
 msgstr ""
 
-#: about.php:29 common.php:113
+#: about.php:29 common.php:125
 msgid "About"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr ""
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:111
+#: github-ipv6-proxy.php:33 common.php:123
 msgid "GitHub IPv6 proxy"
 msgstr ""
 
@@ -319,7 +319,7 @@ msgstr ""
 msgid "Contact Daniel Winzen"
 msgstr ""
 
-#: contact.php:27 common.php:115
+#: contact.php:27 common.php:127
 msgid "Contact"
 msgstr ""
 
@@ -375,11 +375,26 @@ msgid ""
 "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgstr ""
 
-#: contact.php:79
+#: contact.php:83 privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: contact.php:84 privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: contact.php:85 privacy.php:37
+#, php-format
+msgid "VAT ID number: %s"
+msgstr ""
+
+#: contact.php:87
 msgid "Disclaimer - External links"
 msgstr ""
 
-#: contact.php:80
+#: contact.php:88
 msgid ""
 "This website contains links to third party websites (\"external links\"). "
 "These websites are subject to the liability of the respective operator. When "
@@ -623,35 +638,35 @@ msgid ""
 "Sorry guys, only considering females."
 msgstr ""
 
-#: common.php:106
+#: common.php:118
 msgid "Chat"
 msgstr ""
 
-#: common.php:107
+#: common.php:119
 msgid "Online-Test"
 msgstr ""
 
-#: common.php:108
+#: common.php:120
 msgid "Onion link list"
 msgstr ""
 
-#: common.php:109
+#: common.php:121
 msgid "E-Mail + XMPP"
 msgstr ""
 
-#: common.php:110 tutorials/index.php:27
+#: common.php:122 tutorials/index.php:27
 msgid "Tutorials"
 msgstr ""
 
-#: common.php:112
+#: common.php:124
 msgid "FAQ"
 msgstr ""
 
-#: common.php:114
+#: common.php:126
 msgid "Privacy"
 msgstr ""
 
-#: common.php:126
+#: common.php:138
 msgid "Add translation"
 msgstr ""
 
@@ -853,32 +868,22 @@ msgid ""
 "European Union and other provisions related to data protection is:"
 msgstr ""
 
-#: privacy.php:34
-#, php-format
-msgid "Phone: %s"
-msgstr ""
-
-#: privacy.php:35
-#, php-format
-msgid "Email: %s"
-msgstr ""
-
 #: privacy.php:36
 #, php-format
 msgid "Website: %s"
 msgstr ""
 
-#: privacy.php:37
+#: privacy.php:38
 msgid "2. Cookies"
 msgstr ""
 
-#: privacy.php:38
+#: privacy.php:39
 msgid ""
 "The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
 "are stored in a computer system via an Internet browser."
 msgstr ""
 
-#: privacy.php:39
+#: privacy.php:40
 msgid ""
 "Many Internet sites and servers use cookies. Many cookies contain a so-"
 "called cookie ID. A cookie ID is a unique identifier of the cookie. It "
@@ -890,14 +895,14 @@ msgid ""
 "identified using the unique cookie ID."
 msgstr ""
 
-#: privacy.php:40
+#: privacy.php:41
 msgid ""
 "Through the use of cookies, Daniel Winzen can provide the users of this "
 "website with more user-friendly services that would not be possible without "
 "the cookie setting."
 msgstr ""
 
-#: privacy.php:41
+#: privacy.php:42
 msgid ""
 "By means of a cookie, the information and offers on my website can be "
 "optimized with the user in mind. Cookies allow me, as previously mentioned, "
@@ -907,13 +912,13 @@ msgid ""
 "logged in with your account until closing your browser or logging out."
 msgstr ""
 
-#: privacy.php:42
+#: privacy.php:43
 msgid ""
 "This site makes only use of technically necessary session cookies and does "
 "not use any form of tracking cookies."
 msgstr ""
 
-#: privacy.php:43
+#: privacy.php:44
 msgid ""
 "The data subject may, at any time, prevent the setting of cookies through my "
 "website by means of a corresponding setting of the Internet browser used, "
@@ -924,11 +929,11 @@ msgid ""
 "used, not all functions of my website may be entirely usable."
 msgstr ""
 
-#: privacy.php:44
+#: privacy.php:45
 msgid "3. Collection of general data and information"
 msgstr ""
 
-#: privacy.php:45
+#: privacy.php:46
 msgid ""
 "The server of Daniel Winzen collects a series of general data and "
 "information when a data subject or automated system calls up the website or "
@@ -942,7 +947,7 @@ msgid ""
 "information technology systems."
 msgstr ""
 
-#: privacy.php:46
+#: privacy.php:47
 msgid ""
 "When using these general data and information, Daniel Winzen does not draw "
 "any conclusions about the data subject. Rather, this information is needed "
@@ -957,11 +962,11 @@ msgid ""
 "deleted."
 msgstr ""
 
-#: privacy.php:47
+#: privacy.php:48
 msgid "4. Routine erasure and blocking of personal data"
 msgstr ""
 
-#: privacy.php:48
+#: privacy.php:49
 msgid ""
 "The data controller shall process and store the personal data of the data "
 "subject only for the period necessary to achieve the purpose of storage, or "
@@ -969,18 +974,18 @@ msgid ""
 "laws or regulations to which the controller is subject to."
 msgstr ""
 
-#: privacy.php:49
+#: privacy.php:50
 msgid ""
 "If the storage purpose is not applicable, or if a storage period prescribed "
 "by the European legislator or another competent legislator expires, the "
 "personal data are routinely erased in accordance with legal requirements."
 msgstr ""
 
-#: privacy.php:50
+#: privacy.php:51
 msgid "5. Rights of the data subject"
 msgstr ""
 
-#: privacy.php:51
+#: privacy.php:52
 msgid ""
 "Each data subject shall have the right of confirmation and access according "
 "to Article 15 GDPR, Right to rectification according to Article 16 GDPR, "
@@ -990,11 +995,11 @@ msgid ""
 "Article 21 GDPR"
 msgstr ""
 
-#: privacy.php:52
+#: privacy.php:53
 msgid "6. Legal basis for the processing"
 msgstr ""
 
-#: privacy.php:53
+#: privacy.php:54
 msgid ""
 "Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
 "for which I obtain consent for a specific processing purpose. If the "
@@ -1009,7 +1014,7 @@ msgid ""
 "6(1) lit. c GDPR."
 msgstr ""
 
-#: privacy.php:54
+#: privacy.php:55
 msgid ""
 "Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
 "This legal basis is used for processing operations which are not covered by "
@@ -1023,11 +1028,11 @@ msgid ""
 "of the controller (Recital 47 Sentence 2 GDPR)."
 msgstr ""
 
-#: privacy.php:55
+#: privacy.php:56
 msgid "7. Legally binding translation"
 msgstr ""
 
-#: privacy.php:56
+#: privacy.php:57
 msgid "Legally binding is only the English version of this privacy policy"
 msgstr ""
 

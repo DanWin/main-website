@@ -75,7 +75,15 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 ?>
 <p><?php echo _('If you want to encrypt your message, you can use <a href="/pgp.txt" target="_blank">my public PGP key</a>.'); ?></p>
 <p><?php echo _('If you prefer to directly get in contact with me, email me at <a href="mailto:daniel@danwin1210.de">daniel@danwin1210.de</a>.'); ?></p>
-<p><b>Daniel Winzen</b><br>Steinkaulstraße 47<br>52070 Aachen<br>Germany<br>E-Mail: daniel@danwin1210.de<br>Tel: +4917698819809</p>
+<p>
+<b><?php echo CONTACT_NAME; ?></b><br>
+<?php echo CONTACT_STREET; ?><br>
+<?php echo CONTACT_ZIP . ' ' . CONTACT_CITY; ?><br>
+<?php echo CONTACT_COUNTRY; ?><br>
+<?php printf(_('Email: %s'), CONTACT_EMAIL); ?><br>
+<?php printf(_('Phone: %s'), CONTACT_PHONE); ?><br>
+<?php printf(_('VAT ID number: %s'), CONTACT_VAT_ID_NUMBER); ?>
+</p>
 <b><?php echo _('Disclaimer - External links'); ?></b>
 <p><?php echo _('This website contains links to third party websites ("external links"). These websites are subject to the liability of the respective operator. When linking first time third-party content, the provider checked whether there are any legal violations. At the time there were none legal violations evident. The provider has no influence on the current and future design and the content of the linked pages. Setting external links does not mean that the provider claims ownership of the content behind the reference or link. Constant control of the external links are not reasonable for the provider without concrete evidence of legal violations. At knowledge of legal violations, however, such external links will be deleted immediately.'); ?></p>
 </main>

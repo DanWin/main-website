@@ -1,6 +1,14 @@
 <?php
 const DONATE_XMR = '8AJ7wCCshe6Vni5VxQqDgR9VyghZx1ZTJP2gmpEBpi8S4ZbX91eBnGkdZbR1HBgS5pNSE2D7hKyYmDFcNRv26dA71wq7wqE';
 const DONATE_BTC = '1Ba8AV59YtqbKBe7YMopjY9kd1e5QqKdsv';
+const CONTACT_NAME = 'Daniel Winzen';
+const CONTACT_STREET = 'Steinkaulstraße 47';
+const CONTACT_ZIP = '52070';
+const CONTACT_CITY = 'Aachen';
+const CONTACT_COUNTRY = 'Germany';
+const CONTACT_PHONE = '+4917698819809';
+const CONTACT_EMAIL = 'daniel@danwin1210.de';
+const CONTACT_VAT_ID_NUMBER = 'DE358256290';
 global $global_style, $language, $dir;
 $global_style = 'body{margin:0;font-size:18px}';
 $global_style .= 'header{padding:0 50px;background:#00F;min-height:61px;display:flex;align-items:center}';
