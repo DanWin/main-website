@@ -1,0 +1,1694 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-14 13:43-0300\n"
+"PO-Revision-Date: 2023-02-15 18:45-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: contact.php:6 contact.php:15
+msgid "Daniel - Contact"
+msgstr "Daniel - Contato"
+
+#: contact.php:10 contact.php:16
+msgid "Contact Daniel Winzen"
+msgstr "Contate Daniel Winzen"
+
+#: contact.php:21 hosting/index.php:21 about.php:23 new-domain.php:23
+#: faq.php:20 chat/index.php:21 github-ipv6-proxy.php:26
+#: tutorials/torify-ftp/index.php:29 tutorials/index.php:21 privacy.php:21
+#: index.php:21
+msgid "An avatar representing Daniel Winzen"
+msgstr "Um avatar representando Daniel Winzen"
+
+#: contact.php:24 hosting/index.php:24 about.php:26 new-domain.php:26
+#: faq.php:23 chat/index.php:24 github-ipv6-proxy.php:29
+#: tutorials/torify-ftp/index.php:32 tutorials/index.php:24 privacy.php:24
+#: index.php:24
+msgid "Daniel"
+msgstr "Daniel"
+
+#: contact.php:27 common.php:119
+msgid "Contact"
+msgstr "Contato"
+
+#: contact.php:28
+msgid ""
+"You can send me a message here. Don't forget to leave a contact option, if "
+"you want me to answer."
+msgstr ""
+"Você pode me enviar uma mensagem aqui. Não se esqueça de deixar uma opção de "
+"contato, se você quer que eu lhw ."
+
+#: contact.php:30
+msgid "Name:"
+msgstr "Nome:"
+
+#: contact.php:33
+msgid "Honeypot (do not fill anything):"
+msgstr "Honeypot (não preencha nada):"
+
+#: contact.php:34
+msgid "Subject:"
+msgstr "Assunto:"
+
+#: contact.php:37
+msgid "Message:"
+msgstr "Mensagem:"
+
+#: contact.php:40
+msgid ""
+"I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
+"\">Privacy Policy</a>"
+msgstr ""
+"Eu li e concordo com a <a href=\"/privacy.php\" target=\"_blank\">Política "
+"de Privacidade</a>"
+
+#: contact.php:57
+msgid "You filled out the honeypot field :( Are you a human?"
+msgstr "Você preencheu o campo honeypot :( Você é humano?"
+
+#: contact.php:61
+msgid "You haven't entered a message yet."
+msgstr "Você ainda não digitou uma mensagem."
+
+#: contact.php:70
+msgid "Message successfully sent!"
+msgstr "Mensagem enviada com sucesso!"
+
+#: contact.php:76
+msgid ""
+"If you want to encrypt your message, you can use <a href=\"/pgp.txt\" target="
+"\"_blank\">my public PGP key</a>."
+msgstr ""
+"Se você deseja encriptar sua mensagem, você pode usar <a href=\"/pgp.txt\" "
+"target=\"_blank\">minha chave PGP pública</a>."
+
+#: contact.php:77
+msgid ""
+"If you prefer to directly get in contact with me, email me at <a href="
+"\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+msgstr ""
+"Se você prefere entrar em contato diretamente comigo, envie um e-mail para "
+"<a href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+
+#: contact.php:79
+msgid "Disclaimer - External links"
+msgstr "Isenção de responsabilidade - Links externos"
+
+#: contact.php:80
+msgid ""
+"This website contains links to third party websites (\"external links\"). "
+"These websites are subject to the liability of the respective operator. When "
+"linking first time third-party content, the provider checked whether there "
+"are any legal violations. At the time there were none legal violations "
+"evident. The provider has no influence on the current and future design and "
+"the content of the linked pages. Setting external links does not mean that "
+"the provider claims ownership of the content behind the reference or link. "
+"Constant control of the external links are not reasonable for the provider "
+"without concrete evidence of legal violations. At knowledge of legal "
+"violations, however, such external links will be deleted immediately."
+msgstr ""
+"Este site contém links para sites de terceiros (\"links externos\"). Esses "
+"sites estão sujeitos à responsabilidade do respectivo operador. Ao vincular "
+"conteúdo de terceiros pela primeira vez, o provedor verificou se havia "
+"alguma violação legal. Na época, não havia nenhuma violação legal evidente. "
+"O provedor não tem influência no design atual e futuro e no conteúdo das "
+"páginas vinculadas. Definir links externos não significa que o provedor "
+"reivindique a propriedade do conteúdo por trás da referência ou link. O "
+"controle constante dos links externos não é razoável para o provedor sem "
+"evidências concretas de violações legais. No entanto, ao tomar conhecimento "
+"de violações legais, tais links externos serão excluídos imediatamente."
+
+#: common.php:109 index.php:27
+msgid "Home"
+msgstr "Início"
+
+#: common.php:110
+msgid "Chat"
+msgstr "Chat"
+
+#: common.php:111
+msgid "Online-Test"
+msgstr "Teste Online"
+
+#: common.php:112
+msgid "Onion link list"
+msgstr "Lista de links Onion"
+
+#: common.php:113
+msgid "E-Mail + XMPP"
+msgstr "E-Mail + XMPP"
+
+#: common.php:114 tutorials/index.php:27
+msgid "Tutorials"
+msgstr "Tutoriais"
+
+#: common.php:115 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33
+msgid "GitHub IPv6 proxy"
+msgstr "Proxy GitHub IPv6"
+
+#: common.php:116
+msgid "FAQ"
+msgstr "FAQ"
+
+#: common.php:117 about.php:29
+msgid "About"
+msgstr "Sobre"
+
+#: common.php:118
+msgid "Privacy"
+msgstr "Privacidade"
+
+#: common.php:130
+msgid "Add translation"
+msgstr "Adicionar tradução"
+
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
+#: hosting/index.php:27
+msgid "Hosting - Info"
+msgstr "Hospedagem - Informações"
+
+#: hosting/index.php:10 hosting/index.php:16
+msgid "Daniel's Hosting - a former darknet web hosting service"
+msgstr "Hospedagem do Daniel - um antigo serviço de hospedagem na rede darknet"
+
+#: hosting/index.php:28
+msgid ""
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at <a href="
+"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
+"\">https://github.com/DanWin/hosting</a>."
+msgstr ""
+"Em março de 2020, um hacker excluiu todos os bancos de dados relacionados à "
+"minha hospedagem, portanto, fui forçado a encerrar meu serviço de "
+"hospedagem. Se você deseja contribuir ou configurar sua própria hospedagem, "
+"confira meu projeto de código aberto em <a href=\"https://github.com/DanWin/"
+"hosting\" target=\"_blank\" rel=\"noopener\">https:// github.com/DanWin/"
+"hosting</a>."
+
+#: hosting/index.php:29
+msgid ""
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
+"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">available for download</a>, which should enable anyone willing to become "
+"the next darknet shared hosting provider to start where I left of."
+msgstr ""
+"Ser um hoster darknet me ensinou muitas coisas. No entanto, este foi um "
+"projeto de tempo livre que fiz ao lado do meu trabalho em tempo integral e é "
+"muito demorado tentar manter o servidor limpo de sites ilegais e "
+"fraudulentos. Gastei 10 vezes mais tempo excluindo contas do que consegui "
+"encontrar tempo para continuar o desenvolvimento. Neste momento não pretendo "
+"continuar o projeto de hospedagem, mas isso não precisa ser o fim. Existem "
+"outros provedores de hospedagem como <a href=\"http://"
+"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
+"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbag6bagfizkpjuon3bqjxkpju /\" target="
+"\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> ou um serviço de proxy "
+"clearnet <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Easy clearnet relay</a> e meu projeto está <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">disponível para download</a>, que deve permitir que qualquer pessoa "
+"disposta a se tornar o próximo provedor de hospedagem compartilhada da "
+"darknet para começar de onde eu parei."
+
+#: about.php:6 about.php:17
+msgid "Daniel - About"
+msgstr "Daniel - Sobre"
+
+#: about.php:10 about.php:18
+msgid ""
+"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
+"this site"
+msgstr ""
+"Sobre o desenvolvedor web, administrador de sistema e entusiasta da "
+"privacidade Daniel Winzen e este site"
+
+#: about.php:30
+msgid "About me"
+msgstr "Sobre mim"
+
+#: about.php:31
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. In my free time I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up in times of the covid "
+"pandemic and resulting home office, because it's fun and keeps me fit."
+msgstr ""
+"Olá, meu nome é Daniel Winzen, um desenvolvedor web e administrador de "
+"sistema alemão. No meu tempo livre gosto de ler livros, programar nos meus "
+"projetos open-source e pole dancing, que aprendi em tempos de pandemia de "
+"covid e consequente home office, porque é divertido e me mantém em forma."
+
+#: about.php:32
+msgid ""
+"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+"also know some basics of Perl, Python, C, C++ and more. With my experience "
+"I'm able to quickly adapt and work with new languages, when necessary."
+msgstr ""
+"As linguagens que uso regularmente são PHP, SQL e JavaScript, mas também "
+"conheço o básico de Perl, Python, C, C++ e muito mais. Com minha "
+"experiência, consigo me adaptar rapidamente e trabalhar com novas linguagens "
+"quando necessário."
+
+#: about.php:33
+msgid ""
+"Before I got into coding and server management, I contributed German "
+"translation to various open-source projects since the end of 2011."
+msgstr ""
+"Antes de entrar na programação e gerenciamento de servidores, contribuí com "
+"tradução em alemão para vários projetos de código aberto desde o final de "
+"2011."
+
+#: about.php:34
+msgid ""
+"Managing servers, email services and developing new web projects is what I "
+"thrive on. I like optimizing systems for performance and getting the best "
+"out of what I have. Do you need help with managing and optimizing your "
+"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
+"touch</a> and we'll discuss details."
+msgstr ""
+"Gerenciar servidores, serviços de e-mail e desenvolver novos projetos web é "
+"o que me faz prosperar. Gosto de otimizar sistemas para desempenho e tirar o "
+"melhor proveito do que tenho. Você precisa de ajuda para gerenciar e "
+"otimizar sua infraestrutura ou site? Estou aqui para ajudar. <a href=\"/"
+"contact.php\">Entre em contato</a> e discutiremos os detalhes."
+
+#: about.php:35
+msgid "Profiles on other sites that I am active on:"
+msgstr "Perfis em outros sites em que estou ativo:"
+
+#: about.php:42
+msgid "About this site"
+msgstr "Sobre este site"
+
+#: about.php:43
+msgid ""
+"This is my personal site, that I develop in my free time. I started "
+"development of this site in August/September 2013 when I wanted to have a "
+"platform to host files on, to use at school."
+msgstr ""
+"Este é o meu site pessoal, que desenvolvo no meu tempo livre. Comecei o "
+"desenvolvimento deste site em agosto/setembro de 2013, quando queria ter uma "
+"plataforma para hospedar arquivos para usar na escola."
+
+#: about.php:44
+msgid ""
+"Quickly the idea of using a chat at school came up and I came across a "
+"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
+"deployed that on my Raspberry Pi it was running very slowly and wasn't "
+"really usable for use with several people. So I decided to port some parts I "
+"needed to PHP."
+msgstr ""
+"Rapidamente surgiu a ideia de usar um chat na escola e me deparei com um "
+"script de chat perl simples chamado <a href=\"https://github.com/"
+"virtualghetto/lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> LE-"
+"CHAT</a>. Quando o implantei no meu Raspberry Pi, ele estava funcionando "
+"muito lentamente e não era realmente utilizável para uso com várias pessoas. "
+"Então decidi portar algumas partes que precisava para o PHP."
+
+#: about.php:45
+msgid ""
+"This has been the start for me to get deeper into web-development and I have "
+"since open-sourced that chat script and several other scripts of this site "
+"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
+"new features and improved reliability and my code a lot."
+msgstr ""
+"Este foi o começo para eu me aprofundar no desenvolvimento da web e, desde "
+"então, abri o código desse script de chat e vários outros scripts deste site "
+"na minha <a href=\"https://github.com/DanWin/\" target =\"_blank\" rel="
+"\"noopener noreferrer\">Conta do GitHub</a>. Desde então, adicionei muitos "
+"novos recursos e melhorei muito a confiabilidade e meu código."
+
+#: about.php:46
+msgid ""
+"I used to offer free file hosting, an url shortener, a chat and even a free "
+"darknet web hosting service. All these projects have taught me a lot about "
+"coding, security and server management. As of now, only the anonymous email "
+"and XMPP hosting, as well as the onion link list are still actively "
+"maintained."
+msgstr ""
+"Eu costumava oferecer hospedagem gratuita de arquivos, um encurtador de URL, "
+"um chat e até um serviço gratuito de hospedagem na darknet. Todos esses "
+"projetos me ensinaram muito sobre programação, segurança e gerenciamento de "
+"servidores. Neste momento, apenas o e-mail anônimo e a hospedagem XMPP, bem "
+"como a lista de links da Onion ainda são mantidos ativamente."
+
+#: about.php:47
+msgid "About the setup"
+msgstr "Sobre minhas configurações"
+
+#: about.php:48
+msgid ""
+"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
+"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
+"sh and Wireguard."
+msgstr ""
+"Os softwares que uso são Debian rodando Ceph, NginX, MariaDB, Dovecot, "
+"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
+"sh e Wireguard."
+
+#: about.php:49
+msgid ""
+"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
+"the raspberry pis at home. Additionally, they run a Postfix instance only "
+"listening on the VPN network to send out mails to clearnet."
+msgstr ""
+"Os gateways clearnet em <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> são em NginX Proxy que encaminhará todas as "
+"solicitações para os Raspberry PIs em casa. Além disso, eles executam uma "
+"instância do Postfix apenas escutando a rede VPN para enviar e-mails para a "
+"clearnet."
+
+#: about.php:50
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr "Todos os servidores estão interconectados com uma VPN Wireguard."
+
+#: about.php:51
+msgid "Hosting providers I use(ed) and servers hosted there:"
+msgstr "Provedores de hospedagem que eu uso/usei e servidores hospedados lá:"
+
+#: about.php:53 about.php:54
+#, php-format
+msgid "%s - good for short-term and/or low-bandwidth projects"
+msgstr ""
+"%s - bom para projetos de curto prazo e/ou projetos de baixa banda larga"
+
+#: about.php:55
+#, php-format
+msgid "%s - good and reliable"
+msgstr "%s - bom e confiável"
+
+#: about.php:56
+#, php-format
+msgid "%s - comparably expensive but good and reliable"
+msgstr "%s - comparativamente caro, mas bom e confiável"
+
+#: about.php:57
+#, php-format
+msgid "%s - (Used for my clearnet gateway) - good and reliable"
+msgstr "%s - (Usado para meu gateway clearnet) - bom e confiável"
+
+#: about.php:58
+#, php-format
+msgid ""
+"%s - (Used for my clearnet gateway + Domain registration) - good and "
+"reliable, hosted in my city"
+msgstr ""
+"%s - (usado para meu gateway clearnet + registro de domínio) - bom e "
+"confiável, hospedado em minha cidade"
+
+#: about.php:59
+msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
+msgstr "Hospedagem caseira: 4 Raspberry Pi 4 com o site principal e dados"
+
+#: about.php:61 index.php:31
+#, php-format
+msgid ""
+"If you like, what I've built here, you can support me by donating via "
+"Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
+"contact.php\">contact me</a>."
+msgstr ""
+"Se você gosta do que construí aqui, pode me apoiar doando via Monero: %1$s "
+"ou Bitcoin: %2$s . Para mais opções disponíveis, simplesmente <a href=\"/"
+"contact.php\">entre em contato comigo</a>."
+
+#: new-domain.php:6 new-domain.php:17 new-domain.php:27
+msgid "Daniel - New domain"
+msgstr "Daniel - Novo domínio"
+
+#: new-domain.php:10 new-domain.php:18
+msgid "We moved to a brand new domain - migrate your accounts"
+msgstr "Mudamos para um novo domínio - migre suas contas"
+
+#: new-domain.php:29
+msgid "New domain - DanWin1210.Me is now DanWin1210.De"
+msgstr "Novo domínio - DanWin1210.Me agora é DanWin1210.De"
+
+#: new-domain.php:30
+msgid "Why this sudden and drastic change?"
+msgstr "Por que essa mudança repentina e drástica?"
+
+#: new-domain.php:31
+msgid ""
+"In mid-October 2021 I noticed that I was locked out of my registrar's "
+"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q>. After contacting their "
+"customer support multiple times, even after more than a year, all I have "
+"ever gotten back from them is that I will hear from them soon, as they need "
+"more time to investigate, and they appreciate my patience. I was refused "
+"renewing the domain or moving to a different registrar."
+msgstr ""
+"Em meados de outubro de 2021, percebi que fui bloqueado no painel de "
+"controle do meu registrador (Namecheap Inc.) por <q>suspeita de fraude, "
+"estorno ou alguma violação semelhante de nossos termos de serviço</q>. "
+"Depois de entrar em contato com o suporte ao cliente várias vezes, mesmo "
+"depois de mais de um ano, tudo o que recebi deles é que terei notícias deles "
+"em breve, pois precisam de mais tempo para investigar e agradecem minha "
+"paciência. Foi recusado a mim renovar o domínio ou mudar para um registro "
+"diferente."
+
+#: new-domain.php:32
+msgid ""
+"Given that I was unable to get a satisfying answer and the old domain was "
+"due to expire, I went ahead and bought the new domain danwin1210.de, to "
+"switch over to. danwin1210.me went down after expiry, but thankfully I was "
+"allowed to pay for extension by creating a new account and depositing the "
+"money for renewal there, so it was back up shortly afterwards."
+msgstr ""
+"Como não consegui obter uma resposta satisfatória e o domínio antigo estava "
+"prestes a expirar, fui em frente e comprei o novo domínio danwin1210.de, "
+"para o qual mudar. danwin1210.me caiu após o vencimento, mas felizmente pude "
+"pagar pela extensão criando uma nova conta e depositando o dinheiro para "
+"renovação lá, então ele voltou logo depois."
+
+#: new-domain.php:33
+msgid ""
+"After a year my domain was due expiry again, so I enquired if I could move "
+"to a different registrar now. They offered me again to pay via an alternate "
+"account, because: <q>Unfortunately, we need more time to investigate your "
+"issue.</q> A year should be more than enough time to solve whatever issue "
+"they might have with my account… This time I decided to let it expire for "
+"good, since almost everyone should have switched over to the new domain by "
+"now."
+msgstr ""
+"Depois de um ano meu domínio estava prestes a expirar novamente, perguntei "
+"se poderia mudar para um registro diferente. Eles me ofereceram novamente "
+"para pagar por meio de uma conta alternativa, porque: <q>Infelizmente, "
+"precisamos de mais tempo para investigar seu problema.</q> Um ano deve ser "
+"tempo mais do que suficiente para resolver qualquer problema que eles possam "
+"ter com minha conta… Desta vez, decidi deixá-lo expirar de vez, pois quase "
+"todos já deveriam ter mudado para o novo domínio."
+
+#: new-domain.php:34
+msgid "What does it mean for users?"
+msgstr "O que isso significa para os usuários?"
+
+#: new-domain.php:35
+msgid ""
+"You don't have an account and just browse the site? Not much will change, "
+"just the address in your browsers URL bar."
+msgstr ""
+"Você não tem uma conta e apenas navega no site? Não vai mudar muita coisa, "
+"apenas o endereço na barra de URL do seu navegador."
+
+#: new-domain.php:36
+msgid ""
+"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
+"you some struggles, as you now only have a few days left to migrate all your "
+"contacts/accounts to the new address. Any service where you registered with "
+"your email address will need to be updated to reflect the new domain. You "
+"might otherwise get locked out of your accounts, if they require you to e.g. "
+"click a link in your email for login."
+msgstr ""
+"Você está usando o serviço XMPP/E-Mail? Lamento, mas isso provavelmente "
+"causará algumas dificuldades, pois agora você tem apenas alguns dias para "
+"migrar todos os seus contatos/contas para o novo endereço. Qualquer serviço "
+"onde você se registrou com seu endereço de e-mail precisará ser atualizado "
+"para refletir o novo domínio. Caso contrário, você pode ser bloqueado em "
+"suas contas, se elas exigirem que você, por exemplo, clique em um link em "
+"seu e-mail para fazer login."
+
+#: new-domain.php:37
+msgid ""
+"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
+"php\" target=\"_blank\">in their account settings</a> to reflect the new "
+"domain and allow WKD clients to grab your key automatically."
+msgstr ""
+"Usuários de e-mail também devem atualizar sua chave PGP <a href=\"/mail/"
+"manage_account.php\" target=\"_blank\">nas configurações de sua conta</a> "
+"para refletir o novo domínio e permitir que clientes WKD obtenham sua chave "
+"automaticamente ."
+
+#: new-domain.php:38
+msgid ""
+"You can still login with your .me user credentials, but the account is going "
+"to be .de. As long as the old domain is still online, you can also receive "
+"emails on the .me domain, while sending is switched over to .de."
+msgstr ""
+"Você ainda pode fazer login com suas credenciais de usuário '.me', mas a "
+"conta será '.de'. Enquanto o domínio antigo ainda estiver online, você "
+"também pode receber e-mails no domínio '.me', enquanto o envio é alterado "
+"para '.de'."
+
+#: new-domain.php:39
+msgid ""
+"XMPP users will most likely notice their account stopped working. "
+"Unfortunately there is no easy way to migrate accounts with prosody (the "
+"XMPP server), as there is with email. You will need to update your account "
+"settings to reflect the new domain in order to login and re-connect with all "
+"your buddies."
+msgstr ""
+"Os usuários do XMPP provavelmente perceberão que sua conta parou de "
+"funcionar. Infelizmente, não há uma maneira fácil de migrar contas com o "
+"prosody (o servidor XMPP), como ocorre com o e-mail. Você precisará "
+"atualizar as configurações da sua conta para refletir o novo domínio para "
+"fazer login e reconectar-se com todos os seus amigos."
+
+#: new-domain.php:40
+msgid "Will the old address still work?"
+msgstr "O endereço antigo ainda funcionará?"
+
+#: new-domain.php:41
+msgid ""
+"After a very brief downtime, it was back online. Now, after a year, it's "
+"expired once more. I may be able to buy it again after Namecheap returns the "
+"domain to the registry. However, Namecheap apparently sells the domain now "
+"for $400…"
+msgstr ""
+"Após um breve tempo de inatividade, ele voltou a ficar online. Agora, depois "
+"de um ano, expirou mais uma vez. Talvez eu consiga comprá-lo novamente "
+"depois que a Namecheap retornar o domínio ao registro. No entanto, a "
+"Namecheap aparentemente vende o domínio agora por $400…"
+
+#: new-domain.php:42
+msgid "I have a question, something is broken with my account."
+msgstr "Estou com uma dúvida, algo está errado com minha conta."
+
+#: new-domain.php:43
+msgid ""
+"Make sure you have switched all your settings to the new domain. It should "
+"work as before. Stil not working correctly? Feel free to <a href=\"/contact."
+"php\">contact me</a> for help."
+msgstr ""
+"Certifique-se de ter mudado todas as suas configurações para o novo domínio. "
+"Deve funcionar como antes. Ainda não está funcionando corretamente? Sinta-se "
+"à vontade para <a href=\"/contact.php\">contatar-me</a> e obter ajuda."
+
+#: new-domain.php:44
+msgid ""
+"How do I know you are still the same person? This could be law enforcement "
+"taking over the servers."
+msgstr ""
+"Como sei que você ainda é a mesma pessoa? Isso pode ser uma aplicação da lei "
+"assumindo os servidores."
+
+#: new-domain.php:45
+msgid ""
+"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
+"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
+"\"_blank\">old PGP key</a>. This can be verified by running a command like "
+"this:"
+msgstr ""
+"Aproveitei a oportunidade para criar uma <a href=\"/pgp.txt\" target=\"_blank"
+"\">nova chave PGP</a> e assinei com minha <a href=\"/old_pgp.txt\" target="
+"\"_blank \">antiga chave PGP</a>. Isso pode ser verificado executando um "
+"comando como este:"
+
+#: new-domain.php:47
+msgid ""
+"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
+"code>. I have also included signatures of previous keys on my old key, so "
+"you can even verify the key, in case you have an older key I was using "
+"before."
+msgstr ""
+"Isso deve mostrar a prova de que está assinado pela minha antiga chave "
+"<code>F8B8CFC35FBDB40D</code>. Também incluí assinaturas de chaves "
+"anteriores na minha chave antiga, para que você possa até mesmo verificar a "
+"chave, caso tenha uma chave mais antiga que eu estava usando antes."
+
+#: faq.php:6 faq.php:14 faq.php:24
+msgid "Daniel - FAQ - Frequently Asked Questions"
+msgstr "Daniel - FAQ - Perguntas Frequentes"
+
+#: faq.php:9 faq.php:15
+msgid ""
+"A list of frequently asked questions regarding the services I provide and "
+"their answers"
+msgstr ""
+"Uma lista de perguntas frequentes sobre os serviços que presto e suas "
+"respostas"
+
+#: faq.php:25 faq.php:52
+msgid "I found an illegal link/content on your site, can you remove it?"
+msgstr "Encontrei um link/conteúdo ilegal em seu site, você pode removê-lo?"
+
+#: faq.php:25 faq.php:53
+#, php-format
+msgid ""
+"Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
+"possible."
+msgstr ""
+"Sim, <a href=\"%s\">denuncie</a> e eu o removerei o mais rápido possível."
+
+#: faq.php:26 faq.php:56
+msgid "What is PGP?"
+msgstr "O que é PGP?"
+
+#: faq.php:26 faq.php:57
+msgid ""
+"PGP is an encryption program, that can be used to encrypt or sign emails and "
+"files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" target="
+"\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia article</"
+"a>."
+msgstr ""
+"PGP é um programa de criptografia, que pode ser usado para criptografar ou "
+"assinar e-mails e arquivos. <a href=\"https://en.wikipedia.org/wiki/"
+"Pretty_Good_Privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Mais "
+"informações neste artigo da Wikipédia</a>."
+
+#: faq.php:27 faq.php:60
+msgid "I have an idea how to make your site better, can you add feature xyz?"
+msgstr ""
+"Tenho uma ideia de como tornar seu site melhor, você pode adicionar o "
+"recurso 'xyz'?"
+
+#: faq.php:27 faq.php:61
+#, php-format
+msgid ""
+"Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
+"It might take a while until your feature gets added though."
+msgstr ""
+"Sim, <a href=\"%s\">entre em contato comigo</a> e posso adicioná-lo à minha "
+"lista de tarefas. Pode demorar um pouco até que seu recurso seja adicionado."
+
+#: faq.php:28 faq.php:64
+msgid ""
+"I want to translate your site and services into another language, how can I "
+"do this?"
+msgstr ""
+"Quero traduzir seu site e serviços para outro idioma, como posso fazer isso?"
+
+#: faq.php:28 faq.php:65
+msgid ""
+"Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub repositories</a> and check out the individual "
+"projects you would like to translate."
+msgstr ""
+"Por favor, veja meus <a href=\"https://github.com/DanWin/\" target=\"_blank"
+"\" rel=\"noopener noreferrer\">repositórios GitHub</a> e confira os projetos "
+"individuais que você gostaria de traduzir."
+
+#: faq.php:29 faq.php:68
+msgid "I heard of red rooms, live murder streams or similar. Are they real?"
+msgstr ""
+"Ouvi falar de 'red rooms', transmissões ao vivo de assassinatos ou "
+"similares. Eles são reais?"
+
+#: faq.php:29 faq.php:69
+msgid ""
+"No, they are just horror stories people commonly tell you. Many people make "
+"YouTube videos about the \"deep web\" and claim there were sites like these. "
+"However, many scammers jump on the train and create a site where they tell "
+"you to pay bitcoins to gain access. Don't pay, because they simply do not "
+"exist."
+msgstr ""
+"Não, são apenas histórias de terror que as pessoas costumam contar. Muitas "
+"pessoas fazem vídeos no YouTube sobre a \"deep web\" e afirmam que haviam "
+"sites como esses. No entanto, muitos golpistas pulam no trem e criam um site "
+"onde dizem para você pagar bitcoins para obter acesso. Não pague, porque "
+"eles simplesmente não existem."
+
+#: faq.php:30 faq.php:72
+msgid ""
+"I heard of the shadow web, marianas web or closed shell network. How can I "
+"access them?"
+msgstr ""
+"Já ouvi falar da 'shadow web', 'mariana's web' ou redes fechadas em shell . "
+"Como posso acessá-los?"
+
+#: faq.php:30 faq.php:73
+msgid ""
+"You can't, because they do not exist. Some scammers want to sell it to you "
+"though. Don't pay because you won't get anything in return for your money."
+msgstr ""
+"Você não pode, porque eles não existem. Alguns golpistas querem vendê-lo "
+"para você. Não pague porque você não receberá nada em troca do seu dinheiro."
+
+#: faq.php:31 faq.php:76
+msgid ""
+"Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
+"find any interesting sites?"
+msgstr ""
+"A dark net não deveria ser bizarra e cheia de merdas assustadoras? Por que "
+"não consigo encontrar nenhum site interessante?"
+
+#: faq.php:31 faq.php:77
+msgid ""
+"No, the Tor darknet was created to be able to anonymously browse the "
+"internet, circumvent censorship and anonymously host websites. Of course, "
+"it's not only used for a good cause. There are many phishing sites, scammers "
+"and child porn sites. But apart from the fact that you are anonymous, there "
+"isn't that much of a difference to the clearnet (normal internet). So most "
+"horror stories you have heard about Tor are just that, stories."
+msgstr ""
+"Não, o Tor darknet foi criado para poder navegar anonimamente na Internet, "
+"contornar a censura e hospedar sites anonimamente. Claro, não é usado apenas "
+"para uma boa causa. Existem muitos sites de phishing, golpes e sites de "
+"pornografia infantil. Mas, além do fato de você ser anônimo, não há muita "
+"diferença entre a clearnet (internet normal). Portanto, a maioria das "
+"histórias de terror que você ouviu sobre o Tor são apenas isso, histórias."
+
+#: faq.php:32 faq.php:80
+msgid "What's the difference between deep web and darknet?"
+msgstr "Qual é a diferença entre deep web e darknet?"
+
+#: faq.php:32 faq.php:81
+msgid ""
+"The deep web is any site that can't be indexed by a search engine, so "
+"basically any site where you have to log in or be part of a private network. "
+"To access a darknet, it requires special software like Tor, I2P or Freenet. "
+"The darknet is a small part of the deep web."
+msgstr ""
+"A deep web é qualquer site que não pode ser indexado por um mecanismo de "
+"busca, portanto, basicamente qualquer site em que você precise fazer login "
+"ou fazer parte de uma rede privada. Para acessar a darknet, é necessário um "
+"software especial como Tor, I2P ou Freenet. A darknet é uma pequena parte da "
+"deep web."
+
+#: faq.php:33 faq.php:84
+msgid "Can you hold my hands and teach me programming or hacking step by step?"
+msgstr ""
+"Você pode segurar minhas mãos e me ensinar a programar ou hackear passo a "
+"passo?"
+
+#: faq.php:33 faq.php:88
+msgid ""
+"Joking aside, Teaching you programming or hacking is a task that will take a "
+"long time (years). I've been learning for 10 years and still learn new "
+"things all the time. But for the beginning I would recommend reading a "
+"beginners introduction book, which can guide you with some simple programs "
+"you build yourself and examples. If you prefer watching videos, there are a "
+"lot of tutorials on YouTube too. But most importantly you will have to take "
+"your keyboard and start typing some programs. Start with something simple "
+"and keep yourself challenged with new tasks."
+msgstr ""
+"Brincadeiras a parte, te ensinar programação ou hacking é uma tarefa que vai "
+"levar muito tempo (anos). Eu tenho aprendido por 10 anos e ainda aprendo "
+"coisas novas o tempo todo. Mas, para começar, eu recomendaria a leitura de "
+"um livro de introdução para iniciantes, que pode guiá-lo com alguns "
+"programas simples e exemplos que você mesmo constrói . Se você preferir "
+"assistir a vídeos, também há muitos tutoriais no YouTube. Mas o mais "
+"importante, você terá que pegar seu teclado e começar a digitar alguns "
+"programas. Comece com algo simples e mantenha-se desafiado com novas tarefas."
+
+#: faq.php:34 faq.php:94
+msgid ""
+"Can you hack my school or university and change my grades, or find someone "
+"who would do that?"
+msgstr ""
+"Você pode hackear minha escola ou universidade e mudar minhas notas, ou "
+"encontrar alguém que faria isso?"
+
+#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:100
+msgid ""
+"Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
+"can't help you with that."
+msgstr ""
+"Sim, eu adoraria ir para a prisão por você! - Hum, ou melhor, não. Desculpe, "
+"não posso ajudá-lo com isso."
+
+#: faq.php:35 faq.php:95
+msgid ""
+"Can you give me, or tell me where to reliably get stolen PayPal accounts or "
+"credit cards?"
+msgstr ""
+"Você pode me fornecer ou me dizer onde obter de forma confiável contas do "
+"PayPal ou cartões de crédito roubados?"
+
+#: faq.php:36 faq.php:96
+msgid "Can you issue fake Covid19 test results?"
+msgstr "Você pode emitir falsos resultados do teste de Covid19?"
+
+#: faq.php:37 faq.php:97
+msgid "Can you do some other illegal things for me?"
+msgstr "Você pode fazer algumas outras coisas ilegais para mim?"
+
+#: faq.php:38 faq.php:103
+msgid "Can you hack my girlfriend? I think she's cheating."
+msgstr "Você pode hackear minha namorada? Acho que ela está me traindo."
+
+#: faq.php:38 faq.php:104
+msgid ""
+"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"you that, because they are all scams. This is ethically just wrong and is "
+"more likely going to hurt your relationship than helping you. Talk to her, "
+"it's the best you can do. If you are at the point of thinking to hire a "
+"hacker, you should definitely think about breaking up, because relationships "
+"are based on trust, but obviously you can't trust anymore."
+msgstr ""
+"Sim, eu poderia tentar, mas não vou. Não confie em nenhum site que afirme "
+"fornecer isso a você, porque todos são golpes. Isso é eticamente errado e é "
+"mais provável que prejudique seu relacionamento do que ajude você. Fale com "
+"ela, é o melhor que você pode fazer. Se você está pensando em contratar um "
+"hacker, com certeza deveria pensar em terminar, porque relacionamentos são "
+"baseados em confiança, mas obviamente você não pode mais confiar."
+
+#: faq.php:39 faq.php:107
+msgid "My email doesn't get sent. I'm getting an error about TLS"
+msgstr "Meu e-mail não é enviado. Estou recebendo um erro sobre TLS"
+
+#: faq.php:39 faq.php:108
+#, php-format
+msgid ""
+"You've tried sending an email to a mail server that doesn't accept emails "
+"via encrypted transfer, or is using insecure protocols. This is very "
+"unfortunate, because it would leak your email content to anyone on the "
+"internet, who can intercept your email before it reaches the destination. "
+"You can disable mandatory encryption in your <a href=\"%s\">account "
+"settings</a>, if you still need to send this email."
+msgstr ""
+"Você tentou enviar um e-mail para um servidor que não aceita e-mails por "
+"meio de transferência criptografada ou está usando protocolos inseguros. "
+"Isso é lamentável, porque vazaria o conteúdo do seu e-mail para qualquer "
+"pessoa na Internet que pode interceptar seu e-mail antes que ele chegue ao "
+"destino. Você pode desativar a criptografia obrigatória nas <a href=\"%s"
+"\">configurações da sua conta</a>, se ainda precisar enviar este e-mail."
+
+#: faq.php:40 faq.php:111
+msgid "I can't receive email, the sender gets an error about TLS"
+msgstr "Não consigo receber e-mail, o remetente recebe um erro sobre TLS"
+
+#: faq.php:40 faq.php:112
+#, php-format
+msgid ""
+"Someone tried emailing you from a mail server that doesn't support sending "
+"emails via encrypted transfer, or is using insecure protocols. This is very "
+"unfortunate, because it would leak your email content to anyone on the "
+"internet, who can intercept your email before it reaches the destination. "
+"You can disable mandatory encryption in your <a href=\"%s\">account "
+"settings</a>, if you still need to receive this email."
+msgstr ""
+"Alguém tentou enviar um e-mail para você de um servidor que não suporta o "
+"envio de e-mails por transferência criptografada ou está usando protocolos "
+"inseguros. Isso é muito lamentável, porque vazaria o conteúdo do seu e-mail "
+"para qualquer pessoa na Internet, que pode interceptar seu e-mail antes que "
+"ele chegue ao destino. Você pode desativar a criptografia obrigatória nas <a "
+"href=\"%s\">configurações da sua conta</a>, se ainda precisar receber este e-"
+"mail."
+
+#: faq.php:41 faq.php:115
+msgid "I have more Questions."
+msgstr "Eu tenho mais perguntas."
+
+#: faq.php:41 faq.php:116
+#, php-format
+msgid "Feel free, to <a href=\"%s\">contact me</a>."
+msgstr "Sinta-se à vontade para <a href=\"%s\">contatar-me</a>."
+
+#: faq.php:44
+msgid "FAQ - Frequently Asked Questions"
+msgstr "FAQ - Perguntas Frequentes"
+
+#: faq.php:45
+msgid ""
+"Here you have a list of frequently asked questions regarding the services I "
+"provide and their answers."
+msgstr ""
+"Aqui você tem uma lista de perguntas frequentes sobre os serviços que presto "
+"e suas respostas."
+
+#: faq.php:48
+msgid "Question"
+msgstr "Pergunta"
+
+#: faq.php:49
+msgid "Answer"
+msgstr "Resposta"
+
+#: faq.php:86
+msgid ""
+"Yes, marry me and I might actually do that. But only if you teach me "
+"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
+"Sorry guys, only considering females."
+msgstr ""
+"Sim, case-se comigo e talvez eu realmente faça isso. Mas só se você me "
+"ensinar algo em troca. <a href=\"contact.php\">Envie-me suas propostas</a>. "
+"Desculpe pessoal, considerando apenas mulheres."
+
+#: chat/index.php:6 chat/index.php:15 chat/index.php:25
+msgid "Daniel - Chat"
+msgstr "Daniel - Chat"
+
+#: chat/index.php:10 chat/index.php:16
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr "Daniel's Chat - uma antiga comunidade de bate-papo na darknet"
+
+#: chat/index.php:27
+msgid "Daniel's Chat"
+msgstr "Chat do Daniel"
+
+#: chat/index.php:28
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr "Depois de 9 anos, vou encerrar de vez o chat."
+
+#: chat/index.php:29
+msgid ""
+"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">my onion link list</a>. If you are interested in running a similar "
+"chat community, you can download my chat script on <a href=\"https://github."
+"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">GitHub</a>."
+msgstr ""
+"Você pode encontrar chats alternativos na <a href=\"https://onions."
+"danwin1210.de/?cat=2\">minha lista de links onion</a>. Se você estiver "
+"interessado em administrar uma comunidade de chat semelhante, faça o "
+"download do meu script de chat em <a href=\"https://github.com/DanWin/le-"
+"chat-php\" target=\"_blank\" rel=\"noopener noreferrer\" >GitHub</a>."
+
+#: chat/index.php:30
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+"Este chat começou como um projeto por hobby para uso na escola em 2013 e "
+"evoluiu para uma comunidade de chat na darknet muito ativa. Entreguei a "
+"administração do chat a várias outras pessoas desde 2017, pois não conseguia "
+"mais encontrar tempo ou motivação para administra-lo. Nos últimos meses, a "
+"administração que assumiu, manteve o chat muito privado, fez as pessoas "
+"passarem horas esperando para conseguir acesso e chutou aleatoriamente as "
+"pessoas sem motivo. Isso, por sua vez, encheu minha caixa de entrada com "
+"mensagens de pessoas pedindo ajuda para acessar o chat e o tráfego diminuiu "
+"para uma fração do que costumava ser. Nesse estado, não fazia sentido "
+"continuar provendo o serviço. Assim, resolvi encerrar de vez o chat em "
+"dezembro de 2022, após 9 anos."
+
+#: chat/index.php:31
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+"Já que algumas pessoas me pediram para torná-los administradores e reativar "
+"o chat: Não, esta decisão foi tomada e estava atrasada. O chat não tinha "
+"mais nada a ver comigo, exceto que eu o programei e mantenho o servidor. "
+"Qualquer um pode criar seu próprio chat, mas não aqui no meu site."
+
+#: chat/index.php:32 github-ipv6-proxy.php:90
+msgid ""
+"If there are any further questions, feel free to <a href=\"/contact.php"
+"\">contact me</a>."
+msgstr ""
+"Se houver mais perguntas, sinta-se à vontade para <a href=\"/contact.php"
+"\">entrar em contato comigo</a>."
+
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
+msgid ""
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+msgstr ""
+"O proxy GitHub IPv6 permite o download de repositórios GitHub em servidores "
+"somente IPv6"
+
+#: github-ipv6-proxy.php:34
+#, php-format
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %s. Unfortunately I realized "
+"that GitHub still <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
+"support IPv6</a>."
+msgstr ""
+"Recentemente, tive que clonar um repositório git no GitHub por meio de um "
+"servidor somente IPv6 que aluguei no meu provedor de hospedagem favorito %s. "
+"Infelizmente, percebi que o GitHub ainda <a href=\"https://github.com/orgs/"
+"community/discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">não suporta IPv6</a>."
+
+#: github-ipv6-proxy.php:35
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+"Minha solução alternativa foi configurar uma VPN WireGuard com um dos meus "
+"servidores dual-stack. Uma alternativa poderia ter sido instalar o Tor para "
+"baixar anonimamente."
+
+#: github-ipv6-proxy.php:36
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+"Como não sou de longe o único usuário com um servidor somente IPv6 "
+"procurando baixar repositórios do GitHub, decidi fornecer um servidor proxy "
+"público que pode ser usado para acessar o GitHub em uma rede IPv6, até que o "
+"GitHub forneça suporte IPv6 nativo. O proxy está disponível apenas no IPv6, "
+"para evitar que os usuários do IPv4 usem recursos desnecessários, pois eles "
+"já podem clonar diretamente do GitHub."
+
+#: github-ipv6-proxy.php:37
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+"Observe que meu proxy https está servindo a um certificado SSL emitido para "
+"meu domínio, o que significa que eu decriptografo e criptografo novamente "
+"seu tráfego (e poderia investigá-lo, mas não o faço). É necessário, pois "
+"você receberia um aviso de certificado SSL inválido, caso contrário, o "
+"github redirecionaria para a porta padrão após aceitá-lo. Veja abaixo uma "
+"solução mais permanente, que é mais favorável à privacidade."
+
+#: github-ipv6-proxy.php:38
+#, php-format
+msgid ""
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
+msgstr ""
+"Então, como isso funciona? Vamos supor que queremos clonar o script PHP Chat "
+"que publiquei em %s. Normalmente a clonagem do repositório ficaria assim:"
+
+#: github-ipv6-proxy.php:40
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr "Em uma conexão IPv6, você pode usar meu serviço de proxy assim:"
+
+#: github-ipv6-proxy.php:42
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr "E se você quiser clonar via ssh, também pode fazer assim:"
+
+#: github-ipv6-proxy.php:44
+msgid ""
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
+msgstr ""
+"Aqueles que desejam usar o proxy de forma mais permanente e/ou falar "
+"diretamente com o GitHub, sem eu criptografar novamente seu tráfego, devem "
+"adicionar o seguinte a /etc/hosts:"
+
+#: github-ipv6-proxy.php:49
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr ""
+"Depois de adicionado, você pode clonar como de costume, sem nenhuma "
+"alteração:"
+
+#: github-ipv6-proxy.php:52
+msgid ""
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
+msgstr ""
+"Tudo isso é feito com a seguinte configuração Nginx em um servidor dual "
+"stack:"
+
+#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
+#: tutorials/torify-ftp/index.php:36
+msgid "Tutorials - Torify FTP clients"
+msgstr "Tutoriais - Como Torificar clientes FTP"
+
+#: tutorials/torify-ftp/index.php:10 tutorials/torify-ftp/index.php:24
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of "
+"FileZilla and WinSCP."
+msgstr ""
+"Este tutorial mostrará como torificar clientes FTP no exemplo de FileZilla e "
+"WinSCP."
+
+#: tutorials/torify-ftp/index.php:33 tutorials/index.php:31
+msgid "Torify FTP clients"
+msgstr "Torificar clientes FTP"
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Download FileZilla"
+msgstr "Baixae o FileZilla"
+
+#: tutorials/torify-ftp/index.php:33
+msgid ""
+"If you haven't installed FileZilla yet, you need to first download FileZilla."
+msgstr ""
+"Se você ainda não instalou o FileZilla, você precisa primeiro baixar o "
+"FileZilla."
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Configure proxy"
+msgstr "Configure o proxy"
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:45
+msgid ""
+"Go to Generic Proxy settings and change the type to SOCKS5, host to "
+"localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
+"TorBrowser)."
+msgstr ""
+"Vá para configurações genéricas de proxy e altere o tipo para SOCKS5, host "
+"para localhost e a porta para 9050 (se você executar o Tor como daemon) ou "
+"9150 (se você executar o TorBrowser)."
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Alternatively download WinSCP"
+msgstr "Como alternativa, baixe o WinSCP"
+
+#: tutorials/torify-ftp/index.php:33
+msgid "If you haven't installed WinSCP yet, you need to first download WinSCP."
+msgstr ""
+"Se você ainda não instalou o WinSCP, você precisa primeiro baixar o WinSCP."
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Enter connection details"
+msgstr "Insira os detalhes da conexão"
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:77
+msgid "When started, enter your connection details."
+msgstr "Ao iniciar, insira os detalhes da sua conexão."
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Change connection timeout"
+msgstr "Altere o tempo limite de conexão"
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:83
+msgid ""
+"Click on the Advanced… button and under Connection, change timeout to 50 as "
+"Tor can be slow at times."
+msgstr ""
+"Clique no botão Avançado… e em Conexão, altere o tempo limite para 50, pois "
+"o Tor pode ser lento às vezes."
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:89
+msgid ""
+"Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
+"and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
+"and set \"Do DNS name lookup at proxy end\" to yes."
+msgstr ""
+"Agora mude para a aba Proxy e altere o tipo para SOCKS5, host para 127.0.0.1 "
+"e porta para 9050 (se você executar o Tor como daemon) ou 9150 (se você "
+"executar o TorBrowser) e defina \"Do DNS name lookup at proxy end\" para sim."
+
+#: tutorials/torify-ftp/index.php:37
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of <a "
+"href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
+msgstr ""
+"Este tutorial mostrará como torificar clientes FTP no exemplo de <a href="
+"\"#filezilla\">FileZilla</a> e <a href=\"#winscp\">WinSCP</a>."
+
+#: tutorials/torify-ftp/index.php:38
+msgid ""
+"Let's assume you have created an account on my former Hosting service and "
+"you want to upload your files. To do that, you connect with the detials "
+"given in your dashboard. Clearnet works out of the box, but is not torified. "
+"To connect to the hidden service, you need to make a few changes to the "
+"configuration."
+msgstr ""
+"Vamos supor que você criou uma conta no meu antigo serviço de hospedagem e "
+"deseja enviar seus arquivos. Para fazer isso, você se conecta com os "
+"detalhes fornecidos em seu painel. O Clearnet funciona imediatamente, mas "
+"não é torificado. Para se conectar ao serviço oculto, você precisa fazer "
+"algumas alterações na configuração."
+
+#: tutorials/torify-ftp/index.php:41
+msgid "Hosting dashboard"
+msgstr "Painel de hospedagem"
+
+#: tutorials/torify-ftp/index.php:43
+msgid "1. FileZilla"
+msgstr "1. FileZilla"
+
+#: tutorials/torify-ftp/index.php:44
+msgid ""
+"If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
+"project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">download FileZilla here</a>."
+msgstr ""
+"Se ainda não instalou o FileZilla, você pode <a href=\"https://filezilla-"
+"project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">baixar o FileZilla aqui< /a>."
+
+#: tutorials/torify-ftp/index.php:50
+msgid "FileZilla settings"
+msgstr "Configurações do FileZilla"
+
+#: tutorials/torify-ftp/index.php:57
+msgid "FileZilla Generic Proxy settings"
+msgstr "Configurações de proxy genérico do FileZilla"
+
+#: tutorials/torify-ftp/index.php:60
+msgid ""
+"If you have changed your proxy settings and get the following error: "
+"\"ECONNREFUSED - Connection refused by server\" that likely means you have "
+"configured your proxy incorrectly. Check if everything is set correctly, Tor "
+"is running and if you still have the issue, switch the Port between 9050 and "
+"9150. This is what's causing most connection issues people have."
+msgstr ""
+"Se você alterou suas configurações de proxy e obteve o seguinte erro: "
+"\"ECONNREFUSED - Connection refused by server\", isso provavelmente "
+"significa que você configurou seu proxy incorretamente. Verifique se tudo "
+"está configurado corretamente, se o Tor está em execução e se você ainda "
+"tiver o problema, alterne entre a porta 9050 e 9150. Isso é o que está "
+"causando a maioria dos problemas de conexão que as pessoas têm."
+
+#: tutorials/torify-ftp/index.php:64
+msgid "FileZilla connection error"
+msgstr "Erro de conexão do FileZilla"
+
+#: tutorials/torify-ftp/index.php:66
+msgid ""
+"Once you have configured everything correctly, you should be able to "
+"successfully connect and start uploading files."
+msgstr ""
+"Depois de configurar tudo corretamente, você poderá se conectar com êxito e "
+"iniciar o upload de arquivos."
+
+#: tutorials/torify-ftp/index.php:71
+msgid "FileZilla success"
+msgstr "Sucesso do FileZilla"
+
+#: tutorials/torify-ftp/index.php:75
+msgid "2. WinSCP"
+msgstr "2. WinSCP"
+
+#: tutorials/torify-ftp/index.php:76
+msgid ""
+"If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
+"eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
+"WinSCP here</a>."
+msgstr ""
+"Se ainda não instalou o WinSCP, você pode <a href=\"https://winscp.net/eng/"
+"download.php\" target=\"_blank\" rel=\"noopener noreferrer\">baixar o WinSCP "
+"aqui</a>."
+
+#: tutorials/torify-ftp/index.php:81
+msgid "Connection details"
+msgstr "Detalhes da conexão"
+
+#: tutorials/torify-ftp/index.php:87
+msgid "Connection optimizations"
+msgstr "Otimizações de conexão"
+
+#: tutorials/torify-ftp/index.php:93
+msgid "Proxy configuration"
+msgstr "Configuração de proxy"
+
+#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
+msgid "Daniel - Tutorials"
+msgstr "Daniel - Tutoriais"
+
+#: tutorials/index.php:10 tutorials/index.php:16
+msgid "Various tutorials provided by Daniel Winzen"
+msgstr "Vários tutoriais fornecidos por Daniel Winzen"
+
+#: tutorials/index.php:28
+msgid ""
+"Here I upload tutorials that have been asked for a number of times. If you "
+"have suggestions on how to improve a tutorial or want me to make one another "
+"one, you can <a href=\"/contact.php\">contact me here</a>."
+msgstr ""
+"Aqui eu faço o upload de tutoriais que foram solicitados várias vezes. Se "
+"você tiver sugestões sobre como melhorar um tutorial ou quiser que eu faça "
+"um outro, você pode <a href=\"/contact.php\">me contatar por aqui</a>."
+
+#: tutorials/index.php:30
+msgid "Name"
+msgstr "Nome"
+
+#: tutorials/index.php:30
+msgid "Short description"
+msgstr "Breve descrição"
+
+#: tutorials/index.php:31
+msgid "This tutorial will show you how to torify FTP clients."
+msgstr "Este tutorial mostrará como torificar clientes FTP."
+
+#: privacy.php:6 privacy.php:15 privacy.php:25
+msgid "Daniel - Privacy policy"
+msgstr "Daniel - Política de privacidade"
+
+#: privacy.php:10 privacy.php:16
+msgid "Privacy policy of Daniel Winzen"
+msgstr "Política de privacidade de Daniel Winzen"
+
+#: privacy.php:27
+msgid "Privacy policy"
+msgstr "Política de Privacidade"
+
+#: privacy.php:28
+msgid "1. Name and Address of the controller"
+msgstr "1. Nome e endereço do controlador"
+
+#: privacy.php:29
+msgid ""
+"Controller for the purposes of the General Data Protection Regulation "
+"(GDPR), other data protection laws applicable in Member states of the "
+"European Union and other provisions related to data protection is:"
+msgstr ""
+"O Controlador para efeitos da Lei Geral de Proteção de Dados (LGPD), outras "
+"leis de proteção de dados aplicáveis nos estados membros da União Europeia e "
+"outras disposições relacionadas à proteção de dados é:"
+
+#: privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefone: %s"
+
+#: privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: privacy.php:36
+#, php-format
+msgid "Website: %s"
+msgstr "Site: %s"
+
+#: privacy.php:37
+msgid "2. Cookies"
+msgstr "2. Cookies"
+
+#: privacy.php:38
+msgid ""
+"The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
+"are stored in a computer system via an Internet browser."
+msgstr ""
+"As páginas de Internet de Daniel Winzen usam cookies. Cookies são arquivos "
+"de texto armazenados em um sistema de computador por meio de um navegador da "
+"Internet."
+
+#: privacy.php:39
+msgid ""
+"Many Internet sites and servers use cookies. Many cookies contain a so-"
+"called cookie ID. A cookie ID is a unique identifier of the cookie. It "
+"consists of a character string through which Internet pages and servers can "
+"be assigned to the specific Internet browser in which the cookie was stored. "
+"This allows visited Internet sites and servers to differentiate the "
+"individual browser of the data subject from other Internet browsers that "
+"contain other cookies. A specific Internet browser can be recognized and "
+"identified using the unique cookie ID."
+msgstr ""
+"Muitos sites e servidores de Internet usam cookies. Muitos cookies contêm o "
+"chamado ID de cookie. Um ID de cookie é um identificador exclusivo do "
+"cookie. Consiste em uma cadeia de caracteres através da qual as páginas e "
+"servidores da Internet podem ser atribuídos ao navegador da Internet "
+"específico no qual o cookie foi armazenado. Isso permite que os sites e "
+"servidores da Internet visitados diferenciem o navegador individual do "
+"titular dos dados de outros navegadores da Internet que contenham outros "
+"cookies. Um navegador de Internet específico pode ser reconhecido e "
+"identificado usando o ID de cookie exclusivo."
+
+#: privacy.php:40
+msgid ""
+"Through the use of cookies, Daniel Winzen can provide the users of this "
+"website with more user-friendly services that would not be possible without "
+"the cookie setting."
+msgstr ""
+"Através do uso de cookies, Daniel Winzen pode fornecer aos usuários deste "
+"site serviços mais amigáveis que não seriam possíveis sem a configuração de "
+"cookies."
+
+#: privacy.php:41
+msgid ""
+"By means of a cookie, the information and offers on my website can be "
+"optimized with the user in mind. Cookies allow me, as previously mentioned, "
+"to recognize my website users. The purpose of this recognition is to make it "
+"easier for users to utilize my website. An example for the use of a cookie "
+"is when you log in to the mail client, the cookie assures that you stay "
+"logged in with your account until closing your browser or logging out."
+msgstr ""
+"Por meio de um cookie, as informações e ofertas do meu site podem ser "
+"otimizadas pensando no usuário. Os cookies me permitem, como mencionado "
+"anteriormente, reconhecer os usuários do meu site. O objetivo deste "
+"reconhecimento é tornar mais fácil que os usuários utilizem meu site. Um "
+"exemplo de uso de um cookie é quando você faz login no cliente de e-mail, o "
+"cookie garante que você permaneça conectado à sua conta até fechar o "
+"navegador ou sair."
+
+#: privacy.php:42
+msgid ""
+"This site makes only use of technically necessary session cookies and does "
+"not use any form of tracking cookies."
+msgstr ""
+"Este site faz uso apenas de cookies de sessão tecnicamente necessários e não "
+"usa nenhuma forma de cookies de rastreamento."
+
+#: privacy.php:43
+msgid ""
+"The data subject may, at any time, prevent the setting of cookies through my "
+"website by means of a corresponding setting of the Internet browser used, "
+"and may thus permanently deny the setting of cookies. Furthermore, already "
+"set cookies may be deleted at any time via an Internet browser or other "
+"software programs. This is possible in all popular Internet browsers. If the "
+"data subject deactivates the setting of cookies in the Internet browser "
+"used, not all functions of my website may be entirely usable."
+msgstr ""
+"O titular dos dados pode, a qualquer momento, impedir a configuração de "
+"cookies através do meu site por meio de uma configuração correspondente do "
+"navegador de Internet utilizado, podendo assim negar permanentemente a "
+"configuração de cookies. Além disso, os cookies já definidos podem ser "
+"excluídos a qualquer momento por meio de um navegador da Internet ou de "
+"outros programas de software. Isso é possível em todos os navegadores de "
+"Internet populares. Se o titular dos dados desativar a configuração de "
+"cookies no navegador de Internet usado, nem todas as funções do meu site "
+"podem ser totalmente utilizáveis."
+
+#: privacy.php:44
+msgid "3. Collection of general data and information"
+msgstr "3. Coleta de dados e informações gerais"
+
+#: privacy.php:45
+msgid ""
+"The server of Daniel Winzen collects a series of general data and "
+"information when a data subject or automated system calls up the website or "
+"other provided services. This general data and information is stored in the "
+"server log files. Collected may be (1) the browser types and versions used, "
+"(2) the operating system used by the accessing system, (3) the website from "
+"which an accessing system reaches my website (so-called referrers), (4) the "
+"sub-websites, (5) the date and time of access to the Internet site / email "
+"transmission, (6) sender and recipient of an email, and (7) any other "
+"similar data and information that may be used in the event of attacks on my "
+"information technology systems."
+msgstr ""
+"O servidor de Daniel Winzen coleta uma série de dados e informações gerais "
+"quando um titular de dados ou sistema automatizado acessa o site ou outros "
+"serviços prestados. Esses dados e informações gerais são armazenados nos "
+"arquivos de log do servidor. Coletados podem ser (1) os tipos e versões do "
+"navegador usados, (2) o sistema operacional usado pelo sistema de acesso, "
+"(3) o site a partir do qual um sistema de acesso chega ao meu site (os "
+"chamados referenciadores), (4) os sub -sites, (5) a data e hora de acesso ao "
+"site da Internet / transmissão de e-mail, (6) remetente e destinatário de um "
+"e-mail e (7) quaisquer outros dados e informações semelhantes que possam ser "
+"usados em caso de ataques a meus sistemas de tecnologia da informação."
+
+#: privacy.php:46
+msgid ""
+"When using these general data and information, Daniel Winzen does not draw "
+"any conclusions about the data subject. Rather, this information is needed "
+"to (1) deliver the content of my website and services correctly, (2) "
+"optimize my services, (3) ensure the long-term viability of my information "
+"technology systems and website technology. Therefore, I may analyze "
+"anonymously collected data and information statistically, with the aim of "
+"increasing the data protection and data security of my services, and to "
+"ensure an optimal level of protection for the personal data I process. The "
+"general data of the server log files are stored separately from all personal "
+"data provided by a data subject for up to 48 hours and are then permanently "
+"deleted."
+msgstr ""
+"Ao usar esses dados e informações gerais, Daniel Winzen não tira nenhuma "
+"conclusão sobre o titular dos dados. Em vez disso, essas informações são "
+"necessárias para (1) entregar o conteúdo do meu site e serviços "
+"corretamente, (2) otimizar meus serviços, (3) garantir a viabilidade de "
+"longo prazo dos meus sistemas de tecnologia da informação e tecnologia do "
+"site. Assim, posso analisar estatisticamente dados e informações recolhidos "
+"de forma anónima, com o objetivo de aumentar a proteção e segurança de dados "
+"dos meus serviços, e assegurar um nível ótimo de proteção dos dados pessoais "
+"que trato. Os dados gerais dos arquivos de log do servidor são armazenados "
+"separadamente de todos os dados pessoais fornecidos por um titular de dados "
+"por até 48 horas e são excluídos permanentemente."
+
+#: privacy.php:47
+msgid "4. Routine erasure and blocking of personal data"
+msgstr "4.Exclusão rotineira e bloqueio de dados pessoais"
+
+#: privacy.php:48
+msgid ""
+"The data controller shall process and store the personal data of the data "
+"subject only for the period necessary to achieve the purpose of storage, or "
+"as far as this is granted by the European legislator or other legislators in "
+"laws or regulations to which the controller is subject to."
+msgstr ""
+"O controlador de dados deve processar e armazenar os dados pessoais do "
+"titular dos dados apenas pelo período necessário para atingir a finalidade "
+"do armazenamento, ou na medida em que isso seja concedido pelo legislador "
+"europeu ou outros legisladores em leis ou regulamentos aos quais o "
+"controlador está sujeito."
+
+#: privacy.php:49
+msgid ""
+"If the storage purpose is not applicable, or if a storage period prescribed "
+"by the European legislator or another competent legislator expires, the "
+"personal data are routinely erased in accordance with legal requirements."
+msgstr ""
+"Se a finalidade de armazenamento não for aplicável, ou se expirar um período "
+"de armazenamento prescrito pelo legislador europeu ou outro legislador "
+"competente, os dados pessoais são apagados rotineiramente de acordo com os "
+"requisitos legais."
+
+#: privacy.php:50
+msgid "5. Rights of the data subject"
+msgstr "5. Direitos do titular dos dados"
+
+#: privacy.php:51
+msgid ""
+"Each data subject shall have the right of confirmation and access according "
+"to Article 15 GDPR, Right to rectification according to Article 16 GDPR, "
+"Right to erasure (Right to be forgotten) according to Article 17 GDPR, Right "
+"of restriction of processing according to Article 18 GDPR, Right to data "
+"portability according to GDPR article 20, Right to object according to "
+"Article 21 GDPR"
+msgstr ""
+"Cada titular de dados terá o direito de confirmação e acesso de acordo com o "
+"artigo 15 da LGPD, direito de retificação de acordo com o artigo 16 da LGPD, "
+"direito de apagamento (Direito a ser esquecido) de acordo com o artigo 17 da "
+"LGPD, direito de restrição do processamento de acordo com o artigo 18 da "
+"LGPD, Direito à portabilidade de dados de acordo com o artigo 20 da LGPD, "
+"Direito de objeção de acordo com o Artigo 21 da LGPD"
+
+#: privacy.php:52
+msgid "6. Legal basis for the processing"
+msgstr "6. Base legal para o processamento"
+
+#: privacy.php:53
+msgid ""
+"Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
+"for which I obtain consent for a specific processing purpose. If the "
+"processing of personal data is necessary for the performance of a contract "
+"to which the data subject is party, as is the case, for example, when "
+"processing operations are necessary to provide services, the processing is "
+"based on Article 6(1) lit. b GDPR. The same applies to such processing "
+"operations which are necessary for carrying out pre-contractual measures, "
+"for example in the case of inquiries concerning my services. If I am subject "
+"to a legal obligation by which processing of personal data is required, such "
+"as for the fulfillment of tax obligations, the processing is based on Art. "
+"6(1) lit. c GDPR."
+msgstr ""
+"Art. 6(1) a LGPD serve como base legal para operações de processamento para "
+"as quais obtenho consentimento para uma finalidade de processamento "
+"específica. Se o tratamento de dados pessoais for necessário para a execução "
+"de um contrato no qual o titular dos dados seja parte, como é o caso, por "
+"exemplo, quando as operações de tratamento são necessárias para a prestação "
+"de serviços, o tratamento é baseado no artigo 6.º, n.º 1, LGPD. O mesmo se "
+"aplica às operações de processamento necessárias para a execução de medidas "
+"pré-contratuais, por exemplo, no caso de consultas sobre meus serviços. Se "
+"eu estiver sujeito a uma obrigação legal pela qual o processamento de dados "
+"pessoais seja necessário, como o cumprimento de obrigações fiscais, o "
+"processamento é baseado no art. 6.º (1) LGPD."
+
+#: privacy.php:54
+msgid ""
+"Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
+"This legal basis is used for processing operations which are not covered by "
+"any of the above-mentioned legal grounds, if processing is necessary for the "
+"purposes of the legitimate interests pursued by me or by a third party, "
+"except where such interests are overridden by the interests or fundamental "
+"rights and freedoms of the data subject which require protection of personal "
+"data. Such processing operations are particularly permissible because they "
+"have been specifically mentioned by the European legislator. He considered "
+"that a legitimate interest could be assumed if the data subject is a client "
+"of the controller (Recital 47 Sentence 2 GDPR)."
+msgstr ""
+"Por último, as operações de tratamento podem basear-se no artigo 6.º, n.º 1 "
+"da LGPD. Esta base legal é utilizada para operações de tratamento que não se "
+"enquadrem em nenhum dos fundamentos legais acima mencionados, se o "
+"tratamento for necessário para efeitos dos interesses legítimos prosseguidos "
+"por mim ou por um terceiro, salvo se tais interesses forem sobrepostos pelo "
+"interesses ou direitos e liberdades fundamentais do titular dos dados que "
+"exijam proteção de dados pessoais. Tais operações de processamento são "
+"particularmente permitidas porque foram especificamente mencionadas pelo "
+"legislador europeu. Ele considerou que um interesse legítimo pode ser "
+"assumido se o titular dos dados for um cliente do controlador (considerando "
+"a sentença 47, frase 2 LGPD)."
+
+#: privacy.php:55
+msgid "7. Legally binding translation"
+msgstr "7. Tradução juridicamente vinculativa"
+
+#: privacy.php:56
+msgid "Legally binding is only the English version of this privacy policy"
+msgstr ""
+"Legalmente vinculativo é apenas a versão em inglês desta política de "
+"privacidade"
+
+#: index.php:6 index.php:15
+msgid "Daniel - Home"
+msgstr "Daniel - Inicio"
+
+#: index.php:10 index.php:16
+msgid ""
+"Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
+"enthusiast"
+msgstr ""
+"Site pessoal de Daniel Winzen, desenvolvedor web, administrador de sistemas "
+"e entusiasta da privacidade"
+
+#: index.php:28
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. This is my personal website, that I develop in my free time. "
+"This site is available as <a href=\"http://"
+"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor hidden "
+"service</a> or via my clearnet proxy <a href=\"https://danwin1210.de"
+"\">danwin1210.de</a>. To learn more about me and this site, check <a href=\"/"
+"about.php\">the about page</a>."
+msgstr ""
+"Olá, meu nome é Daniel Winzen, um desenvolvedor web alemão e administrador "
+"de sistemas. Este é o meu site pessoal, que desenvolvo no meu tempo livre. "
+"Este site está disponível como <a href=\"http://"
+"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">proxy "
+"darknet</a> ou através do meu proxy clearnet <a href=\"https://danwin1210.de"
+"\">danwin1210.de</a>. Para saber mais sobre mim e este site, verifique <a "
+"href=\"/about.php\">a página Sobre</a>."
+
+#: index.php:29
+msgid ""
+"This is just the landing page. You can navigate to the pages that interest "
+"you most, such as my free and anonymous <a href=\"/mail/\">mail service</a> "
+"or <a href=\"https://onions.danwin1210.de\">Tor darknet link collection</a>, "
+"by clicking on the entries in the navigation bar on the left."
+msgstr ""
+"Esta é apenas a página de destino. Você pode navegar para as páginas que "
+"mais lhe interessam, como meu <a href=\"/mail/\">serviço de email gratuito e "
+"anônimo</a> ou a <a href=\"https://onions.danwin1210.de\">Coleção de links "
+"darknet Tor</a>, clicando nas entradas na barra de navegação à esquerda."
+
+#: index.php:30
+msgid ""
+"You can download and/or contribute to my various open-source projects on <a "
+"href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>."
+msgstr ""
+"Você pode baixar e/ou contribuir com meus vários projetos de código aberto "
+"no <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>."
