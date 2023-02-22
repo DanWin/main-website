@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-02-14 10:40+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 17:56+0100\n"
 "PO-Revision-Date: 2023-02-22 16:52+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
-"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/ru/>\n"
+"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.2\n"
 
 #: index.php:6 index.php:15
@@ -44,7 +44,7 @@ msgstr "Мой аватар"
 msgid "Daniel"
 msgstr "Даниэль"
 
-#: index.php:27 common.php:117
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "Домашняя страница"
 
@@ -109,7 +109,7 @@ msgid ""
 "this site"
 msgstr "Информация обо мне и моем сайте"
 
-#: about.php:29 common.php:125
+#: about.php:29 common.php:129
 msgid "About"
 msgstr "Обо мне"
 
@@ -300,7 +300,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Домашний хостинг: 4 Raspberry Pi 4 с основным сайтом и данными"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:123
+#: github-ipv6-proxy.php:33 common.php:127
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy"
 
@@ -430,7 +430,7 @@ msgstr "Даниэль - Контакт"
 msgid "Contact Daniel Winzen"
 msgstr "Связаться с Даниэль Винзен"
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:131
 msgid "Contact"
 msgstr "Контакт"
 
@@ -465,6 +465,10 @@ msgid ""
 msgstr ""
 "Я прочитал и согласен с <a href=\"/privacy.php \" target=\"_blank"
 "\">Политикой конфиденциальности</a>"
+
+#: contact.php:41
+msgid "Send"
+msgstr ""
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
@@ -856,35 +860,35 @@ msgstr ""
 "взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Предложение "
 "действительно только для женского пола."
 
-#: common.php:118
+#: common.php:122
 msgid "Chat"
 msgstr "Чат"
 
-#: common.php:119
+#: common.php:123
 msgid "Online-Test"
 msgstr "Онлайн-Тест"
 
-#: common.php:120
+#: common.php:124
 msgid "Onion link list"
 msgstr "Список ссылок Onion"
 
-#: common.php:121
+#: common.php:125
 msgid "E-Mail + XMPP"
 msgstr "Эл.почта + Jabber"
 
-#: common.php:122 tutorials/index.php:27
+#: common.php:126 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Учебники"
 
-#: common.php:124
+#: common.php:128
 msgid "FAQ"
 msgstr "FAQ(ЧаВо)"
 
-#: common.php:126
+#: common.php:130
 msgid "Privacy"
 msgstr "Политика конфиденциальности"
 
-#: common.php:138
+#: common.php:142
 msgid "Add translation"
 msgstr "Добавить перевод"
 
@@ -894,7 +898,8 @@ msgstr "Даниэль - Новый домен"
 
 #: new-domain.php:10 new-domain.php:18
 msgid "We moved to a brand new domain - migrate your accounts"
-msgstr "Мы переехали на совершенно новый домен - перенесите свои учетные записи"
+msgstr ""
+"Мы переехали на совершенно новый домен - перенесите свои учетные записи"
 
 #: new-domain.php:29
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"

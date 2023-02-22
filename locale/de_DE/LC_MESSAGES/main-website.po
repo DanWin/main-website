@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-02-14 10:40+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-22 17:56+0100\n"
 "PO-Revision-Date: 2023-02-15 10:49+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,7 +42,7 @@ msgstr "Ein Avatar der Daniel Winzen darstellt"
 msgid "Daniel"
 msgstr "Daniel"
 
-#: index.php:27 common.php:117
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "Startseite"
 
@@ -110,7 +110,7 @@ msgstr ""
 "Über den Webentwickler, Sysadmin und Privatsphäre-Enthusiast Daniel Winzen "
 "und diese Seite"
 
-#: about.php:29 common.php:125
+#: about.php:29 common.php:129
 msgid "About"
 msgstr "Über"
 
@@ -297,7 +297,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Zu Hause gehosted: 4 Raspberry Pi 4 mit der Hauptseite und den Daten"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:123
+#: github-ipv6-proxy.php:33 common.php:127
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 Proxy"
 
@@ -426,7 +426,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontaktiere Daniel Winzen"
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:131
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -461,6 +461,10 @@ msgid ""
 msgstr ""
 "Ich habe die <a href=\"/privacy.php\" target=\"_blank"
 "\">Datenschutzerklärung</a> gelesen und akzeptiert"
+
+#: contact.php:41
+msgid "Send"
+msgstr ""
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
@@ -851,35 +855,35 @@ msgstr ""
 "Gegenzug beibringst. <a href=\"contact.php\">Schick mir deinen Antrag</a>. "
 "Sorry Jungs, nur Frauen kommen in Betracht."
 
-#: common.php:118
+#: common.php:122
 msgid "Chat"
 msgstr "Chat"
 
-#: common.php:119
+#: common.php:123
 msgid "Online-Test"
 msgstr "Online-Test"
 
-#: common.php:120
+#: common.php:124
 msgid "Onion link list"
 msgstr "Onion Linkliste"
 
-#: common.php:121
+#: common.php:125
 msgid "E-Mail + XMPP"
 msgstr "E-Mail + XMPP"
 
-#: common.php:122 tutorials/index.php:27
+#: common.php:126 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Anleitungen"
 
-#: common.php:124
+#: common.php:128
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:126
+#: common.php:130
 msgid "Privacy"
 msgstr "Datenschutz"
 
-#: common.php:138
+#: common.php:142
 msgid "Add translation"
 msgstr "Übersetzung hinzufügen"
 

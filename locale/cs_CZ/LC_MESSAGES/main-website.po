@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-14 10:40+0100\n"
+"POT-Creation-Date: 2023-02-22 17:56+0100\n"
 "PO-Revision-Date: 2023-02-13 20:21+0000\n"
 "Last-Translator: Zdeněk Grůza <me@zgruza.me>\n"
 "Language-Team: Czech <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -43,7 +43,7 @@ msgstr "Avatar představující Daniela Winzena"
 msgid "Daniel"
 msgstr "Daniel"
 
-#: index.php:27 common.php:117
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "Domů"
 
@@ -110,7 +110,7 @@ msgstr ""
 "O webovém vývojáři, sysadminovi a nadšenci do soukromí Danielu Winzenovi a "
 "této stránce"
 
-#: about.php:29 common.php:125
+#: about.php:29 common.php:129
 msgid "About"
 msgstr "O mně"
 
@@ -294,7 +294,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Doma hostováno: 4x Raspberry Pi 4 s hlavním webem a daty"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:123
+#: github-ipv6-proxy.php:33 common.php:127
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy"
 
@@ -415,7 +415,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontakt Daniela Winzena"
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:131
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -450,6 +450,10 @@ msgid ""
 msgstr ""
 "Přečetl jsem si <a href=\"/privacy.php\" target=\"_blank\">Zásady ochrany "
 "osobních údajů</a> a souhlasím s nimi"
+
+#: contact.php:41
+msgid "Send"
+msgstr ""
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
@@ -826,35 +830,35 @@ msgstr ""
 "naučíš. <a href=\"contact.php\">Pošli mi své návrhy</a>. Promiňte kluci, "
 "bereme v úvahu pouze ženy."
 
-#: common.php:118
+#: common.php:122
 msgid "Chat"
 msgstr "Chat"
 
-#: common.php:119
+#: common.php:123
 msgid "Online-Test"
 msgstr "Online-Test"
 
-#: common.php:120
+#: common.php:124
 msgid "Onion link list"
 msgstr "Seznam cibulových odkazů"
 
-#: common.php:121
+#: common.php:125
 msgid "E-Mail + XMPP"
 msgstr "E-Mail + XMPP"
 
-#: common.php:122 tutorials/index.php:27
+#: common.php:126 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Tutoriály"
 
-#: common.php:124
+#: common.php:128
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:126
+#: common.php:130
 msgid "Privacy"
 msgstr "Soukromí"
 
-#: common.php:138
+#: common.php:142
 msgid "Add translation"
 msgstr "Přidat překlad"
 

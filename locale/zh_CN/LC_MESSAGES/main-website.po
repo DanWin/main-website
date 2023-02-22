@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-14 10:40+0100\n"
+"POT-Creation-Date: 2023-02-22 17:56+0100\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -43,7 +43,7 @@ msgstr "丹尼尔温岑的头像"
 msgid "Daniel"
 msgstr "丹尼尔"
 
-#: index.php:27 common.php:117
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "首页"
 
@@ -104,7 +104,7 @@ msgid ""
 "this site"
 msgstr "关于网站开发者、系统管理员以及隐私爱好者丹尼尔温岑和这个网站"
 
-#: about.php:29 common.php:125
+#: about.php:29 common.php:129
 msgid "About"
 msgstr "关于"
 
@@ -278,7 +278,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "家庭托管: 4 Raspberry Pi 4 用于托管主要网站和数据"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:123
+#: github-ipv6-proxy.php:33 common.php:127
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6代理"
 
@@ -387,7 +387,7 @@ msgstr "丹尼尔 - 联系"
 msgid "Contact Daniel Winzen"
 msgstr "联系丹尼尔温岑"
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:131
 msgid "Contact"
 msgstr "联系我"
 
@@ -418,6 +418,10 @@ msgid ""
 "I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
 "\">Privacy Policy</a>"
 msgstr "我已同意 <a href=\"/privacy.php \" target=\"_blank\">隐私条款</a>"
+
+#: contact.php:41
+msgid "Send"
+msgstr ""
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
@@ -755,35 +759,35 @@ msgstr ""
 "好啊，嫁给我我就有可能教你。但除非你能回馈我。взамен. <a href=\"contact.php"
 "\">联系我</a>. 不好意思现在只考虑女性。"
 
-#: common.php:118
+#: common.php:122
 msgid "Chat"
 msgstr "聊天室"
 
-#: common.php:119
+#: common.php:123
 msgid "Online-Test"
 msgstr "在线测试"
 
-#: common.php:120
+#: common.php:124
 msgid "Onion link list"
 msgstr "Tor网站列表"
 
-#: common.php:121
+#: common.php:125
 msgid "E-Mail + XMPP"
 msgstr "电子邮箱 + XMPP"
 
-#: common.php:122 tutorials/index.php:27
+#: common.php:126 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "教程"
 
-#: common.php:124
+#: common.php:128
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:126
+#: common.php:130
 msgid "Privacy"
 msgstr "隐私条款"
 
-#: common.php:138
+#: common.php:142
 msgid "Add translation"
 msgstr "添加翻译"
 
