@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-14 10:40+0100\n"
+"POT-Creation-Date: 2023-02-22 17:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,7 +39,7 @@ msgstr ""
 msgid "Daniel"
 msgstr ""
 
-#: index.php:27 common.php:117
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgid ""
 "this site"
 msgstr ""
 
-#: about.php:29 common.php:125
+#: about.php:29 common.php:129
 msgid "About"
 msgstr ""
 
@@ -227,7 +227,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr ""
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:123
+#: github-ipv6-proxy.php:33 common.php:127
 msgid "GitHub IPv6 proxy"
 msgstr ""
 
@@ -319,7 +319,7 @@ msgstr ""
 msgid "Contact Daniel Winzen"
 msgstr ""
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:131
 msgid "Contact"
 msgstr ""
 
@@ -349,6 +349,10 @@ msgstr ""
 msgid ""
 "I have read and agreed to the <a href=\"/privacy.php\" "
 "target=\"_blank\">Privacy Policy</a>"
+msgstr ""
+
+#: contact.php:41
+msgid "Send"
 msgstr ""
 
 #: contact.php:57
@@ -638,35 +642,35 @@ msgid ""
 "Sorry guys, only considering females."
 msgstr ""
 
-#: common.php:118
+#: common.php:122
 msgid "Chat"
 msgstr ""
 
-#: common.php:119
+#: common.php:123
 msgid "Online-Test"
 msgstr ""
 
-#: common.php:120
+#: common.php:124
 msgid "Onion link list"
 msgstr ""
 
-#: common.php:121
+#: common.php:125
 msgid "E-Mail + XMPP"
 msgstr ""
 
-#: common.php:122 tutorials/index.php:27
+#: common.php:126 tutorials/index.php:27
 msgid "Tutorials"
 msgstr ""
 
-#: common.php:124
+#: common.php:128
 msgid "FAQ"
 msgstr ""
 
-#: common.php:126
+#: common.php:130
 msgid "Privacy"
 msgstr ""
 
-#: common.php:138
+#: common.php:142
 msgid "Add translation"
 msgstr ""
 
