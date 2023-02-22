@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-02-14 10:40+0100\n"
-"PO-Revision-Date: 2023-02-21 08:52+0000\n"
+"PO-Revision-Date: 2023-02-22 16:52+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
@@ -302,7 +302,7 @@ msgstr "Домашний хостинг: 4 Raspberry Pi 4 с основным с
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
 #: github-ipv6-proxy.php:33 common.php:123
 msgid "GitHub IPv6 proxy"
-msgstr ""
+msgstr "GitHub IPv6 proxy"
 
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
@@ -507,7 +507,7 @@ msgstr "Телефон: %s"
 #: contact.php:85 privacy.php:37
 #, php-format
 msgid "VAT ID number: %s"
-msgstr ""
+msgstr "VAT ID number: %s"
 
 #: contact.php:87
 msgid "Disclaimer - External links"
@@ -878,7 +878,7 @@ msgstr "Учебники"
 
 #: common.php:124
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "FAQ(ЧаВо)"
 
 #: common.php:126
 msgid "Privacy"
@@ -890,7 +890,7 @@ msgstr "Добавить перевод"
 
 #: new-domain.php:6 new-domain.php:17 new-domain.php:27
 msgid "Daniel - New domain"
-msgstr ""
+msgstr "Даниэль - Новый домен"
 
 #: new-domain.php:10 new-domain.php:18
 msgid "We moved to a brand new domain - migrate your accounts"
@@ -931,6 +931,12 @@ msgid ""
 "allowed to pay for extension by creating a new account and depositing the "
 "money for renewal there, so it was back up shortly afterwards."
 msgstr ""
+"Учитывая, что я не смог получить удовлетворительный ответ, а срок действия "
+"старого домена истекал, я пошел дальше и купил новый домен danwin1210.de , "
+"чтобы переключиться на него, а danwin1210.me вышел из строя по истечении "
+"срока действия, но, к счастью, мне разрешили оплатить продление, создав "
+"новую учетную запись и внеся деньги для обновления, так что вскоре после "
+"этого он был восстановлен."
 
 #: new-domain.php:33
 msgid ""
@@ -1516,6 +1522,8 @@ msgid ""
 "This tutorial will show you how to torify FTP clients in the example of "
 "FileZilla and WinSCP."
 msgstr ""
+"В этом руководстве вы узнаете, как настроить torify FTP-клиентов на примере "
+"FileZilla и WinSCP."
 
 #: tutorials/torify-ftp/index.php:33
 msgid "Download FileZilla"
@@ -1575,6 +1583,8 @@ msgid ""
 "This tutorial will show you how to torify FTP clients in the example of <a "
 "href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 msgstr ""
+"В этом руководстве показано, как настроить torify FTP-клиентов на примере "
+"<ahref=\"#filezilla\">FileZilla</a> и <a href=\"#winscp\">WinSCP</a>."
 
 #: tutorials/torify-ftp/index.php:38
 msgid ""
