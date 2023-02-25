@@ -127,8 +127,9 @@ function menu(string $title = ''): void
 	echo "<a href=\"$host/github-ipv6-proxy.php\">"._('GitHub IPv6 proxy').'</a>';
 	echo "<a href=\"$host/faq.php\">"._('FAQ').'</a>';
 	echo "<a href=\"$host/about.php\">"._('About').'</a>';
-	echo "<a href=\"$host/privacy.php\">"._('Privacy').'</a>';
 	echo "<a href=\"$host/contact.php\">"._('Contact').'</a>';
+	echo "<a href=\"$host/privacy.php\">"._('Privacy').'</a>';
+	echo "<a href=\"$host/imprint.php\">"._('Imprint').'</a>';
 	echo '</nav>';
 	echo '</details>';
 	echo '<details id="language">';
