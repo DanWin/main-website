@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-02-22 17:56+0100\n"
-"PO-Revision-Date: 2023-02-24 04:05+0000\n"
+"PO-Revision-Date: 2023-02-25 05:05+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
@@ -546,7 +546,7 @@ msgstr ""
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
-msgstr "Даниэль - FAQ - Часто задаваемые вопросы"
+msgstr "Даниэль - FAQ(ЧаВо) - Часто задаваемые вопросы"
 
 #: faq.php:9 faq.php:15
 msgid ""
@@ -599,8 +599,8 @@ msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
 "It might take a while until your feature gets added though."
 msgstr ""
-"Да, пожалуйста, <a href=\"%s\">свяжитесь со мной</a>. Я рассмотрю её в "
-"ближайшее время. Но придётся подождать, пока я смогу её разработать."
+"Пожалуйста <a href=\"%s\">свяжитесь со мной</a>. Я рассмотрю её в ближайшее "
+"время. Но придётся подождать, пока я смогу её разработать."
 
 #: faq.php:28 faq.php:64
 msgid ""
