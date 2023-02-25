@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 17:56+0100\n"
+"POT-Creation-Date: 2023-02-25 15:41+0100\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -18,6 +18,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.15\n"
+
+#: imprint.php:6 imprint.php:15
+#, fuzzy
+#| msgid "Daniel - Home"
+msgid "Daniel - Imprint"
+msgstr "丹尼尔 - 首页"
+
+#: imprint.php:10 imprint.php:16
+#, fuzzy
+#| msgid "Contact Daniel Winzen"
+msgid "Imprint of Daniel Winzen"
+msgstr "联系丹尼尔温岑"
+
+#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
+#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
+#: privacy.php:21 chat/index.php:21 tutorials/index.php:21
+#: tutorials/torify-ftp/index.php:29
+msgid "An avatar representing Daniel Winzen"
+msgstr "丹尼尔温岑的头像"
+
+#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
+#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
+#: privacy.php:24 chat/index.php:24 tutorials/index.php:24
+#: tutorials/torify-ftp/index.php:32
+msgid "Daniel"
+msgstr "丹尼尔"
+
+#: imprint.php:27 common.php:132
+msgid "Imprint"
+msgstr ""
+
+#: imprint.php:33 privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: imprint.php:34 privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: imprint.php:35 privacy.php:37
+#, php-format
+msgid "VAT ID number: %s"
+msgstr ""
+
+#: imprint.php:37
+msgid "Disclaimer - External links"
+msgstr "声明 - 外部链接"
+
+#: imprint.php:38
+msgid ""
+"This website contains links to third party websites (\"external links\"). "
+"These websites are subject to the liability of the respective operator. When "
+"linking first time third-party content, the provider checked whether there "
+"are any legal violations. At the time there were none legal violations "
+"evident. The provider has no influence on the current and future design and "
+"the content of the linked pages. Setting external links does not mean that "
+"the provider claims ownership of the content behind the reference or link. "
+"Constant control of the external links are not reasonable for the provider "
+"without concrete evidence of legal violations. At knowledge of legal "
+"violations, however, such external links will be deleted immediately."
+msgstr ""
+"这个网站提供第三方链接(\"外部链接\"). 这些网站由各自的运营商承担责任。当首次"
+"链接第三方内容时,提供商检查是否有这些网站任何违法行为。当时没有违法行为明显。"
+"提供商对当前和未来的设计没有影响，并且链接页面的内容。设置外部链接并不意味着"
+"提供商声称对引用或链接背后的内容拥有所有权。对外部链接的持续控制对提供商来说"
+"是不合理的没有违反法律的具体证据。在法律知识但是，此类外部链接将立即删除。"
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
@@ -30,18 +98,6 @@ msgid ""
 msgstr ""
 "丹尼尔温岑的个人网站，一名网站开发者、一名系统工程师以及一位网络安全专家 爱好"
 "者"
-
-#: index.php:21 about.php:23 github-ipv6-proxy.php:26 contact.php:21 faq.php:20
-#: new-domain.php:23 hosting/index.php:21 privacy.php:21 chat/index.php:21
-#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
-msgid "An avatar representing Daniel Winzen"
-msgstr "丹尼尔温岑的头像"
-
-#: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
-#: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
-#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
-msgid "Daniel"
-msgstr "丹尼尔"
 
 #: index.php:27 common.php:121
 msgid "Home"
@@ -387,7 +443,7 @@ msgstr "丹尼尔 - 联系"
 msgid "Contact Daniel Winzen"
 msgstr "联系丹尼尔温岑"
 
-#: contact.php:27 common.php:131
+#: contact.php:27 common.php:130
 msgid "Contact"
 msgstr "联系我"
 
@@ -450,44 +506,6 @@ msgid ""
 msgstr ""
 "如果你希望直接联系我，请发电子邮件至<a href=\"mailto:daniel@danwin1210.de"
 "\">daniel@danwin1210.de</a>."
-
-#: contact.php:83 privacy.php:35
-#, php-format
-msgid "Email: %s"
-msgstr ""
-
-#: contact.php:84 privacy.php:34
-#, php-format
-msgid "Phone: %s"
-msgstr ""
-
-#: contact.php:85 privacy.php:37
-#, php-format
-msgid "VAT ID number: %s"
-msgstr ""
-
-#: contact.php:87
-msgid "Disclaimer - External links"
-msgstr "声明 - 外部链接"
-
-#: contact.php:88
-msgid ""
-"This website contains links to third party websites (\"external links\"). "
-"These websites are subject to the liability of the respective operator. When "
-"linking first time third-party content, the provider checked whether there "
-"are any legal violations. At the time there were none legal violations "
-"evident. The provider has no influence on the current and future design and "
-"the content of the linked pages. Setting external links does not mean that "
-"the provider claims ownership of the content behind the reference or link. "
-"Constant control of the external links are not reasonable for the provider "
-"without concrete evidence of legal violations. At knowledge of legal "
-"violations, however, such external links will be deleted immediately."
-msgstr ""
-"这个网站提供第三方链接(\"外部链接\"). 这些网站由各自的运营商承担责任。当首次"
-"链接第三方内容时,提供商检查是否有这些网站任何违法行为。当时没有违法行为明显。"
-"提供商对当前和未来的设计没有影响，并且链接页面的内容。设置外部链接并不意味着"
-"提供商声称对引用或链接背后的内容拥有所有权。对外部链接的持续控制对提供商来说"
-"是不合理的没有违反法律的具体证据。在法律知识但是，此类外部链接将立即删除。"
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
@@ -783,11 +801,11 @@ msgstr "教程"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:130
+#: common.php:131
 msgid "Privacy"
 msgstr "隐私条款"
 
-#: common.php:142
+#: common.php:143
 msgid "Add translation"
 msgstr "添加翻译"
 

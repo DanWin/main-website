@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-02-22 17:56+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-25 15:41+0100\n"
 "PO-Revision-Date: 2023-02-24 04:05+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,6 +17,80 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15.2\n"
 "X-Poedit-Basepath: .\n"
+
+#: imprint.php:6 imprint.php:15
+#, fuzzy
+#| msgid "Daniel - Home"
+msgid "Daniel - Imprint"
+msgstr "Daniel - Startseite"
+
+#: imprint.php:10 imprint.php:16
+#, fuzzy
+#| msgid "Contact Daniel Winzen"
+msgid "Imprint of Daniel Winzen"
+msgstr "Kontaktiere Daniel Winzen"
+
+#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
+#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
+#: privacy.php:21 chat/index.php:21 tutorials/index.php:21
+#: tutorials/torify-ftp/index.php:29
+msgid "An avatar representing Daniel Winzen"
+msgstr "Ein Avatar der Daniel Winzen darstellt"
+
+#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
+#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
+#: privacy.php:24 chat/index.php:24 tutorials/index.php:24
+#: tutorials/torify-ftp/index.php:32
+msgid "Daniel"
+msgstr "Daniel"
+
+#: imprint.php:27 common.php:132
+msgid "Imprint"
+msgstr ""
+
+#: imprint.php:33 privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr "E-Mail: %s"
+
+#: imprint.php:34 privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+#: imprint.php:35 privacy.php:37
+#, php-format
+msgid "VAT ID number: %s"
+msgstr "USt-IdNr.: %s"
+
+#: imprint.php:37
+msgid "Disclaimer - External links"
+msgstr "Haftungsausschluss - Externe Links"
+
+#: imprint.php:38
+msgid ""
+"This website contains links to third party websites (\"external links\"). "
+"These websites are subject to the liability of the respective operator. When "
+"linking first time third-party content, the provider checked whether there "
+"are any legal violations. At the time there were none legal violations "
+"evident. The provider has no influence on the current and future design and "
+"the content of the linked pages. Setting external links does not mean that "
+"the provider claims ownership of the content behind the reference or link. "
+"Constant control of the external links are not reasonable for the provider "
+"without concrete evidence of legal violations. At knowledge of legal "
+"violations, however, such external links will be deleted immediately."
+msgstr ""
+"Diese Website enthält Links zu Webseiten Dritter (\"externe Links\"). Diese "
+"Webseiten unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat "
+"bei der erstmaligen Verlinkung die fremden Inhalte daraufhin überprüft, ob "
+"etwaige Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße "
+"ersichtlich. Der Anbieter hat keinerlei Einfluss auf die aktuelle und "
+"zukünftige Gestaltung und auf die Inhalte der verlinkten Seiten. Das Setzen "
+"von externen Links bedeutet nicht, dass sich der Anbieter die hinter dem "
+"Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige Kontrolle "
+"der externen Links ist für den Anbieter ohne konkrete Hinweise auf "
+"Rechtsverstöße nicht zumutbar. Bei Kenntnisnahme von Rechtsverstößen werden "
+"jedoch derartige externe Links unverzüglich gelöscht."
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
@@ -29,18 +103,6 @@ msgid ""
 msgstr ""
 "Persönliche Webseite von Daniel Winzen, dem Webentwickler, Sysadmin und "
 "Privatsphäre-Enthusiast"
-
-#: index.php:21 about.php:23 github-ipv6-proxy.php:26 contact.php:21 faq.php:20
-#: new-domain.php:23 hosting/index.php:21 privacy.php:21 chat/index.php:21
-#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
-msgid "An avatar representing Daniel Winzen"
-msgstr "Ein Avatar der Daniel Winzen darstellt"
-
-#: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
-#: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
-#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
-msgid "Daniel"
-msgstr "Daniel"
 
 #: index.php:27 common.php:121
 msgid "Home"
@@ -426,7 +488,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontaktiere Daniel Winzen"
 
-#: contact.php:27 common.php:131
+#: contact.php:27 common.php:130
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -493,50 +555,6 @@ msgid ""
 msgstr ""
 "Wenn du lieber direkt mit mir in Kontakt treten möchtest, schreib mir eine E-"
 "Mail an <a href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
-
-#: contact.php:83 privacy.php:35
-#, php-format
-msgid "Email: %s"
-msgstr "E-Mail: %s"
-
-#: contact.php:84 privacy.php:34
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefon: %s"
-
-#: contact.php:85 privacy.php:37
-#, php-format
-msgid "VAT ID number: %s"
-msgstr "USt-IdNr.: %s"
-
-#: contact.php:87
-msgid "Disclaimer - External links"
-msgstr "Haftungsausschluss - Externe Links"
-
-#: contact.php:88
-msgid ""
-"This website contains links to third party websites (\"external links\"). "
-"These websites are subject to the liability of the respective operator. When "
-"linking first time third-party content, the provider checked whether there "
-"are any legal violations. At the time there were none legal violations "
-"evident. The provider has no influence on the current and future design and "
-"the content of the linked pages. Setting external links does not mean that "
-"the provider claims ownership of the content behind the reference or link. "
-"Constant control of the external links are not reasonable for the provider "
-"without concrete evidence of legal violations. At knowledge of legal "
-"violations, however, such external links will be deleted immediately."
-msgstr ""
-"Diese Website enthält Links zu Webseiten Dritter (\"externe Links\"). Diese "
-"Webseiten unterliegen der Haftung der jeweiligen Betreiber. Der Anbieter hat "
-"bei der erstmaligen Verlinkung die fremden Inhalte daraufhin überprüft, ob "
-"etwaige Rechtsverstöße bestehen. Zu dem Zeitpunkt waren keine Rechtsverstöße "
-"ersichtlich. Der Anbieter hat keinerlei Einfluss auf die aktuelle und "
-"zukünftige Gestaltung und auf die Inhalte der verlinkten Seiten. Das Setzen "
-"von externen Links bedeutet nicht, dass sich der Anbieter die hinter dem "
-"Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige Kontrolle "
-"der externen Links ist für den Anbieter ohne konkrete Hinweise auf "
-"Rechtsverstöße nicht zumutbar. Bei Kenntnisnahme von Rechtsverstößen werden "
-"jedoch derartige externe Links unverzüglich gelöscht."
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
@@ -879,11 +897,11 @@ msgstr "Anleitungen"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:130
+#: common.php:131
 msgid "Privacy"
 msgstr "Datenschutz"
 
-#: common.php:142
+#: common.php:143
 msgid "Add translation"
 msgstr "Übersetzung hinzufügen"
 

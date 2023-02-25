@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-22 17:56+0100\n"
+"POT-Creation-Date: 2023-02-25 15:41+0100\n"
 "PO-Revision-Date: 2023-02-13 20:21+0000\n"
 "Last-Translator: Zdeněk Grůza <me@zgruza.me>\n"
 "Language-Team: Czech <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -18,6 +18,79 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.2\n"
+
+#: imprint.php:6 imprint.php:15
+#, fuzzy
+#| msgid "Daniel - Home"
+msgid "Daniel - Imprint"
+msgstr "Daniel - Úvodní stránka"
+
+#: imprint.php:10 imprint.php:16
+#, fuzzy
+#| msgid "Contact Daniel Winzen"
+msgid "Imprint of Daniel Winzen"
+msgstr "Kontakt Daniela Winzena"
+
+#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
+#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
+#: privacy.php:21 chat/index.php:21 tutorials/index.php:21
+#: tutorials/torify-ftp/index.php:29
+msgid "An avatar representing Daniel Winzen"
+msgstr "Avatar představující Daniela Winzena"
+
+#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
+#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
+#: privacy.php:24 chat/index.php:24 tutorials/index.php:24
+#: tutorials/torify-ftp/index.php:32
+msgid "Daniel"
+msgstr "Daniel"
+
+#: imprint.php:27 common.php:132
+msgid "Imprint"
+msgstr ""
+
+#: imprint.php:33 privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr "Email: %s"
+
+#: imprint.php:34 privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr "Telefon: %s"
+
+#: imprint.php:35 privacy.php:37
+#, php-format
+msgid "VAT ID number: %s"
+msgstr ""
+
+#: imprint.php:37
+msgid "Disclaimer - External links"
+msgstr "Zřeknutí se odpovědnosti – externí odkazy"
+
+#: imprint.php:38
+msgid ""
+"This website contains links to third party websites (\"external links\"). "
+"These websites are subject to the liability of the respective operator. When "
+"linking first time third-party content, the provider checked whether there "
+"are any legal violations. At the time there were none legal violations "
+"evident. The provider has no influence on the current and future design and "
+"the content of the linked pages. Setting external links does not mean that "
+"the provider claims ownership of the content behind the reference or link. "
+"Constant control of the external links are not reasonable for the provider "
+"without concrete evidence of legal violations. At knowledge of legal "
+"violations, however, such external links will be deleted immediately."
+msgstr ""
+"Tato webová stránka obsahuje odkazy na webové stránky třetích stran "
+"(\"externí odkazy\"). Tyto webové stránky podléhají odpovědnosti příslušného "
+"provozovatele. Při prvním propojování obsahu třetích stran poskytovatel "
+"zkontroloval, zda nedošlo k porušení zákona. V té době nebylo zřejmé žádné "
+"porušení zákona. Poskytovatel nemá žádný vliv na aktuální a budoucí podobu a "
+"obsah odkazovaných stránek. Nastavení externích odkazů neznamená, že si "
+"poskytovatel nárokuje vlastnictví obsahu za odkazem nebo odkazem. Neustálá "
+"kontrola externích odkazů není pro poskytovatele přiměřená bez konkrétních "
+"důkazů o porušení zákona. Při znalosti porušení zákona však budou takové "
+"externí odkazy okamžitě smazány."
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
@@ -30,18 +103,6 @@ msgid ""
 msgstr ""
 "Osobní webová stránka Daniela Winzena, webového vývojáře, správce systému a "
 "nadšence pro ochranu osobních údajů"
-
-#: index.php:21 about.php:23 github-ipv6-proxy.php:26 contact.php:21 faq.php:20
-#: new-domain.php:23 hosting/index.php:21 privacy.php:21 chat/index.php:21
-#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
-msgid "An avatar representing Daniel Winzen"
-msgstr "Avatar představující Daniela Winzena"
-
-#: index.php:24 about.php:26 github-ipv6-proxy.php:29 contact.php:24 faq.php:23
-#: new-domain.php:26 hosting/index.php:24 privacy.php:24 chat/index.php:24
-#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
-msgid "Daniel"
-msgstr "Daniel"
 
 #: index.php:27 common.php:121
 msgid "Home"
@@ -415,7 +476,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontakt Daniela Winzena"
 
-#: contact.php:27 common.php:131
+#: contact.php:27 common.php:130
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -482,49 +543,6 @@ msgid ""
 msgstr ""
 "Pokud dáváte přednost přímému kontaktu se mnou, napište mi na adresu <a href="
 "\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
-
-#: contact.php:83 privacy.php:35
-#, php-format
-msgid "Email: %s"
-msgstr "Email: %s"
-
-#: contact.php:84 privacy.php:34
-#, php-format
-msgid "Phone: %s"
-msgstr "Telefon: %s"
-
-#: contact.php:85 privacy.php:37
-#, php-format
-msgid "VAT ID number: %s"
-msgstr ""
-
-#: contact.php:87
-msgid "Disclaimer - External links"
-msgstr "Zřeknutí se odpovědnosti – externí odkazy"
-
-#: contact.php:88
-msgid ""
-"This website contains links to third party websites (\"external links\"). "
-"These websites are subject to the liability of the respective operator. When "
-"linking first time third-party content, the provider checked whether there "
-"are any legal violations. At the time there were none legal violations "
-"evident. The provider has no influence on the current and future design and "
-"the content of the linked pages. Setting external links does not mean that "
-"the provider claims ownership of the content behind the reference or link. "
-"Constant control of the external links are not reasonable for the provider "
-"without concrete evidence of legal violations. At knowledge of legal "
-"violations, however, such external links will be deleted immediately."
-msgstr ""
-"Tato webová stránka obsahuje odkazy na webové stránky třetích stran "
-"(\"externí odkazy\"). Tyto webové stránky podléhají odpovědnosti příslušného "
-"provozovatele. Při prvním propojování obsahu třetích stran poskytovatel "
-"zkontroloval, zda nedošlo k porušení zákona. V té době nebylo zřejmé žádné "
-"porušení zákona. Poskytovatel nemá žádný vliv na aktuální a budoucí podobu a "
-"obsah odkazovaných stránek. Nastavení externích odkazů neznamená, že si "
-"poskytovatel nárokuje vlastnictví obsahu za odkazem nebo odkazem. Neustálá "
-"kontrola externích odkazů není pro poskytovatele přiměřená bez konkrétních "
-"důkazů o porušení zákona. Při znalosti porušení zákona však budou takové "
-"externí odkazy okamžitě smazány."
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
@@ -854,11 +872,11 @@ msgstr "Tutoriály"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:130
+#: common.php:131
 msgid "Privacy"
 msgstr "Soukromí"
 
-#: common.php:142
+#: common.php:143
 msgid "Add translation"
 msgstr "Přidat překlad"
 
