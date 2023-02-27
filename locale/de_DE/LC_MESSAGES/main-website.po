@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-02-25 15:41+0100\n"
-"PO-Revision-Date: 2023-02-24 04:05+0000\n"
+"PO-Revision-Date: 2023-02-27 09:06+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,16 +19,12 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 
 #: imprint.php:6 imprint.php:15
-#, fuzzy
-#| msgid "Daniel - Home"
 msgid "Daniel - Imprint"
-msgstr "Daniel - Startseite"
+msgstr "Daniel - Impressum"
 
 #: imprint.php:10 imprint.php:16
-#, fuzzy
-#| msgid "Contact Daniel Winzen"
 msgid "Imprint of Daniel Winzen"
-msgstr "Kontaktiere Daniel Winzen"
+msgstr "Impressum von Daniel Winzen"
 
 #: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
 #: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
@@ -46,7 +42,7 @@ msgstr "Daniel"
 
 #: imprint.php:27 common.php:132
 msgid "Imprint"
-msgstr ""
+msgstr "Impressum"
 
 #: imprint.php:33 privacy.php:35
 #, php-format
