@@ -112,6 +112,10 @@ global $language, $dir, $locale;
     <div class="cell"><?php printf(_('Someone tried emailing you from a mail server that doesn\'t support sending emails via encrypted transfer, or is using insecure protocols. This is very unfortunate, because it would leak your email content to anyone on the internet, who can intercept your email before it reaches the destination. You can disable mandatory encryption in your <a href="%s">account settings</a>, if you still need to receive this email.'), '/mail/manage_account.php'); ?></div>
 </div>
 <div class="row">
+    <div class="cell"><?php echo _('I\'m in debt and I need to get money fast. How can I quickly make some money?'); ?></div>
+    <div class="cell"><?php printf(_('Becoming rich and clearing your debts is a process that starts in your head. Chances of becoming rich overnight are extremely low, you should rather focus on long term goals. It may take you a few years to become financially free, but everyone can get there, if you are willing to learn and educate yourself. I made an in-depth tutorial about some steps you can take: <a href="%s">How to get rich (fast)</a>.'), '/tutorials/get-rich-fast/'); ?></div>
+</div>
+<div class="row">
     <div class="cell"><?php echo _('I have more Questions.'); ?></div>
     <div class="cell"><?php printf(_('Feel free, to <a href="%s">contact me</a>.'), 'contact.php'); ?></div>
 </div>

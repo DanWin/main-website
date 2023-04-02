@@ -29,6 +29,7 @@ global $language, $dir, $locale;
 <div class="table">
 <div class="headerrow"><div class="cell"><?php echo _('Name'); ?></div><div class="cell"><?php echo _('Short description'); ?></div></div>
 <div class="row"><div class="cell"><a href="torify-ftp/"><?php echo _('Torify FTP clients'); ?></a></div><div class="cell"><?php echo _('This tutorial will show you how to torify FTP clients.'); ?></div></div>
+<div class="row"><div class="cell"><a href="get-rich-fast/"><?php echo _('How to get rich (fast)'); ?></a></div><div class="cell"><?php echo _('This tutorial will guide you to achieving financial freedom.'); ?></div></div>
 </div>
 </main>
 </body></html>
