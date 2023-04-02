@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-25 15:41+0100\n"
+"POT-Creation-Date: 2023-04-02 10:05+0200\n"
 "PO-Revision-Date: 2023-02-15 18:45-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -32,15 +32,15 @@ msgstr "Contate Daniel Winzen"
 
 #: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
 #: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
-#: privacy.php:21 chat/index.php:21 tutorials/index.php:21
-#: tutorials/torify-ftp/index.php:29
+#: privacy.php:21 chat/index.php:21 tutorials/get-rich-fast/index.php:29
+#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
 msgid "An avatar representing Daniel Winzen"
 msgstr "Um avatar representando Daniel Winzen"
 
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
-#: privacy.php:24 chat/index.php:24 tutorials/index.php:24
-#: tutorials/torify-ftp/index.php:32
+#: privacy.php:24 chat/index.php:24 tutorials/get-rich-fast/index.php:32
+#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
 msgid "Daniel"
 msgstr "Daniel"
 
@@ -819,11 +819,11 @@ msgstr ""
 "href=\"%s\">configurações da sua conta</a>, se ainda precisar receber este e-"
 "mail."
 
-#: faq.php:41 faq.php:115
+#: faq.php:41 faq.php:119
 msgid "I have more Questions."
 msgstr "Eu tenho mais perguntas."
 
-#: faq.php:41 faq.php:116
+#: faq.php:41 faq.php:120
 #, php-format
 msgid "Feel free, to <a href=\"%s\">contact me</a>."
 msgstr "Sinta-se à vontade para <a href=\"%s\">contatar-me</a>."
@@ -857,6 +857,22 @@ msgstr ""
 "Sim, case-se comigo e talvez eu realmente faça isso. Mas só se você me "
 "ensinar algo em troca. <a href=\"contact.php\">Envie-me suas propostas</a>. "
 "Desculpe pessoal, considerando apenas mulheres."
+
+#: faq.php:115
+msgid ""
+"I'm in debt and I need to get money fast. How can I quickly make some money?"
+msgstr ""
+
+#: faq.php:116
+#, php-format
+msgid ""
+"Becoming rich and clearing your debts is a process that starts in your head. "
+"Chances of becoming rich overnight are extremely low, you should rather "
+"focus on long term goals. It may take you a few years to become financially "
+"free, but everyone can get there, if you are willing to learn and educate "
+"yourself. I made an in-depth tutorial about some steps you can take: <a href="
+"\"%s\">How to get rich (fast)</a>."
+msgstr ""
 
 #: common.php:122
 msgid "Chat"
@@ -1501,6 +1517,278 @@ msgstr ""
 "o chat: Não, esta decisão foi tomada e estava atrasada. O chat não tinha "
 "mais nada a ver comigo, exceto que eu o programei e mantenho o servidor. "
 "Qualquer um pode criar seu próprio chat, mas não aqui no meu site."
+
+#: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
+#: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
+#: tutorials/index.php:32
+msgid "How to get rich (fast)"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
+#: tutorials/index.php:32
+msgid "This tutorial will guide you to achieving financial freedom."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:36
+msgid "A word about fast money"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:37
+msgid ""
+"To become rich, you need to invest your time in education and self-"
+"development. Very few people will get rich overnight. And those that do, "
+"usually lose everything in a short time, because they spend all of it, "
+"sometimes being left with debts due to a lack of financial education."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:38
+msgid "Here are some common ways of getting money fast:"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:40
+msgid "Win a lottery"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:41
+msgid "Gambling"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:42
+msgid "Betting"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:43
+msgid "Win unconditional basic income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:45
+msgid ""
+"All of the above-mentioned options are highly dependent on luck and not "
+"feasible for building long-term wealth."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:46
+msgid "Reduce your expenses"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:47
+msgid "Pay off your high-interest debts"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:48
+msgid ""
+"Credit cards are often used to buy items when you do not have the money for "
+"them. What many forget is that the interest rates you pay can be as high as "
+"20-30%! If you have a credit card, or maybe even multiple ones, start by "
+"paying them off as fast as you can. The interest will otherwise keep you "
+"poor and unable to pay your regular expenses. If your interest payments are "
+"already so high, that you can't pay them off, check on comparison sites, if "
+"there are consumer loans you could take, which have a lower interest rate, "
+"to replace the existing debt with this one. It's also worth trying to give "
+"your credit card company a call and explain that it won't be possible to pay "
+"off the debt and if they could maybe cut your interest."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:49
+msgid "Stop drinking or taking drugs"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:50
+msgid ""
+"While an occasional party can be fun, some people go partying every few days "
+"and spend a large portion of their income on alcohol and/or drugs. Not only "
+"is it a waste of your money, but you're also severely impacting your health "
+"and mental capabilities. You can get social without any mind-altering "
+"substances. If your friends don't understand that, perhaps you should "
+"surround yourself with other people."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:51
+msgid "The 24-hour rule"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:52
+msgid ""
+"Before you buy something, give yourself 24 hours to think about it. "
+"Impulsive shopping is often a major contributor to why you have no money "
+"left at the end of the month. Do you really need a new jacket, when you "
+"already have two hanging in your closet? Is it really necessary to buy "
+"expensive sweets and snacks? You might be surprised that you think about it "
+"differently just a few hours later."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:53
+msgid "Buy luxuries only with passive income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:54
+msgid ""
+"A fatal mistake that many people make is, once they have some money, "
+"directly spending it on expensive luxuries such as watches, cars, or other "
+"non-essential items. No matter how much you earn, if you keep spending all "
+"your income, you have nothing left at the end of the month and need to keep "
+"working to pay for your luxuries. If you however take any excess money and "
+"invest it, you get passive income, which you can use to pay for your "
+"luxuries instead. You won't have your new watch right now, but you will be "
+"able to buy it from your passive income in maybe 5 years. As your passive "
+"income grows, you will be able to buy luxuries more often, without having to "
+"worry about being able to afford them."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:55
+msgid "Preparation and Security"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:56
+msgid "Surround yourself with like-minded people"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:57
+msgid ""
+"If you are the smartest person in the room, you are likely in the wrong "
+"room. You should surround yourself with people that have similar goals as "
+"you and who can support you. If you are starting to build wealth, your "
+"current friends might start turning against you, asking you for money, or "
+"even hating you for changing and becoming more mature and successful than "
+"they are. Think about which people you feel great around, and which people "
+"suck out your energy. If your connection with people is not giving you any "
+"benefits, you should cut ties with them and instead spend time with people "
+"that are good for you."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:58
+msgid "Build an emergency fund"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:59
+msgid ""
+"After reducing your expenses, you should be able to put aside a small "
+"portion of your income. Put this in an account that you only touch in "
+"emergencies. Ideally save enough so that you could live from this for 3-6 "
+"months, in case you lose your job, or something else happens to you."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:60
+msgid "Become financially literate and understand how money works"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:61
+msgid ""
+"Reading this page is your first step to becoming financially free and "
+"understanding how building wealth works. This topic is not taught in school, "
+"nor university, and most likely also not by your parents. The system is "
+"designed to get you on the path of getting good grades, getting a safe job, "
+"and keeping your money in the bank to earn 0.01% interest on it, while the "
+"bank uses your money to give out loans and earns high-interest rates on it. "
+"The system is designed to keep you poor and financially uneducated so that "
+"the rich can keep getting richer at your expense. So unfortunately you will "
+"have to educate yourself and find out how our capitalistic system and money "
+"work, and how you can use it to your advantage. There are plenty of "
+"resources online, through which you can further educate yourself. Never take "
+"any financial advice from someone who either doesn't understand what he is "
+"talking about, or who might want to influence you in a way that would "
+"benefit them. Always form your own opinion and check what others have to say."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:62
+msgid "Increase your income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:63
+msgid "Get a better salary"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:64
+msgid ""
+"If you are unhappy with your current salary, talk to your boss about getting "
+"a raise. You are entitled to getting a raise as your experience grows and "
+"inflation goes up. If your current job is not fulfilling you, look for "
+"alternative jobs that you would enjoy, which offer a similar or better "
+"salary."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:65
+msgid "Become self-employed"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:66
+msgid ""
+"As a self-employed person, you are much more flexible and have a much higher "
+"potential to grow. At the same time, it's also very risky. Don't quit your "
+"job and get self-employed straight away. Instead, talk to your employer and "
+"get an agreement that you can work alongside your primary job. The beginning "
+"will be difficult, but after a while, you will get your first clients and "
+"can grow. If your self-employment is going well, start reducing the hours "
+"you work in your primary job. Take a day or two off, to work on your own "
+"business. When you have reached the point of working at full capacity and "
+"earning as well, or better than in your primary job, it is time to end your "
+"employment contract and become fully self-dependent."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:67
+msgid "Become an entrepreneur, build your own company"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:68
+msgid ""
+"Operating as a company, gives you significant tax benefits compared to being "
+"self-employed. However, this also comes along with a lot more "
+"responsibilities, paperwork, and initial investments to set up your company. "
+"Thus you should only operate as a company, if you want to reduce personal "
+"liability or if your profit is much higher than your income needs to be. In "
+"that case, you keep any extra profit in the company or create a second "
+"holding company, to which you transfer the profit, and pay yourself a "
+"regular salary. As business taxes are lower than income taxes, you have more "
+"to invest as a business."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:69
+msgid "Make the money work for you"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:70
+msgid "Investments"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:71
+#, php-format
+msgid ""
+"Put aside a small portion of your income for investments. Even if that is "
+"just 10% or less. Put it into a separate account, so you don't get tempted "
+"to spend this money on anything else. When you are ready to invest this "
+"money, choose an investment platform that suits you and offers projects that "
+"you would like to invest in. This could be for example real estate, "
+"renewable energy projects, or startups. Investments are not risk-free and it "
+"is possible that an investment you made fails and you lose all your money. "
+"That is why you should diversify as much as possible. Use different "
+"platforms, invest small amounts, and spread it over multiple projects."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:72
+msgid "Here are some investment platforms that I have personally invested in:"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:76
+#, php-format
+msgid "(Save 50€ on your first investment with the code \"%s\")"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:89
+msgid "Passive income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:90
+msgid ""
+"After you've made your first investments, you will receive a small "
+"percentage of your investment as a dividend. It varies with each investment. "
+"To keep it simple, let's assume that you earn 10% interest on average and "
+"you put 10% of your income into investments and 1/6 of investments fail. "
+"This would mean that after one year of investing every month, you would "
+"already get an entire month of your salary in dividend payments that year, "
+"which you can directly re-invest, along with your regular investments. Keep "
+"doing this for a few years and you can live only from your passive income "
+"streams."
+msgstr ""
 
 #: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
 msgid "Daniel - Tutorials"
