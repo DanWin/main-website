@@ -4,18 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-04-02 10:05+0200\n"
-"PO-Revision-Date: 2023-02-27 09:06+0000\n"
+"PO-Revision-Date: 2023-04-02 20:20+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.16.4\n"
 "X-Poedit-Basepath: .\n"
 
 #: imprint.php:6 imprint.php:15
@@ -873,6 +873,8 @@ msgstr ""
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
+"Ich habe Schulden und muss schnell Geld bekommen. Wie kann ich schnelles "
+"geld verdienen?"
 
 #: faq.php:116
 #, php-format
@@ -884,6 +886,13 @@ msgid ""
 "yourself. I made an in-depth tutorial about some steps you can take: <a href="
 "\"%s\">How to get rich (fast)</a>."
 msgstr ""
+"Reich werden und diene Schulden abbezahlen ist ein Prozess, der in deinem "
+"Kopf startet. Die Chancen über Nacht reich zu werden sind extrem gering. Du "
+"solltest dich statdessen besser auf langzeit Ziele fokussieren. Es braucht "
+"möglicherweise einige Jahre, bis du finanziell frei bist, aber jeder kann "
+"dahin kommen, sofern du bereit bist zu lernen und dich selbst weiter zu "
+"bilden. Ich habe eine ausführliche Anleitung zu einigen Schritten gemacht, "
+"die du machen kannst: <a href=\"%s\">Wie man (schnell) reich wird</a>."
 
 #: common.php:122
 msgid "Chat"
@@ -1535,16 +1544,16 @@ msgstr ""
 #: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
 #: tutorials/index.php:32
 msgid "How to get rich (fast)"
-msgstr ""
+msgstr "Wie man (schnell) reich wird"
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
 #: tutorials/index.php:32
 msgid "This tutorial will guide you to achieving financial freedom."
-msgstr ""
+msgstr "Diese Anleitung leitet dich zum Erreichen finanzieller Freiheit."
 
 #: tutorials/get-rich-fast/index.php:36
 msgid "A word about fast money"
-msgstr ""
+msgstr "Ein Wort zu schnellem Geld"
 
 #: tutorials/get-rich-fast/index.php:37
 msgid ""
@@ -1553,40 +1562,47 @@ msgid ""
 "usually lose everything in a short time, because they spend all of it, "
 "sometimes being left with debts due to a lack of financial education."
 msgstr ""
+"Um reich zu werden, musst du deine Zeit in Bildung und Selbst-Entwicklung "
+"investieren. Sehr wenige Menschen werden über Nacht reich. Und die, die es "
+"werden, verlieren alles innerhalb kurzer Zeit, weil sie alles ausgeben, "
+"manchmal dann noch mit aufgenommenen Schulden wegen fehlender finanzieller "
+"Bildung."
 
 #: tutorials/get-rich-fast/index.php:38
 msgid "Here are some common ways of getting money fast:"
-msgstr ""
+msgstr "Hier sind ein paar übliche Wege schnelles Geld zu bekommen:"
 
 #: tutorials/get-rich-fast/index.php:40
 msgid "Win a lottery"
-msgstr ""
+msgstr "Eine Lotterie gewinnen"
 
 #: tutorials/get-rich-fast/index.php:41
 msgid "Gambling"
-msgstr ""
+msgstr "Glücksspiel"
 
 #: tutorials/get-rich-fast/index.php:42
 msgid "Betting"
-msgstr ""
+msgstr "Wetten"
 
 #: tutorials/get-rich-fast/index.php:43
 msgid "Win unconditional basic income"
-msgstr ""
+msgstr "Ein Grundeinkommen gewinnen"
 
 #: tutorials/get-rich-fast/index.php:45
 msgid ""
 "All of the above-mentioned options are highly dependent on luck and not "
 "feasible for building long-term wealth."
 msgstr ""
+"Alle der oben genannten Optionen sind sehr abhänging von Glück und nicht "
+"geeignet um langzeit Wohlstand zu erreichen."
 
 #: tutorials/get-rich-fast/index.php:46
 msgid "Reduce your expenses"
-msgstr ""
+msgstr "Reduziere deine Ausgaben"
 
 #: tutorials/get-rich-fast/index.php:47
 msgid "Pay off your high-interest debts"
-msgstr ""
+msgstr "Bezahle deine hoverzinsten Schulden ab"
 
 #: tutorials/get-rich-fast/index.php:48
 msgid ""
@@ -1601,10 +1617,22 @@ msgid ""
 "your credit card company a call and explain that it won't be possible to pay "
 "off the debt and if they could maybe cut your interest."
 msgstr ""
+"Kreditkarten werden häufig genutzt um Sachen zu kaufen, wenn du gerade kein "
+"Geld dafür hast. Was viele vergessen ist, dass die Zinsen bei bis zu 20-30% "
+"liegen können! Wenn du eine Kreditkarte beseizt, oder gar mehrere, fange "
+"damit an diese so schnell wie möglich abzubezahlen. Die Zinszahlungen halten "
+"dich ansonsten arm und verhindern, dass du deinen regulären Ausgaben zahlen "
+"kannst. Wenn diene Zinszahlungen bereits so hoch sind, dass du diese nicht "
+"mehr abbezahlen kannst, schaue auf Vergleichsportalen, ob es "
+"Verbraucherkredite mit geringeren Zinsen gibt, die du beziehen könntest, um "
+"deine bestehenden Schulden abzubezahlen. Es ist auch einen Versuch wert bei "
+"deinem Kreditinstitut anzurufen, und denen zu erklären, dass du nicht in der "
+"lage bist die Schulden abzubezahlen, und ob sie dir evtl. die Zinsen kürzen "
+"könnten."
 
 #: tutorials/get-rich-fast/index.php:49
 msgid "Stop drinking or taking drugs"
-msgstr ""
+msgstr "Höre auf zu trinken oder Drogen zu nehmen"
 
 #: tutorials/get-rich-fast/index.php:50
 msgid ""
@@ -1615,10 +1643,17 @@ msgid ""
 "substances. If your friends don't understand that, perhaps you should "
 "surround yourself with other people."
 msgstr ""
+"Auch wenn eine gelegentliche Party spaß machen kann, gehen machne Leute alle "
+"paar Tage auf Parties und geben einen großteil Ihres Gehalts für Alkohol und/"
+"oder Drogen aus. Es ist nicht nur eine Verschwendung deines Geldes, sondern "
+"hat auch starken Einfluss auf deine Gesundheit und mentalen Fähigkeiten. Du "
+"kannst auch ohne bewusstseinverändernde Substanzen in Gesellschaft sein. "
+"Falls deine Freunde das nicht verstehen, solltest du dich vielleicht mit "
+"anderem Menschen umgeben."
 
 #: tutorials/get-rich-fast/index.php:51
 msgid "The 24-hour rule"
-msgstr ""
+msgstr "Die 24-Stunden Regel"
 
 #: tutorials/get-rich-fast/index.php:52
 msgid ""
@@ -1629,10 +1664,16 @@ msgid ""
 "expensive sweets and snacks? You might be surprised that you think about it "
 "differently just a few hours later."
 msgstr ""
+"Bevor du etwas kaufst, gib dir 24 Stunden um darüber nachzudenken. "
+"Impulsives einkaufen ist oft ein großer Mitwirker dazu, dass du am ende des "
+"Monats kein Geld mehr übrig hast. Brauchst du wirklich eine neue Jacke, wenn "
+"du bereits zwei in deinem Kleiderschrank hängen hast? Musst du wirklich "
+"teure Süßigkeiten und Snacks kaufen? Du wirst vielleicht überrascht sein, "
+"dass du nur wenige Stunden später anders darüber denkst."
 
 #: tutorials/get-rich-fast/index.php:53
 msgid "Buy luxuries only with passive income"
-msgstr ""
+msgstr "Kaufe Luxusgüter nur mit passivem Einkommen"
 
 #: tutorials/get-rich-fast/index.php:54
 msgid ""
@@ -1647,14 +1688,26 @@ msgid ""
 "income grows, you will be able to buy luxuries more often, without having to "
 "worry about being able to afford them."
 msgstr ""
+"Ein fataler Fehler, den viele Menschen begehen ist, sobld sie etwas Geld "
+"haben, es direkt wieder für Luxusgüter wie Uhren, Autos, oder andere nicht-"
+"essenzielle Dinge ausgeben. Egal wie viel du verdienst, wenn du immer dein "
+"gesamtes Einkommen ausgibst, hast du am Ende des Monats nichts übrig und "
+"musst weiter für arbeiten gehen, um diene Luxusgüter zu bezahlen. Wenn du "
+"jedoch jegliches übrig gebliebenes Geld nimmst und es investierst, bekommst "
+"du passives Einkommen, welches du dann statdessen verwenden kannst, um "
+"Luxusgüter zu bezahlen. Du wirst dann zwar nicht jetzt deine neue Uhr haben, "
+"aber vielleicht kannst du sie in 5 Jahren allene durch passives Einkommen "
+"bezahlen. Während dein passives Einkommen steigt, wirst du öffter in der "
+"Lage sein Luxusgüter zu kaufen, ohne dich zu sorgen, wie du dir diese "
+"leisten kannst."
 
 #: tutorials/get-rich-fast/index.php:55
 msgid "Preparation and Security"
-msgstr ""
+msgstr "Vorbereitung und Sicherheit"
 
 #: tutorials/get-rich-fast/index.php:56
 msgid "Surround yourself with like-minded people"
-msgstr ""
+msgstr "Umgib dich mit gleichgesinnten Menschen"
 
 #: tutorials/get-rich-fast/index.php:57
 msgid ""
@@ -1668,10 +1721,19 @@ msgid ""
 "benefits, you should cut ties with them and instead spend time with people "
 "that are good for you."
 msgstr ""
+"Wenn du der Schlauste im Raum bist, bist du vermutlich im falschen Raum. Du "
+"solltest dich mit Menschen umgeben, die ähnliche Ziele haben wie du und dich "
+"unterstützuen können. Wenn du anfängst Wohlstand aufzubauen, richten sich "
+"evtl. deine jetzigen Freunde gegen dich, fragen dich nach Geld, oder hassen "
+"dich, weil du dich änderst und erwachsener und erfolgreicher wirst, als sie. "
+"Denke darüber nach, mit welchen Leuten du dich gut fühlst, und welche Leute "
+"dir deine Energie rauben. Wenn dein Bezug zu anderen dir keine Vorteile "
+"bietet, solltest du den Kontakt abbrechen und statdessen deine Zeit mit "
+"Leuten verbringen, die dir gut tun."
 
 #: tutorials/get-rich-fast/index.php:58
 msgid "Build an emergency fund"
-msgstr ""
+msgstr "Baue dir einene Notfall-Kasse auf"
 
 #: tutorials/get-rich-fast/index.php:59
 msgid ""
@@ -1680,10 +1742,15 @@ msgid ""
 "emergencies. Ideally save enough so that you could live from this for 3-6 "
 "months, in case you lose your job, or something else happens to you."
 msgstr ""
+"Nachdem du deine Ausgaben reduziert hast, solltest du in der Lage sein einen "
+"kleinen Teil deines Einkommens auf Seite zu legen. Packe dies in ein Konto, "
+"welches du nur im Notfall benutzt. Idealerweise spare genug, sodass du 3-6 "
+"Monate davon leben kannst, im Falle dass du deinen Job verlierst, oder dir "
+"etwas anderes zustößt."
 
 #: tutorials/get-rich-fast/index.php:60
 msgid "Become financially literate and understand how money works"
-msgstr ""
+msgstr "Werde finanziell gebildet und verstehe wie Geld funktioniert"
 
 #: tutorials/get-rich-fast/index.php:61
 msgid ""
@@ -1702,14 +1769,30 @@ msgid ""
 "talking about, or who might want to influence you in a way that would "
 "benefit them. Always form your own opinion and check what others have to say."
 msgstr ""
+"Diese Seite zu lesen, ist dein erster Schritt in Richtung finanzielle "
+"Freiheit und verstehen, wie man sich Wohlstand aufbaut. Dieses Thema wird "
+"weder in der Schule, noch uni, und höchst wahrscheinlich auch nicht von "
+"deinen Eltern gelehrt. Das System ist darauf ausgelegt, dass du den Pfad "
+"gehst gute Noten zu bekommen, einen sicheren Job zu bekommen und dein Geld "
+"in einer Bank zu verwahren, bei der du 0.01% Zinsen bekommst, während die "
+"Bank dein Geld nutzt, um es für Kredite einzusetzen und damit hohe "
+"Zinserträge zu bekommen. Das System ist dafür gemacht dich arm zu halten und "
+"finanziell unaufgeklärt zu lassen, damit die Reichen auf deine Kosten noch "
+"reicher werden können. Also musst du dich leider selbst schlau machen und "
+"herausfinden, wie unser kabitalistischen System und Geld funktionieren, und "
+"wie du dies zu deinem Vorteil nutzen kannst. Dazu gibt es viele Ressourcen "
+"online, mit denen du dich weiterbilden kannst. Nimm niemals finanzielle "
+"Empfehlungen von jemandem, der nicht weiß wovon er spricht, oder der dich "
+"vielleicht zu seinem eigenen Vorteil beinflussen will. Bilde dir immer deine "
+"eigene Meinung und prüfe was andere zu sagen haben."
 
 #: tutorials/get-rich-fast/index.php:62
 msgid "Increase your income"
-msgstr ""
+msgstr "Erhöhe dein Einkommen"
 
 #: tutorials/get-rich-fast/index.php:63
 msgid "Get a better salary"
-msgstr ""
+msgstr "Bekomme ein besseres Gehalt"
 
 #: tutorials/get-rich-fast/index.php:64
 msgid ""
@@ -1719,10 +1802,15 @@ msgid ""
 "alternative jobs that you would enjoy, which offer a similar or better "
 "salary."
 msgstr ""
+"Wenn du unglücklich mit deinem aktuellen Gehalt bist, sprich mit deinem Chef "
+"über eine Gehaltserhöhung. Eine Gehaltserhöhung steht dir mit steigender "
+"Erfahrung und Inflation zu. Wenn dein aktueller Job dich nicht ausfüllt, "
+"suche dir Alternativen, die dir gefallen, mit einem ählichen oder besseren "
+"Gehalt."
 
 #: tutorials/get-rich-fast/index.php:65
 msgid "Become self-employed"
-msgstr ""
+msgstr "Werde selbstständig"
 
 #: tutorials/get-rich-fast/index.php:66
 msgid ""
@@ -1737,10 +1825,21 @@ msgid ""
 "earning as well, or better than in your primary job, it is time to end your "
 "employment contract and become fully self-dependent."
 msgstr ""
+"Als selbstständige Person, bist du viel flexibler und hast mehr Potenzial zu "
+"wachsen. Zur gleichen Zeit ist es sehr riskant. Kündige deinen Job nicht um "
+"direkt selbstständig zu werden. Rede statdessen mit deinem Chef, um eine "
+"Vereinbarung zu treffen, dass du nebenbei arbeiten darfst. Der Anfang wird "
+"schwierig, aber nach einiger Zeit bekommst du deine ersten Kunden und kannst "
+"wachsen. Wenn deine Selbstständigkeit gut läuft, reduziere die Stundenanzahl "
+"in deinem Hauptberuf. Nimm dir einen oder zwei Tage frei, die du dann für "
+"deine Selbstständigkeit verwendest. Wenn du den Punkt erreicht hast, dass du "
+"voll ausgelastet bist und so viel, oder gar besser verdienst als in deinem "
+"Hauptberuf, ist es Zeit deinen Arbeitsvertrag zu kündigen und vollständig in "
+"die Selbstständigkeit zu gehen."
 
 #: tutorials/get-rich-fast/index.php:67
 msgid "Become an entrepreneur, build your own company"
-msgstr ""
+msgstr "Werde ein Entrepreneur, baue deine eigen Firma auf"
 
 #: tutorials/get-rich-fast/index.php:68
 msgid ""
@@ -1754,14 +1853,24 @@ msgid ""
 "regular salary. As business taxes are lower than income taxes, you have more "
 "to invest as a business."
 msgstr ""
+"Als Firma zu agieren, gibt dir starke Steuervorteile, im gegensatz zur "
+"Selbstständigkeit. Allerdings kommt dies auch mit deutlich mehr "
+"Verantwortungen und Papierkram einher, sowie initialem Investment, um diene "
+"Firma zu starten. Deshalb solltest du nur als Firma agieren, wenn du "
+"persönliche Haftung reduzieren möchtest, oder dein Gewinn deutlich über "
+"deinem nötigen Einkommen liegt. In diesem Falle kannst du alle extra Gewinne "
+"in der Firma belassen oder eine zweite Holding-Firma gründen, zu der du "
+"deinen Gewinn überträgst, und dir selbst ein reguläres Gehalt auszahlen. Da "
+"Steuern für Firmen deutlich geringer sind als Einkommenssteuer, hast du mehr "
+"übrig um als Firma zu investieren."
 
 #: tutorials/get-rich-fast/index.php:69
 msgid "Make the money work for you"
-msgstr ""
+msgstr "Lasse das Geld für dich arbeiten"
 
 #: tutorials/get-rich-fast/index.php:70
 msgid "Investments"
-msgstr ""
+msgstr "Investitionen"
 
 #: tutorials/get-rich-fast/index.php:71
 #, php-format
@@ -1776,19 +1885,32 @@ msgid ""
 "That is why you should diversify as much as possible. Use different "
 "platforms, invest small amounts, and spread it over multiple projects."
 msgstr ""
+"Lege einen kleinen Teil deines Einkommens für Investitionen auf Seite. Auch "
+"wenn das nur 10% oder weniger sind. Lege das Geld in ein separates Konto, "
+"damit du nicht verführt wirst es für anderes auszugeben. Sobald du bereit "
+"bist dieses Geld zu investieren, wähle eine Investitionsplattform, die dir "
+"zusagt und Projekte bietet, in die du gerne investieren möchtest. Das "
+"könnten zum Beispiel Immobilien, erneuerbare Energie Projekte, oder Startups "
+"sein. Investitionen sind nicht Risikolos und es ist möglich, dass eine "
+"Investition, die du tätigst, fehlschlägt, und du all dein Geld verlierst. "
+"Deshalb solltest du so viel wie möglich diversifizieren. Nutze verschiedene "
+"Plattformen, investiere geringe Beträge und verteile sie über mehrere "
+"Projekte."
 
 #: tutorials/get-rich-fast/index.php:72
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr ""
+"Hier sind einige Investitionsplattformen, in die ich persönlich investiert "
+"habe:"
 
 #: tutorials/get-rich-fast/index.php:76
 #, php-format
 msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr ""
+msgstr "(Spare 50€ auf deine erste Investition mit dem Code \"%s\")"
 
 #: tutorials/get-rich-fast/index.php:89
 msgid "Passive income"
-msgstr ""
+msgstr "Passives Einkommen"
 
 #: tutorials/get-rich-fast/index.php:90
 msgid ""
@@ -1802,6 +1924,16 @@ msgid ""
 "doing this for a few years and you can live only from your passive income "
 "streams."
 msgstr ""
+"Nachdem du deine erste Investition getätigt hast, wirst du einen kleinen "
+"Prozentsatz deiner Investition als Dividende bekommen. Diese ist bei jeder "
+"Investition unterschiedlich. Um es einfach zu halten, nehmen wir an, dass du "
+"10% Dividende im Durchschnitt erhälst, und du 10% deines Einkommens "
+"investierst und 1/6 Investitionen fehlschlagen. Das würde bedeuten, dass du "
+"nach einem Jahr Investitionen jeden Monat, bereits ein volles Monatsgehalt "
+"in Dividenden-Auszahlung für dieses Jahr bekommst, die du dann direkt wieder "
+"neu investieren kannst, zusammen mit deinem regulärem Einkommen. Führe dies "
+"für einige Jahre weiter, und du kannst komplett von deinem passiven "
+"Einkommen leben."
 
 #: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
 msgid "Daniel - Tutorials"
