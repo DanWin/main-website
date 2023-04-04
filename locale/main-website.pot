@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-02 10:05+0200\n"
+"POT-Creation-Date: 2023-04-04 17:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -436,22 +436,22 @@ msgid ""
 "their answers"
 msgstr ""
 
-#: faq.php:25 faq.php:52
+#: faq.php:25 faq.php:53
 msgid "I found an illegal link/content on your site, can you remove it?"
 msgstr ""
 
-#: faq.php:25 faq.php:53
+#: faq.php:25 faq.php:54
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
 "possible."
 msgstr ""
 
-#: faq.php:26 faq.php:56
+#: faq.php:26 faq.php:57
 msgid "What is PGP?"
 msgstr ""
 
-#: faq.php:26 faq.php:57
+#: faq.php:26 faq.php:58
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" "
@@ -459,35 +459,35 @@ msgid ""
 "article</a>."
 msgstr ""
 
-#: faq.php:27 faq.php:60
+#: faq.php:27 faq.php:61
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
 
-#: faq.php:27 faq.php:61
+#: faq.php:27 faq.php:62
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
 "It might take a while until your feature gets added though."
 msgstr ""
 
-#: faq.php:28 faq.php:64
+#: faq.php:28 faq.php:65
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
 msgstr ""
 
-#: faq.php:28 faq.php:65
+#: faq.php:28 faq.php:66
 msgid ""
 "Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
 "rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
 "individual projects you would like to translate."
 msgstr ""
 
-#: faq.php:29 faq.php:68
+#: faq.php:29 faq.php:69
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr ""
 
-#: faq.php:29 faq.php:69
+#: faq.php:29 faq.php:70
 msgid ""
 "No, they are just horror stories people commonly tell you. Many people make "
 "YouTube videos about the \"deep web\" and claim there were sites like these. "
@@ -496,25 +496,25 @@ msgid ""
 "exist."
 msgstr ""
 
-#: faq.php:30 faq.php:72
+#: faq.php:30 faq.php:73
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
 msgstr ""
 
-#: faq.php:30 faq.php:73
+#: faq.php:30 faq.php:74
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
 msgstr ""
 
-#: faq.php:31 faq.php:76
+#: faq.php:31 faq.php:77
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
 msgstr ""
 
-#: faq.php:31 faq.php:77
+#: faq.php:31 faq.php:78
 msgid ""
 "No, the Tor darknet was created to be able to anonymously browse the "
 "internet, circumvent censorship and anonymously host websites. Of course, "
@@ -524,11 +524,11 @@ msgid ""
 "horror stories you have heard about Tor are just that, stories."
 msgstr ""
 
-#: faq.php:32 faq.php:80
+#: faq.php:32 faq.php:81
 msgid "What's the difference between deep web and darknet?"
 msgstr ""
 
-#: faq.php:32 faq.php:81
+#: faq.php:32 faq.php:82
 msgid ""
 "The deep web is any site that can't be indexed by a search engine, so "
 "basically any site where you have to log in or be part of a private network. "
@@ -536,11 +536,11 @@ msgid ""
 "The darknet is a small part of the deep web."
 msgstr ""
 
-#: faq.php:33 faq.php:84
+#: faq.php:33 faq.php:85
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr ""
 
-#: faq.php:33 faq.php:88
+#: faq.php:33 faq.php:89
 msgid ""
 "Joking aside, Teaching you programming or hacking is a task that will take a "
 "long time (years). I've been learning for 10 years and still learn new "
@@ -552,37 +552,37 @@ msgid ""
 "and keep yourself challenged with new tasks."
 msgstr ""
 
-#: faq.php:34 faq.php:94
+#: faq.php:34 faq.php:95
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
 msgstr ""
 
-#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:100
+#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:101
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
 msgstr ""
 
-#: faq.php:35 faq.php:95
+#: faq.php:35 faq.php:96
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
 msgstr ""
 
-#: faq.php:36 faq.php:96
+#: faq.php:36 faq.php:97
 msgid "Can you issue fake Covid19 test results?"
 msgstr ""
 
-#: faq.php:37 faq.php:97
+#: faq.php:37 faq.php:98
 msgid "Can you do some other illegal things for me?"
 msgstr ""
 
-#: faq.php:38 faq.php:103
+#: faq.php:38 faq.php:104
 msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr ""
 
-#: faq.php:38 faq.php:104
+#: faq.php:38 faq.php:105
 msgid ""
 "Yes, I could try, but I won't. Don't trust the any sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -592,11 +592,11 @@ msgid ""
 "are based on trust, but obviously you can't trust anymore."
 msgstr ""
 
-#: faq.php:39 faq.php:107
+#: faq.php:39 faq.php:108
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr ""
 
-#: faq.php:39 faq.php:108
+#: faq.php:39 faq.php:109
 #, php-format
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
@@ -607,11 +607,11 @@ msgid ""
 "settings</a>, if you still need to send this email."
 msgstr ""
 
-#: faq.php:40 faq.php:111
+#: faq.php:40 faq.php:112
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr ""
 
-#: faq.php:40 faq.php:112
+#: faq.php:40 faq.php:113
 #, php-format
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
@@ -622,46 +622,12 @@ msgid ""
 "settings</a>, if you still need to receive this email."
 msgstr ""
 
-#: faq.php:41 faq.php:119
-msgid "I have more Questions."
-msgstr ""
-
-#: faq.php:41 faq.php:120
-#, php-format
-msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr ""
-
-#: faq.php:44
-msgid "FAQ - Frequently Asked Questions"
-msgstr ""
-
-#: faq.php:45
-msgid ""
-"Here you have a list of frequently asked questions regarding the services I "
-"provide and their answers."
-msgstr ""
-
-#: faq.php:48
-msgid "Question"
-msgstr ""
-
-#: faq.php:49
-msgid "Answer"
-msgstr ""
-
-#: faq.php:86
-msgid ""
-"Yes, marry me and I might actually do that. But only if you teach me "
-"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
-"Sorry guys, only considering females."
-msgstr ""
-
-#: faq.php:115
+#: faq.php:41 faq.php:116
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
 
-#: faq.php:116
+#: faq.php:41 faq.php:117
 #, php-format
 msgid ""
 "Becoming rich and clearing your debts is a process that starts in your head. "
@@ -670,6 +636,40 @@ msgid ""
 "free, but everyone can get there, if you are willing to learn and educate "
 "yourself. I made an in-depth tutorial about some steps you can take: <a "
 "href=\"%s\">How to get rich (fast)</a>."
+msgstr ""
+
+#: faq.php:42 faq.php:120
+msgid "I have more Questions."
+msgstr ""
+
+#: faq.php:42 faq.php:121
+#, php-format
+msgid "Feel free, to <a href=\"%s\">contact me</a>."
+msgstr ""
+
+#: faq.php:45
+msgid "FAQ - Frequently Asked Questions"
+msgstr ""
+
+#: faq.php:46
+msgid ""
+"Here you have a list of frequently asked questions regarding the services I "
+"provide and their answers."
+msgstr ""
+
+#: faq.php:49
+msgid "Question"
+msgstr ""
+
+#: faq.php:50
+msgid "Answer"
+msgstr ""
+
+#: faq.php:87
+msgid ""
+"Yes, marry me and I might actually do that. But only if you teach me "
+"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
+"Sorry guys, only considering females."
 msgstr ""
 
 #: common.php:122
@@ -1330,7 +1330,7 @@ msgstr ""
 
 #: tutorials/get-rich-fast/index.php:68
 msgid ""
-"Operating as a company, gives you significant tax benefits compared to being "
+"Operating as a company gives you significant tax benefits compared to being "
 "self-employed. However, this also comes along with a lot more "
 "responsibilities, paperwork, and initial investments to set up your company. "
 "Thus you should only operate as a company, if you want to reduce personal "
@@ -1380,12 +1380,12 @@ msgstr ""
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
-"To keep it simple, let's assume that you earn 10% interest on average and "
-"you put 10% of your income into investments and 1/6 of investments fail. "
-"This would mean that after one year of investing every month, you would "
-"already get an entire month of your salary in dividend payments that year, "
-"which you can directly re-invest, along with your regular investments. Keep "
-"doing this for a few years and you can live only from your passive income "
+"To keep it simple, let's assume that you earn 10% interest on average, and "
+"you invest 10% of your income, and 1/6 of investments fail. This would mean "
+"that after one year of investing every month, you would already have saved "
+"an entire month of your salary and get 10% in dividend payments that year, "
+"which you can directly re-invest along with your regular investments. Keep "
+"doing this for a few years until you can live only from your passive income "
 "streams."
 msgstr ""
 
