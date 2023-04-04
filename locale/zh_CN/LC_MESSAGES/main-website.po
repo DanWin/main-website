@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-02 10:05+0200\n"
+"POT-Creation-Date: 2023-04-04 17:49+0200\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -517,22 +517,22 @@ msgid ""
 "their answers"
 msgstr "这是一个收集了大部分关于我的服务的常问问题以及它们对应的答案"
 
-#: faq.php:25 faq.php:52
+#: faq.php:25 faq.php:53
 msgid "I found an illegal link/content on your site, can you remove it?"
 msgstr "我在你的网站上发现了非法链接/内容，你能删除它吗？"
 
-#: faq.php:25 faq.php:53
+#: faq.php:25 faq.php:54
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
 "possible."
 msgstr "当然行，请 <a href=\"%s\">报告它</a>，然后我将会立刻删除它"
 
-#: faq.php:26 faq.php:56
+#: faq.php:26 faq.php:57
 msgid "What is PGP?"
 msgstr "什么是PGP？"
 
-#: faq.php:26 faq.php:57
+#: faq.php:26 faq.php:58
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" target="
@@ -543,11 +543,11 @@ msgstr ""
 "wikipedia.org/wiki/PGP\" target=\"_blank\" rel=\"noopener noreferrer\">在维基"
 "百科上查看更多信息</a>."
 
-#: faq.php:27 faq.php:60
+#: faq.php:27 faq.php:61
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr "我有一个能让你的网站变得更好的主意，你能不能添加这个功能？"
 
-#: faq.php:27 faq.php:61
+#: faq.php:27 faq.php:62
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
@@ -556,13 +556,13 @@ msgstr ""
 "当然可以, 请 <a href=\"%s\">联系我</a>。然后 我可能会将其添加到我的ToDo列表"
 "中。这可能需要一段时间直到我完成添加功能的工作"
 
-#: faq.php:28 faq.php:64
+#: faq.php:28 faq.php:65
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
 msgstr "我想要翻译你的网站和服务，我该怎么做？"
 
-#: faq.php:28 faq.php:65
+#: faq.php:28 faq.php:66
 msgid ""
 "Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
 "\"noopener noreferrer\">GitHub repositories</a> and check out the individual "
@@ -571,11 +571,11 @@ msgstr ""
 "请查看我的<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
 "\"noopener noreferrer\">GitHub仓库</a> 并找找 你想翻译哪个项目"
 
-#: faq.php:29 faq.php:68
+#: faq.php:29 faq.php:69
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr "我听说过红房间、杀人直播或者其他类似的内容。它们是真的吗？"
 
-#: faq.php:29 faq.php:69
+#: faq.php:29 faq.php:70
 msgid ""
 "No, they are just horror stories people commonly tell you. Many people make "
 "YouTube videos about the \"deep web\" and claim there were sites like these. "
@@ -587,14 +587,14 @@ msgstr ""
 "真的有像这样的网站然而现实的版本确是很多骗子只是创建了一个Tor网站并让你给他们"
 "支付比特币，然后他们会让你观看这些内容不要付钱！因为这些内容从未存在过。"
 
-#: faq.php:30 faq.php:72
+#: faq.php:30 faq.php:73
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
 msgstr ""
 "我听说过影子网络、马里亚纳网络或者其他封闭的网络 我该怎么进入这些网络？"
 
-#: faq.php:30 faq.php:73
+#: faq.php:30 faq.php:74
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
@@ -602,14 +602,14 @@ msgstr ""
 "你不可以，因为它们从来没存在过。一些骗子想要把这些网络销售给你。不要付钱，因"
 "为他们不会给你任何回馈！"
 
-#: faq.php:31 faq.php:76
+#: faq.php:31 faq.php:77
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
 msgstr ""
 "难道Tor暗网中不应该是可怕的且还有许多神秘的东西吗？为什么我找不到有趣的网站？"
 
-#: faq.php:31 faq.php:77
+#: faq.php:31 faq.php:78
 msgid ""
 "No, the Tor darknet was created to be able to anonymously browse the "
 "internet, circumvent censorship and anonymously host websites. Of course, "
@@ -623,11 +623,11 @@ msgstr ""
 "论如何，你都是匿名的。Tor暗网相对于明网而言并没有太多不同之处。所以那些Tor"
 "的“都市传说”都只是传说而已，并非事实。"
 
-#: faq.php:32 faq.php:80
+#: faq.php:32 faq.php:81
 msgid "What's the difference between deep web and darknet?"
 msgstr "暗网与深网的区别是什么？"
 
-#: faq.php:32 faq.php:81
+#: faq.php:32 faq.php:82
 msgid ""
 "The deep web is any site that can't be indexed by a search engine, so "
 "basically any site where you have to log in or be part of a private network. "
@@ -638,11 +638,11 @@ msgstr ""
 "网的一部分如果你希望进入暗网，你便需要特殊的软件像Tor、I2P或Freenet。但请注"
 "意，暗网只是深网中极少的一部分，并不占整个网络的96%。"
 
-#: faq.php:33 faq.php:84
+#: faq.php:33 faq.php:85
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr "你能否手把手地教会我编程或黑客渗透？"
 
-#: faq.php:33 faq.php:88
+#: faq.php:33 faq.php:89
 msgid ""
 "Joking aside, Teaching you programming or hacking is a task that will take a "
 "long time (years). I've been learning for 10 years and still learn new "
@@ -659,37 +659,37 @@ msgstr ""
 "YouTube和B站上都有大量教程视频。但最重要的是，你需要将手指放到键盘上开始编程"
 "实战。先从简单的程序开始，再挑战较难的程序。"
 
-#: faq.php:34 faq.php:94
+#: faq.php:34 faq.php:95
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
 msgstr "你能不能黑进我的学校或大学来修改我的成绩，或者找到某人能完成这件事？"
 
-#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:100
+#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:101
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
 msgstr "是的，我非常愿意为你去警局喝茶！ - 嗯，算了，我还是不要了。不好意思。"
 
-#: faq.php:35 faq.php:95
+#: faq.php:35 faq.php:96
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
 msgstr "你能否给我Paypal账户或信用卡帐号，或告诉我哪里能得到这些失窃的账户？"
 
-#: faq.php:36 faq.php:96
+#: faq.php:36 faq.php:97
 msgid "Can you issue fake Covid19 test results?"
 msgstr "你能否伪造新冠病毒核酸结果？"
 
-#: faq.php:37 faq.php:97
+#: faq.php:37 faq.php:98
 msgid "Can you do some other illegal things for me?"
 msgstr "你能否为我做一些非法的事情？"
 
-#: faq.php:38 faq.php:103
+#: faq.php:38 faq.php:104
 msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "你能否黑进我的女友的账户？我担心她背叛了我。"
 
-#: faq.php:38 faq.php:104
+#: faq.php:38 faq.php:105
 msgid ""
 "Yes, I could try, but I won't. Don't trust the any sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -703,11 +703,11 @@ msgstr ""
 "谈，是你唯一能做的。如果你有雇佣黑客的想法，请你放弃这个想法，因为感情是基于"
 "信任的。但显而易见，你不信任任何人。"
 
-#: faq.php:39 faq.php:107
+#: faq.php:39 faq.php:108
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr "我的电子邮件发送失败。我的到了一个有关TLS的错误"
 
-#: faq.php:39 faq.php:108
+#: faq.php:39 faq.php:109
 #, php-format
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
@@ -722,11 +722,11 @@ msgstr ""
 "人的手中他们可以在中途截下你的邮件。如果你仍希望发出邮件，你可以在你的<a "
 "href=\"%s\">用户设置</a>中禁用加密。"
 
-#: faq.php:40 faq.php:111
+#: faq.php:40 faq.php:112
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr "我无法收到电子邮件，发送者收到一个关于TLS的错误。"
 
-#: faq.php:40 faq.php:112
+#: faq.php:40 faq.php:113
 #, php-format
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
@@ -741,48 +741,12 @@ msgstr ""
 "人的手中他们可以在中途截下你的邮件。如果你仍希望收到邮件。你可以在你的<a "
 "href=\"%s\">用户设置</a>禁用加密。"
 
-#: faq.php:41 faq.php:119
-msgid "I have more Questions."
-msgstr "我有更多问题"
-
-#: faq.php:41 faq.php:120
-#, php-format
-msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr "请<a href=\"%s\">联系我</a>."
-
-#: faq.php:44
-msgid "FAQ - Frequently Asked Questions"
-msgstr "FAQ - 常问问题"
-
-#: faq.php:45
-msgid ""
-"Here you have a list of frequently asked questions regarding the services I "
-"provide and their answers."
-msgstr "这是一个关于我的服务的常问问题列表以及它们的答案。"
-
-#: faq.php:48
-msgid "Question"
-msgstr "问题"
-
-#: faq.php:49
-msgid "Answer"
-msgstr "答案"
-
-#: faq.php:86
-msgid ""
-"Yes, marry me and I might actually do that. But only if you teach me "
-"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
-"Sorry guys, only considering females."
-msgstr ""
-"好啊，嫁给我我就有可能教你。但除非你能回馈我。взамен. <a href=\"contact.php"
-"\">联系我</a>. 不好意思现在只考虑女性。"
-
-#: faq.php:115
+#: faq.php:41 faq.php:116
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
 
-#: faq.php:116
+#: faq.php:41 faq.php:117
 #, php-format
 msgid ""
 "Becoming rich and clearing your debts is a process that starts in your head. "
@@ -792,6 +756,42 @@ msgid ""
 "yourself. I made an in-depth tutorial about some steps you can take: <a href="
 "\"%s\">How to get rich (fast)</a>."
 msgstr ""
+
+#: faq.php:42 faq.php:120
+msgid "I have more Questions."
+msgstr "我有更多问题"
+
+#: faq.php:42 faq.php:121
+#, php-format
+msgid "Feel free, to <a href=\"%s\">contact me</a>."
+msgstr "请<a href=\"%s\">联系我</a>."
+
+#: faq.php:45
+msgid "FAQ - Frequently Asked Questions"
+msgstr "FAQ - 常问问题"
+
+#: faq.php:46
+msgid ""
+"Here you have a list of frequently asked questions regarding the services I "
+"provide and their answers."
+msgstr "这是一个关于我的服务的常问问题列表以及它们的答案。"
+
+#: faq.php:49
+msgid "Question"
+msgstr "问题"
+
+#: faq.php:50
+msgid "Answer"
+msgstr "答案"
+
+#: faq.php:87
+msgid ""
+"Yes, marry me and I might actually do that. But only if you teach me "
+"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
+"Sorry guys, only considering females."
+msgstr ""
+"好啊，嫁给我我就有可能教你。但除非你能回馈我。взамен. <a href=\"contact.php"
+"\">联系我</a>. 不好意思现在只考虑女性。"
 
 #: common.php:122
 msgid "Chat"
@@ -1463,7 +1463,7 @@ msgstr ""
 
 #: tutorials/get-rich-fast/index.php:68
 msgid ""
-"Operating as a company, gives you significant tax benefits compared to being "
+"Operating as a company gives you significant tax benefits compared to being "
 "self-employed. However, this also comes along with a lot more "
 "responsibilities, paperwork, and initial investments to set up your company. "
 "Thus you should only operate as a company, if you want to reduce personal "
@@ -1513,12 +1513,12 @@ msgstr ""
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
-"To keep it simple, let's assume that you earn 10% interest on average and "
-"you put 10% of your income into investments and 1/6 of investments fail. "
-"This would mean that after one year of investing every month, you would "
-"already get an entire month of your salary in dividend payments that year, "
-"which you can directly re-invest, along with your regular investments. Keep "
-"doing this for a few years and you can live only from your passive income "
+"To keep it simple, let's assume that you earn 10% interest on average, and "
+"you invest 10% of your income, and 1/6 of investments fail. This would mean "
+"that after one year of investing every month, you would already have saved "
+"an entire month of your salary and get 10% in dividend payments that year, "
+"which you can directly re-invest along with your regular investments. Keep "
+"doing this for a few years until you can live only from your passive income "
 "streams."
 msgstr ""
 

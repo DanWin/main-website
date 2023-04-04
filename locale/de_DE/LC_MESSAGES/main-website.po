@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-04-02 10:05+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-04 17:49+0200\n"
 "PO-Revision-Date: 2023-04-02 20:48+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -564,13 +564,13 @@ msgstr ""
 "Eine Liste der häufig gestellten Fragen zu den Diensten die ich "
 "bereitstelle, und deren Antworten"
 
-#: faq.php:25 faq.php:52
+#: faq.php:25 faq.php:53
 msgid "I found an illegal link/content on your site, can you remove it?"
 msgstr ""
 "Ich habe einen Illegalen Link/Inhalt auf deiner Seite gefunden, kannst du "
 "das entfernen?"
 
-#: faq.php:25 faq.php:53
+#: faq.php:25 faq.php:54
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
@@ -579,11 +579,11 @@ msgstr ""
 "Ja, bitte <a href=\"%s\">melde es</a> und Ich werde es so bald wie möglich "
 "entfernen."
 
-#: faq.php:26 faq.php:56
+#: faq.php:26 faq.php:57
 msgid "What is PGP?"
 msgstr "Was ist PGP?"
 
-#: faq.php:26 faq.php:57
+#: faq.php:26 faq.php:58
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" target="
@@ -595,13 +595,13 @@ msgstr ""
 "de.wikipedia.org/wiki/Pretty_Good_Privacy\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">Mehr Informationen in diesem Wikipedia Artikel</a>."
 
-#: faq.php:27 faq.php:60
+#: faq.php:27 faq.php:61
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
 "Ich habe eine Idee, wie du deine Seite besser machen kannst. Kannst du "
 "Funktion xyz hinzufügen?"
 
-#: faq.php:27 faq.php:61
+#: faq.php:27 faq.php:62
 #, php-format
 msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
@@ -611,7 +611,7 @@ msgstr ""
 "Todo-Liste hinzu. Es könnte aber eine Weile dauern, bis ich die Funktion "
 "hinzufüge."
 
-#: faq.php:28 faq.php:64
+#: faq.php:28 faq.php:65
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
@@ -619,7 +619,7 @@ msgstr ""
 "Ich möchte deine Seite und Dienste in eine andere Sprache übersetzen. Wie "
 "kann ich das machen?"
 
-#: faq.php:28 faq.php:65
+#: faq.php:28 faq.php:66
 msgid ""
 "Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
 "\"noopener noreferrer\">GitHub repositories</a> and check out the individual "
@@ -629,12 +629,12 @@ msgstr ""
 "rel=\"noopener noreferrer\">GitHub repositories</a> und schaue dir die "
 "einzelnen Projekte an, die du übersetzen möchtest."
 
-#: faq.php:29 faq.php:68
+#: faq.php:29 faq.php:69
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr ""
 "Ich have von Red-Rooms, Live-Stream Mord und ähnlichem gehört. Sind die echt?"
 
-#: faq.php:29 faq.php:69
+#: faq.php:29 faq.php:70
 msgid ""
 "No, they are just horror stories people commonly tell you. Many people make "
 "YouTube videos about the \"deep web\" and claim there were sites like these. "
@@ -648,7 +648,7 @@ msgstr ""
 "erstellen dann solche Seiten, die man mit Bitcoins bezahlen soll, um Zugriff "
 "zu bekommen. Zahle nicht, denn diese Seiten existieren einfach nicht."
 
-#: faq.php:30 faq.php:72
+#: faq.php:30 faq.php:73
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
@@ -656,7 +656,7 @@ msgstr ""
 "Ich habe vom Shadow Web, Marianas Web oder Closed Shell Netzwerk gehört. Wie "
 "kann ich auf diese zugreifen?"
 
-#: faq.php:30 faq.php:73
+#: faq.php:30 faq.php:74
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
@@ -664,7 +664,7 @@ msgstr ""
 "Das kannst du nicht, weil diese nicht existieren. Einige Scammer wollen es "
 "dir aber verkaufen. Zahle nicht, denn du wirst nichts dafür bekommen."
 
-#: faq.php:31 faq.php:76
+#: faq.php:31 faq.php:77
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
@@ -672,7 +672,7 @@ msgstr ""
 "Soll das Darknet nicht gruselig voller unheimlichen Scheiß sein? Warum kann "
 "ich keine interessanten Seiten finden?"
 
-#: faq.php:31 faq.php:77
+#: faq.php:31 faq.php:78
 msgid ""
 "No, the Tor darknet was created to be able to anonymously browse the "
 "internet, circumvent censorship and anonymously host websites. Of course, "
@@ -688,11 +688,11 @@ msgstr ""
 "einen unterschied zum Clearnet (normales Internet). Also die meisten Horror-"
 "Geschichten die du über Tor gehört hast sind nur das, Geschichten."
 
-#: faq.php:32 faq.php:80
+#: faq.php:32 faq.php:81
 msgid "What's the difference between deep web and darknet?"
 msgstr "Wo ist der Unterschied zwischen Deep web und Darknet?"
 
-#: faq.php:32 faq.php:81
+#: faq.php:32 faq.php:82
 msgid ""
 "The deep web is any site that can't be indexed by a search engine, so "
 "basically any site where you have to log in or be part of a private network. "
@@ -705,13 +705,13 @@ msgstr ""
 "zuzugreifen, braucht man eine spezielle Software wie Tor, I2P oder Freenet. "
 "Das Darknet ist ein kleiner Teil des Deep Web."
 
-#: faq.php:33 faq.php:84
+#: faq.php:33 faq.php:85
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr ""
 "Kannst du meine Hände halten und mir Schritt für Schritt Programmieren oder "
 "Hacken beibringen?"
 
-#: faq.php:33 faq.php:88
+#: faq.php:33 faq.php:89
 msgid ""
 "Joking aside, Teaching you programming or hacking is a task that will take a "
 "long time (years). I've been learning for 10 years and still learn new "
@@ -731,7 +731,7 @@ msgstr ""
 "dass du deine Tastatur benutzt und selbst ein paar Programme schreibst. "
 "Starte mit etwas einfachem und vordere dich mit neuen Aufgaben heraus."
 
-#: faq.php:34 faq.php:94
+#: faq.php:34 faq.php:95
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
@@ -739,7 +739,7 @@ msgstr ""
 "Kannst du meine Schule oder Universität hacken, um meine Noten zu ändern, "
 "oder jemanden finden, der dies tut?"
 
-#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:100
+#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:101
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
@@ -747,7 +747,7 @@ msgstr ""
 "Ja, ich würde sehr gerne für dich in's Gefängnis gehen. - Ehm, oder lieber "
 "nicht. Sorry, damit kann ich dir leider nicht helfen."
 
-#: faq.php:35 faq.php:95
+#: faq.php:35 faq.php:96
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
@@ -755,19 +755,19 @@ msgstr ""
 "Kannst du mir zuverlässig gestohlene PayPal Konten oder Kredit Karten geben, "
 "oder sagen wo ich diese bekomme?"
 
-#: faq.php:36 faq.php:96
+#: faq.php:36 faq.php:97
 msgid "Can you issue fake Covid19 test results?"
 msgstr "Kannst du mir ein Fake Covid19 Testergebnis ausstellen?"
 
-#: faq.php:37 faq.php:97
+#: faq.php:37 faq.php:98
 msgid "Can you do some other illegal things for me?"
 msgstr "Kannst du andere Illegale Dinge für mich machen?"
 
-#: faq.php:38 faq.php:103
+#: faq.php:38 faq.php:104
 msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Kannst du meine Freundin hacken, ich glaube sie Betrügt mich."
 
-#: faq.php:38 faq.php:104
+#: faq.php:38 faq.php:105
 msgid ""
 "Yes, I could try, but I won't. Don't trust the any sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -784,12 +784,12 @@ msgstr ""
 "definitiv über eine Trennung nachdenken, denn eine Beziehung ist auf "
 "Vertrauen aufgebaut, aber offensichtlich kannst du nicht mehr vertrauen."
 
-#: faq.php:39 faq.php:107
+#: faq.php:39 faq.php:108
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr ""
 "Meine E-Mail wird nicht gesendet. Ich bekomme einen Fehler bezüglich TLS"
 
-#: faq.php:39 faq.php:108
+#: faq.php:39 faq.php:109
 #, php-format
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
@@ -806,13 +806,13 @@ msgstr ""
 "erzwungene Verschlüsselung in deinen <a href=\"%s\">Kontoeinstellungen</a> "
 "deaktivieren, wenn du diese E-Mail dennoch versenden musst."
 
-#: faq.php:40 faq.php:111
+#: faq.php:40 faq.php:112
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr ""
 "Ich kann eine E-Mail nicht empfangen, der Sender bekommt einen Fehler "
 "bezüglich TLS"
 
-#: faq.php:40 faq.php:112
+#: faq.php:40 faq.php:113
 #, php-format
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
@@ -830,53 +830,14 @@ msgstr ""
 "\">Kontoeinstellungen</a> deaktivieren, wenn du diese E-Mail dennoch "
 "empfangen musst."
 
-#: faq.php:41 faq.php:119
-msgid "I have more Questions."
-msgstr "Ich habe mehr Fragen."
-
-#: faq.php:41 faq.php:120
-#, php-format
-msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr "<a href=\"%s\">Schreib mir</a> gerne."
-
-#: faq.php:44
-msgid "FAQ - Frequently Asked Questions"
-msgstr "FAQ - Häufig gestellte Fragen"
-
-#: faq.php:45
-msgid ""
-"Here you have a list of frequently asked questions regarding the services I "
-"provide and their answers."
-msgstr ""
-"Hier hast du eine Liste der häufig gestellten Fragen zu den Diensten die ich "
-"bereitstelle, und deren Antworten."
-
-#: faq.php:48
-msgid "Question"
-msgstr "Frage"
-
-#: faq.php:49
-msgid "Answer"
-msgstr "Antwort"
-
-#: faq.php:86
-msgid ""
-"Yes, marry me and I might actually do that. But only if you teach me "
-"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
-"Sorry guys, only considering females."
-msgstr ""
-"Ja, heirate mich und vielleicht mache ich das. Aber nur wenn du mir etwas im "
-"Gegenzug beibringst. <a href=\"contact.php\">Schick mir deinen Antrag</a>. "
-"Sorry Jungs, nur Frauen kommen in Betracht."
-
-#: faq.php:115
+#: faq.php:41 faq.php:116
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
 "Ich habe Schulden und muss schnell Geld bekommen. Wie kann ich schnelles "
 "geld verdienen?"
 
-#: faq.php:116
+#: faq.php:41 faq.php:117
 #, php-format
 msgid ""
 "Becoming rich and clearing your debts is a process that starts in your head. "
@@ -893,6 +854,45 @@ msgstr ""
 "dahin kommen, sofern du bereit bist zu lernen und dich selbst weiter zu "
 "bilden. Ich habe eine ausführliche Anleitung zu einigen Schritten gemacht, "
 "die du machen kannst: <a href=\"%s\">Wie man (schnell) reich wird</a>."
+
+#: faq.php:42 faq.php:120
+msgid "I have more Questions."
+msgstr "Ich habe mehr Fragen."
+
+#: faq.php:42 faq.php:121
+#, php-format
+msgid "Feel free, to <a href=\"%s\">contact me</a>."
+msgstr "<a href=\"%s\">Schreib mir</a> gerne."
+
+#: faq.php:45
+msgid "FAQ - Frequently Asked Questions"
+msgstr "FAQ - Häufig gestellte Fragen"
+
+#: faq.php:46
+msgid ""
+"Here you have a list of frequently asked questions regarding the services I "
+"provide and their answers."
+msgstr ""
+"Hier hast du eine Liste der häufig gestellten Fragen zu den Diensten die ich "
+"bereitstelle, und deren Antworten."
+
+#: faq.php:49
+msgid "Question"
+msgstr "Frage"
+
+#: faq.php:50
+msgid "Answer"
+msgstr "Antwort"
+
+#: faq.php:87
+msgid ""
+"Yes, marry me and I might actually do that. But only if you teach me "
+"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
+"Sorry guys, only considering females."
+msgstr ""
+"Ja, heirate mich und vielleicht mache ich das. Aber nur wenn du mir etwas im "
+"Gegenzug beibringst. <a href=\"contact.php\">Schick mir deinen Antrag</a>. "
+"Sorry Jungs, nur Frauen kommen in Betracht."
 
 #: common.php:122
 msgid "Chat"
@@ -1842,8 +1842,19 @@ msgid "Become an entrepreneur, build your own company"
 msgstr "Werde ein Entrepreneur, baue deine eigen Firma auf"
 
 #: tutorials/get-rich-fast/index.php:68
+#, fuzzy
+#| msgid ""
+#| "Operating as a company, gives you significant tax benefits compared to "
+#| "being self-employed. However, this also comes along with a lot more "
+#| "responsibilities, paperwork, and initial investments to set up your "
+#| "company. Thus you should only operate as a company, if you want to reduce "
+#| "personal liability or if your profit is much higher than your income "
+#| "needs to be. In that case, you keep any extra profit in the company or "
+#| "create a second holding company, to which you transfer the profit, and "
+#| "pay yourself a regular salary. As business taxes are lower than income "
+#| "taxes, you have more to invest as a business."
 msgid ""
-"Operating as a company, gives you significant tax benefits compared to being "
+"Operating as a company gives you significant tax benefits compared to being "
 "self-employed. However, this also comes along with a lot more "
 "responsibilities, paperwork, and initial investments to set up your company. "
 "Thus you should only operate as a company, if you want to reduce personal "
@@ -1913,15 +1924,26 @@ msgid "Passive income"
 msgstr "Passives Einkommen"
 
 #: tutorials/get-rich-fast/index.php:90
+#, fuzzy
+#| msgid ""
+#| "After you've made your first investments, you will receive a small "
+#| "percentage of your investment as a dividend. It varies with each "
+#| "investment. To keep it simple, let's assume that you earn 10% interest on "
+#| "average and you put 10% of your income into investments and 1/6 of "
+#| "investments fail. This would mean that after one year of investing every "
+#| "month, you would already get an entire month of your salary in dividend "
+#| "payments that year, which you can directly re-invest, along with your "
+#| "regular investments. Keep doing this for a few years and you can live "
+#| "only from your passive income streams."
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
-"To keep it simple, let's assume that you earn 10% interest on average and "
-"you put 10% of your income into investments and 1/6 of investments fail. "
-"This would mean that after one year of investing every month, you would "
-"already get an entire month of your salary in dividend payments that year, "
-"which you can directly re-invest, along with your regular investments. Keep "
-"doing this for a few years and you can live only from your passive income "
+"To keep it simple, let's assume that you earn 10% interest on average, and "
+"you invest 10% of your income, and 1/6 of investments fail. This would mean "
+"that after one year of investing every month, you would already have saved "
+"an entire month of your salary and get 10% in dividend payments that year, "
+"which you can directly re-invest along with your regular investments. Keep "
+"doing this for a few years until you can live only from your passive income "
 "streams."
 msgstr ""
 "Nachdem du deine erste Investition getätigt hast, wirst du einen kleinen "
