@@ -19,7 +19,7 @@ global $language, $dir, $locale;
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
 <meta property="og:image:alt" content="<?php echo _('An avatar representing Daniel Winzen'); ?>">
-<meta property="og:url" content="https://danwin1210.de/contact.php">
+<meta property="og:url" content="https://danwin1210.de/imprint.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","mainEntity":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
