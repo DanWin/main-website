@@ -71,9 +71,12 @@ global $language, $dir, $locale;
 <p><?php echo _('Put aside a small portion of your income for investments. Even if that is just 10% or less. Put it into a separate account, so you don\'t get tempted to spend this money on anything else. When you are ready to invest this money, choose an investment platform that suits you and offers projects that you would like to invest in. This could be for example real estate, renewable energy projects, or startups. Investments are not risk-free and it is possible that an investment you made fails and you lose all your money. That is why you should diversify as much as possible. Use different platforms, invest small amounts, and spread it over multiple projects.'); ?></p>
 <p><?php echo _('Here are some investment platforms that I have personally invested in:'); ?></p>
 <ul>
-	<li><a href="https://accounts.binance.com/register?ref=109218570" target="_blank" rel="noreferrer noopener">Binance Staking</a></li>
+	<li><a href="https://accounts.binance.com/register?ref=109218570" target="_blank" rel="noreferrer noopener">Binance Earn</a></li>
 	<li><a href="https://getstake.com/signup?ref=DANIEL296" target="_blank" rel="noreferrer noopener">Stake</a></li>
+	<li><a href="https://estateguru.co/en/investor-referral/?switch=en&userPromotionCode=EGU033931" target="_blank" rel="noreferrer noopener">Estateguru</a></li>
 	<li><a href="https://wiwin.de" target="_blank" rel="noreferrer noopener">WiWin</a><small> <?php printf(_('(Save 50€ on your first investment with the code "%s")'), 'AVW749Z3Q7P0'); ?></small></li>
+	<li><a href="https://www.mintos.com/en/" target="_blank" rel="noreferrer noopener">Mintos</a></li>
+	<li><a href="https://peerberry.com/" target="_blank" rel="noreferrer noopener">PeerBerry</a></li>
 	<li><a href="https://www.companisto.com" target="_blank" rel="noreferrer noopener">Companisto</a></li>
 	<li><a href="https://www.fundernation.eu" target="_blank" rel="noreferrer noopener">FunderNation</a></li>
 	<li><a href="https://exporo.de" target="_blank" rel="noreferrer noopener">Exporo</a></li>
