@@ -114,6 +114,9 @@ function menu(string $title = ''): void
 	}elseif(isset($_SERVER['HTTP_HOST']) && preg_match('/\.onion$/', $_SERVER['HTTP_HOST'])){
 		$host='http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion';
 		$onions='http://donionsixbjtiohce24abfgsffo2l4tk26qx464zylumgejukfq2vead.onion';
+	}elseif(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.i2p$/', $_SERVER['HTTP_HOST'])){
+		$host='http://danwin1210.i2p';
+		$onions='http://onions.danwin1210.i2p';
 	}else{
 		$host='http://edk3pz64esvpy6bqpjtlqat3h7unwzxmvrrhjeg2ab43d6zfkzpa.b32.i2p';
 		$onions='http://zdmhl2zydlw5soy3jpaofbpq3pmuxc7trx2lfubeqryqd266jl4q.b32.i2p';
