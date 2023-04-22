@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-04-04 17:49+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-22 08:40+0200\n"
 "PO-Revision-Date: 2023-04-05 18:09+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,18 +29,20 @@ msgstr "Impressum von Daniel Winzen"
 #: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
 #: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
 #: privacy.php:21 chat/index.php:21 tutorials/get-rich-fast/index.php:29
-#: tutorials/index.php:21 tutorials/torify-ftp/index.php:29
+#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
+#: tutorials/torify-ftp/index.php:29
 msgid "An avatar representing Daniel Winzen"
 msgstr "Ein Avatar der Daniel Winzen darstellt"
 
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/torify-ftp/index.php:32
+#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
+#: tutorials/torify-ftp/index.php:32
 msgid "Daniel"
 msgstr "Daniel"
 
-#: imprint.php:27 common.php:132
+#: imprint.php:27 common.php:135
 msgid "Imprint"
 msgstr "Impressum"
 
@@ -100,7 +102,7 @@ msgstr ""
 "Persönliche Webseite von Daniel Winzen, dem Webentwickler, Sysadmin und "
 "Privatsphäre-Enthusiast"
 
-#: index.php:27 common.php:121
+#: index.php:27 common.php:124
 msgid "Home"
 msgstr "Startseite"
 
@@ -168,7 +170,7 @@ msgstr ""
 "Über den Webentwickler, Sysadmin und Privatsphäre-Enthusiast Daniel Winzen "
 "und diese Seite"
 
-#: about.php:29 common.php:129
+#: about.php:29 common.php:132
 msgid "About"
 msgstr "Über"
 
@@ -355,7 +357,7 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Zu Hause gehosted: 4 Raspberry Pi 4 mit der Hauptseite und den Daten"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:127
+#: github-ipv6-proxy.php:33 common.php:130
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 Proxy"
 
@@ -484,7 +486,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontaktiere Daniel Winzen"
 
-#: contact.php:27 common.php:130
+#: contact.php:27 common.php:133
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -894,35 +896,35 @@ msgstr ""
 "Gegenzug beibringst. <a href=\"contact.php\">Schick mir deinen Antrag</a>. "
 "Sorry Jungs, nur Frauen kommen in Betracht."
 
-#: common.php:122
+#: common.php:125
 msgid "Chat"
 msgstr "Chat"
 
-#: common.php:123
+#: common.php:126
 msgid "Online-Test"
 msgstr "Online-Test"
 
-#: common.php:124
+#: common.php:127
 msgid "Onion link list"
 msgstr "Onion Linkliste"
 
-#: common.php:125
+#: common.php:128
 msgid "E-Mail + XMPP"
 msgstr "E-Mail + XMPP"
 
-#: common.php:126 tutorials/index.php:27
+#: common.php:129 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Anleitungen"
 
-#: common.php:128
+#: common.php:131
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:131
+#: common.php:134
 msgid "Privacy"
 msgstr "Datenschutz"
 
-#: common.php:143
+#: common.php:146
 msgid "Add translation"
 msgstr "Übersetzung hinzufügen"
 
@@ -1903,16 +1905,16 @@ msgstr ""
 "Hier sind einige Investitionsplattformen, in die ich persönlich investiert "
 "habe:"
 
-#: tutorials/get-rich-fast/index.php:76
+#: tutorials/get-rich-fast/index.php:78
 #, php-format
 msgid "(Save 50€ on your first investment with the code \"%s\")"
 msgstr "(Spare 50€ auf deine erste Investition mit dem Code \"%s\")"
 
-#: tutorials/get-rich-fast/index.php:89
+#: tutorials/get-rich-fast/index.php:93
 msgid "Passive income"
 msgstr "Passives Einkommen"
 
-#: tutorials/get-rich-fast/index.php:90
+#: tutorials/get-rich-fast/index.php:94
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
@@ -1970,6 +1972,112 @@ msgstr "FTP-Clients über Tor verbinden"
 msgid "This tutorial will show you how to torify FTP clients."
 msgstr ""
 "Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst."
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
+#: tutorials/successful-sugar-dating/index.php:22
+#: tutorials/successful-sugar-dating/index.php:32
+#: tutorials/successful-sugar-dating/index.php:34
+msgid "How to have a successful sugar dating relationship"
+msgstr ""
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
+#: tutorials/successful-sugar-dating/index.php:23
+#, fuzzy
+#| msgid "This tutorial will guide you to achieving financial freedom."
+msgid "This tutorial will guide you in finding a sugar relationship."
+msgstr "Diese Anleitung leitet dich zum Erreichen finanzieller Freiheit."
+
+#: tutorials/successful-sugar-dating/index.php:35
+#, fuzzy
+#| msgid "Why this sudden and drastic change?"
+msgid "What is sugar dating?"
+msgstr "Warum die plötzliche Änderung?"
+
+#: tutorials/successful-sugar-dating/index.php:36
+msgid ""
+"Stereotypically a sugar daddy is a wealthy older man, who's looking for an "
+"attractive young woman, the so-called sugar baby. An attractive man looking "
+"for their sugar mommy or sugar daddy is called a sugar boy. A sugar dating "
+"relationship is a mutually beneficial relationship. Unlike traditional "
+"dating, partners aren't selected for love or a hook-up, but rather to help "
+"each other. Sugar partners have an agreement, on what each partner wants "
+"from the other, and what their boundaries are. This is called an arrangement."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:37
+msgid "How to get to an arrangement?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:38
+msgid ""
+"Everyone is unique, so your arrangement needs to be discussed with your "
+"sugar partner. Typically an arrangement involves the wealthy partner "
+"providing financial help, or mentoring to their partner, who in turn will "
+"come along to business meetings, and parties or give their partner company "
+"for a few hours a month. An arrangement can also include sexual favours, "
+"which are often asked for by men. However, this must be consensual, and if "
+"you as a sugar baby do not feel comfortable with it, then you shouldn't do "
+"it. Think about your priorities, what you need and what you could give to "
+"your partner. Fill out your dating profile with enough details, so that you "
+"can find your match. Once you've found your potential partner, discuss each "
+"of your expectations and come to an arrangement that suits you both."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:39
+msgid "What are the risks of sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:40
+msgid ""
+"Just like with regular dating, you should be comfortable around your partner "
+"and enjoy each other's company. If you don't feel well around your partner, "
+"it will ruin the experience for both of you, so you should better end it "
+"sooner than later. Coming out as a sugar daddy or sugar baby can be "
+"difficult as some people still think of it negatively and will criticise you "
+"for it. It's also possible that as a provider you feel cheated of your money "
+"at a later point in time, or as a sugar baby you could feel sexually "
+"exploited if you agreed to sex just because of the money. That's why it's so "
+"important to be communicative with your sugar partner and form an "
+"arrangement that both of you are happy with."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:41
+msgid "What are the benefits of sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:42
+msgid ""
+"As sugar dating is mutually beneficial, both parties involved get something "
+"out of it. There will be no drama, and by discussing each of your needs and "
+"expectations, you avoid running into conflicts. It can be fun, and you will "
+"see things from a different perspective than you are used to. Unlike "
+"traditional dating, you don't have to spend significant time on a dating "
+"site, until you match with someone interesting. It can take only a few hours "
+"or days until you have found someone that matches you. Especially for men, "
+"it is so much easier to find a date, than on regular dating sites, simply "
+"because of the women-to-men ratio, plus women are less selective than on "
+"regular dating sites, given that the type of relationship is mutually "
+"beneficial and not necessarily romantic."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:43
+msgid "Where do I find a sugar partner?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:44
+msgid ""
+"You can potentially find your sugar partner on regular dating sites, but it "
+"will be difficult due to most dating sites restricting this type of dating "
+"and banning your accounts for using certain keywords. There are plenty of "
+"dating sites specifically made for sugar dating though. Usually, they are "
+"free for the attractive member, but the wealthy member has to pay to use the "
+"platform. This way the platform also filters out so-called salt daddies, who "
+"pretend to have money but do not."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:45
+msgid "Here are some popular sugar dating sites:"
+msgstr ""
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:36
