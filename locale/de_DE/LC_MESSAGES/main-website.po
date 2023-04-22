@@ -4,18 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-04-22 08:40+0200\n"
-"PO-Revision-Date: 2023-04-05 18:09+0000\n"
+"PO-Revision-Date: 2023-04-22 11:26+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 4.17\n"
 "X-Poedit-Basepath: .\n"
 
 #: imprint.php:6 imprint.php:15
@@ -1978,20 +1978,16 @@ msgstr ""
 #: tutorials/successful-sugar-dating/index.php:32
 #: tutorials/successful-sugar-dating/index.php:34
 msgid "How to have a successful sugar dating relationship"
-msgstr ""
+msgstr "Wie man eine erfolgreiche Sugar-Dating Beziehung führt"
 
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
 #: tutorials/successful-sugar-dating/index.php:23
-#, fuzzy
-#| msgid "This tutorial will guide you to achieving financial freedom."
 msgid "This tutorial will guide you in finding a sugar relationship."
-msgstr "Diese Anleitung leitet dich zum Erreichen finanzieller Freiheit."
+msgstr "Diese Anleitung hilft dir eine Sugar-Beziehung zu finden."
 
 #: tutorials/successful-sugar-dating/index.php:35
-#, fuzzy
-#| msgid "Why this sudden and drastic change?"
 msgid "What is sugar dating?"
-msgstr "Warum die plötzliche Änderung?"
+msgstr "Was ist Sugar-Dating?"
 
 #: tutorials/successful-sugar-dating/index.php:36
 msgid ""
@@ -2003,10 +1999,19 @@ msgid ""
 "each other. Sugar partners have an agreement, on what each partner wants "
 "from the other, and what their boundaries are. This is called an arrangement."
 msgstr ""
+"Stereo-typisch ist ein Sugar Daddy ein wohlhabender älterer Mann, der nach "
+"einer attraktiven jungen Frau sucht, dem so genannten Sugar Baby. Ein "
+"attraktiver Mann, der nach einer Sugar Mommy oder einem Sugar Daddy sucht, "
+"wird Sugar Boy genannt. Eine Sugar-Dating Beziehung ist eine Beziehung mit "
+"gegenseitigen Vorteilen. Anders als beim traditionellen Dating, wird der "
+"Partner nicht für Liebe oder einem Hook-Up ausgesucht, sondern um sich "
+"gegenseitig zu helfen. Sugar-Partner haben ein Einverständnis darüber, was "
+"jeder Partner vom anderen haben möchte, und was ihre Grenzen sind. Dies wird "
+"Arrangement bezeichnet."
 
 #: tutorials/successful-sugar-dating/index.php:37
 msgid "How to get to an arrangement?"
-msgstr ""
+msgstr "Wie kommt man zu einem Arrangement?"
 
 #: tutorials/successful-sugar-dating/index.php:38
 msgid ""
@@ -2022,10 +2027,23 @@ msgid ""
 "can find your match. Once you've found your potential partner, discuss each "
 "of your expectations and come to an arrangement that suits you both."
 msgstr ""
+"Jeder ist Individuell, deshalb musst du dein Arrangement mit deinem Sugar-"
+"Partner besprechen. Typischer Weise involviert ein Arrangement, dass der "
+"wohlhabende Partner finanzielle Hilfe bietet, oder den Partner berät. Im "
+"Gegenzug kommt der andere Partner dann mit zu Geschäftsmeetings, und Parties "
+"oder gibt dem Partner einige Stunden Gesellschaft im Monat.Ein Arrangement "
+"kann auch sexuelle Gefälligkeiten beinhalten, welche oft von Männern "
+"gewünscht werden. Allerdings muss dies einvernehmlich sein, und wenn du als "
+"Sugar Baby damit nicht einverstanden bist, solltest du es nicht machen. "
+"Denke über deine Prioritäten nach, was du brauchst und was du deinem Partner "
+"im Gegenzug anbieten kannst. Fülle dein Datingprofil mit genügend Details "
+"aus, um deinen Partner zu finden. Sobald du einen potentiellen Partner "
+"gefunden hast, besprecht alle eure Erwartungen und kommt zu einem "
+"Arrangement dass euch beiden zusagt."
 
 #: tutorials/successful-sugar-dating/index.php:39
 msgid "What are the risks of sugar dating?"
-msgstr ""
+msgstr "Was sind die Risiken von Sugar-Dating?"
 
 #: tutorials/successful-sugar-dating/index.php:40
 msgid ""
@@ -2040,10 +2058,21 @@ msgid ""
 "important to be communicative with your sugar partner and form an "
 "arrangement that both of you are happy with."
 msgstr ""
+"Genauso wie mit regulärem Dating, solltest du dich um deinen Partner wohl "
+"fühlen und eure Gesellschaft genießen. Wenn du dich mit deinen Partner nicht "
+"wohl fühlst, ruiniert es das Erlebnis für beide von euch. Deshalb solltest "
+"du es besser früher als später beenden. Sich als Sugar Daddy oder Sugar Baby "
+"zu outen kann schwierig sein, denn einige Menschen denken noch negativ "
+"darüber und werden dich dafür kritisieren.Es ist ach möglich, dass du als "
+"Versorger dich zu einem späteren Zeitpunkt deinem Geld beraubt fühlst, oder "
+"als Sugar Baby sexuell ausgenutzt, wenn du Sex nur wegen des Geldes "
+"zugestimmt haben solltest. Deshalb ist es so wichtig, dass du mit deinem "
+"Sugar-Partner kommunikativ bist und ein Arrangement bildest, mit dem ihr "
+"beide glücklich seid."
 
 #: tutorials/successful-sugar-dating/index.php:41
 msgid "What are the benefits of sugar dating?"
-msgstr ""
+msgstr "Was sind die Vorteile von Sugar-Dating?"
 
 #: tutorials/successful-sugar-dating/index.php:42
 msgid ""
@@ -2059,10 +2088,22 @@ msgid ""
 "regular dating sites, given that the type of relationship is mutually "
 "beneficial and not necessarily romantic."
 msgstr ""
+"Da Sugar-Dating mit gegenseitigen Vorteilen ist, haben beide involvierte "
+"Partner etwas davon. Es gibt kein Drama, und durch Besprechen aller eurer "
+"Bedürfnisse und Erwartungen, vermeidet ihr in Konflikte zu geraten. Es kann "
+"Spaß machen, und du wirst Dinge aus einer anderen Perspektive betrachten, "
+"als du es gewohnt bist. Anders als beim traditionellen Dating, musst du "
+"nicht enorm viel Zeit auf einer Dating-Seite verbrinen, biss du eine "
+"Verbindung mit jemand interessante aufbaust. Es kann wenige Stunden oder "
+"Tage dauern, bis du einen Partner findest. Insbesondere für Männer ist es so "
+"viel einfacher ein Date zu finden, als auf regulären Datingseiten, einfach "
+"wegen dem Frauen-zu-Männer Verhältnis, plus Frauen sind weniger selektiv als "
+"auf regulären Datingseiten, da es eine Beziehung mit gegenseitigen Vorteilen "
+"ist und nicht unbedingt romantischer Natur."
 
 #: tutorials/successful-sugar-dating/index.php:43
 msgid "Where do I find a sugar partner?"
-msgstr ""
+msgstr "Wo finde ich einen Sugar-Partner?"
 
 #: tutorials/successful-sugar-dating/index.php:44
 msgid ""
@@ -2074,10 +2115,18 @@ msgid ""
 "platform. This way the platform also filters out so-called salt daddies, who "
 "pretend to have money but do not."
 msgstr ""
+"Du kannst deinen Sugar.Partner potenziell auf regulären Datingseiten finden. "
+"Allerdings wird es schwierig, da die meisten Datingseiten diese Art von "
+"Dating einschränken und Konten für bestimmte Wörter im Profil sperren. Es "
+"gibt auc einige Datingseiten, die speziefisch für Sugar-Dating gemacht sind. "
+"Normalerweise sind diese für attraktive Mitglieder kostenlos, aber das "
+"wohlhabende Mitglied muss die Plattform bezahlen. Dadurch werden auch die so "
+"genannten Salt Daddies heraus gefiltert, die vorgeben Geld zu haben ohne es "
+"tatsächlich zu haben."
 
 #: tutorials/successful-sugar-dating/index.php:45
 msgid "Here are some popular sugar dating sites:"
-msgstr ""
+msgstr "Hier sind einige bekannte Sugar-Dating Seiten:"
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:36
