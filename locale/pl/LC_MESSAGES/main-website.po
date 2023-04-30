@@ -6,15 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-04-22 08:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-30 21:04+0000\n"
+"Last-Translator: big cat <biggiecat@danwin1210.de>\n"
+"Language-Team: Polish <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: imprint.php:6 imprint.php:15
 msgid "Daniel - Imprint"
@@ -679,11 +683,11 @@ msgstr ""
 
 #: common.php:126
 msgid "Online-Test"
-msgstr ""
+msgstr "Online-Test"
 
 #: common.php:127
 msgid "Onion link list"
-msgstr ""
+msgstr "Lista linków Onion"
 
 #: common.php:128
 msgid "E-Mail + XMPP"
