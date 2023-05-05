@@ -6,23 +6,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-04-22 08:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-05 01:25+0000\n"
+"Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
+"Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: imprint.php:6 imprint.php:15
 msgid "Daniel - Imprint"
-msgstr ""
+msgstr "Daniel - Künye"
 
 #: imprint.php:10 imprint.php:16
 msgid "Imprint of Daniel Winzen"
-msgstr ""
+msgstr "Daniel Winzen'in Künyesi"
 
 #: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
 #: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
@@ -30,7 +33,7 @@ msgstr ""
 #: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
 #: tutorials/torify-ftp/index.php:29
 msgid "An avatar representing Daniel Winzen"
-msgstr ""
+msgstr "Daniel Winzen'i temsil eden bir avatar"
 
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
@@ -38,30 +41,30 @@ msgstr ""
 #: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
 #: tutorials/torify-ftp/index.php:32
 msgid "Daniel"
-msgstr ""
+msgstr "Daniel Win"
 
 #: imprint.php:27 common.php:135
 msgid "Imprint"
-msgstr ""
+msgstr "Künye"
 
 #: imprint.php:33 privacy.php:35
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "E-posta: %s"
 
 #: imprint.php:34 privacy.php:34
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Telefon: %s"
 
 #: imprint.php:35 privacy.php:37
 #, php-format
 msgid "VAT ID number: %s"
-msgstr ""
+msgstr "KDV kimlik numarası: %s"
 
 #: imprint.php:37
 msgid "Disclaimer - External links"
-msgstr ""
+msgstr "Sorumluluk Reddi - Dış bağlantılar"
 
 #: imprint.php:38
 msgid ""
@@ -76,20 +79,33 @@ msgid ""
 "without concrete evidence of legal violations. At knowledge of legal "
 "violations, however, such external links will be deleted immediately."
 msgstr ""
+"Bu web sitesi, üçüncü taraf web sitelerine bağlantılar içerir (\"harici "
+"bağlantılar\"). Bu web siteleri ilgili operatörün sorumluluğuna tabidir. İlk "
+"kez üçüncü taraf içeriği bağlarken, sağlayıcı herhangi bir yasal ihlal olup "
+"olmadığını kontrol etti. O sırada belirgin bir yasal ihlal yoktu. "
+"Sağlayıcının, bağlantılı sayfaların mevcut ve gelecekteki tasarımı ve "
+"içeriği üzerinde hiçbir etkisi yoktur. Harici bağlantıların ayarlanması, "
+"sağlayıcının referans veya bağlantının arkasındaki içeriğin sahibi olduğunu "
+"iddia ettiği anlamına gelmez. Harici bağlantıların sürekli kontrolü, somut "
+"yasal ihlal kanıtları olmadan sağlayıcı için makul değildir. Bununla "
+"birlikte, yasal ihlallerin bilgisi dahilinde, bu tür harici bağlantılar "
+"derhal silinecektir."
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
-msgstr ""
+msgstr "Daniel - Ev"
 
 #: index.php:10 index.php:16
 msgid ""
 "Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
 "enthusiast"
 msgstr ""
+"Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen'in "
+"kişisel web sitesi"
 
 #: index.php:27 common.php:124
 msgid "Home"
-msgstr ""
+msgstr "Ev"
 
 #: index.php:28
 msgid ""
@@ -101,6 +117,14 @@ msgid ""
 "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
 "href=\"/about.php\">the about page</a>."
 msgstr ""
+"Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
+"yöneticisi. Bu benim boş zamanlarımda geliştirdiğim kişisel web sitem. Bu "
+"siteye <a href=\"http"
+"://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+"gizli hizmeti</a> olarak veya benim clearnet proxy'm <a href=\"https"
+"://danwin1210.de\">danwin1210.de</a>aracılığıyla erişilebilir bir. Benim ve "
+"bu site hakkında daha fazla bilgi edinmek için <a href=\"/about.php\""
+">hakkında sayfasını</a> kontrol edin."
 
 #: index.php:29
 msgid ""
@@ -109,6 +133,10 @@ msgid ""
 "or <a href=\"https://onions.danwin1210.de\">Tor darknet link collection</a>, "
 "by clicking on the entries in the navigation bar on the left."
 msgstr ""
+"Bu sadece açılış sayfası. Ücretsiz ve anonim <a href=\"/mail/\">posta "
+"hizmeti</a> veya <a href=\"https://onions.danwin1210.de\"> gibi sizi en çok "
+"ilgilendiren sayfalara gidebilirsiniz. Tor darknet bağlantı koleksiyonu</a>, "
+"soldaki gezinme çubuğundaki girişlere tıklayarak."
 
 #: index.php:30
 msgid ""
@@ -116,6 +144,9 @@ msgid ""
 "href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">GitHub</a>."
 msgstr ""
+"<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">GitHub</a>'dan çeşitli açık kaynak projelerimi indirebilir ve/"
+"veya bunlara katkıda bulunabilirsiniz."
 
 #: index.php:31 about.php:61
 #, php-format
@@ -124,24 +155,29 @@ msgid ""
 "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
 "contact.php\">contact me</a>."
 msgstr ""
+"Burada oluşturduklarımı beğenirseniz, Monero: %1$s veya Bitcoin: %2$s "
+"aracılığıyla bağışta bulunarak beni destekleyebilirsiniz. Daha fazla seçenek "
+"mevcut, sadece <a href=\"/contact.php\">benimle iletişime geçin</a>."
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
-msgstr ""
+msgstr "Daniel - Hakkında"
 
 #: about.php:10 about.php:18
 msgid ""
 "About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
 "this site"
 msgstr ""
+"Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen ve "
+"bu site hakkında"
 
 #: about.php:29 common.php:132
 msgid "About"
-msgstr ""
+msgstr "Hakkında"
 
 #: about.php:30
 msgid "About me"
-msgstr ""
+msgstr "Benim hakkımda"
 
 #: about.php:31
 msgid ""
@@ -150,6 +186,11 @@ msgid ""
 "source projects and pole dancing, which I picked up in times of the covid "
 "pandemic and resulting home office, because it's fun and keeps me fit."
 msgstr ""
+"Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
+"yöneticisi. Boş zamanlarımda kitap okumayı, açık kaynak projelerim üzerinde "
+"programlama yapmayı ve covid salgını ve bunun sonucunda evde ofis "
+"zamanlarında öğrendiğim direk dansını seviyorum çünkü eğlenceli ve beni "
+"formda tutuyor."
 
 #: about.php:32
 msgid ""
@@ -157,12 +198,18 @@ msgid ""
 "also know some basics of Perl, Python, C, C++ and more. With my experience "
 "I'm able to quickly adapt and work with new languages, when necessary."
 msgstr ""
+"Düzenli olarak kullandığım programlama dilleri PHP, SQL ve JavaScript'tir, "
+"ancak Perl, Python, C, C++ ve daha fazlasının bazı temellerini de biliyorum. "
+"Tecrübemle, gerektiğinde yeni dillere hızla uyum sağlayabiliyor ve onlarla "
+"çalışabiliyorum."
 
 #: about.php:33
 msgid ""
 "Before I got into coding and server management, I contributed German "
 "translation to various open-source projects since the end of 2011."
 msgstr ""
+"Kodlama ve sunucu yönetimine girmeden önce, 2011 yılının sonundan itibaren "
+"çeşitli açık kaynak projelerine Almanca çeviri katkıda bulundum."
 
 #: about.php:34
 msgid ""
@@ -172,14 +219,20 @@ msgid ""
 "infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
 "touch</a> and we'll discuss details."
 msgstr ""
+"Sunucuları, e-posta hizmetlerini yönetmek ve yeni web projeleri geliştirmek, "
+"başarılı olduğum şeyler. Sistemleri performans için optimize etmeyi ve sahip "
+"olduklarımdan en iyi şekilde yararlanmayı seviyorum. Altyapınızı veya web "
+"sitenizi yönetme ve optimize etme konusunda yardıma mı ihtiyacınız var? "
+"Yardım etmek için buradayım. <a href=\"/contact.php\">İletişime geçin</a>, "
+"ayrıntıları görüşelim."
 
 #: about.php:35
 msgid "Profiles on other sites that I am active on:"
-msgstr ""
+msgstr "Aktif olduğum diğer sitelerdeki profiller:"
 
 #: about.php:42
 msgid "About this site"
-msgstr ""
+msgstr "Bu site hakkında"
 
 #: about.php:43
 msgid ""
@@ -187,6 +240,9 @@ msgid ""
 "development of this site in August/September 2013 when I wanted to have a "
 "platform to host files on, to use at school."
 msgstr ""
+"Bu benim boş zamanlarımda geliştirdiğim kişisel sitem.Bu siteyi geliştirmeye "
+"Ağustos/Eylül 2013'te, okulda kullanmak üzere dosya barındırmak için bir "
+"platforma sahip olmak istediğimde başladım."
 
 #: about.php:44
 msgid ""
@@ -197,6 +253,12 @@ msgid ""
 "really usable for use with several people. So I decided to port some parts I "
 "needed to PHP."
 msgstr ""
+"Okulda sohbet kullanma fikri hemen aklıma geldi ve <a href=\"https://github."
+"com/virtualghetto/lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> "
+"adında basit bir perl sohbet komut dosyasıyla karşılaştım. SOHBET</a>. Bunu "
+"Raspberry Pi'me yerleştirdiğimde çok yavaş çalışıyordu ve birkaç kişiyle "
+"kullanım için gerçekten uygun değildi. Bu yüzden ihtiyacım olan bazı "
+"parçaları PHP'ye taşımaya karar verdim."
 
 #: about.php:45
 msgid ""
@@ -206,6 +268,11 @@ msgid ""
 "rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
 "many new features and improved reliability and my code a lot."
 msgstr ""
+"Bu, web geliştirme konusunda daha derinleşmem için bir başlangıç oldu ve o "
+"zamandan beri bu sohbet komut dosyasını ve bu sitenin diğer birkaç komut "
+"dosyasını <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub hesabı</a>. O zamandan beri birçok yeni "
+"özellik ekledim ve güvenilirliği ve kodumu çok geliştirdim."
 
 #: about.php:46
 msgid ""
@@ -215,10 +282,15 @@ msgid ""
 "and XMPP hosting, as well as the onion link list are still actively "
 "maintained."
 msgstr ""
+"Eskiden ücretsiz dosya barındırma, url kısaltıcı, sohbet ve hatta ücretsiz "
+"bir darknet web barındırma hizmeti sunuyordum. Tüm bu projeler bana kodlama, "
+"güvenlik ve sunucu yönetimi hakkında çok şey öğretti. Şu an itibariyle, "
+"yalnızca anonim e-posta ve XMPP barındırma ile soğan bağlantı listesi aktif "
+"olarak sürdürülmektedir."
 
 #: about.php:47
 msgid "About the setup"
-msgstr ""
+msgstr "kurulum hakkında"
 
 #: about.php:48
 msgid ""
@@ -226,6 +298,9 @@ msgid ""
 "Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
 "sh and Wireguard."
 msgstr ""
+"Kullandığım yazılımlar Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, "
+"Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme.sh ve Wireguard "
+"çalıştıran Debian sid'dir."
 
 #: about.php:49
 msgid ""
@@ -234,34 +309,39 @@ msgid ""
 "requests to the raspberry pis at home. Additionally, they run a Postfix "
 "instance only listening on the VPN network to send out mails to clearnet."
 msgstr ""
+"<a href=\"https://danwin1210.de\" target=\"_blank\">danwin1210.de</a> "
+"üzerindeki clearnet ağ geçitleri, tüm istekleri evdeki raspberry pis'e "
+"iletecek bir NginX Proxy'sidir. Ek olarak, postaları clearnet'e göndermek "
+"için yalnızca VPN ağını dinleyen bir Postfix örneği çalıştırırlar."
 
 #: about.php:50
 msgid "All servers are interconnected with a Wireguard VPN."
-msgstr ""
+msgstr "Tüm sunucular bir Wireguard VPN ile birbirine bağlıdır."
 
 #: about.php:51
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr ""
+"Kullandığım(ed) barındırma sağlayıcıları ve burada barındırılan sunucular:"
 
 #: about.php:53 about.php:54
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
-msgstr ""
+msgstr "%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyi"
 
 #: about.php:55
 #, php-format
 msgid "%s - good and reliable"
-msgstr ""
+msgstr "%s - iyi ve güvenilir"
 
 #: about.php:56
 #, php-format
 msgid "%s - comparably expensive but good and reliable"
-msgstr ""
+msgstr "%s - nispeten pahalı ama iyi ve güvenilir"
 
 #: about.php:57
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
-msgstr ""
+msgstr "%s - (Net ağ geçidim için kullanılır) - iyi ve güvenilir"
 
 #: about.php:58
 #, php-format
@@ -269,20 +349,24 @@ msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
 "reliable, hosted in my city"
 msgstr ""
+"%s - (Net ağ geçidim + Etki alanı kaydım için kullanılır) - iyi ve "
+"güvenilir, benim şehrimde barındırılıyor"
 
 #: about.php:59
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
-msgstr ""
+msgstr "Evde barındırılan: Ana site ve verilerle birlikte 4 Raspberry Pi 4"
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
 #: github-ipv6-proxy.php:33 common.php:130
 msgid "GitHub IPv6 proxy"
-msgstr ""
+msgstr "GitHub IPv6 proxy'si"
 
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
 "GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
 msgstr ""
+"GitHub IPv6 proxy, GitHub depolarının yalnızca IPv6 sunucularına "
+"indirilmesine izin verir"
 
 #: github-ipv6-proxy.php:34
 #, php-format
@@ -293,6 +377,11 @@ msgid ""
 "discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
 "support IPv6</a>."
 msgstr ""
+"Son zamanlarda, favori barındırma sağlayıcım %s'den kiraladığım yalnızca "
+"IPv6 sunucusu aracılığıyla GitHub'da bir git deposunu klonlamak zorunda "
+"kaldım. Maalesef GitHub'ın hala <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">IPv6'yı "
+"desteklemediğini</a> fark ettim."
 
 #: github-ipv6-proxy.php:35
 msgid ""
@@ -300,6 +389,9 @@ msgid ""
 "servers. An alternative could have been installing Tor to download "
 "anonymously."
 msgstr ""
+"Geçici çözümüm, çift yığınlı sunucularımdan biriyle bir WireGuard VPN "
+"kurmaktı. Anonim olarak indirmek için Tor'u yüklemek bir alternatif "
+"olabilirdi."
 
 #: github-ipv6-proxy.php:36
 msgid ""
@@ -310,6 +402,12 @@ msgid ""
 "users from using unnecessary resources, as they can already clone from "
 "GitHub directly."
 msgstr ""
+"GitHub'dan havuz indirmek isteyen yalnızca IPv6 sunucusuna sahip tek "
+"kullanıcı olmadığım için, GitHub yerel IPv6 desteği sağlayana kadar bir IPv6 "
+"ağında GitHub'a erişmek için kullanılabilecek bir genel proxy sunucusu "
+"sağlamaya karar verdim. Proxy, IPv4 kullanıcılarının zaten doğrudan "
+"GitHub'dan klonlayabildikleri için gereksiz kaynakları kullanmalarını "
+"önlemek için yalnızca IPv6'da mevcuttur."
 
 #: github-ipv6-proxy.php:37
 msgid ""
@@ -320,6 +418,12 @@ msgid ""
 "after accepting it. See below for a more permanent solution, that's more "
 "privacy-friendly."
 msgstr ""
+"https proxy'min etki alanım için verilen bir ssl sertifikası sunduğunu "
+"unutmayın, bu da trafiğinizin şifresini çözüp yeniden şifrelediğim anlamına "
+"gelir (ve potansiyel olarak inceleyebilirim, ancak yapmıyorum). Geçersiz bir "
+"ssl sertifikası uyarısı alacağınız için gereklidir, aksi takdirde + github, "
+"kabul ettikten sonra varsayılan bağlantı noktasına yönlendirir. Daha kalıcı "
+"bir çözüm için aşağıya bakın, bu daha gizlilik dostudur."
 
 #: github-ipv6-proxy.php:38
 #, php-format
@@ -327,14 +431,16 @@ msgid ""
 "So how does it work? Let's assume we want to clone the PHP Chat script I've "
 "published at %s. Normally cloning the repository would look like this:"
 msgstr ""
+"Peki nasıl çalışıyor? %s'de yayınladığım PHP Sohbet komut dosyasını "
+"klonlamak istediğimizi varsayalım. Normalde depoyu klonlamak şöyle görünür:"
 
 #: github-ipv6-proxy.php:40
 msgid "On an IPv6 connection, you can use my proxy service like this:"
-msgstr ""
+msgstr "Bir IPv6 bağlantısında, proxy hizmetimi şu şekilde kullanabilirsiniz:"
 
 #: github-ipv6-proxy.php:42
 msgid "And if you would like to clone via ssh you can also do it like this:"
-msgstr ""
+msgstr "Ve ssh ile klonlamak isterseniz, bunu şu şekilde de yapabilirsiniz:"
 
 #: github-ipv6-proxy.php:44
 msgid ""
@@ -342,104 +448,122 @@ msgid ""
 "GitHub, without me re-encrypting your traffic, should add the following to /"
 "etc/hosts:"
 msgstr ""
+"Proxy'yi daha kalıcı olarak kullanmak ve/veya ben trafiğinizi yeniden "
+"şifrelemeden doğrudan GitHub ile konuşmak isteyenler /etc/hosts'a şunu "
+"eklemelidir:"
 
 #: github-ipv6-proxy.php:49
 msgid "Once added, you can clone as usual, without any changes:"
 msgstr ""
+"Eklendikten sonra, herhangi bir değişiklik yapmadan her zamanki gibi "
+"klonlayabilirsiniz:"
 
 #: github-ipv6-proxy.php:52
 msgid ""
 "All of this is done with the following nginx configuration on a dual stack "
 "server:"
 msgstr ""
+"Tüm bunlar, çift yığınlı bir sunucuda aşağıdaki nginx yapılandırmasıyla "
+"yapılır:"
 
 #: github-ipv6-proxy.php:90 chat/index.php:32
 msgid ""
 "If there are any further questions, feel free to <a href=\"/contact."
 "php\">contact me</a>."
 msgstr ""
+"Başka sorunuz varsa <a href=\"/contact.php\">benimle iletişime geçmekten</a> "
+"çekinmeyin."
 
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
-msgstr ""
+msgstr "Daniel - İletişim"
 
 #: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
-msgstr ""
+msgstr "Daniel Winzen ile iletişim kurun"
 
 #: contact.php:27 common.php:133
 msgid "Contact"
-msgstr ""
+msgstr "İletişim"
 
 #: contact.php:28
 msgid ""
 "You can send me a message here. Don't forget to leave a contact option, if "
 "you want me to answer."
 msgstr ""
+"Bana buradan mesaj gönderebilirsiniz. Cevap vermemi istiyorsanız iletişim "
+"seçeneği bırakmayı unutmayın."
 
 #: contact.php:30
 msgid "Name:"
-msgstr ""
+msgstr "İsim:"
 
 #: contact.php:33
 msgid "Honeypot (do not fill anything):"
-msgstr ""
+msgstr "Honeypot (hiçbir şey doldurmayın):"
 
 #: contact.php:34
 msgid "Subject:"
-msgstr ""
+msgstr "Konu:"
 
 #: contact.php:37
 msgid "Message:"
-msgstr ""
+msgstr "İleti:"
 
 #: contact.php:40
 msgid ""
 "I have read and agreed to the <a href=\"/privacy.php\" "
 "target=\"_blank\">Privacy Policy</a>"
 msgstr ""
+"<a href=\"/privacy.php\" target=\"_blank\">Gizlilik Politikası</a>'nı okudum "
+"ve kabul ediyorum"
 
 #: contact.php:41
 msgid "Send"
-msgstr ""
+msgstr "Gönder"
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
-msgstr ""
+msgstr "Bal küpü alanını doldurdunuz :( İnsan mısınız?"
 
 #: contact.php:61
 msgid "You haven't entered a message yet."
-msgstr ""
+msgstr "Henüz bir mesaj girmediniz."
 
 #: contact.php:70
 msgid "Message successfully sent!"
-msgstr ""
+msgstr "Mesaj başarıyla iletildi!"
 
 #: contact.php:76
 msgid ""
 "If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
 "target=\"_blank\">my public PGP key</a>."
 msgstr ""
+"Mesajınızı şifrelemek istiyorsanız <a href=\"/pgp.txt\" target=\"_blank\""
+">genel PGP anahtarımı</a> kullanabilirsiniz."
 
 #: contact.php:77
 msgid ""
 "If you prefer to directly get in contact with me, email me at <a "
 "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgstr ""
+"Benimle doğrudan iletişime geçmeyi tercih ederseniz, bana <a href=\"mailto"
+":daniel@danwin1210.de\">daniel@danwin1210.de</a> adresinden e-posta gönderin."
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
-msgstr ""
+msgstr "Daniel - SSS - Sıkça Sorulan Sorular"
 
 #: faq.php:9 faq.php:15
 msgid ""
 "A list of frequently asked questions regarding the services I provide and "
 "their answers"
 msgstr ""
+"Verdiğim hizmetlerle ilgili sıkça sorulan soruların listesi ve cevapları"
 
 #: faq.php:25 faq.php:53
 msgid "I found an illegal link/content on your site, can you remove it?"
-msgstr ""
+msgstr "Sitenizde yasa dışı bir bağlantı/içerik buldum, kaldırabilir misiniz?"
 
 #: faq.php:25 faq.php:54
 #, php-format
@@ -447,6 +571,8 @@ msgid ""
 "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
 "possible."
 msgstr ""
+"Evet, lütfen <a href=\"%s\">bildirin</a>, mümkün olan en kısa sürede "
+"kaldıracağım."
 
 #: faq.php:26 faq.php:57
 msgid "What is PGP?"
@@ -679,11 +805,11 @@ msgstr ""
 
 #: common.php:126
 msgid "Online-Test"
-msgstr ""
+msgstr "Çevrimiçi-Deneme"
 
 #: common.php:127
 msgid "Onion link list"
-msgstr ""
+msgstr "Onion bağlantı listesi"
 
 #: common.php:128
 msgid "E-Mail + XMPP"
