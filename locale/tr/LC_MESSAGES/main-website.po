@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-04-22 08:40+0200\n"
-"PO-Revision-Date: 2023-05-05 01:25+0000\n"
+"PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/tr/>\n"
@@ -576,7 +576,7 @@ msgstr ""
 
 #: faq.php:26 faq.php:57
 msgid "What is PGP?"
-msgstr ""
+msgstr "PGP nedir?"
 
 #: faq.php:26 faq.php:58
 msgid ""
@@ -585,10 +585,16 @@ msgid ""
 "target=\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia "
 "article</a>."
 msgstr ""
+"PGP, e-postaları ve dosyaları şifrelemek veya imzalamak için kullanılabilen "
+"bir şifreleme programıdır. <a href=\"https://en.wikipedia.org/wiki/"
+"Pretty_Good_Privacy\" target=\"_blank\" rel=\"noopener noreferrer\">Daha "
+"fazla bilgi bu Wikipedia makalesinde</a>."
 
 #: faq.php:27 faq.php:61
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
+"Sitenizi nasıl daha iyi hale getirebileceğime dair bir fikrim var, xyz "
+"özelliğini ekleyebilir misiniz?"
 
 #: faq.php:27 faq.php:62
 #, php-format
@@ -596,12 +602,16 @@ msgid ""
 "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
 "It might take a while until your feature gets added though."
 msgstr ""
+"Evet, lütfen <a href=\"%s\">benimle iletişime geçin</a> ve onu Yapılacaklar "
+"listeme ekleyebilirim. Yine de özelliğinizin eklenmesi biraz zaman alabilir."
 
 #: faq.php:28 faq.php:65
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
 msgstr ""
+"Sitenizi ve hizmetlerinizi başka bir dile çevirmek istiyorum, bunu nasıl "
+"yapabilirim?"
 
 #: faq.php:28 faq.php:66
 msgid ""
@@ -609,10 +619,15 @@ msgid ""
 "rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
 "individual projects you would like to translate."
 msgstr ""
+"Lütfen <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub depolarıma</a> bakın ve çevirmek istediğiniz "
+"projeleri tek tek inceleyin."
 
 #: faq.php:29 faq.php:69
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr ""
+"Kırmızı odalar, canlı cinayet yayını veya benzerlerini duydum. Onlar gerçek "
+"mi?"
 
 #: faq.php:29 faq.php:70
 msgid ""
@@ -622,24 +637,35 @@ msgid ""
 "you to pay bitcoins to gain access. Don't pay, because they simply do not "
 "exist."
 msgstr ""
+"Hayır, bunlar sadece insanların size sık anlattığı korku hikayeleri. Pek çok "
+"kişi \"Deep Web\" hakkında YouTube videoları hazırlıyor ve buna benzer "
+"sitelerin olduğunu iddia ediyor. Bununla birlikte, birçok dolandırıcı trene "
+"atlar ve erişim elde etmek için bitcoin ödemenizi söyledikleri bir site "
+"oluşturur. Ödemeyin, çünkü mevcut değiller."
 
 #: faq.php:30 faq.php:73
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
 msgstr ""
+"Gölge ağı, mariana ağı veya kapalı kabuk ağı duydum. Onlara nasıl "
+"erişebilirim?"
 
 #: faq.php:30 faq.php:74
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
 msgstr ""
+"Yapamazsınız, çünkü onlar yok. Bazı dolandırıcılar yine de size satmak "
+"istiyor. Ödemeyin çünkü paranızın karşılığında hiçbir şey alamayacaksınız."
 
 #: faq.php:31 faq.php:77
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
 msgstr ""
+"Karanlık ağın korkutucu ve tüyler ürpertici şeylerle dolu olması gerekmiyor "
+"mu? Neden ilginç siteler bulamıyorum?"
 
 #: faq.php:31 faq.php:78
 msgid ""
@@ -650,10 +676,16 @@ msgid ""
 "isn't that much of a difference to the clearnet (normal internet). So most "
 "horror stories you have heard about Tor are just that, stories."
 msgstr ""
+"Hayır, Tor darknet, internette anonim olarak gezinebilmek, sansürü "
+"atlatabilmek ve web sitelerini anonim olarak barındırabilmek için "
+"oluşturuldu. Tabii ki, sadece iyi bir amaç için kullanılmıyor. Birçok kimlik "
+"avı sitesi, dolandırıcı ve çocuk pornosu sitesi var. Ancak, anonim olmanız "
+"dışında, clearnet (normal internet) ile pek bir fark yoktur. Yani Tor "
+"hakkında duyduğunuz korku hikayelerinin çoğu tam da bu hikayelerden oluşuyor."
 
 #: faq.php:32 faq.php:81
 msgid "What's the difference between deep web and darknet?"
-msgstr ""
+msgstr "Deep web ve darknet arasındaki fark nedir?"
 
 #: faq.php:32 faq.php:82
 msgid ""
@@ -662,10 +694,14 @@ msgid ""
 "To access a darknet, it requires special software like Tor, I2P or Freenet. "
 "The darknet is a small part of the deep web."
 msgstr ""
+"Derin web, bir arama motoru tarafından indekslenemeyen herhangi bir sitedir, "
+"yani temel olarak oturum açmanız veya özel bir ağın parçası olmanız gereken "
+"herhangi bir sitedir. Bir karanlık ağa erişmek için Tor, I2P veya Freenet "
+"gibi özel yazılımlar gerekir. Darknet, derin ağın küçük bir parçasıdır."
 
 #: faq.php:33 faq.php:85
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
-msgstr ""
+msgstr "Bana programlama veya bilgisayar korsanlığı öğretebilir misin?"
 
 #: faq.php:33 faq.php:89
 msgid ""
@@ -678,36 +714,50 @@ msgid ""
 "your keyboard and start typing some programs. Start with something simple "
 "and keep yourself challenged with new tasks."
 msgstr ""
+"Şaka bir yana, size programlama veya bilgisayar korsanlığı öğretmek uzun "
+"zaman (yıllar) alacak bir iştir. 10 yıldır öğreniyorum ve hala her zaman "
+"yeni şeyler öğreniyorum. Ancak başlangıç için, kendi oluşturduğunuz bazı "
+"basit programlar ve örneklerle size rehberlik edebilecek bir başlangıç "
+"kitabı okumanızı tavsiye ederim. Video izlemeyi tercih ediyorsanız, "
+"YouTube'da da pek çok öğretici var. Ama en önemlisi klavyenizi alıp bazı "
+"programları yazmaya başlamanız gerekecek. Basit bir şeyle başlayın ve yeni "
+"görevlerle kendinizi zorlamaya devam edin."
 
 #: faq.php:34 faq.php:95
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
 msgstr ""
+"Okulumu veya üniversitemi hackleyip notlarımı değiştirebilir misin veya bunu "
+"yapacak birini bulabilir misin?"
 
 #: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:101
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
 msgstr ""
+"Evet, senin için hapse girmeyi çok isterim! - Ehm, daha doğrusu değil. "
+"Üzgünüm, bu konuda sana yardımcı olamam."
 
 #: faq.php:35 faq.php:96
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
 msgstr ""
+"Bana çalınan PayPal hesaplarını veya kredi kartlarını güvenilir bir şekilde "
+"nereden alabileceğimi söyleyebilir misiniz?"
 
 #: faq.php:36 faq.php:97
 msgid "Can you issue fake Covid19 test results?"
-msgstr ""
+msgstr "Sahte Covid 19 test sonuçları verebilir misiniz?"
 
 #: faq.php:37 faq.php:98
 msgid "Can you do some other illegal things for me?"
-msgstr ""
+msgstr "Benim için başka yasadışı şeyler de yapabilir misin?"
 
 #: faq.php:38 faq.php:104
 msgid "Can you hack my girlfriend? I think she's cheating."
-msgstr ""
+msgstr "Kız arkadaşımı hackleyebilir misin? Bence aldatıyor."
 
 #: faq.php:38 faq.php:105
 msgid ""
@@ -718,10 +768,17 @@ msgid ""
 "hacker, you should definitely think about breaking up, because relationships "
 "are based on trust, but obviously you can't trust anymore."
 msgstr ""
+"Evet, deneyebilirim ama yapmayacağım. Size bunu verdiğini iddia eden hiçbir "
+"siteye güvenmeyin, çünkü bunların hepsi dolandırıcıdır. Bu etik olarak "
+"yanlıştır ve muhtemelen size yardımcı olmaktan çok ilişkinize zarar "
+"verecektir. Onunla konuş, elinden gelenin en iyisi bu. Bir bilgisayar "
+"korsanı tutmayı düşünme noktasına geldiyseniz, kesinlikle ayrılmayı "
+"düşünmelisiniz, çünkü ilişkiler güvene dayalıdır, ancak artık "
+"güvenemeyeceğiniz açıktır."
 
 #: faq.php:39 faq.php:108
 msgid "My email doesn't get sent. I'm getting an error about TLS"
-msgstr ""
+msgstr "E-postam gönderilemiyor. TLS ile ilgili bir hata alıyorum"
 
 #: faq.php:39 faq.php:109
 #, php-format
@@ -733,10 +790,16 @@ msgid ""
 "You can disable mandatory encryption in your <a href=\"%s\">account "
 "settings</a>, if you still need to send this email."
 msgstr ""
+"Şifreli aktarım yoluyla e-postaları kabul etmeyen veya güvenli olmayan "
+"protokoller kullanan bir posta sunucusuna e-posta göndermeyi denediniz. Bu "
+"çok talihsiz bir durumdur çünkü e-posta içeriğinizi, hedefe ulaşmadan önce e-"
+"postanızı engelleyebilecek internetteki herhangi birine sızdırabilir. Hâlâ "
+"bu e-postayı göndermeniz gerekiyorsa, <a href=\"%s\">hesap ayarlarınızda</a> "
+"zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:40 faq.php:112
 msgid "I can't receive email, the sender gets an error about TLS"
-msgstr ""
+msgstr "E-posta alamıyorum, gönderen TLS ile ilgili bir hata alıyor"
 
 #: faq.php:40 faq.php:113
 #, php-format
@@ -748,11 +811,19 @@ msgid ""
 "You can disable mandatory encryption in your <a href=\"%s\">account "
 "settings</a>, if you still need to receive this email."
 msgstr ""
+"Birisi, şifreli aktarım yoluyla e-posta göndermeyi desteklemeyen veya "
+"güvenli olmayan protokoller kullanan bir posta sunucusundan size e-posta "
+"göndermeye çalıştı. Bu çok talihsiz bir durumdur çünkü e-posta içeriğinizi, "
+"hedefe ulaşmadan önce e-postanızı engelleyebilecek internetteki herhangi "
+"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a href=\"%s\""
+">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:41 faq.php:116
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
+"Borcum var ve acil para bulmam gerekiyor. Nasıl hızlı bir şekilde biraz para "
+"kazanabilirim?"
 
 #: faq.php:41 faq.php:117
 #, php-format
@@ -764,33 +835,41 @@ msgid ""
 "yourself. I made an in-depth tutorial about some steps you can take: <a "
 "href=\"%s\">How to get rich (fast)</a>."
 msgstr ""
+"Zengin olmak ve borçlarınızı temizlemek kafanızda başlayan bir süreçtir. Bir "
+"gecede zengin olma şansı son derece düşük, uzun vadeli hedeflere odaklanmayı "
+"tercih etmelisiniz. Finansal olarak özgürleşmeniz birkaç yıl alabilir, ancak "
+"öğrenmeye ve kendinizi eğitmeye istekliyseniz herkes oraya ulaşabilir. "
+"Yapabileceğiniz bazı adımlarla ilgili ayrıntılı bir eğitim hazırladım: <a "
+"href=\"%s\">Nasıl zengin olunur (hızlı)</a>."
 
 #: faq.php:42 faq.php:120
 msgid "I have more Questions."
-msgstr ""
+msgstr "Daha fazla sorum var."
 
 #: faq.php:42 faq.php:121
 #, php-format
 msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr ""
+msgstr "<a href=\"%s\">benimle</a> iletişime geçmekten çekinmeyin."
 
 #: faq.php:45
 msgid "FAQ - Frequently Asked Questions"
-msgstr ""
+msgstr "SSS - Sıkça Sorulan Sorular"
 
 #: faq.php:46
 msgid ""
 "Here you have a list of frequently asked questions regarding the services I "
 "provide and their answers."
 msgstr ""
+"Burada, sağladığım hizmetlerle ilgili sık sorulan soruların bir listesi ve "
+"cevapları var."
 
 #: faq.php:49
 msgid "Question"
-msgstr ""
+msgstr "Soru"
 
 #: faq.php:50
 msgid "Answer"
-msgstr ""
+msgstr "Cevap"
 
 #: faq.php:87
 msgid ""
@@ -798,10 +877,13 @@ msgid ""
 "something in return. <a href=\"contact.php\">Send me your proposals</a>. "
 "Sorry guys, only considering females."
 msgstr ""
+"Evet, benimle evlen ve bunu gerçekten yapabilirim. Ama karşılığında bana bir "
+"şey öğretirsen. <a href=\"contact.php\">Bana tekliflerinizi gönderin</a>. "
+"Üzgünüm beyler, sadece kadınları dikkate alıyorum."
 
 #: common.php:125
 msgid "Chat"
-msgstr ""
+msgstr "Sohbet"
 
 #: common.php:126
 msgid "Online-Test"
@@ -813,39 +895,39 @@ msgstr "Onion bağlantı listesi"
 
 #: common.php:128
 msgid "E-Mail + XMPP"
-msgstr ""
+msgstr "E-posta + XMPP"
 
 #: common.php:129 tutorials/index.php:27
 msgid "Tutorials"
-msgstr ""
+msgstr "Öğreticiler"
 
 #: common.php:131
 msgid "FAQ"
-msgstr ""
+msgstr "SSS"
 
 #: common.php:134
 msgid "Privacy"
-msgstr ""
+msgstr "Mahremiyet"
 
 #: common.php:146
 msgid "Add translation"
-msgstr ""
+msgstr "Çeviri ekle"
 
 #: new-domain.php:6 new-domain.php:17 new-domain.php:27
 msgid "Daniel - New domain"
-msgstr ""
+msgstr "Daniel - Yeni alan"
 
 #: new-domain.php:10 new-domain.php:18
 msgid "We moved to a brand new domain - migrate your accounts"
-msgstr ""
+msgstr "Yepyeni bir alana taşındık - hesaplarınızı taşıyın"
 
 #: new-domain.php:29
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
-msgstr ""
+msgstr "Yeni etki alanı - DanWin1210.Me artık DanWin1210.De oldu"
 
 #: new-domain.php:30
 msgid "Why this sudden and drastic change?"
-msgstr ""
+msgstr "Neden bu ani ve sert değişiklik?"
 
 #: new-domain.php:31
 msgid ""
@@ -857,6 +939,14 @@ msgid ""
 "more time to investigate, and they appreciate my patience. I was refused "
 "renewing the domain or moving to a different registrar."
 msgstr ""
+"2021 Ekim ayının ortalarında, <q>dolandırıcılık şüphesi, ters ibraz veya "
+"hizmet şartlarımızın benzer bir ihlali</q> nedeniyle kayıt şirketimin "
+"kontrol paneline (Namecheap Inc.) erişimimin engellendiğini fark ettim. "
+"Müşteri desteğiyle defalarca iletişime geçmeme rağmen, bir yıldan uzun bir "
+"süre sonra bile onlardan aldığım tek yanıt, araştırmak için daha fazla "
+"zamana ihtiyaçları olduğu ve sabrımı takdir ettikleri için yakında onlardan "
+"haber alacağım oldu. Alan adını yenilemem veya farklı bir kayıt operatörüne "
+"geçmem reddedildi."
 
 #: new-domain.php:32
 msgid ""
@@ -866,6 +956,11 @@ msgid ""
 "allowed to pay for extension by creating a new account and depositing the "
 "money for renewal there, so it was back up shortly afterwards."
 msgstr ""
+"Tatmin edici bir yanıt alamadığım ve eski alan adının süresinin dolmak üzere "
+"olduğu göz önüne alındığında, geçiş yapmak için yeni danwin1210.de alan "
+"adını satın aldım. danwin1210.me süresi dolduktan sonra kapandı, ama neyse "
+"ki yeni bir hesap oluşturarak ve yenileme için parayı oraya yatırarak uzatma "
+"için ödeme yapmama izin verildi, bu yüzden kısa bir süre sonra geri geldi."
 
 #: new-domain.php:33
 msgid ""
@@ -877,16 +972,25 @@ msgid ""
 "good, since almost everyone should have switched over to the new domain by "
 "now."
 msgstr ""
+"Bir yıl sonra, alan adımın yeniden sona erme zamanı geldi, bu yüzden şimdi "
+"farklı bir kayıt kuruluşuna geçip geçemeyeceğimi sordum. Alternatif bir "
+"hesap aracılığıyla ödeme yapmamı tekrar teklif ettiler çünkü: <q>Maalesef "
+"sorununuzu araştırmak için daha fazla zamana ihtiyacımız var.</q> Hesabımla "
+"ilgili olabilecek sorunları çözmek için bir yıldan fazla bir süre olmalı… Bu "
+"sefer, neredeyse herkesin şimdiye kadar yeni alan adına geçmiş olması "
+"gerektiğinden, süresinin dolmasına izin vermeye karar verdim."
 
 #: new-domain.php:34
 msgid "What does it mean for users?"
-msgstr ""
+msgstr "Kullanıcılar için ne anlama geliyor?"
 
 #: new-domain.php:35
 msgid ""
 "You don't have an account and just browse the site? Not much will change, "
 "just the address in your browsers URL bar."
 msgstr ""
+"Bir hesabınız yok ve sadece siteye mi göz atıyorsunuz? Pek bir şey "
+"değişmeyecek, sadece tarayıcınızın URL çubuğundaki adres değişecek."
 
 #: new-domain.php:36
 msgid ""
@@ -897,6 +1001,12 @@ msgid ""
 "might otherwise get locked out of your accounts, if they require you to e.g. "
 "click a link in your email for login."
 msgstr ""
+"XMPP/E-Posta hizmetini mi kullanıyorsunuz? Üzgünüm, ancak artık tüm kiş"
+"ilerinizi/hesaplarınızı yeni adrese taşımak için yalnızca birkaç gününüz "
+"kaldığından, bu muhtemelen size bazı güçlükler yaşatacaktır. E-posta "
+"adresinizle kaydolduğunuz herhangi bir hizmetin, yeni etki alanını "
+"yansıtacak şekilde güncellenmesi gerekecektir. Aksi takdirde, ör. giriş "
+"yapmak için e-postanızdaki bir bağlantıya tıklayın."
 
 #: new-domain.php:37
 msgid ""
@@ -904,6 +1014,10 @@ msgid ""
 "php\" target=\"_blank\">in their account settings</a> to reflect the new "
 "domain and allow WKD clients to grab your key automatically."
 msgstr ""
+"E-posta kullanıcıları, yeni etki alanını yansıtmak ve WKD istemcilerinin "
+"anahtarınızı otomatik olarak almasına izin vermek için PGP anahtarlarını <a "
+"href=\"/mail/manage_account.php\" target=\"_blank\">hesap ayarlarında</a> "
+"güncellemelidir. ."
 
 #: new-domain.php:38
 msgid ""
@@ -911,6 +1025,9 @@ msgid ""
 "to be .de. As long as the old domain is still online, you can also receive "
 "emails on the .me domain, while sending is switched over to .de."
 msgstr ""
+"Hala .me kullanıcı kimlik bilgilerinizle giriş yapabilirsiniz, ancak hesap ."
+"de olacaktır. Eski alan adı hala çevrimiçi olduğu sürece, .me alan adı "
+"üzerinden de e-posta alabilirsiniz, ancak gönderme işlemi .de olarak yapılır."
 
 #: new-domain.php:39
 msgid ""
@@ -920,10 +1037,15 @@ msgid ""
 "settings to reflect the new domain in order to login and re-connect with all "
 "your buddies."
 msgstr ""
+"XMPP kullanıcıları büyük olasılıkla hesaplarının çalışmadığını fark "
+"edeceklerdir. Ne yazık ki, e-postada olduğu gibi prozodi (XMPP sunucusu) ile "
+"hesapları taşımanın kolay bir yolu yoktur. Giriş yapmak ve tüm "
+"arkadaşlarınızla yeniden bağlantı kurmak için hesap ayarlarınızı yeni etki "
+"alanını yansıtacak şekilde güncellemeniz gerekecek."
 
 #: new-domain.php:40
 msgid "Will the old address still work?"
-msgstr ""
+msgstr "Eski adres çalışmaya devam edecek mi?"
 
 #: new-domain.php:41
 msgid ""
@@ -932,10 +1054,14 @@ msgid ""
 "domain to the registry. However, Namecheap apparently sells the domain now "
 "for $400…"
 msgstr ""
+"Çok kısa bir kesintinin ardından tekrar çevrimiçi oldu. Şimdi, bir yıl "
+"sonra, bir kez daha süresi doldu. Namecheap, etki alanını kayıt defterine "
+"iade ettikten sonra tekrar satın alabilirim. Ancak, Namecheap görünüşe göre "
+"alanı şimdi 400 dolara satıyor…"
 
 #: new-domain.php:42
 msgid "I have a question, something is broken with my account."
-msgstr ""
+msgstr "Bir sorum var, hesabımda bir sorun var."
 
 #: new-domain.php:43
 msgid ""
@@ -943,12 +1069,17 @@ msgid ""
 "work as before. Stil not working correctly? Feel free to <a href=\"/contact."
 "php\">contact me</a> for help."
 msgstr ""
+"Tüm ayarlarınızı yeni alan adına değiştirdiğinizden emin olun. Daha önce "
+"olduğu gibi çalışması gerekir. Hala düzgün çalışmıyor musunuz? Yardım için "
+"<a href=\"/contact.php\">benimle iletişime geçmekten</a> çekinmeyin."
 
 #: new-domain.php:44
 msgid ""
 "How do I know you are still the same person? This could be law enforcement "
 "taking over the servers."
 msgstr ""
+"Senin hala aynı kişi olduğunu nasıl bilebilirim? Bu, kolluk kuvvetlerinin "
+"sunucuları ele geçirmesi olabilir."
 
 #: new-domain.php:45
 msgid ""
@@ -957,6 +1088,10 @@ msgid ""
 "txt\" target=\"_blank\">old PGP key</a>. This can be verified by running a "
 "command like this:"
 msgstr ""
+"<a href=\"/pgp.txt\" target=\"_blank\">yeni bir PGP anahtarı</a> oluşturma "
+"fırsatını yakaladım ve <a href=\"/old_pgp.txt\" target=\"_blank ile "
+"imzaladım \">eski PGP anahtarı</a>. Bu, şöyle bir komut çalıştırılarak "
+"doğrulanabilir:"
 
 #: new-domain.php:47
 msgid ""
@@ -965,15 +1100,19 @@ msgid ""
 "you can even verify the key, in case you have an older key I was using "
 "before."
 msgstr ""
+"Eski anahtarım <code>F8B8CFC35FBDB40D</code> tarafından imzalandığına dair "
+"kanıt göstermelidir. Eski anahtarıma önceki anahtarların imzalarını da "
+"ekledim, böylece daha önce kullandığım daha eski bir anahtarınız olması "
+"durumunda anahtarı doğrulayabilirsiniz."
 
 #: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
 #: hosting/index.php:27
 msgid "Hosting - Info"
-msgstr ""
+msgstr "Hosting - Bilgi"
 
 #: hosting/index.php:10 hosting/index.php:16
 msgid "Daniel's Hosting - a former darknet web hosting service"
-msgstr ""
+msgstr "Daniel's Hosting - eski bir darknet web barındırma hizmeti"
 
 #: hosting/index.php:28
 msgid ""
@@ -983,6 +1122,12 @@ msgid ""
 "href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
 "rel=\"noopener\">https://github.com/DanWin/hosting</a>."
 msgstr ""
+"Mart 2020'de bir bilgisayar korsanı barındırma hizmetimle ilgili tüm "
+"veritabanlarını sildi, bu nedenle barındırma hizmetimi kapatmak zorunda "
+"kaldım. Katkıda bulunmak veya kendi barındırma hizmetinizi kurmak "
+"istiyorsanız, <a href=\"https://github.com/DanWin/hosting\" target=\"_blank\""
+" rel=\"noopener\">https:// adresindeki açık kaynak projeme göz atın. github."
+"com/DanWin/hosting</a>."
 
 #: hosting/index.php:29
 msgid ""
@@ -1005,22 +1150,40 @@ msgid ""
 "willing to become the next darknet shared hosting provider to start where I "
 "left of."
 msgstr ""
+"Bir darknet barındırıcısı olmak bana birçok şey öğretti. Ancak bu, tam "
+"zamanlı işimin yanında yaptığım boş bir zaman projesiydi ve sunucuyu yasa "
+"dışı ve dolandırıcı sitelerden temiz tutmaya çalışmak çok zaman alıyor. "
+"Geliştirmeye devam etmek için ayırabileceğimden 10 kat daha fazlasını "
+"hesapları silmek için harcadım. Şu anda barındırma projesine devam etmeyi "
+"planlamıyorum, ancak bunun son olması gerekmiyor. <a href=\"http"
+"://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
+"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqiz gibi başka barındırma "
+"sağlayıcıları var kpju36fwdyd.onion /\" target=\"_blank\" rel=\"noopener\""
+">OneHost</a>, <a href=\"http"
+"://dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> veya bir clearnet proxy "
+"hizmeti <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Kolay clearnet geçişi</a> ve benim projem <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">indirilebilir</a>, ki bu da bir sonraki darknet paylaşımlı barındırma "
+"sağlayıcısı olmaya istekli herkesin kaldığım yerden başlamasını sağlamak."
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
-msgstr ""
+msgstr "Daniel - Gizlilik ilkesi"
 
 #: privacy.php:10 privacy.php:16
 msgid "Privacy policy of Daniel Winzen"
-msgstr ""
+msgstr "Daniel Winzen'in gizlilik politikası"
 
 #: privacy.php:27
 msgid "Privacy policy"
-msgstr ""
+msgstr "Gizlilik Politikası"
 
 #: privacy.php:28
 msgid "1. Name and Address of the controller"
-msgstr ""
+msgstr "1. Denetleyicinin adı ve adresi"
 
 #: privacy.php:29
 msgid ""
@@ -1028,21 +1191,27 @@ msgid ""
 "(GDPR), other data protection laws applicable in Member states of the "
 "European Union and other provisions related to data protection is:"
 msgstr ""
+"Genel Veri Koruma Yönetmeliği (GDPR), Avrupa Birliği Üye Devletlerinde "
+"geçerli olan diğer veri koruma yasaları ve veri korumaya ilişkin diğer "
+"hükümler amaçları doğrultusunda denetleyici:"
 
 #: privacy.php:36
 #, php-format
 msgid "Website: %s"
-msgstr ""
+msgstr "Web sitesi: %s"
 
 #: privacy.php:38
 msgid "2. Cookies"
-msgstr ""
+msgstr "2. Çerezler"
 
 #: privacy.php:39
 msgid ""
 "The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
 "are stored in a computer system via an Internet browser."
 msgstr ""
+"Daniel Winzen'in internet sayfaları çerez kullanır. Çerezler, bir internet "
+"tarayıcısı aracılığıyla bir bilgisayar sisteminde depolanan metin "
+"dosyalarıdır."
 
 #: privacy.php:40
 msgid ""
@@ -1055,6 +1224,15 @@ msgid ""
 "contain other cookies. A specific Internet browser can be recognized and "
 "identified using the unique cookie ID."
 msgstr ""
+"Birçok internet sitesi ve sunucusu çerez kullanır. Birçok tanımlama bilgisi, "
+"sözde bir tanımlama bilgisi kimliği içerir. Çerez kimliği, çerezin benzersiz "
+"bir tanımlayıcısıdır. İnternet sayfalarının ve sunucuların çerezin "
+"saklandığı belirli İnternet tarayıcısına atanabileceği bir karakter "
+"dizisinden oluşur. Bu, ziyaret edilen İnternet sitelerinin ve sunucularının, "
+"veri konusunun bireysel tarayıcısını diğer tanımlama bilgilerini içeren "
+"diğer İnternet tarayıcılarından ayırt etmesine olanak tanır. Belirli bir "
+"İnternet tarayıcısı, benzersiz çerez kimliği kullanılarak tanınabilir ve "
+"tanımlanabilir."
 
 #: privacy.php:41
 msgid ""
@@ -1062,6 +1240,9 @@ msgid ""
 "website with more user-friendly services that would not be possible without "
 "the cookie setting."
 msgstr ""
+"Tanımlama bilgilerinin kullanımı yoluyla, Daniel Winzen bu web sitesinin "
+"kullanıcılarına, tanımlama bilgisi ayarı olmadan mümkün olmayan daha "
+"kullanıcı dostu hizmetler sağlayabilir."
 
 #: privacy.php:42
 msgid ""
@@ -1072,12 +1253,21 @@ msgid ""
 "is when you log in to the mail client, the cookie assures that you stay "
 "logged in with your account until closing your browser or logging out."
 msgstr ""
+"Bir çerez aracılığıyla, web sitemdeki bilgiler ve teklifler kullanıcı göz "
+"önünde bulundurularak optimize edilebilir. Çerezler, daha önce de "
+"belirtildiği gibi, web sitemin kullanıcılarını tanımamı sağlıyor. Bu "
+"tanımanın amacı, kullanıcıların web sitemi kullanmasını kolaylaştırmaktır. "
+"Çerez kullanımına bir örnek, posta istemcisinde oturum açtığınızda, çerezin "
+"tarayıcınızı kapatana veya oturumu kapatana kadar hesabınızla oturumunuzun "
+"açık kalmasını sağlamasıdır."
 
 #: privacy.php:43
 msgid ""
 "This site makes only use of technically necessary session cookies and does "
 "not use any form of tracking cookies."
 msgstr ""
+"Bu site yalnızca teknik olarak gerekli oturum tanımlama bilgilerini kullanır "
+"ve herhangi bir izleme tanımlama bilgisi kullanmaz."
 
 #: privacy.php:44
 msgid ""
@@ -1089,10 +1279,18 @@ msgid ""
 "data subject deactivates the setting of cookies in the Internet browser "
 "used, not all functions of my website may be entirely usable."
 msgstr ""
+"Veri sahibi, herhangi bir zamanda, kullanılan İnternet tarayıcısının uygun "
+"bir ayarı aracılığıyla web sitem aracılığıyla çerezlerin ayarlanmasını "
+"engelleyebilir ve böylece çerezlerin ayarlanmasını kalıcı olarak "
+"reddedebilir. Ayrıca önceden ayarlanmış çerezler herhangi bir zamanda bir "
+"internet tarayıcısı veya diğer yazılım programları aracılığıyla silinebilir. "
+"Bu, tüm popüler İnternet tarayıcılarında mümkündür. Veri sahibi, kullanılan "
+"internet tarayıcısındaki tanımlama bilgilerinin ayarını devre dışı "
+"bırakırsa, web sitemin tüm işlevleri tam olarak kullanılamayabilir."
 
 #: privacy.php:45
 msgid "3. Collection of general data and information"
-msgstr ""
+msgstr "3. Genel veri ve bilgilerin toplanması"
 
 #: privacy.php:46
 msgid ""
@@ -1107,6 +1305,15 @@ msgid ""
 "similar data and information that may be used in the event of attacks on my "
 "information technology systems."
 msgstr ""
+"Daniel Winzen sunucusu, bir veri sahibi veya otomatik sistem web sitesini "
+"veya sağlanan diğer hizmetleri çağırdığında bir dizi genel veri ve bilgi "
+"toplar. Bu genel veriler ve bilgiler, sunucu günlük dosyalarında saklanır. "
+"Toplananlar (1) kullanılan tarayıcı türleri ve sürümleri, (2) erişim sistemi "
+"tarafından kullanılan işletim sistemi, (3) erişim sisteminin web siteme "
+"ulaştığı web sitesi (yönlendirenler), (4) alt -web siteleri, (5) İnternet "
+"sitesine erişim tarihi ve saati / e-posta iletimi, (6) bir e-postanın "
+"göndericisi ve alıcısı ve (7) saldırı durumunda kullanılabilecek diğer "
+"benzer veri ve bilgiler bilgi teknolojisi sistemlerim."
 
 #: privacy.php:47
 msgid ""
@@ -1122,10 +1329,21 @@ msgid ""
 "data provided by a data subject for up to 48 hours and are then permanently "
 "deleted."
 msgstr ""
+"Daniel Winzen, bu genel verileri ve bilgileri kullanırken veri sahibi "
+"hakkında herhangi bir sonuca varmaz. Daha ziyade, bu bilgiler (1) web "
+"sitemin ve hizmetlerimin içeriğini doğru bir şekilde sunmak, (2) "
+"hizmetlerimi optimize etmek, (3) bilgi teknolojisi sistemlerimin ve web "
+"sitesi teknolojisinin uzun vadeli uygulanabilirliğini sağlamak için "
+"gereklidir. Bu nedenle, anonim olarak toplanan verileri ve bilgileri, "
+"hizmetlerimin veri korumasını ve veri güvenliğini artırmak ve işlediğim "
+"kişisel veriler için en uygun düzeyde koruma sağlamak amacıyla istatistiksel "
+"olarak analiz edebilirim. Sunucu günlük dosyalarının genel verileri, bir "
+"veri sahibi tarafından sağlanan tüm kişisel verilerden 48 saate kadar ayrı "
+"olarak saklanır ve daha sonra kalıcı olarak silinir."
 
 #: privacy.php:48
 msgid "4. Routine erasure and blocking of personal data"
-msgstr ""
+msgstr "4. Kişisel verilerin rutin olarak silinmesi ve engellenmesi"
 
 #: privacy.php:49
 msgid ""
@@ -1134,6 +1352,11 @@ msgid ""
 "as far as this is granted by the European legislator or other legislators in "
 "laws or regulations to which the controller is subject to."
 msgstr ""
+"Veri denetleyicisi, veri konusunun kişisel verilerini yalnızca saklama "
+"amacının gerçekleştirilmesi için gerekli olan süre boyunca veya Avrupa yasa "
+"koyucusu veya denetleyicinin tabi olduğu yasa veya yönetmeliklerdeki diğer "
+"yasa koyucular tarafından izin verildiği sürece işleyecek ve saklayacaktır. "
+"ile."
 
 #: privacy.php:50
 msgid ""
@@ -1141,10 +1364,14 @@ msgid ""
 "by the European legislator or another competent legislator expires, the "
 "personal data are routinely erased in accordance with legal requirements."
 msgstr ""
+"Saklama amacının geçerli olmaması veya Avrupa yasa koyucusu veya başka bir "
+"yetkili yasa koyucu tarafından öngörülen bir saklama süresinin sona ermesi "
+"durumunda, kişisel veriler yasal gerekliliklere uygun olarak rutin olarak "
+"silinir."
 
 #: privacy.php:51
 msgid "5. Rights of the data subject"
-msgstr ""
+msgstr "5. Veri sahibinin hakları"
 
 #: privacy.php:52
 msgid ""
@@ -1155,10 +1382,15 @@ msgid ""
 "portability according to GDPR article 20, Right to object according to "
 "Article 21 GDPR"
 msgstr ""
+"Her veri sahibi, GDPR Madde 15'e göre doğrulama ve erişim hakkına, GDPR "
+"Madde 16'ya göre düzeltme hakkına, GDPR Madde 17'ye göre silme hakkına ("
+"unutulma hakkı), GDPR Madde 18'e göre işlemeyi kısıtlama hakkına sahiptir. "
+"GDPR, GDPR madde 20 uyarınca veri taşınabilirliği hakkı, GDPR Madde 21 "
+"uyarınca itiraz hakkı"
 
 #: privacy.php:53
 msgid "6. Legal basis for the processing"
-msgstr ""
+msgstr "6. İşleme için yasal dayanak"
 
 #: privacy.php:54
 msgid ""
@@ -1174,6 +1406,16 @@ msgid ""
 "as for the fulfillment of tax obligations, the processing is based on Art. "
 "6(1) lit. c GDPR."
 msgstr ""
+"Sanat. 6(1) yaktı. bir GDPR, belirli bir işleme amacı için izin aldığım "
+"işleme işlemleri için yasal dayanak görevi görür. Kişisel verilerin "
+"işlenmesi, veri sahibinin taraf olduğu bir sözleşmenin ifası için "
+"gerekliyse, örneğin hizmet sağlamak için işleme operasyonlarının gerekli "
+"olduğu durumlarda, işleme Madde 6(1)'e dayanır. . b GDPR. Aynısı, örneğin "
+"hizmetlerim ile ilgili soruşturmalarda olduğu gibi, sözleşme öncesi "
+"önlemlerin yerine getirilmesi için gerekli olan bu tür işleme operasyonları "
+"için de geçerlidir. Vergi yükümlülüklerinin yerine getirilmesi gibi kişisel "
+"verilerin işlenmesini gerektiren yasal bir yükümlülüğe tabiysem, işleme Art. "
+"6(1) yaktı. c GDPR."
 
 #: privacy.php:55
 msgid ""
@@ -1188,30 +1430,42 @@ msgid ""
 "that a legitimate interest could be assumed if the data subject is a client "
 "of the controller (Recital 47 Sentence 2 GDPR)."
 msgstr ""
+"Son olarak, işleme operasyonları Madde 6(1)'e dayanabilir. GDPR. Bu yasal "
+"dayanak, yukarıda belirtilen yasal dayanakların hiçbirinin kapsamına "
+"girmeyen işleme operasyonları için kullanılır, eğer işleme benim tarafımdan "
+"veya üçüncü bir tarafça yürütülen meşru çıkarlar için gerekliyse, bu tür "
+"çıkarların geçersiz kılındığı durumlar hariç. kişisel verilerin korunmasını "
+"gerektiren veri sahibinin çıkarları veya temel hak ve özgürlükleri. Bu tür "
+"işleme operasyonlarına özellikle izin verilir, çünkü Avrupa yasa koyucusu "
+"tarafından özel olarak bahsedilmiştir. Veri öznesinin denetleyicinin bir "
+"müşterisi olması durumunda meşru bir menfaatin varsayılabileceğini düşündü ("
+"GDPR Gerekçesi 47 Cümle 2)."
 
 #: privacy.php:56
 msgid "7. Legally binding translation"
-msgstr ""
+msgstr "7. Yasal olarak bağlayıcı çeviri"
 
 #: privacy.php:57
 msgid "Legally binding is only the English version of this privacy policy"
 msgstr ""
+"Yasal olarak bağlayıcı olan bu gizlilik politikasının yalnızca İngilizce "
+"versiyonudur"
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:25
 msgid "Daniel - Chat"
-msgstr ""
+msgstr "Daniel - Sohbet"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
-msgstr ""
+msgstr "Daniel's Chat - eski bir darknet sohbet topluluğu"
 
 #: chat/index.php:27
 msgid "Daniel's Chat"
-msgstr ""
+msgstr "Daniel'in Sohbeti"
 
 #: chat/index.php:28
 msgid "After 9 years, I'm shutting down the chat for good."
-msgstr ""
+msgstr "9 yıl sonra sohbeti tamamen kapatıyorum."
 
 #: chat/index.php:29
 msgid ""
@@ -1221,6 +1475,10 @@ msgid ""
 "com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">GitHub</a>."
 msgstr ""
+"<a href=\"https://onions.danwin1210.de/?cat=2\">Onion bağlantı listemde</a> "
+"alternatif sohbetler bulabilirsiniz. Benzer bir sohbet topluluğu yürütmekle "
+"ilgileniyorsanız, sohbet komut dosyamı <a href=\"https://github.com/DanWin/"
+"le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
 #: chat/index.php:30
 msgid ""
@@ -1235,6 +1493,16 @@ msgid ""
 "state, it doesn't make sense to continue providing the service. Thus I "
 "decided to shut down the chat for good in December 2022, after 9 years."
 msgstr ""
+"Bu sohbet 2013 yılında okulda kullanılmak üzere bir hobi projesi olarak "
+"başladı ve çok aktif bir darknet sohbet topluluğuna dönüştü. 2017'den beri "
+"sohbet yönetimini başka kişilere devrettim, çünkü artık sohbeti yönetmek "
+"için zaman veya motivasyon bulamıyordum. Son aylarda, devralan yönetim, "
+"sohbeti çok gizli tuttu, insanları erişim için saatlerce bekletti ve "
+"insanları sebepsiz yere rastgele tekmeledi. Bu da gelen kutumu, sohbete "
+"erişmek için yardım isteyen insanların mesajlarıyla doldurdu ve trafik "
+"eskisinin çok küçük bir kısmına düştü. Bu durumda, hizmeti sunmaya devam "
+"etmenin bir anlamı yoktur. Bu nedenle, 9 yıl sonra Aralık 2022'de sohbeti "
+"temelli kapatmaya karar verdim."
 
 #: chat/index.php:31
 msgid ""
@@ -1243,21 +1511,26 @@ msgid ""
 "all to do with me anymore, except that I've programmed it and I maintain the "
 "server. Anyone is welcome to create their own chat, but not here on my site."
 msgstr ""
+"Birkaç kişi benden onları yönetici yapmamı ve sohbeti yeniden "
+"etkinleştirmemi istediğinden: Hayır, bu karar verildi ve çok gecikti. "
+"Sohbeti programlamış olmam ve sunucunun bakımını yapmam dışında artık "
+"benimle hiçbir ilgisi yoktu. Herkes kendi sohbetini oluşturabilir, ancak "
+"burada benim sitemde değil."
 
 #: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
 #: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
 #: tutorials/index.php:32
 msgid "How to get rich (fast)"
-msgstr ""
+msgstr "Nasıl zengin olunur (hızlı)"
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
 #: tutorials/index.php:32
 msgid "This tutorial will guide you to achieving financial freedom."
-msgstr ""
+msgstr "Bu eğitim, finansal özgürlüğe ulaşmanız için size rehberlik edecek."
 
 #: tutorials/get-rich-fast/index.php:36
 msgid "A word about fast money"
-msgstr ""
+msgstr "Hızlı para hakkında bir kelime"
 
 #: tutorials/get-rich-fast/index.php:37
 msgid ""
@@ -1266,40 +1539,46 @@ msgid ""
 "usually lose everything in a short time, because they spend all of it, "
 "sometimes being left with debts due to a lack of financial education."
 msgstr ""
+"Zengin olmak için, zamanınızı eğitime ve kişisel gelişime yatırmanız "
+"gerekir. Çok az insan bir gecede zengin olur. Ve bunu yapanlar, genellikle "
+"kısa sürede her şeylerini kaybederler, çünkü hepsini harcarlar, bazen "
+"finansal eğitim eksikliğinden dolayı borç içinde kalırlar."
 
 #: tutorials/get-rich-fast/index.php:38
 msgid "Here are some common ways of getting money fast:"
-msgstr ""
+msgstr "Hızlı para kazanmanın bazı yaygın yolları şunlardır:"
 
 #: tutorials/get-rich-fast/index.php:40
 msgid "Win a lottery"
-msgstr ""
+msgstr "piyango kazan"
 
 #: tutorials/get-rich-fast/index.php:41
 msgid "Gambling"
-msgstr ""
+msgstr "Kumar"
 
 #: tutorials/get-rich-fast/index.php:42
 msgid "Betting"
-msgstr ""
+msgstr "Bahis"
 
 #: tutorials/get-rich-fast/index.php:43
 msgid "Win unconditional basic income"
-msgstr ""
+msgstr "Koşulsuz temel gelir kazanın"
 
 #: tutorials/get-rich-fast/index.php:45
 msgid ""
 "All of the above-mentioned options are highly dependent on luck and not "
 "feasible for building long-term wealth."
 msgstr ""
+"Yukarıda belirtilen seçeneklerin tümü büyük ölçüde şansa bağlıdır ve uzun "
+"vadeli zenginlik oluşturmak için uygun değildir."
 
 #: tutorials/get-rich-fast/index.php:46
 msgid "Reduce your expenses"
-msgstr ""
+msgstr "Masraflarınızı azaltın"
 
 #: tutorials/get-rich-fast/index.php:47
 msgid "Pay off your high-interest debts"
-msgstr ""
+msgstr "Yüksek faizli borçlarınızı kapatın"
 
 #: tutorials/get-rich-fast/index.php:48
 msgid ""
@@ -1314,10 +1593,20 @@ msgid ""
 "your credit card company a call and explain that it won't be possible to pay "
 "off the debt and if they could maybe cut your interest."
 msgstr ""
+"Kredi kartları genellikle, alacak paranız olmadığında ürün satın almak için "
+"kullanılır. Birçoğunun unuttuğu şey, ödediğiniz faiz oranlarının %20-30'a "
+"kadar çıkabileceğidir! Bir veya birden fazla kredi kartınız varsa, mümkün "
+"olan en kısa sürede ödemeye başlayın. Aksi takdirde, faiz sizi fakir tutar "
+"ve düzenli harcamalarınızı ödeyemez hale gelir. Faiz ödemeleriniz zaten "
+"ödeyemeyecek kadar yüksekse, karşılaştırma sitelerine bakın, mevcut borcu "
+"bununla değiştirmek için kullanabileceğiniz daha düşük faizli ihtiyaç "
+"kredileri var mı? Ayrıca, kredi kartı şirketinizi arayıp borcu ödemenin "
+"mümkün olmayacağını ve faizinizi kesebileceklerini açıklamaya çalışmakta "
+"fayda var."
 
 #: tutorials/get-rich-fast/index.php:49
 msgid "Stop drinking or taking drugs"
-msgstr ""
+msgstr "İçmeyi veya uyuşturucu almayı bırak"
 
 #: tutorials/get-rich-fast/index.php:50
 msgid ""
@@ -1328,10 +1617,17 @@ msgid ""
 "substances. If your friends don't understand that, perhaps you should "
 "surround yourself with other people."
 msgstr ""
+"Ara sıra bir parti eğlenceli olabilse de, bazı insanlar birkaç günde bir "
+"partiye gider ve gelirlerinin büyük bir bölümünü alkol ve/veya uyuşturucuya "
+"harcar. Bu sadece paranızı boşa harcamakla kalmaz, aynı zamanda sağlığınızı "
+"ve zihinsel yeteneklerinizi de ciddi şekilde etkilersiniz. Zihninizi "
+"değiştiren herhangi bir madde olmadan da sosyalleşebilirsiniz. "
+"Arkadaşlarınız bunu anlamıyorsa, belki de kendinizi başka insanlarla "
+"çevrelemelisiniz."
 
 #: tutorials/get-rich-fast/index.php:51
 msgid "The 24-hour rule"
-msgstr ""
+msgstr "24 saat kuralı"
 
 #: tutorials/get-rich-fast/index.php:52
 msgid ""
@@ -1342,10 +1638,16 @@ msgid ""
 "expensive sweets and snacks? You might be surprised that you think about it "
 "differently just a few hours later."
 msgstr ""
+"Bir şey satın almadan önce, düşünmek için kendinize 24 saat verin. Dürtüsel "
+"alışveriş, genellikle ay sonunda neden hiç para kalmadığına önemli bir "
+"katkıda bulunur. Dolabınızda asılı duran iki ceketiniz varken gerçekten yeni "
+"bir cekete ihtiyacınız var mı? Pahalı tatlılar ve atıştırmalıklar almak "
+"gerçekten gerekli mi? Sadece birkaç saat sonra farklı düşündüğünüze "
+"şaşırabilirsiniz."
 
 #: tutorials/get-rich-fast/index.php:53
 msgid "Buy luxuries only with passive income"
-msgstr ""
+msgstr "Yalnızca pasif gelirle lüks satın alın"
 
 #: tutorials/get-rich-fast/index.php:54
 msgid ""
@@ -1360,14 +1662,24 @@ msgid ""
 "income grows, you will be able to buy luxuries more often, without having to "
 "worry about being able to afford them."
 msgstr ""
+"Pek çok insanın yaptığı ölümcül bir hata, biraz paraları olduğunda, onu "
+"doğrudan saatler, arabalar veya diğer gerekli olmayan öğeler gibi pahalı "
+"lükslere harcamak. Ne kadar kazanırsanız kazanın, tüm gelirinizi harcamaya "
+"devam ederseniz, ay sonunda hiçbir şeyiniz kalmaz ve lüksünüzü karşılamak "
+"için çalışmaya devam etmeniz gerekir. Bununla birlikte, fazla parayı alıp "
+"yatırırsanız, bunun yerine lükslerinizi ödemek için kullanabileceğiniz pasif "
+"gelir elde edersiniz. Yeni saatinize şu anda sahip olmayacaksınız ama belki "
+"5 yıl sonra pasif gelirinizle satın alabileceksiniz. Pasif geliriniz "
+"arttıkça, lüks ürünleri satın alma konusunda endişelenmenize gerek kalmadan "
+"daha sık satın alabileceksiniz."
 
 #: tutorials/get-rich-fast/index.php:55
 msgid "Preparation and Security"
-msgstr ""
+msgstr "Hazırlık ve Güvenlik"
 
 #: tutorials/get-rich-fast/index.php:56
 msgid "Surround yourself with like-minded people"
-msgstr ""
+msgstr "Kendinizi benzer düşünen insanlarla çevreleyin"
 
 #: tutorials/get-rich-fast/index.php:57
 msgid ""
@@ -1381,10 +1693,19 @@ msgid ""
 "benefits, you should cut ties with them and instead spend time with people "
 "that are good for you."
 msgstr ""
+"Odadaki en zeki kişi sizseniz, muhtemelen yanlış odadasınız. Etrafınızı "
+"sizinle benzer hedefleri olan ve sizi destekleyebilecek insanlarla "
+"çevrelemelisiniz. Zenginlik kazanmaya başlıyorsanız, mevcut arkadaşlarınız "
+"size sırt çevirmeye, sizden para istemeye, hatta değişip onlardan daha olgun "
+"ve başarılı olduğunuz için sizden nefret etmeye başlayabilir. Hangi "
+"insanların yanında kendinizi harika hissettiğinizi ve hangi insanların "
+"enerjinizi emdiğini düşünün. İnsanlarla bağınız size bir fayda sağlamıyorsa, "
+"onlarla bağınızı kesmeli ve bunun yerine size iyi gelen insanlarla vakit "
+"geçirmelisiniz."
 
 #: tutorials/get-rich-fast/index.php:58
 msgid "Build an emergency fund"
-msgstr ""
+msgstr "Bir acil durum fonu oluşturun"
 
 #: tutorials/get-rich-fast/index.php:59
 msgid ""
@@ -1393,10 +1714,14 @@ msgid ""
 "emergencies. Ideally save enough so that you could live from this for 3-6 "
 "months, in case you lose your job, or something else happens to you."
 msgstr ""
+"Giderlerinizi kıstıktan sonra, gelirinizin küçük bir kısmını kenara "
+"ayırabilmelisiniz. Bunu yalnızca acil durumlarda dokunduğunuz bir hesaba "
+"koyun. İdeal olarak, işinizi kaybetmeniz veya başınıza başka bir şey gelmesi "
+"ihtimaline karşı 3-6 ay bundan kurtulabilecek kadar tasarruf edin."
 
 #: tutorials/get-rich-fast/index.php:60
 msgid "Become financially literate and understand how money works"
-msgstr ""
+msgstr "Finansal okuryazar olun ve paranın nasıl çalıştığını anlayın"
 
 #: tutorials/get-rich-fast/index.php:61
 msgid ""
@@ -1415,14 +1740,29 @@ msgid ""
 "talking about, or who might want to influence you in a way that would "
 "benefit them. Always form your own opinion and check what others have to say."
 msgstr ""
+"Bu sayfayı okumak, finansal olarak özgürleşmek ve zenginlik oluşturmanın "
+"nasıl çalıştığını anlamak için ilk adımınızdır. Bu konu okulda veya "
+"üniversitede öğretilmiyor ve büyük olasılıkla ebeveynleriniz tarafından da "
+"öğretilmiyor. Sistem, sizi iyi notlar alma, güvenli bir iş bulma ve paranızı "
+"bankada tutarak %0,01 faiz kazanma yolunda yönlendirmek için tasarlanmıştır, "
+"bu arada banka paranızı kredi vermek için kullanır ve yüksek faiz kazanır. "
+"ona göre oranlar. Sistem sizi fakir ve mali açıdan eğitimsiz tutmak için "
+"tasarlandı, böylece zenginler sizin pahasına zenginleşmeye devam edebilir. "
+"Bu yüzden ne yazık ki kendinizi eğitmeniz ve kapitalist sistemimizin ve "
+"paramızın nasıl çalıştığını ve bunu kendi avantajınıza nasıl "
+"kullanabileceğinizi öğrenmeniz gerekecek. Çevrimiçi olarak kendinizi daha "
+"fazla eğitebileceğiniz birçok kaynak var. Ne hakkında konuştuğunu anlamayan "
+"veya size fayda sağlayacak şekilde sizi etkilemek isteyebilecek birinden "
+"asla finansal tavsiye almayın. Her zaman kendi fikrinizi oluşturun ve "
+"başkalarının söyleyeceklerini kontrol edin."
 
 #: tutorials/get-rich-fast/index.php:62
 msgid "Increase your income"
-msgstr ""
+msgstr "gelirinizi artırın"
 
 #: tutorials/get-rich-fast/index.php:63
 msgid "Get a better salary"
-msgstr ""
+msgstr "Daha iyi maaş al"
 
 #: tutorials/get-rich-fast/index.php:64
 msgid ""
@@ -1432,10 +1772,14 @@ msgid ""
 "alternative jobs that you would enjoy, which offer a similar or better "
 "salary."
 msgstr ""
+"Mevcut maaşınızdan memnun değilseniz, zam almak için patronunuzla konuşun. "
+"Tecrübeniz arttıkça ve enflasyon yükseldikçe zam almaya hak kazanırsınız. "
+"Mevcut işiniz sizi tatmin etmiyorsa, benzer veya daha iyi bir maaş sunan, "
+"zevk alacağınız alternatif işler arayın."
 
 #: tutorials/get-rich-fast/index.php:65
 msgid "Become self-employed"
-msgstr ""
+msgstr "Kendi işinizin sahibi olun"
 
 #: tutorials/get-rich-fast/index.php:66
 msgid ""
@@ -1450,10 +1794,20 @@ msgid ""
 "earning as well, or better than in your primary job, it is time to end your "
 "employment contract and become fully self-dependent."
 msgstr ""
+"Serbest meslek sahibi biri olarak, çok daha esneksiniz ve gelişmek için çok "
+"daha yüksek bir potansiyele sahipsiniz. Aynı zamanda çok da riskli. "
+"İşinizden ayrılmayın ve hemen serbest meslek sahibi olun. Bunun yerine, "
+"işvereninizle konuşun ve asıl işinizle birlikte çalışabileceğiniz konusunda "
+"bir anlaşma yapın. Başlangıç zor olacak ama bir süre sonra ilk "
+"müşterilerinizi alacak ve büyüyebileceksiniz. Serbest mesleğiniz iyi "
+"gidiyorsa, asıl işinizde çalıştığınız saatleri azaltmaya başlayın. Kendi "
+"işinizde çalışmak için bir veya iki gün izin alın. Tam kapasite çalışıp aynı "
+"zamanda veya asıl işinizden daha iyi kazanma noktasına geldiğinizde iş "
+"akdinizi sonlandırıp tamamen kendinize bağımlı hale gelme zamanı gelmiştir."
 
 #: tutorials/get-rich-fast/index.php:67
 msgid "Become an entrepreneur, build your own company"
-msgstr ""
+msgstr "Girişimci ol, kendi şirketini kur"
 
 #: tutorials/get-rich-fast/index.php:68
 msgid ""
@@ -1467,14 +1821,23 @@ msgid ""
 "regular salary. As business taxes are lower than income taxes, you have more "
 "to invest as a business."
 msgstr ""
+"Bir şirket olarak çalışmak, serbest meslek sahibi olmaya kıyasla size önemli "
+"vergi avantajları sağlar. Ancak bu, şirketinizi kurmak için çok daha fazla "
+"sorumluluk, evrak ve ilk yatırımları da beraberinde getirir. Bu nedenle, "
+"yalnızca kişisel sorumluluğu azaltmak istiyorsanız veya kârınız, gelirinizin "
+"olması gerekenden çok daha yüksekse, bir şirket olarak faaliyet "
+"göstermelisiniz. Bu durumda, fazladan kârı şirkette tutarsınız veya ikinci "
+"bir holding kurarsınız, bu kârı aktarır ve kendinize düzenli bir maaş "
+"ödersiniz. İşletme vergileri gelir vergilerinden daha düşük olduğundan, bir "
+"işletme olarak yatırım yapacak daha çok şeyiniz olur."
 
 #: tutorials/get-rich-fast/index.php:69
 msgid "Make the money work for you"
-msgstr ""
+msgstr "Paranın senin için çalışmasını sağla"
 
 #: tutorials/get-rich-fast/index.php:70
 msgid "Investments"
-msgstr ""
+msgstr "Yatırımlar"
 
 #: tutorials/get-rich-fast/index.php:71
 #, php-format
@@ -1489,19 +1852,28 @@ msgid ""
 "That is why you should diversify as much as possible. Use different "
 "platforms, invest small amounts, and spread it over multiple projects."
 msgstr ""
+"Gelirinizin küçük bir kısmını yatırımlar için ayırın. Bu sadece% o 10 veya "
+"daha az olsa bile. Bu parayı başka bir şeye harcamak istememek için ayrı bir "
+"hesaba koyun. Bu parayı yatırmaya hazır olduğunuzda, size uygun ve yatırım "
+"yapmak isteyeceğiniz projeler sunan bir yatırım platformu seçin. Bu, örneğin "
+"gayrimenkul, yenilenebilir enerji projeleri veya yeni başlayanlar olabilir. "
+"Yatırımlar risksiz değildir ve yaptığınız bir yatırımın başarısız olması ve "
+"tüm paranızı kaybetmeniz mümkündür. Bu yüzden mümkün olduğunca çeşitlendirme "
+"yapmalısınız. Farklı platformlar kullanın, küçük miktarlarda yatırım yapın "
+"ve birden fazla projeye yayın."
 
 #: tutorials/get-rich-fast/index.php:72
 msgid "Here are some investment platforms that I have personally invested in:"
-msgstr ""
+msgstr "Şahsen yatırım yaptığım bazı yatırım platformları:"
 
 #: tutorials/get-rich-fast/index.php:78
 #, php-format
 msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr ""
+msgstr "(\"%s\" koduyla ilk yatırımınızda 50€ tasarruf edin)"
 
 #: tutorials/get-rich-fast/index.php:93
 msgid "Passive income"
-msgstr ""
+msgstr "Pasif gelir"
 
 #: tutorials/get-rich-fast/index.php:94
 msgid ""
@@ -1515,14 +1887,22 @@ msgid ""
 "doing this for a few years until you can live only from your passive income "
 "streams."
 msgstr ""
+"İlk yatırımlarınızı yaptıktan sonra, yatırımınızın küçük bir yüzdesini "
+"temettü olarak alacaksınız. Her yatırıma göre değişir. Basitleştirmek için, "
+"ortalama %10 faiz kazandığınızı ve gelirinizin %10'unu yatırdığınızı ve "
+"yatırımların 1/6'sının başarısız olduğunu varsayalım. Bu, her ay bir yıl "
+"yatırım yaptıktan sonra, maaşınızın tamamını zaten biriktirmiş ve o yıl "
+"düzenli yatırımlarınızla birlikte doğrudan yeniden yatırım yapabileceğiniz "
+"%10 temettü ödemesi almış olacağınız anlamına gelir. Yalnızca pasif gelir "
+"akışlarınızdan geçinene kadar bunu birkaç yıl yapmaya devam edin."
 
 #: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
 msgid "Daniel - Tutorials"
-msgstr ""
+msgstr "Daniel - Öğreticiler"
 
 #: tutorials/index.php:10 tutorials/index.php:16
 msgid "Various tutorials provided by Daniel Winzen"
-msgstr ""
+msgstr "Daniel Winzen tarafından sağlanan çeşitli öğreticiler"
 
 #: tutorials/index.php:28
 msgid ""
@@ -1530,38 +1910,43 @@ msgid ""
 "have suggestions on how to improve a tutorial or want me to make one another "
 "one, you can <a href=\"/contact.php\">contact me here</a>."
 msgstr ""
+"Buraya birkaç kez sorulan öğreticileri yüklüyorum. Bir öğreticiyi nasıl "
+"iyileştireceğinize dair önerileriniz varsa veya başka bir öğretici yapmamı "
+"istiyorsanız, <a href=\"/contact.php\">benimle buradan iletişime "
+"geçebilirsiniz</a>."
 
 #: tutorials/index.php:30
 msgid "Name"
-msgstr ""
+msgstr "İsim"
 
 #: tutorials/index.php:30
 msgid "Short description"
-msgstr ""
+msgstr "Kısa Açıklama"
 
 #: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
 msgid "Torify FTP clients"
-msgstr ""
+msgstr "FTP istemcilerini Torify"
 
 #: tutorials/index.php:31
 msgid "This tutorial will show you how to torify FTP clients."
 msgstr ""
+"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
 
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
 #: tutorials/successful-sugar-dating/index.php:22
 #: tutorials/successful-sugar-dating/index.php:32
 #: tutorials/successful-sugar-dating/index.php:34
 msgid "How to have a successful sugar dating relationship"
-msgstr ""
+msgstr "Başarılı bir şeker partner ilişkisine nasıl? sahip olunur"
 
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
 #: tutorials/successful-sugar-dating/index.php:23
 msgid "This tutorial will guide you in finding a sugar relationship."
-msgstr ""
+msgstr "Bu eğitim, bir şeker ilişkisi bulmanızda size rehberlik edecektir."
 
 #: tutorials/successful-sugar-dating/index.php:35
 msgid "What is sugar dating?"
-msgstr ""
+msgstr "Şeker randevusu nedir?"
 
 #: tutorials/successful-sugar-dating/index.php:36
 msgid ""
@@ -1573,10 +1958,17 @@ msgid ""
 "each other. Sugar partners have an agreement, on what each partner wants "
 "from the other, and what their boundaries are. This is called an arrangement."
 msgstr ""
+"Basmakalıp bir şeker baba, sözde şeker bebek olan çekici bir genç kadın "
+"arayan zengin, yaşlı bir adamdır. Şeker annesini veya şeker babasını arayan "
+"çekici bir adama şeker çocuk denir. Şeker flört ilişkisi, karşılıklı yarar "
+"sağlayan bir ilişkidir. Geleneksel flörtün aksine, partnerler aşk ya da "
+"ilişki için değil, birbirlerine yardım etmek için seçilir. Şeker ortakların, "
+"her bir ortağın diğerinden ne istediği ve sınırlarının ne olduğu konusunda "
+"bir anlaşması vardır. Buna düzenleme denir."
 
 #: tutorials/successful-sugar-dating/index.php:37
 msgid "How to get to an arrangement?"
-msgstr ""
+msgstr "Bir düzenlemeye nasıl gidilir?"
 
 #: tutorials/successful-sugar-dating/index.php:38
 msgid ""
@@ -1592,10 +1984,21 @@ msgid ""
 "can find your match. Once you've found your potential partner, discuss each "
 "of your expectations and come to an arrangement that suits you both."
 msgstr ""
+"Herkes benzersizdir, bu nedenle aranjmanınızın şeker partnerinizle "
+"tartışılması gerekir. Tipik olarak bir düzenleme, varlıklı ortağın, "
+"karşılığında iş toplantılarına ve partilere gelecek olan veya ayda birkaç "
+"saatliğine ortak şirketlerine verecek olan eşlerine mali yardım veya akıl "
+"hocalığı sağlamasını içerir. Bir düzenleme, genellikle erkekler tarafından "
+"talep edilen cinsel iyilikler de içerebilir. Ancak, bu rızaya dayalı olmalı "
+"ve şeker bebek olarak kendinizi rahat hissetmiyorsanız, o zaman "
+"yapmamalısınız. Önceliklerinizi, neye ihtiyacınız olduğunu ve partnerinize "
+"neler verebileceğinizi düşünün. Eşinizi bulabilmeniz için flört profilinizi "
+"yeterli ayrıntıyla doldurun. Potansiyel partnerinizi bulduktan sonra, "
+"beklentilerinizi tartışın ve ikinize de uygun bir anlaşmaya varın."
 
 #: tutorials/successful-sugar-dating/index.php:39
 msgid "What are the risks of sugar dating?"
-msgstr ""
+msgstr "Şeker flörtünün riskleri nelerdir?"
 
 #: tutorials/successful-sugar-dating/index.php:40
 msgid ""
@@ -1610,10 +2013,20 @@ msgid ""
 "important to be communicative with your sugar partner and form an "
 "arrangement that both of you are happy with."
 msgstr ""
+"Tıpkı normal flörtte olduğu gibi, partnerinizin yanında rahat olmalı ve "
+"birbirinizin arkadaşlığından keyif almalısınız. Partnerinizin yanında "
+"kendinizi iyi hissetmiyorsanız, bu ikiniz için de deneyimi mahveder, bu "
+"yüzden bir an önce bitirseniz iyi olur. Şeker baba ya da şeker bebek olarak "
+"ortaya çıkmak zor olabilir çünkü bazı insanlar bunu hala olumsuz olarak "
+"düşünür ve bunun için sizi eleştirir. Ayrıca, bir sağlayıcı olarak daha "
+"sonra paranızın aldatıldığını hissetmeniz veya şeker bebek olarak sırf para "
+"için seks yapmayı kabul ettiyseniz cinsel olarak sömürüldüğünüzü hissetmeniz "
+"de mümkündür. Bu yüzden şeker partnerinizle iletişim halinde olmak ve "
+"ikinizin de mutlu olacağı bir anlaşma yapmak çok önemlidir."
 
 #: tutorials/successful-sugar-dating/index.php:41
 msgid "What are the benefits of sugar dating?"
-msgstr ""
+msgstr "Şeker flörtünün faydaları nelerdir?"
 
 #: tutorials/successful-sugar-dating/index.php:42
 msgid ""
@@ -1629,10 +2042,21 @@ msgid ""
 "regular dating sites, given that the type of relationship is mutually "
 "beneficial and not necessarily romantic."
 msgstr ""
+"Şeker flörtü karşılıklı olarak faydalı olduğundan, dahil olan her iki taraf "
+"da bundan bir şeyler alır. Drama olmayacak ve her bir ihtiyaç ve "
+"beklentinizi tartışarak çatışmalara girmekten kaçınacaksınız. Eğlenceli "
+"olabilir ve olaylara alışık olduğunuzdan farklı bir bakış açısıyla "
+"bakabilirsiniz. Geleneksel flörtün aksine, ilginç biriyle eşleşene kadar bir "
+"flört sitesinde önemli bir zaman harcamanız gerekmez. Size uyan birini "
+"bulmanız yalnızca birkaç saat veya gün sürebilir. Özellikle erkekler için, "
+"flört bulmak normal tanışma sitelerine göre çok daha kolaydır, bunun nedeni "
+"sadece kadın-erkek oranıdır, ayrıca kadınlar normal tanışma sitelerine göre "
+"daha az seçicidir, çünkü ilişkinin türü karşılıklıdır. faydalı ve mutlaka "
+"romantik değil."
 
 #: tutorials/successful-sugar-dating/index.php:43
 msgid "Where do I find a sugar partner?"
-msgstr ""
+msgstr "Nerede bir şeker ortağı bulabilirim?"
 
 #: tutorials/successful-sugar-dating/index.php:44
 msgid ""
@@ -1644,34 +2068,45 @@ msgid ""
 "platform. This way the platform also filters out so-called salt daddies, who "
 "pretend to have money but do not."
 msgstr ""
+"Şeker partnerinizi normal tanışma sitelerinde potansiyel olarak "
+"bulabilirsiniz, ancak çoğu tanışma sitesinin bu tür flörtü kısıtlaması ve "
+"belirli anahtar kelimeleri kullandığınız için hesaplarınızı yasaklaması "
+"nedeniyle bu zor olacaktır. Yine de şeker flörtü için özel olarak yapılmış "
+"pek çok tanışma sitesi var. Genellikle çekici üyeler için ücretsizdir, ancak "
+"varlıklı üye platformu kullanmak için ödeme yapmak zorundadır. Bu şekilde "
+"platform, parası varmış gibi davranan ama olmayan sözde tuz babaları da "
+"filtreler."
 
 #: tutorials/successful-sugar-dating/index.php:45
 msgid "Here are some popular sugar dating sites:"
-msgstr ""
+msgstr "Bazı popüler şeker arkadaşlık siteleri şunlardır:"
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:36
 msgid "Tutorials - Torify FTP clients"
-msgstr ""
+msgstr "Öğreticiler - FTP istemcilerini Torify"
 
 #: tutorials/torify-ftp/index.php:10 tutorials/torify-ftp/index.php:24
 msgid ""
 "This tutorial will show you how to torify FTP clients in the example of "
 "FileZilla and WinSCP."
 msgstr ""
+"Bu öğretici, FileZilla ve WinSCP örneğinde FTP istemcilerini nasıl torify "
+"edeceğinizi gösterecektir."
 
 #: tutorials/torify-ftp/index.php:33
 msgid "Download FileZilla"
-msgstr ""
+msgstr "FileZilla'yı İndirin"
 
 #: tutorials/torify-ftp/index.php:33
 msgid ""
 "If you haven't installed FileZilla yet, you need to first download FileZilla."
 msgstr ""
+"Henüz FileZilla'yı yüklemediyseniz, önce FileZilla'yı indirmeniz gerekir."
 
 #: tutorials/torify-ftp/index.php:33
 msgid "Configure proxy"
-msgstr ""
+msgstr "Proxy'yi yapılandır"
 
 #: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:45
 msgid ""
@@ -1679,32 +2114,38 @@ msgid ""
 "localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
 "TorBrowser)."
 msgstr ""
+"Genel Proxy ayarlarına gidin ve türü SOCKS5 olarak, ana bilgisayarı "
+"localhost olarak ve Bağlantı Noktasını 9050 (Tor'u arka plan programı olarak "
+"çalıştırıyorsanız) veya 9150 (Tor Tarayıcı çalıştırıyorsanız) olarak "
+"değiştirin."
 
 #: tutorials/torify-ftp/index.php:33
 msgid "Alternatively download WinSCP"
-msgstr ""
+msgstr "Alternatif olarak WinSCP'yi indirin"
 
 #: tutorials/torify-ftp/index.php:33
 msgid "If you haven't installed WinSCP yet, you need to first download WinSCP."
-msgstr ""
+msgstr "Henüz WinSCP'yi yüklemediyseniz, önce WinSCP'yi indirmeniz gerekir."
 
 #: tutorials/torify-ftp/index.php:33
 msgid "Enter connection details"
-msgstr ""
+msgstr "Bağlantı ayrıntılarını girin"
 
 #: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:77
 msgid "When started, enter your connection details."
-msgstr ""
+msgstr "Başlatıldığında, bağlantı ayrıntılarınızı girin."
 
 #: tutorials/torify-ftp/index.php:33
 msgid "Change connection timeout"
-msgstr ""
+msgstr "Bağlantı zaman aşımını değiştir"
 
 #: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:83
 msgid ""
 "Click on the Advanced… button and under Connection, change timeout to 50 as "
 "Tor can be slow at times."
 msgstr ""
+"Gelişmiş… düğmesine tıklayın ve Bağlantı altında, Tor bazen yavaş "
+"olabileceğinden zaman aşımını 50 olarak değiştirin."
 
 #: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:89
 msgid ""
@@ -1712,12 +2153,18 @@ msgid ""
 "and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
 "and set \"Do DNS name lookup at proxy end\" to yes."
 msgstr ""
+"Şimdi Proxy sekmesine geçin ve türü SOCKS5 olarak değiştirin, ana makineyi "
+"127.0.0.1 olarak ve Bağlantı Noktasını 9050 (Tor'u arka plan programı olarak "
+"çalıştırıyorsanız) veya 9150'yi (TorBrowser'ı çalıştırıyorsanız) değiştirin "
+"ve \"Proxy sonunda DNS adı araması yap\" ayarını yapın Evet."
 
 #: tutorials/torify-ftp/index.php:37
 msgid ""
 "This tutorial will show you how to torify FTP clients in the example of <a "
 "href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 msgstr ""
+"Bu öğretici, <a href=\"#filezilla\">FileZilla</a> ve <a href=\"#winscp\""
+">WinSCP</a> örneğinde FTP istemcilerini nasıl sıkıştıracağınızı gösterecek."
 
 #: tutorials/torify-ftp/index.php:38
 msgid ""
@@ -1727,14 +2174,19 @@ msgid ""
 "To connect to the hidden service, you need to make a few changes to the "
 "configuration."
 msgstr ""
+"Eski Hosting hizmetimde bir hesap oluşturduğunuzu ve dosyalarınızı yüklemek "
+"istediğinizi varsayalım. Bunu yapmak için kontrol panelinizde verilen "
+"ayrıntılarla bağlantı kurarsınız. Clearnet kutunun dışında çalışır, ancak "
+"işkence görmez. Gizli servise bağlanmak için konfigürasyonda birkaç "
+"değişiklik yapmanız gerekiyor."
 
 #: tutorials/torify-ftp/index.php:41
 msgid "Hosting dashboard"
-msgstr ""
+msgstr "Barındırma kontrol paneli"
 
 #: tutorials/torify-ftp/index.php:43
 msgid "1. FileZilla"
-msgstr ""
+msgstr "1. FileZilla"
 
 #: tutorials/torify-ftp/index.php:44
 msgid ""
@@ -1742,14 +2194,17 @@ msgid ""
 "project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">download FileZilla here</a>."
 msgstr ""
+"Henüz FileZilla'yı yüklemediyseniz, <a href=\"https://filezilla-project.org/"
+"download.php?type=client\" target=\"_blank\" rel=\"noopener noreferrer\""
+">FileZilla'yı buradan indirebilirsiniz</a>."
 
 #: tutorials/torify-ftp/index.php:50
 msgid "FileZilla settings"
-msgstr ""
+msgstr "FileZilla ayarları"
 
 #: tutorials/torify-ftp/index.php:57
 msgid "FileZilla Generic Proxy settings"
-msgstr ""
+msgstr "FileZilla Genel Proxy ayarları"
 
 #: tutorials/torify-ftp/index.php:60
 msgid ""
@@ -1759,24 +2214,32 @@ msgid ""
 "is running and if you still have the issue, switch the Port between 9050 and "
 "9150. This is what's causing most connection issues people have."
 msgstr ""
+"Proxy ayarlarınızı değiştirdiyseniz ve şu hatayı alıyorsanız: \"ECONNREFUSED "
+"- Bağlantı sunucu tarafından reddedildi\", bu muhtemelen proxy'nizi yanlış "
+"yapılandırdığınız anlamına gelir. Her şeyin doğru ayarlanıp ayarlanmadığını, "
+"Tor'un çalışıp çalışmadığını kontrol edin ve sorun devam ederse Bağlantı "
+"Noktasını 9050 ile 9150 arasında değiştirin. İnsanların sahip olduğu "
+"bağlantı sorunlarının çoğunun nedeni budur."
 
 #: tutorials/torify-ftp/index.php:64
 msgid "FileZilla connection error"
-msgstr ""
+msgstr "FileZilla bağlantı hatası"
 
 #: tutorials/torify-ftp/index.php:66
 msgid ""
 "Once you have configured everything correctly, you should be able to "
 "successfully connect and start uploading files."
 msgstr ""
+"Her şeyi doğru bir şekilde yapılandırdıktan sonra, başarılı bir şekilde "
+"bağlanabilmeniz ve dosya yüklemeye başlayabilmeniz gerekir."
 
 #: tutorials/torify-ftp/index.php:71
 msgid "FileZilla success"
-msgstr ""
+msgstr "FileZilla başarılı"
 
 #: tutorials/torify-ftp/index.php:75
 msgid "2. WinSCP"
-msgstr ""
+msgstr "2. WinSCP"
 
 #: tutorials/torify-ftp/index.php:76
 msgid ""
@@ -1784,15 +2247,18 @@ msgid ""
 "eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
 "WinSCP here</a>."
 msgstr ""
+"Henüz WinSCP'yi yüklemediyseniz, <a href=\"https://winscp.net/eng/download."
+"php\" target=\"_blank\" rel=\"noopener noreferrer\">WinSCP'yi buradan "
+"indirebilirsiniz</a>."
 
 #: tutorials/torify-ftp/index.php:81
 msgid "Connection details"
-msgstr ""
+msgstr "Bağlantı detayları"
 
 #: tutorials/torify-ftp/index.php:87
 msgid "Connection optimizations"
-msgstr ""
+msgstr "Bağlantı optimizasyonları"
 
 #: tutorials/torify-ftp/index.php:93
 msgid "Proxy configuration"
-msgstr ""
+msgstr "Proxy yapılandırması"
