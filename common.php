@@ -58,6 +58,7 @@ const LANGUAGES = [
 	'en' => ['name' => 'English', 'locale' => 'en_GB', 'flag' => '🇬🇧', 'show_in_menu' => true, 'dir' => 'ltr'],
 	'pt-BR' => ['name' => 'Brazilian Portuguese', 'locale' => 'pt_BR', 'flag' => '🇧🇷', 'show_in_menu' => true, 'dir' => 'ltr'],
 	'ru' => ['name' => 'Русский', 'locale' => 'ru_RU', 'flag' => '🇷🇺', 'show_in_menu' => true, 'dir' => 'ltr'],
+	'tr' => ['name' => 'Türkçe', 'locale' => 'tr_TR', 'flag' => '🇹🇷', 'show_in_menu' => true, 'dir' => 'ltr'],
 	'zh-Hans' => ['name' => '简体中文', 'locale' => 'zh_CN', 'flag' => '🇨🇳', 'show_in_menu' => true, 'dir' => 'ltr'],
 ];
 $language = 'en';
