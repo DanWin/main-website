@@ -12,7 +12,7 @@ const CONTACT_VAT_ID_NUMBER = 'DE358256290';
 global $global_style, $language, $dir;
 $global_style = 'body{margin:0;font-size:18px}';
 $global_style .= 'header{padding:0 50px;background:#00F;min-height:61px;display:flex;align-items:center}';
-//$global_style .= 'header.notice{background:#F00;height:25px;display:flex;align-items:center} header.notice a{width:100%;display:flex} header.notice span{margin:auto}';
+//$global_style .= 'header.notice{background:#F00;height:25px;display:flex;align-items:center} header.notice a{color:white} header.notice span{margin:auto}';
 $global_style .= 'header h1{font-size:24px;color:#fff;margin:auto}';
 $global_style .= 'main{margin-bottom:30px;padding:1em;word-wrap:break-word}';
 $global_style .= 'nav{padding:0;background-color:#FFF;width:100%;z-index:1;display:block;position:absolute}';

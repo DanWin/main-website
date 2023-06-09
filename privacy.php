@@ -55,5 +55,11 @@ global $language, $dir, $locale;
 <br><?php echo _('Finally, processing operations could be based on Article 6(1) lit. f GDPR. This legal basis is used for processing operations which are not covered by any of the above-mentioned legal grounds, if processing is necessary for the purposes of the legitimate interests pursued by me or by a third party, except where such interests are overridden by the interests or fundamental rights and freedoms of the data subject which require protection of personal data. Such processing operations are particularly permissible because they have been specifically mentioned by the European legislator. He considered that a legitimate interest could be assumed if the data subject is a client of the controller (Recital 47 Sentence 2 GDPR).'); ?></p>
 <h2><?php echo _('7. Legally binding translation'); ?></h2>
 <p><?php echo _('Legally binding is only the English version of this privacy policy'); ?></p>
+<h2><?php echo _('8. List of sub-processors'); ?></h2>
+<table>
+    <tr><th><?php echo _('Vendor'); ?></th><th><?php echo _('Purpose'); ?></th></tr>
+    <tr><td><a href="https://www.hetzner.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Hetzner</a></td><td><?php echo _('VPS provider to relay outgoing mails, proxy clearnet requests and provider for backup space'); ?></td></tr>
+    <tr><td><a href="https://www.hosting.de/ueber-uns/datenschutz/" target="_blank" rel="noopener noreferrer">hosting.de GmbH</a></td><td><?php echo _('VPS provider to relay outgoing mails and proxy clearnet requests'); ?></td></tr>
+</table>
 </main>
 </body></html>
