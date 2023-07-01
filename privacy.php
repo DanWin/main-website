@@ -58,8 +58,8 @@ global $language, $dir, $locale;
 <h2><?php echo _('8. List of sub-processors'); ?></h2>
 <table>
     <tr><th><?php echo _('Vendor'); ?></th><th><?php echo _('Purpose'); ?></th></tr>
-    <tr><td><a href="https://www.hetzner.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Hetzner</a></td><td><?php echo _('VPS provider to relay outgoing mails, proxy clearnet requests and provider for backup space'); ?></td></tr>
-    <tr><td><a href="https://www.hosting.de/ueber-uns/datenschutz/" target="_blank" rel="noopener noreferrer">hosting.de GmbH</a></td><td><?php echo _('VPS provider to relay outgoing mails and proxy clearnet requests'); ?></td></tr>
+    <tr><td><a href="https://www.hetzner.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Hetzner Online GmbH</a></td><td><?php echo _('Providing server infrastructure and backup storage'); ?></td></tr>
+    <tr><td><a href="https://www.hosting.de/ueber-uns/datenschutz/" target="_blank" rel="noopener noreferrer">hosting.de GmbH</a></td><td><?php echo _('Providing server infrastructure'); ?></td></tr>
 </table>
 </main>
 </body></html>
