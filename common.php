@@ -123,7 +123,7 @@ function menu(string $title = ''): void
 		$onions='http://zdmhl2zydlw5soy3jpaofbpq3pmuxc7trx2lfubeqryqd266jl4q.b32.i2p';
 	}
 	echo "<a href=\"$host/\">"._('Home').'</a>';
-	echo "<a href=\"$host/chat/\">"._('Chat').'</a>';
+	echo "<a href=\"$host/blog/\">"._('Blog and news').'</a>';
 	echo "<a href=\"$onions/test.php\">"._('Online-Test').'</a>';
 	echo "<a href=\"$onions/\">"._('Onion link list').'</a>';
 	echo "<a href=\"$host/mail/\">"._('E-Mail + XMPP').'</a>';
