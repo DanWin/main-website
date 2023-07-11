@@ -47,7 +47,7 @@ global $language, $dir, $locale;
 	<li><a href="https://www.mysugardaddy.com?msd=SDeSxMN7aXkmgpHvrvhM" target="_blank" rel="noreferrer noopener">MySugarDaddy</a></li>
 	<li><a href="https://www.rpf00trk.com/42BSGDP/6JHXF/" target="_blank" rel="noreferrer noopener">Seeking</a></li>
 	<li><a href="https://www.rpf00trk.com/42BSGDP/9B9DM/" target="_blank" rel="noreferrer noopener">WhatsYourPrice</a></li>
-	<li><a href="https://sugarbook.com" target="_blank" rel="noreferrer noopener">SugarBook</a></li>
+	<li><a href="https://affiliates.sugarbook.com/go.php?id=923" target="_blank" rel="noreferrer noopener">SugarBook</a></li>
 </ul>
 </main>
 </body></html>
