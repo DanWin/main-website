@@ -6,12 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-04-22 08:40+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-09 22:03+0200\n"
 "PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
-"Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/tr/>\n"
+"Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,23 +27,25 @@ msgstr "Daniel - Künye"
 msgid "Imprint of Daniel Winzen"
 msgstr "Daniel Winzen'in Künyesi"
 
-#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
-#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
-#: privacy.php:21 chat/index.php:21 tutorials/get-rich-fast/index.php:29
-#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
-#: tutorials/torify-ftp/index.php:29
+#: imprint.php:21 index.php:21 hosting/index.php:21 new-domain.php:23
+#: blog/index.php:21 chat/index.php:21 contact.php:21 faq.php:20 privacy.php:21
+#: tutorials/index.php:21 tutorials/findom/index.php:27
+#: tutorials/successful-sugar-dating/index.php:28
+#: tutorials/get-rich-fast/index.php:29 tutorials/torify-ftp/index.php:29
+#: github-ipv6-proxy.php:26 about.php:23
 msgid "An avatar representing Daniel Winzen"
 msgstr "Daniel Winzen'i temsil eden bir avatar"
 
-#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
-#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
-#: privacy.php:24 chat/index.php:24 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
-#: tutorials/torify-ftp/index.php:32
+#: imprint.php:24 index.php:24 hosting/index.php:24 new-domain.php:26
+#: blog/index.php:24 chat/index.php:24 contact.php:24 faq.php:23 privacy.php:24
+#: tutorials/index.php:24 tutorials/findom/index.php:30
+#: tutorials/successful-sugar-dating/index.php:31
+#: tutorials/get-rich-fast/index.php:32 tutorials/torify-ftp/index.php:32
+#: github-ipv6-proxy.php:29 about.php:26
 msgid "Daniel"
 msgstr "Daniel Win"
 
-#: imprint.php:27 common.php:135
+#: imprint.php:27 common.php:136
 msgid "Imprint"
 msgstr "Künye"
 
@@ -103,7 +105,7 @@ msgstr ""
 "Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen'in "
 "kişisel web sitesi"
 
-#: index.php:27 common.php:124
+#: index.php:27 common.php:125
 msgid "Home"
 msgstr "Ev"
 
@@ -113,18 +115,18 @@ msgid ""
 "administrator. This is my personal website, that I develop in my free time. "
 "This site is available as <a href=\"http://"
 "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor hidden "
-"service</a> or via my clearnet proxy <a href=\"https://danwin1210."
-"de\">danwin1210.de</a>. To learn more about me and this site, check <a "
-"href=\"/about.php\">the about page</a>."
+"service</a> or via my clearnet proxy <a href=\"https://danwin1210.de"
+"\">danwin1210.de</a>. To learn more about me and this site, check <a href=\"/"
+"about.php\">the about page</a>."
 msgstr ""
 "Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
 "yöneticisi. Bu benim boş zamanlarımda geliştirdiğim kişisel web sitem. Bu "
-"siteye <a href=\"http"
-"://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
-"gizli hizmeti</a> olarak veya benim clearnet proxy'm <a href=\"https"
-"://danwin1210.de\">danwin1210.de</a>aracılığıyla erişilebilir bir. Benim ve "
-"bu site hakkında daha fazla bilgi edinmek için <a href=\"/about.php\""
-">hakkında sayfasını</a> kontrol edin."
+"siteye <a href=\"http://"
+"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor gizli "
+"hizmeti</a> olarak veya benim clearnet proxy'm <a href=\"https://danwin1210."
+"de\">danwin1210.de</a>aracılığıyla erişilebilir bir. Benim ve bu site "
+"hakkında daha fazla bilgi edinmek için <a href=\"/about.php\">hakkında "
+"sayfasını</a> kontrol edin."
 
 #: index.php:29
 msgid ""
@@ -159,317 +161,394 @@ msgstr ""
 "aracılığıyla bağışta bulunarak beni destekleyebilirsiniz. Daha fazla seçenek "
 "mevcut, sadece <a href=\"/contact.php\">benimle iletişime geçin</a>."
 
-#: about.php:6 about.php:17
-msgid "Daniel - About"
-msgstr "Daniel - Hakkında"
-
-#: about.php:10 about.php:18
-msgid ""
-"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
-"this site"
+#: common.php:126 blog/index.php:27
+msgid "Blog and news"
 msgstr ""
-"Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen ve "
-"bu site hakkında"
 
-#: about.php:29 common.php:132
-msgid "About"
-msgstr "Hakkında"
+#: common.php:127
+msgid "Online-Test"
+msgstr "Çevrimiçi-Deneme"
 
-#: about.php:30
-msgid "About me"
-msgstr "Benim hakkımda"
+#: common.php:128
+msgid "Onion link list"
+msgstr "Onion bağlantı listesi"
 
-#: about.php:31
-msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. In my free time I like reading books, programming on my open-"
-"source projects and pole dancing, which I picked up in times of the covid "
-"pandemic and resulting home office, because it's fun and keeps me fit."
-msgstr ""
-"Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
-"yöneticisi. Boş zamanlarımda kitap okumayı, açık kaynak projelerim üzerinde "
-"programlama yapmayı ve covid salgını ve bunun sonucunda evde ofis "
-"zamanlarında öğrendiğim direk dansını seviyorum çünkü eğlenceli ve beni "
-"formda tutuyor."
+#: common.php:129
+msgid "E-Mail + XMPP"
+msgstr "E-posta + XMPP"
 
-#: about.php:32
-msgid ""
-"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
-"also know some basics of Perl, Python, C, C++ and more. With my experience "
-"I'm able to quickly adapt and work with new languages, when necessary."
-msgstr ""
-"Düzenli olarak kullandığım programlama dilleri PHP, SQL ve JavaScript'tir, "
-"ancak Perl, Python, C, C++ ve daha fazlasının bazı temellerini de biliyorum. "
-"Tecrübemle, gerektiğinde yeni dillere hızla uyum sağlayabiliyor ve onlarla "
-"çalışabiliyorum."
+#: common.php:130 tutorials/index.php:27
+msgid "Tutorials"
+msgstr "Öğreticiler"
 
-#: about.php:33
-msgid ""
-"Before I got into coding and server management, I contributed German "
-"translation to various open-source projects since the end of 2011."
-msgstr ""
-"Kodlama ve sunucu yönetimine girmeden önce, 2011 yılının sonundan itibaren "
-"çeşitli açık kaynak projelerine Almanca çeviri katkıda bulundum."
-
-#: about.php:34
-msgid ""
-"Managing servers, email services and developing new web projects is what I "
-"thrive on. I like optimizing systems for performance and getting the best "
-"out of what I have. Do you need help with managing and optimizing your "
-"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
-"touch</a> and we'll discuss details."
-msgstr ""
-"Sunucuları, e-posta hizmetlerini yönetmek ve yeni web projeleri geliştirmek, "
-"başarılı olduğum şeyler. Sistemleri performans için optimize etmeyi ve sahip "
-"olduklarımdan en iyi şekilde yararlanmayı seviyorum. Altyapınızı veya web "
-"sitenizi yönetme ve optimize etme konusunda yardıma mı ihtiyacınız var? "
-"Yardım etmek için buradayım. <a href=\"/contact.php\">İletişime geçin</a>, "
-"ayrıntıları görüşelim."
-
-#: about.php:35
-msgid "Profiles on other sites that I am active on:"
-msgstr "Aktif olduğum diğer sitelerdeki profiller:"
-
-#: about.php:42
-msgid "About this site"
-msgstr "Bu site hakkında"
-
-#: about.php:43
-msgid ""
-"This is my personal site, that I develop in my free time. I started "
-"development of this site in August/September 2013 when I wanted to have a "
-"platform to host files on, to use at school."
-msgstr ""
-"Bu benim boş zamanlarımda geliştirdiğim kişisel sitem.Bu siteyi geliştirmeye "
-"Ağustos/Eylül 2013'te, okulda kullanmak üzere dosya barındırmak için bir "
-"platforma sahip olmak istediğimde başladım."
-
-#: about.php:44
-msgid ""
-"Quickly the idea of using a chat at school came up and I came across a "
-"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
-"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
-"deployed that on my Raspberry Pi it was running very slowly and wasn't "
-"really usable for use with several people. So I decided to port some parts I "
-"needed to PHP."
-msgstr ""
-"Okulda sohbet kullanma fikri hemen aklıma geldi ve <a href=\"https://github."
-"com/virtualghetto/lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> "
-"adında basit bir perl sohbet komut dosyasıyla karşılaştım. SOHBET</a>. Bunu "
-"Raspberry Pi'me yerleştirdiğimde çok yavaş çalışıyordu ve birkaç kişiyle "
-"kullanım için gerçekten uygun değildi. Bu yüzden ihtiyacım olan bazı "
-"parçaları PHP'ye taşımaya karar verdim."
-
-#: about.php:45
-msgid ""
-"This has been the start for me to get deeper into web-development and I have "
-"since open-sourced that chat script and several other scripts of this site "
-"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
-"many new features and improved reliability and my code a lot."
-msgstr ""
-"Bu, web geliştirme konusunda daha derinleşmem için bir başlangıç oldu ve o "
-"zamandan beri bu sohbet komut dosyasını ve bu sitenin diğer birkaç komut "
-"dosyasını <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub hesabı</a>. O zamandan beri birçok yeni "
-"özellik ekledim ve güvenilirliği ve kodumu çok geliştirdim."
-
-#: about.php:46
-msgid ""
-"I used to offer free file hosting, an url shortener, a chat and even a free "
-"darknet web hosting service. All these projects have taught me a lot about "
-"coding, security and server management. As of now, only the anonymous email "
-"and XMPP hosting, as well as the onion link list are still actively "
-"maintained."
-msgstr ""
-"Eskiden ücretsiz dosya barındırma, url kısaltıcı, sohbet ve hatta ücretsiz "
-"bir darknet web barındırma hizmeti sunuyordum. Tüm bu projeler bana kodlama, "
-"güvenlik ve sunucu yönetimi hakkında çok şey öğretti. Şu an itibariyle, "
-"yalnızca anonim e-posta ve XMPP barındırma ile soğan bağlantı listesi aktif "
-"olarak sürdürülmektedir."
-
-#: about.php:47
-msgid "About the setup"
-msgstr "kurulum hakkında"
-
-#: about.php:48
-msgid ""
-"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
-"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
-"sh and Wireguard."
-msgstr ""
-"Kullandığım yazılımlar Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, "
-"Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme.sh ve Wireguard "
-"çalıştıran Debian sid'dir."
-
-#: about.php:49
-msgid ""
-"The clearnet gateways on <a href=\"https://danwin1210.de\" "
-"target=\"_blank\">danwin1210.de</a> are an NginX Proxy that will forward all "
-"requests to the raspberry pis at home. Additionally, they run a Postfix "
-"instance only listening on the VPN network to send out mails to clearnet."
-msgstr ""
-"<a href=\"https://danwin1210.de\" target=\"_blank\">danwin1210.de</a> "
-"üzerindeki clearnet ağ geçitleri, tüm istekleri evdeki raspberry pis'e "
-"iletecek bir NginX Proxy'sidir. Ek olarak, postaları clearnet'e göndermek "
-"için yalnızca VPN ağını dinleyen bir Postfix örneği çalıştırırlar."
-
-#: about.php:50
-msgid "All servers are interconnected with a Wireguard VPN."
-msgstr "Tüm sunucular bir Wireguard VPN ile birbirine bağlıdır."
-
-#: about.php:51
-msgid "Hosting providers I use(ed) and servers hosted there:"
-msgstr ""
-"Kullandığım(ed) barındırma sağlayıcıları ve burada barındırılan sunucular:"
-
-#: about.php:53 about.php:54
-#, php-format
-msgid "%s - good for short-term and/or low-bandwidth projects"
-msgstr "%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyi"
-
-#: about.php:55
-#, php-format
-msgid "%s - good and reliable"
-msgstr "%s - iyi ve güvenilir"
-
-#: about.php:56
-#, php-format
-msgid "%s - comparably expensive but good and reliable"
-msgstr "%s - nispeten pahalı ama iyi ve güvenilir"
-
-#: about.php:57
-#, php-format
-msgid "%s - (Used for my clearnet gateway) - good and reliable"
-msgstr "%s - (Net ağ geçidim için kullanılır) - iyi ve güvenilir"
-
-#: about.php:58
-#, php-format
-msgid ""
-"%s - (Used for my clearnet gateway + Domain registration) - good and "
-"reliable, hosted in my city"
-msgstr ""
-"%s - (Net ağ geçidim + Etki alanı kaydım için kullanılır) - iyi ve "
-"güvenilir, benim şehrimde barındırılıyor"
-
-#: about.php:59
-msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
-msgstr "Evde barındırılan: Ana site ve verilerle birlikte 4 Raspberry Pi 4"
-
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:130
+#: common.php:131 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy'si"
 
-#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
-msgid ""
-"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+#: common.php:132
+msgid "FAQ"
+msgstr "SSS"
+
+#: common.php:133 about.php:29
+msgid "About"
+msgstr "Hakkında"
+
+#: common.php:134 contact.php:27
+msgid "Contact"
+msgstr "İletişim"
+
+#: common.php:135
+msgid "Privacy"
+msgstr "Mahremiyet"
+
+#: common.php:147
+msgid "Add translation"
+msgstr "Çeviri ekle"
+
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
+#: hosting/index.php:27
+msgid "Daniel's Hosting shutdown after hack"
 msgstr ""
-"GitHub IPv6 proxy, GitHub depolarının yalnızca IPv6 sunucularına "
-"indirilmesine izin verir"
 
-#: github-ipv6-proxy.php:34
-#, php-format
+#: hosting/index.php:10 hosting/index.php:16
+msgid "Daniel's Hosting - a former darknet web hosting service"
+msgstr "Daniel's Hosting - eski bir darknet web barındırma hizmeti"
+
+#: hosting/index.php:28
 msgid ""
-"Recently I had to clone a git repository on GitHub via an IPv6 only server "
-"that I rented at my favourite hosting provider %s. Unfortunately I realized "
-"that GitHub still <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
-"support IPv6</a>."
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at <a href="
+"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
+"\">https://github.com/DanWin/hosting</a>."
 msgstr ""
-"Son zamanlarda, favori barındırma sağlayıcım %s'den kiraladığım yalnızca "
-"IPv6 sunucusu aracılığıyla GitHub'da bir git deposunu klonlamak zorunda "
-"kaldım. Maalesef GitHub'ın hala <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">IPv6'yı "
-"desteklemediğini</a> fark ettim."
+"Mart 2020'de bir bilgisayar korsanı barındırma hizmetimle ilgili tüm "
+"veritabanlarını sildi, bu nedenle barındırma hizmetimi kapatmak zorunda "
+"kaldım. Katkıda bulunmak veya kendi barındırma hizmetinizi kurmak "
+"istiyorsanız, <a href=\"https://github.com/DanWin/hosting\" target=\"_blank"
+"\" rel=\"noopener\">https:// adresindeki açık kaynak projeme göz atın. "
+"github.com/DanWin/hosting</a>."
 
-#: github-ipv6-proxy.php:35
+#: hosting/index.php:29
 msgid ""
-"My workaround was setting up a WireGuard VPN with one of my dual-stack "
-"servers. An alternative could have been installing Tor to download "
-"anonymously."
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
+"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">available for download</a>, which should enable anyone willing to become "
+"the next darknet shared hosting provider to start where I left of."
 msgstr ""
-"Geçici çözümüm, çift yığınlı sunucularımdan biriyle bir WireGuard VPN "
-"kurmaktı. Anonim olarak indirmek için Tor'u yüklemek bir alternatif "
-"olabilirdi."
+"Bir darknet barındırıcısı olmak bana birçok şey öğretti. Ancak bu, tam "
+"zamanlı işimin yanında yaptığım boş bir zaman projesiydi ve sunucuyu yasa "
+"dışı ve dolandırıcı sitelerden temiz tutmaya çalışmak çok zaman alıyor. "
+"Geliştirmeye devam etmek için ayırabileceğimden 10 kat daha fazlasını "
+"hesapları silmek için harcadım. Şu anda barındırma projesine devam etmeyi "
+"planlamıyorum, ancak bunun son olması gerekmiyor. <a href=\"http://"
+"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
+"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqiz gibi başka barındırma "
+"sağlayıcıları var kpju36fwdyd.onion /\" target=\"_blank\" rel=\"noopener"
+"\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> veya bir clearnet proxy "
+"hizmeti <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Kolay clearnet geçişi</a> ve benim projem <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">indirilebilir</a>, ki bu da bir sonraki darknet paylaşımlı barındırma "
+"sağlayıcısı olmaya istekli herkesin kaldığım yerden başlamasını sağlamak."
 
-#: github-ipv6-proxy.php:36
+#: new-domain.php:6 new-domain.php:17 new-domain.php:27
+msgid "Daniel - New domain"
+msgstr "Daniel - Yeni alan"
+
+#: new-domain.php:10 new-domain.php:18
+msgid "We moved to a brand new domain - migrate your accounts"
+msgstr "Yepyeni bir alana taşındık - hesaplarınızı taşıyın"
+
+#: new-domain.php:29 blog/index.php:32
+msgid "New domain - DanWin1210.Me is now DanWin1210.De"
+msgstr "Yeni etki alanı - DanWin1210.Me artık DanWin1210.De oldu"
+
+#: new-domain.php:30
+msgid "Why this sudden and drastic change?"
+msgstr "Neden bu ani ve sert değişiklik?"
+
+#: new-domain.php:31
 msgid ""
-"As I'm by far not the only user with an IPv6 only server looking to download "
-"repositories from GitHub, I decided to provide a public proxy server that "
-"can be used to access GitHub on an IPv6 network, until GitHub provides "
-"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
-"users from using unnecessary resources, as they can already clone from "
-"GitHub directly."
+"In mid-October 2021 I noticed that I was locked out of my registrar's "
+"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q>. After contacting their "
+"customer support multiple times, even after more than a year, all I have "
+"ever gotten back from them is that I will hear from them soon, as they need "
+"more time to investigate, and they appreciate my patience. I was refused "
+"renewing the domain or moving to a different registrar."
 msgstr ""
-"GitHub'dan havuz indirmek isteyen yalnızca IPv6 sunucusuna sahip tek "
-"kullanıcı olmadığım için, GitHub yerel IPv6 desteği sağlayana kadar bir IPv6 "
-"ağında GitHub'a erişmek için kullanılabilecek bir genel proxy sunucusu "
-"sağlamaya karar verdim. Proxy, IPv4 kullanıcılarının zaten doğrudan "
-"GitHub'dan klonlayabildikleri için gereksiz kaynakları kullanmalarını "
-"önlemek için yalnızca IPv6'da mevcuttur."
+"2021 Ekim ayının ortalarında, <q>dolandırıcılık şüphesi, ters ibraz veya "
+"hizmet şartlarımızın benzer bir ihlali</q> nedeniyle kayıt şirketimin "
+"kontrol paneline (Namecheap Inc.) erişimimin engellendiğini fark ettim. "
+"Müşteri desteğiyle defalarca iletişime geçmeme rağmen, bir yıldan uzun bir "
+"süre sonra bile onlardan aldığım tek yanıt, araştırmak için daha fazla "
+"zamana ihtiyaçları olduğu ve sabrımı takdir ettikleri için yakında onlardan "
+"haber alacağım oldu. Alan adını yenilemem veya farklı bir kayıt operatörüne "
+"geçmem reddedildi."
 
-#: github-ipv6-proxy.php:37
+#: new-domain.php:32
 msgid ""
-"Note, that my https proxy is serving a ssl certificate issued for my domain, "
-"which means I decrypt and re-encrypt your traffic (and could potentially "
-"look into it, but I don't). It is necessary as you'd get an invalid ssl "
-"certificate warning otherwise + github would redirect to the default port "
-"after accepting it. See below for a more permanent solution, that's more "
-"privacy-friendly."
+"Given that I was unable to get a satisfying answer and the old domain was "
+"due to expire, I went ahead and bought the new domain danwin1210.de, to "
+"switch over to. danwin1210.me went down after expiry, but thankfully I was "
+"allowed to pay for extension by creating a new account and depositing the "
+"money for renewal there, so it was back up shortly afterwards."
 msgstr ""
-"https proxy'min etki alanım için verilen bir ssl sertifikası sunduğunu "
-"unutmayın, bu da trafiğinizin şifresini çözüp yeniden şifrelediğim anlamına "
-"gelir (ve potansiyel olarak inceleyebilirim, ancak yapmıyorum). Geçersiz bir "
-"ssl sertifikası uyarısı alacağınız için gereklidir, aksi takdirde + github, "
-"kabul ettikten sonra varsayılan bağlantı noktasına yönlendirir. Daha kalıcı "
-"bir çözüm için aşağıya bakın, bu daha gizlilik dostudur."
+"Tatmin edici bir yanıt alamadığım ve eski alan adının süresinin dolmak üzere "
+"olduğu göz önüne alındığında, geçiş yapmak için yeni danwin1210.de alan "
+"adını satın aldım. danwin1210.me süresi dolduktan sonra kapandı, ama neyse "
+"ki yeni bir hesap oluşturarak ve yenileme için parayı oraya yatırarak uzatma "
+"için ödeme yapmama izin verildi, bu yüzden kısa bir süre sonra geri geldi."
 
-#: github-ipv6-proxy.php:38
-#, php-format
+#: new-domain.php:33
 msgid ""
-"So how does it work? Let's assume we want to clone the PHP Chat script I've "
-"published at %s. Normally cloning the repository would look like this:"
+"After a year my domain was due expiry again, so I enquired if I could move "
+"to a different registrar now. They offered me again to pay via an alternate "
+"account, because: <q>Unfortunately, we need more time to investigate your "
+"issue.</q> A year should be more than enough time to solve whatever issue "
+"they might have with my account… This time I decided to let it expire for "
+"good, since almost everyone should have switched over to the new domain by "
+"now."
 msgstr ""
-"Peki nasıl çalışıyor? %s'de yayınladığım PHP Sohbet komut dosyasını "
-"klonlamak istediğimizi varsayalım. Normalde depoyu klonlamak şöyle görünür:"
+"Bir yıl sonra, alan adımın yeniden sona erme zamanı geldi, bu yüzden şimdi "
+"farklı bir kayıt kuruluşuna geçip geçemeyeceğimi sordum. Alternatif bir "
+"hesap aracılığıyla ödeme yapmamı tekrar teklif ettiler çünkü: <q>Maalesef "
+"sorununuzu araştırmak için daha fazla zamana ihtiyacımız var.</q> Hesabımla "
+"ilgili olabilecek sorunları çözmek için bir yıldan fazla bir süre olmalı… Bu "
+"sefer, neredeyse herkesin şimdiye kadar yeni alan adına geçmiş olması "
+"gerektiğinden, süresinin dolmasına izin vermeye karar verdim."
 
-#: github-ipv6-proxy.php:40
-msgid "On an IPv6 connection, you can use my proxy service like this:"
-msgstr "Bir IPv6 bağlantısında, proxy hizmetimi şu şekilde kullanabilirsiniz:"
+#: new-domain.php:34
+msgid "What does it mean for users?"
+msgstr "Kullanıcılar için ne anlama geliyor?"
 
-#: github-ipv6-proxy.php:42
-msgid "And if you would like to clone via ssh you can also do it like this:"
-msgstr "Ve ssh ile klonlamak isterseniz, bunu şu şekilde de yapabilirsiniz:"
-
-#: github-ipv6-proxy.php:44
+#: new-domain.php:35
 msgid ""
-"Those wanting to use the proxy more permanently and/or talk directly to "
-"GitHub, without me re-encrypting your traffic, should add the following to /"
-"etc/hosts:"
+"You don't have an account and just browse the site? Not much will change, "
+"just the address in your browsers URL bar."
 msgstr ""
-"Proxy'yi daha kalıcı olarak kullanmak ve/veya ben trafiğinizi yeniden "
-"şifrelemeden doğrudan GitHub ile konuşmak isteyenler /etc/hosts'a şunu "
-"eklemelidir:"
+"Bir hesabınız yok ve sadece siteye mi göz atıyorsunuz? Pek bir şey "
+"değişmeyecek, sadece tarayıcınızın URL çubuğundaki adres değişecek."
 
-#: github-ipv6-proxy.php:49
-msgid "Once added, you can clone as usual, without any changes:"
-msgstr ""
-"Eklendikten sonra, herhangi bir değişiklik yapmadan her zamanki gibi "
-"klonlayabilirsiniz:"
-
-#: github-ipv6-proxy.php:52
+#: new-domain.php:36
 msgid ""
-"All of this is done with the following nginx configuration on a dual stack "
-"server:"
+"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
+"you some struggles, as you now only have a few days left to migrate all your "
+"contacts/accounts to the new address. Any service where you registered with "
+"your email address will need to be updated to reflect the new domain. You "
+"might otherwise get locked out of your accounts, if they require you to e.g. "
+"click a link in your email for login."
 msgstr ""
-"Tüm bunlar, çift yığınlı bir sunucuda aşağıdaki nginx yapılandırmasıyla "
-"yapılır:"
+"XMPP/E-Posta hizmetini mi kullanıyorsunuz? Üzgünüm, ancak artık tüm "
+"kişilerinizi/hesaplarınızı yeni adrese taşımak için yalnızca birkaç gününüz "
+"kaldığından, bu muhtemelen size bazı güçlükler yaşatacaktır. E-posta "
+"adresinizle kaydolduğunuz herhangi bir hizmetin, yeni etki alanını "
+"yansıtacak şekilde güncellenmesi gerekecektir. Aksi takdirde, ör. giriş "
+"yapmak için e-postanızdaki bir bağlantıya tıklayın."
 
-#: github-ipv6-proxy.php:90 chat/index.php:32
+#: new-domain.php:37
 msgid ""
-"If there are any further questions, feel free to <a href=\"/contact."
-"php\">contact me</a>."
+"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
+"php\" target=\"_blank\">in their account settings</a> to reflect the new "
+"domain and allow WKD clients to grab your key automatically."
+msgstr ""
+"E-posta kullanıcıları, yeni etki alanını yansıtmak ve WKD istemcilerinin "
+"anahtarınızı otomatik olarak almasına izin vermek için PGP anahtarlarını <a "
+"href=\"/mail/manage_account.php\" target=\"_blank\">hesap ayarlarında</a> "
+"güncellemelidir. ."
+
+#: new-domain.php:38
+msgid ""
+"You can no longer login with your .me user credentials, only with the .de "
+"ones, as the old domain is no longer under my control."
+msgstr ""
+
+#: new-domain.php:39
+msgid "Will the old address still work?"
+msgstr "Eski adres çalışmaya devam edecek mi?"
+
+#: new-domain.php:40
+msgid ""
+"After a very brief downtime, it was back online. Now, after a year, it's "
+"expired once more. I may be able to buy it again after Namecheap returns the "
+"domain to the registry. However, Namecheap apparently sells the domain now "
+"for $400…"
+msgstr ""
+"Çok kısa bir kesintinin ardından tekrar çevrimiçi oldu. Şimdi, bir yıl "
+"sonra, bir kez daha süresi doldu. Namecheap, etki alanını kayıt defterine "
+"iade ettikten sonra tekrar satın alabilirim. Ancak, Namecheap görünüşe göre "
+"alanı şimdi 400 dolara satıyor…"
+
+#: new-domain.php:41
+msgid ""
+"How do I know you are still the same person? This could be law enforcement "
+"taking over the servers."
+msgstr ""
+"Senin hala aynı kişi olduğunu nasıl bilebilirim? Bu, kolluk kuvvetlerinin "
+"sunucuları ele geçirmesi olabilir."
+
+#: new-domain.php:42
+msgid ""
+"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
+"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
+"\"_blank\">old PGP key</a>. This can be verified by running a command like "
+"this:"
+msgstr ""
+"<a href=\"/pgp.txt\" target=\"_blank\">yeni bir PGP anahtarı</a> oluşturma "
+"fırsatını yakaladım ve <a href=\"/old_pgp.txt\" target=\"_blank ile "
+"imzaladım \">eski PGP anahtarı</a>. Bu, şöyle bir komut çalıştırılarak "
+"doğrulanabilir:"
+
+#: new-domain.php:44
+msgid ""
+"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
+"code>. I have also included signatures of previous keys on my old key, so "
+"you can even verify the key, in case you have an older key I was using "
+"before."
+msgstr ""
+"Eski anahtarım <code>F8B8CFC35FBDB40D</code> tarafından imzalandığına dair "
+"kanıt göstermelidir. Eski anahtarıma önceki anahtarların imzalarını da "
+"ekledim, böylece daha önce kullandığım daha eski bir anahtarınız olması "
+"durumunda anahtarı doğrulayabilirsiniz."
+
+#: blog/index.php:6 blog/index.php:15 blog/index.php:25
+#, fuzzy
+#| msgid "Daniel - Home"
+msgid "Daniel - Blog and news"
+msgstr "Daniel - Ev"
+
+#: blog/index.php:10 blog/index.php:16
+#, fuzzy
+#| msgid "Contact Daniel Winzen"
+msgid "Blog and news by Daniel Winzen"
+msgstr "Daniel Winzen ile iletişim kurun"
+
+#: blog/index.php:28
+msgid "Blog posts and news related to my services will be posted here."
+msgstr ""
+
+#: blog/index.php:30
+msgid "Date"
+msgstr ""
+
+#: blog/index.php:30
+msgid "Title"
+msgstr ""
+
+#: blog/index.php:31
+msgid "March 2020"
+msgstr ""
+
+#: blog/index.php:31
+msgid "Hosting service shutdown due to hack"
+msgstr ""
+
+#: blog/index.php:32
+msgid "December 2021"
+msgstr ""
+
+#: blog/index.php:33
+msgid "December 2022"
+msgstr ""
+
+#: blog/index.php:33 chat/index.php:15 chat/index.php:27
+#, fuzzy
+#| msgid "Daniel's Chat"
+msgid "Daniel's Chat shutdown"
+msgstr "Daniel'in Sohbeti"
+
+#: chat/index.php:6
+#, fuzzy
+#| msgid "Daniel's Chat"
+msgid "Daniel's Chat shutdnown"
+msgstr "Daniel'in Sohbeti"
+
+#: chat/index.php:10 chat/index.php:16
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr "Daniel's Chat - eski bir darknet sohbet topluluğu"
+
+#: chat/index.php:25
+#, fuzzy
+#| msgid "Daniel's Chat"
+msgid "Daniel' Chat shutdown"
+msgstr "Daniel'in Sohbeti"
+
+#: chat/index.php:28
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr "9 yıl sonra sohbeti tamamen kapatıyorum."
+
+#: chat/index.php:29
+msgid ""
+"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">my onion link list</a>. If you are interested in running a similar "
+"chat community, you can download my chat script on <a href=\"https://github."
+"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">GitHub</a>."
+msgstr ""
+"<a href=\"https://onions.danwin1210.de/?cat=2\">Onion bağlantı listemde</a> "
+"alternatif sohbetler bulabilirsiniz. Benzer bir sohbet topluluğu yürütmekle "
+"ilgileniyorsanız, sohbet komut dosyamı <a href=\"https://github.com/DanWin/"
+"le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
+
+#: chat/index.php:30
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+"Bu sohbet 2013 yılında okulda kullanılmak üzere bir hobi projesi olarak "
+"başladı ve çok aktif bir darknet sohbet topluluğuna dönüştü. 2017'den beri "
+"sohbet yönetimini başka kişilere devrettim, çünkü artık sohbeti yönetmek "
+"için zaman veya motivasyon bulamıyordum. Son aylarda, devralan yönetim, "
+"sohbeti çok gizli tuttu, insanları erişim için saatlerce bekletti ve "
+"insanları sebepsiz yere rastgele tekmeledi. Bu da gelen kutumu, sohbete "
+"erişmek için yardım isteyen insanların mesajlarıyla doldurdu ve trafik "
+"eskisinin çok küçük bir kısmına düştü. Bu durumda, hizmeti sunmaya devam "
+"etmenin bir anlamı yoktur. Bu nedenle, 9 yıl sonra Aralık 2022'de sohbeti "
+"temelli kapatmaya karar verdim."
+
+#: chat/index.php:31
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+"Birkaç kişi benden onları yönetici yapmamı ve sohbeti yeniden "
+"etkinleştirmemi istediğinden: Hayır, bu karar verildi ve çok gecikti. "
+"Sohbeti programlamış olmam ve sunucunun bakımını yapmam dışında artık "
+"benimle hiçbir ilgisi yoktu. Herkes kendi sohbetini oluşturabilir, ancak "
+"burada benim sitemde değil."
+
+#: chat/index.php:32 github-ipv6-proxy.php:90
+msgid ""
+"If there are any further questions, feel free to <a href=\"/contact.php"
+"\">contact me</a>."
 msgstr ""
 "Başka sorunuz varsa <a href=\"/contact.php\">benimle iletişime geçmekten</a> "
 "çekinmeyin."
@@ -481,10 +560,6 @@ msgstr "Daniel - İletişim"
 #: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
 msgstr "Daniel Winzen ile iletişim kurun"
-
-#: contact.php:27 common.php:133
-msgid "Contact"
-msgstr "İletişim"
 
 #: contact.php:28
 msgid ""
@@ -512,8 +587,8 @@ msgstr "İleti:"
 
 #: contact.php:40
 msgid ""
-"I have read and agreed to the <a href=\"/privacy.php\" "
-"target=\"_blank\">Privacy Policy</a>"
+"I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
+"\">Privacy Policy</a>"
 msgstr ""
 "<a href=\"/privacy.php\" target=\"_blank\">Gizlilik Politikası</a>'nı okudum "
 "ve kabul ediyorum"
@@ -536,19 +611,19 @@ msgstr "Mesaj başarıyla iletildi!"
 
 #: contact.php:76
 msgid ""
-"If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
-"target=\"_blank\">my public PGP key</a>."
+"If you want to encrypt your message, you can use <a href=\"/pgp.txt\" target="
+"\"_blank\">my public PGP key</a>."
 msgstr ""
-"Mesajınızı şifrelemek istiyorsanız <a href=\"/pgp.txt\" target=\"_blank\""
-">genel PGP anahtarımı</a> kullanabilirsiniz."
+"Mesajınızı şifrelemek istiyorsanız <a href=\"/pgp.txt\" target=\"_blank"
+"\">genel PGP anahtarımı</a> kullanabilirsiniz."
 
 #: contact.php:77
 msgid ""
-"If you prefer to directly get in contact with me, email me at <a "
-"href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+"If you prefer to directly get in contact with me, email me at <a href="
+"\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgstr ""
-"Benimle doğrudan iletişime geçmeyi tercih ederseniz, bana <a href=\"mailto"
-":daniel@danwin1210.de\">daniel@danwin1210.de</a> adresinden e-posta gönderin."
+"Benimle doğrudan iletişime geçmeyi tercih ederseniz, bana <a href=\"mailto:"
+"daniel@danwin1210.de\">daniel@danwin1210.de</a> adresinden e-posta gönderin."
 
 #: faq.php:6 faq.php:14 faq.php:24
 msgid "Daniel - FAQ - Frequently Asked Questions"
@@ -581,9 +656,9 @@ msgstr "PGP nedir?"
 #: faq.php:26 faq.php:58
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
-"files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia "
-"article</a>."
+"files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" target="
+"\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia article</"
+"a>."
 msgstr ""
 "PGP, e-postaları ve dosyaları şifrelemek veya imzalamak için kullanılabilen "
 "bir şifreleme programıdır. <a href=\"https://en.wikipedia.org/wiki/"
@@ -615,9 +690,9 @@ msgstr ""
 
 #: faq.php:28 faq.php:66
 msgid ""
-"Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
-"individual projects you would like to translate."
+"Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub repositories</a> and check out the individual "
+"projects you would like to translate."
 msgstr ""
 "Lütfen <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
 "\"noopener noreferrer\">GitHub depolarıma</a> bakın ve çevirmek istediğiniz "
@@ -815,8 +890,8 @@ msgstr ""
 "güvenli olmayan protokoller kullanan bir posta sunucusundan size e-posta "
 "göndermeye çalıştı. Bu çok talihsiz bir durumdur çünkü e-posta içeriğinizi, "
 "hedefe ulaşmadan önce e-postanızı engelleyebilecek internetteki herhangi "
-"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a href=\"%s\""
-">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
+"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a href=\"%s"
+"\">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:41 faq.php:116
 msgid ""
@@ -832,8 +907,8 @@ msgid ""
 "Chances of becoming rich overnight are extremely low, you should rather "
 "focus on long term goals. It may take you a few years to become financially "
 "free, but everyone can get there, if you are willing to learn and educate "
-"yourself. I made an in-depth tutorial about some steps you can take: <a "
-"href=\"%s\">How to get rich (fast)</a>."
+"yourself. I made an in-depth tutorial about some steps you can take: <a href="
+"\"%s\">How to get rich (fast)</a>."
 msgstr ""
 "Zengin olmak ve borçlarınızı temizlemek kafanızda başlayan bir süreçtir. Bir "
 "gecede zengin olma şansı son derece düşük, uzun vadeli hedeflere odaklanmayı "
@@ -880,294 +955,6 @@ msgstr ""
 "Evet, benimle evlen ve bunu gerçekten yapabilirim. Ama karşılığında bana bir "
 "şey öğretirsen. <a href=\"contact.php\">Bana tekliflerinizi gönderin</a>. "
 "Üzgünüm beyler, sadece kadınları dikkate alıyorum."
-
-#: common.php:125
-msgid "Chat"
-msgstr "Sohbet"
-
-#: common.php:126
-msgid "Online-Test"
-msgstr "Çevrimiçi-Deneme"
-
-#: common.php:127
-msgid "Onion link list"
-msgstr "Onion bağlantı listesi"
-
-#: common.php:128
-msgid "E-Mail + XMPP"
-msgstr "E-posta + XMPP"
-
-#: common.php:129 tutorials/index.php:27
-msgid "Tutorials"
-msgstr "Öğreticiler"
-
-#: common.php:131
-msgid "FAQ"
-msgstr "SSS"
-
-#: common.php:134
-msgid "Privacy"
-msgstr "Mahremiyet"
-
-#: common.php:146
-msgid "Add translation"
-msgstr "Çeviri ekle"
-
-#: new-domain.php:6 new-domain.php:17 new-domain.php:27
-msgid "Daniel - New domain"
-msgstr "Daniel - Yeni alan"
-
-#: new-domain.php:10 new-domain.php:18
-msgid "We moved to a brand new domain - migrate your accounts"
-msgstr "Yepyeni bir alana taşındık - hesaplarınızı taşıyın"
-
-#: new-domain.php:29
-msgid "New domain - DanWin1210.Me is now DanWin1210.De"
-msgstr "Yeni etki alanı - DanWin1210.Me artık DanWin1210.De oldu"
-
-#: new-domain.php:30
-msgid "Why this sudden and drastic change?"
-msgstr "Neden bu ani ve sert değişiklik?"
-
-#: new-domain.php:31
-msgid ""
-"In mid-October 2021 I noticed that I was locked out of my registrar's "
-"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
-"similar violation of our terms of service</q>. After contacting their "
-"customer support multiple times, even after more than a year, all I have "
-"ever gotten back from them is that I will hear from them soon, as they need "
-"more time to investigate, and they appreciate my patience. I was refused "
-"renewing the domain or moving to a different registrar."
-msgstr ""
-"2021 Ekim ayının ortalarında, <q>dolandırıcılık şüphesi, ters ibraz veya "
-"hizmet şartlarımızın benzer bir ihlali</q> nedeniyle kayıt şirketimin "
-"kontrol paneline (Namecheap Inc.) erişimimin engellendiğini fark ettim. "
-"Müşteri desteğiyle defalarca iletişime geçmeme rağmen, bir yıldan uzun bir "
-"süre sonra bile onlardan aldığım tek yanıt, araştırmak için daha fazla "
-"zamana ihtiyaçları olduğu ve sabrımı takdir ettikleri için yakında onlardan "
-"haber alacağım oldu. Alan adını yenilemem veya farklı bir kayıt operatörüne "
-"geçmem reddedildi."
-
-#: new-domain.php:32
-msgid ""
-"Given that I was unable to get a satisfying answer and the old domain was "
-"due to expire, I went ahead and bought the new domain danwin1210.de, to "
-"switch over to. danwin1210.me went down after expiry, but thankfully I was "
-"allowed to pay for extension by creating a new account and depositing the "
-"money for renewal there, so it was back up shortly afterwards."
-msgstr ""
-"Tatmin edici bir yanıt alamadığım ve eski alan adının süresinin dolmak üzere "
-"olduğu göz önüne alındığında, geçiş yapmak için yeni danwin1210.de alan "
-"adını satın aldım. danwin1210.me süresi dolduktan sonra kapandı, ama neyse "
-"ki yeni bir hesap oluşturarak ve yenileme için parayı oraya yatırarak uzatma "
-"için ödeme yapmama izin verildi, bu yüzden kısa bir süre sonra geri geldi."
-
-#: new-domain.php:33
-msgid ""
-"After a year my domain was due expiry again, so I enquired if I could move "
-"to a different registrar now. They offered me again to pay via an alternate "
-"account, because: <q>Unfortunately, we need more time to investigate your "
-"issue.</q> A year should be more than enough time to solve whatever issue "
-"they might have with my account… This time I decided to let it expire for "
-"good, since almost everyone should have switched over to the new domain by "
-"now."
-msgstr ""
-"Bir yıl sonra, alan adımın yeniden sona erme zamanı geldi, bu yüzden şimdi "
-"farklı bir kayıt kuruluşuna geçip geçemeyeceğimi sordum. Alternatif bir "
-"hesap aracılığıyla ödeme yapmamı tekrar teklif ettiler çünkü: <q>Maalesef "
-"sorununuzu araştırmak için daha fazla zamana ihtiyacımız var.</q> Hesabımla "
-"ilgili olabilecek sorunları çözmek için bir yıldan fazla bir süre olmalı… Bu "
-"sefer, neredeyse herkesin şimdiye kadar yeni alan adına geçmiş olması "
-"gerektiğinden, süresinin dolmasına izin vermeye karar verdim."
-
-#: new-domain.php:34
-msgid "What does it mean for users?"
-msgstr "Kullanıcılar için ne anlama geliyor?"
-
-#: new-domain.php:35
-msgid ""
-"You don't have an account and just browse the site? Not much will change, "
-"just the address in your browsers URL bar."
-msgstr ""
-"Bir hesabınız yok ve sadece siteye mi göz atıyorsunuz? Pek bir şey "
-"değişmeyecek, sadece tarayıcınızın URL çubuğundaki adres değişecek."
-
-#: new-domain.php:36
-msgid ""
-"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
-"you some struggles, as you now only have a few days left to migrate all your "
-"contacts/accounts to the new address. Any service where you registered with "
-"your email address will need to be updated to reflect the new domain. You "
-"might otherwise get locked out of your accounts, if they require you to e.g. "
-"click a link in your email for login."
-msgstr ""
-"XMPP/E-Posta hizmetini mi kullanıyorsunuz? Üzgünüm, ancak artık tüm kiş"
-"ilerinizi/hesaplarınızı yeni adrese taşımak için yalnızca birkaç gününüz "
-"kaldığından, bu muhtemelen size bazı güçlükler yaşatacaktır. E-posta "
-"adresinizle kaydolduğunuz herhangi bir hizmetin, yeni etki alanını "
-"yansıtacak şekilde güncellenmesi gerekecektir. Aksi takdirde, ör. giriş "
-"yapmak için e-postanızdaki bir bağlantıya tıklayın."
-
-#: new-domain.php:37
-msgid ""
-"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
-"php\" target=\"_blank\">in their account settings</a> to reflect the new "
-"domain and allow WKD clients to grab your key automatically."
-msgstr ""
-"E-posta kullanıcıları, yeni etki alanını yansıtmak ve WKD istemcilerinin "
-"anahtarınızı otomatik olarak almasına izin vermek için PGP anahtarlarını <a "
-"href=\"/mail/manage_account.php\" target=\"_blank\">hesap ayarlarında</a> "
-"güncellemelidir. ."
-
-#: new-domain.php:38
-msgid ""
-"You can still login with your .me user credentials, but the account is going "
-"to be .de. As long as the old domain is still online, you can also receive "
-"emails on the .me domain, while sending is switched over to .de."
-msgstr ""
-"Hala .me kullanıcı kimlik bilgilerinizle giriş yapabilirsiniz, ancak hesap ."
-"de olacaktır. Eski alan adı hala çevrimiçi olduğu sürece, .me alan adı "
-"üzerinden de e-posta alabilirsiniz, ancak gönderme işlemi .de olarak yapılır."
-
-#: new-domain.php:39
-msgid ""
-"XMPP users will most likely notice their account stopped working. "
-"Unfortunately there is no easy way to migrate accounts with prosody (the "
-"XMPP server), as there is with email. You will need to update your account "
-"settings to reflect the new domain in order to login and re-connect with all "
-"your buddies."
-msgstr ""
-"XMPP kullanıcıları büyük olasılıkla hesaplarının çalışmadığını fark "
-"edeceklerdir. Ne yazık ki, e-postada olduğu gibi prozodi (XMPP sunucusu) ile "
-"hesapları taşımanın kolay bir yolu yoktur. Giriş yapmak ve tüm "
-"arkadaşlarınızla yeniden bağlantı kurmak için hesap ayarlarınızı yeni etki "
-"alanını yansıtacak şekilde güncellemeniz gerekecek."
-
-#: new-domain.php:40
-msgid "Will the old address still work?"
-msgstr "Eski adres çalışmaya devam edecek mi?"
-
-#: new-domain.php:41
-msgid ""
-"After a very brief downtime, it was back online. Now, after a year, it's "
-"expired once more. I may be able to buy it again after Namecheap returns the "
-"domain to the registry. However, Namecheap apparently sells the domain now "
-"for $400…"
-msgstr ""
-"Çok kısa bir kesintinin ardından tekrar çevrimiçi oldu. Şimdi, bir yıl "
-"sonra, bir kez daha süresi doldu. Namecheap, etki alanını kayıt defterine "
-"iade ettikten sonra tekrar satın alabilirim. Ancak, Namecheap görünüşe göre "
-"alanı şimdi 400 dolara satıyor…"
-
-#: new-domain.php:42
-msgid "I have a question, something is broken with my account."
-msgstr "Bir sorum var, hesabımda bir sorun var."
-
-#: new-domain.php:43
-msgid ""
-"Make sure you have switched all your settings to the new domain. It should "
-"work as before. Stil not working correctly? Feel free to <a href=\"/contact."
-"php\">contact me</a> for help."
-msgstr ""
-"Tüm ayarlarınızı yeni alan adına değiştirdiğinizden emin olun. Daha önce "
-"olduğu gibi çalışması gerekir. Hala düzgün çalışmıyor musunuz? Yardım için "
-"<a href=\"/contact.php\">benimle iletişime geçmekten</a> çekinmeyin."
-
-#: new-domain.php:44
-msgid ""
-"How do I know you are still the same person? This could be law enforcement "
-"taking over the servers."
-msgstr ""
-"Senin hala aynı kişi olduğunu nasıl bilebilirim? Bu, kolluk kuvvetlerinin "
-"sunucuları ele geçirmesi olabilir."
-
-#: new-domain.php:45
-msgid ""
-"I have taken the opportunity to create a <a href=\"/pgp.txt\" "
-"target=\"_blank\">new PGP key</a> and signed it with my <a href=\"/old_pgp."
-"txt\" target=\"_blank\">old PGP key</a>. This can be verified by running a "
-"command like this:"
-msgstr ""
-"<a href=\"/pgp.txt\" target=\"_blank\">yeni bir PGP anahtarı</a> oluşturma "
-"fırsatını yakaladım ve <a href=\"/old_pgp.txt\" target=\"_blank ile "
-"imzaladım \">eski PGP anahtarı</a>. Bu, şöyle bir komut çalıştırılarak "
-"doğrulanabilir:"
-
-#: new-domain.php:47
-msgid ""
-"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
-"code>. I have also included signatures of previous keys on my old key, so "
-"you can even verify the key, in case you have an older key I was using "
-"before."
-msgstr ""
-"Eski anahtarım <code>F8B8CFC35FBDB40D</code> tarafından imzalandığına dair "
-"kanıt göstermelidir. Eski anahtarıma önceki anahtarların imzalarını da "
-"ekledim, böylece daha önce kullandığım daha eski bir anahtarınız olması "
-"durumunda anahtarı doğrulayabilirsiniz."
-
-#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
-#: hosting/index.php:27
-msgid "Hosting - Info"
-msgstr "Hosting - Bilgi"
-
-#: hosting/index.php:10 hosting/index.php:16
-msgid "Daniel's Hosting - a former darknet web hosting service"
-msgstr "Daniel's Hosting - eski bir darknet web barındırma hizmeti"
-
-#: hosting/index.php:28
-msgid ""
-"In March 2020 a hacker deleted all databases related to my hosting, thus I "
-"was forced to shut down my hosting service. If you want to contribute or "
-"setup your own hosting, check out my open source project at <a "
-"href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
-"rel=\"noopener\">https://github.com/DanWin/hosting</a>."
-msgstr ""
-"Mart 2020'de bir bilgisayar korsanı barındırma hizmetimle ilgili tüm "
-"veritabanlarını sildi, bu nedenle barındırma hizmetimi kapatmak zorunda "
-"kaldım. Katkıda bulunmak veya kendi barındırma hizmetinizi kurmak "
-"istiyorsanız, <a href=\"https://github.com/DanWin/hosting\" target=\"_blank\""
-" rel=\"noopener\">https:// adresindeki açık kaynak projeme göz atın. github."
-"com/DanWin/hosting</a>."
-
-#: hosting/index.php:29
-msgid ""
-"Being a darknet hoster has taught me many things. However, this was a free "
-"time project I did next to my full time job and it's very time-consuming to "
-"try and keep the server clean from illegal and scammy sites. I've spent 10 "
-"times more time on deleting accounts than I could find time to continue "
-"development. At this time I do not plan on continuing the hosting project, "
-"but this doesn't have to be the end. There are other hosting providers like "
-"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
-"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a "
-"href=\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/"
-"\" target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
-"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
-"rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
-"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
-"rel=\"noopener\">available for download</a>, which should enable anyone "
-"willing to become the next darknet shared hosting provider to start where I "
-"left of."
-msgstr ""
-"Bir darknet barındırıcısı olmak bana birçok şey öğretti. Ancak bu, tam "
-"zamanlı işimin yanında yaptığım boş bir zaman projesiydi ve sunucuyu yasa "
-"dışı ve dolandırıcı sitelerden temiz tutmaya çalışmak çok zaman alıyor. "
-"Geliştirmeye devam etmek için ayırabileceğimden 10 kat daha fazlasını "
-"hesapları silmek için harcadım. Şu anda barındırma projesine devam etmeyi "
-"planlamıyorum, ancak bunun son olması gerekmiyor. <a href=\"http"
-"://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
-"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqiz gibi başka barındırma "
-"sağlayıcıları var kpju36fwdyd.onion /\" target=\"_blank\" rel=\"noopener\""
-">OneHost</a>, <a href=\"http"
-"://dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> veya bir clearnet proxy "
-"hizmeti <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-"\"noopener\">Clearnet Onion | Kolay clearnet geçişi</a> ve benim projem <a "
-"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
-"\">indirilebilir</a>, ki bu da bir sonraki darknet paylaşımlı barındırma "
-"sağlayıcısı olmaya istekli herkesin kaldığım yerden başlamasını sağlamak."
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
@@ -1383,8 +1170,8 @@ msgid ""
 "Article 21 GDPR"
 msgstr ""
 "Her veri sahibi, GDPR Madde 15'e göre doğrulama ve erişim hakkına, GDPR "
-"Madde 16'ya göre düzeltme hakkına, GDPR Madde 17'ye göre silme hakkına ("
-"unutulma hakkı), GDPR Madde 18'e göre işlemeyi kısıtlama hakkına sahiptir. "
+"Madde 16'ya göre düzeltme hakkına, GDPR Madde 17'ye göre silme hakkına "
+"(unutulma hakkı), GDPR Madde 18'e göre işlemeyi kısıtlama hakkına sahiptir. "
 "GDPR, GDPR madde 20 uyarınca veri taşınabilirliği hakkı, GDPR Madde 21 "
 "uyarınca itiraz hakkı"
 
@@ -1438,8 +1225,8 @@ msgstr ""
 "gerektiren veri sahibinin çıkarları veya temel hak ve özgürlükleri. Bu tür "
 "işleme operasyonlarına özellikle izin verilir, çünkü Avrupa yasa koyucusu "
 "tarafından özel olarak bahsedilmiştir. Veri öznesinin denetleyicinin bir "
-"müşterisi olması durumunda meşru bir menfaatin varsayılabileceğini düşündü ("
-"GDPR Gerekçesi 47 Cümle 2)."
+"müşterisi olması durumunda meşru bir menfaatin varsayılabileceğini düşündü "
+"(GDPR Gerekçesi 47 Cümle 2)."
 
 #: privacy.php:56
 msgid "7. Legally binding translation"
@@ -1451,82 +1238,352 @@ msgstr ""
 "Yasal olarak bağlayıcı olan bu gizlilik politikasının yalnızca İngilizce "
 "versiyonudur"
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:25
-msgid "Daniel - Chat"
-msgstr "Daniel - Sohbet"
-
-#: chat/index.php:10 chat/index.php:16
-msgid "Daniel's Chat - a former darknet chat community"
-msgstr "Daniel's Chat - eski bir darknet sohbet topluluğu"
-
-#: chat/index.php:27
-msgid "Daniel's Chat"
-msgstr "Daniel'in Sohbeti"
-
-#: chat/index.php:28
-msgid "After 9 years, I'm shutting down the chat for good."
-msgstr "9 yıl sonra sohbeti tamamen kapatıyorum."
-
-#: chat/index.php:29
-msgid ""
-"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">my onion link list</a>. If you are interested in running a similar "
-"chat community, you can download my chat script on <a href=\"https://github."
-"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">GitHub</a>."
+#: privacy.php:58
+msgid "8. List of sub-processors"
 msgstr ""
-"<a href=\"https://onions.danwin1210.de/?cat=2\">Onion bağlantı listemde</a> "
-"alternatif sohbetler bulabilirsiniz. Benzer bir sohbet topluluğu yürütmekle "
-"ilgileniyorsanız, sohbet komut dosyamı <a href=\"https://github.com/DanWin/"
-"le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
-#: chat/index.php:30
-msgid ""
-"This chat started as a hobby project for use in school in 2013 and evolved "
-"into a very active darknet chat community. I handed over chat administration "
-"to various other people since 2017, as I was no longer able to find the time "
-"or motivation to administrate the chat. In recent months, the administration "
-"that took over, kept the chat very private, made people spend hours waiting "
-"to get access and randomly kicked people for no reason. This in turn filled "
-"my inbox with messages of people asking for assistance to access the chat "
-"and traffic has decreased to a fraction of what it used to be. In this "
-"state, it doesn't make sense to continue providing the service. Thus I "
-"decided to shut down the chat for good in December 2022, after 9 years."
+#: privacy.php:60
+msgid "Vendor"
 msgstr ""
-"Bu sohbet 2013 yılında okulda kullanılmak üzere bir hobi projesi olarak "
-"başladı ve çok aktif bir darknet sohbet topluluğuna dönüştü. 2017'den beri "
-"sohbet yönetimini başka kişilere devrettim, çünkü artık sohbeti yönetmek "
-"için zaman veya motivasyon bulamıyordum. Son aylarda, devralan yönetim, "
-"sohbeti çok gizli tuttu, insanları erişim için saatlerce bekletti ve "
-"insanları sebepsiz yere rastgele tekmeledi. Bu da gelen kutumu, sohbete "
-"erişmek için yardım isteyen insanların mesajlarıyla doldurdu ve trafik "
-"eskisinin çok küçük bir kısmına düştü. Bu durumda, hizmeti sunmaya devam "
-"etmenin bir anlamı yoktur. Bu nedenle, 9 yıl sonra Aralık 2022'de sohbeti "
-"temelli kapatmaya karar verdim."
 
-#: chat/index.php:31
-msgid ""
-"Since a few people asked me to make them admin and re-enable the chat: No, "
-"this decision has been made and was long overdue. The chat had nothing at "
-"all to do with me anymore, except that I've programmed it and I maintain the "
-"server. Anyone is welcome to create their own chat, but not here on my site."
+#: privacy.php:60
+msgid "Purpose"
 msgstr ""
-"Birkaç kişi benden onları yönetici yapmamı ve sohbeti yeniden "
-"etkinleştirmemi istediğinden: Hayır, bu karar verildi ve çok gecikti. "
-"Sohbeti programlamış olmam ve sunucunun bakımını yapmam dışında artık "
-"benimle hiçbir ilgisi yoktu. Herkes kendi sohbetini oluşturabilir, ancak "
-"burada benim sitemde değil."
 
-#: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
-#: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
-#: tutorials/index.php:32
+#: privacy.php:61
+msgid "Providing server infrastructure and backup storage"
+msgstr ""
+
+#: privacy.php:62
+msgid "Providing server infrastructure"
+msgstr ""
+
+#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
+msgid "Daniel - Tutorials"
+msgstr "Daniel - Öğreticiler"
+
+#: tutorials/index.php:10 tutorials/index.php:16
+msgid "Various tutorials provided by Daniel Winzen"
+msgstr "Daniel Winzen tarafından sağlanan çeşitli öğreticiler"
+
+#: tutorials/index.php:28
+msgid ""
+"Here I upload tutorials that have been asked for a number of times. If you "
+"have suggestions on how to improve a tutorial or want me to make one another "
+"one, you can <a href=\"/contact.php\">contact me here</a>."
+msgstr ""
+"Buraya birkaç kez sorulan öğreticileri yüklüyorum. Bir öğreticiyi nasıl "
+"iyileştireceğinize dair önerileriniz varsa veya başka bir öğretici yapmamı "
+"istiyorsanız, <a href=\"/contact.php\">benimle buradan iletişime "
+"geçebilirsiniz</a>."
+
+#: tutorials/index.php:30
+msgid "Name"
+msgstr "İsim"
+
+#: tutorials/index.php:30
+msgid "Short description"
+msgstr "Kısa Açıklama"
+
+#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
+msgid "Torify FTP clients"
+msgstr "FTP istemcilerini Torify"
+
+#: tutorials/index.php:31
+msgid "This tutorial will show you how to torify FTP clients."
+msgstr ""
+"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
+
+#: tutorials/index.php:32 tutorials/get-rich-fast/index.php:6
+#: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
+#: tutorials/get-rich-fast/index.php:35
 msgid "How to get rich (fast)"
 msgstr "Nasıl zengin olunur (hızlı)"
 
-#: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
-#: tutorials/index.php:32
+#: tutorials/index.php:32 tutorials/get-rich-fast/index.php:10
+#: tutorials/get-rich-fast/index.php:24
 msgid "This tutorial will guide you to achieving financial freedom."
 msgstr "Bu eğitim, finansal özgürlüğe ulaşmanız için size rehberlik edecek."
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
+#: tutorials/successful-sugar-dating/index.php:22
+#: tutorials/successful-sugar-dating/index.php:32
+#: tutorials/successful-sugar-dating/index.php:34
+msgid "How to have a successful sugar dating relationship"
+msgstr "Başarılı bir şeker partner ilişkisine nasıl? sahip olunur"
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
+#: tutorials/successful-sugar-dating/index.php:23
+msgid "This tutorial will guide you in finding a sugar relationship."
+msgstr "Bu eğitim, bir şeker ilişkisi bulmanızda size rehberlik edecektir."
+
+#: tutorials/index.php:34 tutorials/findom/index.php:6
+#: tutorials/findom/index.php:21 tutorials/findom/index.php:31
+#: tutorials/findom/index.php:33
+msgid "Earning money with findom"
+msgstr ""
+
+#: tutorials/index.php:34
+#, fuzzy
+#| msgid "This tutorial will show you how to torify FTP clients."
+msgid "This tutorial will show you how you can use findom to earn money."
+msgstr ""
+"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
+
+#: tutorials/findom/index.php:10 tutorials/findom/index.php:22
+#, fuzzy
+#| msgid "This tutorial will show you how to torify FTP clients."
+msgid "This tutorial will show you how you can use findom to earn money"
+msgstr ""
+"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
+
+#: tutorials/findom/index.php:34
+#, fuzzy
+#| msgid "What is PGP?"
+msgid "What is findom?"
+msgstr "PGP nedir?"
+
+#: tutorials/findom/index.php:35
+msgid ""
+"Findom, short for financial domination. It is a fetish in which a dominant "
+"person (dom) receives money from a submissive person (sub). This transaction "
+"provides pleasure to both parties, even though it is a one-way transaction."
+msgstr ""
+
+#: tutorials/findom/index.php:36
+#, fuzzy
+#| msgid "What are the risks of sugar dating?"
+msgid "What are the risks of engaging in findom?"
+msgstr "Şeker flörtünün riskleri nelerdir?"
+
+#: tutorials/findom/index.php:37
+msgid ""
+"For a sub, engaging in findom carries the risk of losing money and control. "
+"It can become addictive and lead to overspending, financial instability or "
+"homelessness. For a dom an unhealthy relationship with money could form, "
+"given that they receive potentially a lot of it, and are tempted to spend "
+"all of it. Once a sub no longer spends money on the dom, this could lead to "
+"an existential crisis due to high expenses that need to be maintained."
+msgstr ""
+
+#: tutorials/findom/index.php:38
+#, fuzzy
+#| msgid "What are the benefits of sugar dating?"
+msgid "What are the benefits of findom?"
+msgstr "Şeker flörtünün faydaları nelerdir?"
+
+#: tutorials/findom/index.php:39
+msgid ""
+"As a sub, you will be motivated to earn more money and climb the career "
+"ladder faster than you would normally do because you are constantly "
+"challenged to give more to your dom. For doms, it is financial gain."
+msgstr ""
+
+#: tutorials/findom/index.php:40
+msgid "What is a findom relationship like?"
+msgstr ""
+
+#: tutorials/findom/index.php:41
+msgid ""
+"Findom relationships come in various forms. Some are short-lived, one-time "
+"transactions, while others can span many years. While findom is purely "
+"financial, it is also often combined with BDSM, content creation and other "
+"erotic services. Some subs enjoy paying for online shopping or buying over-"
+"priced feet pictures, others will go shopping with their dom in real life, "
+"and some would like to be humiliated in public. A scenario could involve a "
+"debt contract, in which the sub commits to paying off a debt to their dom "
+"for an extended period in monthly instalments."
+msgstr ""
+
+#: tutorials/findom/index.php:42
+#, fuzzy
+#| msgid "How to have a successful sugar dating relationship"
+msgid "How to live in a healthy findom relationship?"
+msgstr "Başarılı bir şeker partner ilişkisine nasıl? sahip olunur"
+
+#: tutorials/findom/index.php:43
+msgid ""
+"Everyone is unique, so your specific needs need to be discussed with your "
+"findom partner. It is important that both of you are happy with it. While "
+"some subs and doms favour a fast one-time transaction, it is usually best "
+"for both parties, if a long-term relationship can be established. To "
+"maintain a healthy relationship, the dom needs to know a subs financial "
+"situation, including income, expenses and spending habits. This knowledge "
+"allows the dom to help the sub reduce expenses, increase income and "
+"ultimately hand over more cash to the dom, without risking serious debt "
+"problems. While it is an entertaining thought to some subs, ending up "
+"homeless is not beneficial to anyone."
+msgstr ""
+
+#: tutorials/findom/index.php:44
+#, fuzzy
+#| msgid "Where do I find a sugar partner?"
+msgid "Where do I find a findom partner?"
+msgstr "Nerede bir şeker ortağı bulabilirim?"
+
+#: tutorials/findom/index.php:45
+#, php-format
+msgid ""
+"If you are curious to try this fetish out or would like to thank me, you can "
+"donate or buy me an item from my <a href=\"%s\" target=\"_blank\" rel="
+"\"noreferrer noopener\">Amazon wishlist</a>. For a more long-term "
+"experience, see the links below."
+msgstr ""
+
+#: tutorials/findom/index.php:46
+msgid "Popular dating sites used for findom:"
+msgstr ""
+
+#: tutorials/findom/index.php:51
+msgid ""
+"You can find findom content on social media sites with tags like #paypig "
+"#moneyslave #findom #payme #spoilme etc."
+msgstr ""
+
+#: tutorials/findom/index.php:56
+msgid "Popular findom sites:"
+msgstr ""
+
+#: tutorials/findom/index.php:66
+msgid "Popular content creator sites used for findom:"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:35
+msgid "What is sugar dating?"
+msgstr "Şeker randevusu nedir?"
+
+#: tutorials/successful-sugar-dating/index.php:36
+msgid ""
+"Stereotypically a sugar daddy is a wealthy older man, who's looking for an "
+"attractive young woman, the so-called sugar baby. An attractive man looking "
+"for their sugar mommy or sugar daddy is called a sugar boy. A sugar dating "
+"relationship is a mutually beneficial relationship. Unlike traditional "
+"dating, partners aren't selected for love or a hook-up, but rather to help "
+"each other. Sugar partners have an agreement, on what each partner wants "
+"from the other, and what their boundaries are. This is called an arrangement."
+msgstr ""
+"Basmakalıp bir şeker baba, sözde şeker bebek olan çekici bir genç kadın "
+"arayan zengin, yaşlı bir adamdır. Şeker annesini veya şeker babasını arayan "
+"çekici bir adama şeker çocuk denir. Şeker flört ilişkisi, karşılıklı yarar "
+"sağlayan bir ilişkidir. Geleneksel flörtün aksine, partnerler aşk ya da "
+"ilişki için değil, birbirlerine yardım etmek için seçilir. Şeker ortakların, "
+"her bir ortağın diğerinden ne istediği ve sınırlarının ne olduğu konusunda "
+"bir anlaşması vardır. Buna düzenleme denir."
+
+#: tutorials/successful-sugar-dating/index.php:37
+msgid "How to get to an arrangement?"
+msgstr "Bir düzenlemeye nasıl gidilir?"
+
+#: tutorials/successful-sugar-dating/index.php:38
+msgid ""
+"Everyone is unique, so your arrangement needs to be discussed with your "
+"sugar partner. Typically an arrangement involves the wealthy partner "
+"providing financial help, or mentoring to their partner, who in turn will "
+"come along to business meetings, and parties or give their partner company "
+"for a few hours a month. An arrangement can also include sexual favours, "
+"which are often asked for by men. However, this must be consensual, and if "
+"you as a sugar baby do not feel comfortable with it, then you shouldn't do "
+"it. Think about your priorities, what you need and what you could give to "
+"your partner. Fill out your dating profile with enough details, so that you "
+"can find your match. Once you've found your potential partner, discuss each "
+"of your expectations and come to an arrangement that suits you both."
+msgstr ""
+"Herkes benzersizdir, bu nedenle aranjmanınızın şeker partnerinizle "
+"tartışılması gerekir. Tipik olarak bir düzenleme, varlıklı ortağın, "
+"karşılığında iş toplantılarına ve partilere gelecek olan veya ayda birkaç "
+"saatliğine ortak şirketlerine verecek olan eşlerine mali yardım veya akıl "
+"hocalığı sağlamasını içerir. Bir düzenleme, genellikle erkekler tarafından "
+"talep edilen cinsel iyilikler de içerebilir. Ancak, bu rızaya dayalı olmalı "
+"ve şeker bebek olarak kendinizi rahat hissetmiyorsanız, o zaman "
+"yapmamalısınız. Önceliklerinizi, neye ihtiyacınız olduğunu ve partnerinize "
+"neler verebileceğinizi düşünün. Eşinizi bulabilmeniz için flört profilinizi "
+"yeterli ayrıntıyla doldurun. Potansiyel partnerinizi bulduktan sonra, "
+"beklentilerinizi tartışın ve ikinize de uygun bir anlaşmaya varın."
+
+#: tutorials/successful-sugar-dating/index.php:39
+msgid "What are the risks of sugar dating?"
+msgstr "Şeker flörtünün riskleri nelerdir?"
+
+#: tutorials/successful-sugar-dating/index.php:40
+msgid ""
+"Just like with regular dating, you should be comfortable around your partner "
+"and enjoy each other's company. If you don't feel well around your partner, "
+"it will ruin the experience for both of you, so you should better end it "
+"sooner than later. Coming out as a sugar daddy or sugar baby can be "
+"difficult as some people still think of it negatively and will criticise you "
+"for it. It's also possible that as a provider you feel cheated of your money "
+"at a later point in time, or as a sugar baby you could feel sexually "
+"exploited if you agreed to sex just because of the money. That's why it's so "
+"important to be communicative with your sugar partner and form an "
+"arrangement that both of you are happy with."
+msgstr ""
+"Tıpkı normal flörtte olduğu gibi, partnerinizin yanında rahat olmalı ve "
+"birbirinizin arkadaşlığından keyif almalısınız. Partnerinizin yanında "
+"kendinizi iyi hissetmiyorsanız, bu ikiniz için de deneyimi mahveder, bu "
+"yüzden bir an önce bitirseniz iyi olur. Şeker baba ya da şeker bebek olarak "
+"ortaya çıkmak zor olabilir çünkü bazı insanlar bunu hala olumsuz olarak "
+"düşünür ve bunun için sizi eleştirir. Ayrıca, bir sağlayıcı olarak daha "
+"sonra paranızın aldatıldığını hissetmeniz veya şeker bebek olarak sırf para "
+"için seks yapmayı kabul ettiyseniz cinsel olarak sömürüldüğünüzü hissetmeniz "
+"de mümkündür. Bu yüzden şeker partnerinizle iletişim halinde olmak ve "
+"ikinizin de mutlu olacağı bir anlaşma yapmak çok önemlidir."
+
+#: tutorials/successful-sugar-dating/index.php:41
+msgid "What are the benefits of sugar dating?"
+msgstr "Şeker flörtünün faydaları nelerdir?"
+
+#: tutorials/successful-sugar-dating/index.php:42
+msgid ""
+"As sugar dating is mutually beneficial, both parties involved get something "
+"out of it. There will be no drama, and by discussing each of your needs and "
+"expectations, you avoid running into conflicts. It can be fun, and you will "
+"see things from a different perspective than you are used to. Unlike "
+"traditional dating, you don't have to spend significant time on a dating "
+"site, until you match with someone interesting. It can take only a few hours "
+"or days until you have found someone that matches you. Especially for men, "
+"it is so much easier to find a date, than on regular dating sites, simply "
+"because of the women-to-men ratio, plus women are less selective than on "
+"regular dating sites, given that the type of relationship is mutually "
+"beneficial and not necessarily romantic."
+msgstr ""
+"Şeker flörtü karşılıklı olarak faydalı olduğundan, dahil olan her iki taraf "
+"da bundan bir şeyler alır. Drama olmayacak ve her bir ihtiyaç ve "
+"beklentinizi tartışarak çatışmalara girmekten kaçınacaksınız. Eğlenceli "
+"olabilir ve olaylara alışık olduğunuzdan farklı bir bakış açısıyla "
+"bakabilirsiniz. Geleneksel flörtün aksine, ilginç biriyle eşleşene kadar bir "
+"flört sitesinde önemli bir zaman harcamanız gerekmez. Size uyan birini "
+"bulmanız yalnızca birkaç saat veya gün sürebilir. Özellikle erkekler için, "
+"flört bulmak normal tanışma sitelerine göre çok daha kolaydır, bunun nedeni "
+"sadece kadın-erkek oranıdır, ayrıca kadınlar normal tanışma sitelerine göre "
+"daha az seçicidir, çünkü ilişkinin türü karşılıklıdır. faydalı ve mutlaka "
+"romantik değil."
+
+#: tutorials/successful-sugar-dating/index.php:43
+msgid "Where do I find a sugar partner?"
+msgstr "Nerede bir şeker ortağı bulabilirim?"
+
+#: tutorials/successful-sugar-dating/index.php:44
+msgid ""
+"You can potentially find your sugar partner on regular dating sites, but it "
+"will be difficult due to most dating sites restricting this type of dating "
+"and banning your accounts for using certain keywords. There are plenty of "
+"dating sites specifically made for sugar dating though. Usually, they are "
+"free for the attractive member, but the wealthy member has to pay to use the "
+"platform. This way the platform also filters out so-called salt daddies, who "
+"pretend to have money but do not."
+msgstr ""
+"Şeker partnerinizi normal tanışma sitelerinde potansiyel olarak "
+"bulabilirsiniz, ancak çoğu tanışma sitesinin bu tür flörtü kısıtlaması ve "
+"belirli anahtar kelimeleri kullandığınız için hesaplarınızı yasaklaması "
+"nedeniyle bu zor olacaktır. Yine de şeker flörtü için özel olarak yapılmış "
+"pek çok tanışma sitesi var. Genellikle çekici üyeler için ücretsizdir, ancak "
+"varlıklı üye platformu kullanmak için ödeme yapmak zorundadır. Bu şekilde "
+"platform, parası varmış gibi davranan ama olmayan sözde tuz babaları da "
+"filtreler."
+
+#: tutorials/successful-sugar-dating/index.php:45
+msgid "Here are some popular sugar dating sites:"
+msgstr "Bazı popüler şeker arkadaşlık siteleri şunlardır:"
 
 #: tutorials/get-rich-fast/index.php:36
 msgid "A word about fast money"
@@ -1866,16 +1923,16 @@ msgstr ""
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr "Şahsen yatırım yaptığım bazı yatırım platformları:"
 
-#: tutorials/get-rich-fast/index.php:78
+#: tutorials/get-rich-fast/index.php:79
 #, php-format
 msgid "(Save 50€ on your first investment with the code \"%s\")"
 msgstr "(\"%s\" koduyla ilk yatırımınızda 50€ tasarruf edin)"
 
-#: tutorials/get-rich-fast/index.php:93
+#: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
 msgstr "Pasif gelir"
 
-#: tutorials/get-rich-fast/index.php:94
+#: tutorials/get-rich-fast/index.php:95
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
@@ -1895,191 +1952,6 @@ msgstr ""
 "düzenli yatırımlarınızla birlikte doğrudan yeniden yatırım yapabileceğiniz "
 "%10 temettü ödemesi almış olacağınız anlamına gelir. Yalnızca pasif gelir "
 "akışlarınızdan geçinene kadar bunu birkaç yıl yapmaya devam edin."
-
-#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
-msgid "Daniel - Tutorials"
-msgstr "Daniel - Öğreticiler"
-
-#: tutorials/index.php:10 tutorials/index.php:16
-msgid "Various tutorials provided by Daniel Winzen"
-msgstr "Daniel Winzen tarafından sağlanan çeşitli öğreticiler"
-
-#: tutorials/index.php:28
-msgid ""
-"Here I upload tutorials that have been asked for a number of times. If you "
-"have suggestions on how to improve a tutorial or want me to make one another "
-"one, you can <a href=\"/contact.php\">contact me here</a>."
-msgstr ""
-"Buraya birkaç kez sorulan öğreticileri yüklüyorum. Bir öğreticiyi nasıl "
-"iyileştireceğinize dair önerileriniz varsa veya başka bir öğretici yapmamı "
-"istiyorsanız, <a href=\"/contact.php\">benimle buradan iletişime "
-"geçebilirsiniz</a>."
-
-#: tutorials/index.php:30
-msgid "Name"
-msgstr "İsim"
-
-#: tutorials/index.php:30
-msgid "Short description"
-msgstr "Kısa Açıklama"
-
-#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
-msgid "Torify FTP clients"
-msgstr "FTP istemcilerini Torify"
-
-#: tutorials/index.php:31
-msgid "This tutorial will show you how to torify FTP clients."
-msgstr ""
-"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
-
-#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
-#: tutorials/successful-sugar-dating/index.php:22
-#: tutorials/successful-sugar-dating/index.php:32
-#: tutorials/successful-sugar-dating/index.php:34
-msgid "How to have a successful sugar dating relationship"
-msgstr "Başarılı bir şeker partner ilişkisine nasıl? sahip olunur"
-
-#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
-#: tutorials/successful-sugar-dating/index.php:23
-msgid "This tutorial will guide you in finding a sugar relationship."
-msgstr "Bu eğitim, bir şeker ilişkisi bulmanızda size rehberlik edecektir."
-
-#: tutorials/successful-sugar-dating/index.php:35
-msgid "What is sugar dating?"
-msgstr "Şeker randevusu nedir?"
-
-#: tutorials/successful-sugar-dating/index.php:36
-msgid ""
-"Stereotypically a sugar daddy is a wealthy older man, who's looking for an "
-"attractive young woman, the so-called sugar baby. An attractive man looking "
-"for their sugar mommy or sugar daddy is called a sugar boy. A sugar dating "
-"relationship is a mutually beneficial relationship. Unlike traditional "
-"dating, partners aren't selected for love or a hook-up, but rather to help "
-"each other. Sugar partners have an agreement, on what each partner wants "
-"from the other, and what their boundaries are. This is called an arrangement."
-msgstr ""
-"Basmakalıp bir şeker baba, sözde şeker bebek olan çekici bir genç kadın "
-"arayan zengin, yaşlı bir adamdır. Şeker annesini veya şeker babasını arayan "
-"çekici bir adama şeker çocuk denir. Şeker flört ilişkisi, karşılıklı yarar "
-"sağlayan bir ilişkidir. Geleneksel flörtün aksine, partnerler aşk ya da "
-"ilişki için değil, birbirlerine yardım etmek için seçilir. Şeker ortakların, "
-"her bir ortağın diğerinden ne istediği ve sınırlarının ne olduğu konusunda "
-"bir anlaşması vardır. Buna düzenleme denir."
-
-#: tutorials/successful-sugar-dating/index.php:37
-msgid "How to get to an arrangement?"
-msgstr "Bir düzenlemeye nasıl gidilir?"
-
-#: tutorials/successful-sugar-dating/index.php:38
-msgid ""
-"Everyone is unique, so your arrangement needs to be discussed with your "
-"sugar partner. Typically an arrangement involves the wealthy partner "
-"providing financial help, or mentoring to their partner, who in turn will "
-"come along to business meetings, and parties or give their partner company "
-"for a few hours a month. An arrangement can also include sexual favours, "
-"which are often asked for by men. However, this must be consensual, and if "
-"you as a sugar baby do not feel comfortable with it, then you shouldn't do "
-"it. Think about your priorities, what you need and what you could give to "
-"your partner. Fill out your dating profile with enough details, so that you "
-"can find your match. Once you've found your potential partner, discuss each "
-"of your expectations and come to an arrangement that suits you both."
-msgstr ""
-"Herkes benzersizdir, bu nedenle aranjmanınızın şeker partnerinizle "
-"tartışılması gerekir. Tipik olarak bir düzenleme, varlıklı ortağın, "
-"karşılığında iş toplantılarına ve partilere gelecek olan veya ayda birkaç "
-"saatliğine ortak şirketlerine verecek olan eşlerine mali yardım veya akıl "
-"hocalığı sağlamasını içerir. Bir düzenleme, genellikle erkekler tarafından "
-"talep edilen cinsel iyilikler de içerebilir. Ancak, bu rızaya dayalı olmalı "
-"ve şeker bebek olarak kendinizi rahat hissetmiyorsanız, o zaman "
-"yapmamalısınız. Önceliklerinizi, neye ihtiyacınız olduğunu ve partnerinize "
-"neler verebileceğinizi düşünün. Eşinizi bulabilmeniz için flört profilinizi "
-"yeterli ayrıntıyla doldurun. Potansiyel partnerinizi bulduktan sonra, "
-"beklentilerinizi tartışın ve ikinize de uygun bir anlaşmaya varın."
-
-#: tutorials/successful-sugar-dating/index.php:39
-msgid "What are the risks of sugar dating?"
-msgstr "Şeker flörtünün riskleri nelerdir?"
-
-#: tutorials/successful-sugar-dating/index.php:40
-msgid ""
-"Just like with regular dating, you should be comfortable around your partner "
-"and enjoy each other's company. If you don't feel well around your partner, "
-"it will ruin the experience for both of you, so you should better end it "
-"sooner than later. Coming out as a sugar daddy or sugar baby can be "
-"difficult as some people still think of it negatively and will criticise you "
-"for it. It's also possible that as a provider you feel cheated of your money "
-"at a later point in time, or as a sugar baby you could feel sexually "
-"exploited if you agreed to sex just because of the money. That's why it's so "
-"important to be communicative with your sugar partner and form an "
-"arrangement that both of you are happy with."
-msgstr ""
-"Tıpkı normal flörtte olduğu gibi, partnerinizin yanında rahat olmalı ve "
-"birbirinizin arkadaşlığından keyif almalısınız. Partnerinizin yanında "
-"kendinizi iyi hissetmiyorsanız, bu ikiniz için de deneyimi mahveder, bu "
-"yüzden bir an önce bitirseniz iyi olur. Şeker baba ya da şeker bebek olarak "
-"ortaya çıkmak zor olabilir çünkü bazı insanlar bunu hala olumsuz olarak "
-"düşünür ve bunun için sizi eleştirir. Ayrıca, bir sağlayıcı olarak daha "
-"sonra paranızın aldatıldığını hissetmeniz veya şeker bebek olarak sırf para "
-"için seks yapmayı kabul ettiyseniz cinsel olarak sömürüldüğünüzü hissetmeniz "
-"de mümkündür. Bu yüzden şeker partnerinizle iletişim halinde olmak ve "
-"ikinizin de mutlu olacağı bir anlaşma yapmak çok önemlidir."
-
-#: tutorials/successful-sugar-dating/index.php:41
-msgid "What are the benefits of sugar dating?"
-msgstr "Şeker flörtünün faydaları nelerdir?"
-
-#: tutorials/successful-sugar-dating/index.php:42
-msgid ""
-"As sugar dating is mutually beneficial, both parties involved get something "
-"out of it. There will be no drama, and by discussing each of your needs and "
-"expectations, you avoid running into conflicts. It can be fun, and you will "
-"see things from a different perspective than you are used to. Unlike "
-"traditional dating, you don't have to spend significant time on a dating "
-"site, until you match with someone interesting. It can take only a few hours "
-"or days until you have found someone that matches you. Especially for men, "
-"it is so much easier to find a date, than on regular dating sites, simply "
-"because of the women-to-men ratio, plus women are less selective than on "
-"regular dating sites, given that the type of relationship is mutually "
-"beneficial and not necessarily romantic."
-msgstr ""
-"Şeker flörtü karşılıklı olarak faydalı olduğundan, dahil olan her iki taraf "
-"da bundan bir şeyler alır. Drama olmayacak ve her bir ihtiyaç ve "
-"beklentinizi tartışarak çatışmalara girmekten kaçınacaksınız. Eğlenceli "
-"olabilir ve olaylara alışık olduğunuzdan farklı bir bakış açısıyla "
-"bakabilirsiniz. Geleneksel flörtün aksine, ilginç biriyle eşleşene kadar bir "
-"flört sitesinde önemli bir zaman harcamanız gerekmez. Size uyan birini "
-"bulmanız yalnızca birkaç saat veya gün sürebilir. Özellikle erkekler için, "
-"flört bulmak normal tanışma sitelerine göre çok daha kolaydır, bunun nedeni "
-"sadece kadın-erkek oranıdır, ayrıca kadınlar normal tanışma sitelerine göre "
-"daha az seçicidir, çünkü ilişkinin türü karşılıklıdır. faydalı ve mutlaka "
-"romantik değil."
-
-#: tutorials/successful-sugar-dating/index.php:43
-msgid "Where do I find a sugar partner?"
-msgstr "Nerede bir şeker ortağı bulabilirim?"
-
-#: tutorials/successful-sugar-dating/index.php:44
-msgid ""
-"You can potentially find your sugar partner on regular dating sites, but it "
-"will be difficult due to most dating sites restricting this type of dating "
-"and banning your accounts for using certain keywords. There are plenty of "
-"dating sites specifically made for sugar dating though. Usually, they are "
-"free for the attractive member, but the wealthy member has to pay to use the "
-"platform. This way the platform also filters out so-called salt daddies, who "
-"pretend to have money but do not."
-msgstr ""
-"Şeker partnerinizi normal tanışma sitelerinde potansiyel olarak "
-"bulabilirsiniz, ancak çoğu tanışma sitesinin bu tür flörtü kısıtlaması ve "
-"belirli anahtar kelimeleri kullandığınız için hesaplarınızı yasaklaması "
-"nedeniyle bu zor olacaktır. Yine de şeker flörtü için özel olarak yapılmış "
-"pek çok tanışma sitesi var. Genellikle çekici üyeler için ücretsizdir, ancak "
-"varlıklı üye platformu kullanmak için ödeme yapmak zorundadır. Bu şekilde "
-"platform, parası varmış gibi davranan ama olmayan sözde tuz babaları da "
-"filtreler."
-
-#: tutorials/successful-sugar-dating/index.php:45
-msgid "Here are some popular sugar dating sites:"
-msgstr "Bazı popüler şeker arkadaşlık siteleri şunlardır:"
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:36
@@ -2163,8 +2035,8 @@ msgid ""
 "This tutorial will show you how to torify FTP clients in the example of <a "
 "href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 msgstr ""
-"Bu öğretici, <a href=\"#filezilla\">FileZilla</a> ve <a href=\"#winscp\""
-">WinSCP</a> örneğinde FTP istemcilerini nasıl sıkıştıracağınızı gösterecek."
+"Bu öğretici, <a href=\"#filezilla\">FileZilla</a> ve <a href=\"#winscp"
+"\">WinSCP</a> örneğinde FTP istemcilerini nasıl sıkıştıracağınızı gösterecek."
 
 #: tutorials/torify-ftp/index.php:38
 msgid ""
@@ -2195,8 +2067,8 @@ msgid ""
 "noreferrer\">download FileZilla here</a>."
 msgstr ""
 "Henüz FileZilla'yı yüklemediyseniz, <a href=\"https://filezilla-project.org/"
-"download.php?type=client\" target=\"_blank\" rel=\"noopener noreferrer\""
-">FileZilla'yı buradan indirebilirsiniz</a>."
+"download.php?type=client\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">FileZilla'yı buradan indirebilirsiniz</a>."
 
 #: tutorials/torify-ftp/index.php:50
 msgid "FileZilla settings"
@@ -2262,3 +2134,346 @@ msgstr "Bağlantı optimizasyonları"
 #: tutorials/torify-ftp/index.php:93
 msgid "Proxy configuration"
 msgstr "Proxy yapılandırması"
+
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
+msgid ""
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+msgstr ""
+"GitHub IPv6 proxy, GitHub depolarının yalnızca IPv6 sunucularına "
+"indirilmesine izin verir"
+
+#: github-ipv6-proxy.php:34
+#, php-format
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %s. Unfortunately I realized "
+"that GitHub still <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
+"support IPv6</a>."
+msgstr ""
+"Son zamanlarda, favori barındırma sağlayıcım %s'den kiraladığım yalnızca "
+"IPv6 sunucusu aracılığıyla GitHub'da bir git deposunu klonlamak zorunda "
+"kaldım. Maalesef GitHub'ın hala <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">IPv6'yı "
+"desteklemediğini</a> fark ettim."
+
+#: github-ipv6-proxy.php:35
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+"Geçici çözümüm, çift yığınlı sunucularımdan biriyle bir WireGuard VPN "
+"kurmaktı. Anonim olarak indirmek için Tor'u yüklemek bir alternatif "
+"olabilirdi."
+
+#: github-ipv6-proxy.php:36
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+"GitHub'dan havuz indirmek isteyen yalnızca IPv6 sunucusuna sahip tek "
+"kullanıcı olmadığım için, GitHub yerel IPv6 desteği sağlayana kadar bir IPv6 "
+"ağında GitHub'a erişmek için kullanılabilecek bir genel proxy sunucusu "
+"sağlamaya karar verdim. Proxy, IPv4 kullanıcılarının zaten doğrudan "
+"GitHub'dan klonlayabildikleri için gereksiz kaynakları kullanmalarını "
+"önlemek için yalnızca IPv6'da mevcuttur."
+
+#: github-ipv6-proxy.php:37
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+"https proxy'min etki alanım için verilen bir ssl sertifikası sunduğunu "
+"unutmayın, bu da trafiğinizin şifresini çözüp yeniden şifrelediğim anlamına "
+"gelir (ve potansiyel olarak inceleyebilirim, ancak yapmıyorum). Geçersiz bir "
+"ssl sertifikası uyarısı alacağınız için gereklidir, aksi takdirde + github, "
+"kabul ettikten sonra varsayılan bağlantı noktasına yönlendirir. Daha kalıcı "
+"bir çözüm için aşağıya bakın, bu daha gizlilik dostudur."
+
+#: github-ipv6-proxy.php:38
+#, php-format
+msgid ""
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
+msgstr ""
+"Peki nasıl çalışıyor? %s'de yayınladığım PHP Sohbet komut dosyasını "
+"klonlamak istediğimizi varsayalım. Normalde depoyu klonlamak şöyle görünür:"
+
+#: github-ipv6-proxy.php:40
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr "Bir IPv6 bağlantısında, proxy hizmetimi şu şekilde kullanabilirsiniz:"
+
+#: github-ipv6-proxy.php:42
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr "Ve ssh ile klonlamak isterseniz, bunu şu şekilde de yapabilirsiniz:"
+
+#: github-ipv6-proxy.php:44
+msgid ""
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
+msgstr ""
+"Proxy'yi daha kalıcı olarak kullanmak ve/veya ben trafiğinizi yeniden "
+"şifrelemeden doğrudan GitHub ile konuşmak isteyenler /etc/hosts'a şunu "
+"eklemelidir:"
+
+#: github-ipv6-proxy.php:49
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr ""
+"Eklendikten sonra, herhangi bir değişiklik yapmadan her zamanki gibi "
+"klonlayabilirsiniz:"
+
+#: github-ipv6-proxy.php:52
+msgid ""
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
+msgstr ""
+"Tüm bunlar, çift yığınlı bir sunucuda aşağıdaki nginx yapılandırmasıyla "
+"yapılır:"
+
+#: about.php:6 about.php:17
+msgid "Daniel - About"
+msgstr "Daniel - Hakkında"
+
+#: about.php:10 about.php:18
+msgid ""
+"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
+"this site"
+msgstr ""
+"Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen ve "
+"bu site hakkında"
+
+#: about.php:30
+msgid "About me"
+msgstr "Benim hakkımda"
+
+#: about.php:31
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. In my free time I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up in times of the covid "
+"pandemic and resulting home office, because it's fun and keeps me fit."
+msgstr ""
+"Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
+"yöneticisi. Boş zamanlarımda kitap okumayı, açık kaynak projelerim üzerinde "
+"programlama yapmayı ve covid salgını ve bunun sonucunda evde ofis "
+"zamanlarında öğrendiğim direk dansını seviyorum çünkü eğlenceli ve beni "
+"formda tutuyor."
+
+#: about.php:32
+msgid ""
+"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+"also know some basics of Perl, Python, C, C++ and more. With my experience "
+"I'm able to quickly adapt and work with new languages, when necessary."
+msgstr ""
+"Düzenli olarak kullandığım programlama dilleri PHP, SQL ve JavaScript'tir, "
+"ancak Perl, Python, C, C++ ve daha fazlasının bazı temellerini de biliyorum. "
+"Tecrübemle, gerektiğinde yeni dillere hızla uyum sağlayabiliyor ve onlarla "
+"çalışabiliyorum."
+
+#: about.php:33
+msgid ""
+"Before I got into coding and server management, I contributed German "
+"translation to various open-source projects since the end of 2011."
+msgstr ""
+"Kodlama ve sunucu yönetimine girmeden önce, 2011 yılının sonundan itibaren "
+"çeşitli açık kaynak projelerine Almanca çeviri katkıda bulundum."
+
+#: about.php:34
+msgid ""
+"Managing servers, email services and developing new web projects is what I "
+"thrive on. I like optimizing systems for performance and getting the best "
+"out of what I have. Do you need help with managing and optimizing your "
+"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
+"touch</a> and we'll discuss details."
+msgstr ""
+"Sunucuları, e-posta hizmetlerini yönetmek ve yeni web projeleri geliştirmek, "
+"başarılı olduğum şeyler. Sistemleri performans için optimize etmeyi ve sahip "
+"olduklarımdan en iyi şekilde yararlanmayı seviyorum. Altyapınızı veya web "
+"sitenizi yönetme ve optimize etme konusunda yardıma mı ihtiyacınız var? "
+"Yardım etmek için buradayım. <a href=\"/contact.php\">İletişime geçin</a>, "
+"ayrıntıları görüşelim."
+
+#: about.php:35
+msgid "Profiles on other sites that I am active on:"
+msgstr "Aktif olduğum diğer sitelerdeki profiller:"
+
+#: about.php:42
+msgid "About this site"
+msgstr "Bu site hakkında"
+
+#: about.php:43
+msgid ""
+"This is my personal site, that I develop in my free time. I started "
+"development of this site in August/September 2013 when I wanted to have a "
+"platform to host files on, to use at school."
+msgstr ""
+"Bu benim boş zamanlarımda geliştirdiğim kişisel sitem.Bu siteyi geliştirmeye "
+"Ağustos/Eylül 2013'te, okulda kullanmak üzere dosya barındırmak için bir "
+"platforma sahip olmak istediğimde başladım."
+
+#: about.php:44
+msgid ""
+"Quickly the idea of using a chat at school came up and I came across a "
+"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
+"deployed that on my Raspberry Pi it was running very slowly and wasn't "
+"really usable for use with several people. So I decided to port some parts I "
+"needed to PHP."
+msgstr ""
+"Okulda sohbet kullanma fikri hemen aklıma geldi ve <a href=\"https://github."
+"com/virtualghetto/lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> "
+"adında basit bir perl sohbet komut dosyasıyla karşılaştım. SOHBET</a>. Bunu "
+"Raspberry Pi'me yerleştirdiğimde çok yavaş çalışıyordu ve birkaç kişiyle "
+"kullanım için gerçekten uygun değildi. Bu yüzden ihtiyacım olan bazı "
+"parçaları PHP'ye taşımaya karar verdim."
+
+#: about.php:45
+msgid ""
+"This has been the start for me to get deeper into web-development and I have "
+"since open-sourced that chat script and several other scripts of this site "
+"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
+"new features and improved reliability and my code a lot."
+msgstr ""
+"Bu, web geliştirme konusunda daha derinleşmem için bir başlangıç oldu ve o "
+"zamandan beri bu sohbet komut dosyasını ve bu sitenin diğer birkaç komut "
+"dosyasını <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub hesabı</a>. O zamandan beri birçok yeni "
+"özellik ekledim ve güvenilirliği ve kodumu çok geliştirdim."
+
+#: about.php:46
+msgid ""
+"I used to offer free file hosting, an url shortener, a chat and even a free "
+"darknet web hosting service. All these projects have taught me a lot about "
+"coding, security and server management. As of now, only the anonymous email "
+"and XMPP hosting, as well as the onion link list are still actively "
+"maintained."
+msgstr ""
+"Eskiden ücretsiz dosya barındırma, url kısaltıcı, sohbet ve hatta ücretsiz "
+"bir darknet web barındırma hizmeti sunuyordum. Tüm bu projeler bana kodlama, "
+"güvenlik ve sunucu yönetimi hakkında çok şey öğretti. Şu an itibariyle, "
+"yalnızca anonim e-posta ve XMPP barındırma ile soğan bağlantı listesi aktif "
+"olarak sürdürülmektedir."
+
+#: about.php:47
+msgid "About the setup"
+msgstr "kurulum hakkında"
+
+#: about.php:48
+msgid ""
+"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
+"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
+"sh and Wireguard."
+msgstr ""
+"Kullandığım yazılımlar Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, "
+"Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme.sh ve Wireguard "
+"çalıştıran Debian sid'dir."
+
+#: about.php:49
+msgid ""
+"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
+"the raspberry pis at home. Additionally, they run a Postfix instance only "
+"listening on the VPN network to send out mails to clearnet."
+msgstr ""
+"<a href=\"https://danwin1210.de\" target=\"_blank\">danwin1210.de</a> "
+"üzerindeki clearnet ağ geçitleri, tüm istekleri evdeki raspberry pis'e "
+"iletecek bir NginX Proxy'sidir. Ek olarak, postaları clearnet'e göndermek "
+"için yalnızca VPN ağını dinleyen bir Postfix örneği çalıştırırlar."
+
+#: about.php:50
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr "Tüm sunucular bir Wireguard VPN ile birbirine bağlıdır."
+
+#: about.php:51
+msgid "Hosting providers I use(ed) and servers hosted there:"
+msgstr ""
+"Kullandığım(ed) barındırma sağlayıcıları ve burada barındırılan sunucular:"
+
+#: about.php:53 about.php:54
+#, php-format
+msgid "%s - good for short-term and/or low-bandwidth projects"
+msgstr ""
+"%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyi"
+
+#: about.php:55
+#, php-format
+msgid "%s - good and reliable"
+msgstr "%s - iyi ve güvenilir"
+
+#: about.php:56
+#, php-format
+msgid "%s - comparably expensive but good and reliable"
+msgstr "%s - nispeten pahalı ama iyi ve güvenilir"
+
+#: about.php:57
+#, php-format
+msgid "%s - (Used for my clearnet gateway) - good and reliable"
+msgstr "%s - (Net ağ geçidim için kullanılır) - iyi ve güvenilir"
+
+#: about.php:58
+#, php-format
+msgid ""
+"%s - (Used for my clearnet gateway + Domain registration) - good and "
+"reliable, hosted in my city"
+msgstr ""
+"%s - (Net ağ geçidim + Etki alanı kaydım için kullanılır) - iyi ve "
+"güvenilir, benim şehrimde barındırılıyor"
+
+#: about.php:59
+msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
+msgstr "Evde barındırılan: Ana site ve verilerle birlikte 4 Raspberry Pi 4"
+
+#~ msgid "Chat"
+#~ msgstr "Sohbet"
+
+#~ msgid ""
+#~ "You can still login with your .me user credentials, but the account is "
+#~ "going to be .de. As long as the old domain is still online, you can also "
+#~ "receive emails on the .me domain, while sending is switched over to .de."
+#~ msgstr ""
+#~ "Hala .me kullanıcı kimlik bilgilerinizle giriş yapabilirsiniz, ancak "
+#~ "hesap .de olacaktır. Eski alan adı hala çevrimiçi olduğu sürece, .me alan "
+#~ "adı üzerinden de e-posta alabilirsiniz, ancak gönderme işlemi .de olarak "
+#~ "yapılır."
+
+#~ msgid ""
+#~ "XMPP users will most likely notice their account stopped working. "
+#~ "Unfortunately there is no easy way to migrate accounts with prosody (the "
+#~ "XMPP server), as there is with email. You will need to update your "
+#~ "account settings to reflect the new domain in order to login and re-"
+#~ "connect with all your buddies."
+#~ msgstr ""
+#~ "XMPP kullanıcıları büyük olasılıkla hesaplarının çalışmadığını fark "
+#~ "edeceklerdir. Ne yazık ki, e-postada olduğu gibi prozodi (XMPP sunucusu) "
+#~ "ile hesapları taşımanın kolay bir yolu yoktur. Giriş yapmak ve tüm "
+#~ "arkadaşlarınızla yeniden bağlantı kurmak için hesap ayarlarınızı yeni "
+#~ "etki alanını yansıtacak şekilde güncellemeniz gerekecek."
+
+#~ msgid "I have a question, something is broken with my account."
+#~ msgstr "Bir sorum var, hesabımda bir sorun var."
+
+#~ msgid ""
+#~ "Make sure you have switched all your settings to the new domain. It "
+#~ "should work as before. Stil not working correctly? Feel free to <a href="
+#~ "\"/contact.php\">contact me</a> for help."
+#~ msgstr ""
+#~ "Tüm ayarlarınızı yeni alan adına değiştirdiğinizden emin olun. Daha önce "
+#~ "olduğu gibi çalışması gerekir. Hala düzgün çalışmıyor musunuz? Yardım "
+#~ "için <a href=\"/contact.php\">benimle iletişime geçmekten</a> çekinmeyin."
+
+#~ msgid "Hosting - Info"
+#~ msgstr "Hosting - Bilgi"
+
+#~ msgid "Daniel - Chat"
+#~ msgstr "Daniel - Sohbet"

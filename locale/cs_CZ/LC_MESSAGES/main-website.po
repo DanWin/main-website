@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-22 08:40+0200\n"
-"PO-Revision-Date: 2023-03-09 18:53+0000\n"
+"POT-Creation-Date: 2023-07-09 22:03+0200\n"
+"PO-Revision-Date: 2023-07-09 20:04+0000\n"
 "Last-Translator: Zdeněk Grůza <me@zgruza.me>\n"
 "Language-Team: Czech <https://weblate.danwin1210.de/projects/DanWin/main-"
 "website/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: imprint.php:6 imprint.php:15
 #, fuzzy
@@ -31,23 +31,25 @@ msgstr "Daniel - Úvodní stránka"
 msgid "Imprint of Daniel Winzen"
 msgstr "Kontakt Daniela Winzena"
 
-#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
-#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
-#: privacy.php:21 chat/index.php:21 tutorials/get-rich-fast/index.php:29
-#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
-#: tutorials/torify-ftp/index.php:29
+#: imprint.php:21 index.php:21 hosting/index.php:21 new-domain.php:23
+#: blog/index.php:21 chat/index.php:21 contact.php:21 faq.php:20 privacy.php:21
+#: tutorials/index.php:21 tutorials/findom/index.php:27
+#: tutorials/successful-sugar-dating/index.php:28
+#: tutorials/get-rich-fast/index.php:29 tutorials/torify-ftp/index.php:29
+#: github-ipv6-proxy.php:26 about.php:23
 msgid "An avatar representing Daniel Winzen"
 msgstr "Avatar představující Daniela Winzena"
 
-#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
-#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
-#: privacy.php:24 chat/index.php:24 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
-#: tutorials/torify-ftp/index.php:32
+#: imprint.php:24 index.php:24 hosting/index.php:24 new-domain.php:26
+#: blog/index.php:24 chat/index.php:24 contact.php:24 faq.php:23 privacy.php:24
+#: tutorials/index.php:24 tutorials/findom/index.php:30
+#: tutorials/successful-sugar-dating/index.php:31
+#: tutorials/get-rich-fast/index.php:32 tutorials/torify-ftp/index.php:32
+#: github-ipv6-proxy.php:29 about.php:26
 msgid "Daniel"
 msgstr "Daniel"
 
-#: imprint.php:27 common.php:135
+#: imprint.php:27 common.php:136
 msgid "Imprint"
 msgstr ""
 
@@ -106,7 +108,7 @@ msgstr ""
 "Osobní webová stránka Daniela Winzena, webového vývojáře, správce systému a "
 "nadšence pro ochranu osobních údajů"
 
-#: index.php:27 common.php:124
+#: index.php:27 common.php:125
 msgid "Home"
 msgstr "Domů"
 
@@ -161,308 +163,389 @@ msgstr ""
 "Monero: %1$s nebo Bitcoin: %2$s . K dispozici jsou další možnosti, stačí mě "
 "<a href=\"/contact.php\">kontaktovat</a>."
 
-#: about.php:6 about.php:17
-msgid "Daniel - About"
-msgstr "Daniel - O mně"
-
-#: about.php:10 about.php:18
-msgid ""
-"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
-"this site"
+#: common.php:126 blog/index.php:27
+msgid "Blog and news"
 msgstr ""
-"O webovém vývojáři, sysadminovi a nadšenci do soukromí Danielu Winzenovi a "
-"této stránce"
 
-#: about.php:29 common.php:132
-msgid "About"
-msgstr "O mně"
+#: common.php:127
+msgid "Online-Test"
+msgstr "Online-Test"
 
-#: about.php:30
-msgid "About me"
-msgstr "O mně"
+#: common.php:128
+msgid "Onion link list"
+msgstr "Seznam cibulových odkazů"
 
-#: about.php:31
-msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. In my free time I like reading books, programming on my open-"
-"source projects and pole dancing, which I picked up in times of the covid "
-"pandemic and resulting home office, because it's fun and keeps me fit."
-msgstr ""
-"Dobrý den, jmenuji se Daniel Winzen, německý webový vývojář a správce "
-"systému. Ve volném čase rád čtu knihy, pracuji na svých open-source "
-"projektech a tančím u tyče, ke kterému jsem se dostal v době pandemie covidu "
-"a z toho vyplývající home office, protože mě to baví a udržuje mě v kondici."
+#: common.php:129
+msgid "E-Mail + XMPP"
+msgstr "E-Mail + XMPP"
 
-#: about.php:32
-msgid ""
-"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
-"also know some basics of Perl, Python, C, C++ and more. With my experience "
-"I'm able to quickly adapt and work with new languages, when necessary."
-msgstr ""
-"Programovací jazyky, které pravidelně používám, jsou PHP, SQL a JavaScript, "
-"ale znám také některé základy Perlu, Pythonu, C, C++ a dalších. Díky svým "
-"zkušenostem jsem schopen se rychle adaptovat a pracovat s novými jazyky, "
-"když je potřeba."
+#: common.php:130 tutorials/index.php:27
+msgid "Tutorials"
+msgstr "Tutoriály"
 
-#: about.php:33
-msgid ""
-"Before I got into coding and server management, I contributed German "
-"translation to various open-source projects since the end of 2011."
-msgstr ""
-"Než jsem se dostal ke kódování a správě serverů, od konce roku 2011 jsem "
-"přispíval německým překladem do různých open-source projektů."
-
-#: about.php:34
-msgid ""
-"Managing servers, email services and developing new web projects is what I "
-"thrive on. I like optimizing systems for performance and getting the best "
-"out of what I have. Do you need help with managing and optimizing your "
-"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
-"touch</a> and we'll discuss details."
-msgstr ""
-"Správa serverů, e-mailových služeb a vývoj nových webových projektů je to, v "
-"čem se mi daří. Líbí se mi optimalizace systémů pro výkon a získání toho "
-"nejlepšího z toho, co mám. Potřebujete pomoci se správou a optimalizací vaší "
-"infrastruktury nebo webu? Jsem tady, abych vám pomohl. <a href=\"/contact.php"
-"\">Kontaktujte mě</a> a probereme podrobnosti."
-
-#: about.php:35
-msgid "Profiles on other sites that I am active on:"
-msgstr "Profily na jiných webech, na kterých jsem aktivní:"
-
-#: about.php:42
-msgid "About this site"
-msgstr "O této stránce"
-
-#: about.php:43
-msgid ""
-"This is my personal site, that I develop in my free time. I started "
-"development of this site in August/September 2013 when I wanted to have a "
-"platform to host files on, to use at school."
-msgstr ""
-"Toto je moje osobní stránka, kterou vyvíjím ve svém volném čase. S vývojem "
-"tohoto webu jsem začal v srpnu/září 2013, když jsem chtěl mít platformu pro "
-"hostování souborů pro použití ve škole."
-
-#: about.php:44
-msgid ""
-"Quickly the idea of using a chat at school came up and I came across a "
-"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
-"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
-"deployed that on my Raspberry Pi it was running very slowly and wasn't "
-"really usable for use with several people. So I decided to port some parts I "
-"needed to PHP."
-msgstr ""
-"Rychle přišel nápad používat chat ve škole a narazil jsem na jednoduchý "
-"perlový chatovací skript s názvem <a href=\"https://github.com/virtualghetto/"
-"lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> LE-CHAT</a>. Když "
-"jsem to nasadil na své Raspberry Pi, běželo to velmi pomalu a nebylo to "
-"opravdu použitelné pro použití s několika lidmi. Tak jsem se rozhodl přenést "
-"některé potřebné části do PHP."
-
-#: about.php:45
-msgid ""
-"This has been the start for me to get deeper into web-development and I have "
-"since open-sourced that chat script and several other scripts of this site "
-"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
-"new features and improved reliability and my code a lot."
-msgstr ""
-"To byl pro mě začátek, abych se dostal hlouběji do vývoje webu a od té doby "
-"jsem tento chatovací skript a několik dalších skriptů tohoto webu získal "
-"jako open source na můj <a href=\"https://github.com/DanWin/\" =\"_blank\" "
-"rel=\"noopener noreferrer\">GitHub</a>. Od té doby jsem přidal mnoho nových "
-"funkcí a zlepšil spolehlivost a hodně mého kódu."
-
-#: about.php:46
-msgid ""
-"I used to offer free file hosting, an url shortener, a chat and even a free "
-"darknet web hosting service. All these projects have taught me a lot about "
-"coding, security and server management. As of now, only the anonymous email "
-"and XMPP hosting, as well as the onion link list are still actively "
-"maintained."
-msgstr ""
-"Kdysi jsem nabízel bezplatný hosting souborů, zkracovač url, chat a dokonce "
-"i bezplatnou darknet webhostingovou službu. Všechny tyto projekty mě naučily "
-"hodně o kódování, zabezpečení a správě serverů. Od této chvíle jsou stále "
-"aktivně udržovány pouze anonymní e-mail a hosting XMPP, stejně jako seznam "
-"odkazů na darknet."
-
-#: about.php:47
-msgid "About the setup"
-msgstr "O sestavě"
-
-#: about.php:48
-msgid ""
-"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
-"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
-"sh and Wireguard."
-msgstr ""
-"Software, který používám, jsou Debian sid s běžícími Ceph, NginX, MariaDB, "
-"Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, "
-"bind9, acme.sh a Wireguard."
-
-#: about.php:49
-msgid ""
-"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-"the raspberry pis at home. Additionally, they run a Postfix instance only "
-"listening on the VPN network to send out mails to clearnet."
-msgstr ""
-"Brány clearnet na <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> jsou NginX Proxy, které předávají všechny požadavky "
-"Raspberry Pis doma. Kromě toho provozují instanci Postfixu, která naslouchá "
-"pouze v síti VPN a odesílá e-maily do clearnetu."
-
-#: about.php:50
-msgid "All servers are interconnected with a Wireguard VPN."
-msgstr "Všechny servery jsou propojeny pomocí Wireguard VPN."
-
-#: about.php:51
-msgid "Hosting providers I use(ed) and servers hosted there:"
-msgstr "Poskytovatelé hostingu, které používám(val):"
-
-#: about.php:53 about.php:54
-#, php-format
-msgid "%s - good for short-term and/or low-bandwidth projects"
-msgstr ""
-"%s - dobré pro krátkodobé projekty a/nebo projekty s nízkou šířkou pásma"
-
-#: about.php:55
-#, php-format
-msgid "%s - good and reliable"
-msgstr "%s - dobrý a spolehlivý"
-
-#: about.php:56
-#, php-format
-msgid "%s - comparably expensive but good and reliable"
-msgstr "%s - srovnatelně drahé, ale dobré a spolehlivé"
-
-#: about.php:57
-#, php-format
-msgid "%s - (Used for my clearnet gateway) - good and reliable"
-msgstr "%s - (Používáno pro mou bránu clearnet) - dobré a spolehlivé"
-
-#: about.php:58
-#, php-format
-msgid ""
-"%s - (Used for my clearnet gateway + Domain registration) - good and "
-"reliable, hosted in my city"
-msgstr ""
-"%s - (Používáno pro mou bránu clearnet + registraci domény) - dobré a "
-"spolehlivé, hostováno v mém městě"
-
-#: about.php:59
-msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
-msgstr "Doma hostováno: 4x Raspberry Pi 4 s hlavním webem a daty"
-
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:130
+#: common.php:131 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy"
 
-#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
-msgid ""
-"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+#: common.php:132
+msgid "FAQ"
+msgstr "FAQ"
+
+#: common.php:133 about.php:29
+msgid "About"
+msgstr "O mně"
+
+#: common.php:134 contact.php:27
+msgid "Contact"
+msgstr "Kontakt"
+
+#: common.php:135
+msgid "Privacy"
+msgstr "Soukromí"
+
+#: common.php:147
+msgid "Add translation"
+msgstr "Přidat překlad"
+
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
+#: hosting/index.php:27
+msgid "Daniel's Hosting shutdown after hack"
 msgstr ""
-"Proxy GitHub IPv6 umožňuje stahování repozitářů GitHub na servery pouze s "
-"protokolem IPv6"
 
-#: github-ipv6-proxy.php:34
-#, php-format
+#: hosting/index.php:10 hosting/index.php:16
+msgid "Daniel's Hosting - a former darknet web hosting service"
+msgstr "Daniel's Hosting – bývalá darknet webhostingová služba"
+
+#: hosting/index.php:28
 msgid ""
-"Recently I had to clone a git repository on GitHub via an IPv6 only server "
-"that I rented at my favourite hosting provider %s. Unfortunately I realized "
-"that GitHub still <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
-"support IPv6</a>."
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at <a href="
+"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
+"\">https://github.com/DanWin/hosting</a>."
 msgstr ""
-"Nedávno jsem musel klonovat úložiště git na GitHubu přes server pouze s "
-"IPv6, který jsem si pronajal u svého oblíbeného poskytovatele hostingu %s. "
-"Bohužel jsem si uvědomil, že GitHub stále <a href=\"https://github.com/orgs/"
-"community/discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer"
-"\">nepodporuje IPv6</a>."
+"V březnu 2020 hacker smazal všechny databáze související s mým hostingem, "
+"takže jsem byl nucen vypnout svou hostingovou službu. Pokud chcete přispět "
+"nebo si sestavit svůj vlastní hosting, podívejte se na můj open source "
+"projekt na <a href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
+"rel=\"noopener\">https:// github.com/DanWin/hosting</a>."
 
-#: github-ipv6-proxy.php:35
+#: hosting/index.php:29
 msgid ""
-"My workaround was setting up a WireGuard VPN with one of my dual-stack "
-"servers. An alternative could have been installing Tor to download "
-"anonymously."
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
+"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">available for download</a>, which should enable anyone willing to become "
+"the next darknet shared hosting provider to start where I left of."
 msgstr ""
-"Mým řešením bylo nastavení WireGuard VPN s jedním z mých dvou-stackových "
-"serverů. Alternativou by mohla být instalace Tor pro anonymní stahování."
+"Být hostitelem darknetu mě naučilo mnoho věcí. Byl to však volnočasový "
+"projekt, který jsem dělal vedle své práce na plný úvazek, a je velmi časově "
+"náročné snažit se udržet server čistý od nelegálních a podvodných stránek. "
+"Strávil jsem mazáním účtů 10krát více času, než jsem mohl najít čas na "
+"pokračování ve vývoji. V tuto chvíli neplánuji v hostingovém projektu "
+"pokračovat, ale nemusí to být konec. Existují další poskytovatelé hostingu "
+"jako <a href=\"http://"
+"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
+"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" target="
+"\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> nebo služba clearnet proxy "
+"<a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel=\"noopener"
+"\">Clearnet Onion | Easy clearnet relay</a> a můj projekt je <a href="
+"\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener\">k "
+"dispozici ke stažení</a>, což by mělo umožnit každému, kdo je ochotný stát "
+"se dalším poskytovatelem sdíleného hostingu darknetu, začít tam, kde jsem "
+"skončil."
 
-#: github-ipv6-proxy.php:36
+#: new-domain.php:6 new-domain.php:17 new-domain.php:27
+msgid "Daniel - New domain"
+msgstr "Daniel - Nová doména"
+
+#: new-domain.php:10 new-domain.php:18
+msgid "We moved to a brand new domain - migrate your accounts"
+msgstr "Přestěhovali jsme se na zcela novou doménu – migrujte své účty"
+
+#: new-domain.php:29 blog/index.php:32
+msgid "New domain - DanWin1210.Me is now DanWin1210.De"
+msgstr "Nová doména - DanWin1210.me je nyní DanWin1210.de"
+
+#: new-domain.php:30
+msgid "Why this sudden and drastic change?"
+msgstr "Proč tato náhlá a drastická změna?"
+
+#: new-domain.php:31
 msgid ""
-"As I'm by far not the only user with an IPv6 only server looking to download "
-"repositories from GitHub, I decided to provide a public proxy server that "
-"can be used to access GitHub on an IPv6 network, until GitHub provides "
-"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
-"users from using unnecessary resources, as they can already clone from "
-"GitHub directly."
+"In mid-October 2021 I noticed that I was locked out of my registrar's "
+"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q>. After contacting their "
+"customer support multiple times, even after more than a year, all I have "
+"ever gotten back from them is that I will hear from them soon, as they need "
+"more time to investigate, and they appreciate my patience. I was refused "
+"renewing the domain or moving to a different registrar."
 msgstr ""
-"Protože nejsem zdaleka jediný uživatel se serverem pouze pro IPv6, který "
-"chce stahovat úložiště z GitHubu, rozhodl jsem se poskytnout veřejný proxy "
-"server, který lze použít k přístupu na GitHub v síti IPv6, dokud GitHub "
-"nebude poskytovat nativní podporu IPv6. Proxy je k dispozici pouze na IPv6, "
-"aby uživatelé IPv4 nepoužívali zbytečné zdroje, protože již mohou klonovat "
-"přímo z GitHubu."
+"V polovině října 2021 jsem si všiml, že jsem byl uzamčen z ovládacího panelu "
+"mého registrátora (Namecheap Inc.) z důvodu <q>podezření z podvodu, zpětného "
+"zúčtování nebo jiného podobného porušení našich smluvních podmínek</q>. "
+"Poté, co jsem několikrát kontaktoval jejich zákaznickou podporu, dokonce i "
+"po více než roce, jediné, co jsem od nich dostal, je, že se mi brzy ozvou, "
+"protože potřebují více času na prošetření, a oceňují moji trpělivost. "
+"Prodloužení domény nebo přechod k jinému registrátorovi mi bylo zamítnuto ."
 
-#: github-ipv6-proxy.php:37
+#: new-domain.php:32
 msgid ""
-"Note, that my https proxy is serving a ssl certificate issued for my domain, "
-"which means I decrypt and re-encrypt your traffic (and could potentially "
-"look into it, but I don't). It is necessary as you'd get an invalid ssl "
-"certificate warning otherwise + github would redirect to the default port "
-"after accepting it. See below for a more permanent solution, that's more "
-"privacy-friendly."
+"Given that I was unable to get a satisfying answer and the old domain was "
+"due to expire, I went ahead and bought the new domain danwin1210.de, to "
+"switch over to. danwin1210.me went down after expiry, but thankfully I was "
+"allowed to pay for extension by creating a new account and depositing the "
+"money for renewal there, so it was back up shortly afterwards."
 msgstr ""
-"Všimněte si, že můj https proxy poskytuje ssl certifikát vydaný pro mou "
-"doménu, což znamená, že dešifruji a znovu zašifruji váš provoz (a mohl bych "
-"se na to potenciálně podívat, ale nedělám to). Je to nutné, protože byste "
-"dostali upozornění na neplatný certifikát ssl, jinak by se + github po jeho "
-"přijetí přesměroval na výchozí port. Níže naleznete trvalejší řešení, které "
-"je šetrnější k soukromí."
+"Vzhledem k tomu, že jsem nemohl dostat uspokojivou odpověď a stará doména "
+"měla expirovat, koupil jsem si novou doménu danwin1210.de, na kterou jsem "
+"přešel. danwin1210.me se po expirování platnosti zhroutil, ale naštěstí mi "
+"bylo umožněno zaplatit za prodloužení vytvořením nového účtu a vložením "
+"peněz na obnovení tam, takže sem to měl krátce poté zpět."
 
-#: github-ipv6-proxy.php:38
-#, php-format
+#: new-domain.php:33
 msgid ""
-"So how does it work? Let's assume we want to clone the PHP Chat script I've "
-"published at %s. Normally cloning the repository would look like this:"
+"After a year my domain was due expiry again, so I enquired if I could move "
+"to a different registrar now. They offered me again to pay via an alternate "
+"account, because: <q>Unfortunately, we need more time to investigate your "
+"issue.</q> A year should be more than enough time to solve whatever issue "
+"they might have with my account… This time I decided to let it expire for "
+"good, since almost everyone should have switched over to the new domain by "
+"now."
 msgstr ""
-"Jak to tedy funguje? Předpokládejme, že chceme naklonovat skript PHP Chat, "
-"který jsem zveřejnil na %s. Normálně by klonování úložiště vypadalo takto:"
+"Po roce mi měla doména opět expirovat, tak jsem se zeptal, jestli bych teď "
+"nemohl přejít k jinému registrátorovi. Nabídli mi znovu platbu "
+"prostřednictvím alternativního účtu, protože: <q>Bohužel potřebujeme více "
+"času na prošetření vašeho problému.</q> Rok by měl být více než dost času na "
+"vyřešení jakéhokoli problému, který by mohli mít s mým účtem… Tentokrát jsem "
+"se rozhodl, že to nechám expirovat nadobro, protože na novou doménu se už "
+"přesunuli skoro všichni."
 
-#: github-ipv6-proxy.php:40
-msgid "On an IPv6 connection, you can use my proxy service like this:"
-msgstr "Na připojení IPv6 můžete moji službu proxy používat takto:"
+#: new-domain.php:34
+msgid "What does it mean for users?"
+msgstr "Co to znamená pro uživatele?"
 
-#: github-ipv6-proxy.php:42
-msgid "And if you would like to clone via ssh you can also do it like this:"
-msgstr "A pokud byste chtěli klonovat přes ssh, můžete to udělat také takto:"
-
-#: github-ipv6-proxy.php:44
+#: new-domain.php:35
 msgid ""
-"Those wanting to use the proxy more permanently and/or talk directly to "
-"GitHub, without me re-encrypting your traffic, should add the following to /"
-"etc/hosts:"
+"You don't have an account and just browse the site? Not much will change, "
+"just the address in your browsers URL bar."
 msgstr ""
-"Ti, kteří chtějí používat proxy trvaleji a/nebo mluvit přímo s GitHub, aniž "
-"bych znovu šifroval váš provoz, by měli do /etc/hosts přidat následující:"
+"Nemáte účet a jen prohlížíte stránky? Moc se toho nezmění, jen adresa v URL "
+"liště vašeho prohlížeče."
 
-#: github-ipv6-proxy.php:49
-msgid "Once added, you can clone as usual, without any changes:"
-msgstr "Po přidání můžete klonovat jako obvykle, bez jakýchkoli změn:"
-
-#: github-ipv6-proxy.php:52
+#: new-domain.php:36
 msgid ""
-"All of this is done with the following nginx configuration on a dual stack "
-"server:"
+"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
+"you some struggles, as you now only have a few days left to migrate all your "
+"contacts/accounts to the new address. Any service where you registered with "
+"your email address will need to be updated to reflect the new domain. You "
+"might otherwise get locked out of your accounts, if they require you to e.g. "
+"click a link in your email for login."
 msgstr ""
-"To vše se provádí pomocí následující konfigurace nginx na serveru se dvěma "
-"zásobníky:"
+"Používáš službu XMPP/E-Mail? Je mi líto, ale pravděpodobně ti to způsobí "
+"potíže, protože nyní máš jen několik dní na to, aby migrovali všechny své "
+"kontakty/účty na novou adresu. Každá služba, kde jste se zaregistrovali "
+"pomocí své e-mailové adresy, bude muset být aktualizována, aby obsahovala "
+"novou doménu. Jinak byste mohli zůstat uzamčeni ze svých účtů, pokud "
+"vyžadují, abyste např. klikněte na odkaz ve vašem e-mailu pro přihlášení."
 
-#: github-ipv6-proxy.php:90 chat/index.php:32
+#: new-domain.php:37
+msgid ""
+"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
+"php\" target=\"_blank\">in their account settings</a> to reflect the new "
+"domain and allow WKD clients to grab your key automatically."
+msgstr ""
+"Uživatelé e-mailu by také měli aktualizovat svůj klíč PGP <a href=\"/mail/"
+"manage_account.php\" target=\"_blank\">v nastavení účtu</a>, aby obsahoval "
+"novou doménu a umožnil klientům WKD automaticky získat váš klíč."
+
+#: new-domain.php:38
+msgid ""
+"You can no longer login with your .me user credentials, only with the .de "
+"ones, as the old domain is no longer under my control."
+msgstr ""
+
+#: new-domain.php:39
+msgid "Will the old address still work?"
+msgstr "Bude stará adresa stále fungovat?"
+
+#: new-domain.php:40
+msgid ""
+"After a very brief downtime, it was back online. Now, after a year, it's "
+"expired once more. I may be able to buy it again after Namecheap returns the "
+"domain to the registry. However, Namecheap apparently sells the domain now "
+"for $400…"
+msgstr ""
+"Po velmi krátkém výpadku byl opět online. Nyní po roce opět vypršela. Možná "
+"si ji budu moci znovu koupit, až Namecheap vrátí doménu do registru. "
+"Namecheap však zřejmě nyní prodává doménu za 400 $…"
+
+#: new-domain.php:41
+msgid ""
+"How do I know you are still the same person? This could be law enforcement "
+"taking over the servers."
+msgstr ""
+"Jak mám vědět, že jsi stále ten stejný člověk? Mohlo by se jednat o přebrání "
+"serverů donucovacími orgány."
+
+#: new-domain.php:42
+msgid ""
+"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
+"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
+"\"_blank\">old PGP key</a>. This can be verified by running a command like "
+"this:"
+msgstr ""
+"Využil jsem příležitosti vytvořit <a href=\"/pgp.txt\" target=\"_blank"
+"\">nový klíč PGP</a> a podepsal jsem jej pomocí svého <a href=\"/old_pgp.txt"
+"\" target=\"_blank \">starého klíče PGP</a>. To lze ověřit spuštěním "
+"příkazu, jako je tento:"
+
+#: new-domain.php:44
+msgid ""
+"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
+"code>. I have also included signatures of previous keys on my old key, so "
+"you can even verify the key, in case you have an older key I was using "
+"before."
+msgstr ""
+"Měl by ukazovat důkaz, že je podepsán mým starým klíčem "
+"<code>F8B8CFC35FBDB40D</code>. Na svůj starý klíč jsem také zahrnul podpisy "
+"předchozích klíčů, takže můžete klíč dokonce ověřit, pokud máte starší klíč, "
+"který jsem v minulosti používal."
+
+#: blog/index.php:6 blog/index.php:15 blog/index.php:25
+#, fuzzy
+#| msgid "Daniel - Home"
+msgid "Daniel - Blog and news"
+msgstr "Daniel - Úvodní stránka"
+
+#: blog/index.php:10 blog/index.php:16
+#, fuzzy
+#| msgid "Contact Daniel Winzen"
+msgid "Blog and news by Daniel Winzen"
+msgstr "Kontakt Daniela Winzena"
+
+#: blog/index.php:28
+msgid "Blog posts and news related to my services will be posted here."
+msgstr ""
+
+#: blog/index.php:30
+msgid "Date"
+msgstr ""
+
+#: blog/index.php:30
+msgid "Title"
+msgstr ""
+
+#: blog/index.php:31
+msgid "March 2020"
+msgstr ""
+
+#: blog/index.php:31
+msgid "Hosting service shutdown due to hack"
+msgstr ""
+
+#: blog/index.php:32
+msgid "December 2021"
+msgstr ""
+
+#: blog/index.php:33
+msgid "December 2022"
+msgstr ""
+
+#: blog/index.php:33 chat/index.php:15 chat/index.php:27
+#, fuzzy
+#| msgid "Daniel's Chat"
+msgid "Daniel's Chat shutdown"
+msgstr "Daniel's Chat"
+
+#: chat/index.php:6
+#, fuzzy
+#| msgid "Daniel's Chat"
+msgid "Daniel's Chat shutdnown"
+msgstr "Daniel's Chat"
+
+#: chat/index.php:10 chat/index.php:16
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr "Daniel's Chat – bývalá darknet chatovací komunita"
+
+#: chat/index.php:25
+#, fuzzy
+#| msgid "Daniel's Chat"
+msgid "Daniel' Chat shutdown"
+msgstr "Daniel's Chat"
+
+#: chat/index.php:28
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr "Po 9 letech chat nadobro vypínám."
+
+#: chat/index.php:29
+msgid ""
+"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">my onion link list</a>. If you are interested in running a similar "
+"chat community, you can download my chat script on <a href=\"https://github."
+"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">GitHub</a>."
+msgstr ""
+"Alternativní chaty najdete na <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">mém seznamu odkazů</a>. Pokud máte zájem provozovat podobnou "
+"chatovací komunitu, můžete si stáhnout můj chatovací skript na <a href="
+"\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
+"noreferrer\" >GitHub</a>."
+
+#: chat/index.php:30
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+"Tento chat začal jako hobby projekt pro použití ve škole v roce 2013 a "
+"vyvinul se ve velmi aktivní darknet chatovací komunitu. Správu chatu jsem od "
+"roku 2017 přenechal různým lidem, jelikož jsem již nemohl najít čas ani "
+"motivaci chat spravovat. V posledních měsících administrativa, která to "
+"převzala, udržovala chat velmi soukromý, nechala lidi trávit hodiny čekáním "
+"na získání přístupu a náhodně lidi bezdůvodně kopala. To zase zaplnilo mou "
+"doručenou poštu zprávami lidí, kteří žádali o pomoc s přístupem k chatu a "
+"provoz se snížil na zlomek toho, co býval. V tomto stavu nemá smysl službu "
+"dále poskytovat. Proto jsem se rozhodl chat v prosinci 2022 po 9 letech "
+"nadobro ukončit."
+
+#: chat/index.php:31
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+"Vzhledem k tomu, že mě pár lidí žádalo, abych je udělal správcem a znovu "
+"povolil chat: Ne, toto rozhodnutí bylo učiněno a mělo se to udělat již dávno "
+"v minulosti. Chat už se mnou neměl vůbec nic společného, kromě toho, že jsem "
+"ho naprogramoval a spravuji server. Každý si může vytvořit svůj vlastní "
+"chat, ale ne zde na mém webu."
+
+#: chat/index.php:32 github-ipv6-proxy.php:90
 msgid ""
 "If there are any further questions, feel free to <a href=\"/contact.php"
 "\">contact me</a>."
@@ -477,10 +560,6 @@ msgstr "Daniel - Kontakt"
 #: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
 msgstr "Kontakt Daniela Winzena"
-
-#: contact.php:27 common.php:133
-msgid "Contact"
-msgstr "Kontakt"
 
 #: contact.php:28
 msgid ""
@@ -516,11 +595,11 @@ msgstr ""
 
 #: contact.php:41
 msgid "Send"
-msgstr ""
+msgstr "Odeslat"
 
 #: contact.php:57
 msgid "You filled out the honeypot field :( Are you a human?"
-msgstr "Vyplnili jste pole honeypot :( Jste člověk?"
+msgstr "Vyplnili jste pole na honeypotu :( Jsi člověk?"
 
 #: contact.php:61
 msgid "You haven't entered a message yet."
@@ -815,6 +894,8 @@ msgstr ""
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
+"Mám dluhy a potřebuji rychle získat peníze. Jak mohu rychle vydělat nějaké "
+"peníze?"
 
 #: faq.php:41 faq.php:117
 #, php-format
@@ -826,6 +907,12 @@ msgid ""
 "yourself. I made an in-depth tutorial about some steps you can take: <a href="
 "\"%s\">How to get rich (fast)</a>."
 msgstr ""
+"Zbohatnout a smazat své dluhy je proces, který začíná ve vaší hlavě. Šance "
+"zbohatnout přes noc jsou extrémně nízké, měli byste se raději zaměřit na "
+"dlouhodobé cíle. Může vám trvat několik let, než se stanete finančně "
+"svobodnými, ale každý se tam může dostat, pokud jste ochotni se učit a "
+"vzdělávat. Vytvořil jsem podrobný návod o některých krocích, které můžete "
+"podniknout: <a href=\"%s\">Jak zbohatnout (rychle)</a>."
 
 #: faq.php:42 faq.php:120
 msgid "I have more Questions."
@@ -865,290 +952,6 @@ msgstr ""
 "Ano, vezmi si mě a možná to skutečně udělám. Ale jen když mě na oplátku něco "
 "naučíš. <a href=\"contact.php\">Pošli mi své návrhy</a>. Promiňte kluci, "
 "bereme v úvahu pouze ženy."
-
-#: common.php:125
-msgid "Chat"
-msgstr "Chat"
-
-#: common.php:126
-msgid "Online-Test"
-msgstr "Online-Test"
-
-#: common.php:127
-msgid "Onion link list"
-msgstr "Seznam cibulových odkazů"
-
-#: common.php:128
-msgid "E-Mail + XMPP"
-msgstr "E-Mail + XMPP"
-
-#: common.php:129 tutorials/index.php:27
-msgid "Tutorials"
-msgstr "Tutoriály"
-
-#: common.php:131
-msgid "FAQ"
-msgstr "FAQ"
-
-#: common.php:134
-msgid "Privacy"
-msgstr "Soukromí"
-
-#: common.php:146
-msgid "Add translation"
-msgstr "Přidat překlad"
-
-#: new-domain.php:6 new-domain.php:17 new-domain.php:27
-msgid "Daniel - New domain"
-msgstr "Daniel - Nová doména"
-
-#: new-domain.php:10 new-domain.php:18
-msgid "We moved to a brand new domain - migrate your accounts"
-msgstr "Přestěhovali jsme se na zcela novou doménu – migrujte své účty"
-
-#: new-domain.php:29
-msgid "New domain - DanWin1210.Me is now DanWin1210.De"
-msgstr "Nová doména - DanWin1210.me je nyní DanWin1210.de"
-
-#: new-domain.php:30
-msgid "Why this sudden and drastic change?"
-msgstr "Proč tato náhlá a drastická změna?"
-
-#: new-domain.php:31
-msgid ""
-"In mid-October 2021 I noticed that I was locked out of my registrar's "
-"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
-"similar violation of our terms of service</q>. After contacting their "
-"customer support multiple times, even after more than a year, all I have "
-"ever gotten back from them is that I will hear from them soon, as they need "
-"more time to investigate, and they appreciate my patience. I was refused "
-"renewing the domain or moving to a different registrar."
-msgstr ""
-"V polovině října 2021 jsem si všiml, že jsem byl uzamčen z ovládacího panelu "
-"mého registrátora (Namecheap Inc.) z důvodu <q>podezření z podvodu, zpětného "
-"zúčtování nebo jiného podobného porušení našich smluvních podmínek</q>. "
-"Poté, co jsem několikrát kontaktoval jejich zákaznickou podporu, dokonce i "
-"po více než roce, jediné, co jsem od nich dostal, je, že se mi brzy ozvou, "
-"protože potřebují více času na prošetření, a oceňují moji trpělivost. "
-"Prodloužení domény nebo přechod k jinému registrátorovi mi bylo zamítnuto ."
-
-#: new-domain.php:32
-msgid ""
-"Given that I was unable to get a satisfying answer and the old domain was "
-"due to expire, I went ahead and bought the new domain danwin1210.de, to "
-"switch over to. danwin1210.me went down after expiry, but thankfully I was "
-"allowed to pay for extension by creating a new account and depositing the "
-"money for renewal there, so it was back up shortly afterwards."
-msgstr ""
-"Vzhledem k tomu, že jsem nemohl dostat uspokojivou odpověď a stará doména "
-"měla expirovat, koupil jsem si novou doménu danwin1210.de, na kterou jsem "
-"přešel. danwin1210.me se po expirování platnosti zhroutil, ale naštěstí mi "
-"bylo umožněno zaplatit za prodloužení vytvořením nového účtu a vložením "
-"peněz na obnovení tam, takže sem to měl krátce poté zpět."
-
-#: new-domain.php:33
-msgid ""
-"After a year my domain was due expiry again, so I enquired if I could move "
-"to a different registrar now. They offered me again to pay via an alternate "
-"account, because: <q>Unfortunately, we need more time to investigate your "
-"issue.</q> A year should be more than enough time to solve whatever issue "
-"they might have with my account… This time I decided to let it expire for "
-"good, since almost everyone should have switched over to the new domain by "
-"now."
-msgstr ""
-"Po roce mi měla doména opět expirovat, tak jsem se zeptal, jestli bych teď "
-"nemohl přejít k jinému registrátorovi. Nabídli mi znovu platbu "
-"prostřednictvím alternativního účtu, protože: <q>Bohužel potřebujeme více "
-"času na prošetření vašeho problému.</q> Rok by měl být více než dost času na "
-"vyřešení jakéhokoli problému, který by mohli mít s mým účtem… Tentokrát jsem "
-"se rozhodl, že to nechám expirovat nadobro, protože na novou doménu se už "
-"přesunuli skoro všichni."
-
-#: new-domain.php:34
-msgid "What does it mean for users?"
-msgstr "Co to znamená pro uživatele?"
-
-#: new-domain.php:35
-msgid ""
-"You don't have an account and just browse the site? Not much will change, "
-"just the address in your browsers URL bar."
-msgstr ""
-"Nemáte účet a jen prohlížíte stránky? Moc se toho nezmění, jen adresa v URL "
-"liště vašeho prohlížeče."
-
-#: new-domain.php:36
-msgid ""
-"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
-"you some struggles, as you now only have a few days left to migrate all your "
-"contacts/accounts to the new address. Any service where you registered with "
-"your email address will need to be updated to reflect the new domain. You "
-"might otherwise get locked out of your accounts, if they require you to e.g. "
-"click a link in your email for login."
-msgstr ""
-"Používáš službu XMPP/E-Mail? Je mi líto, ale pravděpodobně ti to způsobí "
-"potíže, protože nyní máš jen několik dní na to, abymigrovali všechny své "
-"kontakty/účty na novou adresu. Každá služba, kde jste se zaregistrovali "
-"pomocí své e-mailové adresy, bude muset být aktualizována, aby obsahovala "
-"novou doménu. Jinak byste mohli zůstat uzamčeni ze svých účtů, pokud "
-"vyžadují, abyste např. klikněte na odkaz ve vašem e-mailu pro přihlášení."
-
-#: new-domain.php:37
-msgid ""
-"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
-"php\" target=\"_blank\">in their account settings</a> to reflect the new "
-"domain and allow WKD clients to grab your key automatically."
-msgstr ""
-"Uživatelé e-mailu by také měli aktualizovat svůj klíč PGP <a href=\"/mail/"
-"manage_account.php\" target=\"_blank\">v nastavení účtu</a>, aby obsahoval "
-"novou doménu a umožnil klientům WKD automaticky získat váš klíč."
-
-#: new-domain.php:38
-msgid ""
-"You can still login with your .me user credentials, but the account is going "
-"to be .de. As long as the old domain is still online, you can also receive "
-"emails on the .me domain, while sending is switched over to .de."
-msgstr ""
-"Stále se můžeš přihlásit pomocí svých uživatelských údajů .me, ale účet "
-"bude .de. Dokud je stará doména stále online, můžete přijímat e-maily také "
-"na doméně .me, přičemž odesílání je přepnuto na .de."
-
-#: new-domain.php:39
-msgid ""
-"XMPP users will most likely notice their account stopped working. "
-"Unfortunately there is no easy way to migrate accounts with prosody (the "
-"XMPP server), as there is with email. You will need to update your account "
-"settings to reflect the new domain in order to login and re-connect with all "
-"your buddies."
-msgstr ""
-"Uživatelé XMPP si s největší pravděpodobností všimnou, že jejich účet "
-"přestal fungovat. Bohužel neexistuje snadný způsob migrace účtů pomocí "
-"prosody (server XMPP), jako je tomu u e-mailu. Abyste se mohli přihlásit a "
-"znovu spojit se všemi svými kamarády, budete muset aktualizovat nastavení "
-"svého účtu, aby odpovídalo nové doméně."
-
-#: new-domain.php:40
-msgid "Will the old address still work?"
-msgstr "Bude stará adresa stále fungovat?"
-
-#: new-domain.php:41
-msgid ""
-"After a very brief downtime, it was back online. Now, after a year, it's "
-"expired once more. I may be able to buy it again after Namecheap returns the "
-"domain to the registry. However, Namecheap apparently sells the domain now "
-"for $400…"
-msgstr ""
-"Po velmi krátkém výpadku byl opět online. Nyní po roce opět vypršela. Možná "
-"si ji budu moci znovu koupit, až Namecheap vrátí doménu do registru. "
-"Namecheap však zřejmě nyní prodává doménu za 400 $…"
-
-#: new-domain.php:42
-msgid "I have a question, something is broken with my account."
-msgstr "Mám dotaz, něco je nefunkční s mým účtem."
-
-#: new-domain.php:43
-msgid ""
-"Make sure you have switched all your settings to the new domain. It should "
-"work as before. Stil not working correctly? Feel free to <a href=\"/contact."
-"php\">contact me</a> for help."
-msgstr ""
-"Ujisti se, že jsi přepnul všechna nastavení na novou doménu. Mělo by to "
-"fungovat jako předtím. Stále to nefunguje správně? Pro pomoc mě neváhejte <a "
-"href=\"/contact.php\">kontaktovat</a>."
-
-#: new-domain.php:44
-msgid ""
-"How do I know you are still the same person? This could be law enforcement "
-"taking over the servers."
-msgstr ""
-"Jak mám vědět, že jsi stále ten stejný člověk? Mohlo by se jednat o přebrání "
-"serverů donucovacími orgány."
-
-#: new-domain.php:45
-msgid ""
-"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
-"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
-"\"_blank\">old PGP key</a>. This can be verified by running a command like "
-"this:"
-msgstr ""
-"Využil jsem příležitosti vytvořit <a href=\"/pgp.txt\" target=\"_blank"
-"\">nový klíč PGP</a> a podepsal jsem jej pomocí svého <a href=\"/old_pgp.txt"
-"\" target=\"_blank \">starého klíče PGP</a>. To lze ověřit spuštěním "
-"příkazu, jako je tento:"
-
-#: new-domain.php:47
-msgid ""
-"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
-"code>. I have also included signatures of previous keys on my old key, so "
-"you can even verify the key, in case you have an older key I was using "
-"before."
-msgstr ""
-"Měl by ukazovat důkaz, že je podepsán mým starým klíčem "
-"<code>F8B8CFC35FBDB40D</code>. Na svůj starý klíč jsem také zahrnul podpisy "
-"předchozích klíčů, takže můžete klíč dokonce ověřit, pokud máte starší klíč, "
-"který jsem v minulosti používal."
-
-#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
-#: hosting/index.php:27
-msgid "Hosting - Info"
-msgstr "Hosting - Info"
-
-#: hosting/index.php:10 hosting/index.php:16
-msgid "Daniel's Hosting - a former darknet web hosting service"
-msgstr "Daniel's Hosting – bývalá darknet webhostingová služba"
-
-#: hosting/index.php:28
-msgid ""
-"In March 2020 a hacker deleted all databases related to my hosting, thus I "
-"was forced to shut down my hosting service. If you want to contribute or "
-"setup your own hosting, check out my open source project at <a href="
-"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
-"\">https://github.com/DanWin/hosting</a>."
-msgstr ""
-"V březnu 2020 hacker smazal všechny databáze související s mým hostingem, "
-"takže jsem byl nucen vypnout svou hostingovou službu. Pokud chcete přispět "
-"nebo si sestavit svůj vlastní hosting, podívejte se na můj open source "
-"projekt na <a href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
-"rel=\"noopener\">https:// github.com/DanWin/hosting</a>."
-
-#: hosting/index.php:29
-msgid ""
-"Being a darknet hoster has taught me many things. However, this was a free "
-"time project I did next to my full time job and it's very time-consuming to "
-"try and keep the server clean from illegal and scammy sites. I've spent 10 "
-"times more time on deleting accounts than I could find time to continue "
-"development. At this time I do not plan on continuing the hosting project, "
-"but this doesn't have to be the end. There are other hosting providers like "
-"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
-"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
-"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
-"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
-"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
-"\">available for download</a>, which should enable anyone willing to become "
-"the next darknet shared hosting provider to start where I left of."
-msgstr ""
-"Být hostitelem darknetu mě naučilo mnoho věcí. Byl to však volnočasový "
-"projekt, který jsem dělal vedle své práce na plný úvazek, a je velmi časově "
-"náročné snažit se udržet server čistý od nelegálních a podvodných stránek. "
-"Strávil jsem mazáním účtů 10krát více času, než jsem mohl najít čas na "
-"pokračování ve vývoji. V tuto chvíli neplánuji v hostingovém projektu "
-"pokračovat, ale nemusí to být konec. Existují další poskytovatelé hostingu "
-"jako <a href=\"http://"
-"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
-"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" target="
-"\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> nebo služba clearnet proxy "
-"<a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel=\"noopener"
-"\">Clearnet Onion | Easy clearnet relay</a> a můj projekt je <a href="
-"\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener\">k "
-"dispozici ke stažení</a>, což by mělo umožnit každému, kdo je ochotný stát "
-"se dalším poskytovatelem sdíleného hostingu darknetu, začít tam, kde jsem "
-"skončil."
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
@@ -1426,343 +1229,24 @@ msgid "Legally binding is only the English version of this privacy policy"
 msgstr ""
 "Právně závazná je pouze anglická verze těchto zásad ochrany osobních údajů"
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:25
-msgid "Daniel - Chat"
-msgstr "Daniel - Chat"
-
-#: chat/index.php:10 chat/index.php:16
-msgid "Daniel's Chat - a former darknet chat community"
-msgstr "Daniel's Chat – bývalá darknet chatovací komunita"
-
-#: chat/index.php:27
-msgid "Daniel's Chat"
-msgstr "Daniel's Chat"
-
-#: chat/index.php:28
-msgid "After 9 years, I'm shutting down the chat for good."
-msgstr "Po 9 letech chat nadobro vypínám."
-
-#: chat/index.php:29
-msgid ""
-"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">my onion link list</a>. If you are interested in running a similar "
-"chat community, you can download my chat script on <a href=\"https://github."
-"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
-"\">GitHub</a>."
-msgstr ""
-"Alternativní chaty najdete na <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">mém seznamu odkazů</a>. Pokud máte zájem provozovat podobnou "
-"chatovací komunitu, můžete si stáhnout můj chatovací skript na <a href="
-"\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
-"noreferrer\" >GitHub</a>."
-
-#: chat/index.php:30
-msgid ""
-"This chat started as a hobby project for use in school in 2013 and evolved "
-"into a very active darknet chat community. I handed over chat administration "
-"to various other people since 2017, as I was no longer able to find the time "
-"or motivation to administrate the chat. In recent months, the administration "
-"that took over, kept the chat very private, made people spend hours waiting "
-"to get access and randomly kicked people for no reason. This in turn filled "
-"my inbox with messages of people asking for assistance to access the chat "
-"and traffic has decreased to a fraction of what it used to be. In this "
-"state, it doesn't make sense to continue providing the service. Thus I "
-"decided to shut down the chat for good in December 2022, after 9 years."
-msgstr ""
-"Tento chat začal jako hobby projekt pro použití ve škole v roce 2013 a "
-"vyvinul se ve velmi aktivní darknet chatovací komunitu. Správu chatu jsem od "
-"roku 2017 přenechal různým lidem, jelikož jsem již nemohl najít čas ani "
-"motivaci chat spravovat. V posledních měsících administrativa, která to "
-"převzala, udržovala chat velmi soukromý, nechala lidi trávit hodiny čekáním "
-"na získání přístupu a náhodně lidi bezdůvodně kopala. To zase zaplnilo mou "
-"doručenou poštu zprávami lidí, kteří žádali o pomoc s přístupem k chatu a "
-"provoz se snížil na zlomek toho, co býval. V tomto stavu nemá smysl službu "
-"dále poskytovat. Proto jsem se rozhodl chat v prosinci 2022 po 9 letech "
-"nadobro ukončit."
-
-#: chat/index.php:31
-msgid ""
-"Since a few people asked me to make them admin and re-enable the chat: No, "
-"this decision has been made and was long overdue. The chat had nothing at "
-"all to do with me anymore, except that I've programmed it and I maintain the "
-"server. Anyone is welcome to create their own chat, but not here on my site."
-msgstr ""
-"Vzhledem k tomu, že mě pár lidí žádalo, abych je udělal správcem a znovu "
-"povolil chat: Ne, toto rozhodnutí bylo učiněno a mělo se to udělat již dávno "
-"v minulosti. Chat už se mnou neměl vůbec nic společného, kromě toho, že jsem "
-"ho naprogramoval a spravuji server. Každý si může vytvořit svůj vlastní "
-"chat, ale ne zde na mém webu."
-
-#: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
-#: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
-#: tutorials/index.php:32
-msgid "How to get rich (fast)"
+#: privacy.php:58
+msgid "8. List of sub-processors"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
-#: tutorials/index.php:32
-msgid "This tutorial will guide you to achieving financial freedom."
+#: privacy.php:60
+msgid "Vendor"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:36
-msgid "A word about fast money"
+#: privacy.php:60
+msgid "Purpose"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:37
-msgid ""
-"To become rich, you need to invest your time in education and self-"
-"development. Very few people will get rich overnight. And those that do, "
-"usually lose everything in a short time, because they spend all of it, "
-"sometimes being left with debts due to a lack of financial education."
+#: privacy.php:61
+msgid "Providing server infrastructure and backup storage"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:38
-msgid "Here are some common ways of getting money fast:"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:40
-msgid "Win a lottery"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:41
-msgid "Gambling"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:42
-msgid "Betting"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:43
-msgid "Win unconditional basic income"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:45
-msgid ""
-"All of the above-mentioned options are highly dependent on luck and not "
-"feasible for building long-term wealth."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:46
-msgid "Reduce your expenses"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:47
-msgid "Pay off your high-interest debts"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:48
-msgid ""
-"Credit cards are often used to buy items when you do not have the money for "
-"them. What many forget is that the interest rates you pay can be as high as "
-"20-30%! If you have a credit card, or maybe even multiple ones, start by "
-"paying them off as fast as you can. The interest will otherwise keep you "
-"poor and unable to pay your regular expenses. If your interest payments are "
-"already so high, that you can't pay them off, check on comparison sites, if "
-"there are consumer loans you could take, which have a lower interest rate, "
-"to replace the existing debt with this one. It's also worth trying to give "
-"your credit card company a call and explain that it won't be possible to pay "
-"off the debt and if they could maybe cut your interest."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:49
-msgid "Stop drinking or taking drugs"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:50
-msgid ""
-"While an occasional party can be fun, some people go partying every few days "
-"and spend a large portion of their income on alcohol and/or drugs. Not only "
-"is it a waste of your money, but you're also severely impacting your health "
-"and mental capabilities. You can get social without any mind-altering "
-"substances. If your friends don't understand that, perhaps you should "
-"surround yourself with other people."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:51
-msgid "The 24-hour rule"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:52
-msgid ""
-"Before you buy something, give yourself 24 hours to think about it. "
-"Impulsive shopping is often a major contributor to why you have no money "
-"left at the end of the month. Do you really need a new jacket, when you "
-"already have two hanging in your closet? Is it really necessary to buy "
-"expensive sweets and snacks? You might be surprised that you think about it "
-"differently just a few hours later."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:53
-msgid "Buy luxuries only with passive income"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:54
-msgid ""
-"A fatal mistake that many people make is, once they have some money, "
-"directly spending it on expensive luxuries such as watches, cars, or other "
-"non-essential items. No matter how much you earn, if you keep spending all "
-"your income, you have nothing left at the end of the month and need to keep "
-"working to pay for your luxuries. If you however take any excess money and "
-"invest it, you get passive income, which you can use to pay for your "
-"luxuries instead. You won't have your new watch right now, but you will be "
-"able to buy it from your passive income in maybe 5 years. As your passive "
-"income grows, you will be able to buy luxuries more often, without having to "
-"worry about being able to afford them."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:55
-msgid "Preparation and Security"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:56
-msgid "Surround yourself with like-minded people"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:57
-msgid ""
-"If you are the smartest person in the room, you are likely in the wrong "
-"room. You should surround yourself with people that have similar goals as "
-"you and who can support you. If you are starting to build wealth, your "
-"current friends might start turning against you, asking you for money, or "
-"even hating you for changing and becoming more mature and successful than "
-"they are. Think about which people you feel great around, and which people "
-"suck out your energy. If your connection with people is not giving you any "
-"benefits, you should cut ties with them and instead spend time with people "
-"that are good for you."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:58
-msgid "Build an emergency fund"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:59
-msgid ""
-"After reducing your expenses, you should be able to put aside a small "
-"portion of your income. Put this in an account that you only touch in "
-"emergencies. Ideally save enough so that you could live from this for 3-6 "
-"months, in case you lose your job, or something else happens to you."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:60
-msgid "Become financially literate and understand how money works"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:61
-msgid ""
-"Reading this page is your first step to becoming financially free and "
-"understanding how building wealth works. This topic is not taught in school, "
-"nor university, and most likely also not by your parents. The system is "
-"designed to get you on the path of getting good grades, getting a safe job, "
-"and keeping your money in the bank to earn 0.01% interest on it, while the "
-"bank uses your money to give out loans and earns high-interest rates on it. "
-"The system is designed to keep you poor and financially uneducated so that "
-"the rich can keep getting richer at your expense. So unfortunately you will "
-"have to educate yourself and find out how our capitalistic system and money "
-"work, and how you can use it to your advantage. There are plenty of "
-"resources online, through which you can further educate yourself. Never take "
-"any financial advice from someone who either doesn't understand what he is "
-"talking about, or who might want to influence you in a way that would "
-"benefit them. Always form your own opinion and check what others have to say."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:62
-msgid "Increase your income"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:63
-msgid "Get a better salary"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:64
-msgid ""
-"If you are unhappy with your current salary, talk to your boss about getting "
-"a raise. You are entitled to getting a raise as your experience grows and "
-"inflation goes up. If your current job is not fulfilling you, look for "
-"alternative jobs that you would enjoy, which offer a similar or better "
-"salary."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:65
-msgid "Become self-employed"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:66
-msgid ""
-"As a self-employed person, you are much more flexible and have a much higher "
-"potential to grow. At the same time, it's also very risky. Don't quit your "
-"job and get self-employed straight away. Instead, talk to your employer and "
-"get an agreement that you can work alongside your primary job. The beginning "
-"will be difficult, but after a while, you will get your first clients and "
-"can grow. If your self-employment is going well, start reducing the hours "
-"you work in your primary job. Take a day or two off, to work on your own "
-"business. When you have reached the point of working at full capacity and "
-"earning as well, or better than in your primary job, it is time to end your "
-"employment contract and become fully self-dependent."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:67
-msgid "Become an entrepreneur, build your own company"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:68
-msgid ""
-"Operating as a company gives you significant tax benefits compared to being "
-"self-employed. However, this also comes along with a lot more "
-"responsibilities, paperwork, and initial investments to set up your company. "
-"Thus you should only operate as a company, if you want to reduce personal "
-"liability or if your profit is much higher than your income needs to be. In "
-"that case, you keep any extra profit in the company or create a second "
-"holding company, to which you transfer the profit, and pay yourself a "
-"regular salary. As business taxes are lower than income taxes, you have more "
-"to invest as a business."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:69
-msgid "Make the money work for you"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:70
-msgid "Investments"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:71
-#, php-format
-msgid ""
-"Put aside a small portion of your income for investments. Even if that is "
-"just 10% or less. Put it into a separate account, so you don't get tempted "
-"to spend this money on anything else. When you are ready to invest this "
-"money, choose an investment platform that suits you and offers projects that "
-"you would like to invest in. This could be for example real estate, "
-"renewable energy projects, or startups. Investments are not risk-free and it "
-"is possible that an investment you made fails and you lose all your money. "
-"That is why you should diversify as much as possible. Use different "
-"platforms, invest small amounts, and spread it over multiple projects."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:72
-msgid "Here are some investment platforms that I have personally invested in:"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:78
-#, php-format
-msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:93
-msgid "Passive income"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:94
-msgid ""
-"After you've made your first investments, you will receive a small "
-"percentage of your investment as a dividend. It varies with each investment. "
-"To keep it simple, let's assume that you earn 10% interest on average, and "
-"you invest 10% of your income, and 1/6 of investments fail. This would mean "
-"that after one year of investing every month, you would already have saved "
-"an entire month of your salary and get 10% in dividend payments that year, "
-"which you can directly re-invest along with your regular investments. Keep "
-"doing this for a few years until you can live only from your passive income "
-"streams."
+#: privacy.php:62
+msgid "Providing server infrastructure"
 msgstr ""
 
 #: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
@@ -1799,6 +1283,17 @@ msgstr "Torifizace FTP klientů"
 msgid "This tutorial will show you how to torify FTP clients."
 msgstr "Tento tutoriál vám ukáže, jak torifizovat FTP klienty."
 
+#: tutorials/index.php:32 tutorials/get-rich-fast/index.php:6
+#: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
+#: tutorials/get-rich-fast/index.php:35
+msgid "How to get rich (fast)"
+msgstr "Jak zbohatnout (rychle)"
+
+#: tutorials/index.php:32 tutorials/get-rich-fast/index.php:10
+#: tutorials/get-rich-fast/index.php:24
+msgid "This tutorial will guide you to achieving financial freedom."
+msgstr "Tento tutoriál tě provede k dosažení finanční svobody."
+
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
 #: tutorials/successful-sugar-dating/index.php:22
 #: tutorials/successful-sugar-dating/index.php:32
@@ -1809,6 +1304,127 @@ msgstr ""
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
 #: tutorials/successful-sugar-dating/index.php:23
 msgid "This tutorial will guide you in finding a sugar relationship."
+msgstr ""
+
+#: tutorials/index.php:34 tutorials/findom/index.php:6
+#: tutorials/findom/index.php:21 tutorials/findom/index.php:31
+#: tutorials/findom/index.php:33
+msgid "Earning money with findom"
+msgstr ""
+
+#: tutorials/index.php:34
+#, fuzzy
+#| msgid "This tutorial will show you how to torify FTP clients."
+msgid "This tutorial will show you how you can use findom to earn money."
+msgstr "Tento tutoriál vám ukáže, jak torifizovat FTP klienty."
+
+#: tutorials/findom/index.php:10 tutorials/findom/index.php:22
+#, fuzzy
+#| msgid "This tutorial will show you how to torify FTP clients."
+msgid "This tutorial will show you how you can use findom to earn money"
+msgstr "Tento tutoriál vám ukáže, jak torifizovat FTP klienty."
+
+#: tutorials/findom/index.php:34
+#, fuzzy
+#| msgid "What is PGP?"
+msgid "What is findom?"
+msgstr "Co je PGP?"
+
+#: tutorials/findom/index.php:35
+msgid ""
+"Findom, short for financial domination. It is a fetish in which a dominant "
+"person (dom) receives money from a submissive person (sub). This transaction "
+"provides pleasure to both parties, even though it is a one-way transaction."
+msgstr ""
+
+#: tutorials/findom/index.php:36
+msgid "What are the risks of engaging in findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:37
+msgid ""
+"For a sub, engaging in findom carries the risk of losing money and control. "
+"It can become addictive and lead to overspending, financial instability or "
+"homelessness. For a dom an unhealthy relationship with money could form, "
+"given that they receive potentially a lot of it, and are tempted to spend "
+"all of it. Once a sub no longer spends money on the dom, this could lead to "
+"an existential crisis due to high expenses that need to be maintained."
+msgstr ""
+
+#: tutorials/findom/index.php:38
+msgid "What are the benefits of findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:39
+msgid ""
+"As a sub, you will be motivated to earn more money and climb the career "
+"ladder faster than you would normally do because you are constantly "
+"challenged to give more to your dom. For doms, it is financial gain."
+msgstr ""
+
+#: tutorials/findom/index.php:40
+msgid "What is a findom relationship like?"
+msgstr ""
+
+#: tutorials/findom/index.php:41
+msgid ""
+"Findom relationships come in various forms. Some are short-lived, one-time "
+"transactions, while others can span many years. While findom is purely "
+"financial, it is also often combined with BDSM, content creation and other "
+"erotic services. Some subs enjoy paying for online shopping or buying over-"
+"priced feet pictures, others will go shopping with their dom in real life, "
+"and some would like to be humiliated in public. A scenario could involve a "
+"debt contract, in which the sub commits to paying off a debt to their dom "
+"for an extended period in monthly instalments."
+msgstr ""
+
+#: tutorials/findom/index.php:42
+msgid "How to live in a healthy findom relationship?"
+msgstr ""
+
+#: tutorials/findom/index.php:43
+msgid ""
+"Everyone is unique, so your specific needs need to be discussed with your "
+"findom partner. It is important that both of you are happy with it. While "
+"some subs and doms favour a fast one-time transaction, it is usually best "
+"for both parties, if a long-term relationship can be established. To "
+"maintain a healthy relationship, the dom needs to know a subs financial "
+"situation, including income, expenses and spending habits. This knowledge "
+"allows the dom to help the sub reduce expenses, increase income and "
+"ultimately hand over more cash to the dom, without risking serious debt "
+"problems. While it is an entertaining thought to some subs, ending up "
+"homeless is not beneficial to anyone."
+msgstr ""
+
+#: tutorials/findom/index.php:44
+msgid "Where do I find a findom partner?"
+msgstr ""
+
+#: tutorials/findom/index.php:45
+#, php-format
+msgid ""
+"If you are curious to try this fetish out or would like to thank me, you can "
+"donate or buy me an item from my <a href=\"%s\" target=\"_blank\" rel="
+"\"noreferrer noopener\">Amazon wishlist</a>. For a more long-term "
+"experience, see the links below."
+msgstr ""
+
+#: tutorials/findom/index.php:46
+msgid "Popular dating sites used for findom:"
+msgstr ""
+
+#: tutorials/findom/index.php:51
+msgid ""
+"You can find findom content on social media sites with tags like #paypig "
+"#moneyslave #findom #payme #spoilme etc."
+msgstr ""
+
+#: tutorials/findom/index.php:56
+msgid "Popular findom sites:"
+msgstr ""
+
+#: tutorials/findom/index.php:66
+msgid "Popular content creator sites used for findom:"
 msgstr ""
 
 #: tutorials/successful-sugar-dating/index.php:35
@@ -1902,6 +1518,373 @@ msgstr ""
 #: tutorials/successful-sugar-dating/index.php:45
 msgid "Here are some popular sugar dating sites:"
 msgstr ""
+
+#: tutorials/get-rich-fast/index.php:36
+msgid "A word about fast money"
+msgstr "Pár slov o rychlých penězích"
+
+#: tutorials/get-rich-fast/index.php:37
+msgid ""
+"To become rich, you need to invest your time in education and self-"
+"development. Very few people will get rich overnight. And those that do, "
+"usually lose everything in a short time, because they spend all of it, "
+"sometimes being left with debts due to a lack of financial education."
+msgstr ""
+"Aby jsi zbohatl, musíš investovat svůj čas do vzdělání a seberozvoje. Jen "
+"málokdo zbohatne přes noc. A ti, kteří to udělají, obvykle v krátké době o "
+"všechno přijdou, protože to všechno utratí a někdy jim zůstanou dluhy kvůli "
+"nedostatečné finanční gramotnosti."
+
+#: tutorials/get-rich-fast/index.php:38
+msgid "Here are some common ways of getting money fast:"
+msgstr "Zde je několik běžných způsobů, jak rychle získat peníze:"
+
+#: tutorials/get-rich-fast/index.php:40
+msgid "Win a lottery"
+msgstr "Výhra v loterii"
+
+#: tutorials/get-rich-fast/index.php:41
+msgid "Gambling"
+msgstr "Hazardní hry"
+
+#: tutorials/get-rich-fast/index.php:42
+msgid "Betting"
+msgstr "Sázení"
+
+#: tutorials/get-rich-fast/index.php:43
+msgid "Win unconditional basic income"
+msgstr "Vyhrát bezpodmínečný základní příjem"
+
+#: tutorials/get-rich-fast/index.php:45
+msgid ""
+"All of the above-mentioned options are highly dependent on luck and not "
+"feasible for building long-term wealth."
+msgstr ""
+"Všechny výše uvedené možnosti jsou vysoce závislé na štěstí a nejsou "
+"proveditelné pro budování dlouhodobého bohatství."
+
+#: tutorials/get-rich-fast/index.php:46
+msgid "Reduce your expenses"
+msgstr "Sniž své výdaje"
+
+#: tutorials/get-rich-fast/index.php:47
+msgid "Pay off your high-interest debts"
+msgstr "Splať své dluhy s vysokým úrokem"
+
+#: tutorials/get-rich-fast/index.php:48
+msgid ""
+"Credit cards are often used to buy items when you do not have the money for "
+"them. What many forget is that the interest rates you pay can be as high as "
+"20-30%! If you have a credit card, or maybe even multiple ones, start by "
+"paying them off as fast as you can. The interest will otherwise keep you "
+"poor and unable to pay your regular expenses. If your interest payments are "
+"already so high, that you can't pay them off, check on comparison sites, if "
+"there are consumer loans you could take, which have a lower interest rate, "
+"to replace the existing debt with this one. It's also worth trying to give "
+"your credit card company a call and explain that it won't be possible to pay "
+"off the debt and if they could maybe cut your interest."
+msgstr ""
+"Kreditní karty se často používají k nákupu věcí, když na ně nemáte peníze. "
+"Mnozí zapomínají, že úrokové sazby, které platíš, mohou být až 20–30%! Pokud "
+"máš kreditní kartu, nebo jich máš dokonce více, začni tím, že je splatíš co "
+"nejrychleji. Úroky tě jinak udrží v chudobě a nebudeš schopen platit své "
+"pravidelné výdaje. Pokud jsou tvoje úrokové platby již tak vysoké, že je "
+"nemůžeš splácet, ověřř si na srovnávačích, zda bys si nemohl vzít "
+"spotřebitelské úvěry s nižší úrokovou sazbou a nahradit stávající dluh "
+"tímto. Také stojí za to zkusit zavolat tvojí společnosti vydávající kreditní "
+"kartu a vysvětlit jí, že nebude možné splatit dluh a jestli by ti mohla "
+"snížit úrok."
+
+#: tutorials/get-rich-fast/index.php:49
+msgid "Stop drinking or taking drugs"
+msgstr "Přestaň pít nebo brát drogy"
+
+#: tutorials/get-rich-fast/index.php:50
+msgid ""
+"While an occasional party can be fun, some people go partying every few days "
+"and spend a large portion of their income on alcohol and/or drugs. Not only "
+"is it a waste of your money, but you're also severely impacting your health "
+"and mental capabilities. You can get social without any mind-altering "
+"substances. If your friends don't understand that, perhaps you should "
+"surround yourself with other people."
+msgstr ""
+"Zatímco příležitostný večírek může být zábavný, někteří lidé chodí na párty "
+"každých pár dní a velkou část svých příjmů utrácejí za alkohol a/nebo drogy. "
+"Nejen, že jsou to vyhozené peníze, ale také to vážně ovlivňujete tvoje "
+"zdraví a duševní schopnosti. Můžeš se socializovat a být zábavný bez "
+"jakýchkoli látek, které ovlivňují mysl. Pokud to vaši přátelé nechápou, "
+"možná byste se měli obklopit jinými lidmi."
+
+#: tutorials/get-rich-fast/index.php:51
+msgid "The 24-hour rule"
+msgstr "Pravidlo 24 hodin"
+
+#: tutorials/get-rich-fast/index.php:52
+msgid ""
+"Before you buy something, give yourself 24 hours to think about it. "
+"Impulsive shopping is often a major contributor to why you have no money "
+"left at the end of the month. Do you really need a new jacket, when you "
+"already have two hanging in your closet? Is it really necessary to buy "
+"expensive sweets and snacks? You might be surprised that you think about it "
+"differently just a few hours later."
+msgstr ""
+"Než si něco koupíš, dej si 24 hodin na rozmyšlenou. Impulzivní nakupování je "
+"často hlavní příčinou toho, proč ti na konci měsíce nezbývají žádné peníze. "
+"Opravdu potřebuješ novou bundu, když už ti dvě visí ve skříni? Je opravdu "
+"nutné kupovat drahé sladkosti a občerstvení? Možná tě překvapí, že o tom jen "
+"o pár hodin později budeš přemýšlet jinak."
+
+#: tutorials/get-rich-fast/index.php:53
+msgid "Buy luxuries only with passive income"
+msgstr "Nakupuj luxusní zboží pouze s pasivním příjmem"
+
+#: tutorials/get-rich-fast/index.php:54
+msgid ""
+"A fatal mistake that many people make is, once they have some money, "
+"directly spending it on expensive luxuries such as watches, cars, or other "
+"non-essential items. No matter how much you earn, if you keep spending all "
+"your income, you have nothing left at the end of the month and need to keep "
+"working to pay for your luxuries. If you however take any excess money and "
+"invest it, you get passive income, which you can use to pay for your "
+"luxuries instead. You won't have your new watch right now, but you will be "
+"able to buy it from your passive income in maybe 5 years. As your passive "
+"income grows, you will be able to buy luxuries more often, without having to "
+"worry about being able to afford them."
+msgstr ""
+"Osudnou chybou mnoha lidí je, že jakmile mají nějaké peníze, přímo je "
+"utrácejí za drahý luxus, jako jsou hodinky, auta nebo jiné nepodstatné věci. "
+"Bez ohledu na to, kolik vyděláváš, pokud budeš neustále utrácet všechny své "
+"příjmy, na konci měsíce ti nezbude nic a budeš nucen dál pracovat, aby jsi "
+"zaplatil za svůj luxus. Pokud však vezmete nějaké přebytečné peníze a "
+"investuješ je, získáš pasivní příjem, který můžeš použít na zaplacení svého "
+"luxusu. Své nové hodinky nebudeš mít hned, ale ze svého pasivního příjmu si "
+"je budeš moci pořídit třeba za 5 let. S rostoucím pasivním příjmem si budeš "
+"moci častěji kupovat luxusní věci, aniž by jsi se musel bát, jestli si je "
+"vůbec můžeš dovolit."
+
+#: tutorials/get-rich-fast/index.php:55
+msgid "Preparation and Security"
+msgstr "Příprava a bezpečnost"
+
+#: tutorials/get-rich-fast/index.php:56
+msgid "Surround yourself with like-minded people"
+msgstr "Obklop se stejně smýšlejícími lidmi"
+
+#: tutorials/get-rich-fast/index.php:57
+msgid ""
+"If you are the smartest person in the room, you are likely in the wrong "
+"room. You should surround yourself with people that have similar goals as "
+"you and who can support you. If you are starting to build wealth, your "
+"current friends might start turning against you, asking you for money, or "
+"even hating you for changing and becoming more mature and successful than "
+"they are. Think about which people you feel great around, and which people "
+"suck out your energy. If your connection with people is not giving you any "
+"benefits, you should cut ties with them and instead spend time with people "
+"that are good for you."
+msgstr ""
+"Pokud jsi nejchytřejší osobou v místnosti, pravděpodobně jsi ve špatné "
+"místnosti. Měl by jsi se obklopit lidmi, kteří mají podobné cíle jako ty a "
+"kteří tě mohou podpořit. Pokud začínáš budovat bohatství, tvoji současní "
+"přátelé se mohou začít obracet proti tobě, chtít po tobě peníze nebo tě "
+"dokonce nenávidět za to, že ses změnil a stal se dospělejším a úspěšnějším "
+"než oni. Přemýšlej o tom, se kterými lidmi se kolem sebe cítíš skvěle a "
+"kteří lidé z tebe vysávají energii. Pokud ti tvoje spojení s lidmi nepřináší "
+"žádné výhody, měl bys s nimi přerušit vazby a místo toho trávit čas s lidmi, "
+"kteří jsou pro tebe dobří."
+
+#: tutorials/get-rich-fast/index.php:58
+msgid "Build an emergency fund"
+msgstr "Vybuduj si nouzový fond"
+
+#: tutorials/get-rich-fast/index.php:59
+msgid ""
+"After reducing your expenses, you should be able to put aside a small "
+"portion of your income. Put this in an account that you only touch in "
+"emergencies. Ideally save enough so that you could live from this for 3-6 "
+"months, in case you lose your job, or something else happens to you."
+msgstr ""
+"Po snížení výdajů bys měl být schopen odložit malou část svých příjmů. Vlož "
+"ji na účet, kterého se dotýkáš pouze v případě nouze. Ideálně si naspoř "
+"tolik, abys mohl žít 3-6 měsíců v případě, že přijdeš o práci nebo se ti "
+"stane něco nečekaného."
+
+#: tutorials/get-rich-fast/index.php:60
+msgid "Become financially literate and understand how money works"
+msgstr "Staň se finančně gramotným a pochop, jak peníze fungují"
+
+#: tutorials/get-rich-fast/index.php:61
+msgid ""
+"Reading this page is your first step to becoming financially free and "
+"understanding how building wealth works. This topic is not taught in school, "
+"nor university, and most likely also not by your parents. The system is "
+"designed to get you on the path of getting good grades, getting a safe job, "
+"and keeping your money in the bank to earn 0.01% interest on it, while the "
+"bank uses your money to give out loans and earns high-interest rates on it. "
+"The system is designed to keep you poor and financially uneducated so that "
+"the rich can keep getting richer at your expense. So unfortunately you will "
+"have to educate yourself and find out how our capitalistic system and money "
+"work, and how you can use it to your advantage. There are plenty of "
+"resources online, through which you can further educate yourself. Never take "
+"any financial advice from someone who either doesn't understand what he is "
+"talking about, or who might want to influence you in a way that would "
+"benefit them. Always form your own opinion and check what others have to say."
+msgstr ""
+"Přečtení této stránky je tvým prvním krokem k tomu, abys se stal finančně "
+"svobodnými a pochopil, jak funguje budování bohatství. Toto téma se "
+"nevyučuje ve škole ani na univerzitě a s největší pravděpodobností ani tví "
+"rodiče. Systém je navržen tak, aby tě přivedl na cestu získávání dobrých "
+"známek, bezpečného zaměstnání a držení tvých peněz v bance, abys na nich "
+"získali 0,01% úrok, zatímco banka tvoje peníze používá k poskytování půjček "
+"a získává vysoké úroky. Systém je navržen tak, abys si byl chudý a finančně "
+"nevzdělaný, aby bohatí mohli neustále bohatnout na váš úkor. Takže se "
+"bohužel budeš muset vzdělávat a zjišťovat, jak náš kapitalistický systém a "
+"peníze fungují a jak je můžeš využít ve svůj prospěch. Na internetu je "
+"spousta zdrojů, pomocí kterých se můžeš dále vzdělávat. Nikdy nepřijímej "
+"žádné finanční rady od někoho, kdo buď nerozumí tomu, o čem mluví, nebo kdo "
+"by tě mohl chtít ovlivnit způsobem, který by mu prospěl. Vždy si vytvoř svůj "
+"vlastní názor a ověř, co říkají ostatní."
+
+#: tutorials/get-rich-fast/index.php:62
+msgid "Increase your income"
+msgstr "Zvyš svůj příjem"
+
+#: tutorials/get-rich-fast/index.php:63
+msgid "Get a better salary"
+msgstr "Získej lepší plat"
+
+#: tutorials/get-rich-fast/index.php:64
+msgid ""
+"If you are unhappy with your current salary, talk to your boss about getting "
+"a raise. You are entitled to getting a raise as your experience grows and "
+"inflation goes up. If your current job is not fulfilling you, look for "
+"alternative jobs that you would enjoy, which offer a similar or better "
+"salary."
+msgstr ""
+"Pokud nejsi spokojen se svým současným platem, promluv si se svým šéfem o "
+"zvýšení platu. Máš nárok na zvýšení platu, protože tvoje zkušenosti rostou a "
+"inflace stoupá. Pokud tě tvoje současná práce nenaplňuje, hledej "
+"alternativní práce, které by tě bavily a které nabízejí podobný nebo lepší "
+"plat."
+
+#: tutorials/get-rich-fast/index.php:65
+msgid "Become self-employed"
+msgstr "Staň se OSVČ"
+
+#: tutorials/get-rich-fast/index.php:66
+msgid ""
+"As a self-employed person, you are much more flexible and have a much higher "
+"potential to grow. At the same time, it's also very risky. Don't quit your "
+"job and get self-employed straight away. Instead, talk to your employer and "
+"get an agreement that you can work alongside your primary job. The beginning "
+"will be difficult, but after a while, you will get your first clients and "
+"can grow. If your self-employment is going well, start reducing the hours "
+"you work in your primary job. Take a day or two off, to work on your own "
+"business. When you have reached the point of working at full capacity and "
+"earning as well, or better than in your primary job, it is time to end your "
+"employment contract and become fully self-dependent."
+msgstr ""
+"Jako OSVČ jsi mnohem flexibilnější a máš mnohem vyšší potenciál k růstu. "
+"Zároveň je to také velmi riskantní. Nedávej výpověď v práci a rovnou se "
+"začni živit jako OSVČ. Místo toho si promluv se svým zaměstnavatelem a "
+"dohodni se, že budeš pracovat ještě vedle svého hlavního zaměstnání. Začátek "
+"bude těžký, ale po nějaké době získáte své první klienty a můžeš růst. Pokud "
+"se tvoje samostatná výdělečná činnost daří, začni zkracovat hodiny, které "
+"odpracuješ ve hlavním zaměstnání. Udělej si den nebo dva volno a pracuj na "
+"svém vlastním podnikání. Když jsi už dosáhl bodu, kdy můžeš pracovat na plný "
+"výkon a vydělávat také nebo lépe než ve svém hlavním zaměstnání, je čas "
+"ukončit pracovní smlouvu a stát se plně soběstačným."
+
+#: tutorials/get-rich-fast/index.php:67
+msgid "Become an entrepreneur, build your own company"
+msgstr "Staň se podnikatelem, vybuduj si vlastní firmu"
+
+#: tutorials/get-rich-fast/index.php:68
+msgid ""
+"Operating as a company gives you significant tax benefits compared to being "
+"self-employed. However, this also comes along with a lot more "
+"responsibilities, paperwork, and initial investments to set up your company. "
+"Thus you should only operate as a company, if you want to reduce personal "
+"liability or if your profit is much higher than your income needs to be. In "
+"that case, you keep any extra profit in the company or create a second "
+"holding company, to which you transfer the profit, and pay yourself a "
+"regular salary. As business taxes are lower than income taxes, you have more "
+"to invest as a business."
+msgstr ""
+"Působení jako společnost ti poskytuje významné daňové výhody ve srovnání se "
+"samostatnou výdělečnou činností. To však také přináší mnohem více "
+"povinností, papírování a počátečních investic do založení tvojí společnosti. "
+"Jako společnost bys tedy měl fungovat pouze tehdy, chceš-li snížit osobní "
+"odpovědnost nebo pokud je tvůj zisk mnohem vyšší, než by tvůj příjem musel "
+"být. Případný zisk navíc si v takovém případě ponechávej ve firmě nebo "
+"vytvořte druhý holding, do kterého převedeš zisk a vyplácíš si pravidelnou "
+"mzdu. Vzhledem k tomu, že daně z podnikání jsou nižší než daně z příjmu, "
+"musíš jako podnik investovat více."
+
+#: tutorials/get-rich-fast/index.php:69
+msgid "Make the money work for you"
+msgstr "Nech peníze pracovat za tebe"
+
+#: tutorials/get-rich-fast/index.php:70
+msgid "Investments"
+msgstr "Investice"
+
+#: tutorials/get-rich-fast/index.php:71
+#, php-format
+msgid ""
+"Put aside a small portion of your income for investments. Even if that is "
+"just 10% or less. Put it into a separate account, so you don't get tempted "
+"to spend this money on anything else. When you are ready to invest this "
+"money, choose an investment platform that suits you and offers projects that "
+"you would like to invest in. This could be for example real estate, "
+"renewable energy projects, or startups. Investments are not risk-free and it "
+"is possible that an investment you made fails and you lose all your money. "
+"That is why you should diversify as much as possible. Use different "
+"platforms, invest small amounts, and spread it over multiple projects."
+msgstr ""
+"Dej stranou malou část svých příjmů na investice. I když je to jen 10% nebo "
+"méně. Vlož je na samostatný účet, aby si nebyl v pokušení utratit tyto "
+"peníze za něco jiného. Až budeš připraven tyto peníze investovat, vyber si "
+"investiční platformu, která ti vyhovuje a nabízí projekty, do kterých bys "
+"rád investoval. Mohou to být například nemovitosti, projekty obnovitelné "
+"energie nebo startupy. Investice nejsou bez rizika a je možné, že tvá "
+"provedená investice selže a přijdeš o všechny své peníze. Proto bys si měl "
+"co nejvíce diverzifikovat. Používej různé platformy, investuj malé částky a "
+"rozlož je na více projektů."
+
+#: tutorials/get-rich-fast/index.php:72
+msgid "Here are some investment platforms that I have personally invested in:"
+msgstr ""
+"Zde jsou některé investiční platformy, do kterých jsem osobně investoval:"
+
+#: tutorials/get-rich-fast/index.php:79
+#, php-format
+msgid "(Save 50€ on your first investment with the code \"%s\")"
+msgstr "(Ušetři 50 € na tvoji první investici s kódem \"%s\")"
+
+#: tutorials/get-rich-fast/index.php:94
+msgid "Passive income"
+msgstr "Pasivní příjem"
+
+#: tutorials/get-rich-fast/index.php:95
+msgid ""
+"After you've made your first investments, you will receive a small "
+"percentage of your investment as a dividend. It varies with each investment. "
+"To keep it simple, let's assume that you earn 10% interest on average, and "
+"you invest 10% of your income, and 1/6 of investments fail. This would mean "
+"that after one year of investing every month, you would already have saved "
+"an entire month of your salary and get 10% in dividend payments that year, "
+"which you can directly re-invest along with your regular investments. Keep "
+"doing this for a few years until you can live only from your passive income "
+"streams."
+msgstr ""
+"Poté, co provedeš svoji první investici, obdržíš malé procento z tvojí "
+"investice jako dividendu. Liší se to s každou investicí. Abychom to "
+"zjednodušili, předpokládejme, že vyděláváš v průměru 10% úrok a investuješ "
+"10% svého příjmu a 1/6 investic selže. To by znamenalo, že po jednom roce "
+"investování každý měsíc by si již měl naspořený celý měsíc svého platu a v "
+"daném roce získali 10 % na výplatách dividend, které můžeš přímo "
+"reinvestovat spolu s tvými pravidelnými investicemi. Pokračuj v tom několik "
+"let, dokud nebudeš moci žít pouze ze svých pasivních příjmů."
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:36
@@ -2083,3 +2066,338 @@ msgstr "Optimalizace připojení"
 #: tutorials/torify-ftp/index.php:93
 msgid "Proxy configuration"
 msgstr "Konfigurace proxy"
+
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
+msgid ""
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+msgstr ""
+"Proxy GitHub IPv6 umožňuje stahování repozitářů GitHub na servery pouze s "
+"protokolem IPv6"
+
+#: github-ipv6-proxy.php:34
+#, php-format
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %s. Unfortunately I realized "
+"that GitHub still <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
+"support IPv6</a>."
+msgstr ""
+"Nedávno jsem musel klonovat úložiště git na GitHubu přes server pouze s "
+"IPv6, který jsem si pronajal u svého oblíbeného poskytovatele hostingu %s. "
+"Bohužel jsem si uvědomil, že GitHub stále <a href=\"https://github.com/orgs/"
+"community/discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">nepodporuje IPv6</a>."
+
+#: github-ipv6-proxy.php:35
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+"Mým řešením bylo nastavení WireGuard VPN s jedním z mých dvou-stackových "
+"serverů. Alternativou by mohla být instalace Tor pro anonymní stahování."
+
+#: github-ipv6-proxy.php:36
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+"Protože nejsem zdaleka jediný uživatel se serverem pouze pro IPv6, který "
+"chce stahovat úložiště z GitHubu, rozhodl jsem se poskytnout veřejný proxy "
+"server, který lze použít k přístupu na GitHub v síti IPv6, dokud GitHub "
+"nebude poskytovat nativní podporu IPv6. Proxy je k dispozici pouze na IPv6, "
+"aby uživatelé IPv4 nepoužívali zbytečné zdroje, protože již mohou klonovat "
+"přímo z GitHubu."
+
+#: github-ipv6-proxy.php:37
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+"Všimněte si, že můj https proxy poskytuje ssl certifikát vydaný pro mou "
+"doménu, což znamená, že dešifruji a znovu zašifruji váš provoz (a mohl bych "
+"se na to potenciálně podívat, ale nedělám to). Je to nutné, protože byste "
+"dostali upozornění na neplatný certifikát ssl, jinak by se + github po jeho "
+"přijetí přesměroval na výchozí port. Níže naleznete trvalejší řešení, které "
+"je šetrnější k soukromí."
+
+#: github-ipv6-proxy.php:38
+#, php-format
+msgid ""
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
+msgstr ""
+"Jak to tedy funguje? Předpokládejme, že chceme naklonovat skript PHP Chat, "
+"který jsem zveřejnil na %s. Normálně by klonování úložiště vypadalo takto:"
+
+#: github-ipv6-proxy.php:40
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr "Na připojení IPv6 můžete moji službu proxy používat takto:"
+
+#: github-ipv6-proxy.php:42
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr "A pokud byste chtěli klonovat přes ssh, můžete to udělat také takto:"
+
+#: github-ipv6-proxy.php:44
+msgid ""
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
+msgstr ""
+"Ti, kteří chtějí používat proxy trvaleji a/nebo mluvit přímo s GitHub, aniž "
+"bych znovu šifroval váš provoz, by měli do /etc/hosts přidat následující:"
+
+#: github-ipv6-proxy.php:49
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr "Po přidání můžete klonovat jako obvykle, bez jakýchkoli změn:"
+
+#: github-ipv6-proxy.php:52
+msgid ""
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
+msgstr ""
+"To vše se provádí pomocí následující konfigurace nginx na serveru se dvěma "
+"zásobníky:"
+
+#: about.php:6 about.php:17
+msgid "Daniel - About"
+msgstr "Daniel - O mně"
+
+#: about.php:10 about.php:18
+msgid ""
+"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
+"this site"
+msgstr ""
+"O webovém vývojáři, sysadminovi a nadšenci do soukromí Danielu Winzenovi a "
+"této stránce"
+
+#: about.php:30
+msgid "About me"
+msgstr "O mně"
+
+#: about.php:31
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. In my free time I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up in times of the covid "
+"pandemic and resulting home office, because it's fun and keeps me fit."
+msgstr ""
+"Dobrý den, jmenuji se Daniel Winzen, německý webový vývojář a správce "
+"systému. Ve volném čase rád čtu knihy, pracuji na svých open-source "
+"projektech a tančím u tyče, ke kterému jsem se dostal v době pandemie covidu "
+"a z toho vyplývající home office, protože mě to baví a udržuje mě v kondici."
+
+#: about.php:32
+msgid ""
+"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+"also know some basics of Perl, Python, C, C++ and more. With my experience "
+"I'm able to quickly adapt and work with new languages, when necessary."
+msgstr ""
+"Programovací jazyky, které pravidelně používám, jsou PHP, SQL a JavaScript, "
+"ale znám také některé základy Perlu, Pythonu, C, C++ a dalších. Díky svým "
+"zkušenostem jsem schopen se rychle adaptovat a pracovat s novými jazyky, "
+"když je potřeba."
+
+#: about.php:33
+msgid ""
+"Before I got into coding and server management, I contributed German "
+"translation to various open-source projects since the end of 2011."
+msgstr ""
+"Než jsem se dostal ke kódování a správě serverů, od konce roku 2011 jsem "
+"přispíval německým překladem do různých open-source projektů."
+
+#: about.php:34
+msgid ""
+"Managing servers, email services and developing new web projects is what I "
+"thrive on. I like optimizing systems for performance and getting the best "
+"out of what I have. Do you need help with managing and optimizing your "
+"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
+"touch</a> and we'll discuss details."
+msgstr ""
+"Správa serverů, e-mailových služeb a vývoj nových webových projektů je to, v "
+"čem se mi daří. Líbí se mi optimalizace systémů pro výkon a získání toho "
+"nejlepšího z toho, co mám. Potřebujete pomoci se správou a optimalizací vaší "
+"infrastruktury nebo webu? Jsem tady, abych vám pomohl. <a href=\"/contact.php"
+"\">Kontaktujte mě</a> a probereme podrobnosti."
+
+#: about.php:35
+msgid "Profiles on other sites that I am active on:"
+msgstr "Profily na jiných webech, na kterých jsem aktivní:"
+
+#: about.php:42
+msgid "About this site"
+msgstr "O této stránce"
+
+#: about.php:43
+msgid ""
+"This is my personal site, that I develop in my free time. I started "
+"development of this site in August/September 2013 when I wanted to have a "
+"platform to host files on, to use at school."
+msgstr ""
+"Toto je moje osobní stránka, kterou vyvíjím ve svém volném čase. S vývojem "
+"tohoto webu jsem začal v srpnu/září 2013, když jsem chtěl mít platformu pro "
+"hostování souborů pro použití ve škole."
+
+#: about.php:44
+msgid ""
+"Quickly the idea of using a chat at school came up and I came across a "
+"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
+"deployed that on my Raspberry Pi it was running very slowly and wasn't "
+"really usable for use with several people. So I decided to port some parts I "
+"needed to PHP."
+msgstr ""
+"Rychle přišel nápad používat chat ve škole a narazil jsem na jednoduchý "
+"perlový chatovací skript s názvem <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> LE-CHAT</a>. Když "
+"jsem to nasadil na své Raspberry Pi, běželo to velmi pomalu a nebylo to "
+"opravdu použitelné pro použití s několika lidmi. Tak jsem se rozhodl přenést "
+"některé potřebné části do PHP."
+
+#: about.php:45
+msgid ""
+"This has been the start for me to get deeper into web-development and I have "
+"since open-sourced that chat script and several other scripts of this site "
+"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
+"new features and improved reliability and my code a lot."
+msgstr ""
+"To byl pro mě začátek, abych se dostal hlouběji do vývoje webu a od té doby "
+"jsem tento chatovací skript a několik dalších skriptů tohoto webu získal "
+"jako open source na můj <a href=\"https://github.com/DanWin/\" =\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub</a>. Od té doby jsem přidal mnoho nových "
+"funkcí a zlepšil spolehlivost a hodně mého kódu."
+
+#: about.php:46
+msgid ""
+"I used to offer free file hosting, an url shortener, a chat and even a free "
+"darknet web hosting service. All these projects have taught me a lot about "
+"coding, security and server management. As of now, only the anonymous email "
+"and XMPP hosting, as well as the onion link list are still actively "
+"maintained."
+msgstr ""
+"Kdysi jsem nabízel bezplatný hosting souborů, zkracovač url, chat a dokonce "
+"i bezplatnou darknet webhostingovou službu. Všechny tyto projekty mě naučily "
+"hodně o kódování, zabezpečení a správě serverů. Od této chvíle jsou stále "
+"aktivně udržovány pouze anonymní e-mail a hosting XMPP, stejně jako seznam "
+"odkazů na darknet."
+
+#: about.php:47
+msgid "About the setup"
+msgstr "O sestavě"
+
+#: about.php:48
+msgid ""
+"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
+"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
+"sh and Wireguard."
+msgstr ""
+"Software, který používám, jsou Debian sid s běžícími Ceph, NginX, MariaDB, "
+"Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, "
+"bind9, acme.sh a Wireguard."
+
+#: about.php:49
+msgid ""
+"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
+"the raspberry pis at home. Additionally, they run a Postfix instance only "
+"listening on the VPN network to send out mails to clearnet."
+msgstr ""
+"Brány clearnet na <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> jsou NginX Proxy, které předávají všechny požadavky "
+"Raspberry Pis doma. Kromě toho provozují instanci Postfixu, která naslouchá "
+"pouze v síti VPN a odesílá e-maily do clearnetu."
+
+#: about.php:50
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr "Všechny servery jsou propojeny pomocí Wireguard VPN."
+
+#: about.php:51
+msgid "Hosting providers I use(ed) and servers hosted there:"
+msgstr "Poskytovatelé hostingu, které používám(val):"
+
+#: about.php:53 about.php:54
+#, php-format
+msgid "%s - good for short-term and/or low-bandwidth projects"
+msgstr ""
+"%s - dobré pro krátkodobé projekty a/nebo projekty s nízkou šířkou pásma"
+
+#: about.php:55
+#, php-format
+msgid "%s - good and reliable"
+msgstr "%s - dobrý a spolehlivý"
+
+#: about.php:56
+#, php-format
+msgid "%s - comparably expensive but good and reliable"
+msgstr "%s - srovnatelně drahé, ale dobré a spolehlivé"
+
+#: about.php:57
+#, php-format
+msgid "%s - (Used for my clearnet gateway) - good and reliable"
+msgstr "%s - (Používáno pro mou bránu clearnet) - dobré a spolehlivé"
+
+#: about.php:58
+#, php-format
+msgid ""
+"%s - (Used for my clearnet gateway + Domain registration) - good and "
+"reliable, hosted in my city"
+msgstr ""
+"%s - (Používáno pro mou bránu clearnet + registraci domény) - dobré a "
+"spolehlivé, hostováno v mém městě"
+
+#: about.php:59
+msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
+msgstr "Doma hostováno: 4x Raspberry Pi 4 s hlavním webem a daty"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid ""
+#~ "You can still login with your .me user credentials, but the account is "
+#~ "going to be .de. As long as the old domain is still online, you can also "
+#~ "receive emails on the .me domain, while sending is switched over to .de."
+#~ msgstr ""
+#~ "Stále se můžeš přihlásit pomocí svých uživatelských údajů .me, ale účet "
+#~ "bude .de. Dokud je stará doména stále online, můžete přijímat e-maily "
+#~ "také na doméně .me, přičemž odesílání je přepnuto na .de."
+
+#~ msgid ""
+#~ "XMPP users will most likely notice their account stopped working. "
+#~ "Unfortunately there is no easy way to migrate accounts with prosody (the "
+#~ "XMPP server), as there is with email. You will need to update your "
+#~ "account settings to reflect the new domain in order to login and re-"
+#~ "connect with all your buddies."
+#~ msgstr ""
+#~ "Uživatelé XMPP si s největší pravděpodobností všimnou, že jejich účet "
+#~ "přestal fungovat. Bohužel neexistuje snadný způsob migrace účtů pomocí "
+#~ "prosody (server XMPP), jako je tomu u e-mailu. Abyste se mohli přihlásit "
+#~ "a znovu spojit se všemi svými kamarády, budete muset aktualizovat "
+#~ "nastavení svého účtu, aby odpovídalo nové doméně."
+
+#~ msgid "I have a question, something is broken with my account."
+#~ msgstr "Mám dotaz, něco je nefunkční s mým účtem."
+
+#~ msgid ""
+#~ "Make sure you have switched all your settings to the new domain. It "
+#~ "should work as before. Stil not working correctly? Feel free to <a href="
+#~ "\"/contact.php\">contact me</a> for help."
+#~ msgstr ""
+#~ "Ujisti se, že jsi přepnul všechna nastavení na novou doménu. Mělo by to "
+#~ "fungovat jako předtím. Stále to nefunguje správně? Pro pomoc mě neváhejte "
+#~ "<a href=\"/contact.php\">kontaktovat</a>."
+
+#~ msgid "Hosting - Info"
+#~ msgstr "Hosting - Info"
+
+#~ msgid "Daniel - Chat"
+#~ msgstr "Daniel - Chat"

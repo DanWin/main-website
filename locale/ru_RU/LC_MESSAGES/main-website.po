@@ -6,19 +6,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-22 08:40+0200\n"
-"PO-Revision-Date: 2023-04-02 20:20+0000\n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
+"POT-Creation-Date: 2023-07-09 22:03+0200\n"
+"PO-Revision-Date: 2023-07-11 05:08+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
-"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/ru/>\n"
+"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: imprint.php:6 imprint.php:15
 #, fuzzy
@@ -32,23 +32,25 @@ msgstr "Даниэль - Домашняя страница"
 msgid "Imprint of Daniel Winzen"
 msgstr "Связаться с Даниэль Винзен"
 
-#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
-#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
-#: privacy.php:21 chat/index.php:21 tutorials/get-rich-fast/index.php:29
-#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
-#: tutorials/torify-ftp/index.php:29
+#: imprint.php:21 index.php:21 hosting/index.php:21 new-domain.php:23
+#: blog/index.php:21 chat/index.php:21 contact.php:21 faq.php:20 privacy.php:21
+#: tutorials/index.php:21 tutorials/findom/index.php:27
+#: tutorials/successful-sugar-dating/index.php:28
+#: tutorials/get-rich-fast/index.php:29 tutorials/torify-ftp/index.php:29
+#: github-ipv6-proxy.php:26 about.php:23
 msgid "An avatar representing Daniel Winzen"
 msgstr "Мой аватар"
 
-#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
-#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
-#: privacy.php:24 chat/index.php:24 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
-#: tutorials/torify-ftp/index.php:32
+#: imprint.php:24 index.php:24 hosting/index.php:24 new-domain.php:26
+#: blog/index.php:24 chat/index.php:24 contact.php:24 faq.php:23 privacy.php:24
+#: tutorials/index.php:24 tutorials/findom/index.php:30
+#: tutorials/successful-sugar-dating/index.php:31
+#: tutorials/get-rich-fast/index.php:32 tutorials/torify-ftp/index.php:32
+#: github-ipv6-proxy.php:29 about.php:26
 msgid "Daniel"
 msgstr "Даниэль"
 
-#: imprint.php:27 common.php:135
+#: imprint.php:27 common.php:136
 msgid "Imprint"
 msgstr "Контакты"
 
@@ -110,7 +112,7 @@ msgstr ""
 "Персональный веб-сайт Дэниела Винцена, веб-разработчика, системного "
 "администратора и энтузиаста в области интернет конфиденциальности"
 
-#: index.php:27 common.php:124
+#: index.php:27 common.php:125
 msgid "Home"
 msgstr "Домашняя страница"
 
@@ -165,322 +167,397 @@ msgstr ""
 "немного Monero: %1$s или Bitcoin: %2$s . Также присутствуют и другие способы "
 "пожертвования, для уточнения <a href=\"/contact.php\">свяжитесь со мной</a>."
 
-#: about.php:6 about.php:17
-msgid "Daniel - About"
-msgstr "Даниэль - Обо мне"
+#: common.php:126 blog/index.php:27
+msgid "Blog and news"
+msgstr "Блог и новости"
 
-#: about.php:10 about.php:18
-msgid ""
-"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
-"this site"
-msgstr "Информация обо мне и моем сайте"
+#: common.php:127
+msgid "Online-Test"
+msgstr "Онлайн-Тест"
 
-#: about.php:29 common.php:132
-msgid "About"
-msgstr "Обо мне"
+#: common.php:128
+msgid "Onion link list"
+msgstr "Список ссылок Onion"
 
-#: about.php:30
-msgid "About me"
-msgstr "Обо мне"
+#: common.php:129
+msgid "E-Mail + XMPP"
+msgstr "Эл.почта + Jabber"
 
-#: about.php:31
-msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. In my free time I like reading books, programming on my open-"
-"source projects and pole dancing, which I picked up in times of the covid "
-"pandemic and resulting home office, because it's fun and keeps me fit."
-msgstr ""
-"Здравствуйте, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
-"системный администратор. В свободное время мне нравится читать книги, и "
-"заниматься своими проектами с открытым исходным кодом, еще мне нравится "
-"танцевать на шесте, вы не подумайте ничего плохого :) Танцами я увлекся во "
-"время пандемии Covid19, так как находился дома много времени, это "
-"поддерживает меня в форме и развлекает."
+#: common.php:130 tutorials/index.php:27
+msgid "Tutorials"
+msgstr "Учебники"
 
-#: about.php:32
-msgid ""
-"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
-"also know some basics of Perl, Python, C, C++ and more. With my experience "
-"I'm able to quickly adapt and work with new languages, when necessary."
-msgstr ""
-"Языки программирования которые я регулярно использую - это PHP, SQL и "
-"JavaScript, но я также знаю некоторые основы Perl, Python, C, C++ и другие. "
-"С моим опытом я могу быстро адаптироваться и работать с новыми языками когда "
-"это необходимо."
-
-#: about.php:33
-msgid ""
-"Before I got into coding and server management, I contributed German "
-"translation to various open-source projects since the end of 2011."
-msgstr ""
-"До того, как я занялся программированием и управлением серверами, с конца "
-"2011 года я занимался переводом на немецкий язык, различных проектов, с "
-"открытым исходным кодом."
-
-#: about.php:34
-msgid ""
-"Managing servers, email services and developing new web projects is what I "
-"thrive on. I like optimizing systems for performance and getting the best "
-"out of what I have. Do you need help with managing and optimizing your "
-"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
-"touch</a> and we'll discuss details."
-msgstr ""
-"Управление серверами, а также управление электронной почтой, разработка "
-"новых веб-проектов - это то, в чем я силен. Мне нравится оптимизировать "
-"системы с точки зрения производительности и извлекать максимум пользы из "
-"того что у меня есть. Если вам нужна помощь в управлении и оптимизации вашей "
-"инфраструктуры или веб-сайта, я с радостью готов помочь. <a href=\"/contact."
-"php\">Свяжитесь со мной</a> и мы обсудим детали."
-
-#: about.php:35
-msgid "Profiles on other sites that I am active on:"
-msgstr "Профили на других сайтах где я активен:"
-
-#: about.php:42
-msgid "About this site"
-msgstr "О сайте"
-
-#: about.php:43
-msgid ""
-"This is my personal site, that I develop in my free time. I started "
-"development of this site in August/September 2013 when I wanted to have a "
-"platform to host files on, to use at school."
-msgstr ""
-"Это мой личный сайт который я разрабатываю в свободное время. Я начал "
-"разработку моего сайта в Августе/Сентябре 2013-го года когда мне захотелось "
-"иметь платформу для размещения файлов, что бы использовать ее в школе."
-
-#: about.php:44
-msgid ""
-"Quickly the idea of using a chat at school came up and I came across a "
-"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
-"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
-"deployed that on my Raspberry Pi it was running very slowly and wasn't "
-"really usable for use with several people. So I decided to port some parts I "
-"needed to PHP."
-msgstr ""
-"Так же у меня возникла идея использовать чат в школе, и я наткнулся на "
-"простой скрипт чата на языке Perl <a href=\"https://github.com/virtualghetto/"
-"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. Когда я "
-"развернул его на своем Raspberry Pi он работал очень медленно, нестабильно и "
-"был не пригоден для использования несколькими людьми. По этому я решил "
-"портатировать его на PHP."
-
-#: about.php:45
-msgid ""
-"This has been the start for me to get deeper into web-development and I have "
-"since open-sourced that chat script and several other scripts of this site "
-"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
-"new features and improved reliability and my code a lot."
-msgstr ""
-"Это стало для меня началом более глубокого погружения в веб разработку. "
-"После чего я разместил скрипт этого чата и несколько других скриптов моего "
-"сайта с открытым исходным кодом у себя на <a href=\"https://github.com/"
-"DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub аккаунте</a>. "
-"С тех пор, я вложил много усилий в свой код, и значительно улучшил его "
-"надежность и производительность."
-
-#: about.php:46
-msgid ""
-"I used to offer free file hosting, an url shortener, a chat and even a free "
-"darknet web hosting service. All these projects have taught me a lot about "
-"coding, security and server management. As of now, only the anonymous email "
-"and XMPP hosting, as well as the onion link list are still actively "
-"maintained."
-msgstr ""
-"Раньше я предлагал бесплатный файловый хостинг, сервис сокращения ссылок, "
-"чат и даже бесплатный веб-хостинг в даркнете. Все эти проекты многому "
-"научили меня в области программирования, безопасности и управлении "
-"серверами. На данный момент активно поддерживается только анонимная "
-"электронная почта и хостинг XMPP, а также список onion ссылок."
-
-#: about.php:47
-msgid "About the setup"
-msgstr "Настройки сайта"
-
-#: about.php:48
-msgid ""
-"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
-"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
-"sh and Wireguard."
-msgstr ""
-"Программное обеспечение которое я использую это Debian sid под управлением "
-"Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, "
-"Prosody, Tor, ssh, bind9, acme.sh and Wireguard."
-
-#: about.php:49
-msgid ""
-"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-"the raspberry pis at home. Additionally, they run a Postfix instance only "
-"listening on the VPN network to send out mails to clearnet."
-msgstr ""
-"Шлюзы clearnet на <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de </a> - это прокси-сервер NginX, который будет "
-"перенаправлять все запросы на домашнюю raspberry pi. Кроме того, они "
-"запускают экземпляр Postfix, который прослушивает только VPN-сеть для "
-"отправки писем в clearnet."
-
-#: about.php:50
-msgid "All servers are interconnected with a Wireguard VPN."
-msgstr "Все серверы соединены между собой с помощью Wireguard VPN."
-
-#: about.php:51
-msgid "Hosting providers I use(ed) and servers hosted there:"
-msgstr "Хостинг-провайдеры которые я использую и сервера размещеные у них:"
-
-#: about.php:53 about.php:54
-#, php-format
-msgid "%s - good for short-term and/or low-bandwidth projects"
-msgstr ""
-"%s - подходит для краткосрочных проектов и/или проектов с низкой пропускной "
-"способностью"
-
-#: about.php:55
-#, php-format
-msgid "%s - good and reliable"
-msgstr "%s - хороший и надежный провайдер"
-
-#: about.php:56
-#, php-format
-msgid "%s - comparably expensive but good and reliable"
-msgstr "%s - довольно дорогой, но хороший и надежный"
-
-#: about.php:57
-#, php-format
-msgid "%s - (Used for my clearnet gateway) - good and reliable"
-msgstr "%s - (Используется для моего шлюза clearnet) - хороший и надежный"
-
-#: about.php:58
-#, php-format
-msgid ""
-"%s - (Used for my clearnet gateway + Domain registration) - good and "
-"reliable, hosted in my city"
-msgstr ""
-"%s - (Используется для моего шлюза clearnet + регистрация домена) - хороший "
-"и надежный, расположен в моем городе"
-
-#: about.php:59
-msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
-msgstr "Домашний хостинг: 4 Raspberry Pi 4 с основным сайтом и данными"
-
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:130
+#: common.php:131 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy"
 
-#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
+#: common.php:132
+msgid "FAQ"
+msgstr "FAQ(ЧаВо)"
+
+#: common.php:133 about.php:29
+msgid "About"
+msgstr "Обо мне"
+
+#: common.php:134 contact.php:27
+msgid "Contact"
+msgstr "Обратная связь"
+
+#: common.php:135
+msgid "Privacy"
+msgstr "Политика конфиденциальности"
+
+#: common.php:147
+msgid "Add translation"
+msgstr "Добавить перевод"
+
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
+#: hosting/index.php:27
+msgid "Daniel's Hosting shutdown after hack"
+msgstr "Хостинг был отключен после взлома"
+
+#: hosting/index.php:10 hosting/index.php:16
+msgid "Daniel's Hosting - a former darknet web hosting service"
+msgstr ""
+
+#: hosting/index.php:28
 msgid ""
-"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at <a href="
+"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
+"\">https://github.com/DanWin/hosting</a>."
 msgstr ""
-"Прокси-сервер GitHub IPv6 позволяет загружать репозитории GitHub только на "
-"серверах IPv6"
+"В марте 2020-го мой сервер подвергся успешной хакерской атаке, в результате "
+"хакер удалил все базы данных связанные с моим хостингом, по этому я был "
+"вынужден закрыть свой хостинг Если вы хотите настроить свой собственный "
+"хостинг, вы можете ознакомиться с моим проектом с открытым исходным кодом по "
+"адресу, <a href=\"https://github.com/DanWin/hosting\" target=\"_blank\" rel="
+"\"noopener\">https://github.com/DanWin/hosting</a>."
 
-#: github-ipv6-proxy.php:34
-#, php-format
+#: hosting/index.php:29
 msgid ""
-"Recently I had to clone a git repository on GitHub via an IPv6 only server "
-"that I rented at my favourite hosting provider %s. Unfortunately I realized "
-"that GitHub still <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
-"support IPv6</a>."
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
+"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
+"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
+"\">available for download</a>, which should enable anyone willing to become "
+"the next darknet shared hosting provider to start where I left of."
 msgstr ""
-"Недавно мне пришлось клонировать репозиторий git на GitHub через сервер "
-"только для IPv6, который я арендовал у моего любимого хостинг-провайдера %s. "
-"К сожалению, я понял, что GitHub все еще <a href=\"https://github.com/orgs/"
-"community/discussions/10539 \" target=\"_blank\" rel=\"noopener noreferrer"
-"\">не поддерживает IPv6</a>."
+"Работа хостером в даркнете дала мне огромнейший опыт, Это был проект которым "
+"я занимался в свободное время от основной работы, очень много времени уходит "
+"на то что бы удалять с сервера незаконные и мошеннические сайты, я потратил "
+"в 10 раз больше времени на их удаление чем мог бы потратить на продолжение "
+"разработки. В настоящее время я не планирую продолжать хостинг проект, но "
+"есть некоторые альтернативы. Существуют другие хостинг провайдеры такие как "
+"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
+"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
+"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+"\"noopener\">Clearnet Onion | Easy clearnet relay</a> а также мой проект "
+"доступен для <a href=\"https://github.com/DanWin/hosting/\" target=\"_blank"
+"\" rel=\"noopener\">свободной загрузки и использования</a>, это позволяет "
+"любому желающему стать поставщиком даркнет хостинга и продолжить с того "
+"места, на котором остановился я."
 
-#: github-ipv6-proxy.php:35
+#: new-domain.php:6 new-domain.php:17 new-domain.php:27
+msgid "Daniel - New domain"
+msgstr "Даниэль - Новый домен"
+
+#: new-domain.php:10 new-domain.php:18
+msgid "We moved to a brand new domain - migrate your accounts"
+msgstr ""
+"Мы переехали на совершенно новый домен - перенесите свои учетные записи"
+
+#: new-domain.php:29 blog/index.php:32
+msgid "New domain - DanWin1210.Me is now DanWin1210.De"
+msgstr "Старый домен - DanWin1210.Me, новый домен - DanWin1210.De"
+
+#: new-domain.php:30
+msgid "Why this sudden and drastic change?"
+msgstr "Почему произошла эта внезапная и резкая перемена?"
+
+#: new-domain.php:31
 msgid ""
-"My workaround was setting up a WireGuard VPN with one of my dual-stack "
-"servers. An alternative could have been installing Tor to download "
-"anonymously."
+"In mid-October 2021 I noticed that I was locked out of my registrar's "
+"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q>. After contacting their "
+"customer support multiple times, even after more than a year, all I have "
+"ever gotten back from them is that I will hear from them soon, as they need "
+"more time to investigate, and they appreciate my patience. I was refused "
+"renewing the domain or moving to a different registrar."
 msgstr ""
-"Моим обходным путем была настройка WireGuard VPN с одним из моих серверов с "
-"двойным стеком. Альтернативой могла бы быть установка Tor для анонимной "
-"загрузки."
+"В середине октября 2021 года я заметил, что я был заблокирован из панели "
+"управления моего регистратора (Namecheap Inc.) за <q> подозрение в "
+"мошенничестве, возврате платежей или каком-либо подобном нарушении наших "
+"условий предоставления услуг</q>. После многократных обращений к ним в "
+"службу поддержки клиентов, даже спустя более года, все, что я добился от "
+"них, - это то, что я скоро получу от них весточку, поскольку им нужно больше "
+"времени для расследования, и они ценят мое терпение. Мне было отказано в "
+"продлении домена или переходе к другому регистратору."
 
-#: github-ipv6-proxy.php:36
+#: new-domain.php:32
 msgid ""
-"As I'm by far not the only user with an IPv6 only server looking to download "
-"repositories from GitHub, I decided to provide a public proxy server that "
-"can be used to access GitHub on an IPv6 network, until GitHub provides "
-"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
-"users from using unnecessary resources, as they can already clone from "
-"GitHub directly."
+"Given that I was unable to get a satisfying answer and the old domain was "
+"due to expire, I went ahead and bought the new domain danwin1210.de, to "
+"switch over to. danwin1210.me went down after expiry, but thankfully I was "
+"allowed to pay for extension by creating a new account and depositing the "
+"money for renewal there, so it was back up shortly afterwards."
 msgstr ""
-"Поскольку я далеко не единственный пользователь с сервером только для IPv6, "
-"который хочет загружать репозитории с GitHub, я решил предоставить "
-"общедоступный прокси-сервер, который можно использовать для доступа к GitHub "
-"в сети IPv6, пока GitHub не предоставит встроенную поддержку IPv6. Прокси "
-"доступен только на IPv6, чтобы пользователи IPv4 не использовали ненужные "
-"ресурсы, поскольку они уже могут клонировать напрямую с GitHub."
+"Учитывая, что я не смог получить удовлетворительный ответ, а срок действия "
+"старого домена истекал, я пошел дальше и купил новый домен danwin1210.de , "
+"чтобы переключиться на него, а danwin1210.me вышел из строя по истечении "
+"срока действия, но, к счастью, мне разрешили оплатить продление, создав "
+"новую учетную запись и внеся деньги для обновления, так что вскоре после "
+"этого он был восстановлен."
 
-#: github-ipv6-proxy.php:37
+#: new-domain.php:33
 msgid ""
-"Note, that my https proxy is serving a ssl certificate issued for my domain, "
-"which means I decrypt and re-encrypt your traffic (and could potentially "
-"look into it, but I don't). It is necessary as you'd get an invalid ssl "
-"certificate warning otherwise + github would redirect to the default port "
-"after accepting it. See below for a more permanent solution, that's more "
-"privacy-friendly."
+"After a year my domain was due expiry again, so I enquired if I could move "
+"to a different registrar now. They offered me again to pay via an alternate "
+"account, because: <q>Unfortunately, we need more time to investigate your "
+"issue.</q> A year should be more than enough time to solve whatever issue "
+"they might have with my account… This time I decided to let it expire for "
+"good, since almost everyone should have switched over to the new domain by "
+"now."
 msgstr ""
-"Обратите внимание, что мой https-прокси обслуживает ssl-сертификат, выданный "
-"для моего домена, что означает, что я расшифровываю и повторно шифрую ваш "
-"трафик (и потенциально мог бы изучить его, но я этого не делаю). Это "
-"необходимо, так как в противном случае вы получите предупреждение о "
-"недопустимом сертификате ssl + github перенаправит на порт по умолчанию "
-"после его принятия. Смотрите ниже более постоянное решение, которое более "
-"благоприятно для конфиденциальности."
+"Через год срок действия моего домена снова истекал, поэтому я спросил, могу "
+"ли я сейчас перейти к другому регистратору. Они снова предложили мне "
+"оплатить через альтернативный аккаунт, потому что: <q> К сожалению, нам "
+"нужно больше времени для расследования вашей проблемы.</q> Года должно быть "
+"более чем достаточно, чтобы решить любую проблему, которая может возникнуть "
+"у них с моей учетной записью… На этот раз я решил оставить срок его действия "
+"навсегда, так как почти все уже должны были перейти на новый домен."
 
-#: github-ipv6-proxy.php:38
-#, php-format
+#: new-domain.php:34
+msgid "What does it mean for users?"
+msgstr "Что это означает для пользователей?"
+
+#: new-domain.php:35
 msgid ""
-"So how does it work? Let's assume we want to clone the PHP Chat script I've "
-"published at %s. Normally cloning the repository would look like this:"
+"You don't have an account and just browse the site? Not much will change, "
+"just the address in your browsers URL bar."
 msgstr ""
-"Так как же это работает? Давайте предположим, что мы хотим клонировать PHP-"
-"скрипт чата, который я опубликовал в %s. Обычно клонирование репозитория "
-"выглядело бы следующим образом:"
+"Если у вас нет учетной записи и вы просто просматриваете сайт? Мало что "
+"изменится, только адрес в строке URL вашего браузера."
 
-#: github-ipv6-proxy.php:40
-msgid "On an IPv6 connection, you can use my proxy service like this:"
-msgstr ""
-"При подключении по протоколу IPv6 вы можете использовать мой прокси-сервис "
-"следующим образом:"
-
-#: github-ipv6-proxy.php:42
-msgid "And if you would like to clone via ssh you can also do it like this:"
-msgstr ""
-"И если вы хотите клонировать через ssh, вы также можете сделать это "
-"следующим образом:"
-
-#: github-ipv6-proxy.php:44
+#: new-domain.php:36
 msgid ""
-"Those wanting to use the proxy more permanently and/or talk directly to "
-"GitHub, without me re-encrypting your traffic, should add the following to /"
-"etc/hosts:"
+"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
+"you some struggles, as you now only have a few days left to migrate all your "
+"contacts/accounts to the new address. Any service where you registered with "
+"your email address will need to be updated to reflect the new domain. You "
+"might otherwise get locked out of your accounts, if they require you to e.g. "
+"click a link in your email for login."
 msgstr ""
-"Те, кто хочет использовать прокси более постоянно и / или напрямую общаться "
-"с GitHub, без того, чтобы я повторно шифровал ваш трафик, должны добавить "
-"следующее в /etc /hosts:"
+"Если вы зарегистрированы и используете службу XMPP или электронную почту то "
+"скорее всего, это вызовет у вас некоторые трудности, так как теперь у вас "
+"осталось всего несколько дней, чтобы перенести все ваши контакты / учетные "
+"записи на новый адрес. Любой сервис, где вы зарегистрировались со своим "
+"адресом электронной почты, необходимо будет обновить, чтобы отразить новый "
+"домен. В противном случае вы можете быть заблокированы из своих учетных "
+"записей, если они потребуют, чтобы вы, например, нажали на ссылку в своем "
+"электронном письме для входа в систему."
 
-#: github-ipv6-proxy.php:49
-msgid "Once added, you can clone as usual, without any changes:"
-msgstr ""
-"После добавления вы можете клонировать как обычно, без каких-либо изменений:"
-
-#: github-ipv6-proxy.php:52
+#: new-domain.php:37
 msgid ""
-"All of this is done with the following nginx configuration on a dual stack "
-"server:"
+"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
+"php\" target=\"_blank\">in their account settings</a> to reflect the new "
+"domain and allow WKD clients to grab your key automatically."
 msgstr ""
-"Все это делается с помощью следующей конфигурации nginx на сервере с двойным "
-"стеком:"
+"Пользователи электронной почты также должны обновить свой PGP-ключ <a href="
+"\"/mail/manage_account.php \" target =\"_blank\">в настройках своей учетной "
+"записи</a>, чтобы отразить новый домен и позволить клиентам WKD "
+"автоматически получать ваш ключ."
 
-#: github-ipv6-proxy.php:90 chat/index.php:32
+#: new-domain.php:38
+msgid ""
+"You can no longer login with your .me user credentials, only with the .de "
+"ones, as the old domain is no longer under my control."
+msgstr ""
+"Вы больше не можете войти в систему со своими учетными данными пользователя ."
+"me, только с учетными данными .de, так как старый домен больше не "
+"принадлежит мне."
+
+#: new-domain.php:39
+msgid "Will the old address still work?"
+msgstr "Будет ли старый адрес по-прежнему работать?"
+
+#: new-domain.php:40
+msgid ""
+"After a very brief downtime, it was back online. Now, after a year, it's "
+"expired once more. I may be able to buy it again after Namecheap returns the "
+"domain to the registry. However, Namecheap apparently sells the domain now "
+"for $400…"
+msgstr ""
+"После очень короткого простоя он снова был подключен к сети. Теперь, по "
+"прошествии года, срок его действия снова истек. Возможно, я смогу купить его "
+"снова после того, как Namecheap вернет домен в реестр. Однако Namecheap, по-"
+"видимому, продает домен сейчас за 400 долларов…"
+
+#: new-domain.php:41
+msgid ""
+"How do I know you are still the same person? This could be law enforcement "
+"taking over the servers."
+msgstr ""
+"Откуда мне знать, что ты все тот же человек? Это могут быть "
+"правоохранительные органы, захватывающие серверы."
+
+#: new-domain.php:42
+msgid ""
+"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
+"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
+"\"_blank\">old PGP key</a>. This can be verified by running a command like "
+"this:"
+msgstr ""
+"Я воспользовался возможностью создать <a href=\"/pgp.txt \" target=\"_blank\""
+">новый ключ PGP</a> и подписал его своим <a href=\"/old_pgp.txt \" target="
+"\"_blank\">старым ключом PGP</a>. Это можно проверить, выполнив команду, "
+"подобную этой:"
+
+#: new-domain.php:44
+msgid ""
+"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
+"code>. I have also included signatures of previous keys on my old key, so "
+"you can even verify the key, in case you have an older key I was using "
+"before."
+msgstr ""
+"В нем должно быть доказательство того, что он подписан моим старым ключом "
+"<code>F8B8CFC35FBDB40D</code>. Я также включил подписи предыдущих ключей на "
+"моем старом ключе, так что вы даже можете проверить ключ, если у вас есть "
+"более старый ключ, которым я пользовался раньше."
+
+#: blog/index.php:6 blog/index.php:15 blog/index.php:25
+#, fuzzy
+#| msgid "Daniel - Home"
+msgid "Daniel - Blog and news"
+msgstr "Даниэль - Домашняя страница"
+
+#: blog/index.php:10 blog/index.php:16
+#, fuzzy
+#| msgid "Contact Daniel Winzen"
+msgid "Blog and news by Daniel Winzen"
+msgstr "Связаться с Даниэль Винзен"
+
+#: blog/index.php:28
+msgid "Blog posts and news related to my services will be posted here."
+msgstr ""
+"Записи в блоге и новости, связанные с моими услугами, будут публиковаться "
+"здесь."
+
+#: blog/index.php:30
+msgid "Date"
+msgstr "Дата"
+
+#: blog/index.php:30
+msgid "Title"
+msgstr ""
+
+#: blog/index.php:31
+msgid "March 2020"
+msgstr "Март 2020"
+
+#: blog/index.php:31
+msgid "Hosting service shutdown due to hack"
+msgstr "Отключение хостинга из-за взлома"
+
+#: blog/index.php:32
+msgid "December 2021"
+msgstr "Декабрь 2021"
+
+#: blog/index.php:33
+msgid "December 2022"
+msgstr "Декабрь 2022"
+
+#: blog/index.php:33 chat/index.php:15 chat/index.php:27
+msgid "Daniel's Chat shutdown"
+msgstr "Отключение чата"
+
+#: chat/index.php:6
+msgid "Daniel's Chat shutdnown"
+msgstr ""
+
+#: chat/index.php:10 chat/index.php:16
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr ""
+
+#: chat/index.php:25
+msgid "Daniel' Chat shutdown"
+msgstr ""
+
+#: chat/index.php:28
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда."
+
+#: chat/index.php:29
+msgid ""
+"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+"cat=2\">my onion link list</a>. If you are interested in running a similar "
+"chat community, you can download my chat script on <a href=\"https://github."
+"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">GitHub</a>."
+msgstr ""
+"Но не отчаивайтесь, вы можете найти другие чаты, в этом списке <a href="
+"\"https://onions.danwin1210.de/?cat=2\">список Tor сайтов</a>. Вы также "
+"можете создать свой собственный чат, для этого скачайте скрипт чата на <a "
+"href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub</a>."
+
+#: chat/index.php:30
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+"Данный чат я сделал в 2013 году, как хобби-проект, для использования в "
+"школе, после чего он превратился в очень активное сообщество чатов в "
+"даркнете. В 2017 году я передал управление чатом другим людям, так как у "
+"меня больше не было, ни времени, ни желания на него, но в последнее время "
+"администраторы практически перестали пускать людей в чат, заставляя их ждать "
+"одобрение входа часами, еще начали кикать участников из чата просто так. Все "
+"это привело к тому, что моя почта просто заполнилась просьбами от людей, "
+"добавить их в чат, и в добавок это привело к упадку посещаемости моего "
+"сайта. По этому я больше не вижу смысла продолжать размещать у себя этот "
+"чат. В итоге я решил закрыть его навсегда, в Декабре 2022 года, спустя 9 лет."
+
+#: chat/index.php:31
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+"Ко мне обращались несколько человек, с просьбой перезапустить чат, и "
+"назначить их администраторами: Я отказал им, так как я принял окончательное "
+"решение. С того момента, когда было передано управление чатом, он больше не "
+"имел ко мне никакого отношения, за исключением того, что я разработал, и "
+"разместил его у себя. Если у вас есть желание, вы можете скачать этот чат на "
+"GitHub в моем репозитории, по ссылке которая находится выше и установить у "
+"себя на сайте, или сервере."
+
+#: chat/index.php:32 github-ipv6-proxy.php:90
 msgid ""
 "If there are any further questions, feel free to <a href=\"/contact.php"
 "\">contact me</a>."
@@ -495,10 +572,6 @@ msgstr "Даниэль - Форма обратной связи"
 #: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
 msgstr "Связаться с Даниэль Винзен"
-
-#: contact.php:27 common.php:133
-msgid "Contact"
-msgstr "Обратная связь"
 
 #: contact.php:28
 msgid ""
@@ -905,281 +978,6 @@ msgstr ""
 "взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Предложение "
 "действительно только для женского пола."
 
-#: common.php:125
-msgid "Chat"
-msgstr "Чат"
-
-#: common.php:126
-msgid "Online-Test"
-msgstr "Онлайн-Тест"
-
-#: common.php:127
-msgid "Onion link list"
-msgstr "Список ссылок Onion"
-
-#: common.php:128
-msgid "E-Mail + XMPP"
-msgstr "Эл.почта + Jabber"
-
-#: common.php:129 tutorials/index.php:27
-msgid "Tutorials"
-msgstr "Учебники"
-
-#: common.php:131
-msgid "FAQ"
-msgstr "FAQ(ЧаВо)"
-
-#: common.php:134
-msgid "Privacy"
-msgstr "Политика конфиденциальности"
-
-#: common.php:146
-msgid "Add translation"
-msgstr "Добавить перевод"
-
-#: new-domain.php:6 new-domain.php:17 new-domain.php:27
-msgid "Daniel - New domain"
-msgstr "Даниэль - Новый домен"
-
-#: new-domain.php:10 new-domain.php:18
-msgid "We moved to a brand new domain - migrate your accounts"
-msgstr ""
-"Мы переехали на совершенно новый домен - перенесите свои учетные записи"
-
-#: new-domain.php:29
-msgid "New domain - DanWin1210.Me is now DanWin1210.De"
-msgstr "Старый домен - DanWin1210.Me, новый домен - DanWin1210.De"
-
-#: new-domain.php:30
-msgid "Why this sudden and drastic change?"
-msgstr "Почему произошла эта внезапная и резкая перемена?"
-
-#: new-domain.php:31
-msgid ""
-"In mid-October 2021 I noticed that I was locked out of my registrar's "
-"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
-"similar violation of our terms of service</q>. After contacting their "
-"customer support multiple times, even after more than a year, all I have "
-"ever gotten back from them is that I will hear from them soon, as they need "
-"more time to investigate, and they appreciate my patience. I was refused "
-"renewing the domain or moving to a different registrar."
-msgstr ""
-"В середине октября 2021 года я заметил, что я был заблокирован из панели "
-"управления моего регистратора (Namecheap Inc.) за <q> подозрение в "
-"мошенничестве, возврате платежей или каком-либо подобном нарушении наших "
-"условий предоставления услуг</q>. После многократных обращений к ним в "
-"службу поддержки клиентов, даже спустя более года, все, что я добился от "
-"них, - это то, что я скоро получу от них весточку, поскольку им нужно больше "
-"времени для расследования, и они ценят мое терпение. Мне было отказано в "
-"продлении домена или переходе к другому регистратору."
-
-#: new-domain.php:32
-msgid ""
-"Given that I was unable to get a satisfying answer and the old domain was "
-"due to expire, I went ahead and bought the new domain danwin1210.de, to "
-"switch over to. danwin1210.me went down after expiry, but thankfully I was "
-"allowed to pay for extension by creating a new account and depositing the "
-"money for renewal there, so it was back up shortly afterwards."
-msgstr ""
-"Учитывая, что я не смог получить удовлетворительный ответ, а срок действия "
-"старого домена истекал, я пошел дальше и купил новый домен danwin1210.de , "
-"чтобы переключиться на него, а danwin1210.me вышел из строя по истечении "
-"срока действия, но, к счастью, мне разрешили оплатить продление, создав "
-"новую учетную запись и внеся деньги для обновления, так что вскоре после "
-"этого он был восстановлен."
-
-#: new-domain.php:33
-msgid ""
-"After a year my domain was due expiry again, so I enquired if I could move "
-"to a different registrar now. They offered me again to pay via an alternate "
-"account, because: <q>Unfortunately, we need more time to investigate your "
-"issue.</q> A year should be more than enough time to solve whatever issue "
-"they might have with my account… This time I decided to let it expire for "
-"good, since almost everyone should have switched over to the new domain by "
-"now."
-msgstr ""
-"Через год срок действия моего домена снова истекал, поэтому я спросил, могу "
-"ли я сейчас перейти к другому регистратору. Они снова предложили мне "
-"оплатить через альтернативный аккаунт, потому что: <q> К сожалению, нам "
-"нужно больше времени для расследования вашей проблемы.</q> Года должно быть "
-"более чем достаточно, чтобы решить любую проблему, которая может возникнуть "
-"у них с моей учетной записью… На этот раз я решил оставить срок его действия "
-"навсегда, так как почти все уже должны были перейти на новый домен."
-
-#: new-domain.php:34
-msgid "What does it mean for users?"
-msgstr "Что это означает для пользователей?"
-
-#: new-domain.php:35
-msgid ""
-"You don't have an account and just browse the site? Not much will change, "
-"just the address in your browsers URL bar."
-msgstr ""
-"Если у вас нет учетной записи и вы просто просматриваете сайт? Мало что "
-"изменится, только адрес в строке URL вашего браузера."
-
-#: new-domain.php:36
-msgid ""
-"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
-"you some struggles, as you now only have a few days left to migrate all your "
-"contacts/accounts to the new address. Any service where you registered with "
-"your email address will need to be updated to reflect the new domain. You "
-"might otherwise get locked out of your accounts, if they require you to e.g. "
-"click a link in your email for login."
-msgstr ""
-"Если вы зарегистрированы и используете службу XMPP или электронную почту то "
-"скорее всего, это вызовет у вас некоторые трудности, так как теперь у вас "
-"осталось всего несколько дней, чтобы перенести все ваши контакты / учетные "
-"записи на новый адрес. Любой сервис, где вы зарегистрировались со своим "
-"адресом электронной почты, необходимо будет обновить, чтобы отразить новый "
-"домен. В противном случае вы можете быть заблокированы из своих учетных "
-"записей, если они потребуют, чтобы вы, например, нажали на ссылку в своем "
-"электронном письме для входа в систему."
-
-#: new-domain.php:37
-msgid ""
-"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
-"php\" target=\"_blank\">in their account settings</a> to reflect the new "
-"domain and allow WKD clients to grab your key automatically."
-msgstr ""
-"Пользователи электронной почты также должны обновить свой PGP-ключ <a href="
-"\"/mail/manage_account.php \" target =\"_blank\">в настройках своей учетной "
-"записи</a>, чтобы отразить новый домен и позволить клиентам WKD "
-"автоматически получать ваш ключ."
-
-#: new-domain.php:38
-msgid ""
-"You can still login with your .me user credentials, but the account is going "
-"to be .de. As long as the old domain is still online, you can also receive "
-"emails on the .me domain, while sending is switched over to .de."
-msgstr ""
-"Вы все еще можете войти в систему, используя свои учетные данные "
-"пользователя .me, но учетная запись будет .de. Пока старый домен все еще "
-"доступен, вы также можете получать электронные письма на домене .me, в то "
-"время как отправка переключена на .de."
-
-#: new-domain.php:39
-msgid ""
-"XMPP users will most likely notice their account stopped working. "
-"Unfortunately there is no easy way to migrate accounts with prosody (the "
-"XMPP server), as there is with email. You will need to update your account "
-"settings to reflect the new domain in order to login and re-connect with all "
-"your buddies."
-msgstr ""
-"Пользователи XMPP, скорее всего, заметят, что их учетная запись перестала "
-"работать. К сожалению, нет простого способа перенести учетные записи с "
-"помощью prosody (XMPP-сервер), как это происходит с электронной почтой. Вам "
-"нужно будет обновить настройки своей учетной записи, чтобы войти в систему и "
-"продолжить общаться своими друзьям."
-
-#: new-domain.php:40
-msgid "Will the old address still work?"
-msgstr "Будет ли старый адрес по-прежнему работать?"
-
-#: new-domain.php:41
-msgid ""
-"After a very brief downtime, it was back online. Now, after a year, it's "
-"expired once more. I may be able to buy it again after Namecheap returns the "
-"domain to the registry. However, Namecheap apparently sells the domain now "
-"for $400…"
-msgstr ""
-
-#: new-domain.php:42
-msgid "I have a question, something is broken with my account."
-msgstr "У меня вопрос, что-то не так с моей учетной записью."
-
-#: new-domain.php:43
-msgid ""
-"Make sure you have switched all your settings to the new domain. It should "
-"work as before. Stil not working correctly? Feel free to <a href=\"/contact."
-"php\">contact me</a> for help."
-msgstr ""
-
-#: new-domain.php:44
-msgid ""
-"How do I know you are still the same person? This could be law enforcement "
-"taking over the servers."
-msgstr ""
-
-#: new-domain.php:45
-msgid ""
-"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
-"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
-"\"_blank\">old PGP key</a>. This can be verified by running a command like "
-"this:"
-msgstr ""
-
-#: new-domain.php:47
-msgid ""
-"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
-"code>. I have also included signatures of previous keys on my old key, so "
-"you can even verify the key, in case you have an older key I was using "
-"before."
-msgstr ""
-
-#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
-#: hosting/index.php:27
-msgid "Hosting - Info"
-msgstr ""
-
-#: hosting/index.php:10 hosting/index.php:16
-msgid "Daniel's Hosting - a former darknet web hosting service"
-msgstr ""
-
-#: hosting/index.php:28
-msgid ""
-"In March 2020 a hacker deleted all databases related to my hosting, thus I "
-"was forced to shut down my hosting service. If you want to contribute or "
-"setup your own hosting, check out my open source project at <a href="
-"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
-"\">https://github.com/DanWin/hosting</a>."
-msgstr ""
-"В марте 2020-го мой сервер подвергся успешной хакерской атаке, в результате "
-"хакер удалил все базы данных связанные с моим хостингом, по этому я был "
-"вынужден закрыть свой хостинг Если вы хотите настроить свой собственный "
-"хостинг, вы можете ознакомиться с моим проектом с открытым исходным кодом по "
-"адресу, <a href=\"https://github.com/DanWin/hosting\" target=\"_blank\" rel="
-"\"noopener\">https://github.com/DanWin/hosting</a>."
-
-#: hosting/index.php:29
-msgid ""
-"Being a darknet hoster has taught me many things. However, this was a free "
-"time project I did next to my full time job and it's very time-consuming to "
-"try and keep the server clean from illegal and scammy sites. I've spent 10 "
-"times more time on deleting accounts than I could find time to continue "
-"development. At this time I do not plan on continuing the hosting project, "
-"but this doesn't have to be the end. There are other hosting providers like "
-"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
-"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
-"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
-"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
-"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
-"\">available for download</a>, which should enable anyone willing to become "
-"the next darknet shared hosting provider to start where I left of."
-msgstr ""
-"Работа хостером в даркнете дала мне огромнейший опыт, Это был проект которым "
-"я занимался в свободное время от основной работы, очень много времени уходит "
-"на то что бы удалять с сервера незаконные и мошеннические сайты, я потратил "
-"в 10 раз больше времени на их удаление чем мог бы потратить на продолжение "
-"разработки. В настоящее время я не планирую продолжать хостинг проект, но "
-"есть некоторые альтернативы. Существуют другие хостинг провайдеры такие как "
-"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
-"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
-"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
-"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-"\"noopener\">Clearnet Onion | Easy clearnet relay</a> а также мой проект "
-"доступен для <a href=\"https://github.com/DanWin/hosting/\" target=\"_blank"
-"\" rel=\"noopener\">свободной загрузки и использования</a>, это позволяет "
-"любому желающему стать поставщиком даркнет хостинга и продолжить с того "
-"места, на котором остановился я."
-
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
 msgstr "Политика конфиденциальности Даниэля"
@@ -1466,84 +1264,302 @@ msgstr ""
 "Юридически обязывающий является только английская версия настоящей политики "
 "конфиденциальности"
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:25
-msgid "Daniel - Chat"
+#: privacy.php:58
+msgid "8. List of sub-processors"
+msgstr "8. Список доп-процессоров (подпроцессоров)"
+
+#: privacy.php:60
+msgid "Vendor"
+msgstr "Поставщик"
+
+#: privacy.php:60
+msgid "Purpose"
+msgstr "Услуги"
+
+#: privacy.php:61
+msgid "Providing server infrastructure and backup storage"
+msgstr "Предоставление серверной инфраструктуры и хранилища резервных копий"
+
+#: privacy.php:62
+msgid "Providing server infrastructure"
+msgstr "Предоставление серверной инфраструктуры"
+
+#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
+msgid "Daniel - Tutorials"
 msgstr ""
 
-#: chat/index.php:10 chat/index.php:16
-msgid "Daniel's Chat - a former darknet chat community"
+#: tutorials/index.php:10 tutorials/index.php:16
+msgid "Various tutorials provided by Daniel Winzen"
 msgstr ""
 
-#: chat/index.php:27
-msgid "Daniel's Chat"
-msgstr ""
-
-#: chat/index.php:28
-msgid "After 9 years, I'm shutting down the chat for good."
-msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда."
-
-#: chat/index.php:29
+#: tutorials/index.php:28
 msgid ""
-"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">my onion link list</a>. If you are interested in running a similar "
-"chat community, you can download my chat script on <a href=\"https://github."
-"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
-"\">GitHub</a>."
+"Here I upload tutorials that have been asked for a number of times. If you "
+"have suggestions on how to improve a tutorial or want me to make one another "
+"one, you can <a href=\"/contact.php\">contact me here</a>."
 msgstr ""
-"Но не отчаивайтесь, вы можете найти другие чаты, в этом списке <a href="
-"\"https://onions.danwin1210.de/?cat=2\">список Tor сайтов</a>. Вы также "
-"можете создать свой собственный чат, для этого скачайте скрипт чата на <a "
-"href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub</a>."
+"Здесь я размещаю учебные пособия о которых меня просили. Если у вас есть "
+"предложение как улучшить пособие или вы хотите чтобы я сделал еще одно, вы "
+"можете <a href=\"/contact.php\">связаться со мной здесь</a>."
 
-#: chat/index.php:30
-msgid ""
-"This chat started as a hobby project for use in school in 2013 and evolved "
-"into a very active darknet chat community. I handed over chat administration "
-"to various other people since 2017, as I was no longer able to find the time "
-"or motivation to administrate the chat. In recent months, the administration "
-"that took over, kept the chat very private, made people spend hours waiting "
-"to get access and randomly kicked people for no reason. This in turn filled "
-"my inbox with messages of people asking for assistance to access the chat "
-"and traffic has decreased to a fraction of what it used to be. In this "
-"state, it doesn't make sense to continue providing the service. Thus I "
-"decided to shut down the chat for good in December 2022, after 9 years."
+#: tutorials/index.php:30
+msgid "Name"
+msgstr "Название"
+
+#: tutorials/index.php:30
+msgid "Short description"
+msgstr "Краткое описание"
+
+#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
+msgid "Torify FTP clients"
 msgstr ""
-"Данный чат я сделал в 2013 году, как хобби-проект, для использования в "
-"школе, после чего он превратился в очень активное сообщество чатов в "
-"даркнете. В 2017 году я передал управление чатом другим людям, так как у "
-"меня больше не было, ни времени, ни желания на него, но в последнее время "
-"администраторы практически перестали пускать людей в чат, заставляя их ждать "
-"одобрение входа часами, еще начали кикать участников из чата просто так. Все "
-"это привело к тому, что моя почта просто заполнилась просьбами от людей, "
-"добавить их в чат, и в добавок это привело к упадку посещаемости моего "
-"сайта. По этому я больше не вижу смысла продолжать размещать у себя этот "
-"чат. В итоге я решил закрыть его навсегда, в Декабре 2022 года, спустя 9 лет."
 
-#: chat/index.php:31
-msgid ""
-"Since a few people asked me to make them admin and re-enable the chat: No, "
-"this decision has been made and was long overdue. The chat had nothing at "
-"all to do with me anymore, except that I've programmed it and I maintain the "
-"server. Anyone is welcome to create their own chat, but not here on my site."
+#: tutorials/index.php:31
+msgid "This tutorial will show you how to torify FTP clients."
 msgstr ""
-"Ко мне обращались несколько человек, с просьбой перезапустить чат, и "
-"назначить их администраторами: Я отказал им, так как я принял окончательное "
-"решение. С того момента, когда было передано управление чатом, он больше не "
-"имел ко мне никакого отношения, за исключением того, что я разработал, и "
-"разместил его у себя. Если у вас есть желание, вы можете скачать этот чат на "
-"GitHub в моем репозитории, по ссылке которая находится выше и установить у "
-"себя на сайте, или сервере."
 
-#: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
-#: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
-#: tutorials/index.php:32
+#: tutorials/index.php:32 tutorials/get-rich-fast/index.php:6
+#: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
+#: tutorials/get-rich-fast/index.php:35
 msgid "How to get rich (fast)"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
-#: tutorials/index.php:32
+#: tutorials/index.php:32 tutorials/get-rich-fast/index.php:10
+#: tutorials/get-rich-fast/index.php:24
 msgid "This tutorial will guide you to achieving financial freedom."
+msgstr ""
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
+#: tutorials/successful-sugar-dating/index.php:22
+#: tutorials/successful-sugar-dating/index.php:32
+#: tutorials/successful-sugar-dating/index.php:34
+msgid "How to have a successful sugar dating relationship"
+msgstr ""
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
+#: tutorials/successful-sugar-dating/index.php:23
+msgid "This tutorial will guide you in finding a sugar relationship."
+msgstr ""
+
+#: tutorials/index.php:34 tutorials/findom/index.php:6
+#: tutorials/findom/index.php:21 tutorials/findom/index.php:31
+#: tutorials/findom/index.php:33
+msgid "Earning money with findom"
+msgstr ""
+
+#: tutorials/index.php:34
+#, fuzzy
+#| msgid ""
+#| "This tutorial will show you how to torify FTP clients in the example of "
+#| "FileZilla and WinSCP."
+msgid "This tutorial will show you how you can use findom to earn money."
+msgstr ""
+"В этом руководстве вы узнаете, как настроить torify FTP-клиентов на примере "
+"FileZilla и WinSCP."
+
+#: tutorials/findom/index.php:10 tutorials/findom/index.php:22
+#, fuzzy
+#| msgid ""
+#| "This tutorial will show you how to torify FTP clients in the example of "
+#| "FileZilla and WinSCP."
+msgid "This tutorial will show you how you can use findom to earn money"
+msgstr ""
+"В этом руководстве вы узнаете, как настроить torify FTP-клиентов на примере "
+"FileZilla и WinSCP."
+
+#: tutorials/findom/index.php:34
+#, fuzzy
+#| msgid "What is PGP?"
+msgid "What is findom?"
+msgstr "Что такое PGP?"
+
+#: tutorials/findom/index.php:35
+msgid ""
+"Findom, short for financial domination. It is a fetish in which a dominant "
+"person (dom) receives money from a submissive person (sub). This transaction "
+"provides pleasure to both parties, even though it is a one-way transaction."
+msgstr ""
+
+#: tutorials/findom/index.php:36
+msgid "What are the risks of engaging in findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:37
+msgid ""
+"For a sub, engaging in findom carries the risk of losing money and control. "
+"It can become addictive and lead to overspending, financial instability or "
+"homelessness. For a dom an unhealthy relationship with money could form, "
+"given that they receive potentially a lot of it, and are tempted to spend "
+"all of it. Once a sub no longer spends money on the dom, this could lead to "
+"an existential crisis due to high expenses that need to be maintained."
+msgstr ""
+
+#: tutorials/findom/index.php:38
+msgid "What are the benefits of findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:39
+msgid ""
+"As a sub, you will be motivated to earn more money and climb the career "
+"ladder faster than you would normally do because you are constantly "
+"challenged to give more to your dom. For doms, it is financial gain."
+msgstr ""
+
+#: tutorials/findom/index.php:40
+msgid "What is a findom relationship like?"
+msgstr ""
+
+#: tutorials/findom/index.php:41
+msgid ""
+"Findom relationships come in various forms. Some are short-lived, one-time "
+"transactions, while others can span many years. While findom is purely "
+"financial, it is also often combined with BDSM, content creation and other "
+"erotic services. Some subs enjoy paying for online shopping or buying over-"
+"priced feet pictures, others will go shopping with their dom in real life, "
+"and some would like to be humiliated in public. A scenario could involve a "
+"debt contract, in which the sub commits to paying off a debt to their dom "
+"for an extended period in monthly instalments."
+msgstr ""
+
+#: tutorials/findom/index.php:42
+msgid "How to live in a healthy findom relationship?"
+msgstr ""
+
+#: tutorials/findom/index.php:43
+msgid ""
+"Everyone is unique, so your specific needs need to be discussed with your "
+"findom partner. It is important that both of you are happy with it. While "
+"some subs and doms favour a fast one-time transaction, it is usually best "
+"for both parties, if a long-term relationship can be established. To "
+"maintain a healthy relationship, the dom needs to know a subs financial "
+"situation, including income, expenses and spending habits. This knowledge "
+"allows the dom to help the sub reduce expenses, increase income and "
+"ultimately hand over more cash to the dom, without risking serious debt "
+"problems. While it is an entertaining thought to some subs, ending up "
+"homeless is not beneficial to anyone."
+msgstr ""
+
+#: tutorials/findom/index.php:44
+msgid "Where do I find a findom partner?"
+msgstr ""
+
+#: tutorials/findom/index.php:45
+#, php-format
+msgid ""
+"If you are curious to try this fetish out or would like to thank me, you can "
+"donate or buy me an item from my <a href=\"%s\" target=\"_blank\" rel="
+"\"noreferrer noopener\">Amazon wishlist</a>. For a more long-term "
+"experience, see the links below."
+msgstr ""
+
+#: tutorials/findom/index.php:46
+msgid "Popular dating sites used for findom:"
+msgstr ""
+
+#: tutorials/findom/index.php:51
+msgid ""
+"You can find findom content on social media sites with tags like #paypig "
+"#moneyslave #findom #payme #spoilme etc."
+msgstr ""
+
+#: tutorials/findom/index.php:56
+msgid "Popular findom sites:"
+msgstr ""
+
+#: tutorials/findom/index.php:66
+msgid "Popular content creator sites used for findom:"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:35
+#, fuzzy
+#| msgid "Why this sudden and drastic change?"
+msgid "What is sugar dating?"
+msgstr "Почему произошла эта внезапная и резкая перемена?"
+
+#: tutorials/successful-sugar-dating/index.php:36
+msgid ""
+"Stereotypically a sugar daddy is a wealthy older man, who's looking for an "
+"attractive young woman, the so-called sugar baby. An attractive man looking "
+"for their sugar mommy or sugar daddy is called a sugar boy. A sugar dating "
+"relationship is a mutually beneficial relationship. Unlike traditional "
+"dating, partners aren't selected for love or a hook-up, but rather to help "
+"each other. Sugar partners have an agreement, on what each partner wants "
+"from the other, and what their boundaries are. This is called an arrangement."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:37
+msgid "How to get to an arrangement?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:38
+msgid ""
+"Everyone is unique, so your arrangement needs to be discussed with your "
+"sugar partner. Typically an arrangement involves the wealthy partner "
+"providing financial help, or mentoring to their partner, who in turn will "
+"come along to business meetings, and parties or give their partner company "
+"for a few hours a month. An arrangement can also include sexual favours, "
+"which are often asked for by men. However, this must be consensual, and if "
+"you as a sugar baby do not feel comfortable with it, then you shouldn't do "
+"it. Think about your priorities, what you need and what you could give to "
+"your partner. Fill out your dating profile with enough details, so that you "
+"can find your match. Once you've found your potential partner, discuss each "
+"of your expectations and come to an arrangement that suits you both."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:39
+msgid "What are the risks of sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:40
+msgid ""
+"Just like with regular dating, you should be comfortable around your partner "
+"and enjoy each other's company. If you don't feel well around your partner, "
+"it will ruin the experience for both of you, so you should better end it "
+"sooner than later. Coming out as a sugar daddy or sugar baby can be "
+"difficult as some people still think of it negatively and will criticise you "
+"for it. It's also possible that as a provider you feel cheated of your money "
+"at a later point in time, or as a sugar baby you could feel sexually "
+"exploited if you agreed to sex just because of the money. That's why it's so "
+"important to be communicative with your sugar partner and form an "
+"arrangement that both of you are happy with."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:41
+msgid "What are the benefits of sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:42
+msgid ""
+"As sugar dating is mutually beneficial, both parties involved get something "
+"out of it. There will be no drama, and by discussing each of your needs and "
+"expectations, you avoid running into conflicts. It can be fun, and you will "
+"see things from a different perspective than you are used to. Unlike "
+"traditional dating, you don't have to spend significant time on a dating "
+"site, until you match with someone interesting. It can take only a few hours "
+"or days until you have found someone that matches you. Especially for men, "
+"it is so much easier to find a date, than on regular dating sites, simply "
+"because of the women-to-men ratio, plus women are less selective than on "
+"regular dating sites, given that the type of relationship is mutually "
+"beneficial and not necessarily romantic."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:43
+msgid "Where do I find a sugar partner?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:44
+msgid ""
+"You can potentially find your sugar partner on regular dating sites, but it "
+"will be difficult due to most dating sites restricting this type of dating "
+"and banning your accounts for using certain keywords. There are plenty of "
+"dating sites specifically made for sugar dating though. Usually, they are "
+"free for the attractive member, but the wealthy member has to pay to use the "
+"platform. This way the platform also filters out so-called salt daddies, who "
+"pretend to have money but do not."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:45
+msgid "Here are some popular sugar dating sites:"
 msgstr ""
 
 #: tutorials/get-rich-fast/index.php:36
@@ -1785,16 +1801,16 @@ msgstr ""
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:78
+#: tutorials/get-rich-fast/index.php:79
 #, php-format
 msgid "(Save 50€ on your first investment with the code \"%s\")"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:93
+#: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:94
+#: tutorials/get-rich-fast/index.php:95
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
@@ -1805,144 +1821,6 @@ msgid ""
 "which you can directly re-invest along with your regular investments. Keep "
 "doing this for a few years until you can live only from your passive income "
 "streams."
-msgstr ""
-
-#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
-msgid "Daniel - Tutorials"
-msgstr ""
-
-#: tutorials/index.php:10 tutorials/index.php:16
-msgid "Various tutorials provided by Daniel Winzen"
-msgstr ""
-
-#: tutorials/index.php:28
-msgid ""
-"Here I upload tutorials that have been asked for a number of times. If you "
-"have suggestions on how to improve a tutorial or want me to make one another "
-"one, you can <a href=\"/contact.php\">contact me here</a>."
-msgstr ""
-"Здесь я размещаю учебные пособия о которых меня просили. Если у вас есть "
-"предложение как улучшить пособие или вы хотите чтобы я сделал еще одно, вы "
-"можете <a href=\"/contact.php\">связаться со мной здесь</a>."
-
-#: tutorials/index.php:30
-msgid "Name"
-msgstr "Название"
-
-#: tutorials/index.php:30
-msgid "Short description"
-msgstr "Краткое описание"
-
-#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
-msgid "Torify FTP clients"
-msgstr ""
-
-#: tutorials/index.php:31
-msgid "This tutorial will show you how to torify FTP clients."
-msgstr ""
-
-#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
-#: tutorials/successful-sugar-dating/index.php:22
-#: tutorials/successful-sugar-dating/index.php:32
-#: tutorials/successful-sugar-dating/index.php:34
-msgid "How to have a successful sugar dating relationship"
-msgstr ""
-
-#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
-#: tutorials/successful-sugar-dating/index.php:23
-msgid "This tutorial will guide you in finding a sugar relationship."
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:35
-#, fuzzy
-#| msgid "Why this sudden and drastic change?"
-msgid "What is sugar dating?"
-msgstr "Почему произошла эта внезапная и резкая перемена?"
-
-#: tutorials/successful-sugar-dating/index.php:36
-msgid ""
-"Stereotypically a sugar daddy is a wealthy older man, who's looking for an "
-"attractive young woman, the so-called sugar baby. An attractive man looking "
-"for their sugar mommy or sugar daddy is called a sugar boy. A sugar dating "
-"relationship is a mutually beneficial relationship. Unlike traditional "
-"dating, partners aren't selected for love or a hook-up, but rather to help "
-"each other. Sugar partners have an agreement, on what each partner wants "
-"from the other, and what their boundaries are. This is called an arrangement."
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:37
-msgid "How to get to an arrangement?"
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:38
-msgid ""
-"Everyone is unique, so your arrangement needs to be discussed with your "
-"sugar partner. Typically an arrangement involves the wealthy partner "
-"providing financial help, or mentoring to their partner, who in turn will "
-"come along to business meetings, and parties or give their partner company "
-"for a few hours a month. An arrangement can also include sexual favours, "
-"which are often asked for by men. However, this must be consensual, and if "
-"you as a sugar baby do not feel comfortable with it, then you shouldn't do "
-"it. Think about your priorities, what you need and what you could give to "
-"your partner. Fill out your dating profile with enough details, so that you "
-"can find your match. Once you've found your potential partner, discuss each "
-"of your expectations and come to an arrangement that suits you both."
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:39
-msgid "What are the risks of sugar dating?"
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:40
-msgid ""
-"Just like with regular dating, you should be comfortable around your partner "
-"and enjoy each other's company. If you don't feel well around your partner, "
-"it will ruin the experience for both of you, so you should better end it "
-"sooner than later. Coming out as a sugar daddy or sugar baby can be "
-"difficult as some people still think of it negatively and will criticise you "
-"for it. It's also possible that as a provider you feel cheated of your money "
-"at a later point in time, or as a sugar baby you could feel sexually "
-"exploited if you agreed to sex just because of the money. That's why it's so "
-"important to be communicative with your sugar partner and form an "
-"arrangement that both of you are happy with."
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:41
-msgid "What are the benefits of sugar dating?"
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:42
-msgid ""
-"As sugar dating is mutually beneficial, both parties involved get something "
-"out of it. There will be no drama, and by discussing each of your needs and "
-"expectations, you avoid running into conflicts. It can be fun, and you will "
-"see things from a different perspective than you are used to. Unlike "
-"traditional dating, you don't have to spend significant time on a dating "
-"site, until you match with someone interesting. It can take only a few hours "
-"or days until you have found someone that matches you. Especially for men, "
-"it is so much easier to find a date, than on regular dating sites, simply "
-"because of the women-to-men ratio, plus women are less selective than on "
-"regular dating sites, given that the type of relationship is mutually "
-"beneficial and not necessarily romantic."
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:43
-msgid "Where do I find a sugar partner?"
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:44
-msgid ""
-"You can potentially find your sugar partner on regular dating sites, but it "
-"will be difficult due to most dating sites restricting this type of dating "
-"and banning your accounts for using certain keywords. There are plenty of "
-"dating sites specifically made for sugar dating though. Usually, they are "
-"free for the attractive member, but the wealthy member has to pay to use the "
-"platform. This way the platform also filters out so-called salt daddies, who "
-"pretend to have money but do not."
-msgstr ""
-
-#: tutorials/successful-sugar-dating/index.php:45
-msgid "Here are some popular sugar dating sites:"
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
@@ -2096,6 +1974,341 @@ msgstr ""
 #: tutorials/torify-ftp/index.php:93
 msgid "Proxy configuration"
 msgstr ""
+
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
+msgid ""
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+msgstr ""
+"Прокси-сервер GitHub IPv6 позволяет загружать репозитории GitHub только на "
+"серверах IPv6"
+
+#: github-ipv6-proxy.php:34
+#, php-format
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %s. Unfortunately I realized "
+"that GitHub still <a href=\"https://github.com/orgs/community/"
+"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
+"support IPv6</a>."
+msgstr ""
+"Недавно мне пришлось клонировать репозиторий git на GitHub через сервер "
+"только для IPv6, который я арендовал у моего любимого хостинг-провайдера %s. "
+"К сожалению, я понял, что GitHub все еще <a href=\"https://github.com/orgs/"
+"community/discussions/10539 \" target=\"_blank\" rel=\"noopener noreferrer"
+"\">не поддерживает IPv6</a>."
+
+#: github-ipv6-proxy.php:35
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+"Моим обходным путем была настройка WireGuard VPN с одним из моих серверов с "
+"двойным стеком. Альтернативой могла бы быть установка Tor для анонимной "
+"загрузки."
+
+#: github-ipv6-proxy.php:36
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+"Поскольку я далеко не единственный пользователь с сервером только для IPv6, "
+"который хочет загружать репозитории с GitHub, я решил предоставить "
+"общедоступный прокси-сервер, который можно использовать для доступа к GitHub "
+"в сети IPv6, пока GitHub не предоставит встроенную поддержку IPv6. Прокси "
+"доступен только на IPv6, чтобы пользователи IPv4 не использовали ненужные "
+"ресурсы, поскольку они уже могут клонировать напрямую с GitHub."
+
+#: github-ipv6-proxy.php:37
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+"Обратите внимание, что мой https-прокси обслуживает ssl-сертификат, выданный "
+"для моего домена, что означает, что я расшифровываю и повторно шифрую ваш "
+"трафик (и потенциально мог бы изучить его, но я этого не делаю). Это "
+"необходимо, так как в противном случае вы получите предупреждение о "
+"недопустимом сертификате ssl + github перенаправит на порт по умолчанию "
+"после его принятия. Смотрите ниже более постоянное решение, которое более "
+"благоприятно для конфиденциальности."
+
+#: github-ipv6-proxy.php:38
+#, php-format
+msgid ""
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
+msgstr ""
+"Так как же это работает? Давайте предположим, что мы хотим клонировать PHP-"
+"скрипт чата, который я опубликовал в %s. Обычно клонирование репозитория "
+"выглядело бы следующим образом:"
+
+#: github-ipv6-proxy.php:40
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr ""
+"При подключении по протоколу IPv6 вы можете использовать мой прокси-сервис "
+"следующим образом:"
+
+#: github-ipv6-proxy.php:42
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr ""
+"И если вы хотите клонировать через ssh, вы также можете сделать это "
+"следующим образом:"
+
+#: github-ipv6-proxy.php:44
+msgid ""
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
+msgstr ""
+"Те, кто хочет использовать прокси более постоянно и / или напрямую общаться "
+"с GitHub, без того, чтобы я повторно шифровал ваш трафик, должны добавить "
+"следующее в /etc /hosts:"
+
+#: github-ipv6-proxy.php:49
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr ""
+"После добавления вы можете клонировать как обычно, без каких-либо изменений:"
+
+#: github-ipv6-proxy.php:52
+msgid ""
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
+msgstr ""
+"Все это делается с помощью следующей конфигурации nginx на сервере с двойным "
+"стеком:"
+
+#: about.php:6 about.php:17
+msgid "Daniel - About"
+msgstr "Даниэль - Обо мне"
+
+#: about.php:10 about.php:18
+msgid ""
+"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
+"this site"
+msgstr "Информация обо мне и моем сайте"
+
+#: about.php:30
+msgid "About me"
+msgstr "Обо мне"
+
+#: about.php:31
+msgid ""
+"Hello, my name is Daniel Winzen, a german web developer and system "
+"administrator. In my free time I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up in times of the covid "
+"pandemic and resulting home office, because it's fun and keeps me fit."
+msgstr ""
+"Здравствуйте, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
+"системный администратор. В свободное время мне нравится читать книги, и "
+"заниматься своими проектами с открытым исходным кодом, еще мне нравится "
+"танцевать на шесте, вы не подумайте ничего плохого :) Танцами я увлекся во "
+"время пандемии Covid19, так как находился дома много времени, это "
+"поддерживает меня в форме и развлекает."
+
+#: about.php:32
+msgid ""
+"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+"also know some basics of Perl, Python, C, C++ and more. With my experience "
+"I'm able to quickly adapt and work with new languages, when necessary."
+msgstr ""
+"Языки программирования которые я регулярно использую - это PHP, SQL и "
+"JavaScript, но я также знаю некоторые основы Perl, Python, C, C++ и другие. "
+"С моим опытом я могу быстро адаптироваться и работать с новыми языками когда "
+"это необходимо."
+
+#: about.php:33
+msgid ""
+"Before I got into coding and server management, I contributed German "
+"translation to various open-source projects since the end of 2011."
+msgstr ""
+"До того, как я занялся программированием и управлением серверами, с конца "
+"2011 года я занимался переводом на немецкий язык, различных проектов, с "
+"открытым исходным кодом."
+
+#: about.php:34
+msgid ""
+"Managing servers, email services and developing new web projects is what I "
+"thrive on. I like optimizing systems for performance and getting the best "
+"out of what I have. Do you need help with managing and optimizing your "
+"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
+"touch</a> and we'll discuss details."
+msgstr ""
+"Управление серверами, а также управление электронной почтой, разработка "
+"новых веб-проектов - это то, в чем я силен. Мне нравится оптимизировать "
+"системы с точки зрения производительности и извлекать максимум пользы из "
+"того что у меня есть. Если вам нужна помощь в управлении и оптимизации вашей "
+"инфраструктуры или веб-сайта, я с радостью готов помочь. <a href=\"/contact."
+"php\">Свяжитесь со мной</a> и мы обсудим детали."
+
+#: about.php:35
+msgid "Profiles on other sites that I am active on:"
+msgstr "Профили на других сайтах где я активен:"
+
+#: about.php:42
+msgid "About this site"
+msgstr "О сайте"
+
+#: about.php:43
+msgid ""
+"This is my personal site, that I develop in my free time. I started "
+"development of this site in August/September 2013 when I wanted to have a "
+"platform to host files on, to use at school."
+msgstr ""
+"Это мой личный сайт который я разрабатываю в свободное время. Я начал "
+"разработку моего сайта в Августе/Сентябре 2013-го года когда мне захотелось "
+"иметь платформу для размещения файлов, что бы использовать ее в школе."
+
+#: about.php:44
+msgid ""
+"Quickly the idea of using a chat at school came up and I came across a "
+"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
+"deployed that on my Raspberry Pi it was running very slowly and wasn't "
+"really usable for use with several people. So I decided to port some parts I "
+"needed to PHP."
+msgstr ""
+"Так же у меня возникла идея использовать чат в школе, и я наткнулся на "
+"простой скрипт чата на языке Perl <a href=\"https://github.com/virtualghetto/"
+"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. Когда я "
+"развернул его на своем Raspberry Pi он работал очень медленно, нестабильно и "
+"был не пригоден для использования несколькими людьми. По этому я решил "
+"портатировать его на PHP."
+
+#: about.php:45
+msgid ""
+"This has been the start for me to get deeper into web-development and I have "
+"since open-sourced that chat script and several other scripts of this site "
+"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
+"new features and improved reliability and my code a lot."
+msgstr ""
+"Это стало для меня началом более глубокого погружения в веб разработку. "
+"После чего я разместил скрипт этого чата и несколько других скриптов моего "
+"сайта с открытым исходным кодом у себя на <a href=\"https://github.com/"
+"DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub аккаунте</a>. "
+"С тех пор, я вложил много усилий в свой код, и значительно улучшил его "
+"надежность и производительность."
+
+#: about.php:46
+msgid ""
+"I used to offer free file hosting, an url shortener, a chat and even a free "
+"darknet web hosting service. All these projects have taught me a lot about "
+"coding, security and server management. As of now, only the anonymous email "
+"and XMPP hosting, as well as the onion link list are still actively "
+"maintained."
+msgstr ""
+"Раньше я предлагал бесплатный файловый хостинг, сервис сокращения ссылок, "
+"чат и даже бесплатный веб-хостинг в даркнете. Все эти проекты многому "
+"научили меня в области программирования, безопасности и управлении "
+"серверами. На данный момент активно поддерживается только анонимная "
+"электронная почта и хостинг XMPP, а также список onion ссылок."
+
+#: about.php:47
+msgid "About the setup"
+msgstr "Настройки сайта"
+
+#: about.php:48
+msgid ""
+"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
+"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
+"sh and Wireguard."
+msgstr ""
+"Программное обеспечение которое я использую это Debian sid под управлением "
+"Ceph, NginX, MariaDB, Dovecot, Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, "
+"Prosody, Tor, ssh, bind9, acme.sh and Wireguard."
+
+#: about.php:49
+msgid ""
+"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
+"the raspberry pis at home. Additionally, they run a Postfix instance only "
+"listening on the VPN network to send out mails to clearnet."
+msgstr ""
+"Шлюзы clearnet на <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de </a> - это прокси-сервер NginX, который будет "
+"перенаправлять все запросы на домашнюю raspberry pi. Кроме того, они "
+"запускают экземпляр Postfix, который прослушивает только VPN-сеть для "
+"отправки писем в clearnet."
+
+#: about.php:50
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr "Все серверы соединены между собой с помощью Wireguard VPN."
+
+#: about.php:51
+msgid "Hosting providers I use(ed) and servers hosted there:"
+msgstr "Хостинг-провайдеры которые я использую и сервера размещеные у них:"
+
+#: about.php:53 about.php:54
+#, php-format
+msgid "%s - good for short-term and/or low-bandwidth projects"
+msgstr ""
+"%s - подходит для краткосрочных проектов и/или проектов с низкой пропускной "
+"способностью"
+
+#: about.php:55
+#, php-format
+msgid "%s - good and reliable"
+msgstr "%s - хороший и надежный провайдер"
+
+#: about.php:56
+#, php-format
+msgid "%s - comparably expensive but good and reliable"
+msgstr "%s - довольно дорогой, но хороший и надежный"
+
+#: about.php:57
+#, php-format
+msgid "%s - (Used for my clearnet gateway) - good and reliable"
+msgstr "%s - (Используется для моего шлюза clearnet) - хороший и надежный"
+
+#: about.php:58
+#, php-format
+msgid ""
+"%s - (Used for my clearnet gateway + Domain registration) - good and "
+"reliable, hosted in my city"
+msgstr ""
+"%s - (Используется для моего шлюза clearnet + регистрация домена) - хороший "
+"и надежный, расположен в моем городе"
+
+#: about.php:59
+msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
+msgstr "Домашний хостинг: 4 Raspberry Pi 4 с основным сайтом и данными"
+
+#~ msgid "Chat"
+#~ msgstr "Чат"
+
+#~ msgid ""
+#~ "You can still login with your .me user credentials, but the account is "
+#~ "going to be .de. As long as the old domain is still online, you can also "
+#~ "receive emails on the .me domain, while sending is switched over to .de."
+#~ msgstr ""
+#~ "Вы все еще можете войти в систему, используя свои учетные данные "
+#~ "пользователя .me, но учетная запись будет .de. Пока старый домен все еще "
+#~ "доступен, вы также можете получать электронные письма на домене .me, в то "
+#~ "время как отправка переключена на .de."
+
+#~ msgid ""
+#~ "XMPP users will most likely notice their account stopped working. "
+#~ "Unfortunately there is no easy way to migrate accounts with prosody (the "
+#~ "XMPP server), as there is with email. You will need to update your "
+#~ "account settings to reflect the new domain in order to login and re-"
+#~ "connect with all your buddies."
+#~ msgstr ""
+#~ "Пользователи XMPP, скорее всего, заметят, что их учетная запись перестала "
+#~ "работать. К сожалению, нет простого способа перенести учетные записи с "
+#~ "помощью prosody (XMPP-сервер), как это происходит с электронной почтой. "
+#~ "Вам нужно будет обновить настройки своей учетной записи, чтобы войти в "
+#~ "систему и продолжить общаться своими друзьям."
+
+#~ msgid "I have a question, something is broken with my account."
+#~ msgstr "У меня вопрос, что-то не так с моей учетной записью."
 
 #~ msgid ""
 #~ "Yes, please <a href=\"contact.php\">report it</a> and I will remove it as "
