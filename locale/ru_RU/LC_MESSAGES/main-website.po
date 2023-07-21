@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-07-09 22:03+0200\n"
-"PO-Revision-Date: 2023-07-14 10:08+0000\n"
+"PO-Revision-Date: 2023-07-21 11:08+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
@@ -114,7 +114,7 @@ msgstr ""
 
 #: index.php:27 common.php:125
 msgid "Home"
-msgstr "Домашняя страница"
+msgstr "Главная"
 
 #: index.php:28
 msgid ""
@@ -164,7 +164,7 @@ msgid ""
 "contact.php\">contact me</a>."
 msgstr ""
 "Если вам нравятся мои проекты, то вы можете поддержать меня, пожертвовав "
-"немного Monero: %1$s или Bitcoin: %2$s . Также присутствуют и другие способы "
+"немного Monero: %1$s или Bitcoin: %2$s . Также присутствуют другие способы "
 "пожертвования, для уточнения <a href=\"/contact.php\">свяжитесь со мной</a>."
 
 #: common.php:126 blog/index.php:27
@@ -457,8 +457,8 @@ msgstr "Связаться с Даниэль Винзен"
 #: blog/index.php:28
 msgid "Blog posts and news related to my services will be posted here."
 msgstr ""
-"Записи в блоге и новости, связанные с моими услугами, будут публиковаться "
-"здесь."
+"Здесь будут публиковаться разные записи и новости, связанные с моими "
+"услугами."
 
 #: blog/index.php:30
 msgid "Date"
