@@ -9,7 +9,7 @@ global $language, $dir, $locale;
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="<?php echo _('This tutorial will show you how you can use findom to earn money'); ?>">
 	<link rel="canonical" href="https://danwin1210.de/tutorials/findom/">
-	<link rel="alternate" href="https://danwin1210.de/tutoriials/findom/" hreflang="x-default">
+	<link rel="alternate" href="https://danwin1210.de/tutorials/findom/" hreflang="x-default">
 	<?php alt_links(); ?>
 	<meta property="og:type" content="article">
 	<meta property="article:published_time" content="2023-07-01">
