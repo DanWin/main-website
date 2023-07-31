@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-07-09 22:03+0200\n"
-"PO-Revision-Date: 2023-07-26 12:08+0000\n"
+"PO-Revision-Date: 2023-07-31 04:23+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: imprint.php:6 imprint.php:15
 msgid "Daniel - Imprint"
-msgstr "Даниэль - Главная"
+msgstr "Даниэль - Контакты"
 
 #: imprint.php:10 imprint.php:16
 #, fuzzy
