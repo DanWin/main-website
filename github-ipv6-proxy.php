@@ -48,7 +48,7 @@ global $language, $dir, $locale;
 2a01:4f8:c010:d56::4 codeload.github.com
 2a01:4f8:c010:d56::5 objects.githubusercontent.com
 2a01:4f8:c010:d56::6 ghcr.io
-2a01:4f8:c010:d56::7 pkg.github.com *.pkg.github.com
+2a01:4f8:c010:d56::7 pkg.github.com npm.pkg.github.com maven.pkg.github.com nuget.pkg.github.com rubygems.pkg.github.com
 </pre>
 <p><?php echo _('Once added, you can clone as usual, without any changes:'); ?></p>
 <code>git clone https://github.com/DanWin/le-chat-php</code>
