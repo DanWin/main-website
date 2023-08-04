@@ -42,10 +42,14 @@ global $language, $dir, $locale;
     <?php echo _('And if you would like to clone via ssh you can also do it like this:'); ?><br>
 <code>git clone git@github-ipv6-proxy.danwin1210.de:DanWin/le-chat-php</code></p>
 <p><?php echo _('Those wanting to use the proxy more permanently and/or talk directly to GitHub, without me re-encrypting your traffic, should add the following to /etc/hosts:'); ?></p>
-<pre>2a01:4f8:c010:d56::2 github.com
+<pre>
+2a01:4f8:c010:d56::2 github.com
 2a01:4f8:c010:d56::3 api.github.com
 2a01:4f8:c010:d56::4 codeload.github.com
-2a01:4f8:c010:d56::5 objects.githubusercontent.com</pre>
+2a01:4f8:c010:d56::5 objects.githubusercontent.com
+2a01:4f8:c010:d56::6 ghcr.io
+2a01:4f8:c010:d56::7 pkg.github.com *.pkg.github.com
+</pre>
 <p><?php echo _('Once added, you can clone as usual, without any changes:'); ?></p>
 <code>git clone https://github.com/DanWin/le-chat-php</code>
 
@@ -84,6 +88,14 @@ stream {
 	server {
 		listen [2a01:4f8:c010:d56::5]:443 fastopen=100 ipv6only=on;
 		proxy_pass objects.githubusercontent.com:443;
+	}
+	server {
+		listen [2a01:4f8:c010:d56::6]:443 fastopen=100 ipv6only=on;
+		proxy_pass ghcr.io:443;
+	}
+	server {
+		listen [2a01:4f8:c010:d56::7]:443 fastopen=100 ipv6only=on;
+		proxy_pass pkg.github.com:443;
 	}
 }
 </pre>
