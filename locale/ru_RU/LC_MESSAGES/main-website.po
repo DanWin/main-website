@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-07-09 22:03+0200\n"
-"PO-Revision-Date: 2023-07-31 04:23+0000\n"
+"PO-Revision-Date: 2023-08-04 14:23+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/ru/>\n"
@@ -650,8 +650,7 @@ msgstr ""
 #: faq.php:25 faq.php:53
 msgid "I found an illegal link/content on your site, can you remove it?"
 msgstr ""
-"Я наткнулся на нелегальную ссылку или содержание на вашем хостинге. Куда я "
-"могу обратиться для их удаления?"
+"Я нашел незаконную ссылку / контент на вашем сайте, можете ли вы удалить ее?"
 
 #: faq.php:25 faq.php:54
 #, php-format
@@ -1320,7 +1319,7 @@ msgstr ""
 #: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
 #: tutorials/get-rich-fast/index.php:35
 msgid "How to get rich (fast)"
-msgstr ""
+msgstr "Как быстро разбогатеть"
 
 #: tutorials/index.php:32 tutorials/get-rich-fast/index.php:10
 #: tutorials/get-rich-fast/index.php:24
@@ -1562,7 +1561,7 @@ msgstr ""
 
 #: tutorials/get-rich-fast/index.php:36
 msgid "A word about fast money"
-msgstr ""
+msgstr "Пару слов о быстрых деньгах"
 
 #: tutorials/get-rich-fast/index.php:37
 msgid ""
@@ -1571,6 +1570,11 @@ msgid ""
 "usually lose everything in a short time, because they spend all of it, "
 "sometimes being left with debts due to a lack of financial education."
 msgstr ""
+"Чтобы стать богатым, вам нужно инвестировать свое время в образование и "
+"саморазвитие. Очень немногие люди разбогатеют за одну ночь. А те, кто это "
+"делает, обычно теряют все за короткое время, потому что они тратят все на "
+"сиюминутные развлечения, иногда оставаясь с долгами из-за отсутствия "
+"финансового образования."
 
 #: tutorials/get-rich-fast/index.php:38
 msgid "Here are some common ways of getting money fast:"
@@ -1600,7 +1604,7 @@ msgstr ""
 
 #: tutorials/get-rich-fast/index.php:46
 msgid "Reduce your expenses"
-msgstr ""
+msgstr "Сократите свои расходы"
 
 #: tutorials/get-rich-fast/index.php:47
 msgid "Pay off your high-interest debts"
@@ -1720,6 +1724,23 @@ msgid ""
 "talking about, or who might want to influence you in a way that would "
 "benefit them. Always form your own opinion and check what others have to say."
 msgstr ""
+"Чтение этой страницы - ваш первый шаг к тому, чтобы стать финансово "
+"свободным и понять, как работает создание богатства. Эта тема не преподается "
+"ни в школе, ни в университете, и, скорее всего, также не вашими родителями. "
+"Система предназначена для того, чтобы помочь вам получать хорошие оценки, "
+"устраиваться на безопасную работу и хранить свои деньги в банке, зарабатывая "
+"на них 0,01% годовых, в то время как банк использует ваши деньги для выдачи "
+"кредитов и зарабатывает на них высокие процентные ставки. Система "
+"предназначена для того, чтобы держать вас бедными и финансово "
+"необразованными, чтобы богатые могли продолжать богатеть за ваш счет. Так "
+"что, к сожалению, вам придется самообразоваться и выяснить, как работают "
+"наша капиталистическая система и деньги, и как вы можете использовать это в "
+"своих интересах. В Интернете есть множество ресурсов, с помощью которых вы "
+"можете продолжить самообразование после прочтения моего руководства. Никогда "
+"не принимайте никаких финансовых советов от человека, который либо не "
+"понимает, о чем говорит, либо, возможно, хочет повлиять на вас таким "
+"образом, чтобы это пошло ему на пользу. Всегда формируйте свое собственное "
+"мнение и проверяйте, что говорят другие."
 
 #: tutorials/get-rich-fast/index.php:62
 msgid "Increase your income"
