@@ -32,6 +32,7 @@ global $language, $dir, $locale;
 <div class="row"><div class="cell"><a href="get-rich-fast/"><?php echo _('How to get rich (fast)'); ?></a></div><div class="cell"><?php echo _('This tutorial will guide you to achieving financial freedom.'); ?></div></div>
 <div class="row"><div class="cell"><a href="successful-sugar-dating/"><?php echo _('How to have a successful sugar dating relationship'); ?></a></div><div class="cell"><?php echo _('This tutorial will guide you in finding a sugar relationship.'); ?></div></div>
 <div class="row"><div class="cell"><a href="findom/"><?php echo _('Earning money with findom'); ?></a></div><div class="cell"><?php echo _('This tutorial will show you how you can use findom to earn money.'); ?></div></div>
+<div class="row"><div class="cell"><a href="self-employed/"><?php echo _('Becoming self-employed'); ?></a></div><div class="cell"><?php echo _('This article offers valuable guidance to help you embark on your journey as a self-employed individual.'); ?></div></div>
 </div>
 </main>
 </body></html>
