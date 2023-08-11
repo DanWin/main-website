@@ -107,7 +107,7 @@ function menu(string $title = ''): void
 	echo "<style>$global_style</style>";
 	echo "<header><h1>$title</h1></header>";
 	echo '<details id="menu">';
-	echo '<summary class="burger_nav" aria-controls="nav" aria-label="Toggle navigation" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
+	echo '<summary class="burger_nav" aria-label="Toggle navigation" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
 	echo '<nav>';
 	if(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.de$/', $_SERVER['HTTP_HOST'])){
 		$host='https://danwin1210.de';
