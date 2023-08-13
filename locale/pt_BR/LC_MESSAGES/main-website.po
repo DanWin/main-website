@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-10 21:44+0200\n"
+"POT-Creation-Date: 2023-08-13 22:50+0200\n"
 "PO-Revision-Date: 2023-02-15 18:45-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -30,9 +30,9 @@ msgstr "Daniel - Inicio"
 msgid "Imprint of Daniel Winzen"
 msgstr "Contate Daniel Winzen"
 
-#: imprint.php:21 index.php:21 about.php:23 github-ipv6-proxy.php:26
-#: contact.php:21 faq.php:20 new-domain.php:23 hosting/index.php:21
-#: privacy.php:21 chat/index.php:21 blog/index.php:21
+#: imprint.php:21 index.php:21 about.php:23 about.php:35
+#: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
+#: hosting/index.php:21 privacy.php:21 chat/index.php:21 blog/index.php:21
 #: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
 #: tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
@@ -153,7 +153,7 @@ msgstr ""
 "no <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">GitHub</a>."
 
-#: index.php:31 about.php:61
+#: index.php:31
 #, php-format
 msgid ""
 "If you like, what I've built here, you can support me by donating via "
@@ -184,22 +184,35 @@ msgstr "Sobre"
 msgid "About me"
 msgstr "Sobre mim"
 
-#: about.php:31
+#: about.php:38
+#, fuzzy
+#| msgid ""
+#| "Hello, my name is Daniel Winzen, a german web developer and system "
+#| "administrator. In my free time I like reading books, programming on my "
+#| "open-source projects and pole dancing, which I picked up in times of the "
+#| "covid pandemic and resulting home office, because it's fun and keeps me "
+#| "fit."
 msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. In my free time I like reading books, programming on my open-"
-"source projects and pole dancing, which I picked up in times of the covid "
-"pandemic and resulting home office, because it's fun and keeps me fit."
+"Hello, my name is Daniel Winzen, a German web developer and system "
+"administrator. In my free time, I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up during the covid "
+"pandemic and resulting home office because it's fun and keeps me fit."
 msgstr ""
 "Olá, meu nome é Daniel Winzen, um desenvolvedor web e administrador de "
 "sistema alemão. No meu tempo livre gosto de ler livros, programar nos meus "
 "projetos open-source e pole dancing, que aprendi em tempos de pandemia de "
 "covid e consequente home office, porque é divertido e me mantém em forma."
 
-#: about.php:32
+#: about.php:39
+#, fuzzy
+#| msgid ""
+#| "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+#| "also know some basics of Perl, Python, C, C++ and more. With my "
+#| "experience I'm able to quickly adapt and work with new languages, when "
+#| "necessary."
 msgid ""
 "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
-"also know some basics of Perl, Python, C, C++ and more. With my experience "
+"also know some basics of Perl, Python, C, C++ and more. With my experience, "
 "I'm able to quickly adapt and work with new languages, when necessary."
 msgstr ""
 "As linguagens que uso regularmente são PHP, SQL e JavaScript, mas também "
@@ -207,7 +220,7 @@ msgstr ""
 "experiência, consigo me adaptar rapidamente e trabalhar com novas linguagens "
 "quando necessário."
 
-#: about.php:33
+#: about.php:40
 msgid ""
 "Before I got into coding and server management, I contributed German "
 "translation to various open-source projects since the end of 2011."
@@ -216,13 +229,33 @@ msgstr ""
 "tradução em alemão para vários projetos de código aberto desde o final de "
 "2011."
 
-#: about.php:34
+#: about.php:41
+#, php-format
 msgid ""
-"Managing servers, email services and developing new web projects is what I "
-"thrive on. I like optimizing systems for performance and getting the best "
+"I'm <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Certified "
+"in Cybersecurity</a> and have a good understanding of cybersecurity threats. "
+"I continuously broaden my knowledge in this field, because I consider this "
+"essential and fun. This site would probably not exist, were it not for my "
+"passion for cybersecurity and hacking. Like many good parents, mine were "
+"strict about my internet usage. So I had to become creative in finding ways "
+"of gaining access to the internet, even when the timer already expired. Thus "
+"I was learning about hacking, darknet and network security at a very early "
+"age."
+msgstr ""
+
+#: about.php:42
+#, fuzzy, php-format
+#| msgid ""
+#| "Managing servers, email services and developing new web projects is what "
+#| "I thrive on. I like optimizing systems for performance and getting the "
+#| "best out of what I have. Do you need help with managing and optimizing "
+#| "your infrastructure or website? I'm here to help. <a href=\"/contact.php"
+#| "\">Get in touch</a> and we'll discuss details."
+msgid ""
+"Managing servers and email services and developing new web projects is what "
+"I thrive on. I like optimizing systems for performance and getting the best "
 "out of what I have. Do you need help with managing and optimizing your "
-"infrastructure or website? I'm here to help. <a href=\"/contact.php\">Get in "
-"touch</a> and we'll discuss details."
+"infrastructure or website? <a href=\"%s\">I'm available for hire</a>."
 msgstr ""
 "Gerenciar servidores, serviços de e-mail e desenvolver novos projetos web é "
 "o que me faz prosperar. Gosto de otimizar sistemas para desempenho e tirar o "
@@ -230,32 +263,45 @@ msgstr ""
 "otimizar sua infraestrutura ou site? Estou aqui para ajudar. <a href=\"/"
 "contact.php\">Entre em contato</a> e discutiremos os detalhes."
 
-#: about.php:35
+#: about.php:43
 msgid "Profiles on other sites that I am active on:"
 msgstr "Perfis em outros sites em que estou ativo:"
 
-#: about.php:42
+#: about.php:52
 msgid "About this site"
 msgstr "Sobre este site"
 
-#: about.php:43
+#: about.php:53
+#, fuzzy
+#| msgid ""
+#| "This is my personal site, that I develop in my free time. I started "
+#| "development of this site in August/September 2013 when I wanted to have a "
+#| "platform to host files on, to use at school."
 msgid ""
-"This is my personal site, that I develop in my free time. I started "
-"development of this site in August/September 2013 when I wanted to have a "
-"platform to host files on, to use at school."
+"This is my site, that I develop in my free time. I started development of "
+"this site in August/September 2013 when I wanted to have a platform to host "
+"files on, to use at school."
 msgstr ""
 "Este é o meu site pessoal, que desenvolvo no meu tempo livre. Comecei o "
 "desenvolvimento deste site em agosto/setembro de 2013, quando queria ter uma "
 "plataforma para hospedar arquivos para usar na escola."
 
-#: about.php:44
+#: about.php:54
+#, fuzzy
+#| msgid ""
+#| "Quickly the idea of using a chat at school came up and I came across a "
+#| "simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+#| "lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When "
+#| "I deployed that on my Raspberry Pi it was running very slowly and wasn't "
+#| "really usable for use with several people. So I decided to port some "
+#| "parts I needed to PHP."
 msgid ""
-"Quickly the idea of using a chat at school came up and I came across a "
-"simple perl chat script called <a href=\"https://github.com/virtualghetto/"
+"Quickly the idea of using a chat at school came up, and I came across a "
+"simple Perl chat script called <a href=\"https://github.com/virtualghetto/"
 "lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
-"deployed that on my Raspberry Pi it was running very slowly and wasn't "
-"really usable for use with several people. So I decided to port some parts I "
-"needed to PHP."
+"deployed that on my Raspberry Pi, it was running very slowly and wasn't "
+"usable for use by several people. So I decided to port some parts I needed "
+"to PHP."
 msgstr ""
 "Rapidamente surgiu a ideia de usar um chat na escola e me deparei com um "
 "script de chat perl simples chamado <a href=\"https://github.com/"
@@ -264,9 +310,16 @@ msgstr ""
 "muito lentamente e não era realmente utilizável para uso com várias pessoas. "
 "Então decidi portar algumas partes que precisava para o PHP."
 
-#: about.php:45
+#: about.php:55
+#, fuzzy
+#| msgid ""
+#| "This has been the start for me to get deeper into web-development and I "
+#| "have since open-sourced that chat script and several other scripts of "
+#| "this site on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+#| "rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
+#| "many new features and improved reliability and my code a lot."
 msgid ""
-"This has been the start for me to get deeper into web-development and I have "
+"This has been the start for me to get deeper into web development and I have "
 "since open-sourced that chat script and several other scripts of this site "
 "on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
 "\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
@@ -278,9 +331,16 @@ msgstr ""
 "\"noopener noreferrer\">Conta do GitHub</a>. Desde então, adicionei muitos "
 "novos recursos e melhorei muito a confiabilidade e meu código."
 
-#: about.php:46
+#: about.php:56
+#, fuzzy
+#| msgid ""
+#| "I used to offer free file hosting, an url shortener, a chat and even a "
+#| "free darknet web hosting service. All these projects have taught me a lot "
+#| "about coding, security and server management. As of now, only the "
+#| "anonymous email and XMPP hosting, as well as the onion link list are "
+#| "still actively maintained."
 msgid ""
-"I used to offer free file hosting, an url shortener, a chat and even a free "
+"I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
 "coding, security and server management. As of now, only the anonymous email "
 "and XMPP hosting, as well as the onion link list are still actively "
@@ -292,63 +352,34 @@ msgstr ""
 "servidores. Neste momento, apenas o e-mail anônimo e a hospedagem XMPP, bem "
 "como a lista de links da Onion ainda são mantidos ativamente."
 
-#: about.php:47
+#: about.php:57
 msgid "About the setup"
 msgstr "Sobre minhas configurações"
 
-#: about.php:48
-msgid ""
-"The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
-"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
-"sh and Wireguard."
-msgstr ""
-"Os softwares que uso são Debian rodando Ceph, NginX, MariaDB, Dovecot, "
-"Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, acme."
-"sh e Wireguard."
-
-#: about.php:49
-msgid ""
-"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-"the raspberry pis at home. Additionally, they run a Postfix instance only "
-"listening on the VPN network to send out mails to clearnet."
-msgstr ""
-"Os gateways clearnet em <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> são em NginX Proxy que encaminhará todas as "
-"solicitações para os Raspberry PIs em casa. Além disso, eles executam uma "
-"instância do Postfix apenas escutando a rede VPN para enviar e-mails para a "
-"clearnet."
-
-#: about.php:50
-msgid "All servers are interconnected with a Wireguard VPN."
-msgstr "Todos os servidores estão interconectados com uma VPN Wireguard."
-
-#: about.php:51
+#: about.php:58
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr "Provedores de hospedagem que eu uso/usei e servidores hospedados lá:"
 
-#: about.php:53 about.php:54
+#: about.php:60
+#, php-format
+msgid ""
+"%s - good for short-term and/or low-bandwidth projects. They also offer a <a "
+"href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Free Tier Program</"
+"a> for businesses"
+msgstr ""
+
+#: about.php:61
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
 "%s - bom para projetos de curto prazo e/ou projetos de baixa banda larga"
 
-#: about.php:55
-#, php-format
-msgid "%s - good and reliable"
-msgstr "%s - bom e confiável"
-
-#: about.php:56
-#, php-format
-msgid "%s - comparably expensive but good and reliable"
-msgstr "%s - comparativamente caro, mas bom e confiável"
-
-#: about.php:57
+#: about.php:62
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s - (Usado para meu gateway clearnet) - bom e confiável"
 
-#: about.php:58
+#: about.php:63
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -357,9 +388,65 @@ msgstr ""
 "%s - (usado para meu gateway clearnet + registro de domínio) - bom e "
 "confiável, hospedado em minha cidade"
 
-#: about.php:59
+#: about.php:64
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Hospedagem caseira: 4 Raspberry Pi 4 com o site principal e dados"
+
+#: about.php:70
+msgid ""
+"A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
+"phone next to it"
+msgstr ""
+
+#: about.php:73
+msgid ""
+"In the image on the left, you can see my current home server setup. I have 4 "
+"Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
+"16GB allocated to OS and applications while the rest of the space is used "
+"for Ceph OSDs. On top of my rack, I have an internet router, which is "
+"connected to the fastest broadband internet connection available to me. "
+"Although I hardly use my landline phone, I have a FeTAp 611-2 (yes it still "
+"works, in the 80s things were built to last). As my router no longer "
+"supports a pulse dial, I had to get a converter to translate pulse signals "
+"into modern DTMF."
+msgstr ""
+
+#: about.php:74
+msgid ""
+"The operating system I use is Debian sid. To share data between all servers, "
+"I deployed a CephFS for distributed and redundant file storage, as well as a "
+"MariaDB Galera cluster."
+msgstr ""
+
+#: about.php:75
+#, fuzzy
+#| msgid ""
+#| "The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
+#| "\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
+#| "the raspberry pis at home. Additionally, they run a Postfix instance only "
+#| "listening on the VPN network to send out mails to clearnet."
+msgid ""
+"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
+"the Raspberry Pis at home. Additionally, they run a Postfix instance only "
+"listening on the VPN network to send emails to clearnet."
+msgstr ""
+"Os gateways clearnet em <a href=\"https://danwin1210.de\" target=\"_blank"
+"\">danwin1210.de</a> são em NginX Proxy que encaminhará todas as "
+"solicitações para os Raspberry PIs em casa. Além disso, eles executam uma "
+"instância do Postfix apenas escutando a rede VPN para enviar e-mails para a "
+"clearnet."
+
+#: about.php:76
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr "Todos os servidores estão interconectados com uma VPN Wireguard."
+
+#: about.php:77
+msgid ""
+"Backups are very important too, thus I use BorgBackup on all my devices to "
+"regularly create an encrypted backup, stored on remote backup storage, which "
+"takes regular snapshots, ensuring recoverability in case of backup failures."
+msgstr ""
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
 #: github-ipv6-proxy.php:33 common.php:131
@@ -2299,7 +2386,7 @@ msgid ""
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
-#: tutorials/torify-ftp/index.php:36
+#: tutorials/torify-ftp/index.php:35
 msgid "Tutorials - Torify FTP clients"
 msgstr "Tutoriais - Como Torificar clientes FTP"
 
@@ -2326,7 +2413,7 @@ msgstr ""
 msgid "Configure proxy"
 msgstr "Configure o proxy"
 
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:45
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:44
 msgid ""
 "Go to Generic Proxy settings and change the type to SOCKS5, host to "
 "localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
@@ -2349,7 +2436,7 @@ msgstr ""
 msgid "Enter connection details"
 msgstr "Insira os detalhes da conexão"
 
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:77
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:76
 msgid "When started, enter your connection details."
 msgstr "Ao iniciar, insira os detalhes da sua conexão."
 
@@ -2357,7 +2444,7 @@ msgstr "Ao iniciar, insira os detalhes da sua conexão."
 msgid "Change connection timeout"
 msgstr "Altere o tempo limite de conexão"
 
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:83
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:82
 msgid ""
 "Click on the Advanced… button and under Connection, change timeout to 50 as "
 "Tor can be slow at times."
@@ -2365,7 +2452,7 @@ msgstr ""
 "Clique no botão Avançado… e em Conexão, altere o tempo limite para 50, pois "
 "o Tor pode ser lento às vezes."
 
-#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:89
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:88
 msgid ""
 "Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
 "and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
@@ -2375,7 +2462,7 @@ msgstr ""
 "e porta para 9050 (se você executar o Tor como daemon) ou 9150 (se você "
 "executar o TorBrowser) e defina \"Do DNS name lookup at proxy end\" para sim."
 
-#: tutorials/torify-ftp/index.php:37
+#: tutorials/torify-ftp/index.php:36
 msgid ""
 "This tutorial will show you how to torify FTP clients in the example of <a "
 "href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
@@ -2383,7 +2470,7 @@ msgstr ""
 "Este tutorial mostrará como torificar clientes FTP no exemplo de <a href="
 "\"#filezilla\">FileZilla</a> e <a href=\"#winscp\">WinSCP</a>."
 
-#: tutorials/torify-ftp/index.php:38
+#: tutorials/torify-ftp/index.php:37
 msgid ""
 "Let's assume you have created an account on my former Hosting service and "
 "you want to upload your files. To do that, you connect with the detials "
@@ -2397,15 +2484,15 @@ msgstr ""
 "não é torificado. Para se conectar ao serviço oculto, você precisa fazer "
 "algumas alterações na configuração."
 
-#: tutorials/torify-ftp/index.php:41
+#: tutorials/torify-ftp/index.php:40
 msgid "Hosting dashboard"
 msgstr "Painel de hospedagem"
 
-#: tutorials/torify-ftp/index.php:43
+#: tutorials/torify-ftp/index.php:42
 msgid "1. FileZilla"
 msgstr "1. FileZilla"
 
-#: tutorials/torify-ftp/index.php:44
+#: tutorials/torify-ftp/index.php:43
 msgid ""
 "If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
 "project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
@@ -2415,15 +2502,15 @@ msgstr ""
 "project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
 "noreferrer\">baixar o FileZilla aqui< /a>."
 
-#: tutorials/torify-ftp/index.php:50
+#: tutorials/torify-ftp/index.php:49
 msgid "FileZilla settings"
 msgstr "Configurações do FileZilla"
 
-#: tutorials/torify-ftp/index.php:57
+#: tutorials/torify-ftp/index.php:56
 msgid "FileZilla Generic Proxy settings"
 msgstr "Configurações de proxy genérico do FileZilla"
 
-#: tutorials/torify-ftp/index.php:60
+#: tutorials/torify-ftp/index.php:59
 msgid ""
 "If you have changed your proxy settings and get the following error: "
 "\"ECONNREFUSED - Connection refused by server\" that likely means you have "
@@ -2438,11 +2525,11 @@ msgstr ""
 "tiver o problema, alterne entre a porta 9050 e 9150. Isso é o que está "
 "causando a maioria dos problemas de conexão que as pessoas têm."
 
-#: tutorials/torify-ftp/index.php:64
+#: tutorials/torify-ftp/index.php:63
 msgid "FileZilla connection error"
 msgstr "Erro de conexão do FileZilla"
 
-#: tutorials/torify-ftp/index.php:66
+#: tutorials/torify-ftp/index.php:65
 msgid ""
 "Once you have configured everything correctly, you should be able to "
 "successfully connect and start uploading files."
@@ -2450,15 +2537,15 @@ msgstr ""
 "Depois de configurar tudo corretamente, você poderá se conectar com êxito e "
 "iniciar o upload de arquivos."
 
-#: tutorials/torify-ftp/index.php:71
+#: tutorials/torify-ftp/index.php:70
 msgid "FileZilla success"
 msgstr "Sucesso do FileZilla"
 
-#: tutorials/torify-ftp/index.php:75
+#: tutorials/torify-ftp/index.php:74
 msgid "2. WinSCP"
 msgstr "2. WinSCP"
 
-#: tutorials/torify-ftp/index.php:76
+#: tutorials/torify-ftp/index.php:75
 msgid ""
 "If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
 "eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
@@ -2468,15 +2555,15 @@ msgstr ""
 "download.php\" target=\"_blank\" rel=\"noopener noreferrer\">baixar o WinSCP "
 "aqui</a>."
 
-#: tutorials/torify-ftp/index.php:81
+#: tutorials/torify-ftp/index.php:80
 msgid "Connection details"
 msgstr "Detalhes da conexão"
 
-#: tutorials/torify-ftp/index.php:87
+#: tutorials/torify-ftp/index.php:86
 msgid "Connection optimizations"
 msgstr "Otimizações de conexão"
 
-#: tutorials/torify-ftp/index.php:93
+#: tutorials/torify-ftp/index.php:92
 msgid "Proxy configuration"
 msgstr "Configuração de proxy"
 
@@ -2588,6 +2675,23 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#~ msgid ""
+#~ "The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
+#~ "Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, "
+#~ "acme.sh and Wireguard."
+#~ msgstr ""
+#~ "Os softwares que uso são Debian rodando Ceph, NginX, MariaDB, Dovecot, "
+#~ "Postfix, Rspamd, Squirrelmail, PHP-FPM, cURL, Prosody, Tor, ssh, bind9, "
+#~ "acme.sh e Wireguard."
+
+#, php-format
+#~ msgid "%s - good and reliable"
+#~ msgstr "%s - bom e confiável"
+
+#, php-format
+#~ msgid "%s - comparably expensive but good and reliable"
+#~ msgstr "%s - comparativamente caro, mas bom e confiável"
 
 #~ msgid "Chat"
 #~ msgstr "Chat"
