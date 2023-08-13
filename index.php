@@ -14,7 +14,7 @@ global $language, $dir, $locale;
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?php echo _('Daniel - Home'); ?>">
 <meta property="og:description" content="<?php echo _('Personal website of Daniel Winzen, the web developer, sysadmin and privacy enthusiast'); ?>">
-<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
@@ -22,7 +22,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Daniel","alternateName":"DanWin","url":"https://danwin1210.de/", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Daniel","alternateName":"DanWin","url":"https://danwin1210.de/", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Home')); ?>
 <p><?php echo _('Hello, my name is Daniel Winzen, a german web developer and system administrator. This is my personal website, that I develop in my free time. This site is available as <a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion">Tor hidden service</a> or via my clearnet proxy <a href="https://danwin1210.de">danwin1210.de</a>. To learn more about me and this site, check <a href="/about.php">the about page</a>.'); ?></p>

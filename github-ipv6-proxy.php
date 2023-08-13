@@ -19,7 +19,7 @@ global $language, $dir, $locale;
 <meta property="article:section" content="Technology">
 <meta property="og:title" content="<?php echo _('GitHub IPv6 proxy'); ?>">
 <meta property="og:description" content="<?php echo _('GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers'); ?>">
-<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
@@ -27,7 +27,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/github-ipv6-proxy.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article ","headline":"<?php echo _('GitHub IPv6 proxy'); ?>", "datePublished": "2022-08-20", "dateModified": "2022-11-04", "discussionUrl": "https://github.com/orgs/community/discussions/10539", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article ","headline":"<?php echo _('GitHub IPv6 proxy'); ?>", "datePublished": "2022-08-20", "dateModified": "2022-11-04", "discussionUrl": "https://github.com/orgs/community/discussions/10539", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('GitHub IPv6 proxy')); ?>

@@ -14,7 +14,7 @@ global $language, $dir, $locale;
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?php echo _('Daniel - Privacy policy'); ?>">
 <meta property="og:description" content="<?php echo _('Privacy policy of Daniel Winzen'); ?>">
-<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
@@ -22,7 +22,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/privacy.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"<?php echo _('Daniel - Privacy policy'); ?>", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"<?php echo _('Daniel - Privacy policy'); ?>", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Privacy policy')); ?>
 <h2><?php echo _('1. Name and Address of the controller'); ?></h2>

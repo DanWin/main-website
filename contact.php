@@ -14,7 +14,7 @@ global $language, $dir, $locale;
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?php echo _('Daniel - Contact'); ?>">
 <meta property="og:description" content="<?php echo _('Contact Daniel Winzen'); ?>">
-<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
@@ -22,7 +22,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/contact.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","mainEntity":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ContactPage","mainEntity":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Contact')); ?>
 <p><?php echo _('You can send me a message here. Don\'t forget to leave a contact option, if you want me to answer.'); ?></p>

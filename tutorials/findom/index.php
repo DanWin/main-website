@@ -20,7 +20,7 @@ global $language, $dir, $locale;
 	<meta property="article:section" content="Erotic">
 	<meta property="og:title" content="<?php echo _('Earning money with findom'); ?>">
 	<meta property="og:description" content="<?php echo _('This tutorial will show you how you can use findom to earn money'); ?>">
-	<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+	<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="og:image:height" content="1000">
 	<meta property="og:image:width" content="1000">
@@ -28,7 +28,7 @@ global $language, $dir, $locale;
 	<meta property="og:url" content="https://danwin1210.de/tutorials/findom/">
 	<meta property="og:locale" content="<?php echo $locale; ?>">
 	<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-	<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"<?php echo htmlspecialchars(_('Earning money with findom')); ?>", "datePublished": "2023-07-01", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"<?php echo htmlspecialchars(_('Earning money with findom')); ?>", "datePublished": "2023-07-01", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Earning money with findom')); ?>
 <h2><?php echo _('What is findom?'); ?></h2>

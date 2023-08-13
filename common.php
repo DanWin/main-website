@@ -28,7 +28,7 @@ $global_style .= '.form_limit{max-width:1024px}.red{color:red}.green{color:green
 $global_style .= '.burger_nav .bar1,.burger_nav .bar2,.burger_nav .bar3{display:block;width:35px;height:5px;background-color:#fff;margin:6px 6px}';
 $global_style .= '@media (min-width: 769px){nav{width:auto;border-right:1px solid silver;border-bottom:1px solid silver}}';
 $global_style .= 'button,input,select,textarea{padding:0.3em;margin:0.3em;font-size:1em}input[type=checkbox],input[type=radio]{width:1.5em;height:1.5em}';
-//$global_style .= '.ua_solidarity{background:linear-gradient(to top,#ffd700  0%,#ffd700 50%,#0057b8  50%, #0057b8 100%);position:fixed;top:0;left:0;right:0;bottom:0;opacity:0.4;pointer-events:none}';
+$global_style .= 'img{max-width:100%;height:auto}img.float-left{float: left;margin: 0 15px 0 0;}';
 $global_style .= '@media (prefers-color-scheme: dark){';
 $global_style .= 'body,button,input,select,textarea{background-color:#000;color:#fff}';
 $global_style .= 'a:visited{color:#B33CB4} a:link{color:#00A2D4} a:active{color:#55A2D4}';
@@ -146,7 +146,6 @@ function menu(string $title = ''): void
 	}
 	echo '<div><a target="_blank" rel="noopener noreferrer" href="https://github.com/DanWin/main-website/#translation" title="'._('Add translation').'">+</a></div>';
 	echo '</details>';
-//	echo '<div class="ua_solidarity"></div>';
 	echo '<main>';
 }
 

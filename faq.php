@@ -13,7 +13,7 @@ global $language, $dir, $locale;
 <meta property="og:type" content="website">
 <meta property="og:title" content="<?php echo _('Daniel - FAQ - Frequently Asked Questions'); ?>">
 <meta property="og:description" content="<?php echo _('A list of frequently asked questions regarding the services I provide and their answers'); ?>">
-<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:height" content="1000">
 <meta property="og:image:width" content="1000">
@@ -21,7 +21,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/faq.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","name":"<?php echo _('Daniel - FAQ - Frequently Asked Questions'); ?>", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"},"mainEntity": [
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","name":"<?php echo _('Daniel - FAQ - Frequently Asked Questions'); ?>", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"},"mainEntity": [
 {"@type": "Question", "name": "<?php echo _('I found an illegal link/content on your site, can you remove it?'); ?>", "acceptedAnswer": {"@type": "Answer", "text": "<?php printf(str_replace('"', "'", _('Yes, please <a href="%s">report it</a> and I will remove it as soon as possible.')), 'https://danwin1210.de/contact.php'); ?>"}},
 {"@type": "Question", "name": "<?php echo _('What is PGP?'); ?>", "acceptedAnswer": {"@type": "Answer", "text": "<?php echo str_replace('"', "'", _('PGP is an encryption program, that can be used to encrypt or sign emails and files. <a href="https://en.wikipedia.org/wiki/Pretty_Good_Privacy" target="_blank" rel="noopener noreferrer">More info in this Wikipedia article</a>.')); ?>"}},
 {"@type": "Question", "name": "<?php echo _('I have an idea how to make your site better, can you add feature xyz?'); ?>", "acceptedAnswer": {"@type": "Answer", "text": "<?php printf(str_replace('"', "'", _('Yes, please <a href="%s">contact me</a> and I may add it on my ToDo list. It might take a while until your feature gets added though.')), 'https://danwin1210.de/contact.php'); ?>"}},

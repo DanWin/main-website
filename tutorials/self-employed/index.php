@@ -18,7 +18,7 @@ global $language, $dir, $locale;
 	<meta property="article:section" content="Employment">
 	<meta property="og:title" content="<?php echo _('Becoming self-employed'); ?>">
 	<meta property="og:description" content="<?php echo _('This article offers valuable guidance to help you embark on your journey as a self-employed individual.'); ?>">
-	<meta property="og:image" content="https://danwin1210.de/daniel.jpg">
+	<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
 	<meta property="og:image:type" content="image/jpeg">
 	<meta property="og:image:height" content="1000">
 	<meta property="og:image:width" content="1000">
@@ -26,7 +26,7 @@ global $language, $dir, $locale;
 	<meta property="og:url" content="https://danwin1210.de/tutorials/self-employed/">
 	<meta property="og:locale" content="<?php echo $locale; ?>">
 	<meta property="og:site_name" content="<?php echo _('Daniel'); ?>">
-	<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"<?php echo htmlspecialchars(_('Becoming self-employed')); ?>", "datePublished": "2023-08-10", "author":{"@type":"Person", "image": "/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+	<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"<?php echo htmlspecialchars(_('Becoming self-employed')); ?>", "datePublished": "2023-08-10", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 </head><body>
 <?php menu(_('Becoming self-employed')); ?>
 <p><?php echo _('Note: This article is written with German laws and regulations in mind. Most of what I described here applies globally, but you should do your research and clarify the situation in your place of living, which may have different regulations you need to know about. This article is only meant to give you a brief overview of things you need to know. I won\'t go into detail about everything, and I advise you to do your research, to get familiar with requirements specific to you, before jumping into it.'); ?></p>
