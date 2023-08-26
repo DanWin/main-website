@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-08-13 22:50+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-26 16:27+0200\n"
 "PO-Revision-Date: 2023-08-22 14:27+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
-"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/ru/>\n"
+"Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.18.2\n"
 
 #: imprint.php:6 imprint.php:15
@@ -32,7 +32,8 @@ msgstr "Связаться с Даниэль Винзен"
 
 #: imprint.php:21 index.php:21 about.php:23 about.php:35
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
-#: hosting/index.php:21 privacy.php:21 chat/index.php:21 blog/index.php:21
+#: hosting/index.php:21 privacy.php:21 chat/index.php:21
+#: blog/onion-link-list-shutdown/index.php:21 blog/index.php:21
 #: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
 #: tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
@@ -42,15 +43,15 @@ msgstr "Мой аватар"
 
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
-#: privacy.php:24 chat/index.php:24 blog/index.php:24
-#: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
-#: tutorials/successful-sugar-dating/index.php:31
+#: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
+#: blog/index.php:24 tutorials/get-rich-fast/index.php:32
+#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
 #: tutorials/findom/index.php:30
 msgid "Daniel"
 msgstr "Даниэль"
 
-#: imprint.php:27 common.php:136
+#: imprint.php:27 common.php:130
 msgid "Imprint"
 msgstr "Контакты"
 
@@ -112,7 +113,7 @@ msgstr ""
 "Персональный веб-сайт Дэниела Винцена, веб-разработчика, системного "
 "администратора и энтузиаста в области интернет конфиденциальности"
 
-#: index.php:27 common.php:125
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "Главная"
 
@@ -135,10 +136,16 @@ msgstr ""
 "href=\"/about.php\">эту страницу</a>."
 
 #: index.php:29
+#, fuzzy
+#| msgid ""
+#| "This is just the landing page. You can navigate to the pages that "
+#| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
+#| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
+#| "collection</a>, by clicking on the entries in the navigation bar on the "
+#| "left."
 msgid ""
 "This is just the landing page. You can navigate to the pages that interest "
-"you most, such as my free and anonymous <a href=\"/mail/\">mail service</a> "
-"or <a href=\"https://onions.danwin1210.de\">Tor darknet link collection</a>, "
+"you most, such as my free and anonymous <a href=\"/mail/\">mail service</a>, "
 "by clicking on the entries in the navigation bar on the left."
 msgstr ""
 "Это всего лишь информационная страница. Вы можете воспользоваться другими "
@@ -177,7 +184,7 @@ msgid ""
 "this site"
 msgstr "Информация обо мне и моем сайте"
 
-#: about.php:29 common.php:133
+#: about.php:29 common.php:127
 msgid "About"
 msgstr "Обо мне"
 
@@ -455,7 +462,7 @@ msgid ""
 msgstr ""
 
 #: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:131
+#: github-ipv6-proxy.php:33 common.php:125
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy"
 
@@ -585,7 +592,7 @@ msgstr "Даниэль - Форма обратной связи"
 msgid "Contact Daniel Winzen"
 msgstr "Связаться с Даниэль Винзен"
 
-#: contact.php:27 common.php:134
+#: contact.php:27 common.php:128
 msgid "Contact"
 msgstr "Обратная связь"
 
@@ -1011,35 +1018,27 @@ msgstr ""
 "взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Предложение "
 "действительно только для женского пола."
 
-#: common.php:126 blog/index.php:27
+#: common.php:122 blog/index.php:27
 msgid "Blog and news"
 msgstr "Блог и новости"
 
-#: common.php:127
-msgid "Online-Test"
-msgstr "Онлайн-Тест"
-
-#: common.php:128
-msgid "Onion link list"
-msgstr "Список ссылок Onion"
-
-#: common.php:129
+#: common.php:123
 msgid "E-Mail + XMPP"
 msgstr "Эл.почта + Jabber"
 
-#: common.php:130 tutorials/index.php:27
+#: common.php:124 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Учебники"
 
-#: common.php:132
+#: common.php:126
 msgid "FAQ"
 msgstr "FAQ(ЧаВо)"
 
-#: common.php:135
+#: common.php:129
 msgid "Privacy"
 msgstr "Политика конфиденциальности"
 
-#: common.php:147
+#: common.php:141
 msgid "Add translation"
 msgstr "Добавить перевод"
 
@@ -1052,7 +1051,7 @@ msgid "We moved to a brand new domain - migrate your accounts"
 msgstr ""
 "Мы переехали на совершенно новый домен - перенесите свои учетные записи"
 
-#: new-domain.php:29 blog/index.php:32
+#: new-domain.php:29 blog/index.php:33
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr "Старый домен - DanWin1210.Me, новый домен - DanWin1210.De"
 
@@ -1587,7 +1586,7 @@ msgstr ""
 msgid "Daniel's Chat - a former darknet chat community"
 msgstr ""
 
-#: chat/index.php:15 chat/index.php:27 blog/index.php:33
+#: chat/index.php:15 chat/index.php:27 blog/index.php:32
 msgid "Daniel's Chat shutdown"
 msgstr "Закрытие чата"
 
@@ -1600,12 +1599,17 @@ msgid "After 9 years, I'm shutting down the chat for good."
 msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда."
 
 #: chat/index.php:29
+#, fuzzy
+#| msgid ""
+#| "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
+#| "cat=2\">my onion link list</a>. If you are interested in running a "
+#| "similar chat community, you can download my chat script on <a href="
+#| "\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel="
+#| "\"noopener noreferrer\">GitHub</a>."
 msgid ""
-"You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">my onion link list</a>. If you are interested in running a similar "
-"chat community, you can download my chat script on <a href=\"https://github."
-"com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer"
-"\">GitHub</a>."
+"If you are interested in running a similar chat community, you can download "
+"my chat script on <a href=\"https://github.com/DanWin/le-chat-php\" target="
+"\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 msgstr ""
 "Но не отчаивайтесь, вы можете найти другие чаты, в этом списке <a href="
 "\"https://onions.danwin1210.de/?cat=2\">список Tor сайтов</a>. Вы также "
@@ -1652,6 +1656,52 @@ msgstr ""
 "GitHub в моем репозитории, по ссылке которая находится выше и установить у "
 "себя на сайте, или сервере."
 
+#: blog/onion-link-list-shutdown/index.php:6
+#, fuzzy
+#| msgid "Onion link list"
+msgid "Onion link list shutdnown"
+msgstr "Список ссылок Onion"
+
+#: blog/onion-link-list-shutdown/index.php:10
+#: blog/onion-link-list-shutdown/index.php:16
+msgid "Onion link list by Daniel has been shut down"
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:15
+#: blog/onion-link-list-shutdown/index.php:25
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
+#, fuzzy
+#| msgid "Onion link list"
+msgid "Onion link list shutdown"
+msgstr "Список ссылок Onion"
+
+#: blog/onion-link-list-shutdown/index.php:28
+#, php-format
+msgid ""
+"After many years of maintaining a list of Tor darknet sites, it is time to "
+"move on. I haven't found time to keep the list up-to-date for almost a year. "
+"I still get regularly contacted by people who fell victim to a scam website, "
+"either because it wasn't listed on my site, or because they were not using "
+"this list correctly. Every day hundreds of new sites come out and I can't "
+"keep up with the demand of reviewing every single site, while more than "
+"99% of them are scams anyway."
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:29
+msgid ""
+"If you came here to check the scam status of a site, please exercise "
+"critical thinking. You can easily spot scammers. Nobody will ever give you "
+"more money in return for less. It doesn't make any sense to sell \"stolen\" "
+"cryptocurrencies, given that it is very easy to use them anonymously. The "
+"only reason you would use an escrow service is trust, but how can you trust "
+"an anonymous darknet escrow service that nobody ever heard of before? If you "
+"still have doubts about the site you are interested in, do a quick search on "
+"your favourite search engine, such as DuckDuckGo or Google. If all you can "
+"come up with is a couple of sites promoting it, it is likely a scam. If you "
+"find a lot of sites linking to it, including social media posts and reviews "
+"in forums, you might have found the real deal."
+msgstr ""
+
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 #, fuzzy
 #| msgid "Daniel - Home"
@@ -1679,20 +1729,24 @@ msgid "Title"
 msgstr ""
 
 #: blog/index.php:31
-msgid "March 2020"
-msgstr "Март 2020"
-
-#: blog/index.php:31
-msgid "Hosting service shutdown due to hack"
-msgstr "Отключение хостинга из-за взлома"
+msgid "August 2023"
+msgstr ""
 
 #: blog/index.php:32
+msgid "December 2022"
+msgstr "Декабрь 2022"
+
+#: blog/index.php:33
 msgid "December 2021"
 msgstr "Декабрь 2021"
 
-#: blog/index.php:33
-msgid "December 2022"
-msgstr "Декабрь 2022"
+#: blog/index.php:34
+msgid "March 2020"
+msgstr "Март 2020"
+
+#: blog/index.php:34
+msgid "Hosting service shutdown due to hack"
+msgstr "Отключение хостинга из-за взлома"
 
 #: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
 #: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
@@ -2341,7 +2395,7 @@ msgstr ""
 #: tutorials/self-employed/index.php:52
 #, php-format
 msgid ""
-"as an employee, taxes are continuously deducted from your income by your "
+"As an employee, taxes are continuously deducted from your income by your "
 "employer. But when you are self-employed, you are responsible for tax "
 "payments yourself. You should make sure that you save enough money to pay "
 "taxes. Each time you pay yourself from your business account, send an amount "
@@ -2352,7 +2406,9 @@ msgid ""
 "look for a fixed deposit account, or a bank account with high-interest "
 "rates, to keep your savings safe and earn a little with it. I use <a href="
 "\"%2$s\" target=\"_blank\" rel=\"noreferrer noopener\">C24 Bank</a> for this "
-"purpose, as they are offering up to 4%% interest rate."
+"purpose, as they are offering up to 4%% interest rate. To find the right "
+"account for your, you can <a href=\"%3$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">compare bank accounts here</a>."
 msgstr ""
 
 #: tutorials/self-employed/index.php:53
@@ -2703,6 +2759,9 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#~ msgid "Online-Test"
+#~ msgstr "Онлайн-Тест"
 
 #~ msgid ""
 #~ "The software I use are Debian sid running Ceph, NginX, MariaDB, Dovecot, "
