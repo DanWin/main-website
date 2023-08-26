@@ -111,21 +111,15 @@ function menu(string $title = ''): void
 	echo '<nav>';
 	if(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.de$/', $_SERVER['HTTP_HOST'])){
 		$host='https://danwin1210.de';
-		$onions='https://onions.danwin1210.de';
 	}elseif(isset($_SERVER['HTTP_HOST']) && preg_match('/\.onion$/', $_SERVER['HTTP_HOST'])){
 		$host='http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion';
-		$onions='http://donionsixbjtiohce24abfgsffo2l4tk26qx464zylumgejukfq2vead.onion';
 	}elseif(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.i2p$/', $_SERVER['HTTP_HOST'])){
 		$host='http://danwin1210.i2p';
-		$onions='http://onions.danwin1210.i2p';
 	}else{
 		$host='http://edk3pz64esvpy6bqpjtlqat3h7unwzxmvrrhjeg2ab43d6zfkzpa.b32.i2p';
-		$onions='http://zdmhl2zydlw5soy3jpaofbpq3pmuxc7trx2lfubeqryqd266jl4q.b32.i2p';
 	}
 	echo "<a href=\"$host/\">"._('Home').'</a>';
 	echo "<a href=\"$host/blog/\">"._('Blog and news').'</a>';
-	echo "<a href=\"$onions/test.php\">"._('Online-Test').'</a>';
-	echo "<a href=\"$onions/\">"._('Onion link list').'</a>';
 	echo "<a href=\"$host/mail/\">"._('E-Mail + XMPP').'</a>';
 	echo "<a href=\"$host/tutorials/\">"._('Tutorials').'</a>';
 	echo "<a href=\"$host/github-ipv6-proxy.php\">"._('GitHub IPv6 proxy').'</a>';

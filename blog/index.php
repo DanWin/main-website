@@ -28,9 +28,10 @@ global $language, $dir, $locale;
 <p><?php echo _('Blog posts and news related to my services will be posted here.'); ?></p>
 <div class="table">
 <div class="headerrow"><div class="cell"><?php echo _('Date'); ?></div><div class="cell"><?php echo _('Title'); ?></div></div>
-<div class="row"><div class="cell"><?php echo _('March 2020'); ?></div><div class="cell"><a href="/hosting/"><?php echo _('Hosting service shutdown due to hack'); ?></a></div></div>
-<div class="row"><div class="cell"><?php echo _('December 2021'); ?></div><div class="cell"><a href="/new-domain.php"><?php echo _('New domain - DanWin1210.Me is now DanWin1210.De'); ?></a></div></div>
+<div class="row"><div class="cell"><?php echo _('August 2023'); ?></div><div class="cell"><a href="/blog/onion-link-list-shutdown/"><?php echo _('Onion link list shutdown'); ?></a></div></div>
 <div class="row"><div class="cell"><?php echo _('December 2022'); ?></div><div class="cell"><a href="/chat/"><?php echo _('Daniel\'s Chat shutdown'); ?></a></div></div>
+<div class="row"><div class="cell"><?php echo _('December 2021'); ?></div><div class="cell"><a href="/new-domain.php"><?php echo _('New domain - DanWin1210.Me is now DanWin1210.De'); ?></a></div></div>
+<div class="row"><div class="cell"><?php echo _('March 2020'); ?></div><div class="cell"><a href="/hosting/"><?php echo _('Hosting service shutdown due to hack'); ?></a></div></div>
 </div>
 </main>
 </body></html>
