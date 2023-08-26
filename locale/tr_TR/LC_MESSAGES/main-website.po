@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 16:27+0200\n"
+"POT-Creation-Date: 2023-08-26 16:41+0200\n"
 "PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -1547,21 +1547,15 @@ msgstr ""
 msgid "Providing server infrastructure"
 msgstr ""
 
-#: chat/index.php:6
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:32
 #, fuzzy
 #| msgid "Daniel's Chat"
-msgid "Daniel's Chat shutdnown"
+msgid "Daniel's Chat shutdown"
 msgstr "Daniel'in Sohbeti"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
 msgstr "Daniel's Chat - eski bir darknet sohbet topluluğu"
-
-#: chat/index.php:15 chat/index.php:27 blog/index.php:32
-#, fuzzy
-#| msgid "Daniel's Chat"
-msgid "Daniel's Chat shutdown"
-msgstr "Daniel'in Sohbeti"
 
 #: chat/index.php:25
 #, fuzzy
@@ -1629,16 +1623,6 @@ msgstr ""
 "burada benim sitemde değil."
 
 #: blog/onion-link-list-shutdown/index.php:6
-#, fuzzy
-#| msgid "Onion link list"
-msgid "Onion link list shutdnown"
-msgstr "Onion bağlantı listesi"
-
-#: blog/onion-link-list-shutdown/index.php:10
-#: blog/onion-link-list-shutdown/index.php:16
-msgid "Onion link list by Daniel has been shut down"
-msgstr ""
-
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
 #: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
@@ -1646,6 +1630,11 @@ msgstr ""
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
 msgstr "Onion bağlantı listesi"
+
+#: blog/onion-link-list-shutdown/index.php:10
+#: blog/onion-link-list-shutdown/index.php:16
+msgid "Onion link list by Daniel has been shut down"
+msgstr ""
 
 #: blog/onion-link-list-shutdown/index.php:28
 #, php-format
@@ -2895,6 +2884,16 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Daniel's Chat"
+#~ msgid "Daniel's Chat shutdnown"
+#~ msgstr "Daniel'in Sohbeti"
+
+#, fuzzy
+#~| msgid "Onion link list"
+#~ msgid "Onion link list shutdnown"
+#~ msgstr "Onion bağlantı listesi"
 
 #~ msgid "Online-Test"
 #~ msgstr "Çevrimiçi-Deneme"

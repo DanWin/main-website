@@ -4,18 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 16:27+0200\n"
-"PO-Revision-Date: 2023-07-11 05:08+0000\n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
+"POT-Creation-Date: 2023-08-26 16:41+0200\n"
+"PO-Revision-Date: 2023-08-26 14:44+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 4.18.2\n"
 "X-Poedit-Basepath: .\n"
 
 #: imprint.php:6 imprint.php:15
@@ -130,13 +130,6 @@ msgstr ""
 "<a href=\"/about.php\">die Über Seite</a>."
 
 #: index.php:29
-#, fuzzy
-#| msgid ""
-#| "This is just the landing page. You can navigate to the pages that "
-#| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
-#| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
-#| "collection</a>, by clicking on the entries in the navigation bar on the "
-#| "left."
 msgid ""
 "This is just the landing page. You can navigate to the pages that interest "
 "you most, such as my free and anonymous <a href=\"/mail/\">mail service</a>, "
@@ -144,9 +137,8 @@ msgid ""
 msgstr ""
 "Dies ist nur die Startseite. Du kannst zu den Seiten, die dich am meisten "
 "Interessieren, wie meinem kostenlosen und anonymen <a href=\"/mail/\">E-Mail "
-"Dienst</a> oder der <a href=\"https://onions.danwin1210.de\">Tor darknet "
-"Linksamlung</a>, durch Klicken auf die Einträge in der Navigationsleiste "
-"links gelangen."
+"Dienst</a>, durch Klicken auf die Einträge in der Navigationsleiste links "
+"gelangen."
 
 #: index.php:30
 msgid ""
@@ -250,13 +242,7 @@ msgid ""
 msgstr ""
 
 #: about.php:42
-#, fuzzy, php-format
-#| msgid ""
-#| "Managing servers, email services and developing new web projects is what "
-#| "I thrive on. I like optimizing systems for performance and getting the "
-#| "best out of what I have. Do you need help with managing and optimizing "
-#| "your infrastructure or website? I'm here to help. <a href=\"/contact.php"
-#| "\">Get in touch</a> and we'll discuss details."
+#, php-format
 msgid ""
 "Managing servers and email services and developing new web projects is what "
 "I thrive on. I like optimizing systems for performance and getting the best "
@@ -265,9 +251,9 @@ msgid ""
 msgstr ""
 "Server und E-Mail Dienste verwalten und neue Web-Projekte zu entwickeln ist "
 "was mich treibt. Ich mag es Systeme für Performace zu optimieren und das "
-"beste aus dem was ich habe zu machen. Brauchst du hilfe mit dem Verwalten "
-"und optimieren deiner Infrastruktur oder Webseite? Ich helfe gerne dabei. <a "
-"href=\"/contact.php\">Schreib mir</a> und wir können über Details reden."
+"beste aus dem was ich habe zu machen. Brauchst du Hilfe mit dem Verwalten "
+"und optimieren deiner Infrastruktur oder Webseite? <a href=\"%s\">Ich bin "
+"für Aufträge verfügbar</a>."
 
 #: about.php:43
 msgid "Profiles on other sites that I am active on:"
@@ -278,19 +264,14 @@ msgid "About this site"
 msgstr "Über diese Seite"
 
 #: about.php:53
-#, fuzzy
-#| msgid ""
-#| "This is my personal site, that I develop in my free time. I started "
-#| "development of this site in August/September 2013 when I wanted to have a "
-#| "platform to host files on, to use at school."
 msgid ""
 "This is my site, that I develop in my free time. I started development of "
 "this site in August/September 2013 when I wanted to have a platform to host "
 "files on, to use at school."
 msgstr ""
-"Dies ist meine persönliche Seite, die ich in meiner Freizeit entwickle. Ich "
-"habe mit der Entwicklung dieser Seite im August/September 2013 angefangen, "
-"als ich eine Platform zum Teilen von Dateien in der Schule haben wollte."
+"Dies ist meine Seite, die ich in meiner Freizeit entwickle. Ich habe mit der "
+"Entwicklung dieser Seite im August/September 2013 angefangen, als ich eine "
+"Platform zum Teilen von Dateien in der Schule haben wollte."
 
 #: about.php:54
 #, fuzzy
@@ -425,12 +406,6 @@ msgid ""
 msgstr ""
 
 #: about.php:75
-#, fuzzy
-#| msgid ""
-#| "The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-#| "\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-#| "the raspberry pis at home. Additionally, they run a Postfix instance only "
-#| "listening on the VPN network to send out mails to clearnet."
 msgid ""
 "The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
 "\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
@@ -440,7 +415,7 @@ msgstr ""
 "Die clearnet Gateways unter <a href=\"https://danwin1210.de\" target=\"_blank"
 "\">danwin1210.de</a> sind ein NginX Proxy, der alle Anfragen zu den "
 "Raspberry Pis zu Hause weiterleitet. Zusätzliche läuft hier eine Postfix "
-"Instanz, die nur auf dem VPN Netzwerk erreichbar ist, um Mails and das "
+"Instanz, die nur auf dem VPN Netzwerk erreichbar ist, um Mails an das "
 "clearnet zu senden."
 
 #: about.php:76
@@ -1569,50 +1544,31 @@ msgstr ""
 msgid "Providing server infrastructure"
 msgstr ""
 
-#: chat/index.php:6
-#, fuzzy
-#| msgid "Daniel's Chat"
-msgid "Daniel's Chat shutdnown"
-msgstr "Daniel's Chat"
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:32
+msgid "Daniel's Chat shutdown"
+msgstr "Daniel's Chat geschlossen"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
 msgstr "Daniel's Chat - eine ehemalige darknet Chat Community"
 
-#: chat/index.php:15 chat/index.php:27 blog/index.php:32
-#, fuzzy
-#| msgid "Daniel's Chat"
-msgid "Daniel's Chat shutdown"
-msgstr "Daniel's Chat"
-
 #: chat/index.php:25
-#, fuzzy
-#| msgid "Daniel's Chat"
 msgid "Daniel' Chat shutdown"
-msgstr "Daniel's Chat"
+msgstr "Daniel's Chat geschlossen"
 
 #: chat/index.php:28
 msgid "After 9 years, I'm shutting down the chat for good."
 msgstr "Nach 9 Jahren stellen ich den Chat endgültig ein."
 
 #: chat/index.php:29
-#, fuzzy
-#| msgid ""
-#| "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-#| "cat=2\">my onion link list</a>. If you are interested in running a "
-#| "similar chat community, you can download my chat script on <a href="
-#| "\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel="
-#| "\"noopener noreferrer\">GitHub</a>."
 msgid ""
 "If you are interested in running a similar chat community, you can download "
 "my chat script on <a href=\"https://github.com/DanWin/le-chat-php\" target="
 "\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 msgstr ""
-"Du kannst alternative Chats auf <a href=\"https://onions.danwin1210.de/?"
-"cat=2\">meiner onion Linkliste</a> finden. Wenn du Interesse hast eine "
-"ähnliche Chat Comunity zu hosten, kannst du mein Chat Skript auf <a href="
-"\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">GitHub</a> herunterladen."
+"Wenn du Interesse hast eine ähnliche Chat Comunity zu hosten, kannst du mein "
+"Chat Skript auf <a href=\"https://github.com/DanWin/le-chat-php\" target="
+"\"_blank\" rel=\"noopener noreferrer\">GitHub</a> herunterladen."
 
 #: chat/index.php:30
 msgid ""
@@ -1654,23 +1610,16 @@ msgstr ""
 "Chat erstellen, aber nicht hier auf meiner Seite."
 
 #: blog/onion-link-list-shutdown/index.php:6
-#, fuzzy
-#| msgid "Onion link list"
-msgid "Onion link list shutdnown"
-msgstr "Onion Linkliste"
+#: blog/onion-link-list-shutdown/index.php:15
+#: blog/onion-link-list-shutdown/index.php:25
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
+msgid "Onion link list shutdown"
+msgstr "Onion Linkliste geschlossen"
 
 #: blog/onion-link-list-shutdown/index.php:10
 #: blog/onion-link-list-shutdown/index.php:16
 msgid "Onion link list by Daniel has been shut down"
 msgstr ""
-
-#: blog/onion-link-list-shutdown/index.php:15
-#: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
-#, fuzzy
-#| msgid "Onion link list"
-msgid "Onion link list shutdown"
-msgstr "Onion Linkliste"
 
 #: blog/onion-link-list-shutdown/index.php:28
 #, php-format
@@ -1700,16 +1649,12 @@ msgid ""
 msgstr ""
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
-#, fuzzy
-#| msgid "Daniel - Home"
 msgid "Daniel - Blog and news"
-msgstr "Daniel - Startseite"
+msgstr "Daniel - Blog und Neuigkeiten"
 
 #: blog/index.php:10 blog/index.php:16
-#, fuzzy
-#| msgid "Contact Daniel Winzen"
 msgid "Blog and news by Daniel Winzen"
-msgstr "Kontaktiere Daniel Winzen"
+msgstr "Blog und Neuigkeiten von Daniel Winzen"
 
 #: blog/index.php:28
 msgid "Blog posts and news related to my services will be posted here."
@@ -1717,7 +1662,7 @@ msgstr ""
 
 #: blog/index.php:30
 msgid "Date"
-msgstr ""
+msgstr "Datum"
 
 #: blog/index.php:30
 msgid "Title"
@@ -2193,19 +2138,14 @@ msgid "Earning money with findom"
 msgstr ""
 
 #: tutorials/index.php:34
-#, fuzzy
-#| msgid "This tutorial will show you how to torify FTP clients."
 msgid "This tutorial will show you how you can use findom to earn money."
-msgstr ""
-"Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst."
+msgstr "Dieses Tutorial zeigt dir, wie du mit findom Geld verdienen kannst."
 
 #: tutorials/index.php:35 tutorials/self-employed/index.php:6
 #: tutorials/self-employed/index.php:19 tutorials/self-employed/index.php:29
 #: tutorials/self-employed/index.php:31
-#, fuzzy
-#| msgid "Become self-employed"
 msgid "Becoming self-employed"
-msgstr "Werde selbstständig"
+msgstr "Selbstständig werden"
 
 #: tutorials/index.php:35 tutorials/self-employed/index.php:10
 #: tutorials/self-employed/index.php:20
@@ -2826,17 +2766,13 @@ msgid "Proxy configuration"
 msgstr "Proxykonfiguration"
 
 #: tutorials/findom/index.php:10 tutorials/findom/index.php:22
-#, fuzzy
-#| msgid "This tutorial will show you how to torify FTP clients."
 msgid "This tutorial will show you how you can use findom to earn money"
 msgstr ""
-"Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst."
+"Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst"
 
 #: tutorials/findom/index.php:34
-#, fuzzy
-#| msgid "What is PGP?"
 msgid "What is findom?"
-msgstr "Was ist PGP?"
+msgstr "Was ist fondom?"
 
 #: tutorials/findom/index.php:35
 msgid ""
@@ -2846,10 +2782,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:36
-#, fuzzy
-#| msgid "What are the risks of sugar dating?"
 msgid "What are the risks of engaging in findom?"
-msgstr "Was sind die Risiken von Sugar-Dating?"
+msgstr "Was sind die Risiken von findom?"
 
 #: tutorials/findom/index.php:37
 msgid ""
@@ -2862,10 +2796,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:38
-#, fuzzy
-#| msgid "What are the benefits of sugar dating?"
 msgid "What are the benefits of findom?"
-msgstr "Was sind die Vorteile von Sugar-Dating?"
+msgstr "Was sind die Vorteile von findom?"
 
 #: tutorials/findom/index.php:39
 msgid ""
@@ -2891,10 +2823,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:42
-#, fuzzy
-#| msgid "How to have a successful sugar dating relationship"
 msgid "How to live in a healthy findom relationship?"
-msgstr "Wie man eine erfolgreiche Sugar-Dating Beziehung führt"
+msgstr "Wie führt man eine gesunde Sugar-Dating Beziehung?"
 
 #: tutorials/findom/index.php:43
 msgid ""
@@ -2911,10 +2841,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:44
-#, fuzzy
-#| msgid "Where do I find a sugar partner?"
 msgid "Where do I find a findom partner?"
-msgstr "Wo finde ich einen Sugar-Partner?"
+msgstr "Wo finde ich einen Findom-Partner?"
 
 #: tutorials/findom/index.php:45
 #, php-format
@@ -2942,6 +2870,12 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#~ msgid "Daniel's Chat shutdnown"
+#~ msgstr "Daniel's Chat geschlossen"
+
+#~ msgid "Onion link list shutdnown"
+#~ msgstr "Onion Linkliste geschlossen"
 
 #~ msgid "Online-Test"
 #~ msgstr "Online-Test"

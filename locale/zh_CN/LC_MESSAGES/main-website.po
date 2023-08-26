@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 16:27+0200\n"
+"POT-Creation-Date: 2023-08-26 16:41+0200\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -1299,21 +1299,15 @@ msgstr ""
 msgid "Providing server infrastructure"
 msgstr ""
 
-#: chat/index.php:6
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:32
 #, fuzzy
 #| msgid "Daniel's Chat"
-msgid "Daniel's Chat shutdnown"
+msgid "Daniel's Chat shutdown"
 msgstr "丹尼尔的聊天室"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
 msgstr "丹尼尔的聊天室 - 曾经的暗网聊天社区"
-
-#: chat/index.php:15 chat/index.php:27 blog/index.php:32
-#, fuzzy
-#| msgid "Daniel's Chat"
-msgid "Daniel's Chat shutdown"
-msgstr "丹尼尔的聊天室"
 
 #: chat/index.php:25
 #, fuzzy
@@ -1375,16 +1369,6 @@ msgstr ""
 "但不是在我的网站上。"
 
 #: blog/onion-link-list-shutdown/index.php:6
-#, fuzzy
-#| msgid "Onion link list"
-msgid "Onion link list shutdnown"
-msgstr "Tor网站列表"
-
-#: blog/onion-link-list-shutdown/index.php:10
-#: blog/onion-link-list-shutdown/index.php:16
-msgid "Onion link list by Daniel has been shut down"
-msgstr ""
-
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
 #: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
@@ -1392,6 +1376,11 @@ msgstr ""
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
 msgstr "Tor网站列表"
+
+#: blog/onion-link-list-shutdown/index.php:10
+#: blog/onion-link-list-shutdown/index.php:16
+msgid "Onion link list by Daniel has been shut down"
+msgstr ""
 
 #: blog/onion-link-list-shutdown/index.php:28
 #, php-format
@@ -2432,6 +2421,16 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Daniel's Chat"
+#~ msgid "Daniel's Chat shutdnown"
+#~ msgstr "丹尼尔的聊天室"
+
+#, fuzzy
+#~| msgid "Onion link list"
+#~ msgid "Onion link list shutdnown"
+#~ msgstr "Tor网站列表"
 
 #~ msgid "Online-Test"
 #~ msgstr "在线测试"

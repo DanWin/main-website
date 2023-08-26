@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 16:27+0200\n"
+"POT-Creation-Date: 2023-08-26 16:41+0200\n"
 "PO-Revision-Date: 2023-08-22 14:27+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -1578,17 +1578,13 @@ msgstr "Предоставление серверной инфраструкту
 msgid "Providing server infrastructure"
 msgstr "Предоставление серверной инфраструктуры"
 
-#: chat/index.php:6
-msgid "Daniel's Chat shutdnown"
-msgstr ""
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:32
+msgid "Daniel's Chat shutdown"
+msgstr "Закрытие чата"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
 msgstr ""
-
-#: chat/index.php:15 chat/index.php:27 blog/index.php:32
-msgid "Daniel's Chat shutdown"
-msgstr "Закрытие чата"
 
 #: chat/index.php:25
 msgid "Daniel' Chat shutdown"
@@ -1657,16 +1653,6 @@ msgstr ""
 "себя на сайте, или сервере."
 
 #: blog/onion-link-list-shutdown/index.php:6
-#, fuzzy
-#| msgid "Onion link list"
-msgid "Onion link list shutdnown"
-msgstr "Список ссылок Onion"
-
-#: blog/onion-link-list-shutdown/index.php:10
-#: blog/onion-link-list-shutdown/index.php:16
-msgid "Onion link list by Daniel has been shut down"
-msgstr ""
-
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
 #: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
@@ -1674,6 +1660,11 @@ msgstr ""
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
 msgstr "Список ссылок Onion"
+
+#: blog/onion-link-list-shutdown/index.php:10
+#: blog/onion-link-list-shutdown/index.php:16
+msgid "Onion link list by Daniel has been shut down"
+msgstr ""
 
 #: blog/onion-link-list-shutdown/index.php:28
 #, php-format
@@ -2759,6 +2750,11 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Onion link list"
+#~ msgid "Onion link list shutdnown"
+#~ msgstr "Список ссылок Onion"
 
 #~ msgid "Online-Test"
 #~ msgstr "Онлайн-Тест"
