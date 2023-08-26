@@ -3,7 +3,7 @@ require_once('../../common.php');
 global $language, $dir, $locale;
 ?>
 <!DOCTYPE html><html lang="<?php echo $language; ?>" dir="<?php echo $dir; ?>"><head>
-<title><?php echo _('Onion link list shutdnown'); ?></title>
+<title><?php echo _('Onion link list shutdown'); ?></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="author" content="Daniel Winzen">
 <meta name="viewport" content="width=device-width, initial-scale=1">
