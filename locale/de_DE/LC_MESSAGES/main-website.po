@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-08-26 16:41+0200\n"
-"PO-Revision-Date: 2023-08-26 14:44+0000\n"
+"PO-Revision-Date: 2023-08-27 15:27+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -182,13 +182,6 @@ msgid "About me"
 msgstr "Über mich"
 
 #: about.php:38
-#, fuzzy
-#| msgid ""
-#| "Hello, my name is Daniel Winzen, a german web developer and system "
-#| "administrator. In my free time I like reading books, programming on my "
-#| "open-source projects and pole dancing, which I picked up in times of the "
-#| "covid pandemic and resulting home office, because it's fun and keeps me "
-#| "fit."
 msgid ""
 "Hello, my name is Daniel Winzen, a German web developer and system "
 "administrator. In my free time, I like reading books, programming on my open-"
@@ -202,12 +195,6 @@ msgstr ""
 "denn es macht Spaß und hält mich fit."
 
 #: about.php:39
-#, fuzzy
-#| msgid ""
-#| "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
-#| "also know some basics of Perl, Python, C, C++ and more. With my "
-#| "experience I'm able to quickly adapt and work with new languages, when "
-#| "necessary."
 msgid ""
 "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
 "also know some basics of Perl, Python, C, C++ and more. With my experience, "
@@ -274,14 +261,6 @@ msgstr ""
 "Platform zum Teilen von Dateien in der Schule haben wollte."
 
 #: about.php:54
-#, fuzzy
-#| msgid ""
-#| "Quickly the idea of using a chat at school came up and I came across a "
-#| "simple perl chat script called <a href=\"https://github.com/virtualghetto/"
-#| "lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When "
-#| "I deployed that on my Raspberry Pi it was running very slowly and wasn't "
-#| "really usable for use with several people. So I decided to port some "
-#| "parts I needed to PHP."
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
 "simple Perl chat script called <a href=\"https://github.com/virtualghetto/"
@@ -298,13 +277,6 @@ msgstr ""
 "Deshalb habe ich mich entschieden einige Teile davon zu PHP zu portieren."
 
 #: about.php:55
-#, fuzzy
-#| msgid ""
-#| "This has been the start for me to get deeper into web-development and I "
-#| "have since open-sourced that chat script and several other scripts of "
-#| "this site on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-#| "rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
-#| "many new features and improved reliability and my code a lot."
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
 "since open-sourced that chat script and several other scripts of this site "
@@ -320,13 +292,6 @@ msgstr ""
 "die Zuverlässigkeit und meine Codequalität verbessert."
 
 #: about.php:56
-#, fuzzy
-#| msgid ""
-#| "I used to offer free file hosting, an url shortener, a chat and even a "
-#| "free darknet web hosting service. All these projects have taught me a lot "
-#| "about coding, security and server management. As of now, only the "
-#| "anonymous email and XMPP hosting, as well as the onion link list are "
-#| "still actively maintained."
 msgid ""
 "I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
