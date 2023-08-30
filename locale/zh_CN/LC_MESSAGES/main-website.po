@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 16:41+0200\n"
+"POT-Creation-Date: 2023-08-30 23:28+0200\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -1408,6 +1408,19 @@ msgid ""
 "find a lot of sites linking to it, including social media posts and reviews "
 "in forums, you might have found the real deal."
 msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:30
+#, fuzzy
+#| msgid ""
+#| "You can download and/or contribute to my various open-source projects on "
+#| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#| "noreferrer\">GitHub</a>."
+msgid ""
+"You can find an alternative link list at for example <a href=\"https://ahmia."
+"fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmia</a>."
+msgstr ""
+"你可以下载或构建我的多个托管于GitHub的项目 <a href=\"https://github.com/"
+"DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 #, fuzzy

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 16:41+0200\n"
+"POT-Creation-Date: 2023-08-30 23:28+0200\n"
 "PO-Revision-Date: 2023-04-30 21:04+0000\n"
 "Last-Translator: big cat <biggiecat@danwin1210.de>\n"
 "Language-Team: Polish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -1209,6 +1209,12 @@ msgid ""
 "come up with is a couple of sites promoting it, it is likely a scam. If you "
 "find a lot of sites linking to it, including social media posts and reviews "
 "in forums, you might have found the real deal."
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:30
+msgid ""
+"You can find an alternative link list at for example <a href=\"https://ahmia."
+"fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmia</a>."
 msgstr ""
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
