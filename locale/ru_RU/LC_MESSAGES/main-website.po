@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 23:28+0200\n"
+"POT-Creation-Date: 2023-09-08 21:49+0200\n"
 "PO-Revision-Date: 2023-08-22 14:27+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -118,14 +118,20 @@ msgid "Home"
 msgstr "Главная"
 
 #: index.php:28
+#, fuzzy, php-format
+#| msgid ""
+#| "Hello, my name is Daniel Winzen, a german web developer and system "
+#| "administrator. This is my personal website, that I develop in my free "
+#| "time. This site is available as <a href=\"http://"
+#| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+#| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
+#| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
+#| "href=\"/about.php\">the about page</a>."
 msgid ""
 "Hello, my name is Daniel Winzen, a german web developer and system "
 "administrator. This is my personal website, that I develop in my free time. "
-"This site is available as <a href=\"http://"
-"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor hidden "
-"service</a> or via my clearnet proxy <a href=\"https://danwin1210.de"
-"\">danwin1210.de</a>. To learn more about me and this site, check <a href=\"/"
-"about.php\">the about page</a>."
+"This site is available as %1$s or via my clearnet proxy %2$s. To learn more "
+"about me and this site, check %3$s."
 msgstr ""
 "Добро пожаловать, меня зовут Даниэль Винцен, я Немецкий веб-разработчик и "
 "системный администратор. Это мой персональный веб сайт, который я "
@@ -135,8 +141,16 @@ msgstr ""
 "\">danwin1210.de</a>. Чтобы узнать больше обо мне и моем сайте, посетите <a "
 "href=\"/about.php\">эту страницу</a>."
 
+#: index.php:28
+msgid "Tor hidden service"
+msgstr ""
+
+#: index.php:28
+msgid "the about page"
+msgstr ""
+
 #: index.php:29
-#, fuzzy
+#, fuzzy, php-format
 #| msgid ""
 #| "This is just the landing page. You can navigate to the pages that "
 #| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
@@ -145,34 +159,51 @@ msgstr ""
 #| "left."
 msgid ""
 "This is just the landing page. You can navigate to the pages that interest "
-"you most, such as my free and anonymous <a href=\"/mail/\">mail service</a>, "
-"by clicking on the entries in the navigation bar on the left."
+"you most, such as my free and anonymous %s, by clicking on the entries in "
+"the navigation bar on the left."
 msgstr ""
 "Это всего лишь информационная страница. Вы можете воспользоваться другими "
 "разделами сайта, такими как моя бесплатная, и анонимная <a href=\"/mail/"
 "\">электронная почта</a> или <a href=\"https://onions.danwin1210.de"
 "\">коллекцией ссылок Tor</a>, нажав на записи в панели навигации слева."
 
+#: index.php:29
+msgid "mail service"
+msgstr ""
+
 #: index.php:30
+#, fuzzy, php-format
+#| msgid ""
+#| "You can download and/or contribute to my various open-source projects on "
+#| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#| "noreferrer\">GitHub</a>."
 msgid ""
-"You can download and/or contribute to my various open-source projects on <a "
-"href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">GitHub</a>."
+"You can download and/or contribute to my various open-source projects on %s."
 msgstr ""
 "Вы также можете скачать и/или внести свой вклад в мои различные проекты с "
 "открытым исходным кодом на <a href=\"https://github.com/DanWin/\" target="
 "\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
 #: index.php:31
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "If you like, what I've built here, you can support me by donating via "
+#| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
+#| "contact.php\">contact me</a>."
 msgid ""
 "If you like, what I've built here, you can support me by donating via "
-"Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
-"contact.php\">contact me</a>."
+"Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
 msgstr ""
 "Если вам нравятся мои проекты, то вы можете поддержать меня, пожертвовав "
 "немного Monero: %1$s или Bitcoin: %2$s . Также присутствуют другие способы "
 "пожертвования, для уточнения <a href=\"/contact.php\">свяжитесь со мной</a>."
+
+#: index.php:31 github-ipv6-proxy.php:102 faq.php:26 faq.php:58
+#: chat/index.php:32
+#, fuzzy
+#| msgid "Contact"
+msgid "contact me"
+msgstr "Обратная связь"
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
@@ -242,15 +273,18 @@ msgstr ""
 #: about.php:41
 #, php-format
 msgid ""
-"I'm <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Certified "
-"in Cybersecurity</a> and have a good understanding of cybersecurity threats. "
-"I continuously broaden my knowledge in this field, because I consider this "
+"I'm %s and have a good understanding of cybersecurity threats. I "
+"continuously broaden my knowledge in this field, because I consider this "
 "essential and fun. This site would probably not exist, were it not for my "
 "passion for cybersecurity and hacking. Like many good parents, mine were "
 "strict about my internet usage. So I had to become creative in finding ways "
 "of gaining access to the internet, even when the timer already expired. Thus "
 "I was learning about hacking, darknet and network security at a very early "
 "age."
+msgstr ""
+
+#: about.php:41
+msgid "Certified in Cybersecurity"
 msgstr ""
 
 #: about.php:42
@@ -265,7 +299,7 @@ msgid ""
 "Managing servers and email services and developing new web projects is what "
 "I thrive on. I like optimizing systems for performance and getting the best "
 "out of what I have. Do you need help with managing and optimizing your "
-"infrastructure or website? <a href=\"%s\">I'm available for hire</a>."
+"infrastructure or website? %s."
 msgstr ""
 "Управление серверами, а также управление электронной почтой, разработка "
 "новых веб-проектов - это то, в чем я силен. Мне нравится оптимизировать "
@@ -273,6 +307,10 @@ msgstr ""
 "того что у меня есть. Если вам нужна помощь в управлении и оптимизации вашей "
 "инфраструктуры или веб-сайта, я с радостью готов помочь. <a href=\"/contact."
 "php\">Свяжитесь со мной</a> и мы обсудим детали."
+
+#: about.php:42
+msgid "I'm available for hire"
+msgstr ""
 
 #: about.php:43
 msgid "Profiles on other sites that I am active on:"
@@ -298,7 +336,7 @@ msgstr ""
 "иметь платформу для размещения файлов, что бы использовать ее в школе."
 
 #: about.php:54
-#, fuzzy
+#, fuzzy, php-format
 #| msgid ""
 #| "Quickly the idea of using a chat at school came up and I came across a "
 #| "simple perl chat script called <a href=\"https://github.com/virtualghetto/"
@@ -308,11 +346,9 @@ msgstr ""
 #| "parts I needed to PHP."
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
-"simple Perl chat script called <a href=\"https://github.com/virtualghetto/"
-"lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When I "
-"deployed that on my Raspberry Pi, it was running very slowly and wasn't "
-"usable for use by several people. So I decided to port some parts I needed "
-"to PHP."
+"simple Perl chat script called %s. When I deployed that on my Raspberry Pi, "
+"it was running very slowly and wasn't usable for use by several people. So I "
+"decided to port some parts I needed to PHP."
 msgstr ""
 "Так же у меня возникла идея использовать чат в школе, и я наткнулся на "
 "простой скрипт чата на языке Perl <a href=\"https://github.com/virtualghetto/"
@@ -322,7 +358,7 @@ msgstr ""
 "портатировать его на PHP."
 
 #: about.php:55
-#, fuzzy
+#, fuzzy, php-format
 #| msgid ""
 #| "This has been the start for me to get deeper into web-development and I "
 #| "have since open-sourced that chat script and several other scripts of "
@@ -332,9 +368,8 @@ msgstr ""
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
 "since open-sourced that chat script and several other scripts of this site "
-"on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub account</a>. Since then, I have added many "
-"new features and improved reliability and my code a lot."
+"on my %s account. Since then, I have added many new features and improved "
+"reliability and my code a lot."
 msgstr ""
 "Это стало для меня началом более глубокого погружения в веб разработку. "
 "После чего я разместил скрипт этого чата и несколько других скриптов моего "
@@ -373,11 +408,16 @@ msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr "Хостинг-провайдеры которые я использую и сервера размещеные у них:"
 
 #: about.php:60
-#, php-format
+#, fuzzy, php-format
+#| msgid "%s - good for short-term and/or low-bandwidth projects"
 msgid ""
-"%s - good for short-term and/or low-bandwidth projects. They also offer a <a "
-"href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Free Tier Program</"
-"a> for businesses"
+"%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
+msgstr ""
+"%s - подходит для краткосрочных проектов и/или проектов с низкой пропускной "
+"способностью"
+
+#: about.php:60
+msgid "Free Tier Program for businesses"
 msgstr ""
 
 #: about.php:61
@@ -432,17 +472,16 @@ msgid ""
 msgstr ""
 
 #: about.php:75
-#, fuzzy
+#, fuzzy, php-format
 #| msgid ""
 #| "The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
 #| "\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
 #| "the raspberry pis at home. Additionally, they run a Postfix instance only "
 #| "listening on the VPN network to send out mails to clearnet."
 msgid ""
-"The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-"the Raspberry Pis at home. Additionally, they run a Postfix instance only "
-"listening on the VPN network to send emails to clearnet."
+"The clearnet gateways on %s are an NginX Proxy that will forward all "
+"requests to the Raspberry Pis at home. Additionally, they run a Postfix "
+"instance only listening on the VPN network to send emails to clearnet."
 msgstr ""
 "Шлюзы clearnet на <a href=\"https://danwin1210.de\" target=\"_blank"
 "\">danwin1210.de </a> - это прокси-сервер NginX, который будет "
@@ -474,19 +513,27 @@ msgstr ""
 "серверах IPv6"
 
 #: github-ipv6-proxy.php:34
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Recently I had to clone a git repository on GitHub via an IPv6 only "
+#| "server that I rented at my favourite hosting provider %s. Unfortunately I "
+#| "realized that GitHub still <a href=\"https://github.com/orgs/community/"
+#| "discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does "
+#| "not support IPv6</a>."
 msgid ""
 "Recently I had to clone a git repository on GitHub via an IPv6 only server "
-"that I rented at my favourite hosting provider %s. Unfortunately I realized "
-"that GitHub still <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does not "
-"support IPv6</a>."
+"that I rented at my favourite hosting provider %1$s. Unfortunately I "
+"realized that GitHub still %2$s."
 msgstr ""
 "Недавно мне пришлось клонировать репозиторий git на GitHub через сервер "
 "только для IPv6, который я арендовал у моего любимого хостинг-провайдера %s. "
 "К сожалению, я понял, что GitHub все еще <a href=\"https://github.com/orgs/"
 "community/discussions/10539 \" target=\"_blank\" rel=\"noopener noreferrer"
 "\">не поддерживает IPv6</a>."
+
+#: github-ipv6-proxy.php:34
+msgid "does not support IPv6"
+msgstr ""
 
 #: github-ipv6-proxy.php:35
 msgid ""
@@ -577,12 +624,9 @@ msgstr ""
 "стеком:"
 
 #: github-ipv6-proxy.php:102 chat/index.php:32
-msgid ""
-"If there are any further questions, feel free to <a href=\"/contact.php"
-"\">contact me</a>."
+#, php-format
+msgid "If there are any further questions, %s."
 msgstr ""
-"Если есть какие-либо дополнительные вопросы, не стесняйтесь <a href=\"/"
-"contact.php \">свяжитесь со мной</a>."
 
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
@@ -621,12 +665,15 @@ msgid "Message:"
 msgstr "Сообщение:"
 
 #: contact.php:40
-msgid ""
-"I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
-"\">Privacy Policy</a>"
+#, php-format
+msgid "I have read and agreed to the %s"
 msgstr ""
-"Я прочитал и согласен с <a href=\"/privacy.php \" target=\"_blank"
-"\">Политикой конфиденциальности</a>"
+
+#: contact.php:40
+#, fuzzy
+#| msgid "Privacy policy"
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
 
 #: contact.php:41
 msgid "Send"
@@ -645,17 +692,25 @@ msgid "Message successfully sent!"
 msgstr "Сообщение успешно отправлено!"
 
 #: contact.php:76
-msgid ""
-"If you want to encrypt your message, you can use <a href=\"/pgp.txt\" target="
-"\"_blank\">my public PGP key</a>."
+#, fuzzy, php-format
+#| msgid ""
+#| "If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
+#| "target=\"_blank\">my public PGP key</a>."
+msgid "If you want to encrypt your message, you can use %s."
 msgstr ""
 "Если вы предпочитаете шифрование, пожалуйста используйте <a href=\"/pgp.txt"
 "\" target=\"_blank\">мой публичный ключ - PGP</a>."
 
+#: contact.php:76
+msgid "my public PGP key"
+msgstr ""
+
 #: contact.php:77
-msgid ""
-"If you prefer to directly get in contact with me, email me at <a href="
-"\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+#, fuzzy, php-format
+#| msgid ""
+#| "If you prefer to directly get in contact with me, email me at <a href="
+#| "\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+msgid "If you prefer to directly get in contact with me, email me at %s."
 msgstr ""
 "Вы так же можете связаться со мной напрямую через электронную почту <a href="
 "\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
@@ -672,75 +727,70 @@ msgstr ""
 "Список часто задаваемых вопросов о предоставляемых мною услугах и ответы на "
 "них"
 
-#: faq.php:25 faq.php:54
-msgid "I found an illegal link/content on your site, can you remove it?"
-msgstr ""
-"Я нашел незаконную ссылку/контент на вашем сайте, можете ли вы удалить ее?"
-
-#: faq.php:25 faq.php:55
-#, php-format
-msgid ""
-"Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
-"possible."
-msgstr ""
-"Да, конечно, <a href=\"%s\">свяжитесь со мной</a>, и я займусь удалением, "
-"как только смогу."
-
-#: faq.php:26 faq.php:58
+#: faq.php:25 faq.php:53
 msgid "What is PGP?"
 msgstr "Что такое PGP?"
 
-#: faq.php:26 faq.php:59
+#: faq.php:25 faq.php:54
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
-"files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" target="
-"\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia article</"
-"a>."
+"files."
 msgstr ""
-"PGP - это программа шифрования, которую можно использовать для шифрования "
-"или подписи электронных писем и файлов. <a href=\"https://ru.wikipedia.org/"
-"wiki/PGP\" target=\"_blank\" rel=\"noopener noreferrer\">Больше информации "
-"вы можете узнать в Википедии</a>."
 
-#: faq.php:27 faq.php:62
+#: faq.php:25 faq.php:54
+msgid "More info in this Wikipedia article"
+msgstr ""
+
+#: faq.php:26 faq.php:57
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
 "У меня есть идея по улучшению сайта и сервисов, или добавления какой либо "
 "функции, как мне её предложить?"
 
-#: faq.php:27 faq.php:63
-#, php-format
+#: faq.php:26 faq.php:58
+#, fuzzy, php-format
+#| msgid ""
+#| "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo "
+#| "list. It might take a while until your feature gets added though."
 msgid ""
-"Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo list. "
-"It might take a while until your feature gets added though."
+"Yes, please %s and I may add it on my ToDo list. It might take a while until "
+"your feature gets added though."
 msgstr ""
 "Пожалуйста <a href=\"%s\">свяжитесь со мной</a>. Я рассмотрю её в ближайшее "
 "время. Но придётся подождать, пока я смогу её разработать."
 
-#: faq.php:28 faq.php:66
+#: faq.php:27 faq.php:61
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
 msgstr ""
 "Я хочу перевести ваш сайт и услуги на другой язык, как мне это сделать?"
 
-#: faq.php:28 faq.php:67
+#: faq.php:27 faq.php:62
+#, fuzzy, php-format
+#| msgid ""
+#| "Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+#| "rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
+#| "individual projects you would like to translate."
 msgid ""
-"Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub repositories</a> and check out the individual "
-"projects you would like to translate."
+"Please see my %s and check out the individual projects you would like to "
+"translate."
 msgstr ""
 "Для этого посетите мой <a href=\"https://github.com/DanWin/\" target=\"_blank"
 "\" rel=\"noopener noreferrer\">GitHub репозиторий</a> там вы найдете нужный "
 "сервис который хотите перевести."
 
-#: faq.php:29 faq.php:70
+#: faq.php:27 faq.php:62
+msgid "GitHub repositories"
+msgstr ""
+
+#: faq.php:28 faq.php:65
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr ""
 "Я слышал про редрумы или красные комнаты, стримы убийств и тому подобное. "
 "Это правда?"
 
-#: faq.php:29 faq.php:71
+#: faq.php:28 faq.php:66
 msgid ""
 "No, they are just horror stories people commonly tell you. Many people make "
 "YouTube videos about the \"deep web\" and claim there were sites like these. "
@@ -754,7 +804,7 @@ msgstr ""
 "сайт, похожий на редрум, и просят оплату в биткоинах за доступ к ним. "
 "Никогда не платите! Эти сайты ненастоящие."
 
-#: faq.php:30 faq.php:74
+#: faq.php:29 faq.php:69
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
@@ -762,7 +812,7 @@ msgstr ""
 "Я слышал про теневую сеть (shadow web), Марианскую сеть (marianas web) или "
 "CLOS (closed shell network). Как мне получить доступ туда?"
 
-#: faq.php:30 faq.php:75
+#: faq.php:29 faq.php:70
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
@@ -770,7 +820,7 @@ msgstr ""
 "Никак, потому что они не существуют. Мошенники, впрочем, будут пытаться "
 "продать вам такой доступ. Не платите, вы ничего не получите."
 
-#: faq.php:31 faq.php:78
+#: faq.php:30 faq.php:73
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
@@ -778,7 +828,7 @@ msgstr ""
 "Разве даркнет не должен быть страшным, чтобы на каждом углу были ужасные "
 "вещи? Почему мне не попадаются интересные сайты?"
 
-#: faq.php:31 faq.php:79
+#: faq.php:30 faq.php:74
 msgid ""
 "No, the Tor darknet was created to be able to anonymously browse the "
 "internet, circumvent censorship and anonymously host websites. Of course, "
@@ -794,11 +844,11 @@ msgstr ""
 "отличается от клирнета (обычного интернета). Большинство жутких историй, "
 "которые можно услышать о тёмном интернете - просто выдумки."
 
-#: faq.php:32 faq.php:82
+#: faq.php:31 faq.php:77
 msgid "What's the difference between deep web and darknet?"
 msgstr "В чём разница между дипвебом и даркнетом?"
 
-#: faq.php:32 faq.php:83
+#: faq.php:31 faq.php:78
 msgid ""
 "The deep web is any site that can't be indexed by a search engine, so "
 "basically any site where you have to log in or be part of a private network. "
@@ -811,20 +861,30 @@ msgstr ""
 "нужно специальное ПО: это Тор, I2P, Freenet. Даркнет является малой частью "
 "всего дипвеба."
 
-#: faq.php:33 faq.php:86
+#: faq.php:32 faq.php:81
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr "Не мог бы ты обучить меня программированию или хакерству?"
 
-#: faq.php:33 faq.php:90
+#: faq.php:32 faq.php:82
+#, fuzzy
+#| msgid ""
+#| "Joking aside, Teaching you programming or hacking is a task that will "
+#| "take a long time (years). I've been learning for 10 years and still learn "
+#| "new things all the time. But for the beginning I would recommend reading "
+#| "a beginners introduction book, which can guide you with some simple "
+#| "programs you build yourself and examples. If you prefer watching videos, "
+#| "there are a lot of tutorials on YouTube too. But most importantly you "
+#| "will have to take your keyboard and start typing some programs. Start "
+#| "with something simple and keep yourself challenged with new tasks."
 msgid ""
-"Joking aside, Teaching you programming or hacking is a task that will take a "
-"long time (years). I've been learning for 10 years and still learn new "
-"things all the time. But for the beginning I would recommend reading a "
-"beginners introduction book, which can guide you with some simple programs "
-"you build yourself and examples. If you prefer watching videos, there are a "
-"lot of tutorials on YouTube too. But most importantly you will have to take "
-"your keyboard and start typing some programs. Start with something simple "
-"and keep yourself challenged with new tasks."
+"Teaching you programming or hacking is a task that will take a long time "
+"(years). I've been learning for 10 years and still learn new things all the "
+"time. But for the beginning I would recommend reading a beginners "
+"introduction book, which can guide you with some simple programs you build "
+"yourself and examples. If you prefer watching videos, there are a lot of "
+"tutorials on YouTube too. But most importantly you will have to take your "
+"keyboard and start typing some programs. Start with something simple and "
+"keep yourself challenged with new tasks."
 msgstr ""
 "Шутки в сторону, обучить вас программированию или хакерству - это задача, "
 "которая займет много времени (лет). Я учусь уже 10 лет и до сих пор "
@@ -835,7 +895,7 @@ msgstr ""
 "взять клавиатуру и начать писать букавки. Начните с чего-нибудь простого и "
 "ставьте перед собой новые задачи."
 
-#: faq.php:34 faq.php:96
+#: faq.php:33 faq.php:87
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
@@ -843,13 +903,13 @@ msgstr ""
 "Можете ли вы взломать мою школу или техникум и изменить мои оценки или найти "
 "кого-нибудь, кто это сделает?"
 
-#: faq.php:34 faq.php:35 faq.php:36 faq.php:37 faq.php:102
+#: faq.php:33 faq.php:34 faq.php:35 faq.php:36 faq.php:93
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
 msgstr "Да, мне очень охота в тюрьму! Извините, не могу вам с этим помочь."
 
-#: faq.php:35 faq.php:97
+#: faq.php:34 faq.php:88
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
@@ -857,20 +917,20 @@ msgstr ""
 "Можете ли вы подсказать, где можно надежно получить украденные учетные "
 "записи PayPal или кредитные карты?"
 
-#: faq.php:36 faq.php:98
+#: faq.php:35 faq.php:89
 msgid "Can you issue fake Covid19 test results?"
 msgstr ""
 "Можете ли вы мне помочь с получением поддельных результатов теста на Covid19?"
 
-#: faq.php:37 faq.php:99
+#: faq.php:36 faq.php:90
 msgid "Can you do some other illegal things for me?"
 msgstr "Можете ли вы сделать для меня еще какие-нибудь незаконные вещи?"
 
-#: faq.php:38 faq.php:105
+#: faq.php:37 faq.php:96
 msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Можешь ли ты взломать мою девушку? Я подозреваю её в измене."
 
-#: faq.php:38 faq.php:106
+#: faq.php:37 faq.php:97
 msgid ""
 "Yes, I could try, but I won't. Don't trust the any sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -887,20 +947,27 @@ msgstr ""
 "о разрыве отношений, потому что отношения основаны на доверии, но, видимо, "
 "вы больше не можете доверять друг другу."
 
-#: faq.php:39 faq.php:109
+#: faq.php:38 faq.php:100
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr ""
 "Мое электронное письмо не отправляется. Я получаю сообщение об ошибке TLS"
 
-#: faq.php:39 faq.php:110
-#, php-format
+#: faq.php:38 faq.php:101
+#, fuzzy, php-format
+#| msgid ""
+#| "You've tried sending an email to a mail server that doesn't accept emails "
+#| "via encrypted transfer, or is using insecure protocols. This is very "
+#| "unfortunate, because it would leak your email content to anyone on the "
+#| "internet, who can intercept your email before it reaches the destination. "
+#| "You can disable mandatory encryption in your <a href=\"%s\">account "
+#| "settings</a>, if you still need to send this email."
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
 "via encrypted transfer, or is using insecure protocols. This is very "
 "unfortunate, because it would leak your email content to anyone on the "
 "internet, who can intercept your email before it reaches the destination. "
-"You can disable mandatory encryption in your <a href=\"%s\">account "
-"settings</a>, if you still need to send this email."
+"You can disable mandatory encryption in your %s, if you still need to send "
+"this email."
 msgstr ""
 "Скорее всего вы пытаетесь отправить письмо на почтовый сервер, который не "
 "принимает электронные письма с помощью зашифрованной передачи или использует "
@@ -911,21 +978,28 @@ msgstr ""
 "учетной записи <a href=\"%s\"></a>, если вам все еще нужно отправить это "
 "электронное письмо."
 
-#: faq.php:40 faq.php:113
+#: faq.php:39 faq.php:104
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr ""
 "Я не могу получить электронное письмо, отправитель получает сообщение об "
 "ошибке TLS"
 
-#: faq.php:40 faq.php:114
-#, php-format
+#: faq.php:39 faq.php:105
+#, fuzzy, php-format
+#| msgid ""
+#| "Someone tried emailing you from a mail server that doesn't support "
+#| "sending emails via encrypted transfer, or is using insecure protocols. "
+#| "This is very unfortunate, because it would leak your email content to "
+#| "anyone on the internet, who can intercept your email before it reaches "
+#| "the destination. You can disable mandatory encryption in your <a href=\"%s"
+#| "\">account settings</a>, if you still need to receive this email."
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
 "emails via encrypted transfer, or is using insecure protocols. This is very "
 "unfortunate, because it would leak your email content to anyone on the "
 "internet, who can intercept your email before it reaches the destination. "
-"You can disable mandatory encryption in your <a href=\"%s\">account "
-"settings</a>, if you still need to receive this email."
+"You can disable mandatory encryption in your %s, if you still need to "
+"receive this email."
 msgstr ""
 "Скорее всего вам пытаются отправить электронное письмо с почтового сервера, "
 "который не поддерживает отправку электронных писем с помощью зашифрованной "
@@ -936,22 +1010,32 @@ msgstr ""
 "шифрование в настройках своей учетной записи <a href=\"%s\"></a>, если вам "
 "все еще нужно получить это электронное письмо."
 
-#: faq.php:41 faq.php:117
+#: faq.php:39 faq.php:101 faq.php:105
+msgid "account settings"
+msgstr ""
+
+#: faq.php:40 faq.php:108
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
 "Я по уши в долгах, и мне нужно быстро достать деньги. Как я могу быстро "
 "заработать немного денег?"
 
-#: faq.php:41 faq.php:118
-#, php-format
+#: faq.php:40 faq.php:109
+#, fuzzy, php-format
+#| msgid ""
+#| "Becoming rich and clearing your debts is a process that starts in your "
+#| "head. Chances of becoming rich overnight are extremely low, you should "
+#| "rather focus on long term goals. It may take you a few years to become "
+#| "financially free, but everyone can get there, if you are willing to learn "
+#| "and educate yourself. I made an in-depth tutorial about some steps you "
+#| "can take: <a href=\"%s\">How to get rich (fast)</a>."
 msgid ""
 "Becoming rich and clearing your debts is a process that starts in your head. "
 "Chances of becoming rich overnight are extremely low, you should rather "
 "focus on long term goals. It may take you a few years to become financially "
 "free, but everyone can get there, if you are willing to learn and educate "
-"yourself. I made an in-depth tutorial about some steps you can take: <a href="
-"\"%s\">How to get rich (fast)</a>."
+"yourself. I made an in-depth tutorial about some steps you can take: %s."
 msgstr ""
 "Стать богатым и расплатиться со своими долгами - это процесс, который "
 "начинается в вашей голове. Шансы разбогатеть в одночасье крайне малы, вам "
@@ -961,11 +1045,17 @@ msgstr ""
 "руководство о некоторых шагах, которые вы можете предпринять: <a href=\"%s"
 "\">Как улучшить свое финансовое положение</a>."
 
-#: faq.php:42 faq.php:121
+#: faq.php:40 faq.php:109 tutorials/get-rich-fast/index.php:6
+#: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
+#: tutorials/get-rich-fast/index.php:35 tutorials/index.php:32
+msgid "How to get rich (fast)"
+msgstr "Как быстро разбогатеть"
+
+#: faq.php:41 faq.php:112
 msgid "I want to sell my kidney, can you help me?"
 msgstr ""
 
-#: faq.php:42 faq.php:122
+#: faq.php:41 faq.php:113
 #, php-format
 msgid ""
 "In most countries, selling organs is illegal. So if you succeed in finding a "
@@ -975,24 +1065,28 @@ msgid ""
 "anyone, and of course not having to pay you. Your motive is most likely "
 "financial gain. However, when you sell your kidney, you can expect to be "
 "paid only a fraction of its worth. For a more detailed answer, you may want "
-"to read <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">this "
-"Wikipedia article</a>."
+"to read %s."
 msgstr ""
 
-#: faq.php:43 faq.php:125
+#: faq.php:41 faq.php:113
+msgid "this Wikipedia article"
+msgstr ""
+
+#: faq.php:42 faq.php:116
 msgid "I have more Questions."
 msgstr "У меня остались вопросы."
 
-#: faq.php:43 faq.php:126
-#, php-format
-msgid "Feel free, to <a href=\"%s\">contact me</a>."
-msgstr "Вы можете <a href=\"%s\">связаться со мной</a>."
+#: faq.php:42 faq.php:117
+#, fuzzy
+#| msgid "Contact"
+msgid "Contact me"
+msgstr "Обратная связь"
 
-#: faq.php:46
+#: faq.php:45
 msgid "FAQ - Frequently Asked Questions"
 msgstr "FAQ - Часто задаваемые вопросы"
 
-#: faq.php:47
+#: faq.php:46
 msgid ""
 "Here you have a list of frequently asked questions regarding the services I "
 "provide and their answers."
@@ -1000,23 +1094,17 @@ msgstr ""
 "Здесь находится список часто задаваемых вопросов, касающихся предоставления "
 "моих услуг, и ответы на них."
 
-#: faq.php:50
+#: faq.php:49
 msgid "Question"
 msgstr "Вопрос"
 
-#: faq.php:51
+#: faq.php:50
 msgid "Answer"
 msgstr "Ответ"
 
-#: faq.php:88
-msgid ""
-"Yes, marry me and I might actually do that. But only if you teach me "
-"something in return. <a href=\"contact.php\">Send me your proposals</a>. "
-"Sorry guys, only considering females."
+#: common.php:110
+msgid "Toggle navigation"
 msgstr ""
-"Да, выходи за меня замуж и я тебя обучу, но если ты научишь меня кое-чему "
-"взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Предложение "
-"действительно только для женского пола."
 
 #: common.php:122 blog/index.php:27
 msgid "Blog and news"
@@ -1142,15 +1230,24 @@ msgstr ""
 "электронном письме для входа в систему."
 
 #: new-domain.php:37
+#, fuzzy, php-format
+#| msgid ""
+#| "E-Mail users should also update their PGP key <a href=\"/mail/"
+#| "manage_account.php\" target=\"_blank\">in their account settings</a> to "
+#| "reflect the new domain and allow WKD clients to grab your key "
+#| "automatically."
 msgid ""
-"E-Mail users should also update their PGP key <a href=\"/mail/manage_account."
-"php\" target=\"_blank\">in their account settings</a> to reflect the new "
-"domain and allow WKD clients to grab your key automatically."
+"E-Mail users should also update their PGP key %s to reflect the new domain "
+"and allow WKD clients to grab your key automatically."
 msgstr ""
 "Пользователи электронной почты также должны обновить свой PGP-ключ <a href="
 "\"/mail/manage_account.php \" target =\"_blank\">в настройках своей учетной "
 "записи</a>, чтобы отразить новый домен и позволить клиентам WKD "
 "автоматически получать ваш ключ."
+
+#: new-domain.php:37
+msgid "in their account settings"
+msgstr ""
 
 #: new-domain.php:38
 msgid ""
@@ -1186,23 +1283,40 @@ msgstr ""
 "правоохранительные органы, захватывающие серверы."
 
 #: new-domain.php:42
+#, fuzzy, php-format
+#| msgid ""
+#| "I have taken the opportunity to create a <a href=\"/pgp.txt\" target="
+#| "\"_blank\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" "
+#| "target=\"_blank\">old PGP key</a>. This can be verified by running a "
+#| "command like this:"
 msgid ""
-"I have taken the opportunity to create a <a href=\"/pgp.txt\" target=\"_blank"
-"\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" target="
-"\"_blank\">old PGP key</a>. This can be verified by running a command like "
-"this:"
+"I have taken the opportunity to create a %1$s and signed it with my %2$s. "
+"This can be verified by running a command like this:"
 msgstr ""
 "Я воспользовался возможностью создать <a href=\"/pgp.txt \" target=\"_blank"
 "\">новый ключ PGP</a> и подписал его своим <a href=\"/old_pgp.txt \" target="
 "\"_blank\">старым ключом PGP</a>. Это можно проверить, выполнив команду, "
 "подобную этой:"
 
+#: new-domain.php:42
+msgid "new PGP key"
+msgstr ""
+
+#: new-domain.php:42
+msgid "old PGP key"
+msgstr ""
+
 #: new-domain.php:44
+#, fuzzy, php-format
+#| msgid ""
+#| "It should show proof that it is signed by my old key "
+#| "<code>F8B8CFC35FBDB40D</code>. I have also included signatures of "
+#| "previous keys on my old key, so you can even verify the key, in case you "
+#| "have an older key I was using before."
 msgid ""
-"It should show proof that it is signed by my old key <code>F8B8CFC35FBDB40D</"
-"code>. I have also included signatures of previous keys on my old key, so "
-"you can even verify the key, in case you have an older key I was using "
-"before."
+"It should show proof that it is signed by my old key %s. I have also "
+"included signatures of previous keys on my old key, so you can even verify "
+"the key, in case you have an older key I was using before."
 msgstr ""
 "В нем должно быть доказательство того, что он подписан моим старым ключом "
 "<code>F8B8CFC35FBDB40D</code>. Я также включил подписи предыдущих ключей на "
@@ -1219,12 +1333,17 @@ msgid "Daniel's Hosting - a former darknet web hosting service"
 msgstr ""
 
 #: hosting/index.php:28
+#, fuzzy, php-format
+#| msgid ""
+#| "In March 2020 a hacker deleted all databases related to my hosting, thus "
+#| "I was forced to shut down my hosting service. If you want to contribute "
+#| "or setup your own hosting, check out my open source project at <a href="
+#| "\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
+#| "\">https://github.com/DanWin/hosting</a>."
 msgid ""
 "In March 2020 a hacker deleted all databases related to my hosting, thus I "
 "was forced to shut down my hosting service. If you want to contribute or "
-"setup your own hosting, check out my open source project at <a href="
-"\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
-"\">https://github.com/DanWin/hosting</a>."
+"setup your own hosting, check out my open source project at %s."
 msgstr ""
 "В марте 2020-го мой сервер подвергся успешной хакерской атаке, в результате "
 "хакер удалил все базы данных связанные с моим хостингом, по этому я был "
@@ -1234,6 +1353,27 @@ msgstr ""
 "\"noopener\">https://github.com/DanWin/hosting</a>."
 
 #: hosting/index.php:29
+#, fuzzy, php-format
+#| msgid ""
+#| "Being a darknet hoster has taught me many things. However, this was a "
+#| "free time project I did next to my full time job and it's very time-"
+#| "consuming to try and keep the server clean from illegal and scammy sites. "
+#| "I've spent 10 times more time on deleting accounts than I could find time "
+#| "to continue development. At this time I do not plan on continuing the "
+#| "hosting project, but this doesn't have to be the end. There are other "
+#| "hosting providers like <a href=\"http://"
+#| "hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
+#| "\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+#| "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" target="
+#| "\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+#| "dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
+#| "\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
+#| "service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
+#| "\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
+#| "<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel="
+#| "\"noopener\">available for download</a>, which should enable anyone "
+#| "willing to become the next darknet shared hosting provider to start where "
+#| "I left of."
 msgid ""
 "Being a darknet hoster has taught me many things. However, this was a free "
 "time project I did next to my full time job and it's very time-consuming to "
@@ -1241,17 +1381,9 @@ msgid ""
 "times more time on deleting accounts than I could find time to continue "
 "development. At this time I do not plan on continuing the hosting project, "
 "but this doesn't have to be the end. There are other hosting providers like "
-"<a href=\"http://hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid."
-"onion/\" target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href="
-"\"http://q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
-"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-"service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-"\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is <a "
-"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
-"\">available for download</a>, which should enable anyone willing to become "
-"the next darknet shared hosting provider to start where I left of."
+"%1$s, %2$s, %3$s or a clearnet proxy service %4$s and my project is %5$s, "
+"which should enable anyone willing to become the next darknet shared hosting "
+"provider to start where I left of."
 msgstr ""
 "Работа хостером в даркнете дала мне огромнейший опыт, Это был проект которым "
 "я занимался в свободное время от основной работы, очень много времени уходит "
@@ -1271,6 +1403,10 @@ msgstr ""
 "\">свободной загрузки и использования</a>, это позволяет любому желающему "
 "стать поставщиком даркнет хостинга и продолжить с того места, на котором "
 "остановился я."
+
+#: hosting/index.php:29
+msgid "available for download"
+msgstr ""
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
@@ -1595,7 +1731,7 @@ msgid "After 9 years, I'm shutting down the chat for good."
 msgstr "Спустя девять лет, я вынужден закрыть свой чат навсегда."
 
 #: chat/index.php:29
-#, fuzzy
+#, fuzzy, php-format
 #| msgid ""
 #| "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
 #| "cat=2\">my onion link list</a>. If you are interested in running a "
@@ -1604,8 +1740,7 @@ msgstr "Спустя девять лет, я вынужден закрыть с�
 #| "\"noopener noreferrer\">GitHub</a>."
 msgid ""
 "If you are interested in running a similar chat community, you can download "
-"my chat script on <a href=\"https://github.com/DanWin/le-chat-php\" target="
-"\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
+"my chat script on %s."
 msgstr ""
 "Но не отчаивайтесь, вы можете найти другие чаты, в этом списке <a href="
 "\"https://onions.danwin1210.de/?cat=2\">список Tor сайтов</a>. Вы также "
@@ -1694,18 +1829,9 @@ msgid ""
 msgstr ""
 
 #: blog/onion-link-list-shutdown/index.php:30
-#, fuzzy
-#| msgid ""
-#| "You can download and/or contribute to my various open-source projects on "
-#| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-#| "noreferrer\">GitHub</a>."
-msgid ""
-"You can find an alternative link list at for example <a href=\"https://ahmia."
-"fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmia</a>."
+#, php-format
+msgid "You can find an alternative link list at for example %s."
 msgstr ""
-"Вы также можете скачать и/или внести свой вклад в мои различные проекты с "
-"открытым исходным кодом на <a href=\"https://github.com/DanWin/\" target="
-"\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 #, fuzzy
@@ -1752,12 +1878,6 @@ msgstr "Март 2020"
 #: blog/index.php:34
 msgid "Hosting service shutdown due to hack"
 msgstr "Отключение хостинга из-за взлома"
-
-#: tutorials/get-rich-fast/index.php:6 tutorials/get-rich-fast/index.php:23
-#: tutorials/get-rich-fast/index.php:33 tutorials/get-rich-fast/index.php:35
-#: tutorials/index.php:32
-msgid "How to get rich (fast)"
-msgstr "Как быстро разбогатеть"
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
 #: tutorials/index.php:32
@@ -2031,10 +2151,22 @@ msgid "(Save 50€ on your first investment with the code \"%s\")"
 msgstr ""
 
 #: tutorials/get-rich-fast/index.php:94
-msgid "Passive income"
+#, php-format
+msgid ""
+"I have a referral code available for most of these platforms, but cannot "
+"share them in public. If you are really intered and want to save a little on "
+"your first investment, %s."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:94
+msgid "ask me for a referral"
 msgstr ""
 
 #: tutorials/get-rich-fast/index.php:95
+msgid "Passive income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:96
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
@@ -2056,14 +2188,23 @@ msgid "Various tutorials provided by Daniel Winzen"
 msgstr ""
 
 #: tutorials/index.php:28
+#, fuzzy, php-format
+#| msgid ""
+#| "Here I upload tutorials that have been asked for a number of times. If "
+#| "you have suggestions on how to improve a tutorial or want me to make one "
+#| "another one, you can <a href=\"/contact.php\">contact me here</a>."
 msgid ""
 "Here I upload tutorials that have been asked for a number of times. If you "
 "have suggestions on how to improve a tutorial or want me to make one another "
-"one, you can <a href=\"/contact.php\">contact me here</a>."
+"one, you can %s."
 msgstr ""
 "Здесь я размещаю учебные пособия о которых меня просили. Если у вас есть "
 "предложение как улучшить пособие или вы хотите чтобы я сделал еще одно, вы "
 "можете <a href=\"/contact.php\">связаться со мной здесь</a>."
+
+#: tutorials/index.php:28
+msgid "contact me here"
+msgstr ""
 
 #: tutorials/index.php:30
 msgid "Name"
@@ -2309,22 +2450,21 @@ msgid "Addressing platform-generated invoices"
 msgstr ""
 
 #: tutorials/self-employed/index.php:43
+#, php-format
 msgid ""
 "German invoicing requirements are more strict than in some other countries. "
 "This, unfortunately, means, that invoices in your name, generated by foreign "
 "platforms, may not be considered valid in Germany. If you are using "
-"platforms such as <a href=\"https://www.upwork.com\" target=\"_blank\" rel="
-"\"noopener noreferrer\">Upwork</a> or <a href=\"https://www.fiverr.com/\" "
-"target=\"_blank\" rel=\"noopener noreferrer\">Fiverr</a>, you should create "
-"your invoices in addition to the ones generated by the platform. This "
-"applies especially if you are required to account for VAT, which is often "
-"not handled correctly by these platforms. If you are from Europe, and your "
-"customer is from the same country as you, you should get an agreement with "
-"them, that you send them separately an invoice with the correctly accounted "
-"VAT, which they will pay directly to you, while the primary task is paid "
-"over the platform you are using. This is only fair to the platform, and you "
-"avoid having to deal with invalid invoices, that would require you to deduct "
-"the missing VAT from your income."
+"platforms such as %1$s or %2$s, you should create your invoices in addition "
+"to the ones generated by the platform. This applies especially if you are "
+"required to account for VAT, which is often not handled correctly by these "
+"platforms. If you are from Europe, and your customer is from the same "
+"country as you, you should get an agreement with them, that you send them "
+"separately an invoice with the correctly accounted VAT, which they will pay "
+"directly to you, while the primary task is paid over the platform you are "
+"using. This is only fair to the platform, and you avoid having to deal with "
+"invalid invoices, that would require you to deduct the missing VAT from your "
+"income."
 msgstr ""
 
 #: tutorials/self-employed/index.php:44
@@ -2391,10 +2531,9 @@ msgstr ""
 msgid ""
 "While it is possible to mix business and personal finances on your bank "
 "account, it is highly advisable to have a separate business account, such as "
-"<a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer noopener\">Finom</a>, to "
-"keep a better overview of your finances and so you don't have to share your "
-"personal transactions with tax advisors or an auditor. You can freely send "
-"money back and forth between your personal and business accounts."
+"%1$s, to keep a better overview of your finances and so you don't have to "
+"share your personal transactions with tax advisors or an auditor. You can "
+"freely send money back and forth between your personal and business accounts."
 msgstr ""
 
 #: tutorials/self-employed/index.php:52
@@ -2405,15 +2544,20 @@ msgid ""
 "payments yourself. You should make sure that you save enough money to pay "
 "taxes. Each time you pay yourself from your business account, send an amount "
 "equivalent to your estimated income tax to a separate savings account. You "
-"can use an <a href=\"%1$s\" target=\"_blank\" rel=\"noreferrer noopener"
-"\">online income tax calculator</a> to check how much you should keep aside. "
-"Given that low and even negative interest rates are the norm, it is best to "
-"look for a fixed deposit account, or a bank account with high-interest "
-"rates, to keep your savings safe and earn a little with it. I use <a href="
-"\"%2$s\" target=\"_blank\" rel=\"noreferrer noopener\">C24 Bank</a> for this "
-"purpose, as they are offering up to 4%% interest rate. To find the right "
-"account for your, you can <a href=\"%3$s\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">compare bank accounts here</a>."
+"can use an %1$s to check how much you should keep aside. Given that low and "
+"even negative interest rates are the norm, it is best to look for a fixed "
+"deposit account, or a bank account with high-interest rates, to keep your "
+"savings safe and earn a little with it. I use %2$s for this purpose, as they "
+"are offering up to 4%% interest rate. To find the right account for your, "
+"you can %3$s."
+msgstr ""
+
+#: tutorials/self-employed/index.php:52
+msgid "online income tax calculator"
+msgstr ""
+
+#: tutorials/self-employed/index.php:52
+msgid "compare bank accounts here"
 msgstr ""
 
 #: tutorials/self-employed/index.php:53
@@ -2428,9 +2572,12 @@ msgid ""
 "low contributions to public insurance, but if your business is going well "
 "and your earnings are high, your health insurance expenses will go up "
 "significantly. Thus it makes sense to opt for private insurance instead, as "
-"these usually have a fixed pricing based on your age and health. You can <a "
-"href=\"%s\" target=\"_blank\" rel=\"noreferrer noopener\">compare insurance "
-"on Check24</a> or similar platforms to find one that suits your needs."
+"these usually have a fixed pricing based on your age and health. You can %s "
+"or similar platforms to find one that suits your needs."
+msgstr ""
+
+#: tutorials/self-employed/index.php:54
+msgid "compare insurance on Check24"
 msgstr ""
 
 #: tutorials/self-employed/index.php:55
@@ -2567,12 +2714,16 @@ msgid ""
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:36
+#, fuzzy, php-format
+#| msgid ""
+#| "This tutorial will show you how to torify FTP clients in the example of "
+#| "FileZilla and WinSCP."
 msgid ""
-"This tutorial will show you how to torify FTP clients in the example of <a "
-"href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
+"This tutorial will show you how to torify FTP clients in the example of %1$s "
+"and %2$s."
 msgstr ""
-"В этом руководстве показано, как настроить torify FTP-клиентов на примере "
-"<ahref=\"#filezilla\">FileZilla</a> и <a href=\"#winscp\">WinSCP</a>."
+"В этом руководстве вы узнаете, как настроить torify FTP-клиентов на примере "
+"FileZilla и WinSCP."
 
 #: tutorials/torify-ftp/index.php:37
 msgid ""
@@ -2592,10 +2743,12 @@ msgid "1. FileZilla"
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:43
-msgid ""
-"If you haven't installed FileZilla yet, you can <a href=\"https://filezilla-"
-"project.org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">download FileZilla here</a>."
+#, php-format
+msgid "If you haven't installed FileZilla yet, you can %s."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:43
+msgid "download FileZilla here"
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:49
@@ -2634,10 +2787,8 @@ msgid "2. WinSCP"
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:75
-msgid ""
-"If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
-"eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer\">download "
-"WinSCP here</a>."
+#, php-format
+msgid "If you haven't installed WinSCP yet, you can %s."
 msgstr ""
 
 #: tutorials/torify-ftp/index.php:80
@@ -2742,9 +2893,12 @@ msgstr ""
 #, php-format
 msgid ""
 "If you are curious to try this fetish out or would like to thank me, you can "
-"donate or buy me an item from my <a href=\"%s\" target=\"_blank\" rel="
-"\"noreferrer noopener\">Amazon wishlist</a>. For a more long-term "
-"experience, see the links below."
+"donate or buy me an item from my %s. For a more long-term experience, see "
+"the links below."
+msgstr ""
+
+#: tutorials/findom/index.php:45
+msgid "Amazon wishlist"
 msgstr ""
 
 #: tutorials/findom/index.php:46
@@ -2764,6 +2918,76 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#~ msgid ""
+#~ "If there are any further questions, feel free to <a href=\"/contact.php"
+#~ "\">contact me</a>."
+#~ msgstr ""
+#~ "Если есть какие-либо дополнительные вопросы, не стесняйтесь <a href=\"/"
+#~ "contact.php \">свяжитесь со мной</a>."
+
+#~ msgid ""
+#~ "I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
+#~ "\">Privacy Policy</a>"
+#~ msgstr ""
+#~ "Я прочитал и согласен с <a href=\"/privacy.php \" target=\"_blank"
+#~ "\">Политикой конфиденциальности</a>"
+
+#~ msgid "I found an illegal link/content on your site, can you remove it?"
+#~ msgstr ""
+#~ "Я нашел незаконную ссылку/контент на вашем сайте, можете ли вы удалить ее?"
+
+#, php-format
+#~ msgid ""
+#~ "Yes, please <a href=\"%s\">report it</a> and I will remove it as soon as "
+#~ "possible."
+#~ msgstr ""
+#~ "Да, конечно, <a href=\"%s\">свяжитесь со мной</a>, и я займусь удалением, "
+#~ "как только смогу."
+
+#~ msgid ""
+#~ "PGP is an encryption program, that can be used to encrypt or sign emails "
+#~ "and files. <a href=\"https://en.wikipedia.org/wiki/Pretty_Good_Privacy\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">More info in this Wikipedia "
+#~ "article</a>."
+#~ msgstr ""
+#~ "PGP - это программа шифрования, которую можно использовать для шифрования "
+#~ "или подписи электронных писем и файлов. <a href=\"https://ru.wikipedia."
+#~ "org/wiki/PGP\" target=\"_blank\" rel=\"noopener noreferrer\">Больше "
+#~ "информации вы можете узнать в Википедии</a>."
+
+#, php-format
+#~ msgid "Feel free, to <a href=\"%s\">contact me</a>."
+#~ msgstr "Вы можете <a href=\"%s\">связаться со мной</a>."
+
+#~ msgid ""
+#~ "Yes, marry me and I might actually do that. But only if you teach me "
+#~ "something in return. <a href=\"contact.php\">Send me your proposals</a>. "
+#~ "Sorry guys, only considering females."
+#~ msgstr ""
+#~ "Да, выходи за меня замуж и я тебя обучу, но если ты научишь меня кое-чему "
+#~ "взамен. <a href=\"contact.php\">Жду ваших предложений</a>. Предложение "
+#~ "действительно только для женского пола."
+
+#, fuzzy
+#~| msgid ""
+#~| "You can download and/or contribute to my various open-source projects on "
+#~| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~| "noreferrer\">GitHub</a>."
+#~ msgid ""
+#~ "You can find an alternative link list at for example <a href=\"https://"
+#~ "ahmia.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmia</a>."
+#~ msgstr ""
+#~ "Вы также можете скачать и/или внести свой вклад в мои различные проекты с "
+#~ "открытым исходным кодом на <a href=\"https://github.com/DanWin/\" target="
+#~ "\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
+
+#~ msgid ""
+#~ "This tutorial will show you how to torify FTP clients in the example of "
+#~ "<a href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
+#~ msgstr ""
+#~ "В этом руководстве показано, как настроить torify FTP-клиентов на примере "
+#~ "<ahref=\"#filezilla\">FileZilla</a> и <a href=\"#winscp\">WinSCP</a>."
 
 #, fuzzy
 #~| msgid "Onion link list"
