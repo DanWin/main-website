@@ -105,9 +105,9 @@ function menu(string $title = ''): void
 {
 	global $global_style, $language;
 	echo "<style>$global_style</style>";
-	echo "<header><h1>$title</h1></header>";
+	echo '<header><h1>'.htmlspecialchars($title).'</h1></header>';
 	echo '<details id="menu">';
-	echo '<summary class="burger_nav" aria-label="Toggle navigation" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
+	echo '<summary class="burger_nav" aria-label="'.htmlspecialchars(_('Toggle navigation')).'" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
 	echo '<nav>';
 	if(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.de$/', $_SERVER['HTTP_HOST'])){
 		$host='https://danwin1210.de';
@@ -118,16 +118,16 @@ function menu(string $title = ''): void
 	}else{
 		$host='http://edk3pz64esvpy6bqpjtlqat3h7unwzxmvrrhjeg2ab43d6zfkzpa.b32.i2p';
 	}
-	echo "<a href=\"$host/\">"._('Home').'</a>';
-	echo "<a href=\"$host/blog/\">"._('Blog and news').'</a>';
-	echo "<a href=\"$host/mail/\">"._('E-Mail + XMPP').'</a>';
-	echo "<a href=\"$host/tutorials/\">"._('Tutorials').'</a>';
-	echo "<a href=\"$host/github-ipv6-proxy.php\">"._('GitHub IPv6 proxy').'</a>';
-	echo "<a href=\"$host/faq.php\">"._('FAQ').'</a>';
-	echo "<a href=\"$host/about.php\">"._('About').'</a>';
-	echo "<a href=\"$host/contact.php\">"._('Contact').'</a>';
-	echo "<a href=\"$host/privacy.php\">"._('Privacy').'</a>';
-	echo "<a href=\"$host/imprint.php\">"._('Imprint').'</a>';
+	echo "<a href=\"$host/\">".htmlspecialchars(_('Home')).'</a>';
+	echo "<a href=\"$host/blog/\">".htmlspecialchars(_('Blog and news')).'</a>';
+	echo "<a href=\"$host/mail/\">".htmlspecialchars(_('E-Mail + XMPP')).'</a>';
+	echo "<a href=\"$host/tutorials/\">".htmlspecialchars(_('Tutorials')).'</a>';
+	echo "<a href=\"$host/github-ipv6-proxy.php\">".htmlspecialchars(_('GitHub IPv6 proxy')).'</a>';
+	echo "<a href=\"$host/faq.php\">".htmlspecialchars(_('FAQ')).'</a>';
+	echo "<a href=\"$host/about.php\">".htmlspecialchars(_('About')).'</a>';
+	echo "<a href=\"$host/contact.php\">".htmlspecialchars(_('Contact')).'</a>';
+	echo "<a href=\"$host/privacy.php\">".htmlspecialchars(_('Privacy')).'</a>';
+	echo "<a href=\"$host/imprint.php\">".htmlspecialchars(_('Imprint')).'</a>';
 	echo '</nav>';
 	echo '</details>';
 	echo '<details id="language">';
@@ -136,9 +136,9 @@ function menu(string $title = ''): void
 		if($lang === $language || !$data['show_in_menu']){
 			continue;
 		}
-		echo '<div><a href="?lang='.$lang.'" title="'.$data['name'].'">'.$data['flag'].'</a></div>';
+		echo '<div><a href="?lang='.$lang.'" title="'.htmlspecialchars($data['name']).'">'.$data['flag'].'</a></div>';
 	}
-	echo '<div><a target="_blank" rel="noopener noreferrer" href="https://github.com/DanWin/main-website/#translation" title="'._('Add translation').'">+</a></div>';
+	echo '<div><a target="_blank" rel="noopener noreferrer" href="https://github.com/DanWin/main-website/#translation" title="'.htmlspecialchars(_('Add translation')).'">+</a></div>';
 	echo '</details>';
 	echo '<main>';
 }
