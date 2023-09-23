@@ -61,5 +61,7 @@ global $language, $dir, $locale;
     <tr><td><a href="https://www.hetzner.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Hetzner Online GmbH</a></td><td><?php echo htmlspecialchars(_('Providing server infrastructure and backup storage')); ?></td></tr>
     <tr><td><a href="https://www.hosting.de/ueber-uns/datenschutz/" target="_blank" rel="noopener noreferrer">hosting.de GmbH</a></td><td><?php echo htmlspecialchars(_('Providing server infrastructure')); ?></td></tr>
 </table>
+<h2><?php echo htmlspecialchars(_('9. Warrant canary')); ?></h2>
+<p><?php printf(htmlspecialchars(_('To make sure your data is safe and I am still in controll of my server, you can verify my %1$s with my %2$s.')), '<a href="/canary.txt" target="_blank">'.htmlspecialchars(_('warrant canary')).'</a>', '<a href="/pgp.txt" target="_blank">'.htmlspecialchars(_('PGP key')).'</a>'); ?></p>
 </main>
 </body></html>
