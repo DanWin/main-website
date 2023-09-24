@@ -33,6 +33,7 @@ global $language, $dir, $locale;
 <div class="row"><div class="cell"><a href="successful-sugar-dating/"><?php echo htmlspecialchars(_('How to have a successful sugar dating relationship')); ?></a></div><div class="cell"><?php echo htmlspecialchars(_('This tutorial will guide you in finding a sugar relationship.')); ?></div></div>
 <div class="row"><div class="cell"><a href="findom/"><?php echo htmlspecialchars(_('Earning money with findom')); ?></a></div><div class="cell"><?php echo htmlspecialchars(_('This tutorial will show you how you can use findom to earn money.')); ?></div></div>
 <div class="row"><div class="cell"><a href="self-employed/"><?php echo htmlspecialchars(_('Becoming self-employed')); ?></a></div><div class="cell"><?php echo htmlspecialchars(_('This article offers valuable guidance to help you embark on your journey as a self-employed individual.')); ?></div></div>
+<div class="row"><div class="cell"><a href="content-creation/"><?php echo htmlspecialchars(_('Turning passion into profit as a content creator')); ?></a></div><div class="cell"><?php echo htmlspecialchars(_('This comprehensive guide helps you learn about turning your passion into profit as an online content creator.')); ?></div></div>
 </div>
 </main>
 </body></html>
