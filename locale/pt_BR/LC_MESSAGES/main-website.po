@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-24 21:22+0200\n"
+"POT-Creation-Date: 2023-09-28 18:30+0200\n"
 "PO-Revision-Date: 2023-02-15 18:45-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -2936,6 +2936,7 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
+#: tutorials/content-creation/index.php:74
 msgid "Twitch"
 msgstr ""
 
@@ -2952,31 +2953,31 @@ msgstr ""
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:62
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:76
 msgid "Instagram"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:62
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:76
 msgid "TikTok"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:76
 msgid "OnlyFans"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:76
 msgid "Fansly"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:76
 msgid "Patreon"
 msgstr ""
 
@@ -3318,10 +3319,43 @@ msgid "Blogger"
 msgstr ""
 
 #: tutorials/content-creation/index.php:73
-msgid "Promoting paid content on social media"
+msgid "Becoming a live streamer"
 msgstr ""
 
 #: tutorials/content-creation/index.php:74
+#, php-format
+msgid ""
+"Becoming a live streamer is an exciting and dynamic way to engage with an "
+"online audience in real-time. This form of content creation involves "
+"broadcasting live videos on platforms such as %1$s, %2$s, %3$s or %4$s, "
+"where you can interact directly with your viewers. As a live streamer, you "
+"can choose to focus on a variety of niches, including gaming, music, "
+"education, fitness, or just casual chats. The key to successful live "
+"streaming lies in maintaining consistent schedules, creating engaging "
+"content, and fostering a community through active viewer interaction. "
+"Monetization strategies for live streaming include viewer donations, brand "
+"partnerships, ad revenue, and subscription-based models. As a live streamer, "
+"you have the opportunity to build a vibrant community around your passion "
+"while also earning income."
+msgstr ""
+
+#: tutorials/content-creation/index.php:74
+msgid "YouTube Live"
+msgstr ""
+
+#: tutorials/content-creation/index.php:74
+msgid "Tango Live"
+msgstr ""
+
+#: tutorials/content-creation/index.php:74
+msgid "BIGO Live"
+msgstr ""
+
+#: tutorials/content-creation/index.php:75
+msgid "Promoting paid content on social media"
+msgstr ""
+
+#: tutorials/content-creation/index.php:76
 #, php-format
 msgid ""
 "Paid content platforms like %1$s, %2$s and %3$s have become popular avenues "
@@ -3339,7 +3373,7 @@ msgid ""
 "direct messaging as a service."
 msgstr ""
 
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:76
 msgid "Telegram"
 msgstr ""
 
