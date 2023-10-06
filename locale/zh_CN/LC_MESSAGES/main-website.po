@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 18:30+0200\n"
+"POT-Creation-Date: 2023-10-06 19:34+0200\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -52,7 +52,7 @@ msgstr "丹尼尔温岑的头像"
 msgid "Daniel"
 msgstr "丹尼尔"
 
-#: imprint.php:27 common.php:130
+#: imprint.php:27 common.php:128
 msgid "Imprint"
 msgstr ""
 
@@ -106,93 +106,98 @@ msgstr ""
 "丹尼尔温岑的个人网站，一名网站开发者、一名系统工程师以及一位网络安全专家 爱好"
 "者"
 
-#: index.php:27 common.php:121
+#: index.php:27 common.php:119
 msgid "Home"
 msgstr "首页"
 
 #: index.php:28
-#, fuzzy, php-format
-#| msgid ""
-#| "Hello, my name is Daniel Winzen, a german web developer and system "
-#| "administrator. This is my personal website, that I develop in my free "
-#| "time. This site is available as <a href=\"http://"
-#| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
-#| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
-#| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
-#| "href=\"/about.php\">the about page</a>."
+#, php-format
 msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. This is my personal website, that I develop in my free time. "
-"This site is available as %1$s or via my clearnet proxy %2$s. To learn more "
-"about me and this site, check %3$s."
-msgstr ""
-"你们好，我的名字是丹尼尔温岑，一位德国网站开发者以及系统管理员。这是我在闲余"
-"时间开发的个人网站，这个网站可以通过<a href=\"http://"
-"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor隐藏服务"
-"</a>或是通过我的明网代理<a href=\"https://danwin1210.de\">danwin1210.de</a>进"
-"行访问。如果想要了解更多有关我和这个网站的信息，请阅读 <a href=\"/about.php"
-"\">“关于”页面</a>."
-
-#: index.php:28
-msgid "Tor hidden service"
+"Hello! I'm Daniel Winzen, a highly skilled German web developer and system "
+"administrator. With a deep passion for programming, server management, and "
+"cybersecurity, I offer a wide range of services tailored to your needs. My "
+"extensive experience and expertise enable me to adapt quickly to new "
+"challenges, ensuring top-notch solutions for every project. I offer a free "
+"and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
+"find my open-source projects on %4$s."
 msgstr ""
 
 #: index.php:28
-msgid "the about page"
-msgstr ""
-
-#: index.php:29
-#, fuzzy, php-format
-#| msgid ""
-#| "This is just the landing page. You can navigate to the pages that "
-#| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
-#| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
-#| "collection</a>, by clicking on the entries in the navigation bar on the "
-#| "left."
-msgid ""
-"This is just the landing page. You can navigate to the pages that interest "
-"you most, such as my free and anonymous %s, by clicking on the entries in "
-"the navigation bar on the left."
-msgstr ""
-"这只是该网站的首页。你可以探索你最感兴趣的别的页面，例如我的免费匿名<a href="
-"\"/mail/\">电子邮件服务</a>或<a href=\"https://onions.danwin1210.de\">Tor暗网"
-"链接收集</a>,请按下左上方的菜单。"
-
-#: index.php:29
 msgid "mail service"
 msgstr ""
 
-#: index.php:30
-#, fuzzy, php-format
-#| msgid ""
-#| "You can download and/or contribute to my various open-source projects on "
-#| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-#| "noreferrer\">GitHub</a>."
+#: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:123
+msgid "GitHub IPv6 proxy"
+msgstr "GitHub IPv6代理"
+
+#: index.php:28
+#, fuzzy
+#| msgid "Tutorials"
+msgid "tutorials"
+msgstr "教程"
+
+#: index.php:29
 msgid ""
-"You can download and/or contribute to my various open-source projects on %s."
+"I specialize in developing web applications in PHP, SQL, and JavaScript. "
+"Whether you need a WordPress website, a custom PHP application, or any other "
+"web project, I have the skills to bring your ideas to life. I excel in "
+"WordPress development, including WooCommerce, API connectors and custom "
+"plugins, ensuring seamless integration with your other services. Performance "
+"optimization is very important to me, and I can help you improve your "
+"website's loading speed and performance."
 msgstr ""
-"你可以下载或构建我的多个托管于GitHub的项目 <a href=\"https://github.com/"
-"DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
+
+#: index.php:30
+msgid ""
+"Managing Linux servers, web hostings, and email services is my forte. I have "
+"experience with various hosting providers and am proficient in working with "
+"hosting panels like Plesk and WHMCS. I can help you with configuring your "
+"business network infrastructure, and ensure optimal performance and "
+"security, so you can focus on running your business. That includes setting "
+"up firewalls, VPNs, routers, and other security measures to protect your "
+"data from unauthorized access."
+msgstr ""
 
 #: index.php:31
-#, fuzzy, php-format
-#| msgid ""
-#| "If you like, what I've built here, you can support me by donating via "
-#| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
-#| "contact.php\">contact me</a>."
+#, php-format
 msgid ""
-"If you like, what I've built here, you can support me by donating via "
-"Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
+"I'm %1$s and possess a deep understanding of cybersecurity threats. My "
+"continuous learning and passion for cybersecurity have been instrumental in "
+"my ability to safeguard online environments effectively. I'm constantly "
+"upgrading my skills and knowledge to stay ahead of the latest threats. I "
+"offer comprehensive cybersecurity solutions to safeguard your systems and "
+"data from potential threats. That includes both physical and digital "
+"security measures such as firewalls, anti-virus software, backups, password "
+"management, and more. I can also help you with incident response and "
+"recovery after a security breach."
 msgstr ""
-"如果你喜欢我所建立的服务，你可以通过捐助的方式来支持我。 Monero: %1$s "
-"Bitcoin: %2$s . 如果希望有更多捐助方式 <a href=\"/contact.php\">联系我</a>."
 
-#: index.php:31 github-ipv6-proxy.php:102 faq.php:26 faq.php:59
-#: chat/index.php:32
+#: index.php:31 about.php:41
+msgid "Certified in Cybersecurity"
+msgstr ""
+
+#: index.php:32
+#, php-format
+msgid ""
+"I'd be happy to answer any questions you may have and look forward to "
+"working with you. %1$s to discuss your project and turn your vision to life!"
+msgstr ""
+
+#: index.php:32
+msgid "Get in touch with me"
+msgstr ""
+
+#: index.php:33
+#, php-format
+msgid "To learn more about me, check out my %1$s,"
+msgstr ""
+
+#: index.php:33
 #, fuzzy
-#| msgid "Contact"
-msgid "contact me"
-msgstr "联系我"
+#| msgid "About me"
+msgid "About page"
+msgstr "关于我"
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
@@ -204,7 +209,7 @@ msgid ""
 "this site"
 msgstr "关于网站开发者、系统管理员以及隐私爱好者丹尼尔温岑和这个网站"
 
-#: about.php:29 common.php:127
+#: about.php:29 common.php:125
 msgid "About"
 msgstr "关于"
 
@@ -265,10 +270,6 @@ msgid ""
 "of gaining access to the internet, even when the timer already expired. Thus "
 "I was learning about hacking, darknet and network security at a very early "
 "age."
-msgstr ""
-
-#: about.php:41
-msgid "Certified in Cybersecurity"
 msgstr ""
 
 #: about.php:42
@@ -470,11 +471,6 @@ msgid ""
 "takes regular snapshots, ensuring recoverability in case of backup failures."
 msgstr ""
 
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:125
-msgid "GitHub IPv6 proxy"
-msgstr "GitHub IPv6代理"
-
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
 "GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
@@ -579,6 +575,12 @@ msgstr "这个服务已经完成了，可正常使用。"
 msgid "If there are any further questions, %s."
 msgstr ""
 
+#: github-ipv6-proxy.php:102 faq.php:26 faq.php:59 chat/index.php:32
+#, fuzzy
+#| msgid "Contact"
+msgid "contact me"
+msgstr "联系我"
+
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
 msgstr "丹尼尔 - 联系"
@@ -587,7 +589,7 @@ msgstr "丹尼尔 - 联系"
 msgid "Contact Daniel Winzen"
 msgstr "联系丹尼尔温岑"
 
-#: contact.php:27 common.php:128
+#: contact.php:27 common.php:126
 msgid "Contact"
 msgstr "联系我"
 
@@ -1014,31 +1016,31 @@ msgstr "问题"
 msgid "Answer"
 msgstr "答案"
 
-#: common.php:110
+#: common.php:108
 msgid "Toggle navigation"
 msgstr ""
 
-#: common.php:122 blog/index.php:27
+#: common.php:120 blog/index.php:27
 msgid "Blog and news"
 msgstr ""
 
-#: common.php:123
+#: common.php:121
 msgid "E-Mail + XMPP"
 msgstr "电子邮箱 + XMPP"
 
-#: common.php:124 tutorials/index.php:27
+#: common.php:122 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "教程"
 
-#: common.php:126
+#: common.php:124
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:129
+#: common.php:127
 msgid "Privacy"
 msgstr "隐私条款"
 
-#: common.php:141
+#: common.php:139
 msgid "Add translation"
 msgstr "添加翻译"
 
@@ -3141,6 +3143,69 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Hello, my name is Daniel Winzen, a german web developer and system "
+#~| "administrator. This is my personal website, that I develop in my free "
+#~| "time. This site is available as <a href=\"http://"
+#~| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+#~| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
+#~| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
+#~| "href=\"/about.php\">the about page</a>."
+#~ msgid ""
+#~ "Hello, my name is Daniel Winzen, a german web developer and system "
+#~ "administrator. This is my personal website, that I develop in my free "
+#~ "time. This site is available as %1$s or via my clearnet proxy %2$s. To "
+#~ "learn more about me and this site, check %3$s."
+#~ msgstr ""
+#~ "你们好，我的名字是丹尼尔温岑，一位德国网站开发者以及系统管理员。这是我在闲"
+#~ "余时间开发的个人网站，这个网站可以通过<a href=\"http://"
+#~ "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor隐藏服"
+#~ "务</a>或是通过我的明网代理<a href=\"https://danwin1210.de\">danwin1210."
+#~ "de</a>进行访问。如果想要了解更多有关我和这个网站的信息，请阅读 <a href=\"/"
+#~ "about.php\">“关于”页面</a>."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "This is just the landing page. You can navigate to the pages that "
+#~| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
+#~| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
+#~| "collection</a>, by clicking on the entries in the navigation bar on the "
+#~| "left."
+#~ msgid ""
+#~ "This is just the landing page. You can navigate to the pages that "
+#~ "interest you most, such as my free and anonymous %s, by clicking on the "
+#~ "entries in the navigation bar on the left."
+#~ msgstr ""
+#~ "这只是该网站的首页。你可以探索你最感兴趣的别的页面，例如我的免费匿名<a "
+#~ "href=\"/mail/\">电子邮件服务</a>或<a href=\"https://onions.danwin1210.de"
+#~ "\">Tor暗网链接收集</a>,请按下左上方的菜单。"
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "You can download and/or contribute to my various open-source projects on "
+#~| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~| "noreferrer\">GitHub</a>."
+#~ msgid ""
+#~ "You can download and/or contribute to my various open-source projects on "
+#~ "%s."
+#~ msgstr ""
+#~ "你可以下载或构建我的多个托管于GitHub的项目 <a href=\"https://github.com/"
+#~ "DanWin/\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "If you like, what I've built here, you can support me by donating via "
+#~| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
+#~| "contact.php\">contact me</a>."
+#~ msgid ""
+#~ "If you like, what I've built here, you can support me by donating via "
+#~ "Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
+#~ msgstr ""
+#~ "如果你喜欢我所建立的服务，你可以通过捐助的方式来支持我。 Monero: %1$s "
+#~ "Bitcoin: %2$s . 如果希望有更多捐助方式 <a href=\"/contact.php\">联系我</"
+#~ "a>."
 
 #~ msgid ""
 #~ "If there are any further questions, feel free to <a href=\"/contact.php"

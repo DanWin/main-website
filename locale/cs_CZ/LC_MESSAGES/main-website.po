@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 18:30+0200\n"
+"POT-Creation-Date: 2023-10-06 19:34+0200\n"
 "PO-Revision-Date: 2023-07-09 20:04+0000\n"
 "Last-Translator: Zdeněk Grůza <me@zgruza.me>\n"
 "Language-Team: Czech <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -52,7 +52,7 @@ msgstr "Avatar představující Daniela Winzena"
 msgid "Daniel"
 msgstr "Daniel"
 
-#: imprint.php:27 common.php:130
+#: imprint.php:27 common.php:128
 msgid "Imprint"
 msgstr ""
 
@@ -111,97 +111,98 @@ msgstr ""
 "Osobní webová stránka Daniela Winzena, webového vývojáře, správce systému a "
 "nadšence pro ochranu osobních údajů"
 
-#: index.php:27 common.php:121
+#: index.php:27 common.php:119
 msgid "Home"
 msgstr "Domů"
 
 #: index.php:28
-#, fuzzy, php-format
-#| msgid ""
-#| "Hello, my name is Daniel Winzen, a german web developer and system "
-#| "administrator. This is my personal website, that I develop in my free "
-#| "time. This site is available as <a href=\"http://"
-#| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
-#| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
-#| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
-#| "href=\"/about.php\">the about page</a>."
+#, php-format
 msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. This is my personal website, that I develop in my free time. "
-"This site is available as %1$s or via my clearnet proxy %2$s. To learn more "
-"about me and this site, check %3$s."
-msgstr ""
-"Ahoj, jmenuji se Daniel Winzen, německý webový vývojář a správce systému. "
-"Toto je můj osobní web, který vyvíjím ve svém volném čase. Tato stránka je "
-"dostupná jako <a href=\"http://"
-"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">skrytá "
-"služba Tor</a> nebo prostřednictvím mého clearnet proxy <a href=\"https://"
-"danwin1210.de\">danwin1210.de</a>. Chcete-li se o mně a této stránce "
-"dozvědět více, navštivte <a href=\"/about.php\">stránku o mně</a>."
-
-#: index.php:28
-msgid "Tor hidden service"
+"Hello! I'm Daniel Winzen, a highly skilled German web developer and system "
+"administrator. With a deep passion for programming, server management, and "
+"cybersecurity, I offer a wide range of services tailored to your needs. My "
+"extensive experience and expertise enable me to adapt quickly to new "
+"challenges, ensuring top-notch solutions for every project. I offer a free "
+"and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
+"find my open-source projects on %4$s."
 msgstr ""
 
 #: index.php:28
-msgid "the about page"
-msgstr ""
-
-#: index.php:29
-#, fuzzy, php-format
-#| msgid ""
-#| "This is just the landing page. You can navigate to the pages that "
-#| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
-#| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
-#| "collection</a>, by clicking on the entries in the navigation bar on the "
-#| "left."
-msgid ""
-"This is just the landing page. You can navigate to the pages that interest "
-"you most, such as my free and anonymous %s, by clicking on the entries in "
-"the navigation bar on the left."
-msgstr ""
-"Toto je pouze vstupní stránka. Můžete přejít na stránky, které vás nejvíce "
-"zajímají, jako je moje bezplatná a anonymní <a href=\"/mail/\">e-mailová "
-"služba</a> a <a href=\"https://onions.danwin1210.de\"> Tor kolekce darknet "
-"odkazů</a> nebo kliknutím na položky v navigační liště vlevo."
-
-#: index.php:29
 msgid "mail service"
 msgstr ""
 
-#: index.php:30
-#, fuzzy, php-format
-#| msgid ""
-#| "You can download and/or contribute to my various open-source projects on "
-#| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-#| "noreferrer\">GitHub</a>."
+#: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:123
+msgid "GitHub IPv6 proxy"
+msgstr "GitHub IPv6 proxy"
+
+#: index.php:28
+#, fuzzy
+#| msgid "Tutorials"
+msgid "tutorials"
+msgstr "Tutoriály"
+
+#: index.php:29
 msgid ""
-"You can download and/or contribute to my various open-source projects on %s."
+"I specialize in developing web applications in PHP, SQL, and JavaScript. "
+"Whether you need a WordPress website, a custom PHP application, or any other "
+"web project, I have the skills to bring your ideas to life. I excel in "
+"WordPress development, including WooCommerce, API connectors and custom "
+"plugins, ensuring seamless integration with your other services. Performance "
+"optimization is very important to me, and I can help you improve your "
+"website's loading speed and performance."
 msgstr ""
-"Na <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">GitHubu</a> si můžete stáhnout a/nebo přispívat do mých různých "
-"open-source projektů."
+
+#: index.php:30
+msgid ""
+"Managing Linux servers, web hostings, and email services is my forte. I have "
+"experience with various hosting providers and am proficient in working with "
+"hosting panels like Plesk and WHMCS. I can help you with configuring your "
+"business network infrastructure, and ensure optimal performance and "
+"security, so you can focus on running your business. That includes setting "
+"up firewalls, VPNs, routers, and other security measures to protect your "
+"data from unauthorized access."
+msgstr ""
 
 #: index.php:31
-#, fuzzy, php-format
-#| msgid ""
-#| "If you like, what I've built here, you can support me by donating via "
-#| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
-#| "contact.php\">contact me</a>."
+#, php-format
 msgid ""
-"If you like, what I've built here, you can support me by donating via "
-"Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
+"I'm %1$s and possess a deep understanding of cybersecurity threats. My "
+"continuous learning and passion for cybersecurity have been instrumental in "
+"my ability to safeguard online environments effectively. I'm constantly "
+"upgrading my skills and knowledge to stay ahead of the latest threats. I "
+"offer comprehensive cybersecurity solutions to safeguard your systems and "
+"data from potential threats. That includes both physical and digital "
+"security measures such as firewalls, anti-virus software, backups, password "
+"management, and more. I can also help you with incident response and "
+"recovery after a security breach."
 msgstr ""
-"Pokud se vám líbí, co jsem zde vybudoval, můžete mě podpořit darováním přes "
-"Monero: %1$s nebo Bitcoin: %2$s . K dispozici jsou další možnosti, stačí mě "
-"<a href=\"/contact.php\">kontaktovat</a>."
 
-#: index.php:31 github-ipv6-proxy.php:102 faq.php:26 faq.php:59
-#: chat/index.php:32
+#: index.php:31 about.php:41
+msgid "Certified in Cybersecurity"
+msgstr ""
+
+#: index.php:32
+#, php-format
+msgid ""
+"I'd be happy to answer any questions you may have and look forward to "
+"working with you. %1$s to discuss your project and turn your vision to life!"
+msgstr ""
+
+#: index.php:32
+msgid "Get in touch with me"
+msgstr ""
+
+#: index.php:33
+#, php-format
+msgid "To learn more about me, check out my %1$s,"
+msgstr ""
+
+#: index.php:33
 #, fuzzy
-#| msgid "Contact"
-msgid "contact me"
-msgstr "Kontakt"
+#| msgid "About me"
+msgid "About page"
+msgstr "O mně"
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
@@ -215,7 +216,7 @@ msgstr ""
 "O webovém vývojáři, sysadminovi a nadšenci do soukromí Danielu Winzenovi a "
 "této stránce"
 
-#: about.php:29 common.php:127
+#: about.php:29 common.php:125
 msgid "About"
 msgstr "O mně"
 
@@ -278,10 +279,6 @@ msgid ""
 "of gaining access to the internet, even when the timer already expired. Thus "
 "I was learning about hacking, darknet and network security at a very early "
 "age."
-msgstr ""
-
-#: about.php:41
-msgid "Certified in Cybersecurity"
 msgstr ""
 
 #: about.php:42
@@ -492,11 +489,6 @@ msgid ""
 "takes regular snapshots, ensuring recoverability in case of backup failures."
 msgstr ""
 
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:125
-msgid "GitHub IPv6 proxy"
-msgstr "GitHub IPv6 proxy"
-
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
 "GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
@@ -611,6 +603,12 @@ msgstr ""
 msgid "If there are any further questions, %s."
 msgstr ""
 
+#: github-ipv6-proxy.php:102 faq.php:26 faq.php:59 chat/index.php:32
+#, fuzzy
+#| msgid "Contact"
+msgid "contact me"
+msgstr "Kontakt"
+
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
 msgstr "Daniel - Kontakt"
@@ -619,7 +617,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontakt Daniela Winzena"
 
-#: contact.php:27 common.php:128
+#: contact.php:27 common.php:126
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -1094,31 +1092,31 @@ msgstr "Otázka"
 msgid "Answer"
 msgstr "Odpověď"
 
-#: common.php:110
+#: common.php:108
 msgid "Toggle navigation"
 msgstr ""
 
-#: common.php:122 blog/index.php:27
+#: common.php:120 blog/index.php:27
 msgid "Blog and news"
 msgstr ""
 
-#: common.php:123
+#: common.php:121
 msgid "E-Mail + XMPP"
 msgstr "E-Mail + XMPP"
 
-#: common.php:124 tutorials/index.php:27
+#: common.php:122 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Tutoriály"
 
-#: common.php:126
+#: common.php:124
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:129
+#: common.php:127
 msgid "Privacy"
 msgstr "Soukromí"
 
-#: common.php:141
+#: common.php:139
 msgid "Add translation"
 msgstr "Přidat překlad"
 
@@ -3592,6 +3590,73 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Hello, my name is Daniel Winzen, a german web developer and system "
+#~| "administrator. This is my personal website, that I develop in my free "
+#~| "time. This site is available as <a href=\"http://"
+#~| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+#~| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
+#~| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
+#~| "href=\"/about.php\">the about page</a>."
+#~ msgid ""
+#~ "Hello, my name is Daniel Winzen, a german web developer and system "
+#~ "administrator. This is my personal website, that I develop in my free "
+#~ "time. This site is available as %1$s or via my clearnet proxy %2$s. To "
+#~ "learn more about me and this site, check %3$s."
+#~ msgstr ""
+#~ "Ahoj, jmenuji se Daniel Winzen, německý webový vývojář a správce systému. "
+#~ "Toto je můj osobní web, který vyvíjím ve svém volném čase. Tato stránka "
+#~ "je dostupná jako <a href=\"http://"
+#~ "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">skrytá "
+#~ "služba Tor</a> nebo prostřednictvím mého clearnet proxy <a href=\"https://"
+#~ "danwin1210.de\">danwin1210.de</a>. Chcete-li se o mně a této stránce "
+#~ "dozvědět více, navštivte <a href=\"/about.php\">stránku o mně</a>."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "This is just the landing page. You can navigate to the pages that "
+#~| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
+#~| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
+#~| "collection</a>, by clicking on the entries in the navigation bar on the "
+#~| "left."
+#~ msgid ""
+#~ "This is just the landing page. You can navigate to the pages that "
+#~ "interest you most, such as my free and anonymous %s, by clicking on the "
+#~ "entries in the navigation bar on the left."
+#~ msgstr ""
+#~ "Toto je pouze vstupní stránka. Můžete přejít na stránky, které vás "
+#~ "nejvíce zajímají, jako je moje bezplatná a anonymní <a href=\"/mail/\">e-"
+#~ "mailová služba</a> a <a href=\"https://onions.danwin1210.de\"> Tor "
+#~ "kolekce darknet odkazů</a> nebo kliknutím na položky v navigační liště "
+#~ "vlevo."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "You can download and/or contribute to my various open-source projects on "
+#~| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~| "noreferrer\">GitHub</a>."
+#~ msgid ""
+#~ "You can download and/or contribute to my various open-source projects on "
+#~ "%s."
+#~ msgstr ""
+#~ "Na <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
+#~ "\"noopener noreferrer\">GitHubu</a> si můžete stáhnout a/nebo přispívat "
+#~ "do mých různých open-source projektů."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "If you like, what I've built here, you can support me by donating via "
+#~| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
+#~| "contact.php\">contact me</a>."
+#~ msgid ""
+#~ "If you like, what I've built here, you can support me by donating via "
+#~ "Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
+#~ msgstr ""
+#~ "Pokud se vám líbí, co jsem zde vybudoval, můžete mě podpořit darováním "
+#~ "přes Monero: %1$s nebo Bitcoin: %2$s . K dispozici jsou další možnosti, "
+#~ "stačí mě <a href=\"/contact.php\">kontaktovat</a>."
 
 #~ msgid ""
 #~ "If there are any further questions, feel free to <a href=\"/contact.php"

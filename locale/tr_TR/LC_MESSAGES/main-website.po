@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 18:30+0200\n"
+"POT-Creation-Date: 2023-10-06 19:34+0200\n"
 "PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -48,7 +48,7 @@ msgstr "Daniel Winzen'i temsil eden bir avatar"
 msgid "Daniel"
 msgstr "Daniel Win"
 
-#: imprint.php:27 common.php:130
+#: imprint.php:27 common.php:128
 msgid "Imprint"
 msgstr "Künye"
 
@@ -108,98 +108,98 @@ msgstr ""
 "Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen'in "
 "kişisel web sitesi"
 
-#: index.php:27 common.php:121
+#: index.php:27 common.php:119
 msgid "Home"
 msgstr "Ev"
 
 #: index.php:28
-#, fuzzy, php-format
-#| msgid ""
-#| "Hello, my name is Daniel Winzen, a german web developer and system "
-#| "administrator. This is my personal website, that I develop in my free "
-#| "time. This site is available as <a href=\"http://"
-#| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
-#| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
-#| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
-#| "href=\"/about.php\">the about page</a>."
+#, php-format
 msgid ""
-"Hello, my name is Daniel Winzen, a german web developer and system "
-"administrator. This is my personal website, that I develop in my free time. "
-"This site is available as %1$s or via my clearnet proxy %2$s. To learn more "
-"about me and this site, check %3$s."
-msgstr ""
-"Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
-"yöneticisi. Bu benim boş zamanlarımda geliştirdiğim kişisel web sitem. Bu "
-"siteye <a href=\"http://"
-"danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor gizli "
-"hizmeti</a> olarak veya benim clearnet proxy'm <a href=\"https://danwin1210."
-"de\">danwin1210.de</a>aracılığıyla erişilebilir bir. Benim ve bu site "
-"hakkında daha fazla bilgi edinmek için <a href=\"/about.php\">hakkında "
-"sayfasını</a> kontrol edin."
-
-#: index.php:28
-msgid "Tor hidden service"
+"Hello! I'm Daniel Winzen, a highly skilled German web developer and system "
+"administrator. With a deep passion for programming, server management, and "
+"cybersecurity, I offer a wide range of services tailored to your needs. My "
+"extensive experience and expertise enable me to adapt quickly to new "
+"challenges, ensuring top-notch solutions for every project. I offer a free "
+"and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
+"find my open-source projects on %4$s."
 msgstr ""
 
 #: index.php:28
-msgid "the about page"
-msgstr ""
-
-#: index.php:29
-#, fuzzy, php-format
-#| msgid ""
-#| "This is just the landing page. You can navigate to the pages that "
-#| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
-#| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
-#| "collection</a>, by clicking on the entries in the navigation bar on the "
-#| "left."
-msgid ""
-"This is just the landing page. You can navigate to the pages that interest "
-"you most, such as my free and anonymous %s, by clicking on the entries in "
-"the navigation bar on the left."
-msgstr ""
-"Bu sadece açılış sayfası. Ücretsiz ve anonim <a href=\"/mail/\">posta "
-"hizmeti</a> veya <a href=\"https://onions.danwin1210.de\"> gibi sizi en çok "
-"ilgilendiren sayfalara gidebilirsiniz. Tor darknet bağlantı koleksiyonu</a>, "
-"soldaki gezinme çubuğundaki girişlere tıklayarak."
-
-#: index.php:29
 msgid "mail service"
 msgstr ""
 
-#: index.php:30
-#, fuzzy, php-format
-#| msgid ""
-#| "You can download and/or contribute to my various open-source projects on "
-#| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-#| "noreferrer\">GitHub</a>."
+#: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:123
+msgid "GitHub IPv6 proxy"
+msgstr "GitHub IPv6 proxy'si"
+
+#: index.php:28
+#, fuzzy
+#| msgid "Tutorials"
+msgid "tutorials"
+msgstr "Öğreticiler"
+
+#: index.php:29
 msgid ""
-"You can download and/or contribute to my various open-source projects on %s."
+"I specialize in developing web applications in PHP, SQL, and JavaScript. "
+"Whether you need a WordPress website, a custom PHP application, or any other "
+"web project, I have the skills to bring your ideas to life. I excel in "
+"WordPress development, including WooCommerce, API connectors and custom "
+"plugins, ensuring seamless integration with your other services. Performance "
+"optimization is very important to me, and I can help you improve your "
+"website's loading speed and performance."
 msgstr ""
-"<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">GitHub</a>'dan çeşitli açık kaynak projelerimi indirebilir ve/"
-"veya bunlara katkıda bulunabilirsiniz."
+
+#: index.php:30
+msgid ""
+"Managing Linux servers, web hostings, and email services is my forte. I have "
+"experience with various hosting providers and am proficient in working with "
+"hosting panels like Plesk and WHMCS. I can help you with configuring your "
+"business network infrastructure, and ensure optimal performance and "
+"security, so you can focus on running your business. That includes setting "
+"up firewalls, VPNs, routers, and other security measures to protect your "
+"data from unauthorized access."
+msgstr ""
 
 #: index.php:31
-#, fuzzy, php-format
-#| msgid ""
-#| "If you like, what I've built here, you can support me by donating via "
-#| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
-#| "contact.php\">contact me</a>."
+#, php-format
 msgid ""
-"If you like, what I've built here, you can support me by donating via "
-"Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
+"I'm %1$s and possess a deep understanding of cybersecurity threats. My "
+"continuous learning and passion for cybersecurity have been instrumental in "
+"my ability to safeguard online environments effectively. I'm constantly "
+"upgrading my skills and knowledge to stay ahead of the latest threats. I "
+"offer comprehensive cybersecurity solutions to safeguard your systems and "
+"data from potential threats. That includes both physical and digital "
+"security measures such as firewalls, anti-virus software, backups, password "
+"management, and more. I can also help you with incident response and "
+"recovery after a security breach."
 msgstr ""
-"Burada oluşturduklarımı beğenirseniz, Monero: %1$s veya Bitcoin: %2$s "
-"aracılığıyla bağışta bulunarak beni destekleyebilirsiniz. Daha fazla seçenek "
-"mevcut, sadece <a href=\"/contact.php\">benimle iletişime geçin</a>."
 
-#: index.php:31 github-ipv6-proxy.php:102 faq.php:26 faq.php:59
-#: chat/index.php:32
+#: index.php:31 about.php:41
+msgid "Certified in Cybersecurity"
+msgstr ""
+
+#: index.php:32
+#, php-format
+msgid ""
+"I'd be happy to answer any questions you may have and look forward to "
+"working with you. %1$s to discuss your project and turn your vision to life!"
+msgstr ""
+
+#: index.php:32
+msgid "Get in touch with me"
+msgstr ""
+
+#: index.php:33
+#, php-format
+msgid "To learn more about me, check out my %1$s,"
+msgstr ""
+
+#: index.php:33
 #, fuzzy
-#| msgid "Contact"
-msgid "contact me"
-msgstr "İletişim"
+#| msgid "About me"
+msgid "About page"
+msgstr "Benim hakkımda"
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
@@ -213,7 +213,7 @@ msgstr ""
 "Web geliştiricisi, sistem yöneticisi ve gizlilik meraklısı Daniel Winzen ve "
 "bu site hakkında"
 
-#: about.php:29 common.php:127
+#: about.php:29 common.php:125
 msgid "About"
 msgstr "Hakkında"
 
@@ -277,10 +277,6 @@ msgid ""
 "of gaining access to the internet, even when the timer already expired. Thus "
 "I was learning about hacking, darknet and network security at a very early "
 "age."
-msgstr ""
-
-#: about.php:41
-msgid "Certified in Cybersecurity"
 msgstr ""
 
 #: about.php:42
@@ -493,11 +489,6 @@ msgid ""
 "takes regular snapshots, ensuring recoverability in case of backup failures."
 msgstr ""
 
-#: github-ipv6-proxy.php:6 github-ipv6-proxy.php:20 github-ipv6-proxy.php:30
-#: github-ipv6-proxy.php:33 common.php:125
-msgid "GitHub IPv6 proxy"
-msgstr "GitHub IPv6 proxy'si"
-
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
 "GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
@@ -616,6 +607,12 @@ msgstr ""
 msgid "If there are any further questions, %s."
 msgstr ""
 
+#: github-ipv6-proxy.php:102 faq.php:26 faq.php:59 chat/index.php:32
+#, fuzzy
+#| msgid "Contact"
+msgid "contact me"
+msgstr "İletişim"
+
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
 msgstr "Daniel - İletişim"
@@ -624,7 +621,7 @@ msgstr "Daniel - İletişim"
 msgid "Contact Daniel Winzen"
 msgstr "Daniel Winzen ile iletişim kurun"
 
-#: contact.php:27 common.php:128
+#: contact.php:27 common.php:126
 msgid "Contact"
 msgstr "İletişim"
 
@@ -1101,31 +1098,31 @@ msgstr "Soru"
 msgid "Answer"
 msgstr "Cevap"
 
-#: common.php:110
+#: common.php:108
 msgid "Toggle navigation"
 msgstr ""
 
-#: common.php:122 blog/index.php:27
+#: common.php:120 blog/index.php:27
 msgid "Blog and news"
 msgstr ""
 
-#: common.php:123
+#: common.php:121
 msgid "E-Mail + XMPP"
 msgstr "E-posta + XMPP"
 
-#: common.php:124 tutorials/index.php:27
+#: common.php:122 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Öğreticiler"
 
-#: common.php:126
+#: common.php:124
 msgid "FAQ"
 msgstr "SSS"
 
-#: common.php:129
+#: common.php:127
 msgid "Privacy"
 msgstr "Mahremiyet"
 
-#: common.php:141
+#: common.php:139
 msgid "Add translation"
 msgstr "Çeviri ekle"
 
@@ -3664,6 +3661,74 @@ msgstr ""
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "Hello, my name is Daniel Winzen, a german web developer and system "
+#~| "administrator. This is my personal website, that I develop in my free "
+#~| "time. This site is available as <a href=\"http://"
+#~| "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+#~| "hidden service</a> or via my clearnet proxy <a href=\"https://danwin1210."
+#~| "de\">danwin1210.de</a>. To learn more about me and this site, check <a "
+#~| "href=\"/about.php\">the about page</a>."
+#~ msgid ""
+#~ "Hello, my name is Daniel Winzen, a german web developer and system "
+#~ "administrator. This is my personal website, that I develop in my free "
+#~ "time. This site is available as %1$s or via my clearnet proxy %2$s. To "
+#~ "learn more about me and this site, check %3$s."
+#~ msgstr ""
+#~ "Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
+#~ "yöneticisi. Bu benim boş zamanlarımda geliştirdiğim kişisel web sitem. Bu "
+#~ "siteye <a href=\"http://"
+#~ "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
+#~ "gizli hizmeti</a> olarak veya benim clearnet proxy'm <a href=\"https://"
+#~ "danwin1210.de\">danwin1210.de</a>aracılığıyla erişilebilir bir. Benim ve "
+#~ "bu site hakkında daha fazla bilgi edinmek için <a href=\"/about.php"
+#~ "\">hakkında sayfasını</a> kontrol edin."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "This is just the landing page. You can navigate to the pages that "
+#~| "interest you most, such as my free and anonymous <a href=\"/mail/\">mail "
+#~| "service</a> or <a href=\"https://onions.danwin1210.de\">Tor darknet link "
+#~| "collection</a>, by clicking on the entries in the navigation bar on the "
+#~| "left."
+#~ msgid ""
+#~ "This is just the landing page. You can navigate to the pages that "
+#~ "interest you most, such as my free and anonymous %s, by clicking on the "
+#~ "entries in the navigation bar on the left."
+#~ msgstr ""
+#~ "Bu sadece açılış sayfası. Ücretsiz ve anonim <a href=\"/mail/\">posta "
+#~ "hizmeti</a> veya <a href=\"https://onions.danwin1210.de\"> gibi sizi en "
+#~ "çok ilgilendiren sayfalara gidebilirsiniz. Tor darknet bağlantı "
+#~ "koleksiyonu</a>, soldaki gezinme çubuğundaki girişlere tıklayarak."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "You can download and/or contribute to my various open-source projects on "
+#~| "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~| "noreferrer\">GitHub</a>."
+#~ msgid ""
+#~ "You can download and/or contribute to my various open-source projects on "
+#~ "%s."
+#~ msgstr ""
+#~ "<a href=\"https://github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">GitHub</a>'dan çeşitli açık kaynak projelerimi indirebilir "
+#~ "ve/veya bunlara katkıda bulunabilirsiniz."
+
+#, fuzzy, php-format
+#~| msgid ""
+#~| "If you like, what I've built here, you can support me by donating via "
+#~| "Monero: %1$s or Bitcoin: %2$s . More options available, just <a href=\"/"
+#~| "contact.php\">contact me</a>."
+#~ msgid ""
+#~ "If you like, what I've built here, you can support me by donating via "
+#~ "Monero: %1$s or Bitcoin: %2$s . More options available, just %3$s."
+#~ msgstr ""
+#~ "Burada oluşturduklarımı beğenirseniz, Monero: %1$s veya Bitcoin: %2$s "
+#~ "aracılığıyla bağışta bulunarak beni destekleyebilirsiniz. Daha fazla "
+#~ "seçenek mevcut, sadece <a href=\"/contact.php\">benimle iletişime geçin</"
+#~ "a>."
 
 #~ msgid ""
 #~ "If there are any further questions, feel free to <a href=\"/contact.php"
