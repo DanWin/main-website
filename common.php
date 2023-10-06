@@ -1,6 +1,4 @@
 <?php
-const DONATE_XMR = '8AJ7wCCshe6Vni5VxQqDgR9VyghZx1ZTJP2gmpEBpi8S4ZbX91eBnGkdZbR1HBgS5pNSE2D7hKyYmDFcNRv26dA71wq7wqE';
-const DONATE_BTC = '1Ba8AV59YtqbKBe7YMopjY9kd1e5QqKdsv';
 const CONTACT_NAME = 'Daniel Winzen';
 const CONTACT_STREET = 'Steinkaulstraße 47';
 const CONTACT_ZIP = '52070';
