@@ -31,6 +31,9 @@ global $language, $dir, $locale;
 echo htmlspecialchars($_POST['name'] ?? '');
 ?>" autofocus></label><br>
 <div <?php echo empty($_POST['subject']) ? 'hidden' : ''; ?>><label><?php echo htmlspecialchars(_('Honeypot (do not fill anything):')); ?> <input type="text" name="subject" value="<?php echo htmlspecialchars($_POST['subject'] ?? ''); ?>"></label><br></div>
+<label><?php echo htmlspecialchars(_('Your email:')); ?> <br><input name="your_email" type="email" size="30" value="<?php
+echo htmlspecialchars($_POST['your_email'] ?? '');
+?>"></label><br>
 <label><?php echo htmlspecialchars(_('Subject:')); ?> <br><input name="real_subj" size="30" value="<?php
 echo htmlspecialchars($_POST['real_subj'] ?? '');
 ?>"></label><br>
@@ -60,6 +63,9 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
 	if(empty($_POST['msg'])){
 		$message.= _('You haven\'t entered a message yet.').'<br>';
 		$ok=false;
+	}
+	if(!empty($_POST['your_email'])){
+		$headers .= "Reply-To: $name <".filter_var($_POST['your_email'], FILTER_SANITIZE_EMAIL).">\r\n";
 	}
 	if(!empty($_POST['real_subj'])){
 		$subject="$_POST[real_subj]";
