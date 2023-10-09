@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-10-07 17:31+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-09 16:59+0200\n"
 "PO-Revision-Date: 2023-10-09 14:57+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -612,7 +612,7 @@ msgstr ""
 msgid "If there are any further questions, %s."
 msgstr "Bei weiteren Fragen %s."
 
-#: github-ipv6-proxy.php:102 faq.php:39 chat/index.php:32
+#: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
 msgid "contact me"
 msgstr "schreib mir"
 
@@ -684,7 +684,8 @@ msgstr "Nachricht erfolgreich gesendet!"
 #: contact.php:82
 #, php-format
 msgid "If you want to encrypt your message, you can use %s."
-msgstr "Wenn du deine Nachricht verschlüsseln möchtest, kannst du %s verwenden."
+msgstr ""
+"Wenn du deine Nachricht verschlüsseln möchtest, kannst du %s verwenden."
 
 #: contact.php:82
 msgid "my public PGP key"
@@ -697,7 +698,7 @@ msgstr ""
 "Wenn du lieber direkt mit mir in Kontakt treten möchtest, schreib mir eine E-"
 "Mail an %s."
 
-#: faq.php:6 faq.php:14 faq.php:24
+#: faq.php:6 faq.php:14
 msgid "Daniel - FAQ - Frequently Asked Questions"
 msgstr "Daniel - FAQ - Häufig gestellte Fragen"
 
@@ -709,11 +710,11 @@ msgstr ""
 "Eine Liste der häufig gestellten Fragen zu den Diensten die ich "
 "bereitstelle, und deren Antworten"
 
-#: faq.php:26
+#: faq.php:25
 msgid "FAQ - Frequently Asked Questions"
 msgstr "FAQ - Häufig gestellte Fragen"
 
-#: faq.php:27
+#: faq.php:26
 msgid ""
 "Here you have a list of frequently asked questions regarding the services I "
 "provide and their answers."
@@ -721,19 +722,19 @@ msgstr ""
 "Hier hast du eine Liste der häufig gestellten Fragen zu den Diensten die ich "
 "bereitstelle, und deren Antworten."
 
-#: faq.php:30
+#: faq.php:29
 msgid "Question"
 msgstr "Frage"
 
-#: faq.php:31
+#: faq.php:30
 msgid "Answer"
 msgstr "Antwort"
 
-#: faq.php:34
+#: faq.php:33
 msgid "What is PGP?"
 msgstr "Was ist PGP?"
 
-#: faq.php:35
+#: faq.php:34
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files."
@@ -741,17 +742,17 @@ msgstr ""
 "PGP ist ein Verschlüsselungsprogramm, das verwendet werden kann, um E-Mails "
 "und Dateien zu verschlüsseln oder zu signieren."
 
-#: faq.php:35
+#: faq.php:34
 msgid "More info in this Wikipedia article"
 msgstr "Mehr Infos in diesem Wikipedia-Artikel"
 
-#: faq.php:38
+#: faq.php:37
 msgid "I have an idea how to make your site better, can you add feature xyz?"
 msgstr ""
 "Ich habe eine Idee, wie du deine Seite besser machen kannst. Kannst du "
 "Funktion xyz hinzufügen?"
 
-#: faq.php:39
+#: faq.php:38
 #, php-format
 msgid ""
 "Yes, please %s and I may add it on my ToDo list. It might take a while until "
@@ -760,7 +761,7 @@ msgstr ""
 "Ja, bitte %s und vielleicht füge ich es meiner Todo-Liste hinzu. Es könnte "
 "aber eine Weile dauern, bis ich die Funktion hinzufüge."
 
-#: faq.php:42
+#: faq.php:41
 msgid ""
 "I want to translate your site and services into another language, how can I "
 "do this?"
@@ -768,7 +769,7 @@ msgstr ""
 "Ich möchte deine Seite und Dienste in eine andere Sprache übersetzen. Wie "
 "kann ich das machen?"
 
-#: faq.php:43
+#: faq.php:42
 #, php-format
 msgid ""
 "Please see my %s and check out the individual projects you would like to "
@@ -777,16 +778,16 @@ msgstr ""
 "Bitte siehe meine %s und schaue dir die einzelnen Projekte an, die du "
 "übersetzen möchtest."
 
-#: faq.php:43
+#: faq.php:42
 msgid "GitHub repositories"
 msgstr "GitHub Repositories"
 
-#: faq.php:46
+#: faq.php:45
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
 msgstr ""
 "Ich have von Red-Rooms, Live-Stream Mord und ähnlichem gehört. Sind die echt?"
 
-#: faq.php:47
+#: faq.php:46
 msgid ""
 "No, they are just horror stories people commonly tell you. Many people make "
 "YouTube videos about the \"deep web\" and claim there were sites like these. "
@@ -800,7 +801,7 @@ msgstr ""
 "erstellen dann solche Seiten, die man mit Bitcoins bezahlen soll, um Zugriff "
 "zu bekommen. Zahle nicht, denn diese Seiten existieren einfach nicht."
 
-#: faq.php:50
+#: faq.php:49
 msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
@@ -808,7 +809,7 @@ msgstr ""
 "Ich habe vom Shadow Web, Marianas Web oder Closed Shell Netzwerk gehört. Wie "
 "kann ich auf diese zugreifen?"
 
-#: faq.php:51
+#: faq.php:50
 msgid ""
 "You can't, because they do not exist. Some scammers want to sell it to you "
 "though. Don't pay because you won't get anything in return for your money."
@@ -816,7 +817,7 @@ msgstr ""
 "Das kannst du nicht, weil diese nicht existieren. Einige Scammer wollen es "
 "dir aber verkaufen. Zahle nicht, denn du wirst nichts dafür bekommen."
 
-#: faq.php:54
+#: faq.php:53
 msgid ""
 "Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
 "find any interesting sites?"
@@ -824,7 +825,7 @@ msgstr ""
 "Soll das Darknet nicht gruselig voller unheimlichen Scheiß sein? Warum kann "
 "ich keine interessanten Seiten finden?"
 
-#: faq.php:55
+#: faq.php:54
 msgid ""
 "No, the Tor darknet was created to be able to anonymously browse the "
 "internet, circumvent censorship and anonymously host websites. Of course, "
@@ -840,11 +841,11 @@ msgstr ""
 "einen unterschied zum Clearnet (normales Internet). Also die meisten Horror-"
 "Geschichten die du über Tor gehört hast sind nur das, Geschichten."
 
-#: faq.php:58
+#: faq.php:57
 msgid "What's the difference between deep web and darknet?"
 msgstr "Wo ist der Unterschied zwischen Deep web und Darknet?"
 
-#: faq.php:59
+#: faq.php:58
 msgid ""
 "The deep web is any site that can't be indexed by a search engine, so "
 "basically any site where you have to log in or be part of a private network. "
@@ -857,13 +858,13 @@ msgstr ""
 "zuzugreifen, braucht man eine spezielle Software wie Tor, I2P oder Freenet. "
 "Das Darknet ist ein kleiner Teil des Deep Web."
 
-#: faq.php:62
+#: faq.php:61
 msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr ""
 "Kannst du meine Hände halten und mir Schritt für Schritt Programmieren oder "
 "Hacken beibringen?"
 
-#: faq.php:63
+#: faq.php:62
 #, php-format
 msgid ""
 "Teaching you programming or hacking is a task that will take a long time "
@@ -888,27 +889,27 @@ msgstr ""
 "an Professionellen Kursen auf Plattformen wie %s oder %s teilnehmen. Gute "
 "Orte um mit Hacken lernen anzufangen sind %s, %s oder %s."
 
-#: faq.php:63 tutorials/content-creation/index.php:60
+#: faq.php:62 tutorials/content-creation/index.php:60
 msgid "Coursera"
 msgstr "Coursera"
 
-#: faq.php:63 tutorials/content-creation/index.php:60
+#: faq.php:62 tutorials/content-creation/index.php:60
 msgid "Udemy"
 msgstr "Udemy"
 
-#: faq.php:63
+#: faq.php:62
 msgid "Hacker101"
 msgstr "Hacker101"
 
-#: faq.php:63
+#: faq.php:62
 msgid "HackTheBox"
 msgstr "HackTheBox"
 
-#: faq.php:63
+#: faq.php:62
 msgid "Hack This Site"
 msgstr "Hack This Site"
 
-#: faq.php:66
+#: faq.php:65
 msgid ""
 "Can you hack my school or university and change my grades, or find someone "
 "who would do that?"
@@ -916,7 +917,7 @@ msgstr ""
 "Kannst du meine Schule oder Universität hacken, um meine Noten zu ändern, "
 "oder jemanden finden, der dies tut?"
 
-#: faq.php:67 faq.php:71 faq.php:75
+#: faq.php:66 faq.php:70 faq.php:74
 msgid ""
 "Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
 "can't help you with that."
@@ -924,7 +925,7 @@ msgstr ""
 "Ja, ich würde sehr gerne für dich in's Gefängnis gehen. - Ehm, oder lieber "
 "nicht. Sorry, damit kann ich dir leider nicht helfen."
 
-#: faq.php:70
+#: faq.php:69
 msgid ""
 "Can you give me, or tell me where to reliably get stolen PayPal accounts or "
 "credit cards?"
@@ -932,15 +933,15 @@ msgstr ""
 "Kannst du mir zuverlässig gestohlene PayPal Konten oder Kredit Karten geben, "
 "oder sagen wo ich diese bekomme?"
 
-#: faq.php:74
+#: faq.php:73
 msgid "Can you do some other illegal things for me?"
 msgstr "Kannst du andere Illegale Dinge für mich machen?"
 
-#: faq.php:78
+#: faq.php:77
 msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Kannst du meine Freundin hacken, ich glaube sie Betrügt mich."
 
-#: faq.php:79
+#: faq.php:78
 msgid ""
 "Yes, I could try, but I won't. Don't trust the any sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -957,12 +958,12 @@ msgstr ""
 "definitiv über eine Trennung nachdenken, denn eine Beziehung ist auf "
 "Vertrauen aufgebaut, aber offensichtlich kannst du nicht mehr vertrauen."
 
-#: faq.php:82
+#: faq.php:81
 msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr ""
 "Meine E-Mail wird nicht gesendet. Ich bekomme einen Fehler bezüglich TLS"
 
-#: faq.php:83
+#: faq.php:82
 #, php-format
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
@@ -979,17 +980,17 @@ msgstr ""
 "erzwungene Verschlüsselung in deinen %s deaktivieren, wenn du diese E-Mail "
 "dennoch versenden musst."
 
-#: faq.php:83 faq.php:87
+#: faq.php:82 faq.php:86
 msgid "account settings"
 msgstr "Kontoeinstellungen"
 
-#: faq.php:86
+#: faq.php:85
 msgid "I can't receive email, the sender gets an error about TLS"
 msgstr ""
 "Ich kann eine E-Mail nicht empfangen, der Sender bekommt einen Fehler "
 "bezüglich TLS"
 
-#: faq.php:87
+#: faq.php:86
 #, php-format
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
@@ -1006,14 +1007,14 @@ msgstr ""
 "kannst erzwungene Verschlüsselung in deinen %s deaktivieren, wenn du diese E-"
 "Mail dennoch empfangen musst."
 
-#: faq.php:90
+#: faq.php:89
 msgid ""
 "I'm in debt and I need to get money fast. How can I quickly make some money?"
 msgstr ""
 "Ich habe Schulden und muss schnell Geld bekommen. Wie kann ich schnelles "
 "geld verdienen?"
 
-#: faq.php:91
+#: faq.php:90
 #, php-format
 msgid ""
 "Becoming rich and clearing your debts is a process that starts in your head. "
@@ -1030,17 +1031,17 @@ msgstr ""
 "bilden. Ich habe eine ausführliche Anleitung zu einigen Schritten gemacht, "
 "die du machen kannst: %s."
 
-#: faq.php:91 tutorials/get-rich-fast/index.php:6
+#: faq.php:90 tutorials/get-rich-fast/index.php:6
 #: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
 #: tutorials/get-rich-fast/index.php:35 tutorials/index.php:32
 msgid "How to get rich (fast)"
 msgstr "Wie man (schnell) reich wird"
 
-#: faq.php:94
+#: faq.php:93
 msgid "I want to sell my kidney, can you help me?"
 msgstr "Ich will meine Niere verkaufen, kannst du mir helfen?"
 
-#: faq.php:95
+#: faq.php:94
 #, php-format
 msgid ""
 "In most countries, selling organs is illegal. So if you succeed in finding a "
@@ -1062,17 +1063,17 @@ msgstr ""
 "kannst du erwarten, nur einen Bruchteil des Werts zu bekommen. Für eine "
 "detailliertere Antwort möchtest du möglicherweise %s lesen."
 
-#: faq.php:95
+#: faq.php:94
 msgid "this Wikipedia article"
 msgstr "diesen Wikipedia-Artikel"
 
-#: faq.php:98
+#: faq.php:97
 msgid "How can I veryify that you are still in control of your server?"
 msgstr ""
 "Wie kann ich verifizieren, dass du noch immer in der Kontrolle deines "
 "Servers bist?"
 
-#: faq.php:99 privacy.php:65
+#: faq.php:98 privacy.php:65
 #, php-format
 msgid ""
 "To make sure your data is safe and I am still in controll of my server, you "
@@ -1082,19 +1083,19 @@ msgstr ""
 "Kontrolle meines Servers bin, kannst du meinen %1$s mit meinem %2$s "
 "überprüfen."
 
-#: faq.php:99 privacy.php:65
+#: faq.php:98 privacy.php:65
 msgid "warrant canary"
 msgstr "Warrant Canary"
 
-#: faq.php:99 privacy.php:65
+#: faq.php:98 privacy.php:65
 msgid "PGP key"
 msgstr "PGP-Schlüssel"
 
-#: faq.php:102
+#: faq.php:101
 msgid "I have more Questions."
 msgstr "Ich habe mehr Fragen."
 
-#: faq.php:103
+#: faq.php:102
 msgid "Contact me"
 msgstr "Kontaktiere mich"
 
@@ -2193,11 +2194,15 @@ msgid "(Save 50€ on your first investment with the code \"%s\")"
 msgstr "(Spare 50€ auf deine erste Investition mit dem Code \"%s\")"
 
 #: tutorials/get-rich-fast/index.php:94
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "I have a referral code available for most of these platforms, but cannot "
+#| "share them in public. If you are really intered and want to save a little "
+#| "on your first investment, %s."
 msgid ""
 "I have a referral code available for most of these platforms, but cannot "
-"share them in public. If you are really intered and want to save a little on "
-"your first investment, %s."
+"share them in public. If you are really interested and want to save a little "
+"on your first investment, %s."
 msgstr ""
 "Ich habe einen Empfehlungscode für die meisten dieser Plattformen zur "
 "Verfügung, kann sie aber nicht öffentlich teilen. Wenn du wirklich "
@@ -3638,8 +3643,8 @@ msgid ""
 "You can find findom content on social media sites with tags like #paypig "
 "#moneyslave #findom #payme #spoilme etc."
 msgstr ""
-"Du kannst findom-Inhalte auf Social-Media-Seiten mit Tags wie #paypig #"
-"moneyslave #findom #payme #spoilme usw. finden."
+"Du kannst findom-Inhalte auf Social-Media-Seiten mit Tags wie #paypig "
+"#moneyslave #findom #payme #spoilme usw. finden."
 
 #: tutorials/findom/index.php:56
 msgid "Popular findom sites:"
