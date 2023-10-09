@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-10-07 17:31+0200\n"
-"PO-Revision-Date: 2023-10-08 21:08+0000\n"
+"PO-Revision-Date: 2023-10-09 14:57+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -122,6 +122,15 @@ msgid ""
 "and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
 "find my open-source projects on %4$s."
 msgstr ""
+"Hallo! Ich bin Daniel Winzen, ein hochqualifizierter deutscher Web-"
+"Entwickler und Systemadministrator. Mit einer tiefen Leidenschaft für "
+"Programmierung, Servermanagement und Cybersicherheit biete ich ein breites "
+"Angebot an Dienstleistungen and, die auf deine Bedürfnisse zugeschnitten "
+"sind. Meine umfangreiche Erfahrung und mein Know-how ermöglichen es mir, "
+"mich schnell an neue Herausforderungen anzupassen und erstklassige Lösungen "
+"für jedes Projekt zu gewährleisten. Ich biete einen kostenlosen und anonymen "
+"%1$s und einen %2$s an, und du interessierst dich vielleicht auch für meine "
+"%3$s. Meine Open-Source-Projekte findest du auf %4$s."
 
 #: index.php:28
 msgid "mail service"
@@ -146,6 +155,14 @@ msgid ""
 "optimization is very important to me, and I can help you improve your "
 "website's loading speed and performance."
 msgstr ""
+"Ich bin spezialisiert auf die Entwicklung von Webanwendungen in PHP, SQL und "
+"JavaScript. Ob du eine WordPress-Website, eine eigene PHP-Anwendung oder ein "
+"anderes Web-Projekt benötigst, ich habe die Fähigkeiten, deine Ideen zum "
+"Leben zu erwecken. Ich glänze in WordPress-Entwicklung, einschließlich "
+"WooCommerce, API-Konnektoren und eigenen Plugins, um eine nahtlose "
+"Integration mit deinen anderen Diensten zu gewährleisten. Performance-"
+"Optimierung ist mir sehr wichtig und ich kann dir dabei helfen, die "
+"Ladegeschwindigkeit und Leistung deiner Website zu verbessern."
 
 #: index.php:30
 msgid ""
@@ -200,15 +217,18 @@ msgid ""
 "I'd be happy to answer any questions you may have and look forward to "
 "working with you. %1$s to discuss your project and turn your vision to life!"
 msgstr ""
+"Ich beantworte gerne alle deine Fragen, die du vielleicht hast, und freue "
+"mich auf die Zusammenarbeit mit dir. %1$s um dein Projekt zu diskutieren und "
+"deine Vision zum Leben zu bringen!"
 
 #: index.php:32
 msgid "Get in touch with me"
-msgstr ""
+msgstr "Schreib mir"
 
 #: index.php:33
 #, php-format
 msgid "To learn more about me, check out my %1$s,"
-msgstr ""
+msgstr "Um mehr über mich zu erfahren, schau auf meiner %1$s vorbei,"
 
 #: index.php:33
 msgid "About page"
@@ -279,6 +299,15 @@ msgid ""
 "I was learning about hacking, darknet and network security at a very early "
 "age."
 msgstr ""
+"Ich bin %s und habe ein gutes Verständnis für Cybersicherheitsbedrohungen. "
+"Ich verbessere ständig mein Wissen in diesem Bereich, weil ich dies als "
+"essentiell betrachte und es mir Spaß macht. Diese Website würde "
+"wahrscheinlich nicht existieren, wäre es nicht für meine Leidenschaft für "
+"Cybersicherheit und Hacking. Wie viele gute Eltern, waren meine streng mit "
+"meiner Internet-Nutzung. So musste ich kreativ werden, um Wege zu finden, "
+"Zugang zum Internet zu erhalten, auch wenn der Timer bereits abgelaufen ist. "
+"Deshalb habe ich bereits sehr früh angefangen mich mit Hacking, Darknet und "
+"Netzwerksicherheit zu beschäftigen."
 
 #: about.php:42
 #, php-format
@@ -295,7 +324,7 @@ msgstr ""
 
 #: about.php:42
 msgid "I'm available for hire"
-msgstr ""
+msgstr "Ich bin für Aufträge verfügbar"
 
 #: about.php:43
 msgid "Profiles on other sites that I am active on:"
@@ -375,7 +404,7 @@ msgstr ""
 
 #: about.php:60
 msgid "Free Tier Program for businesses"
-msgstr ""
+msgstr "Kostenloses Programm für Unternehmen"
 
 #: about.php:61
 #, php-format
@@ -405,6 +434,8 @@ msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
+"Ein kleines Netzwerk-Rack mit 4 Raspberry Pis darin, ein WLAN Router darauf "
+"und ein Telefon daneben"
 
 #: about.php:73
 msgid ""
@@ -418,6 +449,16 @@ msgid ""
 "supports a pulse dial, I had to get a converter to translate pulse signals "
 "into modern DTMF."
 msgstr ""
+"Im linken Bild siehst du mein aktuelles Heimserver-Setup. Ich habe 4 "
+"Raspberry Pi 4s, die alle eine 500GB SSD angeschlossen haben. Jede SSD "
+"verfügt über 16 GB für OS und Anwendungen, während der Rest des "
+"Speicherplatzes für Ceph OSDs verwendet wird. Auf meinem Rack habe ich einen "
+"Internet-Router, der mit der schnellsten für mich verfügbaren Breitband-"
+"Internetverbindung verbunden ist. Obwohl ich mein Festnetztelefon kaum "
+"benutze, habe ich einen FeTAp 611-2 (ja es funktioniert noch, in den 80er "
+"Jahren wurden noch langlebige Dinge gebaut). Da mein Router keine Pulswahl "
+"mehr unterstützt, musste ich einen Konverter kaufen, um Pulssignale in "
+"moderne DTMF Signale zu übersetzen."
 
 #: about.php:74
 msgid ""
@@ -425,6 +466,9 @@ msgid ""
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
+"Das Betriebssystem, das ich benutze, ist Debian sid. Um Daten zwischen allen "
+"Servern zu teilen, habe ich einen CephFS für verteilte und redundante "
+"Dateispeicher sowie einen MariaDB Galera Cluster eingesetzt."
 
 #: about.php:75
 #, php-format
@@ -448,6 +492,11 @@ msgid ""
 "regularly create an encrypted backup, stored on remote backup storage, which "
 "takes regular snapshots, ensuring recoverability in case of backup failures."
 msgstr ""
+"Backups sind auch sehr wichtig, deshalb benutze ich BorgBackup auf allen "
+"meinen Geräten, um regelmäßig eine verschlüsselte Sicherung zu erstellen, "
+"die auf Remote-Backup-Speicher gespeichert werden, wo regelmäßige Snapshots "
+"erstellt werden und bei Backup-Fehlern die Wiederherstellbarkeit "
+"gewährleistet ist."
 
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
@@ -469,7 +518,7 @@ msgstr ""
 
 #: github-ipv6-proxy.php:34
 msgid "does not support IPv6"
-msgstr ""
+msgstr "kein IPv6 unterstützt"
 
 #: github-ipv6-proxy.php:35
 msgid ""
@@ -561,7 +610,7 @@ msgstr ""
 #: github-ipv6-proxy.php:102 chat/index.php:32
 #, php-format
 msgid "If there are any further questions, %s."
-msgstr ""
+msgstr "Bei weiteren Fragen %s."
 
 #: github-ipv6-proxy.php:102 faq.php:39 chat/index.php:32
 msgid "contact me"
@@ -597,7 +646,7 @@ msgstr "Honeypot (nicht ausfüllen):"
 
 #: contact.php:34
 msgid "Your email:"
-msgstr ""
+msgstr "Deine E-Mail:"
 
 #: contact.php:37
 msgid "Subject:"
@@ -639,7 +688,7 @@ msgstr "Wenn du deine Nachricht verschlüsseln möchtest, kannst du %s verwenden
 
 #: contact.php:82
 msgid "my public PGP key"
-msgstr ""
+msgstr "mein öffentlicher PGP-Schlüssel"
 
 #: contact.php:83
 #, php-format
@@ -689,10 +738,12 @@ msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files."
 msgstr ""
+"PGP ist ein Verschlüsselungsprogramm, das verwendet werden kann, um E-Mails "
+"und Dateien zu verschlüsseln oder zu signieren."
 
 #: faq.php:35
 msgid "More info in this Wikipedia article"
-msgstr ""
+msgstr "Mehr Infos in diesem Wikipedia-Artikel"
 
 #: faq.php:38
 msgid "I have an idea how to make your site better, can you add feature xyz?"
@@ -728,7 +779,7 @@ msgstr ""
 
 #: faq.php:43
 msgid "GitHub repositories"
-msgstr ""
+msgstr "GitHub Repositories"
 
 #: faq.php:46
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
@@ -839,23 +890,23 @@ msgstr ""
 
 #: faq.php:63 tutorials/content-creation/index.php:60
 msgid "Coursera"
-msgstr ""
+msgstr "Coursera"
 
 #: faq.php:63 tutorials/content-creation/index.php:60
 msgid "Udemy"
-msgstr ""
+msgstr "Udemy"
 
 #: faq.php:63
 msgid "Hacker101"
-msgstr ""
+msgstr "Hacker101"
 
 #: faq.php:63
 msgid "HackTheBox"
-msgstr ""
+msgstr "HackTheBox"
 
 #: faq.php:63
 msgid "Hack This Site"
-msgstr ""
+msgstr "Hack This Site"
 
 #: faq.php:66
 msgid ""
@@ -930,7 +981,7 @@ msgstr ""
 
 #: faq.php:83 faq.php:87
 msgid "account settings"
-msgstr ""
+msgstr "Kontoeinstellungen"
 
 #: faq.php:86
 msgid "I can't receive email, the sender gets an error about TLS"
@@ -987,7 +1038,7 @@ msgstr "Wie man (schnell) reich wird"
 
 #: faq.php:94
 msgid "I want to sell my kidney, can you help me?"
-msgstr ""
+msgstr "Ich will meine Niere verkaufen, kannst du mir helfen?"
 
 #: faq.php:95
 #, php-format
@@ -1001,14 +1052,25 @@ msgid ""
 "paid only a fraction of its worth. For a more detailed answer, you may want "
 "to read %s."
 msgstr ""
+"In den meisten Ländern ist der Verkauf von Organen illegal. Wenn es dir "
+"gelingt, einen Arzt zu finden, der zustimmen würde, deine Organe zu "
+"entnehmen und einen Käufer zu haben, dann riskieren beide mehrere Jahre "
+"Gefängniszeit. Für sie ist es viel sicherer und einfacher, dich zu töten, "
+"während sie deine Organe entnehmen, um zu verhindern, dass du es jemandem "
+"erzählst und natürlich um nicht zahlen zu müssen. Dein Motiv ist "
+"höchstwahrscheinlich finanziell. Wenn du jedoch deine Niere verkaufen, "
+"kannst du erwarten, nur einen Bruchteil des Werts zu bekommen. Für eine "
+"detailliertere Antwort möchtest du möglicherweise %s lesen."
 
 #: faq.php:95
 msgid "this Wikipedia article"
-msgstr ""
+msgstr "diesen Wikipedia-Artikel"
 
 #: faq.php:98
 msgid "How can I veryify that you are still in control of your server?"
 msgstr ""
+"Wie kann ich verifizieren, dass du noch immer in der Kontrolle deines "
+"Servers bist?"
 
 #: faq.php:99 privacy.php:65
 #, php-format
@@ -1016,10 +1078,13 @@ msgid ""
 "To make sure your data is safe and I am still in controll of my server, you "
 "can verify my %1$s with my %2$s."
 msgstr ""
+"Um sicherzustellen, dass deine Daten sicher sind und ich noch in der "
+"Kontrolle meines Servers bin, kannst du meinen %1$s mit meinem %2$s "
+"überprüfen."
 
 #: faq.php:99 privacy.php:65
 msgid "warrant canary"
-msgstr ""
+msgstr "Warrant Canary"
 
 #: faq.php:99 privacy.php:65
 msgid "PGP key"
@@ -1035,7 +1100,7 @@ msgstr "Kontaktiere mich"
 
 #: common.php:108
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Navigation ein-/ausblenden"
 
 #: common.php:120 blog/index.php:27
 msgid "Blog and news"
@@ -1175,6 +1240,8 @@ msgid ""
 "You can no longer login with your .me user credentials, only with the .de "
 "ones, as the old domain is no longer under my control."
 msgstr ""
+"Du kannst dich nicht mehr mit deinem .me Benutzer anmelden, nur mit dem .de "
+"Benutzer, da die alte Domain nicht mehr unter meiner Kontrolle ist."
 
 #: new-domain.php:39
 msgid "Will the old address still work?"
@@ -1212,11 +1279,11 @@ msgstr ""
 
 #: new-domain.php:42
 msgid "new PGP key"
-msgstr ""
+msgstr "neuer PGP-Schlüssel"
 
 #: new-domain.php:42
 msgid "old PGP key"
-msgstr ""
+msgstr "alter PGP-Schlüssel"
 
 #: new-domain.php:44
 #, php-format
@@ -1233,7 +1300,7 @@ msgstr ""
 #: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
 #: hosting/index.php:27
 msgid "Daniel's Hosting shutdown after hack"
-msgstr ""
+msgstr "Daniels Hosting nach Hack abgeschaltet"
 
 #: hosting/index.php:10 hosting/index.php:16
 msgid "Daniel's Hosting - a former darknet web hosting service"
@@ -1277,7 +1344,7 @@ msgstr ""
 
 #: hosting/index.php:29
 msgid "available for download"
-msgstr ""
+msgstr "zum Herunterladen erhältlich"
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
@@ -1569,27 +1636,27 @@ msgstr ""
 
 #: privacy.php:58
 msgid "8. List of sub-processors"
-msgstr ""
+msgstr "8. Liste der Unterauftragsverarbeiter"
 
 #: privacy.php:60
 msgid "Vendor"
-msgstr ""
+msgstr "Auftragsverarbeiter"
 
 #: privacy.php:60
 msgid "Purpose"
-msgstr ""
+msgstr "Zweck"
 
 #: privacy.php:61
 msgid "Providing server infrastructure and backup storage"
-msgstr ""
+msgstr "Bereitstellung von Server-Infrastruktur und Backup-Speicher"
 
 #: privacy.php:62
 msgid "Providing server infrastructure"
-msgstr ""
+msgstr "Bereitstellung von Server-Infrastruktur"
 
 #: privacy.php:64
 msgid "9. Warrant canary"
-msgstr ""
+msgstr "9. Warrant Canary"
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:32
 msgid "Daniel's Chat shutdown"
@@ -1665,7 +1732,7 @@ msgstr "Onion Linkliste geschlossen"
 #: blog/onion-link-list-shutdown/index.php:10
 #: blog/onion-link-list-shutdown/index.php:16
 msgid "Onion link list by Daniel has been shut down"
-msgstr ""
+msgstr "Onion Link Liste von Daniel wurde geschlossen"
 
 #: blog/onion-link-list-shutdown/index.php:28
 #, php-format
@@ -1678,6 +1745,15 @@ msgid ""
 "keep up with the demand of reviewing every single site, while more than "
 "99% of them are scams anyway."
 msgstr ""
+"Nach vielen Jahren der Aufrechterhaltung einer Liste von Tor Darknet "
+"Websites, ist es Zeit, weiter zu gehen. Ich habe fast ein Jahr lang keine "
+"Zeit gefunden, die Liste auf aktuellem Stand zu halten. Ich werde immer noch "
+"regelmäßig von Leuten kontaktiert, die Opfer einer Betrugswebsite wurden, "
+"entweder weil diese nicht auf meiner Website aufgeführt wurde, oder weil sie "
+"diese Liste nicht korrekt verwendet haben. Jeden Tag kommen Hunderte von "
+"neuen Seiten heraus und ich kann nicht mit der Nachfrage mithalten, jeder "
+"einzelnen Website zu überprüfen, während mehr als 99% dieser sowieso Betrug "
+"sind."
 
 #: blog/onion-link-list-shutdown/index.php:29
 msgid ""
@@ -1693,11 +1769,24 @@ msgid ""
 "find a lot of sites linking to it, including social media posts and reviews "
 "in forums, you might have found the real deal."
 msgstr ""
+"Wenn du hierher gekommen bist, um den Betrugsstatus einer Website zu "
+"überprüfen, übe bitte kritisches Denken. Du kannst Betrüger leicht erkennen. "
+"Niemand wird dir jemals mehr Geld für weniger geben. Es macht keinen Sinn, "
+"\"gestohlene\" Kryptowährungen zu verkaufen, da es sehr einfach ist, sie "
+"anonym zu verwenden. Der einzige Grund, warum du einen Escrow-Service "
+"verwenden solltest, ist Vertrauen. Aber wie kannst du einem anonymen Darknet-"
+"Escrow-Service vertrauen, von dem noch niemand gehört hat? Wenn du noch "
+"Zweifel an der Seite hast, an der du interessiert bist, mach eine schnelle "
+"Suche auf deiner Lieblings-Suchmaschine, wie DuckDuckGo oder Google. Wenn "
+"alles, was du findest, ein paar Websites sind, die diese Seite bewerben, ist "
+"es wahrscheinlich ein Betrug. Wenn du eine Menge von Websites finden, die "
+"darauf verlinken, einschließlich Social Media-Posts und Bewertungen in "
+"Foren, hast du vielleicht den echten Deal gefunden."
 
 #: blog/onion-link-list-shutdown/index.php:30
 #, php-format
 msgid "You can find an alternative link list at for example %s."
-msgstr ""
+msgstr "Eine alternative Linkliste findest du zum Beispiel %s."
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 msgid "Daniel - Blog and news"
@@ -1710,6 +1799,8 @@ msgstr "Blog und Neuigkeiten von Daniel Winzen"
 #: blog/index.php:28
 msgid "Blog posts and news related to my services will be posted here."
 msgstr ""
+"Blog-Posts und Neuigkeiten im Zusammenhang mit meinen Dienstleistungen "
+"werden hier veröffentlicht."
 
 #: blog/index.php:30
 msgid "Date"
@@ -1717,27 +1808,27 @@ msgstr "Datum"
 
 #: blog/index.php:30
 msgid "Title"
-msgstr ""
+msgstr "Titel"
 
 #: blog/index.php:31
 msgid "August 2023"
-msgstr ""
+msgstr "August 2023"
 
 #: blog/index.php:32
 msgid "December 2022"
-msgstr ""
+msgstr "Dezember 2022"
 
 #: blog/index.php:33
 msgid "December 2021"
-msgstr ""
+msgstr "Dezember 2021"
 
 #: blog/index.php:34
 msgid "March 2020"
-msgstr ""
+msgstr "März 2020"
 
 #: blog/index.php:34
 msgid "Hosting service shutdown due to hack"
-msgstr ""
+msgstr "Hosting Service nach Hack abgeschaltet"
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
 #: tutorials/index.php:32
@@ -2108,10 +2199,14 @@ msgid ""
 "share them in public. If you are really intered and want to save a little on "
 "your first investment, %s."
 msgstr ""
+"Ich habe einen Empfehlungscode für die meisten dieser Plattformen zur "
+"Verfügung, kann sie aber nicht öffentlich teilen. Wenn du wirklich "
+"interessiert bist und ein wenig bei deiner erste Investition sparen "
+"möchtest, %s."
 
 #: tutorials/get-rich-fast/index.php:94
 msgid "ask me for a referral"
-msgstr ""
+msgstr "frage mich nach einer Empfehlung"
 
 #: tutorials/get-rich-fast/index.php:95
 msgid "Passive income"
@@ -2161,7 +2256,7 @@ msgstr ""
 
 #: tutorials/index.php:28
 msgid "contact me here"
-msgstr ""
+msgstr "kontaktiere mich hier"
 
 #: tutorials/index.php:30
 msgid "Name"
@@ -2196,7 +2291,7 @@ msgstr "Diese Anleitung hilft dir eine Sugar-Beziehung zu finden."
 #: tutorials/findom/index.php:21 tutorials/findom/index.php:31
 #: tutorials/findom/index.php:33
 msgid "Earning money with findom"
-msgstr ""
+msgstr "Geld verdienen mit Findom"
 
 #: tutorials/index.php:34
 msgid "This tutorial will show you how you can use findom to earn money."
@@ -2214,13 +2309,15 @@ msgid ""
 "This article offers valuable guidance to help you embark on your journey as "
 "a self-employed individual."
 msgstr ""
+"Dieser Artikel bietet eine wertvolle Anleitung, um dir dabei zu helfen, "
+"deine Reise als selbstständige Person zu starten."
 
 #: tutorials/index.php:36 tutorials/content-creation/index.php:6
 #: tutorials/content-creation/index.php:21
 #: tutorials/content-creation/index.php:31
 #: tutorials/content-creation/index.php:33
 msgid "Turning passion into profit as a content creator"
-msgstr ""
+msgstr "Leidenschaft als Inhaltsersteller in Gewinn verwandeln"
 
 #: tutorials/index.php:36 tutorials/content-creation/index.php:10
 #: tutorials/content-creation/index.php:22
@@ -2229,6 +2326,8 @@ msgid ""
 "This comprehensive guide helps you learn about turning your passion into "
 "profit as an online content creator."
 msgstr ""
+"Dieser umfassende Leitfaden hilft dir dabei deine Leidenschaft als Online-"
+"Inhaltsersteller in Gewinn umzuwandeln."
 
 #: tutorials/successful-sugar-dating/index.php:35
 msgid "What is sugar dating?"
@@ -2386,7 +2485,7 @@ msgstr ""
 
 #: tutorials/self-employed/index.php:33
 msgid "Choosing the right path of self-employment"
-msgstr ""
+msgstr "Wahl des richtigen Weges der Selbstständigkeit"
 
 #: tutorials/self-employed/index.php:34
 msgid ""
@@ -2487,7 +2586,7 @@ msgstr ""
 
 #: tutorials/self-employed/index.php:44
 msgid "Pricing your work"
-msgstr ""
+msgstr "Deine Arbeit einpreisen"
 
 #: tutorials/self-employed/index.php:45
 msgid ""
@@ -2506,10 +2605,26 @@ msgid ""
 "your estimate on the time you would need, as well as the value it brings to "
 "your client's business."
 msgstr ""
+"Die meisten deiner Kunden werden wahrscheinlich deine Preise wissen wollen, "
+"bevor du mit Ihnen arbeitest. Du kannst entweder mit einem Stundensatz "
+"arbeiten, der für dich am sichersten ist, vor allem als Anfänger, da du in "
+"der Lage bist, jede Stunde, die du für eine Aufgabe gebraucht hast, "
+"abzurechnen. In diesem Modell, schätzt du die Zeit, die du für eine Aufgabe "
+"benötigst, und wenn du am Ende mehr Zeit benötigst, lässt du den Kunden "
+"entscheiden, ob er mehr Zeit in es investieren möchte. Auf der anderen Seite "
+"kannst du nicht mehr abrechnen, wenn du weniger Zeit benötigst (obwohl du "
+"über die benötigte Zeit lügen könntest). Projektbasierte Preisgestaltung ist "
+"die Alternative, die du zu deinem Vorteil nutzen kannst, wenn du genug "
+"Erfahrung hast und ein gutes Gefühl hast, wie viel Zeit eine Aufgabe "
+"braucht. Ein Kunde zahlt dir gerne das gleiche, das er für jemand anderen "
+"ausgeben würden, der 3 mal länger braucht, wenn du eine Aufgabe sehr schnell "
+"mit deiner Erfahrung abschließen kannst. In der projektbasierten "
+"Preisgestaltung kannst du deine Schätzung auf die Zeit stützen, die du "
+"benötigst, sowie den Wert, den er deinem Kunden bietet."
 
 #: tutorials/self-employed/index.php:46
 msgid "Tax obligations"
-msgstr ""
+msgstr "Steuerpflichten"
 
 #: tutorials/self-employed/index.php:47
 msgid ""
@@ -2525,10 +2640,24 @@ msgid ""
 "tax, so in most cases, you won't even pay more taxes as a tradesman, unless "
 "you are living in a community where you need to pay a little more trade tax."
 msgstr ""
+"Wie jeder musst du die Einkommensteuer bezahlen. Sofern du dich nicht für "
+"die Kleinunternehmerregelung entschieden hast, musst du zusätzlich "
+"Umsatzsteuer bezahlen. Im Gegensatz zu deiner Einkommensteuer ist dies in "
+"der Regel eine monatliche Steuer, die du selbst berechnen und direkt an das "
+"Finanzamt zahlen musst. Du bekommst keinen Steuerbescheid, wie mit deiner "
+"Einkommensteuer. Einmal im Jahr musst du auch eine Umsatzsteuererklärung "
+"senden, um deinen Jahresumsatz zusammenzufassen. Dies gilt auch für "
+"Kleinunternehmer, die keine Umsatzsteuer zahlen müssen. Wenn du ein Gewerbe "
+"hast, musst du zusätzlich eine Gewerbesteuer bezahlen. Diese Art der Steuer "
+"hängt von der Gemeinde ab, in der du lebst und unterscheidet sich von der "
+"geographischen Region. Die Gewerbesteuer kann von deiner Einkommensteuer "
+"abgezogen werden, so dass du in den meisten Fällen nicht einmal mehr Steuern "
+"als Gewerbe zahlst, es sei denn, du lebst in einer Gemeinschaft, wo du ein "
+"wenig mehr Gewerbesteuer zahlen musst."
 
 #: tutorials/self-employed/index.php:48
 msgid "Accounting"
-msgstr ""
+msgstr "Buchhaltung"
 
 #: tutorials/self-employed/index.php:49
 msgid ""
@@ -3334,7 +3463,7 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:72
 msgid "Blogger"
-msgstr ""
+msgstr "Blogger"
 
 #: tutorials/content-creation/index.php:73
 msgid "Becoming a live streamer"
@@ -3356,22 +3485,36 @@ msgid ""
 "you have the opportunity to build a vibrant community around your passion "
 "while also earning income."
 msgstr ""
+"Ein Live-Streamer zu werden, ist eine spannende und dynamische Möglichkeit, "
+"mit einem Online-Publikum in Echtzeit zu interagieren. Diese Form der "
+"Inhaltserstellung beinhaltet die Übertragung von Live-Videos auf Plattformen "
+"wie %1$s, %2$s, %3$s oder %4$s, wo du direkt mit deinen Zuschauern "
+"interagieren kannst. Als Live-Streamer kannst du dich auf eine Vielzahl von "
+"Nischen konzentrieren, einschließlich Spielen, Musik, Bildung, Fitness oder "
+"einfach lässige Chats. Der Schlüssel zum erfolgreichen Live-Streaming liegt "
+"in der Aufrechterhaltung konsistenter Zeitpläne, der Erstellung von "
+"ansprechenden Inhalten und der Förderung einer Community durch aktive "
+"Zuschauerinteraktion. Monetarisierungs-Strategien für Live-Streaming "
+"umfassen Zuschauerspenden, Markenpartnerschaften, Werbeeinnahmen und "
+"abonnierte Modelle. Als Live-Streamer hast du die Möglichkeit, eine "
+"lebendige Gemeinschaft um deine Leidenschaft zu bauen und damit Einkommen zu "
+"verdienen."
 
 #: tutorials/content-creation/index.php:74
 msgid "YouTube Live"
-msgstr ""
+msgstr "YouTube Live"
 
 #: tutorials/content-creation/index.php:74
 msgid "Tango Live"
-msgstr ""
+msgstr "Tango Live"
 
 #: tutorials/content-creation/index.php:74
 msgid "BIGO Live"
-msgstr ""
+msgstr "BIGO Live"
 
 #: tutorials/content-creation/index.php:75
 msgid "Promoting paid content on social media"
-msgstr ""
+msgstr "Bezahlte Inhalte auf sozialen Medien bewerben"
 
 #: tutorials/content-creation/index.php:76
 #, php-format
@@ -3488,21 +3631,23 @@ msgstr ""
 
 #: tutorials/findom/index.php:46
 msgid "Popular dating sites used for findom:"
-msgstr ""
+msgstr "Beliebte Dating-Seiten für findom:"
 
 #: tutorials/findom/index.php:51
 msgid ""
 "You can find findom content on social media sites with tags like #paypig "
 "#moneyslave #findom #payme #spoilme etc."
 msgstr ""
+"Du kannst findom-Inhalte auf Social-Media-Seiten mit Tags wie #paypig #"
+"moneyslave #findom #payme #spoilme usw. finden."
 
 #: tutorials/findom/index.php:56
 msgid "Popular findom sites:"
-msgstr ""
+msgstr "Beliebte findom Seiten:"
 
 #: tutorials/findom/index.php:66
 msgid "Popular content creator sites used for findom:"
-msgstr ""
+msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 
 #~ msgid "Can you issue fake Covid19 test results?"
 #~ msgstr "Kannst du mir ein Fake Covid19 Testergebnis ausstellen?"
