@@ -91,7 +91,7 @@ global $language, $dir, $locale;
 	<li><a href="https://econeers.de" target="_blank" rel="noreferrer noopener">Econeers</a></li>
 	<li><a href="https://seedmatch.de" target="_blank" rel="noreferrer noopener">Seedmatch</a></li>
 </ul>
-<p><?php printf(htmlspecialchars(_('I have a referral code available for most of these platforms, but cannot share them in public. If you are really intered and want to save a little on your first investment, %s.')), '<a href="/contact.php">'.htmlspecialchars(_('ask me for a referral')).'</a>'); ?></p>
+<p><?php printf(htmlspecialchars(_('I have a referral code available for most of these platforms, but cannot share them in public. If you are really interested and want to save a little on your first investment, %s.')), '<a href="/contact.php">'.htmlspecialchars(_('ask me for a referral')).'</a>'); ?></p>
 <h3><?php echo htmlspecialchars(_('Passive income')); ?></h3>
 <p><?php echo htmlspecialchars(_('After you\'ve made your first investments, you will receive a small percentage of your investment as a dividend. It varies with each investment. To keep it simple, let\'s assume that you earn 10% interest on average, and you invest 10% of your income, and 1/6 of investments fail. This would mean that after one year of investing every month, you would already have saved an entire month of your salary and get 10% in dividend payments that year, which you can directly re-invest along with your regular investments. Keep doing this for a few years until you can live only from your passive income streams.')); ?></p>
 </main>
