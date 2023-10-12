@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-10-09 16:59+0200\n"
-"PO-Revision-Date: 2023-10-11 18:51+0000\n"
+"PO-Revision-Date: 2023-10-12 21:51+0000\n"
 "Last-Translator: Анонім <g2014test@yandex.com>\n"
 "Language-Team: Ukrainian <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/uk/>\n"
@@ -611,7 +611,7 @@ msgstr "Якщо виникнуть ще якісь питання, %s."
 
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
 msgid "contact me"
-msgstr "зв'яжіться зі мною"
+msgstr "зв'язатися зі мною"
 
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
