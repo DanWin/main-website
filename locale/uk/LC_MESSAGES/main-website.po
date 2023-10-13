@@ -6,18 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-10-09 16:59+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-13 14:10+0200\n"
 "PO-Revision-Date: 2023-10-12 21:51+0000\n"
 "Last-Translator: Анонім <g2014test@yandex.com>\n"
-"Language-Team: Ukrainian <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/uk/>\n"
+"Language-Team: Ukrainian <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 
 #: imprint.php:6 imprint.php:15
@@ -455,8 +455,8 @@ msgstr ""
 "та додатків, тоді як решта місця використовується для Ceph OSDs. У верхній "
 "частині моєї стійки у мене є інтернет-маршрутизатор, який підключений до "
 "найшвидшого широкосмугового підключення до Інтернету, доступного мені. Хоча "
-"я майже не користуюся своїм стаціонарним телефоном, у мене є FeTAp 611-2 ("
-"так, він все ще працює, у 80-х роках все було виготовлене на совість). "
+"я майже не користуюся своїм стаціонарним телефоном, у мене є FeTAp 611-2 "
+"(так, він все ще працює, у 80-х роках все було виготовлене на совість). "
 "Оскільки мій маршрутизатор більше не підтримує імпульсний набір, мені "
 "довелося придбати конвертер для перетворення імпульсних сигналів у сучасний "
 "формат DTMF."
@@ -859,7 +859,18 @@ msgstr ""
 "крок за кроком?"
 
 #: faq.php:62
-#, php-format
+#, fuzzy, php-format
+#| msgid ""
+#| "Teaching you programming or hacking is a task that will take a long time "
+#| "(years). I've been learning for 10 years and still learn new things all "
+#| "the time. But for the beginning I would recommend reading a beginners "
+#| "introduction book, which can guide you with some simple programs you "
+#| "build yourself and examples. If you prefer watching videos, there are a "
+#| "lot of tutorials on YouTube too. But most importantly you will have to "
+#| "take your keyboard and start typing some programs. Start with something "
+#| "simple and keep yourself challenged with new tasks. You may also enrol in "
+#| "a professional course on a platform like %s or %s. Good places to start "
+#| "learning about hacking are %s, %s or %s."
 msgid ""
 "Teaching you programming or hacking is a task that will take a long time "
 "(years). I've been learning for 10 years and still learn new things all the "
@@ -868,7 +879,7 @@ msgid ""
 "yourself and examples. If you prefer watching videos, there are a lot of "
 "tutorials on YouTube too. But most importantly you will have to take your "
 "keyboard and start typing some programs. Start with something simple and "
-"keep yourself challenged with new tasks. You may also enrol in a "
+"keep yourself challenged with new tasks. You may also enroll in a "
 "professional course on a platform like %s or %s. Good places to start "
 "learning about hacking are %s, %s or %s."
 msgstr ""
@@ -1124,7 +1135,8 @@ msgstr "Даніель – Новий домен"
 
 #: new-domain.php:10 new-domain.php:18
 msgid "We moved to a brand new domain - migrate your accounts"
-msgstr "Ми переїхали на абсолютно новий домен – перенесіть ваші облікові записи"
+msgstr ""
+"Ми переїхали на абсолютно новий домен – перенесіть ваші облікові записи"
 
 #: new-domain.php:29 blog/index.php:33
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
@@ -1331,8 +1343,8 @@ msgstr ""
 "витратив у 10 разів більше часу на видалення облікових записів, ніж міг "
 "знайти для продовження розробки. На даний момент я не планую продовжувати "
 "проект хостингу, але це не повинно бути кінцем. Є й інші хостинг-провайдери, "
-"такі як %1$s, %2$s, %3$s або проксі-сервіс clearnet %4$s, а мій проект – %5$"
-"s, щоб дозволити кожному, хто бажає стати наступним провайдером спільного "
+"такі як %1$s, %2$s, %3$s або проксі-сервіс clearnet %4$s, а мій проект – "
+"%5$s, щоб дозволити кожному, хто бажає стати наступним провайдером спільного "
 "хостингу в даркнеті, почати з того місця, звідки я пішов."
 
 #: hosting/index.php:29
@@ -1501,8 +1513,8 @@ msgid ""
 "deleted."
 msgstr ""
 "Використовуючи ці загальні дані та інформацію, Даніель Вінзен не робить "
-"жодних висновків щодо суб'єкта даних. Швидше, ця інформація необхідна для (1)"
-" належного надання вмісту та послуг мого вебсайту, (2) оптимізації моїх "
+"жодних висновків щодо суб'єкта даних. Швидше, ця інформація необхідна для "
+"(1) належного надання вмісту та послуг мого вебсайту, (2) оптимізації моїх "
 "сервісів, (3) забезпечення довгострокової життєздатності моїх інформаційних "
 "систем та технологій вебсайту. Тому я можу статистично аналізувати анонімно "
 "зібрані дані та інформацію з метою підвищення захисту даних і збереження "
@@ -2199,8 +2211,8 @@ msgid ""
 msgstr ""
 "Після того, як Ви зробите свої перші інвестиції, Ви отримаєте невеликий "
 "процент від своїх інвестицій як дивіденди. Це залежить від кожної "
-"інвестиції. Щоб було простіше, припустимо, що Ви заробляєте в середньому 10 "
-"% річних і інвестуєте 10 % свого доходу, а 1/6 інвестицій не вдається. Це "
+"інвестиції. Щоб було простіше, припустимо, що Ви заробляєте в середньому "
+"10 % річних і інвестуєте 10 % свого доходу, а 1/6 інвестицій не вдається. Це "
 "означало б, що після одного року щомісячного інвестування Ви вже заощадите "
 "цілий місяць своєї зарплати і отримаєте 10 % дивідендних виплат цього року, "
 "які ви можете безпосередньо реінвестувати разом зі своїми звичайними "
@@ -2950,48 +2962,48 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:83
 msgid "Twitch"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
-#: tutorials/content-creation/index.php:72
+#: tutorials/content-creation/index.php:81
 msgid "WordPress"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
-#: tutorials/content-creation/index.php:72
+#: tutorials/content-creation/index.php:81
 msgid "Medium"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:62
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 msgid "Instagram"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:62
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 msgid "TikTok"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 msgid "OnlyFans"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 msgid "Fansly"
 msgstr ""
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 msgid "Patreon"
 msgstr ""
 
@@ -3217,26 +3229,26 @@ msgstr ""
 msgid ""
 "Offering exclusive content is an effective way to monetize your online "
 "presence and foster a dedicated community of supporters. As a content "
-"creator, you can provide exclusive content on platforms like %1$s, %2$s, "
-"%3$s or %4$s, where subscribers pay a fee for access to premium materials. "
-"This could include behind-the-scenes footage, early access to new work, "
-"personal updates, or any other content that adds unique value beyond what "
-"you offer for free. By offering exclusive content, you create a more "
-"intimate space for your most engaged followers, encouraging a stronger "
-"connection and fostering a sense of exclusivity. This strategy not only "
-"helps generate consistent income but also allows you to reward your most "
-"loyal fans with unique experiences or insights."
-msgstr ""
-
-#: tutorials/content-creation/index.php:66
-msgid "TonPlace"
+"creator, you can provide exclusive content on platforms like %1$s, %2$s or "
+"%3$s, where subscribers pay a fee for access to premium materials. This "
+"could include behind-the-scenes footage, early access to new work, personal "
+"updates, or any other content that adds unique value beyond what you offer "
+"for free. By offering exclusive content, you create a more intimate space "
+"for your most engaged followers, encouraging a stronger connection and "
+"fostering a sense of exclusivity. This strategy not only helps generate "
+"consistent income but also allows you to reward your most loyal fans with "
+"unique experiences or insights."
 msgstr ""
 
 #: tutorials/content-creation/index.php:67
+msgid "Popular platforms for exclusive content are:"
+msgstr ""
+
+#: tutorials/content-creation/index.php:76
 msgid "Selling stock photos"
 msgstr ""
 
-#: tutorials/content-creation/index.php:68
+#: tutorials/content-creation/index.php:77
 #, php-format
 msgid ""
 "Selling stock photos is a potentially lucrative way for photographers to "
@@ -3254,23 +3266,23 @@ msgid ""
 "steady stream of passive income."
 msgstr ""
 
-#: tutorials/content-creation/index.php:68
+#: tutorials/content-creation/index.php:77
 msgid "Shutterstock"
 msgstr ""
 
-#: tutorials/content-creation/index.php:68
+#: tutorials/content-creation/index.php:77
 msgid "Adobe Stock"
 msgstr ""
 
-#: tutorials/content-creation/index.php:68
+#: tutorials/content-creation/index.php:77
 msgid "Getty Images"
 msgstr ""
 
-#: tutorials/content-creation/index.php:69
+#: tutorials/content-creation/index.php:78
 msgid "Publishing an eBook"
 msgstr ""
 
-#: tutorials/content-creation/index.php:70
+#: tutorials/content-creation/index.php:79
 #, php-format
 msgid ""
 "Publishing an eBook is a viable way for content creators to share their "
@@ -3289,23 +3301,23 @@ msgid ""
 "as a commission."
 msgstr ""
 
-#: tutorials/content-creation/index.php:70
+#: tutorials/content-creation/index.php:79
 msgid "Amazon Kindle Direct Publishing"
 msgstr ""
 
-#: tutorials/content-creation/index.php:70
+#: tutorials/content-creation/index.php:79
 msgid "Apple Books"
 msgstr ""
 
-#: tutorials/content-creation/index.php:70
+#: tutorials/content-creation/index.php:79
 msgid "Google Play Books"
 msgstr ""
 
-#: tutorials/content-creation/index.php:71
+#: tutorials/content-creation/index.php:80
 msgid "Creating a blog"
 msgstr ""
 
-#: tutorials/content-creation/index.php:72
+#: tutorials/content-creation/index.php:81
 #, php-format
 msgid ""
 "Creating a blog is an excellent way to express your ideas, share your "
@@ -3320,15 +3332,15 @@ msgid ""
 "particular field, and allows you to connect with a global audience."
 msgstr ""
 
-#: tutorials/content-creation/index.php:72
+#: tutorials/content-creation/index.php:81
 msgid "Blogger"
 msgstr ""
 
-#: tutorials/content-creation/index.php:73
+#: tutorials/content-creation/index.php:82
 msgid "Becoming a live streamer"
 msgstr ""
 
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:83
 #, php-format
 msgid ""
 "Becoming a live streamer is an exciting and dynamic way to engage with an "
@@ -3345,23 +3357,23 @@ msgid ""
 "while also earning income."
 msgstr ""
 
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:83
 msgid "YouTube Live"
 msgstr ""
 
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:83
 msgid "Tango Live"
 msgstr ""
 
-#: tutorials/content-creation/index.php:74
+#: tutorials/content-creation/index.php:83
 msgid "BIGO Live"
 msgstr ""
 
-#: tutorials/content-creation/index.php:75
+#: tutorials/content-creation/index.php:84
 msgid "Promoting paid content on social media"
 msgstr ""
 
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 #, php-format
 msgid ""
 "Paid content platforms like %1$s, %2$s and %3$s have become popular avenues "
@@ -3379,7 +3391,7 @@ msgid ""
 "direct messaging as a service."
 msgstr ""
 
-#: tutorials/content-creation/index.php:76
+#: tutorials/content-creation/index.php:85
 msgid "Telegram"
 msgstr ""
 
