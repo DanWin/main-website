@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-28 11:57+0200\n"
+"POT-Creation-Date: 2023-10-28 15:43+0200\n"
 "PO-Revision-Date: 2023-10-09 14:57+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -30,8 +30,9 @@ msgstr "Impressum von Daniel Winzen"
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
 #: hosting/index.php:21 privacy.php:21 chat/index.php:21
 #: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
-#: blog/index.php:21 tutorials/get-rich-fast/index.php:29
-#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
+#: blog/dnssec/index.php:26 blog/index.php:21
+#: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
+#: tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
 #: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
 msgid "An avatar representing Daniel Winzen"
@@ -40,7 +41,7 @@ msgstr "Ein Avatar der Daniel Winzen darstellt"
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
-#: blog/ipv6/index.php:29 blog/index.php:24
+#: blog/ipv6/index.php:29 blog/dnssec/index.php:29 blog/index.php:24
 #: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
 #: tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
@@ -615,7 +616,7 @@ msgid "If there are any further questions, %s."
 msgstr "Bei weiteren Fragen %s."
 
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
-#: blog/ipv6/index.php:54
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53
 msgid "contact me"
 msgstr "schreib mir"
 
@@ -1149,7 +1150,7 @@ msgstr "Daniel - Neue Domain"
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr "Wir sind zu einer Brandneuen Domain umgezogen - migriere deine Konten"
 
-#: new-domain.php:29 blog/index.php:34
+#: new-domain.php:29 blog/index.php:35
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr "Neue Domain - DanWin1210.Me ist jetzt DanWin1210.De"
 
@@ -1673,7 +1674,7 @@ msgstr "Bereitstellung von Server-Infrastruktur"
 msgid "9. Warrant canary"
 msgstr "9. Warrant Canary"
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:33
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:34
 msgid "Daniel's Chat shutdown"
 msgstr "Daniel's Chat geschlossen"
 
@@ -1740,7 +1741,7 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:6
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:32
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:33
 msgid "Onion link list shutdown"
 msgstr "Onion Linkliste geschlossen"
 
@@ -1804,7 +1805,7 @@ msgid "You can find an alternative link list at for example %s."
 msgstr "Eine alternative Linkliste findest du zum Beispiel %s."
 
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
-#: blog/ipv6/index.php:32 blog/index.php:31
+#: blog/ipv6/index.php:32 blog/index.php:32
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
 msgstr ""
 
@@ -1847,7 +1848,7 @@ msgid "The Importance of IPv6 Implementation"
 msgstr ""
 
 #: blog/ipv6/index.php:37
-msgid "Address Space Exhaustion:"
+msgid "Address Space Exhaustion"
 msgstr ""
 
 #: blog/ipv6/index.php:38
@@ -1863,7 +1864,7 @@ msgstr ""
 #: blog/ipv6/index.php:39
 #, fuzzy
 #| msgid "Preparation and Security"
-msgid "Enhanced Security:"
+msgid "Enhanced Security"
 msgstr "Vorbereitung und Sicherheit"
 
 #: blog/ipv6/index.php:40
@@ -1876,7 +1877,7 @@ msgid ""
 msgstr ""
 
 #: blog/ipv6/index.php:41
-msgid "Improved Performance:"
+msgid "Improved Performance"
 msgstr ""
 
 #: blog/ipv6/index.php:42
@@ -1889,7 +1890,7 @@ msgid ""
 msgstr ""
 
 #: blog/ipv6/index.php:43
-msgid "Future-Proofing Networks:"
+msgid "Future-Proofing Networks"
 msgstr ""
 
 #: blog/ipv6/index.php:44
@@ -1902,7 +1903,7 @@ msgid ""
 msgstr ""
 
 #: blog/ipv6/index.php:45
-msgid "SEO and Online Visibility:"
+msgid "SEO and Online Visibility"
 msgstr ""
 
 #: blog/ipv6/index.php:46
@@ -1967,16 +1968,162 @@ msgid ""
 "one step at a time."
 msgstr ""
 
-#: blog/ipv6/index.php:53
+#: blog/ipv6/index.php:53 blog/dnssec/index.php:52
 msgid "Hire an expert"
 msgstr ""
 
-#: blog/ipv6/index.php:54
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53
 #, php-format
 msgid ""
-"If you would like to implement this for your business and would like the "
-"help of an expert, please %s. I can help and consult you with your "
-"implementation."
+"If you're considering implementing this for your business, don't hesitate to "
+"seek help from an expert. Please %s for assistance and consultation with "
+"your implementation."
+msgstr ""
+
+#: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
+#: blog/dnssec/index.php:32 blog/index.php:31
+msgid "Securing the Web: Unraveling the Power of DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:10 blog/dnssec/index.php:21
+msgid ""
+"Explore the power of DNSSEC in fortifying online security. Learn how to "
+"implement DNSSEC and safeguard your digital presence against cyber threats. "
+"Secure your future in the digital landscape."
+msgstr ""
+
+#: blog/dnssec/index.php:33
+msgid ""
+"Ensuring the security and integrity of data is paramount. Domain Name System "
+"Security Extensions (DNSSEC) stands as the stalwart guardian, fortifying the "
+"digital realm against malicious threats and ensuring that users can trust "
+"the information they receive. In this article, we embark on a journey to "
+"unravel the significance of DNSSEC, exploring its functionalities, benefits, "
+"and the imperative need for its widespread implementation."
+msgstr ""
+
+#: blog/dnssec/index.php:34
+msgid "Understanding DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:35
+msgid ""
+"DNSSEC is a groundbreaking technology designed to protect internet users "
+"from various cyber threats, such as DNS spoofing and man-in-the-middle "
+"attacks. By adding a layer of security to the Domain Name System (DNS), "
+"DNSSEC ensures that the web addresses users visit are authentic and "
+"unaltered. It achieves this through cryptographic signatures, guaranteeing "
+"the legitimacy of the information users receive and enhancing their online "
+"trust."
+msgstr ""
+
+#: blog/dnssec/index.php:36
+msgid "The Importance of DNSSEC Implementation"
+msgstr ""
+
+#: blog/dnssec/index.php:37
+#, fuzzy
+#| msgid "Preparation and Security"
+msgid "Enhanced Data Integrity"
+msgstr "Vorbereitung und Sicherheit"
+
+#: blog/dnssec/index.php:38
+msgid ""
+"DNSSEC uses cryptographic signatures to verify the authenticity of DNS data, "
+"safeguarding users from malicious manipulations. This ensures that the "
+"websites they access are indeed what they claim to be, preventing phishing "
+"attacks and unauthorized domain redirections."
+msgstr ""
+
+#: blog/dnssec/index.php:39
+msgid "Protection Against Cache Poisoning"
+msgstr ""
+
+#: blog/dnssec/index.php:40
+msgid ""
+"DNS cache poisoning is a common tactic used by hackers to redirect users to "
+"malicious websites. DNSSEC mitigates this risk by validating the "
+"authenticity of DNS responses, making it significantly harder for attackers "
+"to manipulate the DNS cache and redirect users unknowingly."
+msgstr ""
+
+#: blog/dnssec/index.php:41
+msgid "Securing Sensitive Transactions"
+msgstr ""
+
+#: blog/dnssec/index.php:42
+msgid ""
+"For websites handling sensitive information, such as online banking "
+"platforms and e-commerce sites, DNSSEC is indispensable. It ensures that "
+"users are securely connected to the intended servers, reducing the risk of "
+"data breaches and ensuring confidential transactions remain private."
+msgstr ""
+
+#: blog/dnssec/index.php:43
+msgid "Building User Trust"
+msgstr ""
+
+#: blog/dnssec/index.php:44
+msgid ""
+"In the age of digital scepticism, DNSSEC plays a pivotal role in building "
+"trust between users and online services. Services that have implemented "
+"DNSSEC demonstrate a commitment to online security, instilling confidence in "
+"users and encouraging them to engage more freely in online activities."
+msgstr ""
+
+#: blog/dnssec/index.php:45
+msgid "The Consequences of Ignoring DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:46
+msgid ""
+"Failing to implement DNSSEC leaves websites and users susceptible to a "
+"myriad of cyber threats. From DNS spoofing attacks, where users are "
+"redirected to fraudulent websites, to man-in-the-middle attacks, where "
+"sensitive data is intercepted, the consequences of neglecting DNSSEC can be "
+"severe. Moreover, businesses risk tarnishing their online reputation and "
+"customer trust, leading to potential financial losses and legal "
+"ramifications in case of data breaches."
+msgstr ""
+
+#: blog/dnssec/index.php:47
+msgid "Conclusion"
+msgstr ""
+
+#: blog/dnssec/index.php:48
+msgid ""
+"In an era where digital threats are abundant, DNSSEC serves as a beacon of "
+"security, guiding the internet towards a safer future. Its implementation is "
+"not just a technical upgrade but a strategic necessity, ensuring the "
+"sanctity of online interactions and bolstering the trust users place in the "
+"digital landscape. Embracing DNSSEC isn't merely a choice but a commitment "
+"to a secure, trustworthy, and resilient internet. As businesses and "
+"individuals, understanding its significance and integrating it into our "
+"digital practices is key to fortifying the web and securing a safer online "
+"experience for everyone."
+msgstr ""
+
+#: blog/dnssec/index.php:49
+msgid "Implementing DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:50
+msgid ""
+"Enabling DNSSEC for your domain can be straightforward, especially with DNS "
+"management providers like Cloudflare, GoDaddy, or nameserver software like "
+"BIND. Begin by accessing your provider's dashboard or BIND configuration "
+"file. Look for DNSSEC settings, usually found under domain security or "
+"advanced options. Enable DNSSEC, generate key pairs, and sign your domain "
+"zone. Most providers offer user-friendly interfaces for these tasks."
+msgstr ""
+
+#: blog/dnssec/index.php:51
+msgid ""
+"Next, update your domain registrar's DS (Delegation Signer) records. "
+"Providers often have dedicated sections for DNSSEC, allowing you to input "
+"your DS records. Periodically rolling DNSSEC keys enhances security. Regular "
+"maintenance and support from DNSSEC-friendly providers ensure a robust "
+"online presence."
 msgstr ""
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
@@ -2001,29 +2148,29 @@ msgstr "Datum"
 msgid "Title"
 msgstr "Titel"
 
-#: blog/index.php:31
+#: blog/index.php:31 blog/index.php:32
 #, fuzzy
 #| msgid "December 2022"
 msgid "October 2023"
 msgstr "Dezember 2022"
 
-#: blog/index.php:32
+#: blog/index.php:33
 msgid "August 2023"
 msgstr "August 2023"
 
-#: blog/index.php:33
+#: blog/index.php:34
 msgid "December 2022"
 msgstr "Dezember 2022"
 
-#: blog/index.php:34
+#: blog/index.php:35
 msgid "December 2021"
 msgstr "Dezember 2021"
 
-#: blog/index.php:35
+#: blog/index.php:36
 msgid "March 2020"
 msgstr "März 2020"
 
-#: blog/index.php:35
+#: blog/index.php:36
 msgid "Hosting service shutdown due to hack"
 msgstr "Hosting Service nach Hack abgeschaltet"
 
