@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-13 14:10+0200\n"
+"POT-Creation-Date: 2023-10-28 11:57+0200\n"
 "PO-Revision-Date: 2023-02-15 18:45-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -33,9 +33,9 @@ msgstr "Contate Daniel Winzen"
 #: imprint.php:21 index.php:21 about.php:23 about.php:35
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
 #: hosting/index.php:21 privacy.php:21 chat/index.php:21
-#: blog/onion-link-list-shutdown/index.php:21 blog/index.php:21
-#: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
-#: tutorials/successful-sugar-dating/index.php:28
+#: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
+#: blog/index.php:21 tutorials/get-rich-fast/index.php:29
+#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
 #: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
 msgid "An avatar representing Daniel Winzen"
@@ -44,14 +44,15 @@ msgstr "Um avatar representando Daniel Winzen"
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
-#: blog/index.php:24 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
+#: blog/ipv6/index.php:29 blog/index.php:24
+#: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
+#: tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
 #: tutorials/content-creation/index.php:30 tutorials/findom/index.php:30
 msgid "Daniel"
 msgstr "Daniel"
 
-#: imprint.php:27 common.php:128
+#: imprint.php:27 common.php:129
 msgid "Imprint"
 msgstr ""
 
@@ -110,7 +111,7 @@ msgstr ""
 "Site pessoal de Daniel Winzen, desenvolvedor web, administrador de sistemas "
 "e entusiasta da privacidade"
 
-#: index.php:27 common.php:119
+#: index.php:27 common.php:120
 msgid "Home"
 msgstr "Início"
 
@@ -131,7 +132,8 @@ msgid "mail service"
 msgstr ""
 
 #: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
-#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:123
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:124
+#: blog/ipv6/index.php:49
 msgid "GitHub IPv6 proxy"
 msgstr "Proxy GitHub IPv6"
 
@@ -215,7 +217,7 @@ msgstr ""
 "Sobre o desenvolvedor web, administrador de sistema e entusiasta da "
 "privacidade Daniel Winzen e este site"
 
-#: about.php:29 common.php:125
+#: about.php:29 common.php:126
 msgid "About"
 msgstr "Sobre"
 
@@ -609,6 +611,7 @@ msgid "If there are any further questions, %s."
 msgstr ""
 
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
+#: blog/ipv6/index.php:54
 #, fuzzy
 #| msgid "Contact"
 msgid "contact me"
@@ -622,7 +625,7 @@ msgstr "Daniel - Contato"
 msgid "Contact Daniel Winzen"
 msgstr "Contate Daniel Winzen"
 
-#: contact.php:27 common.php:126
+#: contact.php:27 common.php:127
 msgid "Contact"
 msgstr "Contato"
 
@@ -1109,31 +1112,31 @@ msgstr "Eu tenho mais perguntas."
 msgid "Contact me"
 msgstr "Contato"
 
-#: common.php:108
+#: common.php:109
 msgid "Toggle navigation"
 msgstr ""
 
-#: common.php:120 blog/index.php:27
+#: common.php:121 blog/index.php:27
 msgid "Blog and news"
 msgstr ""
 
-#: common.php:121
+#: common.php:122
 msgid "E-Mail + XMPP"
 msgstr "E-Mail + XMPP"
 
-#: common.php:122 tutorials/index.php:27
+#: common.php:123 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Tutoriais"
 
-#: common.php:124
+#: common.php:125
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:127
+#: common.php:128
 msgid "Privacy"
 msgstr "Privacidade"
 
-#: common.php:139
+#: common.php:140
 msgid "Add translation"
 msgstr "Adicionar tradução"
 
@@ -1145,7 +1148,7 @@ msgstr "Daniel - Novo domínio"
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr "Mudamos para um novo domínio - migre suas contas"
 
-#: new-domain.php:29 blog/index.php:33
+#: new-domain.php:29 blog/index.php:34
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr "Novo domínio - DanWin1210.Me agora é DanWin1210.De"
 
@@ -1723,7 +1726,7 @@ msgstr ""
 msgid "9. Warrant canary"
 msgstr ""
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:32
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:33
 #, fuzzy
 #| msgid "Daniel's Chat"
 msgid "Daniel's Chat shutdown"
@@ -1801,7 +1804,7 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:6
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:31
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:32
 #, fuzzy
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
@@ -1844,6 +1847,180 @@ msgstr ""
 msgid "You can find an alternative link list at for example %s."
 msgstr ""
 
+#: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
+#: blog/ipv6/index.php:32 blog/index.php:31
+msgid "Embracing IPv6: The Key to a Future-Proof Internet"
+msgstr ""
+
+#: blog/ipv6/index.php:10 blog/ipv6/index.php:21
+msgid ""
+"Discover why implementing IPv6 is crucial for internet-facing services. "
+"Explore the benefits, consequences of not adopting IPv6, and practical "
+"insights on future-proofing your online presence."
+msgstr ""
+
+#: blog/ipv6/index.php:33
+msgid ""
+"In the vast realm of the internet, where connectivity is the lifeblood of "
+"modern society, ensuring a seamless and secure data flow is paramount. "
+"Internet Protocol (IP) addresses serve as digital coordinates, allowing data "
+"packets to find their way across the global network. For decades, IPv4 "
+"(Internet Protocol version 4) has been the backbone of Internet "
+"communication. However, with the internet's exponential growth, IPv4 "
+"addresses are depleting rapidly. That is where IPv6, the next-generation "
+"internet protocol, steps in. In this article, we will explore IPv6 and delve "
+"into why its implementation is vital for internet-facing services."
+msgstr ""
+
+#: blog/ipv6/index.php:34
+msgid "Understanding IPv6"
+msgstr ""
+
+#: blog/ipv6/index.php:35
+msgid ""
+"IPv6, the sixth revision of the Internet Protocol, was developed to succeed "
+"IPv4. Unlike IPv4, which uses 32-bit addresses, IPv6 employs 128-bit "
+"addresses, providing an astronomical number of unique combinations—"
+"approximately 3.4 × 10^38 addresses. To put this into perspective, that’s "
+"enough to assign a unique IP address to every atom on the surface of the "
+"Earth and still have addresses left to spare."
+msgstr ""
+
+#: blog/ipv6/index.php:36
+msgid "The Importance of IPv6 Implementation"
+msgstr ""
+
+#: blog/ipv6/index.php:37
+msgid "Address Space Exhaustion:"
+msgstr ""
+
+#: blog/ipv6/index.php:38
+msgid ""
+"The most immediate problem IPv6 addresses is the exhaustion of IPv4 "
+"addresses. With the proliferation of internet-connected devices, from "
+"smartphones to IoT devices, the demand for IP addresses has surged. IPv6 "
+"offers an almost limitless supply of addresses, guaranteeing that every "
+"device can be assigned a unique identifier. This facilitates the growth of "
+"the Internet of Things (IoT) and other interconnected technologies."
+msgstr ""
+
+#: blog/ipv6/index.php:39
+msgid "Enhanced Security:"
+msgstr ""
+
+#: blog/ipv6/index.php:40
+msgid ""
+"IPv6 incorporates features like IPsec (Internet Protocol Security) as "
+"standard, providing a robust framework for securing data traffic. With IPv6, "
+"encryption and authentication are seamlessly integrated, offering a more "
+"secure communication environment. This is especially crucial for internet-"
+"facing services, where sensitive data transmission is the norm."
+msgstr ""
+
+#: blog/ipv6/index.php:41
+msgid "Improved Performance:"
+msgstr ""
+
+#: blog/ipv6/index.php:42
+msgid ""
+"IPv6 is designed with efficiency in mind. It reduces the complexity of "
+"packet headers, streamlining the routing process and leading to improved "
+"network performance. Internet-facing services leveraging IPv6 can offer "
+"faster and more responsive user experiences, essential for applications "
+"requiring real-time data transmission."
+msgstr ""
+
+#: blog/ipv6/index.php:43
+msgid "Future-Proofing Networks:"
+msgstr ""
+
+#: blog/ipv6/index.php:44
+msgid ""
+"As the adoption of IPv6 grows, internet-facing services that embrace this "
+"protocol future-proof their networks. IPv6 readiness ensures that these "
+"services remain accessible and functional as IPv4 addresses become scarcer "
+"and more expensive. It’s a strategic investment in the longevity of digital "
+"infrastructure."
+msgstr ""
+
+#: blog/ipv6/index.php:45
+msgid "SEO and Online Visibility:"
+msgstr ""
+
+#: blog/ipv6/index.php:46
+msgid ""
+"Search engines, like Google, recognize IPv6-enabled websites and provide a "
+"slight ranking boost to encourage adoption. IPv6 implementation can, "
+"therefore, positively impact a website’s visibility, making it a valuable "
+"asset for businesses and organizations aiming to reach a broader online "
+"audience."
+msgstr ""
+
+#: blog/ipv6/index.php:47
+msgid "Concesquences of not implementing IPv6"
+msgstr ""
+
+#: blog/ipv6/index.php:48
+msgid ""
+"One of the primary repercussions is the service's inaccessibility to users "
+"on IPv6-only networks. As more internet service providers and mobile "
+"networks transition to IPv6, users relying solely on IPv6 addresses would "
+"find themselves unable to connect to websites and applications that have not "
+"adopted this protocol. Consequently, businesses risk alienating a growing "
+"segment of their audience, leading to diminished user engagement and "
+"potential revenue loss. Furthermore, such services may experience degraded "
+"online visibility and SEO rankings, as search engines increasingly "
+"prioritize IPv6-enabled websites. In essence, the failure to implement IPv6 "
+"not only hampers inclusivity but also impedes the service's ability to "
+"thrive in a diverse, interconnected digital landscape, ultimately limiting "
+"its reach and relevance."
+msgstr ""
+
+#: blog/ipv6/index.php:49
+#, php-format
+msgid ""
+"One example of a service that is not IPv6-compatible is %1$s, a widely used "
+"platform for hosting code. This means that users on IPv6-only networks are "
+"unable to access it. As someone who has encountered this problem multiple "
+"times, I've had to search for alternative solutions to download code on IPv6-"
+"only networks. For this reason, I have created a %2$s to address this issue."
+msgstr ""
+
+#: blog/ipv6/index.php:50
+msgid "Challenges and Considerations"
+msgstr ""
+
+#: blog/ipv6/index.php:51
+msgid ""
+"While the benefits of IPv6 implementation are clear, there are challenges, "
+"such as the need for network upgrades and the requirement for IPv4-IPv6 "
+"coexistence during the transition period. However, these challenges are "
+"outweighed by the advantages and long-term sustainability that IPv6 offers."
+msgstr ""
+
+#: blog/ipv6/index.php:52
+msgid ""
+"It is essential to understand that IPv6 is not just a technical upgrade but "
+"a necessity. Organizations that transition their internet-facing services to "
+"IPv6 are positioning themselves at the forefront of the digital landscape "
+"that demands scalability, security, and innovation. Adapting to IPv6 is not "
+"just about embracing change; it is about shaping the future of the internet. "
+"By doing so, we can create a resilient, secure, and interconnected network - "
+"one step at a time."
+msgstr ""
+
+#: blog/ipv6/index.php:53
+msgid "Hire an expert"
+msgstr ""
+
+#: blog/ipv6/index.php:54
+#, php-format
+msgid ""
+"If you would like to implement this for your business and would like the "
+"help of an expert, please %s. I can help and consult you with your "
+"implementation."
+msgstr ""
+
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 #, fuzzy
 #| msgid "Daniel - Home"
@@ -1869,22 +2046,26 @@ msgid "Title"
 msgstr ""
 
 #: blog/index.php:31
-msgid "August 2023"
+msgid "October 2023"
 msgstr ""
 
 #: blog/index.php:32
-msgid "December 2022"
+msgid "August 2023"
 msgstr ""
 
 #: blog/index.php:33
+msgid "December 2022"
+msgstr ""
+
+#: blog/index.php:34
 msgid "December 2021"
 msgstr ""
 
-#: blog/index.php:34
+#: blog/index.php:35
 msgid "March 2020"
 msgstr ""
 
-#: blog/index.php:34
+#: blog/index.php:35
 msgid "Hosting service shutdown due to hack"
 msgstr ""
 
@@ -2138,22 +2319,10 @@ msgid "(Save 50€ on your first investment with the code \"%s\")"
 msgstr ""
 
 #: tutorials/get-rich-fast/index.php:94
-#, php-format
-msgid ""
-"I have a referral code available for most of these platforms, but cannot "
-"share them in public. If you are really interested and want to save a little "
-"on your first investment, %s."
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:94
-msgid "ask me for a referral"
-msgstr ""
-
-#: tutorials/get-rich-fast/index.php:95
 msgid "Passive income"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:96
+#: tutorials/get-rich-fast/index.php:95
 msgid ""
 "After you've made your first investments, you will receive a small "
 "percentage of your investment as a dividend. It varies with each investment. "
