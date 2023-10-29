@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-28 15:43+0200\n"
+"POT-Creation-Date: 2023-10-29 11:12+0100\n"
 "PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -31,7 +31,7 @@ msgstr "Daniel Winzen'in Künyesi"
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
 #: hosting/index.php:21 privacy.php:21 chat/index.php:21
 #: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
-#: blog/dnssec/index.php:26 blog/index.php:21
+#: blog/dnssec/index.php:26 blog/index.php:21 blog/dane/index.php:26
 #: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
 #: tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
@@ -43,8 +43,8 @@ msgstr "Daniel Winzen'i temsil eden bir avatar"
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
 #: blog/ipv6/index.php:29 blog/dnssec/index.php:29 blog/index.php:24
-#: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
-#: tutorials/successful-sugar-dating/index.php:31
+#: blog/dane/index.php:29 tutorials/get-rich-fast/index.php:32
+#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
 #: tutorials/content-creation/index.php:30 tutorials/findom/index.php:30
 msgid "Daniel"
@@ -611,7 +611,7 @@ msgid "If there are any further questions, %s."
 msgstr ""
 
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
-#: blog/ipv6/index.php:54 blog/dnssec/index.php:53
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/dane/index.php:74
 #, fuzzy
 #| msgid "Contact"
 msgid "contact me"
@@ -1160,7 +1160,7 @@ msgstr "Daniel - Yeni alan"
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr "Yepyeni bir alana taşındık - hesaplarınızı taşıyın"
 
-#: new-domain.php:29 blog/index.php:35
+#: new-domain.php:29 blog/index.php:36
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr "Yeni etki alanı - DanWin1210.Me artık DanWin1210.De oldu"
 
@@ -1731,7 +1731,7 @@ msgstr ""
 msgid "9. Warrant canary"
 msgstr ""
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:34
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:35
 #, fuzzy
 #| msgid "Daniel's Chat"
 msgid "Daniel's Chat shutdown"
@@ -1808,7 +1808,7 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:6
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:33
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:34
 #, fuzzy
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
@@ -1852,7 +1852,7 @@ msgid "You can find an alternative link list at for example %s."
 msgstr ""
 
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
-#: blog/ipv6/index.php:32 blog/index.php:32
+#: blog/ipv6/index.php:32 blog/index.php:33
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
 msgstr ""
 
@@ -2015,11 +2015,11 @@ msgid ""
 "one step at a time."
 msgstr ""
 
-#: blog/ipv6/index.php:53 blog/dnssec/index.php:52
+#: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/dane/index.php:73
 msgid "Hire an expert"
 msgstr ""
 
-#: blog/ipv6/index.php:54 blog/dnssec/index.php:53
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/dane/index.php:74
 #, php-format
 msgid ""
 "If you're considering implementing this for your business, don't hesitate to "
@@ -2028,7 +2028,7 @@ msgid ""
 msgstr ""
 
 #: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
-#: blog/dnssec/index.php:32 blog/index.php:31
+#: blog/dnssec/index.php:32 blog/index.php:32
 msgid "Securing the Web: Unraveling the Power of DNSSEC"
 msgstr ""
 
@@ -2133,7 +2133,7 @@ msgid ""
 "ramifications in case of data breaches."
 msgstr ""
 
-#: blog/dnssec/index.php:47
+#: blog/dnssec/index.php:47 blog/dane/index.php:71
 msgid "Conclusion"
 msgstr ""
 
@@ -2197,28 +2197,250 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: blog/index.php:31 blog/index.php:32
+#: blog/index.php:31 blog/index.php:32 blog/index.php:33
 msgid "October 2023"
 msgstr ""
 
-#: blog/index.php:33
-msgid "August 2023"
+#: blog/index.php:31 blog/dane/index.php:6 blog/dane/index.php:20
+#: blog/dane/index.php:30 blog/dane/index.php:32
+msgid "Fortifying Digital Connections using DANE"
 msgstr ""
 
 #: blog/index.php:34
-msgid "December 2022"
+msgid "August 2023"
 msgstr ""
 
 #: blog/index.php:35
+msgid "December 2022"
+msgstr ""
+
+#: blog/index.php:36
 msgid "December 2021"
 msgstr ""
 
-#: blog/index.php:36
+#: blog/index.php:37
 msgid "March 2020"
 msgstr ""
 
-#: blog/index.php:36
+#: blog/index.php:37
 msgid "Hosting service shutdown due to hack"
+msgstr ""
+
+#: blog/dane/index.php:10 blog/dane/index.php:21
+msgid ""
+"Discover the benefits of DANE for boosting online security. Learn how DANE "
+"increases trust in digital communications and strengthens email and web "
+"security. Protect yourself with DANE today."
+msgstr ""
+
+#: blog/dane/index.php:33
+#, php-format
+msgid ""
+"In the expansive digital landscape where trust and security are paramount, a "
+"powerful technology known as DANE (DNS-Based Authentication of Named "
+"Entities) emerges as a beacon of protection. DANE, an innovative extension "
+"of %1$s, revolutionizes online security by enhancing the authenticity and "
+"integrity of digital communications. In this article, we delve into the "
+"transformative potential of DANE, exploring its functionalities, benefits, "
+"and the crucial role it plays in fortifying the trustworthiness of our "
+"digital connections."
+msgstr ""
+
+#: blog/dane/index.php:33
+msgid "DNSSEC (Domain Name System Security Extensions)"
+msgstr ""
+
+#: blog/dane/index.php:34
+msgid "Understanding DANE"
+msgstr ""
+
+#: blog/dane/index.php:35
+msgid ""
+"DANE is a game-changing protocol that uses DNS records to associate digital "
+"certificates with domain names, ensuring encrypted communication channels, "
+"like TLS (Transport Layer Security), are legitimate and unaltered. By "
+"embedding certificates directly into DNS records, DANE provides an "
+"additional layer of validation, offering a secure handshake between servers "
+"and users. This cryptographic binding enhances the trustworthiness of "
+"websites, email servers, and other online services, mitigating the risks of "
+"man-in-the-middle attacks and unauthorized data interception."
+msgstr ""
+
+#: blog/dane/index.php:36
+msgid "The Importance of DANE Implementation"
+msgstr ""
+
+#: blog/dane/index.php:37
+#, fuzzy
+#| msgid "Preparation and Security"
+msgid "Enhanced Trust and Security"
+msgstr "Hazırlık ve Güvenlik"
+
+#: blog/dane/index.php:38
+msgid ""
+"DANE significantly strengthens digital trust and security by validating "
+"certificates through DNS records. However, it does introduce complexity into "
+"the certificate management process. Each certificate change requires "
+"meticulous coordination between certificate updates and DNS record changes, "
+"making the management process more complex."
+msgstr ""
+
+#: blog/dane/index.php:39
+msgid "Securing Email Communication"
+msgstr ""
+
+#: blog/dane/index.php:40
+msgid ""
+"DANE secures email servers, ensuring that the certificates used for "
+"encrypting email exchanges are genuine and unaltered. Despite the added "
+"complexity, its contribution to securing sensitive email communication "
+"cannot be overstated."
+msgstr ""
+
+#: blog/dane/index.php:41
+msgid "Boosting Website Credibility"
+msgstr ""
+
+#: blog/dane/index.php:42
+msgid ""
+"Websites employing DANE provide an additional layer of assurance to "
+"visitors. When combined with HTTPS, DANE guarantees that visitors are "
+"securely connected to the intended server, bolstering the overall security "
+"of online transactions and interactions."
+msgstr ""
+
+#: blog/dane/index.php:43
+msgid "The Consequences of Ignoring DANE"
+msgstr ""
+
+#: blog/dane/index.php:44
+msgid ""
+"Neglecting DANE leaves digital communication channels susceptible to "
+"interception and tampering. Cybercriminals can exploit these "
+"vulnerabilities, compromising sensitive data, and damaging the reputation of "
+"businesses and organizations. Ignoring DANE not only risks user trust but "
+"also exposes entities to legal ramifications and financial losses in the "
+"event of data breaches."
+msgstr ""
+
+#: blog/dane/index.php:45
+msgid "Implementing DANE"
+msgstr ""
+
+#: blog/dane/index.php:46
+msgid ""
+"Implementing DANE may seem complex, but with careful steps, it becomes a "
+"potent tool for enhancing digital security. Begin by generating a digital "
+"certificate from a trusted Certificate Authority (CA) for your server. Once "
+"obtained, publish this certificate in your domain's DNS records using DANE "
+"TLSA (Transport Layer Security Authentication) records. These records "
+"include cryptographic hashes of your certificate, specifying the encryption "
+"methods supported. Regularly update these records whenever your certificate "
+"changes. It’s crucial to coordinate certificate updates with DNS record "
+"changes to maintain the integrity of your security setup. By meticulously "
+"following these steps and staying vigilant about updates, your organization "
+"can harness the full potential of DANE, strengthening your digital security "
+"and ensuring trustworthy online connections."
+msgstr ""
+
+#: blog/dane/index.php:47
+msgid "Building TLSA Records"
+msgstr ""
+
+#: blog/dane/index.php:48
+msgid ""
+"TLSA records are constructed using three key parameters: Usage, Selector, "
+"and Matching Type in combination with the certificate's public key, service "
+"port, protocol, and domain name."
+msgstr ""
+
+#: blog/dane/index.php:49
+#, fuzzy
+#| msgid "Message:"
+msgid "Usage"
+msgstr "İleti:"
+
+#: blog/dane/index.php:50
+msgid "The Usage parameter specifies the intended use of the certificate."
+msgstr ""
+
+#: blog/dane/index.php:52
+msgid "0 - Certificate Authority Constraint (PKIX-TA)"
+msgstr ""
+
+#: blog/dane/index.php:53
+msgid "1 - Service Certificate Constraint (PKIX-EE)"
+msgstr ""
+
+#: blog/dane/index.php:54
+msgid "2 - Trust Anchor Assertion (DANE-TA)"
+msgstr ""
+
+#: blog/dane/index.php:55
+msgid "3 - Domain Issued Certificate (DANE-EE)"
+msgstr ""
+
+#: blog/dane/index.php:57
+msgid "Selector"
+msgstr ""
+
+#: blog/dane/index.php:58
+msgid ""
+"The Selector parameter specifies the name of the entity that issued the "
+"certificate."
+msgstr ""
+
+#: blog/dane/index.php:60
+msgid "0 - Full certificate"
+msgstr ""
+
+#: blog/dane/index.php:61
+msgid "1 - Subject Public Key (SPKI)"
+msgstr ""
+
+#: blog/dane/index.php:63
+msgid "Matching Type"
+msgstr ""
+
+#: blog/dane/index.php:64
+msgid ""
+"The Matching Type parameter specifies the type of cryptographic hash used to "
+"verify the certificate."
+msgstr ""
+
+#: blog/dane/index.php:66
+msgid "0 - SHA256"
+msgstr ""
+
+#: blog/dane/index.php:67
+msgid "1 - SHA384"
+msgstr ""
+
+#: blog/dane/index.php:68
+msgid "2 - SHA512"
+msgstr ""
+
+#: blog/dane/index.php:70
+#, php-format
+msgid "A useful tool to generate TLSA records is the %s"
+msgstr ""
+
+#: blog/dane/index.php:70
+msgid "TLSA Record Generator by SSL-Tools"
+msgstr ""
+
+#: blog/dane/index.php:72
+msgid ""
+"In an era where cyber threats are prevalent, DANE emerges as a guardian of "
+"digital trust. Its implementation, while introducing complexity, is a "
+"strategic necessity for businesses and organizations aiming to fortify their "
+"online presence. By integrating DANE into digital infrastructure, we ensure "
+"that users can engage, transact, and communicate with confidence. Embracing "
+"DANE isn’t just a choice but a commitment to a secure, trustworthy, and "
+"resilient digital future. Understanding the significance of DANE and "
+"integrating it into our digital practices is pivotal to safeguarding the "
+"integrity of our digital connections. Stay secure, stay trusted, and embrace "
+"DANE today."
 msgstr ""
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
