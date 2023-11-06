@@ -48,6 +48,8 @@ global $language, $dir, $locale;
 <li><a href="https://www.upwork.com/freelancers/~01d4f8ae4e8fb1604c" target="_blank" rel="noopener noreferrer">Upwork</a></li>
 <li><a href="https://www.freelance.de/Freiberufler/244201-Backend-Web-Entwickler-und-Systemadministrator" target="_blank" rel="noopener noreferrer">Freelance.de</a></li>
 <li><a href="https://www.instagram.com/winzen.daniel/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+<li><a href="https://www.linkedin.com/in/danwin1210/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+<li><a href="https://www.xing.com/profile/Daniel_Winzen" target="_blank" rel="noopener noreferrer">Xing</a></li>
 </ul>
 <h2><?php echo htmlspecialchars(_('About this site')); ?></h2>
 <p><?php echo htmlspecialchars(_('This is my site, that I develop in my free time. I started development of this site in August/September 2013 when I wanted to have a platform to host files on, to use at school.')); ?>

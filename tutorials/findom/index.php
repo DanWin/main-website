@@ -55,7 +55,6 @@ global $language, $dir, $locale;
 </ul>
 <p><?php echo htmlspecialchars(_('Popular findom sites:')); ?></p>
 <ul>
-	<li><a href="https://casualstar.uk/" target="_blank" rel="noreferrer noopener">Casualstar</a></li>
 	<li><a href="https://findomapp.com" target="_blank" rel="noreferrer noopener">FindomApp</a></li>
 	<li><a href="https://www.dommelink.com/" target="_blank" rel="noreferrer noopener">DomeLink</a></li>
 	<li><a href="https://moneydomdirectory.com/" target="_blank" rel="noreferrer noopener">MoneyDomDirectory</a></li>
