@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-29 11:12+0100\n"
+"POT-Creation-Date: 2023-11-30 22:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -254,18 +254,18 @@ msgstr ""
 msgid "Profiles on other sites that I am active on:"
 msgstr ""
 
-#: about.php:52
+#: about.php:54
 msgid "About this site"
 msgstr ""
 
-#: about.php:53
+#: about.php:55
 msgid ""
 "This is my site, that I develop in my free time. I started development of "
 "this site in August/September 2013 when I wanted to have a platform to host "
 "files on, to use at school."
 msgstr ""
 
-#: about.php:54
+#: about.php:56
 #, php-format
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
@@ -274,7 +274,7 @@ msgid ""
 "decided to port some parts I needed to PHP."
 msgstr ""
 
-#: about.php:55
+#: about.php:57
 #, php-format
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
@@ -283,7 +283,7 @@ msgid ""
 "reliability and my code a lot."
 msgstr ""
 
-#: about.php:56
+#: about.php:58
 msgid ""
 "I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
@@ -292,52 +292,52 @@ msgid ""
 "maintained."
 msgstr ""
 
-#: about.php:57
+#: about.php:59
 msgid "About the setup"
 msgstr ""
 
-#: about.php:58
+#: about.php:60
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr ""
 
-#: about.php:60
+#: about.php:62
 #, php-format
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
 msgstr ""
 
-#: about.php:60
+#: about.php:62
 msgid "Free Tier Program for businesses"
 msgstr ""
 
-#: about.php:61
+#: about.php:63
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
 
-#: about.php:62
+#: about.php:64
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr ""
 
-#: about.php:63
+#: about.php:65
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
 "reliable, hosted in my city"
 msgstr ""
 
-#: about.php:64
+#: about.php:66
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr ""
 
-#: about.php:70
+#: about.php:72
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
 
-#: about.php:73
+#: about.php:75
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -350,14 +350,14 @@ msgid ""
 "into modern DTMF."
 msgstr ""
 
-#: about.php:74
+#: about.php:76
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
 
-#: about.php:75
+#: about.php:77
 #, php-format
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
@@ -365,11 +365,11 @@ msgid ""
 "instance only listening on the VPN network to send emails to clearnet."
 msgstr ""
 
-#: about.php:76
+#: about.php:78
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr ""
 
-#: about.php:77
+#: about.php:79
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -729,7 +729,7 @@ msgstr ""
 
 #: faq.php:78
 msgid ""
-"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"Yes, I could try, but I won't. Don't trust the many sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
 "more likely going to hurt your relationship than helping you. Talk to her, "
 "it's the best you can do. If you are at the point of thinking to hire a "
@@ -2156,11 +2156,6 @@ msgstr ""
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr ""
 
-#: tutorials/get-rich-fast/index.php:79
-#, php-format
-msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr ""
-
 #: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
 msgstr ""
@@ -3453,6 +3448,6 @@ msgstr ""
 msgid "Popular findom sites:"
 msgstr ""
 
-#: tutorials/findom/index.php:66
+#: tutorials/findom/index.php:65
 msgid "Popular content creator sites used for findom:"
 msgstr ""

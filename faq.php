@@ -75,7 +75,7 @@ global $language, $dir, $locale;
     </div>
     <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="row">
         <div itemprop="name" class="cell"><?php echo htmlspecialchars(_('Can you hack my girlfriend? I think she\'s cheating.')); ?></div>
-        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer" class="cell"><div itemprop="text"><?php echo htmlspecialchars(_('Yes, I could try, but I won\'t. Don\'t trust the any sites that claim to give you that, because they are all scams. This is ethically just wrong and is more likely going to hurt your relationship than helping you. Talk to her, it\'s the best you can do. If you are at the point of thinking to hire a hacker, you should definitely think about breaking up, because relationships are based on trust, but obviously you can\'t trust anymore.')); ?></div></div>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer" class="cell"><div itemprop="text"><?php echo htmlspecialchars(_('Yes, I could try, but I won\'t. Don\'t trust the many sites that claim to give you that, because they are all scams. This is ethically just wrong and is more likely going to hurt your relationship than helping you. Talk to her, it\'s the best you can do. If you are at the point of thinking to hire a hacker, you should definitely think about breaking up, because relationships are based on trust, but obviously you can\'t trust anymore.')); ?></div></div>
     </div>
     <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="row">
         <div itemprop="name" class="cell"><?php echo htmlspecialchars(_('My email doesn\'t get sent. I\'m getting an error about TLS')); ?></div>

@@ -76,7 +76,7 @@ global $language, $dir, $locale;
 	<li><a href="https://estateguru.co/en/investor-referral/?switch=en&userPromotionCode=EGU033931" target="_blank" rel="noreferrer noopener">Estateguru</a></li>
 	<li><a href="https://www.invesdor.de/?partner=kap-a&kaid=234967&aid=pd01" target="_blank" rel="noreferrer noopener">Invesdor</a></li>
 	<li><a href="https://crowdpear.com/ref/9RCX9L" target="_blank" rel="noreferrer noopener">Crowdpear</a></li>
-	<li><a href="https://wiwin.de" target="_blank" rel="noreferrer noopener">WiWin</a><small> <?php printf(htmlspecialchars(_('(Save 50€ on your first investment with the code "%s")')), 'AVW749Z3Q7P0'); ?></small></li>
+	<li><a href="https://wiwin.de" target="_blank" rel="noreferrer noopener">WiWin</a></li>
 	<li><a href="https://www.mintos.com/en/" target="_blank" rel="noreferrer noopener">Mintos</a></li>
 	<li><a href="https://peerberry.com/" target="_blank" rel="noreferrer noopener">PeerBerry</a></li>
 	<li><a href="https://www.companisto.com" target="_blank" rel="noreferrer noopener">Companisto</a></li>
