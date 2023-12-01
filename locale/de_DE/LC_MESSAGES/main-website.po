@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-11-30 22:04+0100\n"
-"PO-Revision-Date: 2023-12-01 16:13+0000\n"
+"POT-Creation-Date: 2023-12-01 17:15+0100\n"
+"PO-Revision-Date: 2023-12-01 16:25+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -1953,7 +1953,7 @@ msgstr ""
 "machen, die ein breiteres Online-Publikum erreichen möchten."
 
 #: blog/ipv6/index.php:47
-msgid "Concesquences of not implementing IPv6"
+msgid "Consequences of not implementing IPv6"
 msgstr "Folgen der Nichtimplementierung von IPv6"
 
 #: blog/ipv6/index.php:48
@@ -2100,10 +2100,18 @@ msgid ""
 "the legitimacy of the information users receive and enhancing their online "
 "trust."
 msgstr ""
+"DNSSEC ist eine bahnbrechende Technologie, die Internetnutzer vor "
+"verschiedenen Cyberbedrohungen wie DNS-Spoofing und Man-in-the-Middle-"
+"Angriffen schützen soll. Durch das Hinzufügen einer Sicherheitsebene zum "
+"Domain Name System (DNS) stellt DNSSEC sicher, dass die von Benutzern "
+"besuchten Webadressen authentisch und unverändert sind. Dies wird durch "
+"kryptografische Signaturen erreicht, die die Legitimität der von den "
+"Benutzern erhaltenen Informationen gewährleisten und ihr Online-Vertrauen "
+"stärken."
 
 #: blog/dnssec/index.php:36
 msgid "The Importance of DNSSEC Implementation"
-msgstr ""
+msgstr "Die Bedeutung der DNSSEC-Implementierung"
 
 #: blog/dnssec/index.php:37
 msgid "Enhanced Data Integrity"
@@ -2116,10 +2124,15 @@ msgid ""
 "websites they access are indeed what they claim to be, preventing phishing "
 "attacks and unauthorized domain redirections."
 msgstr ""
+"DNSSEC verwendet kryptografische Signaturen, um die Authentizität von DNS-"
+"Daten zu überprüfen und so Benutzer vor böswilligen Manipulationen zu "
+"schützen. Dadurch wird sichergestellt, dass die Websites, auf die sie "
+"zugreifen, tatsächlich die sind, für die sie sich ausgeben, und Phishing-"
+"Angriffe und unbefugte Domain-Weiterleitungen werden verhindert."
 
 #: blog/dnssec/index.php:39
 msgid "Protection Against Cache Poisoning"
-msgstr ""
+msgstr "Schutz vor Cache-Poisoning"
 
 #: blog/dnssec/index.php:40
 msgid ""
@@ -2128,10 +2141,15 @@ msgid ""
 "authenticity of DNS responses, making it significantly harder for attackers "
 "to manipulate the DNS cache and redirect users unknowingly."
 msgstr ""
+"DNS-Cache-Poisoning ist eine gängige Taktik von Hackern, um Benutzer auf "
+"bösartige Websites umzuleiten. DNSSEC mindert dieses Risiko, indem es die "
+"Authentizität von DNS-Antworten validiert, wodurch es für Angreifer "
+"erheblich schwieriger wird, den DNS-Cache zu manipulieren und Benutzer "
+"unwissentlich umzuleiten."
 
 #: blog/dnssec/index.php:41
 msgid "Securing Sensitive Transactions"
-msgstr ""
+msgstr "Sicherung sensibler Transaktionen"
 
 #: blog/dnssec/index.php:42
 msgid ""
@@ -2140,10 +2158,15 @@ msgid ""
 "users are securely connected to the intended servers, reducing the risk of "
 "data breaches and ensuring confidential transactions remain private."
 msgstr ""
+"Für Websites, die sensible Informationen verarbeiten, wie etwa Online-"
+"Banking-Plattformen und E-Commerce-Seiten, ist DNSSEC unverzichtbar. Es "
+"stellt sicher, dass Benutzer sicher mit den vorgesehenen Servern verbunden "
+"sind, wodurch das Risiko von Datenschutzverletzungen verringert und "
+"sichergestellt wird, dass vertrauliche Transaktionen privat bleiben."
 
 #: blog/dnssec/index.php:43
 msgid "Building User Trust"
-msgstr ""
+msgstr "Aufbau von Benutzervertrauen"
 
 #: blog/dnssec/index.php:44
 msgid ""
@@ -2152,10 +2175,15 @@ msgid ""
 "DNSSEC demonstrate a commitment to online security, instilling confidence in "
 "users and encouraging them to engage more freely in online activities."
 msgstr ""
+"Im Zeitalter der digitalen Skepsis spielt DNSSEC eine zentrale Rolle beim "
+"Aufbau von Vertrauen zwischen Nutzern und Online-Diensten. Dienste, die "
+"DNSSEC implementiert haben, zeigen ein Engagement für Online-Sicherheit, "
+"indem sie den Benutzern Vertrauen vermitteln und sie dazu ermutigen, sich "
+"freier an Online-Aktivitäten zu beteiligen."
 
 #: blog/dnssec/index.php:45
 msgid "The Consequences of Ignoring DNSSEC"
-msgstr ""
+msgstr "Die Folgen des Ignorierens von DNSSEC"
 
 #: blog/dnssec/index.php:46
 msgid ""
@@ -2167,10 +2195,18 @@ msgid ""
 "customer trust, leading to potential financial losses and legal "
 "ramifications in case of data breaches."
 msgstr ""
+"Wenn DNSSEC nicht implementiert wird, sind Websites und Benutzer einer "
+"Vielzahl von Cyber-Bedrohungen ausgesetzt. Von DNS-Spoofing-Angriffen, bei "
+"denen Benutzer auf betrügerische Websites umgeleitet werden, bis hin zu Man-"
+"in-the-Middle-Angriffen, bei denen sensible Daten abgefangen werden – die "
+"Folgen einer Vernachlässigung von DNSSEC können schwerwiegend sein. Darüber "
+"hinaus riskieren Unternehmen, ihre Online-Reputation und ihr Kundenvertrauen "
+"zu schädigen, was im Falle von Datenschutzverletzungen zu potenziellen "
+"finanziellen Verlusten und rechtlichen Konsequenzen führen kann."
 
 #: blog/dnssec/index.php:47 blog/dane/index.php:71
 msgid "Conclusion"
-msgstr ""
+msgstr "Fazit"
 
 #: blog/dnssec/index.php:48
 msgid ""
@@ -2184,10 +2220,21 @@ msgid ""
 "digital practices is key to fortifying the web and securing a safer online "
 "experience for everyone."
 msgstr ""
+"In einer Zeit, in der es viele digitale Bedrohungen gibt, dient DNSSEC als "
+"Leuchtturm der Sicherheit und führt das Internet in eine sicherere Zukunft. "
+"Seine Implementierung ist nicht nur ein technisches Upgrade, sondern eine "
+"strategische Notwendigkeit, um die Integrität der Online-Interaktionen zu "
+"gewährleisten und das Vertrauen der Benutzer in die digitale Landschaft zu "
+"stärken. Die Einführung von DNSSEC ist nicht nur eine Entscheidung, sondern "
+"eine Verpflichtung zu einem sicheren, vertrauenswürdigen und belastbaren "
+"Internet. Sowohl für Unternehmen als auch für Privatpersonen ist es von "
+"entscheidender Bedeutung, seine Bedeutung zu verstehen und in unsere "
+"digitalen Praktiken zu integrieren, um das Internet zu stärken und ein "
+"sichereres Online-Erlebnis für alle zu gewährleisten."
 
 #: blog/dnssec/index.php:49
 msgid "Implementing DNSSEC"
-msgstr ""
+msgstr "DNSSEC Implementieren"
 
 #: blog/dnssec/index.php:50
 msgid ""
@@ -2198,6 +2245,14 @@ msgid ""
 "advanced options. Enable DNSSEC, generate key pairs, and sign your domain "
 "zone. Most providers offer user-friendly interfaces for these tasks."
 msgstr ""
+"Die Aktivierung von DNSSEC für Ihre Domain kann unkompliziert sein, "
+"insbesondere mit DNS-Verwaltungsanbietern wie Cloudflare, GoDaddy oder "
+"Nameserver-Software wie BIND. Beginne mit dem Zugriff auf das Dashboard oder "
+"die BIND-Konfigurationsdatei deines Anbieters. Suche nach DNSSEC-"
+"Einstellungen, die normalerweise unter Domänensicherheit oder erweiterten "
+"Optionen zu finden sind. Aktiviere DNSSEC, generiere Schlüsselpaare und "
+"signiere deine Domänenzone. Die meisten Anbieter bieten für diese Aufgaben "
+"benutzerfreundliche Oberflächen an."
 
 #: blog/dnssec/index.php:51
 msgid ""
@@ -2207,6 +2262,12 @@ msgid ""
 "maintenance and support from DNSSEC-friendly providers ensure a robust "
 "online presence."
 msgstr ""
+"Aktualisiere als Nächstes die DS-Einträge (Delegation Signer) deines Domain-"
+"Registrars. Anbieter verfügen häufig über spezielle Abschnitte für DNSSEC, "
+"in denen du deine DS-Einträge eingeben kannst. Regelmäßiges ändern von "
+"DNSSEC-Schlüsseln erhöht die Sicherheit. Regelmäßige Wartung und "
+"Unterstützung durch DNSSEC-freundliche Anbieter sorgen für eine stabile "
+"Online-Präsenz."
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 msgid "Daniel - Blog and news"
