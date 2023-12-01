@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-29 11:12+0100\n"
+"POT-Creation-Date: 2023-11-30 22:04+0100\n"
 "PO-Revision-Date: 2023-10-14 17:51+0000\n"
 "Last-Translator: Анонім <g2014test@yandex.com>\n"
 "Language-Team: Ukrainian <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 
 #: imprint.php:6 imprint.php:15
@@ -332,11 +332,11 @@ msgstr "Я вільний для замовлень"
 msgid "Profiles on other sites that I am active on:"
 msgstr "Профілі на інших сайтах, на яких я активний:"
 
-#: about.php:52
+#: about.php:54
 msgid "About this site"
 msgstr "Про цей сайт"
 
-#: about.php:53
+#: about.php:55
 msgid ""
 "This is my site, that I develop in my free time. I started development of "
 "this site in August/September 2013 when I wanted to have a platform to host "
@@ -346,7 +346,7 @@ msgstr ""
 "в серпні/вересні 2013 року, коли хотів мати платформу для розміщення файлів, "
 "які можна було б використовувати в школі."
 
-#: about.php:54
+#: about.php:56
 #, php-format
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
@@ -359,7 +359,7 @@ msgstr ""
 "він працював дуже повільно і був непридатним для використання кількома "
 "людьми. Тому я вирішив перенести деякі частини, які мені потрібні, на PHP."
 
-#: about.php:55
+#: about.php:57
 #, php-format
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
@@ -372,7 +372,7 @@ msgstr ""
 "кодом у своєму обліковому записі %s. З тих пір я додав багато нових функцій "
 "і значно покращив надійність свого коду."
 
-#: about.php:56
+#: about.php:58
 msgid ""
 "I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
@@ -386,16 +386,16 @@ msgstr ""
 "даний момент все ще активно підтримуються лише анонімна електронна пошта та "
 "хостинг XMPP, а також список посилань onion."
 
-#: about.php:57
+#: about.php:59
 msgid "About the setup"
 msgstr "Про конфігурації"
 
-#: about.php:58
+#: about.php:60
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr ""
 "Хостинг-провайдери, якими я користуюся(-вався), і сервери, розміщені там:"
 
-#: about.php:60
+#: about.php:62
 #, php-format
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
@@ -403,23 +403,23 @@ msgstr ""
 "%s – підходить для короткострокових проєктів та/або проєктів з низькою "
 "пропускною здатністю. Вони також пропонують %s"
 
-#: about.php:60
+#: about.php:62
 msgid "Free Tier Program for businesses"
 msgstr "Free Tier Program для бізнесу"
 
-#: about.php:61
+#: about.php:63
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
 "%s – підходить для короткострокових проєктів і/або проєктів з низькою "
 "пропускною здатністю"
 
-#: about.php:62
+#: about.php:64
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s – (використовується для мого шлюзу clearnet) – хороший і надійний"
 
-#: about.php:63
+#: about.php:65
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -428,11 +428,11 @@ msgstr ""
 "%s – (використовується для мого шлюзу clearnet + реєстрації домену) – "
 "хороший і надійний, розміщений у моєму місті"
 
-#: about.php:64
+#: about.php:66
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Домашній хостинг: 4 Raspberry Pi 4 з основним сайтом та даними"
 
-#: about.php:70
+#: about.php:72
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
@@ -440,7 +440,7 @@ msgstr ""
 "Невелика мережева стійка з 4 Raspberry Pi в ній, Wi-Fi-роутером зверху і "
 "телефоном поруч з ним"
 
-#: about.php:73
+#: about.php:75
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -464,7 +464,7 @@ msgstr ""
 "довелося придбати конвертер для перетворення імпульсних сигналів у сучасний "
 "формат DTMF."
 
-#: about.php:74
+#: about.php:76
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
@@ -474,7 +474,7 @@ msgstr ""
 "між усіма серверами я розгорнув CephFS для розподіленого та резервованого "
 "зберігання файлів, а також кластер MariaDB Galera."
 
-#: about.php:75
+#: about.php:77
 #, php-format
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
@@ -485,11 +485,11 @@ msgstr ""
 "на Raspberry Pi вдома. Крім того, на ньому запущений екземпляр Postfix, який "
 "лише прослуховує мережу VPN, щоб надсилати електронні листи у clearnet."
 
-#: about.php:76
+#: about.php:78
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Всі сервери з'єднані між собою за допомогою Wireguard VPN."
 
-#: about.php:77
+#: about.php:79
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -951,8 +951,16 @@ msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Ти можеш зламати мою дівчину? Я думаю, вона обманює."
 
 #: faq.php:78
+#, fuzzy
+#| msgid ""
+#| "Yes, I could try, but I won't. Don't trust the any sites that claim to "
+#| "give you that, because they are all scams. This is ethically just wrong "
+#| "and is more likely going to hurt your relationship than helping you. Talk "
+#| "to her, it's the best you can do. If you are at the point of thinking to "
+#| "hire a hacker, you should definitely think about breaking up, because "
+#| "relationships are based on trust, but obviously you can't trust anymore."
 msgid ""
-"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"Yes, I could try, but I won't. Don't trust the many sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
 "more likely going to hurt your relationship than helping you. Talk to her, "
 "it's the best you can do. If you are at the point of thinking to hire a "
@@ -2728,11 +2736,6 @@ msgstr ""
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr "Ось кілька інвестиційних платформ, в які я особисто інвестував:"
 
-#: tutorials/get-rich-fast/index.php:79
-#, php-format
-msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr "(Заощаджуйте 50€ на перших інвестиціях за допомогою коду «%s»)"
-
 #: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
 msgstr "Пасивний дохід"
@@ -4039,9 +4042,13 @@ msgstr ""
 msgid "Popular findom sites:"
 msgstr ""
 
-#: tutorials/findom/index.php:66
+#: tutorials/findom/index.php:65
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, php-format
+#~ msgid "(Save 50€ on your first investment with the code \"%s\")"
+#~ msgstr "(Заощаджуйте 50€ на перших інвестиціях за допомогою коду «%s»)"
 
 #, php-format
 #~ msgid ""

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-10-29 11:12+0100\n"
-"PO-Revision-Date: 2023-11-30 18:40+0000\n"
+"POT-Creation-Date: 2023-11-30 22:04+0100\n"
+"PO-Revision-Date: 2023-12-01 16:13+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -333,11 +333,11 @@ msgstr "Ich bin für Aufträge verfügbar"
 msgid "Profiles on other sites that I am active on:"
 msgstr "Profile auf anderen Seiten, auf denen ich auch aktiv bin:"
 
-#: about.php:52
+#: about.php:54
 msgid "About this site"
 msgstr "Über diese Seite"
 
-#: about.php:53
+#: about.php:55
 msgid ""
 "This is my site, that I develop in my free time. I started development of "
 "this site in August/September 2013 when I wanted to have a platform to host "
@@ -347,7 +347,7 @@ msgstr ""
 "Entwicklung dieser Seite im August/September 2013 angefangen, als ich eine "
 "Platform zum Teilen von Dateien in der Schule haben wollte."
 
-#: about.php:54
+#: about.php:56
 #, php-format
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
@@ -361,7 +361,7 @@ msgstr ""
 "nicht wirklich nutzbar für mehrere Leute. Deshalb habe ich mich entschieden "
 "einige Teile davon zu PHP zu portieren."
 
-#: about.php:55
+#: about.php:57
 #, php-format
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
@@ -375,7 +375,7 @@ msgstr ""
 "ich viele neue Funktionen hinzugefügt sowie die Zuverlässigkeit und meine "
 "Codequalität verbessert."
 
-#: about.php:56
+#: about.php:58
 msgid ""
 "I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
@@ -389,15 +389,15 @@ msgstr ""
 "Serververwaltung beigebracht. Aktuell werden nur noch das anonyme E-Mail und "
 "XMPP Hosting, sowie die Onion Linkliste aktiv gewartet."
 
-#: about.php:57
+#: about.php:59
 msgid "About the setup"
 msgstr "Über das Setup"
 
-#: about.php:58
+#: about.php:60
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr "Hostingprovider die Ich verwende(t habe) und die Server dort:"
 
-#: about.php:60
+#: about.php:62
 #, php-format
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
@@ -405,21 +405,21 @@ msgstr ""
 "%s - gut für kurze und/order Projekte mit wenig Bandbreite. Es wird auch ein "
 "%s angeboten"
 
-#: about.php:60
+#: about.php:62
 msgid "Free Tier Program for businesses"
 msgstr "Kostenloses Programm für Unternehmen"
 
-#: about.php:61
+#: about.php:63
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr "%s - gut für kurze und/order Projekte mit wenig Bandbreite"
 
-#: about.php:62
+#: about.php:64
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s - (Verwendet für meinen clearnet Gateway) - gut und zuverlässig"
 
-#: about.php:63
+#: about.php:65
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -428,11 +428,11 @@ msgstr ""
 "%s - (Verwendet für meinen clearnet Gateway + Domain Registrierung) -gut und "
 "zuverlässig, gehosted in meiner Stadt"
 
-#: about.php:64
+#: about.php:66
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Zu Hause gehosted: 4 Raspberry Pi 4 mit der Hauptseite und den Daten"
 
-#: about.php:70
+#: about.php:72
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
@@ -440,7 +440,7 @@ msgstr ""
 "Ein kleines Netzwerk-Rack mit 4 Raspberry Pis darin, ein WLAN Router darauf "
 "und ein Telefon daneben"
 
-#: about.php:73
+#: about.php:75
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -463,7 +463,7 @@ msgstr ""
 "mehr unterstützt, musste ich einen Konverter kaufen, um Pulssignale in "
 "moderne DTMF Signale zu übersetzen."
 
-#: about.php:74
+#: about.php:76
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
@@ -473,7 +473,7 @@ msgstr ""
 "Servern zu teilen, habe ich einen CephFS für verteilte und redundante "
 "Dateispeicher sowie einen MariaDB Galera Cluster eingesetzt."
 
-#: about.php:75
+#: about.php:77
 #, php-format
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
@@ -485,11 +485,11 @@ msgstr ""
 "Instanz, die nur auf dem VPN Netzwerk erreichbar ist, um Mails an das "
 "clearnet zu senden."
 
-#: about.php:76
+#: about.php:78
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Alle Server sind per Wireguard VPN miteinander verbunden."
 
-#: about.php:77
+#: about.php:79
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -947,7 +947,7 @@ msgstr "Kannst du meine Freundin hacken, ich glaube sie Betrügt mich."
 
 #: faq.php:78
 msgid ""
-"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"Yes, I could try, but I won't. Don't trust the many sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
 "more likely going to hurt your relationship than helping you. Talk to her, "
 "it's the best you can do. If you are at the point of thinking to hire a "
@@ -1796,7 +1796,7 @@ msgstr "Eine alternative Linkliste findest du zum Beispiel %s."
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
 #: blog/ipv6/index.php:32 blog/index.php:33
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
-msgstr ""
+msgstr "IPv6 nutzen: Der Schlüssel zu einem zukunftssicheren Internet"
 
 #: blog/ipv6/index.php:10 blog/ipv6/index.php:21
 msgid ""
@@ -1804,6 +1804,10 @@ msgid ""
 "Explore the benefits, consequences of not adopting IPv6, and practical "
 "insights on future-proofing your online presence."
 msgstr ""
+"Entdecke warum die Implementierung von IPv6 für internetbasierte Dienste von "
+"entscheidender Bedeutung ist. Entdecke die Vorteile und Konsequenzen der "
+"Nichteinführung von IPv6 sowie praktische Erkenntnisse zur "
+"Zukunftssicherheit deiner Online-Präsenz."
 
 #: blog/ipv6/index.php:33
 msgid ""
@@ -1817,10 +1821,20 @@ msgid ""
 "internet protocol, steps in. In this article, we will explore IPv6 and delve "
 "into why its implementation is vital for internet-facing services."
 msgstr ""
+"Im riesigen Bereich des Internets, in dem Konnektivität das Lebenselixier "
+"der modernen Gesellschaft ist, ist die Gewährleistung eines nahtlosen und "
+"sicheren Datenflusses von größter Bedeutung. IP-Adressen dienen als digitale "
+"Koordinaten und ermöglichen es Datenpaketen, ihren Weg durch das globale "
+"Netzwerk zu finden. IPv4 (Internet Protocol Version 4) ist seit Jahrzehnten "
+"das Rückgrat der Internetkommunikation. Mit dem exponentiellen Wachstum des "
+"Internets gehen die IPv4-Adressen jedoch rapide zur Neige. Hier kommt IPv6, "
+"das Internetprotokoll der nächsten Generation, ins Spiel. In diesem Artikel "
+"werden wir IPv6 untersuchen und erklären, warum seine Implementierung für "
+"internetbasierte Dienste von entscheidender Bedeutung ist."
 
 #: blog/ipv6/index.php:34
 msgid "Understanding IPv6"
-msgstr ""
+msgstr "IPv6 Verstehen"
 
 #: blog/ipv6/index.php:35
 msgid ""
@@ -1831,14 +1845,20 @@ msgid ""
 "enough to assign a unique IP address to every atom on the surface of the "
 "Earth and still have addresses left to spare."
 msgstr ""
+"IPv6, die sechste Revision des Internetprotokolls, wurde als Nachfolger von "
+"IPv4 entwickelt. Im Gegensatz zu IPv4, das 32-Bit-Adressen verwendet, "
+"verwendet IPv6 128-Bit-Adressen und bietet eine astronomische Anzahl "
+"eindeutiger Kombinationen – etwa 3,4 × 10^38 Adressen. Um dies ins rechte "
+"Licht zu rücken: Es reicht aus, jedem Atom auf der Erdoberfläche eine "
+"eindeutige IP-Adresse zuzuweisen und trotzdem noch Adressen übrig zu haben."
 
 #: blog/ipv6/index.php:36
 msgid "The Importance of IPv6 Implementation"
-msgstr ""
+msgstr "Die Bedeutung der IPv6-Implementierung"
 
 #: blog/ipv6/index.php:37
 msgid "Address Space Exhaustion"
-msgstr ""
+msgstr "Adressenmangel"
 
 #: blog/ipv6/index.php:38
 msgid ""
@@ -1849,6 +1869,13 @@ msgid ""
 "device can be assigned a unique identifier. This facilitates the growth of "
 "the Internet of Things (IoT) and other interconnected technologies."
 msgstr ""
+"Das unmittelbarste Problem welches IPv6 adressiert, ist die Erschöpfung der "
+"IPv4-Adressen. Mit der Verbreitung internetfähiger Geräte, von Smartphones "
+"bis hin zu IoT-Geräten, ist die Nachfrage nach IP-Adressen sprunghaft "
+"angestiegen. IPv6 bietet ein nahezu unbegrenztes Angebot an Adressen und "
+"garantiert so, dass jedem Gerät eine eindeutige Kennung zugewiesen werden "
+"kann. Dies erleichtert das Wachstum des Internets der Dinge (IoT) und "
+"anderer vernetzter Technologien."
 
 #: blog/ipv6/index.php:39
 msgid "Enhanced Security"
@@ -1862,10 +1889,16 @@ msgid ""
 "secure communication environment. This is especially crucial for internet-"
 "facing services, where sensitive data transmission is the norm."
 msgstr ""
+"IPv6 umfasst standardmäßig Funktionen wie IPsec (Internet Protocol Security) "
+"und bietet so einen robusten Rahmen zur Sicherung des Datenverkehrs. Mit "
+"IPv6 sind Verschlüsselung und Authentifizierung nahtlos integriert und "
+"bieten eine sicherere Kommunikationsumgebung. Dies ist besonders wichtig für "
+"internetbasierte Dienste, bei denen die Übertragung sensibler Daten die Norm "
+"ist."
 
 #: blog/ipv6/index.php:41
 msgid "Improved Performance"
-msgstr ""
+msgstr "Verbesserte Leistung"
 
 #: blog/ipv6/index.php:42
 msgid ""
@@ -1875,10 +1908,16 @@ msgid ""
 "faster and more responsive user experiences, essential for applications "
 "requiring real-time data transmission."
 msgstr ""
+"IPv6 ist auf Effizienz ausgelegt. Es reduziert die Komplexität der Paket-"
+"Header, rationalisiert den Routing-Prozess und führt zu einer verbesserten "
+"Netzwerkleistung. Mit dem Internet verbundene Dienste, die IPv6 nutzen, "
+"können eine schnellere und reaktionsfähigere Benutzererfahrung bieten, was "
+"für Anwendungen, die eine Echtzeit-Datenübertragung erfordern, unerlässlich "
+"ist."
 
 #: blog/ipv6/index.php:43
 msgid "Future-Proofing Networks"
-msgstr ""
+msgstr "Zukunftssichere Netzwerke"
 
 #: blog/ipv6/index.php:44
 msgid ""
@@ -1888,10 +1927,16 @@ msgid ""
 "and more expensive. It’s a strategic investment in the longevity of digital "
 "infrastructure."
 msgstr ""
+"Da die Akzeptanz von IPv6 zunimmt, machen internetbasierte Dienste, die "
+"dieses Protokoll nutzen, ihre Netzwerke zukunftssicher. Die IPv6-"
+"Bereitschaft stellt sicher, dass diese Dienste zugänglich und funktionsfähig "
+"bleiben, wenn IPv4-Adressen knapper und teurer werden. Es handelt sich um "
+"eine strategische Investition in die Langlebigkeit der digitalen "
+"Infrastruktur."
 
 #: blog/ipv6/index.php:45
 msgid "SEO and Online Visibility"
-msgstr ""
+msgstr "SEO und Online-Sichtbarkeit"
 
 #: blog/ipv6/index.php:46
 msgid ""
@@ -1901,10 +1946,15 @@ msgid ""
 "asset for businesses and organizations aiming to reach a broader online "
 "audience."
 msgstr ""
+"Suchmaschinen wie Google erkennen IPv6-fähige Websites und sorgen für einen "
+"leichten Ranking-Boost, um die Akzeptanz zu fördern. Die Implementierung von "
+"IPv6 kann sich daher positiv auf die Sichtbarkeit einer Website auswirken "
+"und sie zu einem wertvollen Aktivposten für Unternehmen und Organisationen "
+"machen, die ein breiteres Online-Publikum erreichen möchten."
 
 #: blog/ipv6/index.php:47
 msgid "Concesquences of not implementing IPv6"
-msgstr ""
+msgstr "Folgen der Nichtimplementierung von IPv6"
 
 #: blog/ipv6/index.php:48
 msgid ""
@@ -1921,6 +1971,20 @@ msgid ""
 "thrive in a diverse, interconnected digital landscape, ultimately limiting "
 "its reach and relevance."
 msgstr ""
+"Eine der Hauptauswirkungen ist die Unzugänglichkeit des Dienstes für "
+"Benutzer in reinen IPv6-Netzwerken. Da immer mehr Internetdienstanbieter und "
+"Mobilfunknetze auf IPv6 umsteigen, könnten Benutzer, die ausschließlich auf "
+"IPv6-Adressen angewiesen sind, keine Verbindung zu Websites und Anwendungen "
+"herstellen, die dieses Protokoll nicht verwenden. Folglich laufen "
+"Unternehmen Gefahr, einen wachsenden Teil ihrer Zielgruppe abzuschrecken, "
+"was zu einer geringeren Nutzerinteraktion und potenziellen Umsatzeinbußen "
+"führt. Darüber hinaus kann es bei solchen Diensten zu einer Verschlechterung "
+"der Online-Sichtbarkeit und der SEO-Rankings kommen, da Suchmaschinen "
+"zunehmend IPv6-fähige Websites priorisieren. Im Wesentlichen beeinträchtigt "
+"die fehlende Implementierung von IPv6 nicht nur die Inklusivität, sondern "
+"beeinträchtigt auch die Fähigkeit des Dienstes, in einer vielfältigen, "
+"vernetzten digitalen Landschaft zu gedeihen, was letztendlich seine "
+"Reichweite und Relevanz einschränkt."
 
 #: blog/ipv6/index.php:49
 #, php-format
@@ -1931,10 +1995,16 @@ msgid ""
 "times, I've had to search for alternative solutions to download code on IPv6-"
 "only networks. For this reason, I have created a %2$s to address this issue."
 msgstr ""
+"Ein Beispiel für einen Dienst, der nicht IPv6-kompatibel ist, ist %1$s, eine "
+"weit verbreitete Plattform zum Hosten von Code. Dies bedeutet, dass Benutzer "
+"in reinen IPv6-Netzwerken nicht darauf zugreifen können. Da mir dieses "
+"Problem bereits mehrfach untergekommen ist, musste ich nach alternativen "
+"Lösungen suchen, um Code in reinen IPv6-Netzwerken herunterzuladen. Aus "
+"diesem Grund habe ich %2$s erstellt, um dieses Problem zu beheben."
 
 #: blog/ipv6/index.php:50
 msgid "Challenges and Considerations"
-msgstr ""
+msgstr "Herausforderungen und Überlegungen"
 
 #: blog/ipv6/index.php:51
 msgid ""
@@ -1943,6 +2013,11 @@ msgid ""
 "coexistence during the transition period. However, these challenges are "
 "outweighed by the advantages and long-term sustainability that IPv6 offers."
 msgstr ""
+"Während die Vorteile der IPv6-Implementierung klar sind, gibt es "
+"Herausforderungen, wie z. B. die Notwendigkeit von Netzwerk-Upgrades und die "
+"Anforderung einer IPv4-IPv6-Koexistenz während der Übergangszeit. Diese "
+"Herausforderungen werden jedoch durch die Vorteile und die langfristige "
+"Nachhaltigkeit, die IPv6 bietet, aufgewogen."
 
 #: blog/ipv6/index.php:52
 msgid ""
@@ -1954,10 +2029,17 @@ msgid ""
 "By doing so, we can create a resilient, secure, and interconnected network - "
 "one step at a time."
 msgstr ""
+"Es ist wichtig zu verstehen, dass IPv6 nicht nur ein technisches Upgrade, "
+"sondern eine Notwendigkeit ist. Unternehmen, die ihre Internetdienste auf "
+"IPv6 umstellen, positionieren sich an der Spitze der digitalen Landschaft, "
+"die Skalierbarkeit, Sicherheit und Innovation erfordert. Bei der Umstellung "
+"auf IPv6 geht es nicht nur darum, Veränderungen anzunehmen; Es geht darum, "
+"die Zukunft des Internets zu gestalten. Auf diese Weise können wir Schritt "
+"für Schritt ein belastbares, sicheres und vernetztes Netzwerk schaffen."
 
 #: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/dane/index.php:73
 msgid "Hire an expert"
-msgstr ""
+msgstr "Beauftrage einen Experten"
 
 #: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/dane/index.php:74
 #, php-format
@@ -1966,11 +2048,14 @@ msgid ""
 "seek help from an expert. Please %s for assistance and consultation with "
 "your implementation."
 msgstr ""
+"Wenn du darüber nachdenkst, dies für dein Unternehmen umzusetzen, zögere "
+"nicht, die Hilfe eines Experten in Anspruch zu nehmen. Bitte %s um "
+"Unterstützung und Beratung bei deiner Implementierung zu bekommen."
 
 #: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
 #: blog/dnssec/index.php:32 blog/index.php:32
 msgid "Securing the Web: Unraveling the Power of DNSSEC"
-msgstr ""
+msgstr "Das Web sichern: Die Leistungsfähigkeit von DNSSEC entfalten"
 
 #: blog/dnssec/index.php:10 blog/dnssec/index.php:21
 msgid ""
@@ -1978,6 +2063,10 @@ msgid ""
 "implement DNSSEC and safeguard your digital presence against cyber threats. "
 "Secure your future in the digital landscape."
 msgstr ""
+"Entdecke die Leistungsfähigkeit von DNSSEC zur Stärkung der Online-"
+"Sicherheit. Erfahre wie du DNSSEC implementieren und deine digitale Präsenz "
+"vor Cyber-Bedrohungen schützen kannst. Sicher dir deine Zukunft in der "
+"digitalen Landschaft."
 
 #: blog/dnssec/index.php:33
 msgid ""
@@ -1988,10 +2077,18 @@ msgid ""
 "unravel the significance of DNSSEC, exploring its functionalities, benefits, "
 "and the imperative need for its widespread implementation."
 msgstr ""
+"Die Gewährleistung der Sicherheit und Integrität der Daten ist von größter "
+"Bedeutung. Domain Name System Security Extensions (DNSSEC) fungiert als "
+"treuer Wächter, schützt die digitale Welt vor böswilligen Bedrohungen und "
+"stellt sicher, dass Benutzer den Informationen, die sie erhalten, vertrauen "
+"können. In diesem Artikel begeben wir uns auf eine Reise, um die Bedeutung "
+"von DNSSEC zu entschlüsseln, seine Funktionalitäten, Vorteile und die "
+"zwingende Notwendigkeit seiner flächendeckenden Implementierung zu "
+"untersuchen."
 
 #: blog/dnssec/index.php:34
 msgid "Understanding DNSSEC"
-msgstr ""
+msgstr "DNSSEC Verstehen"
 
 #: blog/dnssec/index.php:35
 msgid ""
@@ -2140,7 +2237,7 @@ msgstr "Oktober 2023"
 #: blog/index.php:31 blog/dane/index.php:6 blog/dane/index.php:20
 #: blog/dane/index.php:30 blog/dane/index.php:32
 msgid "Fortifying Digital Connections using DANE"
-msgstr ""
+msgstr "Stärkung digitaler Verbindungen mit DANE"
 
 #: blog/index.php:34
 msgid "August 2023"
@@ -2233,7 +2330,7 @@ msgstr ""
 
 #: blog/dane/index.php:41
 msgid "Boosting Website Credibility"
-msgstr ""
+msgstr "Steigerung der Glaubwürdigkeit der Website"
 
 #: blog/dane/index.php:42
 msgid ""
@@ -2359,7 +2456,7 @@ msgstr ""
 
 #: blog/dane/index.php:70
 msgid "TLSA Record Generator by SSL-Tools"
-msgstr ""
+msgstr "TLSA Record Generator von SSL-Tools"
 
 #: blog/dane/index.php:72
 msgid ""
@@ -2731,11 +2828,6 @@ msgid "Here are some investment platforms that I have personally invested in:"
 msgstr ""
 "Hier sind einige Investitionsplattformen, in die ich persönlich investiert "
 "habe:"
-
-#: tutorials/get-rich-fast/index.php:79
-#, php-format
-msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr "(Spare 50€ auf deine erste Investition mit dem Code \"%s\")"
 
 #: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
@@ -3616,54 +3708,54 @@ msgstr ""
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:62
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:83
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:81
 msgid "WordPress"
-msgstr ""
+msgstr "WordPress"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:81
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:62
 #: tutorials/content-creation/index.php:85
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:62
 #: tutorials/content-creation/index.php:85
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
 #: tutorials/content-creation/index.php:85
 msgid "OnlyFans"
-msgstr ""
+msgstr "OnlyFans"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
 #: tutorials/content-creation/index.php:85
 msgid "Fansly"
-msgstr ""
+msgstr "Fansly"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
 #: tutorials/content-creation/index.php:85
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: tutorials/content-creation/index.php:46
 msgid "Develop a content calendar"
@@ -3738,15 +3830,15 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:54
 msgid "Apple Podcasts"
-msgstr ""
+msgstr "Apple Podcasts"
 
 #: tutorials/content-creation/index.php:54
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: tutorials/content-creation/index.php:54
 msgid "Google Podcasts"
-msgstr ""
+msgstr "Google Podcasts"
 
 #: tutorials/content-creation/index.php:55
 msgid "Launching an online store"
@@ -3769,15 +3861,15 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:56
 msgid "Etsy"
-msgstr ""
+msgstr "Etsy"
 
 #: tutorials/content-creation/index.php:56
 msgid "Shopify"
-msgstr ""
+msgstr "Shopify"
 
 #: tutorials/content-creation/index.php:56
 msgid "WooCommerce"
-msgstr ""
+msgstr "WooCommerce"
 
 #: tutorials/content-creation/index.php:57
 msgid "Become an entertainer or comedian"
@@ -3872,11 +3964,11 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:64
 msgid "Fiverr"
-msgstr ""
+msgstr "Fiverr"
 
 #: tutorials/content-creation/index.php:64
 msgid "Upwork"
-msgstr ""
+msgstr "Upwork"
 
 #: tutorials/content-creation/index.php:65
 msgid "Offering exclusive content"
@@ -4065,7 +4157,7 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:85
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: tutorials/findom/index.php:10 tutorials/findom/index.php:22
 msgid "This tutorial will show you how you can use findom to earn money"
@@ -4074,7 +4166,7 @@ msgstr ""
 
 #: tutorials/findom/index.php:34
 msgid "What is findom?"
-msgstr "Was ist fondom?"
+msgstr "Was ist findom?"
 
 #: tutorials/findom/index.php:35
 msgid ""
@@ -4082,6 +4174,10 @@ msgid ""
 "person (dom) receives money from a submissive person (sub). This transaction "
 "provides pleasure to both parties, even though it is a one-way transaction."
 msgstr ""
+"Findom, die Abkürzung für finanzielle Domination. Es handelt sich um einen "
+"Fetisch, bei dem eine dominante Person (dom) Geld von einer unterwürfigen "
+"Person (sub) erhält. Diese Transaktion bereitet beiden Parteien Freude, auch "
+"wenn es sich um eine einseitige Transaktion handelt."
 
 #: tutorials/findom/index.php:36
 msgid "What are the risks of engaging in findom?"
@@ -4156,7 +4252,7 @@ msgstr ""
 
 #: tutorials/findom/index.php:45
 msgid "Amazon wishlist"
-msgstr ""
+msgstr "Amazon-Wunschliste"
 
 #: tutorials/findom/index.php:46
 msgid "Popular dating sites used for findom:"
@@ -4174,9 +4270,13 @@ msgstr ""
 msgid "Popular findom sites:"
 msgstr "Beliebte findom Seiten:"
 
-#: tutorials/findom/index.php:66
+#: tutorials/findom/index.php:65
 msgid "Popular content creator sites used for findom:"
 msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
+
+#, php-format
+#~ msgid "(Save 50€ on your first investment with the code \"%s\")"
+#~ msgstr "(Spare 50€ auf deine erste Investition mit dem Code \"%s\")"
 
 #, fuzzy, php-format
 #~| msgid ""
@@ -4248,8 +4348,8 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "%s."
 #~ msgstr ""
 #~ "Du kannst meine diversen open-source Projekte auf <a href=\"https://"
-#~ "github.com/DanWin/\" target=\"_blank\" rel=\"noopener noreferrer"
-#~ "\">GitHub</a> herunterladen, oder zu diesen beitragen."
+#~ "github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">GitHub</a> herunterladen, oder zu diesen beitragen."
 
 #, fuzzy, php-format
 #~| msgid ""
@@ -4266,18 +4366,18 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "einfach."
 
 #~ msgid ""
-#~ "If there are any further questions, feel free to <a href=\"/contact.php"
-#~ "\">contact me</a>."
+#~ "If there are any further questions, feel free to <a href=\"/contact."
+#~ "php\">contact me</a>."
 #~ msgstr ""
 #~ "Wenn noch weitere Fragen offen sind, <a href=\"/contact.php\">schreib "
 #~ "mir</a> gerne."
 
 #~ msgid ""
-#~ "I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
-#~ "\">Privacy Policy</a>"
+#~ "I have read and agreed to the <a href=\"/privacy.php\" "
+#~ "target=\"_blank\">Privacy Policy</a>"
 #~ msgstr ""
-#~ "Ich habe die <a href=\"/privacy.php\" target=\"_blank"
-#~ "\">Datenschutzerklärung</a> gelesen und akzeptiert"
+#~ "Ich habe die <a href=\"/privacy.php\" "
+#~ "target=\"_blank\">Datenschutzerklärung</a> gelesen und akzeptiert"
 
 #~ msgid "I found an illegal link/content on your site, can you remove it?"
 #~ msgstr ""
@@ -4299,10 +4399,10 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "article</a>."
 #~ msgstr ""
 #~ "PGP ist ein Verschlüsselungsprogramm, welches zum Verschlüsseln und "
-#~ "signieren von E-Mails und Dateien verwendet werden kann. <a href="
-#~ "\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\" target=\"_blank\" "
-#~ "rel=\"noopener noreferrer\">Mehr Informationen in diesem Wikipedia "
-#~ "Artikel</a>."
+#~ "signieren von E-Mails und Dateien verwendet werden kann. <a "
+#~ "href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">Mehr Informationen in "
+#~ "diesem Wikipedia Artikel</a>."
 
 #, php-format
 #~ msgid "Feel free, to <a href=\"%s\">contact me</a>."
@@ -4327,25 +4427,26 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "ahmia.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmia</a>."
 #~ msgstr ""
 #~ "Du kannst meine diversen open-source Projekte auf <a href=\"https://"
-#~ "github.com/DanWin/\" target=\"_blank\" rel=\"noopener noreferrer"
-#~ "\">GitHub</a> herunterladen, oder zu diesen beitragen."
+#~ "github.com/DanWin/\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">GitHub</a> herunterladen, oder zu diesen beitragen."
 
 #~ msgid ""
 #~ "This tutorial will show you how to torify FTP clients in the example of "
 #~ "<a href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 #~ msgstr ""
 #~ "Dieses Tutorial zeigt dir, wie du FTP Clients über Tor verbinden kannst "
-#~ "im Beispiel von <a href=\"#filezilla\">FileZilla</a> und <a href=\"#winscp"
-#~ "\">WinSCP</a>."
+#~ "im Beispiel von <a href=\"#filezilla\">FileZilla</a> und <a "
+#~ "href=\"#winscp\">WinSCP</a>."
 
 #~ msgid ""
 #~ "If you haven't installed FileZilla yet, you can <a href=\"https://"
-#~ "filezilla-project.org/download.php?type=client\" target=\"_blank\" rel="
-#~ "\"noopener noreferrer\">download FileZilla here</a>."
+#~ "filezilla-project.org/download.php?type=client\" target=\"_blank\" "
+#~ "rel=\"noopener noreferrer\">download FileZilla here</a>."
 #~ msgstr ""
-#~ "Wenn du FileZilla noch nicht installiert hast, kannst du <a href="
-#~ "\"https://filezilla-project.org/download.php?type=client\" target=\"_blank"
-#~ "\" rel=\"noopener noreferrer\">FileZilla hier herunterladen</a>."
+#~ "Wenn du FileZilla noch nicht installiert hast, kannst du <a "
+#~ "href=\"https://filezilla-project.org/download.php?type=client\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">FileZilla hier "
+#~ "herunterladen</a>."
 
 #~ msgid ""
 #~ "If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
@@ -4353,8 +4454,8 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "WinSCP here</a>."
 #~ msgstr ""
 #~ "Wenn du WinSCP noch nicht installiert hast, kannst du <a href=\"https://"
-#~ "winscp.net/eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer"
-#~ "\">WinSCP hier herunterladen</a>."
+#~ "winscp.net/eng/download.php\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">WinSCP hier herunterladen</a>."
 
 #~ msgid "Daniel's Chat shutdnown"
 #~ msgstr "Daniel's Chat geschlossen"
@@ -4412,8 +4513,8 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 
 #~ msgid ""
 #~ "Make sure you have switched all your settings to the new domain. It "
-#~ "should work as before. Stil not working correctly? Feel free to <a href="
-#~ "\"/contact.php\">contact me</a> for help."
+#~ "should work as before. Stil not working correctly? Feel free to <a "
+#~ "href=\"/contact.php\">contact me</a> for help."
 #~ msgstr ""
 #~ "Stelle sicher, dass du alle Einstellungen auf die neue Domain geändert "
 #~ "hast. Es sollte so funktionieren wie vorher. Funktioniert es immer noch "
@@ -4440,10 +4541,10 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "article</a>"
 #~ msgstr ""
 #~ "PGP ist ein Verschlüsselungsprogramm, welches zum Verschlüsseln und "
-#~ "signieren von E-Mails und Dateien verwendet werden kann. <a href="
-#~ "\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\" target=\"_blank\" "
-#~ "rel=\"noopener noreferrer\">Mehr Informationen in diesem Wikipedia "
-#~ "Artikel</a>."
+#~ "signieren von E-Mails und Dateien verwendet werden kann. <a "
+#~ "href=\"https://de.wikipedia.org/wiki/Pretty_Good_Privacy\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">Mehr Informationen in "
+#~ "diesem Wikipedia Artikel</a>."
 
 #, fuzzy
 #~ msgid ""
@@ -5345,5 +5446,5 @@ msgstr "Beliebte Inhaltserstellungs-Websites, die für findom verwendet werden:"
 #~ "If there are any further questions, feel free to <a href=\"/contact.php\" "
 #~ "target=\"_blank\" rel=\"noopener noreferrer\">contact me</a>."
 #~ msgstr ""
-#~ "Wenn noch weitere Fragen offen sind, <a href=\"/contact.php\" target="
-#~ "\"_blank\" rel=\"noopener noreferrer\">schreib mir</a> gerne."
+#~ "Wenn noch weitere Fragen offen sind, <a href=\"/contact.php\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">schreib mir</a> gerne."

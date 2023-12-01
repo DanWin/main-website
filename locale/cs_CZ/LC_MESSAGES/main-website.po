@@ -6,12 +6,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-10-29 11:12+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-30 22:04+0100\n"
 "PO-Revision-Date: 2023-11-21 23:40+0000\n"
 "Last-Translator: Dai Duong Le <daiduonglebusiness@gmail.com>\n"
-"Language-Team: Czech <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/cs/>\n"
+"Language-Team: Czech <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/cs/>\n"
 "Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,9 +132,9 @@ msgstr ""
 "systému. S hlubokou vášní pro programování, správa serveru, a kybernetickou "
 "bezpečnost, nabízím širokou škálu služeb dle vašim potřebám. Moje extenzivní "
 "zkušenosti a odbornost mi umožňuje rychle se přizpůsobit novým výzvám, "
-"zajištění špičkových řešení pro každý projekt. Nabízím zdarma a anonymní %1$"
-"s, %2$s, a také by vás mohl zajímat moje %3$s. Můžete najít moje open-source "
-"projekty na %4$s."
+"zajištění špičkových řešení pro každý projekt. Nabízím zdarma a anonymní "
+"%1$s, %2$s, a také by vás mohl zajímat moje %3$s. Můžete najít moje open-"
+"source projekty na %4$s."
 
 #: index.php:28
 msgid "mail service"
@@ -295,8 +295,8 @@ msgstr ""
 #| "Managing servers, email services and developing new web projects is what "
 #| "I thrive on. I like optimizing systems for performance and getting the "
 #| "best out of what I have. Do you need help with managing and optimizing "
-#| "your infrastructure or website? I'm here to help. <a href=\"/contact.php"
-#| "\">Get in touch</a> and we'll discuss details."
+#| "your infrastructure or website? I'm here to help. <a href=\"/contact."
+#| "php\">Get in touch</a> and we'll discuss details."
 msgid ""
 "Managing servers and email services and developing new web projects is what "
 "I thrive on. I like optimizing systems for performance and getting the best "
@@ -306,8 +306,8 @@ msgstr ""
 "Správa serverů, e-mailových služeb a vývoj nových webových projektů je to, v "
 "čem se mi daří. Líbí se mi optimalizace systémů pro výkon a získání toho "
 "nejlepšího z toho, co mám. Potřebujete pomoci se správou a optimalizací vaší "
-"infrastruktury nebo webu? Jsem tady, abych vám pomohl. <a href=\"/contact.php"
-"\">Kontaktujte mě</a> a probereme podrobnosti."
+"infrastruktury nebo webu? Jsem tady, abych vám pomohl. <a href=\"/contact."
+"php\">Kontaktujte mě</a> a probereme podrobnosti."
 
 #: about.php:42
 msgid "I'm available for hire"
@@ -317,11 +317,11 @@ msgstr ""
 msgid "Profiles on other sites that I am active on:"
 msgstr "Profily na jiných webech, na kterých jsem aktivní:"
 
-#: about.php:52
+#: about.php:54
 msgid "About this site"
 msgstr "O této stránce"
 
-#: about.php:53
+#: about.php:55
 #, fuzzy
 #| msgid ""
 #| "This is my personal site, that I develop in my free time. I started "
@@ -336,7 +336,7 @@ msgstr ""
 "tohoto webu jsem začal v srpnu/září 2013, když jsem chtěl mít platformu pro "
 "hostování souborů pro použití ve škole."
 
-#: about.php:54
+#: about.php:56
 #, fuzzy, php-format
 #| msgid ""
 #| "Quickly the idea of using a chat at school came up and I came across a "
@@ -358,7 +358,7 @@ msgstr ""
 "opravdu použitelné pro použití s několika lidmi. Tak jsem se rozhodl přenést "
 "některé potřebné části do PHP."
 
-#: about.php:55
+#: about.php:57
 #, fuzzy, php-format
 #| msgid ""
 #| "This has been the start for me to get deeper into web-development and I "
@@ -378,7 +378,7 @@ msgstr ""
 "rel=\"noopener noreferrer\">GitHub</a>. Od té doby jsem přidal mnoho nových "
 "funkcí a zlepšil spolehlivost a hodně mého kódu."
 
-#: about.php:56
+#: about.php:58
 #, fuzzy
 #| msgid ""
 #| "I used to offer free file hosting, an url shortener, a chat and even a "
@@ -399,15 +399,15 @@ msgstr ""
 "aktivně udržovány pouze anonymní e-mail a hosting XMPP, stejně jako seznam "
 "odkazů na darknet."
 
-#: about.php:57
+#: about.php:59
 msgid "About the setup"
 msgstr "O sestavě"
 
-#: about.php:58
+#: about.php:60
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr "Poskytovatelé hostingu, které používám(val):"
 
-#: about.php:60
+#: about.php:62
 #, fuzzy, php-format
 #| msgid "%s - good for short-term and/or low-bandwidth projects"
 msgid ""
@@ -415,22 +415,22 @@ msgid ""
 msgstr ""
 "%s - dobré pro krátkodobé projekty a/nebo projekty s nízkou šířkou pásma"
 
-#: about.php:60
+#: about.php:62
 msgid "Free Tier Program for businesses"
 msgstr ""
 
-#: about.php:61
+#: about.php:63
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
 "%s - dobré pro krátkodobé projekty a/nebo projekty s nízkou šířkou pásma"
 
-#: about.php:62
+#: about.php:64
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s - (Používáno pro mou bránu clearnet) - dobré a spolehlivé"
 
-#: about.php:63
+#: about.php:65
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -439,17 +439,17 @@ msgstr ""
 "%s - (Používáno pro mou bránu clearnet + registraci domény) - dobré a "
 "spolehlivé, hostováno v mém městě"
 
-#: about.php:64
+#: about.php:66
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Doma hostováno: 4x Raspberry Pi 4 s hlavním webem a daty"
 
-#: about.php:70
+#: about.php:72
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
 
-#: about.php:73
+#: about.php:75
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -462,35 +462,36 @@ msgid ""
 "into modern DTMF."
 msgstr ""
 
-#: about.php:74
+#: about.php:76
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
 
-#: about.php:75
+#: about.php:77
 #, fuzzy, php-format
 #| msgid ""
-#| "The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-#| "\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-#| "the raspberry pis at home. Additionally, they run a Postfix instance only "
-#| "listening on the VPN network to send out mails to clearnet."
+#| "The clearnet gateways on <a href=\"https://danwin1210.de\" "
+#| "target=\"_blank\">danwin1210.de</a> are an NginX Proxy that will forward "
+#| "all requests to the raspberry pis at home. Additionally, they run a "
+#| "Postfix instance only listening on the VPN network to send out mails to "
+#| "clearnet."
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
 "requests to the Raspberry Pis at home. Additionally, they run a Postfix "
 "instance only listening on the VPN network to send emails to clearnet."
 msgstr ""
-"Brány clearnet na <a href=\"https://danwin1210.de\" target=\"_blank"
-"\">danwin1210.de</a> jsou NginX Proxy, které předávají všechny požadavky "
-"Raspberry Pis doma. Kromě toho provozují instanci Postfixu, která naslouchá "
-"pouze v síti VPN a odesílá e-maily do clearnetu."
+"Brány clearnet na <a href=\"https://danwin1210.de\" "
+"target=\"_blank\">danwin1210.de</a> jsou NginX Proxy, které předávají "
+"všechny požadavky Raspberry Pis doma. Kromě toho provozují instanci "
+"Postfixu, která naslouchá pouze v síti VPN a odesílá e-maily do clearnetu."
 
-#: about.php:76
+#: about.php:78
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Všechny servery jsou propojeny pomocí Wireguard VPN."
 
-#: about.php:77
+#: about.php:79
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -520,8 +521,8 @@ msgstr ""
 "Nedávno jsem musel klonovat úložiště git na GitHubu přes server pouze s "
 "IPv6, který jsem si pronajal u svého oblíbeného poskytovatele hostingu %s. "
 "Bohužel jsem si uvědomil, že GitHub stále <a href=\"https://github.com/orgs/"
-"community/discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer"
-"\">nepodporuje IPv6</a>."
+"community/discussions/10539\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">nepodporuje IPv6</a>."
 
 #: github-ipv6-proxy.php:34
 msgid "does not support IPv6"
@@ -702,12 +703,12 @@ msgstr ""
 #: contact.php:83
 #, fuzzy, php-format
 #| msgid ""
-#| "If you prefer to directly get in contact with me, email me at <a href="
-#| "\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+#| "If you prefer to directly get in contact with me, email me at <a "
+#| "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgid "If you prefer to directly get in contact with me, email me at %s."
 msgstr ""
-"Pokud dáváte přednost přímému kontaktu se mnou, napište mi na adresu <a href="
-"\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+"Pokud dáváte přednost přímému kontaktu se mnou, napište mi na adresu <a "
+"href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 
 #: faq.php:6 faq.php:14
 msgid "Daniel - FAQ - Frequently Asked Questions"
@@ -788,9 +789,9 @@ msgid ""
 "Please see my %s and check out the individual projects you would like to "
 "translate."
 msgstr ""
-"Podívejte se prosím na moje <a href=\"https://github.com/DanWin/\" target="
-"\"_blank\" rel=\"noopener noreferrer\">GitHub repozitáře</a> a podívejte se "
-"na jednotlivé projekty, které byste chtěli přeložit."
+"Podívejte se prosím na moje <a href=\"https://github.com/DanWin/\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">GitHub repozitáře</a> a "
+"podívejte se na jednotlivé projekty, které byste chtěli přeložit."
 
 #: faq.php:42
 msgid "GitHub repositories"
@@ -821,8 +822,8 @@ msgid ""
 "I heard of the shadow web, marianas web or closed shell network. How can I "
 "access them?"
 msgstr ""
-"Slyšel jsem o \"Shadow Web\", \"Marianas web\" nebo \"closed shell network"
-"\". Jak se na ně mohu dostat?"
+"Slyšel jsem o \"Shadow Web\", \"Marianas web\" nebo \"closed shell "
+"network\". Jak se na ně mohu dostat?"
 
 #: faq.php:50
 msgid ""
@@ -961,8 +962,16 @@ msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Můžeš hacknout moji přítelkyni? Myslím, že mě podvádí."
 
 #: faq.php:78
+#, fuzzy
+#| msgid ""
+#| "Yes, I could try, but I won't. Don't trust the any sites that claim to "
+#| "give you that, because they are all scams. This is ethically just wrong "
+#| "and is more likely going to hurt your relationship than helping you. Talk "
+#| "to her, it's the best you can do. If you are at the point of thinking to "
+#| "hire a hacker, you should definitely think about breaking up, because "
+#| "relationships are based on trust, but obviously you can't trust anymore."
 msgid ""
-"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"Yes, I could try, but I won't. Don't trust the many sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
 "more likely going to hurt your relationship than helping you. Talk to her, "
 "it's the best you can do. If you are at the point of thinking to hire a "
@@ -1019,8 +1028,8 @@ msgstr "Nemůžu přijímat e-maily, odesílateli se zobrazuje chyba o TLS"
 #| "sending emails via encrypted transfer, or is using insecure protocols. "
 #| "This is very unfortunate, because it would leak your email content to "
 #| "anyone on the internet, who can intercept your email before it reaches "
-#| "the destination. You can disable mandatory encryption in your <a href=\"%s"
-#| "\">account settings</a>, if you still need to receive this email."
+#| "the destination. You can disable mandatory encryption in your <a "
+#| "href=\"%s\">account settings</a>, if you still need to receive this email."
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
 "emails via encrypted transfer, or is using insecure protocols. This is very "
@@ -1298,18 +1307,18 @@ msgstr ""
 #: new-domain.php:42
 #, fuzzy, php-format
 #| msgid ""
-#| "I have taken the opportunity to create a <a href=\"/pgp.txt\" target="
-#| "\"_blank\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" "
-#| "target=\"_blank\">old PGP key</a>. This can be verified by running a "
-#| "command like this:"
+#| "I have taken the opportunity to create a <a href=\"/pgp.txt\" "
+#| "target=\"_blank\">new PGP key</a> and signed it with my <a href=\"/"
+#| "old_pgp.txt\" target=\"_blank\">old PGP key</a>. This can be verified by "
+#| "running a command like this:"
 msgid ""
 "I have taken the opportunity to create a %1$s and signed it with my %2$s. "
 "This can be verified by running a command like this:"
 msgstr ""
-"Využil jsem příležitosti vytvořit <a href=\"/pgp.txt\" target=\"_blank"
-"\">nový klíč PGP</a> a podepsal jsem jej pomocí svého <a href=\"/old_pgp.txt"
-"\" target=\"_blank \">starého klíče PGP</a>. To lze ověřit spuštěním "
-"příkazu, jako je tento:"
+"Využil jsem příležitosti vytvořit <a href=\"/pgp.txt\" "
+"target=\"_blank\">nový klíč PGP</a> a podepsal jsem jej pomocí svého <a "
+"href=\"/old_pgp.txt\" target=\"_blank \">starého klíče PGP</a>. To lze "
+"ověřit spuštěním příkazu, jako je tento:"
 
 #: new-domain.php:42
 msgid "new PGP key"
@@ -1350,9 +1359,9 @@ msgstr "Daniel's Hosting – bývalá darknet webhostingová služba"
 #| msgid ""
 #| "In March 2020 a hacker deleted all databases related to my hosting, thus "
 #| "I was forced to shut down my hosting service. If you want to contribute "
-#| "or setup your own hosting, check out my open source project at <a href="
-#| "\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
-#| "\">https://github.com/DanWin/hosting</a>."
+#| "or setup your own hosting, check out my open source project at <a "
+#| "href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
+#| "rel=\"noopener\">https://github.com/DanWin/hosting</a>."
 msgid ""
 "In March 2020 a hacker deleted all databases related to my hosting, thus I "
 "was forced to shut down my hosting service. If you want to contribute or "
@@ -1374,16 +1383,16 @@ msgstr ""
 #| "to continue development. At this time I do not plan on continuing the "
 #| "hosting project, but this doesn't have to be the end. There are other "
 #| "hosting providers like <a href=\"http://"
-#| "hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
-#| "\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-#| "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" target="
-#| "\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-#| "dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-#| "\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-#| "service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-#| "\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
-#| "<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel="
-#| "\"noopener\">available for download</a>, which should enable anyone "
+#| "hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
+#| "target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+#| "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+#| "target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+#| "dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+#| "target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet "
+#| "proxy service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+#| "rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project "
+#| "is <a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+#| "rel=\"noopener\">available for download</a>, which should enable anyone "
 #| "willing to become the next darknet shared hosting provider to start where "
 #| "I left of."
 msgid ""
@@ -1404,18 +1413,18 @@ msgstr ""
 "pokračování ve vývoji. V tuto chvíli neplánuji v hostingovém projektu "
 "pokračovat, ale nemusí to být konec. Existují další poskytovatelé hostingu "
 "jako <a href=\"http://"
-"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
-"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" target="
-"\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> nebo služba clearnet proxy "
-"<a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel=\"noopener"
-"\">Clearnet Onion | Easy clearnet relay</a> a můj projekt je <a href="
-"\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener\">k "
-"dispozici ke stažení</a>, což by mělo umožnit každému, kdo je ochotný stát "
-"se dalším poskytovatelem sdíleného hostingu darknetu, začít tam, kde jsem "
-"skončil."
+"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
+"target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+"target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> nebo služba "
+"clearnet proxy <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+"rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> a můj projekt je "
+"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+"rel=\"noopener\">k dispozici ke stažení</a>, což by mělo umožnit každému, "
+"kdo je ochotný stát se dalším poskytovatelem sdíleného hostingu darknetu, "
+"začít tam, kde jsem skončil."
 
 #: hosting/index.php:29
 msgid "available for download"
@@ -1746,18 +1755,18 @@ msgstr "Po 9 letech chat nadobro vypínám."
 #| msgid ""
 #| "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
 #| "cat=2\">my onion link list</a>. If you are interested in running a "
-#| "similar chat community, you can download my chat script on <a href="
-#| "\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel="
-#| "\"noopener noreferrer\">GitHub</a>."
+#| "similar chat community, you can download my chat script on <a "
+#| "href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" "
+#| "rel=\"noopener noreferrer\">GitHub</a>."
 msgid ""
 "If you are interested in running a similar chat community, you can download "
 "my chat script on %s."
 msgstr ""
 "Alternativní chaty najdete na <a href=\"https://onions.danwin1210.de/?"
 "cat=2\">mém seznamu odkazů</a>. Pokud máte zájem provozovat podobnou "
-"chatovací komunitu, můžete si stáhnout můj chatovací skript na <a href="
-"\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel=\"noopener "
-"noreferrer\" >GitHub</a>."
+"chatovací komunitu, můžete si stáhnout můj chatovací skript na <a "
+"href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" "
+"rel=\"noopener noreferrer\" >GitHub</a>."
 
 #: chat/index.php:30
 msgid ""
@@ -2775,11 +2784,6 @@ msgstr ""
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr ""
 "Zde jsou některé investiční platformy, do kterých jsem osobně investoval:"
-
-#: tutorials/get-rich-fast/index.php:79
-#, php-format
-msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr "(Ušetři 50 € na tvoji první investici s kódem \"%s\")"
 
 #: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
@@ -4146,9 +4150,13 @@ msgstr ""
 msgid "Popular findom sites:"
 msgstr ""
 
-#: tutorials/findom/index.php:66
+#: tutorials/findom/index.php:65
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, php-format
+#~ msgid "(Save 50€ on your first investment with the code \"%s\")"
+#~ msgstr "(Ušetři 50 € na tvoji první investici s kódem \"%s\")"
 
 #~ msgid "Can you issue fake Covid19 test results?"
 #~ msgstr "Můžeš mi vydat falešné výsledky testů Covid19?"
@@ -4203,9 +4211,9 @@ msgstr ""
 #~ "You can download and/or contribute to my various open-source projects on "
 #~ "%s."
 #~ msgstr ""
-#~ "Na <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-#~ "\"noopener noreferrer\">GitHubu</a> si můžete stáhnout a/nebo přispívat "
-#~ "do mých různých open-source projektů."
+#~ "Na <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+#~ "rel=\"noopener noreferrer\">GitHubu</a> si můžete stáhnout a/nebo "
+#~ "přispívat do mých různých open-source projektů."
 
 #, fuzzy, php-format
 #~| msgid ""
@@ -4221,15 +4229,15 @@ msgstr ""
 #~ "stačí mě <a href=\"/contact.php\">kontaktovat</a>."
 
 #~ msgid ""
-#~ "If there are any further questions, feel free to <a href=\"/contact.php"
-#~ "\">contact me</a>."
+#~ "If there are any further questions, feel free to <a href=\"/contact."
+#~ "php\">contact me</a>."
 #~ msgstr ""
-#~ "Pokud máte nějaké další otázky, neváhejte mě <a href=\"/contact.php"
-#~ "\">kontaktovat</a>."
+#~ "Pokud máte nějaké další otázky, neváhejte mě <a href=\"/contact."
+#~ "php\">kontaktovat</a>."
 
 #~ msgid ""
-#~ "I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
-#~ "\">Privacy Policy</a>"
+#~ "I have read and agreed to the <a href=\"/privacy.php\" "
+#~ "target=\"_blank\">Privacy Policy</a>"
 #~ msgstr ""
 #~ "Přečetl jsem si <a href=\"/privacy.php\" target=\"_blank\">Zásady ochrany "
 #~ "osobních údajů</a> a souhlasím s nimi"
@@ -4278,25 +4286,25 @@ msgstr ""
 #~ "You can find an alternative link list at for example <a href=\"https://"
 #~ "ahmia.fi\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmia</a>."
 #~ msgstr ""
-#~ "Na <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-#~ "\"noopener noreferrer\">GitHubu</a> si můžete stáhnout a/nebo přispívat "
-#~ "do mých různých open-source projektů."
+#~ "Na <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+#~ "rel=\"noopener noreferrer\">GitHubu</a> si můžete stáhnout a/nebo "
+#~ "přispívat do mých různých open-source projektů."
 
 #~ msgid ""
 #~ "This tutorial will show you how to torify FTP clients in the example of "
 #~ "<a href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 #~ msgstr ""
-#~ "Tento tutoriál vám ukáže, jak torifikovat FTP klienty na příkladu <a href="
-#~ "\"#filezilla\">FileZilla</a> a <a href=\"#winscp\">WinSCP</a>."
+#~ "Tento tutoriál vám ukáže, jak torifikovat FTP klienty na příkladu <a "
+#~ "href=\"#filezilla\">FileZilla</a> a <a href=\"#winscp\">WinSCP</a>."
 
 #~ msgid ""
 #~ "If you haven't installed FileZilla yet, you can <a href=\"https://"
-#~ "filezilla-project.org/download.php?type=client\" target=\"_blank\" rel="
-#~ "\"noopener noreferrer\">download FileZilla here</a>."
+#~ "filezilla-project.org/download.php?type=client\" target=\"_blank\" "
+#~ "rel=\"noopener noreferrer\">download FileZilla here</a>."
 #~ msgstr ""
-#~ "Pokud ještě nemáš nainstalovaný program FileZilla, můžeš <a href="
-#~ "\"https://filezilla-project.org/download.php?type=client\" target=\"_blank"
-#~ "\" rel=\"noopener noreferrer\">stáhnout FileZilla zde< /a>."
+#~ "Pokud ještě nemáš nainstalovaný program FileZilla, můžeš <a "
+#~ "href=\"https://filezilla-project.org/download.php?type=client\" "
+#~ "target=\"_blank\" rel=\"noopener noreferrer\">stáhnout FileZilla zde< /a>."
 
 #~ msgid ""
 #~ "If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
@@ -4304,8 +4312,8 @@ msgstr ""
 #~ "WinSCP here</a>."
 #~ msgstr ""
 #~ "Pokud jsi ještě nenainstaloval WinSCP, můžeš si ho <a href=\"https://"
-#~ "winscp.net/eng/download.php\" target=\"_blank\" rel=\"noopener noreferrer"
-#~ "\">stáhnout WinSCP zde</a>."
+#~ "winscp.net/eng/download.php\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">stáhnout WinSCP zde</a>."
 
 #, fuzzy
 #~| msgid "Daniel's Chat"
@@ -4367,8 +4375,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Make sure you have switched all your settings to the new domain. It "
-#~ "should work as before. Stil not working correctly? Feel free to <a href="
-#~ "\"/contact.php\">contact me</a> for help."
+#~ "should work as before. Stil not working correctly? Feel free to <a "
+#~ "href=\"/contact.php\">contact me</a> for help."
 #~ msgstr ""
 #~ "Ujisti se, že jsi přepnul všechna nastavení na novou doménu. Mělo by to "
 #~ "fungovat jako předtím. Stále to nefunguje správně? Pro pomoc mě neváhejte "

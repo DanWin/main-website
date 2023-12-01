@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-29 11:12+0100\n"
+"POT-Creation-Date: 2023-11-30 22:04+0100\n"
 "PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -288,8 +288,8 @@ msgstr ""
 #| "Managing servers, email services and developing new web projects is what "
 #| "I thrive on. I like optimizing systems for performance and getting the "
 #| "best out of what I have. Do you need help with managing and optimizing "
-#| "your infrastructure or website? I'm here to help. <a href=\"/contact.php"
-#| "\">Get in touch</a> and we'll discuss details."
+#| "your infrastructure or website? I'm here to help. <a href=\"/contact."
+#| "php\">Get in touch</a> and we'll discuss details."
 msgid ""
 "Managing servers and email services and developing new web projects is what "
 "I thrive on. I like optimizing systems for performance and getting the best "
@@ -311,11 +311,11 @@ msgstr ""
 msgid "Profiles on other sites that I am active on:"
 msgstr "Aktif olduğum diğer sitelerdeki profiller:"
 
-#: about.php:52
+#: about.php:54
 msgid "About this site"
 msgstr "Bu site hakkında"
 
-#: about.php:53
+#: about.php:55
 #, fuzzy
 #| msgid ""
 #| "This is my personal site, that I develop in my free time. I started "
@@ -330,7 +330,7 @@ msgstr ""
 "Ağustos/Eylül 2013'te, okulda kullanmak üzere dosya barındırmak için bir "
 "platforma sahip olmak istediğimde başladım."
 
-#: about.php:54
+#: about.php:56
 #, fuzzy, php-format
 #| msgid ""
 #| "Quickly the idea of using a chat at school came up and I came across a "
@@ -352,7 +352,7 @@ msgstr ""
 "kullanım için gerçekten uygun değildi. Bu yüzden ihtiyacım olan bazı "
 "parçaları PHP'ye taşımaya karar verdim."
 
-#: about.php:55
+#: about.php:57
 #, fuzzy, php-format
 #| msgid ""
 #| "This has been the start for me to get deeper into web-development and I "
@@ -368,11 +368,11 @@ msgid ""
 msgstr ""
 "Bu, web geliştirme konusunda daha derinleşmem için bir başlangıç oldu ve o "
 "zamandan beri bu sohbet komut dosyasını ve bu sitenin diğer birkaç komut "
-"dosyasını <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub hesabı</a>. O zamandan beri birçok yeni "
+"dosyasını <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub hesabı</a>. O zamandan beri birçok yeni "
 "özellik ekledim ve güvenilirliği ve kodumu çok geliştirdim."
 
-#: about.php:56
+#: about.php:58
 #, fuzzy
 #| msgid ""
 #| "I used to offer free file hosting, an url shortener, a chat and even a "
@@ -393,16 +393,16 @@ msgstr ""
 "yalnızca anonim e-posta ve XMPP barındırma ile soğan bağlantı listesi aktif "
 "olarak sürdürülmektedir."
 
-#: about.php:57
+#: about.php:59
 msgid "About the setup"
 msgstr "kurulum hakkında"
 
-#: about.php:58
+#: about.php:60
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr ""
 "Kullandığım(ed) barındırma sağlayıcıları ve burada barındırılan sunucular:"
 
-#: about.php:60
+#: about.php:62
 #, fuzzy, php-format
 #| msgid "%s - good for short-term and/or low-bandwidth projects"
 msgid ""
@@ -410,22 +410,22 @@ msgid ""
 msgstr ""
 "%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyi"
 
-#: about.php:60
+#: about.php:62
 msgid "Free Tier Program for businesses"
 msgstr ""
 
-#: about.php:61
+#: about.php:63
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr ""
 "%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyi"
 
-#: about.php:62
+#: about.php:64
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s - (Net ağ geçidim için kullanılır) - iyi ve güvenilir"
 
-#: about.php:63
+#: about.php:65
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -434,17 +434,17 @@ msgstr ""
 "%s - (Net ağ geçidim + Etki alanı kaydım için kullanılır) - iyi ve "
 "güvenilir, benim şehrimde barındırılıyor"
 
-#: about.php:64
+#: about.php:66
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Evde barındırılan: Ana site ve verilerle birlikte 4 Raspberry Pi 4"
 
-#: about.php:70
+#: about.php:72
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
 
-#: about.php:73
+#: about.php:75
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -457,20 +457,21 @@ msgid ""
 "into modern DTMF."
 msgstr ""
 
-#: about.php:74
+#: about.php:76
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
 
-#: about.php:75
+#: about.php:77
 #, fuzzy, php-format
 #| msgid ""
-#| "The clearnet gateways on <a href=\"https://danwin1210.de\" target=\"_blank"
-#| "\">danwin1210.de</a> are an NginX Proxy that will forward all requests to "
-#| "the raspberry pis at home. Additionally, they run a Postfix instance only "
-#| "listening on the VPN network to send out mails to clearnet."
+#| "The clearnet gateways on <a href=\"https://danwin1210.de\" "
+#| "target=\"_blank\">danwin1210.de</a> are an NginX Proxy that will forward "
+#| "all requests to the raspberry pis at home. Additionally, they run a "
+#| "Postfix instance only listening on the VPN network to send out mails to "
+#| "clearnet."
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
 "requests to the Raspberry Pis at home. Additionally, they run a Postfix "
@@ -481,11 +482,11 @@ msgstr ""
 "iletecek bir NginX Proxy'sidir. Ek olarak, postaları clearnet'e göndermek "
 "için yalnızca VPN ağını dinleyen bir Postfix örneği çalıştırırlar."
 
-#: about.php:76
+#: about.php:78
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Tüm sunucular bir Wireguard VPN ile birbirine bağlıdır."
 
-#: about.php:77
+#: about.php:79
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -691,8 +692,8 @@ msgstr "Mesaj başarıyla iletildi!"
 #| "target=\"_blank\">my public PGP key</a>."
 msgid "If you want to encrypt your message, you can use %s."
 msgstr ""
-"Mesajınızı şifrelemek istiyorsanız <a href=\"/pgp.txt\" target=\"_blank"
-"\">genel PGP anahtarımı</a> kullanabilirsiniz."
+"Mesajınızı şifrelemek istiyorsanız <a href=\"/pgp.txt\" "
+"target=\"_blank\">genel PGP anahtarımı</a> kullanabilirsiniz."
 
 #: contact.php:82
 msgid "my public PGP key"
@@ -701,8 +702,8 @@ msgstr ""
 #: contact.php:83
 #, fuzzy, php-format
 #| msgid ""
-#| "If you prefer to directly get in contact with me, email me at <a href="
-#| "\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+#| "If you prefer to directly get in contact with me, email me at <a "
+#| "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
 msgid "If you prefer to directly get in contact with me, email me at %s."
 msgstr ""
 "Benimle doğrudan iletişime geçmeyi tercih ederseniz, bana <a href=\"mailto:"
@@ -789,9 +790,9 @@ msgid ""
 "Please see my %s and check out the individual projects you would like to "
 "translate."
 msgstr ""
-"Lütfen <a href=\"https://github.com/DanWin/\" target=\"_blank\" rel="
-"\"noopener noreferrer\">GitHub depolarıma</a> bakın ve çevirmek istediğiniz "
-"projeleri tek tek inceleyin."
+"Lütfen <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">GitHub depolarıma</a> bakın ve çevirmek "
+"istediğiniz projeleri tek tek inceleyin."
 
 #: faq.php:42
 msgid "GitHub repositories"
@@ -962,8 +963,16 @@ msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Kız arkadaşımı hackleyebilir misin? Bence aldatıyor."
 
 #: faq.php:78
+#, fuzzy
+#| msgid ""
+#| "Yes, I could try, but I won't. Don't trust the any sites that claim to "
+#| "give you that, because they are all scams. This is ethically just wrong "
+#| "and is more likely going to hurt your relationship than helping you. Talk "
+#| "to her, it's the best you can do. If you are at the point of thinking to "
+#| "hire a hacker, you should definitely think about breaking up, because "
+#| "relationships are based on trust, but obviously you can't trust anymore."
 msgid ""
-"Yes, I could try, but I won't. Don't trust the any sites that claim to give "
+"Yes, I could try, but I won't. Don't trust the many sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
 "more likely going to hurt your relationship than helping you. Talk to her, "
 "it's the best you can do. If you are at the point of thinking to hire a "
@@ -1021,8 +1030,8 @@ msgstr "E-posta alamıyorum, gönderen TLS ile ilgili bir hata alıyor"
 #| "sending emails via encrypted transfer, or is using insecure protocols. "
 #| "This is very unfortunate, because it would leak your email content to "
 #| "anyone on the internet, who can intercept your email before it reaches "
-#| "the destination. You can disable mandatory encryption in your <a href=\"%s"
-#| "\">account settings</a>, if you still need to receive this email."
+#| "the destination. You can disable mandatory encryption in your <a "
+#| "href=\"%s\">account settings</a>, if you still need to receive this email."
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
 "emails via encrypted transfer, or is using insecure protocols. This is very "
@@ -1035,8 +1044,9 @@ msgstr ""
 "güvenli olmayan protokoller kullanan bir posta sunucusundan size e-posta "
 "göndermeye çalıştı. Bu çok talihsiz bir durumdur çünkü e-posta içeriğinizi, "
 "hedefe ulaşmadan önce e-postanızı engelleyebilecek internetteki herhangi "
-"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a href=\"%s"
-"\">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
+"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a "
+"href=\"%s\">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı "
+"bırakabilirsiniz."
 
 #: faq.php:89
 msgid ""
@@ -1302,10 +1312,10 @@ msgstr ""
 #: new-domain.php:42
 #, fuzzy, php-format
 #| msgid ""
-#| "I have taken the opportunity to create a <a href=\"/pgp.txt\" target="
-#| "\"_blank\">new PGP key</a> and signed it with my <a href=\"/old_pgp.txt\" "
-#| "target=\"_blank\">old PGP key</a>. This can be verified by running a "
-#| "command like this:"
+#| "I have taken the opportunity to create a <a href=\"/pgp.txt\" "
+#| "target=\"_blank\">new PGP key</a> and signed it with my <a href=\"/"
+#| "old_pgp.txt\" target=\"_blank\">old PGP key</a>. This can be verified by "
+#| "running a command like this:"
 msgid ""
 "I have taken the opportunity to create a %1$s and signed it with my %2$s. "
 "This can be verified by running a command like this:"
@@ -1354,9 +1364,9 @@ msgstr "Daniel's Hosting - eski bir darknet web barındırma hizmeti"
 #| msgid ""
 #| "In March 2020 a hacker deleted all databases related to my hosting, thus "
 #| "I was forced to shut down my hosting service. If you want to contribute "
-#| "or setup your own hosting, check out my open source project at <a href="
-#| "\"https://github.com/DanWin/hosting\" target=\"_blank\" rel=\"noopener"
-#| "\">https://github.com/DanWin/hosting</a>."
+#| "or setup your own hosting, check out my open source project at <a "
+#| "href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
+#| "rel=\"noopener\">https://github.com/DanWin/hosting</a>."
 msgid ""
 "In March 2020 a hacker deleted all databases related to my hosting, thus I "
 "was forced to shut down my hosting service. If you want to contribute or "
@@ -1365,9 +1375,9 @@ msgstr ""
 "Mart 2020'de bir bilgisayar korsanı barındırma hizmetimle ilgili tüm "
 "veritabanlarını sildi, bu nedenle barındırma hizmetimi kapatmak zorunda "
 "kaldım. Katkıda bulunmak veya kendi barındırma hizmetinizi kurmak "
-"istiyorsanız, <a href=\"https://github.com/DanWin/hosting\" target=\"_blank"
-"\" rel=\"noopener\">https:// adresindeki açık kaynak projeme göz atın. "
-"github.com/DanWin/hosting</a>."
+"istiyorsanız, <a href=\"https://github.com/DanWin/hosting\" "
+"target=\"_blank\" rel=\"noopener\">https:// adresindeki açık kaynak projeme "
+"göz atın. github.com/DanWin/hosting</a>."
 
 #: hosting/index.php:29
 #, fuzzy, php-format
@@ -1379,16 +1389,16 @@ msgstr ""
 #| "to continue development. At this time I do not plan on continuing the "
 #| "hosting project, but this doesn't have to be the end. There are other "
 #| "hosting providers like <a href=\"http://"
-#| "hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
-#| "\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-#| "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" target="
-#| "\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-#| "dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-#| "\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet proxy "
-#| "service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-#| "\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project is "
-#| "<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel="
-#| "\"noopener\">available for download</a>, which should enable anyone "
+#| "hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
+#| "target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+#| "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
+#| "target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
+#| "dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+#| "target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet "
+#| "proxy service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+#| "rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project "
+#| "is <a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+#| "rel=\"noopener\">available for download</a>, which should enable anyone "
 #| "willing to become the next darknet shared hosting provider to start where "
 #| "I left of."
 msgid ""
@@ -1408,18 +1418,19 @@ msgstr ""
 "Geliştirmeye devam etmek için ayırabileceğimden 10 kat daha fazlasını "
 "hesapları silmek için harcadım. Şu anda barındırma projesine devam etmeyi "
 "planlamıyorum, ancak bunun son olması gerekmiyor. <a href=\"http://"
-"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" target="
-"\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
+"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
+"target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
 "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqiz gibi başka barındırma "
-"sağlayıcıları var kpju36fwdyd.onion /\" target=\"_blank\" rel=\"noopener"
-"\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" target="
-"\"_blank\" rel=\"noopener\">OnionLand Hosting</a> veya bir clearnet proxy "
-"hizmeti <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" rel="
-"\"noopener\">Clearnet Onion | Kolay clearnet geçişi</a> ve benim projem <a "
-"href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" rel=\"noopener"
-"\">indirilebilir</a>, ki bu da bir sonraki darknet paylaşımlı barındırma "
-"sağlayıcısı olmaya istekli herkesin kaldığım yerden başlamasını sağlamak."
+"sağlayıcıları var kpju36fwdyd.onion /\" target=\"_blank\" "
+"rel=\"noopener\">OneHost</a>, <a href=\"http://"
+"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
+"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> veya bir clearnet "
+"proxy hizmeti <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
+"rel=\"noopener\">Clearnet Onion | Kolay clearnet geçişi</a> ve benim projem "
+"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
+"rel=\"noopener\">indirilebilir</a>, ki bu da bir sonraki darknet paylaşımlı "
+"barındırma sağlayıcısı olmaya istekli herkesin kaldığım yerden başlamasını "
+"sağlamak."
 
 #: hosting/index.php:29
 msgid "available for download"
@@ -1756,9 +1767,9 @@ msgstr "9 yıl sonra sohbeti tamamen kapatıyorum."
 #| msgid ""
 #| "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
 #| "cat=2\">my onion link list</a>. If you are interested in running a "
-#| "similar chat community, you can download my chat script on <a href="
-#| "\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" rel="
-#| "\"noopener noreferrer\">GitHub</a>."
+#| "similar chat community, you can download my chat script on <a "
+#| "href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" "
+#| "rel=\"noopener noreferrer\">GitHub</a>."
 msgid ""
 "If you are interested in running a similar chat community, you can download "
 "my chat script on %s."
@@ -2785,11 +2796,6 @@ msgstr ""
 #: tutorials/get-rich-fast/index.php:72
 msgid "Here are some investment platforms that I have personally invested in:"
 msgstr "Şahsen yatırım yaptığım bazı yatırım platformları:"
-
-#: tutorials/get-rich-fast/index.php:79
-#, php-format
-msgid "(Save 50€ on your first investment with the code \"%s\")"
-msgstr "(\"%s\" koduyla ilk yatırımınızda 50€ tasarruf edin)"
 
 #: tutorials/get-rich-fast/index.php:94
 msgid "Passive income"
@@ -4212,9 +4218,13 @@ msgstr ""
 msgid "Popular findom sites:"
 msgstr ""
 
-#: tutorials/findom/index.php:66
+#: tutorials/findom/index.php:65
 msgid "Popular content creator sites used for findom:"
 msgstr ""
+
+#, php-format
+#~ msgid "(Save 50€ on your first investment with the code \"%s\")"
+#~ msgstr "(\"%s\" koduyla ilk yatırımınızda 50€ tasarruf edin)"
 
 #~ msgid "Can you issue fake Covid19 test results?"
 #~ msgstr "Sahte Covid 19 test sonuçları verebilir misiniz?"
@@ -4240,8 +4250,8 @@ msgstr ""
 #~ "danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion\">Tor "
 #~ "gizli hizmeti</a> olarak veya benim clearnet proxy'm <a href=\"https://"
 #~ "danwin1210.de\">danwin1210.de</a>aracılığıyla erişilebilir bir. Benim ve "
-#~ "bu site hakkında daha fazla bilgi edinmek için <a href=\"/about.php"
-#~ "\">hakkında sayfasını</a> kontrol edin."
+#~ "bu site hakkında daha fazla bilgi edinmek için <a href=\"/about."
+#~ "php\">hakkında sayfasını</a> kontrol edin."
 
 #, fuzzy, php-format
 #~| msgid ""
@@ -4288,15 +4298,15 @@ msgstr ""
 #~ "a>."
 
 #~ msgid ""
-#~ "If there are any further questions, feel free to <a href=\"/contact.php"
-#~ "\">contact me</a>."
+#~ "If there are any further questions, feel free to <a href=\"/contact."
+#~ "php\">contact me</a>."
 #~ msgstr ""
 #~ "Başka sorunuz varsa <a href=\"/contact.php\">benimle iletişime geçmekten</"
 #~ "a> çekinmeyin."
 
 #~ msgid ""
-#~ "I have read and agreed to the <a href=\"/privacy.php\" target=\"_blank"
-#~ "\">Privacy Policy</a>"
+#~ "I have read and agreed to the <a href=\"/privacy.php\" "
+#~ "target=\"_blank\">Privacy Policy</a>"
 #~ msgstr ""
 #~ "<a href=\"/privacy.php\" target=\"_blank\">Gizlilik Politikası</a>'nı "
 #~ "okudum ve kabul ediyorum"
@@ -4321,8 +4331,8 @@ msgstr ""
 #~ msgstr ""
 #~ "PGP, e-postaları ve dosyaları şifrelemek veya imzalamak için "
 #~ "kullanılabilen bir şifreleme programıdır. <a href=\"https://en.wikipedia."
-#~ "org/wiki/Pretty_Good_Privacy\" target=\"_blank\" rel=\"noopener noreferrer"
-#~ "\">Daha fazla bilgi bu Wikipedia makalesinde</a>."
+#~ "org/wiki/Pretty_Good_Privacy\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">Daha fazla bilgi bu Wikipedia makalesinde</a>."
 
 #, php-format
 #~ msgid "Feel free, to <a href=\"%s\">contact me</a>."
@@ -4354,18 +4364,18 @@ msgstr ""
 #~ "This tutorial will show you how to torify FTP clients in the example of "
 #~ "<a href=\"#filezilla\">FileZilla</a> and <a href=\"#winscp\">WinSCP</a>."
 #~ msgstr ""
-#~ "Bu öğretici, <a href=\"#filezilla\">FileZilla</a> ve <a href=\"#winscp"
-#~ "\">WinSCP</a> örneğinde FTP istemcilerini nasıl sıkıştıracağınızı "
-#~ "gösterecek."
+#~ "Bu öğretici, <a href=\"#filezilla\">FileZilla</a> ve <a "
+#~ "href=\"#winscp\">WinSCP</a> örneğinde FTP istemcilerini nasıl "
+#~ "sıkıştıracağınızı gösterecek."
 
 #~ msgid ""
 #~ "If you haven't installed FileZilla yet, you can <a href=\"https://"
-#~ "filezilla-project.org/download.php?type=client\" target=\"_blank\" rel="
-#~ "\"noopener noreferrer\">download FileZilla here</a>."
+#~ "filezilla-project.org/download.php?type=client\" target=\"_blank\" "
+#~ "rel=\"noopener noreferrer\">download FileZilla here</a>."
 #~ msgstr ""
 #~ "Henüz FileZilla'yı yüklemediyseniz, <a href=\"https://filezilla-project."
-#~ "org/download.php?type=client\" target=\"_blank\" rel=\"noopener noreferrer"
-#~ "\">FileZilla'yı buradan indirebilirsiniz</a>."
+#~ "org/download.php?type=client\" target=\"_blank\" rel=\"noopener "
+#~ "noreferrer\">FileZilla'yı buradan indirebilirsiniz</a>."
 
 #~ msgid ""
 #~ "If you haven't installed WinSCP yet, you can <a href=\"https://winscp.net/"
@@ -4437,8 +4447,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Make sure you have switched all your settings to the new domain. It "
-#~ "should work as before. Stil not working correctly? Feel free to <a href="
-#~ "\"/contact.php\">contact me</a> for help."
+#~ "should work as before. Stil not working correctly? Feel free to <a "
+#~ "href=\"/contact.php\">contact me</a> for help."
 #~ msgstr ""
 #~ "Tüm ayarlarınızı yeni alan adına değiştirdiğinizden emin olun. Daha önce "
 #~ "olduğu gibi çalışması gerekir. Hala düzgün çalışmıyor musunuz? Yardım "
