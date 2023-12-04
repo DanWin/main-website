@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-12-01 17:15+0100\n"
-"PO-Revision-Date: 2023-12-01 16:25+0000\n"
+"PO-Revision-Date: 2023-12-04 09:40+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -2326,6 +2326,9 @@ msgid ""
 "increases trust in digital communications and strengthens email and web "
 "security. Protect yourself with DANE today."
 msgstr ""
+"Entdecke die Vorteile von DANE zur Erhöhung der Online-Sicherheit. Erfahre, "
+"wie DANE das Vertrauen in die digitale Kommunikation erhöht und die E-Mail- "
+"und Web-Sicherheit stärkt. Schütze dich noch heute mit DANE."
 
 #: blog/dane/index.php:33
 #, php-format
@@ -2339,14 +2342,23 @@ msgid ""
 "and the crucial role it plays in fortifying the trustworthiness of our "
 "digital connections."
 msgstr ""
+"In der expansiven digitalen Landschaft, in der Vertrauen und Sicherheit an "
+"erster Stelle stehen, erweist sich eine leistungsstarke Technologie namens "
+"DANE (DNS-Based Authentication of Named Entities) als Leuchtturm des "
+"Schutzes. DANE, eine innovative Erweiterung von %1$s, revolutioniert die "
+"Online-Sicherheit, indem es die Authentizität und Integrität digitaler "
+"Kommunikation verbessert. In diesem Artikel befassen wir uns mit dem "
+"transformativen Potenzial von DANE und untersuchen seine Funktionalitäten, "
+"Vorteile und die entscheidende Rolle, die es bei der Stärkung der "
+"Vertrauenswürdigkeit unserer digitalen Verbindungen spielt."
 
 #: blog/dane/index.php:33
 msgid "DNSSEC (Domain Name System Security Extensions)"
-msgstr ""
+msgstr "DNSSEC (Domain Name System Security Extensions)"
 
 #: blog/dane/index.php:34
 msgid "Understanding DANE"
-msgstr ""
+msgstr "DANE Verstehen"
 
 #: blog/dane/index.php:35
 msgid ""
@@ -2359,10 +2371,19 @@ msgid ""
 "websites, email servers, and other online services, mitigating the risks of "
 "man-in-the-middle attacks and unauthorized data interception."
 msgstr ""
+"DANE ist ein bahnbrechendes Protokoll, das DNS-Einträge verwendet, um "
+"digitale Zertifikate mit Domänennamen zu verknüpfen und so sicherzustellen, "
+"dass verschlüsselte Kommunikationskanäle wie TLS (Transport Layer Security) "
+"legitim und unverändert sind. Durch die direkte Einbettung von Zertifikaten "
+"in DNS-Einträge bietet DANE eine zusätzliche Validierungsebene und "
+"ermöglicht einen sicheren Handshake zwischen Servern und Benutzern. Diese "
+"kryptografische Bindung erhöht die Vertrauenswürdigkeit von Websites, E-Mail-"
+"Servern und anderen Online-Diensten und verringert das Risiko von Man-in-the-"
+"Middle-Angriffen und unbefugtem Abfangen von Daten."
 
 #: blog/dane/index.php:36
 msgid "The Importance of DANE Implementation"
-msgstr ""
+msgstr "Die Bedeutung der DANE-Implementierung"
 
 #: blog/dane/index.php:37
 msgid "Enhanced Trust and Security"
@@ -2376,10 +2397,15 @@ msgid ""
 "meticulous coordination between certificate updates and DNS record changes, "
 "making the management process more complex."
 msgstr ""
+"DANE stärkt das digitale Vertrauen und die Sicherheit erheblich, indem es "
+"Zertifikate über DNS-Einträge validiert. Es erhöht jedoch die Komplexität "
+"des Zertifikatverwaltungsprozesses. Jede Zertifikatsänderung erfordert eine "
+"sorgfältige Koordination zwischen Zertifikatsaktualisierungen und DNS-"
+"Eintragsänderungen, was den Verwaltungsprozess komplexer macht."
 
 #: blog/dane/index.php:39
 msgid "Securing Email Communication"
-msgstr ""
+msgstr "E-Mail-Kommunikation sichern"
 
 #: blog/dane/index.php:40
 msgid ""
@@ -2388,6 +2414,11 @@ msgid ""
 "complexity, its contribution to securing sensitive email communication "
 "cannot be overstated."
 msgstr ""
+"DANE sichert E-Mail-Server und stellt sicher, dass die für die "
+"Verschlüsselung des E-Mail-Austauschs verwendeten Zertifikate echt und "
+"unverändert sind. Trotz der zusätzlichen Komplexität kann sein Beitrag zur "
+"Sicherung sensibler E-Mail-Kommunikation nicht hoch genug eingeschätzt "
+"werden."
 
 #: blog/dane/index.php:41
 msgid "Boosting Website Credibility"
@@ -2400,6 +2431,10 @@ msgid ""
 "securely connected to the intended server, bolstering the overall security "
 "of online transactions and interactions."
 msgstr ""
+"Websites, die DANE nutzen, bieten Besuchern eine zusätzliche "
+"Sicherheitsebene. In Kombination mit HTTPS garantiert DANE, dass Besucher "
+"sicher mit dem vorgesehenen Server verbunden sind, was die allgemeine "
+"Sicherheit von Online-Transaktionen und -Interaktionen erhöht."
 
 #: blog/dane/index.php:43
 msgid "The Consequences of Ignoring DANE"
