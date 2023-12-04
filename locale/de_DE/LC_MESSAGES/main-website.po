@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-12-01 17:15+0100\n"
-"PO-Revision-Date: 2023-12-04 09:40+0000\n"
+"PO-Revision-Date: 2023-12-04 10:40+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -2438,7 +2438,7 @@ msgstr ""
 
 #: blog/dane/index.php:43
 msgid "The Consequences of Ignoring DANE"
-msgstr ""
+msgstr "Die Folgen des Ignorierens von DANE"
 
 #: blog/dane/index.php:44
 msgid ""
@@ -2449,10 +2449,17 @@ msgid ""
 "also exposes entities to legal ramifications and financial losses in the "
 "event of data breaches."
 msgstr ""
+"Die Vernachlässigung von DANE macht digitale Kommunikationskanäle anfällig "
+"für Abhör- und Manipulationsversuche. Cyberkriminelle können diese "
+"Schwachstellen ausnutzen, sensible Daten kompromittieren und den Ruf von "
+"Unternehmen und Organisationen schädigen. Das Ignorieren von DANE gefährdet "
+"nicht nur das Vertrauen der Benutzer, sondern setzt Unternehmen im Falle von "
+"Datenschutzverletzungen auch rechtlichen Konsequenzen und finanziellen "
+"Verlusten aus."
 
 #: blog/dane/index.php:45
 msgid "Implementing DANE"
-msgstr ""
+msgstr "DANE implementieren"
 
 #: blog/dane/index.php:46
 msgid ""
@@ -2469,10 +2476,25 @@ msgid ""
 "can harness the full potential of DANE, strengthening your digital security "
 "and ensuring trustworthy online connections."
 msgstr ""
+"Die Implementierung von DANE mag komplex erscheinen, aber mit sorgfältigen "
+"Schritten wird es zu einem wirksamen Werkzeug zur Verbesserung der digitalen "
+"Sicherheit. Beginne mit der Erstellung eines digitalen Zertifikats von einer "
+"vertrauenswürdigen Zertifizierungsstelle (CA) für deinen Server. Sobald du "
+"dieses Zertifikat erhalten hast, veröffentliche es mithilfe von DANE TLSA-"
+"Einträgen (Transport Layer Security Authentication) in den DNS-Einträgen "
+"deiner Domain. Diese Datensätze umfassen kryptografische Hashes deines "
+"Zertifikats und geben die unterstützten Verschlüsselungsmethoden an. "
+"Aktualisiere diese Datensätze regelmäßig, wenn sich dein Zertifikat ändert. "
+"Es ist wichtig, Zertifikataktualisierungen mit DNS-Eintragsänderungen zu "
+"koordinieren, um die Integrität Ihrer Sicherheitseinrichtung "
+"aufrechtzuerhalten. Indem du diese Schritte sorgfältig befolgen und bei "
+"Aktualisierungen wachsam bleibst, kann dein Unternehmen das volle Potenzial "
+"von DANE ausschöpfen, deine digitale Sicherheit stärken und "
+"vertrauenswürdige Online-Verbindungen gewährleisten."
 
 #: blog/dane/index.php:47
 msgid "Building TLSA Records"
-msgstr ""
+msgstr "Erstellen von TLSA-Records"
 
 #: blog/dane/index.php:48
 msgid ""
@@ -2480,6 +2502,10 @@ msgid ""
 "and Matching Type in combination with the certificate's public key, service "
 "port, protocol, and domain name."
 msgstr ""
+"TLSA-Records werden mithilfe von drei Schlüsselparametern erstellt: "
+"Verwendung, Selektor und Übereinstimmungstyp in Kombination mit dem "
+"öffentlichen Schlüssel, dem Dienstport, dem Protokoll und dem Domänennamen "
+"des Zertifikats."
 
 #: blog/dane/index.php:49
 msgid "Usage"
@@ -2488,67 +2514,73 @@ msgstr "Verwendung"
 #: blog/dane/index.php:50
 msgid "The Usage parameter specifies the intended use of the certificate."
 msgstr ""
+"Der Verwendungs-Parameter gibt die beabsichtigte Verwendung des Zertifikats "
+"an."
 
 #: blog/dane/index.php:52
 msgid "0 - Certificate Authority Constraint (PKIX-TA)"
-msgstr ""
+msgstr "0 – Einschränkung der Zertifizierungsstelle (PKIX-TA)"
 
 #: blog/dane/index.php:53
 msgid "1 - Service Certificate Constraint (PKIX-EE)"
-msgstr ""
+msgstr "1 – Servicezertifikat-Einschränkung (PKIX-EE)"
 
 #: blog/dane/index.php:54
 msgid "2 - Trust Anchor Assertion (DANE-TA)"
-msgstr ""
+msgstr "2 – Vertrauensanker-Beteuerung (DANE-TA)"
 
 #: blog/dane/index.php:55
 msgid "3 - Domain Issued Certificate (DANE-EE)"
-msgstr ""
+msgstr "3 – Auf Domäne ausgestelltes Zertifikat (DANE-EE)"
 
 #: blog/dane/index.php:57
 msgid "Selector"
-msgstr ""
+msgstr "Selektor"
 
 #: blog/dane/index.php:58
 msgid ""
 "The Selector parameter specifies the name of the entity that issued the "
 "certificate."
 msgstr ""
+"Der Selector-Parameter gibt den Namen der Entität an, die das Zertifikat "
+"ausgestellt hat."
 
 #: blog/dane/index.php:60
 msgid "0 - Full certificate"
-msgstr ""
+msgstr "0 – Vollständiges Zertifikat"
 
 #: blog/dane/index.php:61
 msgid "1 - Subject Public Key (SPKI)"
-msgstr ""
+msgstr "1 – Öffentlicher Schlüssel des Antragstellers (SPKI)"
 
 #: blog/dane/index.php:63
 msgid "Matching Type"
-msgstr ""
+msgstr "Übereinstimmungstyp"
 
 #: blog/dane/index.php:64
 msgid ""
 "The Matching Type parameter specifies the type of cryptographic hash used to "
 "verify the certificate."
 msgstr ""
+"Der Übereinstimmungstyp-Parameter gibt den Typ des kryptografischen Hashs "
+"an, der zur Überprüfung des Zertifikats verwendet wird."
 
 #: blog/dane/index.php:66
 msgid "0 - SHA256"
-msgstr ""
+msgstr "0 - SHA256"
 
 #: blog/dane/index.php:67
 msgid "1 - SHA384"
-msgstr ""
+msgstr "1 - SHA384"
 
 #: blog/dane/index.php:68
 msgid "2 - SHA512"
-msgstr ""
+msgstr "2 - SHA512"
 
 #: blog/dane/index.php:70
 #, php-format
 msgid "A useful tool to generate TLSA records is the %s"
-msgstr ""
+msgstr "Ein nützliches Tool zum Generieren von TLSA-Datensätzen ist %s"
 
 #: blog/dane/index.php:70
 msgid "TLSA Record Generator by SSL-Tools"
@@ -2567,6 +2599,18 @@ msgid ""
 "integrity of our digital connections. Stay secure, stay trusted, and embrace "
 "DANE today."
 msgstr ""
+"In einer Zeit, in der Cyber-Bedrohungen weit verbreitet sind, erweist sich "
+"DANE als Hüter des digitalen Vertrauens. Die Umsetzung bringt zwar "
+"Komplexität mit sich, ist aber eine strategische Notwendigkeit für "
+"Unternehmen und Organisationen, die ihre Online-Präsenz stärken möchten. "
+"Durch die Integration von DANE in die digitale Infrastruktur stellen wir "
+"sicher, dass Benutzer vertrauensvoll interagieren, Transaktionen durchführen "
+"und kommunizieren können. Die Akzeptanz von DANE ist nicht nur eine "
+"Entscheidung, sondern ein Bekenntnis zu einer sicheren, vertrauenswürdigen "
+"und belastbaren digitalen Zukunft. Um die Integrität unserer digitalen "
+"Verbindungen zu schützen, ist es von entscheidender Bedeutung, die Bedeutung "
+"von DANE zu verstehen und es in unsere digitalen Praktiken zu integrieren. "
+"Bleibe sicher, bleibe vertrauenswürdig und implementiere DANE noch heute."
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
 #: tutorials/index.php:32
@@ -3199,6 +3243,15 @@ msgid ""
 "everything, and I advise you to do your research, to get familiar with "
 "requirements specific to you, before jumping into it."
 msgstr ""
+"Hinweis: Dieser Artikel wurde unter Berücksichtigung der deutschen Gesetze "
+"und Vorschriften verfasst. Das meiste von dem, was ich hier beschrieben "
+"habe, gilt weltweit, aber du solltest deine Recherche durchführen und die "
+"Situation an deinem Wohnort klären, wo möglicherweise andere Vorschriften "
+"gelten, über die du Bescheid wissen musst. Dieser Artikel soll dir nur einen "
+"kurzen Überblick über die Dinge geben, die du wissen musst. Ich werde nicht "
+"auf alles im Detail eingehen und empfehle dir, sich gründlich zu informieren "
+"und dich mit den für dich spezifischen Anforderungen vertraut zu machen, "
+"bevor du sich darauf einlässt."
 
 #: tutorials/self-employed/index.php:33
 msgid "Choosing the right path of self-employment"
@@ -3215,10 +3268,19 @@ msgid ""
 "still unsure, or you plan on extending your business beyond the boundaries "
 "of a freelancer, you should register as a tradesman."
 msgstr ""
+"Es gibt zwei Arten der Selbstständigkeit: Freiberufler und "
+"Gewerbetreibender. Freiberufler sind eine kleine Teilmenge der gesetzlich "
+"definierten Berufe (§ 18 EStG Absatz 1 Nummer 1) sowie moderne Berufe, die "
+"den dort beschriebenen ähneln. Alles, was nicht unter die Definition eines "
+"Freiberuflers fällt, ist das, was du als Gewerbetreibender tust. Wenn du "
+"unsicher bist, ob du als Freiberufler qualifiziert bist oder nicht, solltest "
+"du zur Klärung mit dem Finanzamt sprechen. Wenn du noch unsicher bist oder "
+"planst dein Unternehmen über die Grenzen eines Freiberuflers hinaus "
+"auszudehnen, solltest du dich als Gewerbetreibender registrieren lassen."
 
 #: tutorials/self-employed/index.php:35
 msgid "Getting started"
-msgstr ""
+msgstr "Erste Schritte"
 
 #: tutorials/self-employed/index.php:36
 msgid ""
