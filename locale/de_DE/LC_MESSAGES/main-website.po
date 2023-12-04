@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-12-01 17:15+0100\n"
-"PO-Revision-Date: 2023-12-04 18:47+0000\n"
+"PO-Revision-Date: 2023-12-04 19:47+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -3547,18 +3547,30 @@ msgid ""
 "are offering up to 4%% interest rate. To find the right account for your, "
 "you can %3$s."
 msgstr ""
+"Als Arbeitnehmer werden von deinem Arbeitgeber laufend Steuern von deinem "
+"Einkommen abgezogen. Als Selbstständiger bist du jedoch selbst für die "
+"Steuerzahlungen verantwortlich. Du solltest darauf achten, dass du genug "
+"Geld sparst, um Steuern zahlen zu können. Überweise dir jedes Mal, wenn du "
+"dich von deinem Geschäftskonto auszahlst, einen Betrag in Höhe deiner "
+"geschätzten Einkommensteuer auf ein separates Sparkonto. Mit %1$s kannst du "
+"prüfen, wie viel du beiseite legen solltest. Da niedrige und sogar negative "
+"Zinsen die Regel sind, ist es am besten, sich ein Festgeldkonto oder ein "
+"Bankkonto mit hohen Zinssätzen zu suchen, um seine Ersparnisse sicher "
+"aufzubewahren und damit etwas zu verdienen. Zu diesem Zweck verwende ich %2$"
+"s, da sie einen Zinssatz von bis zu 4 %% bieten. Um das richtige Konto für "
+"dich zu finden, kannst du %3$s."
 
 #: tutorials/self-employed/index.php:52
 msgid "online income tax calculator"
-msgstr ""
+msgstr "Online-Einkommensteuerrechner"
 
 #: tutorials/self-employed/index.php:52
 msgid "compare bank accounts here"
-msgstr ""
+msgstr "Bankkonten hier vergleichen"
 
 #: tutorials/self-employed/index.php:53
 msgid "Health insurance"
-msgstr ""
+msgstr "Krankenversicherung"
 
 #: tutorials/self-employed/index.php:54
 #, php-format
@@ -3571,14 +3583,24 @@ msgid ""
 "these usually have a fixed pricing based on your age and health. You can %s "
 "or similar platforms to find one that suits your needs."
 msgstr ""
+"In Deutschland ist der Abschluss einer Krankenversicherung Pflicht. Der "
+"Betrag, den du für die gesetzliche Krankenversicherung zahlst, richtet sich "
+"nach deinem Einkommen. Wenn dein Einkommen niedrig ist, zahlst Sie nur "
+"geringe Beiträge zur gesetzlichen Krankenversicherung. Wenn dein Unternehmen "
+"jedoch gut läuft und du ein hohes Einkommen erzielst, steigen deine Ausgaben "
+"für die Krankenversicherung erheblich. Daher ist es sinnvoll, sich "
+"stattdessen für eine private Versicherung zu entscheiden, da diese in der "
+"Regel einen festen Preis hat, der sich an deinem Alter und "
+"Gesundheitszustand orientiert. Du kannst %s oder ähnliche Plattformen "
+"nutzen, um eine zu finden, die deinen Anforderungen entspricht."
 
 #: tutorials/self-employed/index.php:54
 msgid "compare insurance on Check24"
-msgstr ""
+msgstr "Versicherungen bei Check24 vergleichen"
 
 #: tutorials/self-employed/index.php:55
 msgid "E-Mail archiving"
-msgstr ""
+msgstr "E-Mail Archivierung"
 
 #: tutorials/self-employed/index.php:56
 #, php-format
@@ -3591,10 +3613,19 @@ msgid ""
 "So you need to decide on each mail, whether you can, and need to, archive it "
 "or not. I recommend using an archiving solution like %s for this."
 msgstr ""
+"Die GoBD ist ein Gesetz, das strenge Anforderungen an deine Buchhaltung "
+"festlegt (siehe auch Buchhaltung oben). Ein wichtiger Aspekt, den viele "
+"Unternehmen nicht richtig umsetzen, ist die E-Mail-Archivierung. Jede "
+"geschäftsbezogene E-Mail muss archiviert werden, insbesondere Rechnungen, "
+"Angebote usw. Gleichzeitig musst du die DSGVO einhalten, die vorschreibt, "
+"dass du personenbezogene Daten nicht speichern darfst, wenn dies nicht "
+"erforderlich sind. Du musst also für jede E-Mail entscheiden, ob du sie "
+"archivieren kannst und musst, oder nicht. Ich empfehle hierfür eine "
+"Archivierungslösung wie %s."
 
 #: tutorials/self-employed/index.php:57
 msgid "Data processing agreement"
-msgstr ""
+msgstr "Datenverarbeitungsvereinbarung"
 
 #: tutorials/self-employed/index.php:58
 msgid ""
@@ -3608,15 +3639,26 @@ msgid ""
 "shows professionalism and many of your clients are probably unaware of these "
 "requirements."
 msgstr ""
+"Gemäß DSGVO musst du mit jedem Unterauftragsverarbeiter, der "
+"personenbezogene Daten verarbeitet, einen Datenverarbeitungsvertrag "
+"abschließen. Wenn du personenbezogene Daten für deine Kunden verarbeitest, "
+"was in den meisten Fällen der Fall ist, benötigen diese ebenfalls eine "
+"solche Datenverarbeitungsvereinbarung von dir. Die Vereinbarung legt die "
+"Grundlage dafür, wie du Daten verarbeitest und wie du sie schützt. Rechtlich "
+"gesehen sind diene Kunden dafür verantwortlich, diesen Vertrag anzufordern, "
+"aber in deinem besten Interesse solltest du dies mit deinen Kunden "
+"besprechen und ihnen einen Vertrag vorlegen. Es zeigt Professionalität und "
+"viele deiner Kunden sind sich dieser Anforderungen wahrscheinlich nicht "
+"bewusst."
 
 #: tutorials/self-employed/index.php:59
 msgid "Useful Tools"
-msgstr ""
+msgstr "Nützliche Werkzeuge"
 
 #: tutorials/self-employed/index.php:61
 #, php-format
 msgid "For invoicing and accounting, I recommend %s."
-msgstr ""
+msgstr "Für die Rechnungsstellung und Buchhaltung empfehle ich %s."
 
 #: tutorials/self-employed/index.php:62
 #, php-format
@@ -3624,17 +3666,21 @@ msgid ""
 "For sharing files, video calls, contacts, to-do lists and calendars I "
 "recommend %s."
 msgstr ""
+"Zum Teilen von Dateien, Videoanrufen, Kontakten, Aufgabenlisten und "
+"Kalendern empfehle ich %s."
 
 #: tutorials/self-employed/index.php:63
 #, php-format
 msgid "For instant messaging and project task boards, I recommend %s."
-msgstr ""
+msgstr "Für Instant Messaging und Projekt-Taskboards empfehle ich %s."
 
 #: tutorials/self-employed/index.php:64
 #, php-format
 msgid ""
 "To version your work, I recommend using Git and running your own %s server."
 msgstr ""
+"Um Ihre Arbeit zu versionieren, empfehle ich die Verwendung von Git und die "
+"Ausführung Ihres eigenen %s-Servers."
 
 #: tutorials/self-employed/index.php:65
 #, php-format
@@ -3642,6 +3688,8 @@ msgid ""
 "To securely share passwords within your team, I recommend running a %s "
 "server."
 msgstr ""
+"Um Passwörter innerhalb Ihres Teams sicher zu teilen, empfehle ich den "
+"Betrieb eines %s-Servers."
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:35
@@ -3821,7 +3869,7 @@ msgstr "Proxykonfiguration"
 
 #: tutorials/content-creation/index.php:34
 msgid "Introduction"
-msgstr ""
+msgstr "Einleitung"
 
 #: tutorials/content-creation/index.php:35
 #, php-format
@@ -3836,6 +3884,18 @@ msgid ""
 "However, the journey to becoming a successful content creator can be complex "
 "and filled with challenges. This guide will walk you through it."
 msgstr ""
+"Bei der Erstellung von Online-Inhalten geht es um die Produktion und den "
+"Austausch von Informationen auf digitalen Plattformen. Dies kann in "
+"verschiedenen Formen erfolgen, beispielsweise in Form von Videos, Blogs, "
+"Podcasts und Social-Media-Beiträgen. Als Content-Ersteller hast du die "
+"Freiheit, deine Ideen auszudrücken, dein Wissen zu teilen und mit einem "
+"Publikum weltweit in Kontakt zu treten. In den letzten Jahren hat sich %1$s "
+"bei der Erstellung von Inhalten zu einem steigenden Trend entwickelt. Die "
+"Möglichkeit, von überall aus zu arbeiten, deinen Zeitplan zu kontrollieren "
+"und deine Leidenschaft in Gewinn umzuwandeln, sind einige der Faktoren, die "
+"diesen Wandel vorantreiben. Der Weg zum erfolgreichen Content-Ersteller kann "
+"jedoch komplex und voller Herausforderungen sein. Dieser Leitfaden führt "
+"dich dadurch."
 
 #: tutorials/content-creation/index.php:35
 msgid "self-employment"
@@ -3843,7 +3903,7 @@ msgstr "Selbstständigkeit"
 
 #: tutorials/content-creation/index.php:36
 msgid "Identify your creator's personality"
-msgstr ""
+msgstr "Identifiziere deine Schöpferpersönlichkeit"
 
 #: tutorials/content-creation/index.php:37
 msgid ""
@@ -3857,10 +3917,20 @@ msgid ""
 "your audience. Furthermore, seek feedback from your audience to refine your "
 "creator's personality."
 msgstr ""
+"Eine einzigartige Schöpferpersönlichkeit ist entscheidend, um sich in der "
+"überfüllten digitalen Landschaft abzuheben. Es ermöglicht dir, ein "
+"bestimmtes Publikum anzulocken und eine starke Verbindung zu ihm aufzubauen. "
+"Deine Schöpferpersönlichkeit umfasst deinen Stil, deine Stimme, deine Werte "
+"und Leidenschaften. Um die eigene Schöpferpersönlichkeit zu finden, sind "
+"Selbstbeobachtung und Experimente erforderlich. Berücksichtige deine "
+"Interessen, Stärken und die Art von Inhalten, die du gerne konsumierst. "
+"Experimentiere mit verschiedenen Inhaltstypen und -formaten, um "
+"herauszufinden, was bei dir und deinem Publikum ankommt. Bitte außerdem um "
+"Feedback von deinem Publikum, um deine Schöpferpersönlichkeit zu verfeinern."
 
 #: tutorials/content-creation/index.php:38
 msgid "Choose a niche"
-msgstr ""
+msgstr "Wähle eine Nische"
 
 #: tutorials/content-creation/index.php:39
 msgid ""
@@ -3873,10 +3943,20 @@ msgid ""
 "travel, and mental health. However, remember that the best niche is one "
 "where your passion meets audience demand."
 msgstr ""
+"Die Auswahl einer Nische ist für die erfolgreiche Erstellung von Inhalten "
+"von entscheidender Bedeutung. Eine Nische bezieht sich auf ein spezielles "
+"Marktsegment, das du bedienen möchtest. Indem du dich auf eine bestimmte "
+"Nische konzentrierst, kannst du dich als Experte etablieren, eine Zielgruppe "
+"ansprechen und die Chancen auf die Monetarisierung deiner Inhalte erhöhen. "
+"Berücksichtige bei der Auswahl einer Nische deine Interessen, dein "
+"Fachwissen und die Marktnachfrage. Zu den beliebten Nischen gehören Fitness, "
+"persönliche Finanzen, Technologie, Mode, Reisen und psychische Gesundheit. "
+"Denke jedoch daran, dass die beste Nische die ist, in der deine Leidenschaft "
+"auf die Nachfrage des Publikums trifft."
 
 #: tutorials/content-creation/index.php:40
 msgid "A warning about the adult content niche"
-msgstr ""
+msgstr "Eine Warnung vor der Erwachsenen-Inhalte Nische"
 
 #: tutorials/content-creation/index.php:41
 msgid ""
@@ -3896,10 +3976,29 @@ msgid ""
 "sharing. Therefore, anyone considering this niche should think carefully "
 "about these risks and take necessary precautions to protect themselves."
 msgstr ""
+"Die Erstellung von nicht jugendfreien oder pornografischen Inhalten ist eine "
+"Nische in der Online-Inhaltserstellungsbranche, die aufgrund ihrer "
+"einzigartigen Risiken und Herausforderungen sorgfältig geprüft werden muss. "
+"Obwohl es lukrativ sein kann, ist es wichtig, die möglichen langfristigen "
+"Auswirkungen auf dein Privat- und Berufsleben zu berücksichtigen. Diese Art "
+"von Inhalten wird oft stigmatisiert und kann zu gesellschaftlichen Urteilen "
+"führen, die zukünftige Beschäftigungsmöglichkeiten außerhalb der "
+"Erotikbranche beeinträchtigen könnten. Datenschutz ist ein weiteres "
+"wichtiges Anliegen, da Inhaltsersteller Risiken wie Doxxing ausgesetzt sein "
+"können, bei dem persönliche Informationen online preisgegeben werden, oder "
+"unerwünschte Aufmerksamkeit von Zuschauern erregen. Darüber hinaus gibt es "
+"rechtliche Überlegungen, einschließlich der Altersüberprüfung aller "
+"Teilnehmer und der Einhaltung je nach Standort unterschiedlicher Gesetze. "
+"Schließlich ist es wichtig zu bedenken, dass es schwierig sein kann, "
+"Inhalte, die einmal online geteilt wurden, vollständig zu entfernen, was "
+"möglicherweise zu Problemen der Piraterie oder der nicht einvernehmlichen "
+"Weitergabe führen kann. Daher sollte jeder, der diese Nische in Betracht "
+"zieht, sorgfältig über diese Risiken nachdenken und die notwendigen "
+"Vorkehrungen treffen, um sich zu schützen."
 
 #: tutorials/content-creation/index.php:42
 msgid "Develop your style and personal brand"
-msgstr ""
+msgstr "Entwickel deinen Stil und deine persönliche Marke"
 
 #: tutorials/content-creation/index.php:43
 msgid ""
@@ -3912,10 +4011,19 @@ msgid ""
 "voice. Use your style to express your personality and make your content "
 "recognizable and memorable."
 msgstr ""
+"Persönliches Branding ist wichtig, um Vertrauen und Loyalität bei deinem "
+"Publikum aufzubauen. Es spiegelt wider, wer du bist, wofür du stehst und "
+"welchen Wert du bietest. Eine starke persönliche Marke kann dir dabei "
+"helfen, Partnerschaften, Sponsoring und Monetarisierungsmöglichkeiten zu "
+"gewinnen. Um deinen Stil zu entwickeln, musst du eine einzigartige visuelle "
+"und klangliche Konsistenz für deine Inhalte schaffen. Dazu gehört die Wahl "
+"von Farben, Schriftarten, Bildern, Sprache und Tonfall. Nutze deinen Stil, "
+"um Ihre Persönlichkeit auszudrücken und deine Inhalte erkennbar und "
+"einprägsam zu machen."
 
 #: tutorials/content-creation/index.php:44
 msgid "Choose your platform"
-msgstr ""
+msgstr "Wähle deine Plattform"
 
 #: tutorials/content-creation/index.php:45
 #, php-format
@@ -3930,6 +4038,16 @@ msgid ""
 "time online, the algorithms and features of each platform, and how they "
 "align with your content strategy."
 msgstr ""
+"Den Erstellern von Inhalten stehen zahlreiche Plattformen zur Verfügung, die "
+"jeweils einzigartige Funktionen bieten und unterschiedliche Inhaltstypen "
+"bedienen. %1$s und %2$s sind beliebt für Videoinhalte, während %3$s und %4$s "
+"ideal für Blogger sind. Social-Media-Plattformen wie %5$s und %6$s eignen "
+"sich hervorragend für Kurzinhalte, während %7$s, %8$s und %9$s den "
+"Erstellern die Monetarisierung exklusiver Inhalte ermöglichen. Die Wahl der "
+"richtigen Plattform hängt von deinem Inhaltstyp, deiner Zielgruppe und "
+"deinen Monetarisierungszielen ab. Überlege, wo deien Zielgruppe ihre Zeit "
+"online verbringt, welche Algorithmen und Funktionen die einzelnen "
+"Plattformen haben und wie sie mit deiner Content-Strategie übereinstimmen."
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:54
@@ -3987,7 +4105,7 @@ msgstr "Patreon"
 
 #: tutorials/content-creation/index.php:46
 msgid "Develop a content calendar"
-msgstr ""
+msgstr "Entwickeln Sie einen Inhaltskalender"
 
 #: tutorials/content-creation/index.php:47
 msgid ""
@@ -3998,10 +4116,17 @@ msgid ""
 "relevant to your niche, planning content around these dates and setting a "
 "consistent posting schedule."
 msgstr ""
+"Ein Inhaltskalender ist ein Zeitplan, wann und wo du bevorstehende Inhalte "
+"veröffentlichen möchtest. Es hilft dir organisiert zu bleiben, einen "
+"konsistenten Veröffentlichungsplan einzuhalten, wichtige Termine oder "
+"Ereignisse zu planen und die Leistung deiner Inhalte zu verfolgen. Bei der "
+"Entwicklung eines Inhaltskalenders geht es darum, wichtige für deine Nische "
+"relevante Termine zu identifizieren, Inhalte rund um diese Termine zu planen "
+"und einen konsistenten Veröffentlichungsplan festzulegen."
 
 #: tutorials/content-creation/index.php:48
 msgid "Equip yourself with the right tools"
-msgstr ""
+msgstr "Rüste dich mit den richtigen Werkzeugen aus"
 
 #: tutorials/content-creation/index.php:49
 msgid ""
@@ -4014,10 +4139,20 @@ msgid ""
 "your budget, and are user-friendly. Also, utilize free trials to test out "
 "different tools before making a purchase."
 msgstr ""
+"Inhaltsersteller benötigen eine Vielzahl von Werkzeugen, um ihre Inhalte zu "
+"produzieren und zu optimieren. Dazu können Kameras oder Smartphones zum "
+"Filmen, Mikrofone für die Audioqualität, Bearbeitungssoftware, SEO-Tools zur "
+"Optimierung von Blogbeiträgen, Social-Media-Planungstools und Analysetools "
+"zur Leistungsverfolgung gehören. Die Auswahl der richtigen Werkzeuge hängt "
+"von deinem Inhaltstyp, deiner Plattform, deinem Budget und deinem "
+"Kenntnisstand ab. Ziehe Werkzeuge in Betracht, die die von dir benötigten "
+"Funktionen bieten, innerhalb deines Budgets liegen und benutzerfreundlich "
+"sind. Nutze außerdem kostenlose Testversionen, um verschiedene Werkzeuge zu "
+"testen, bevor du einen Kauf tätigst."
 
 #: tutorials/content-creation/index.php:50
 msgid "Track performance metrics"
-msgstr ""
+msgstr "Verfolge Leistungskennzahlen"
 
 #: tutorials/content-creation/index.php:51
 msgid ""
@@ -4032,14 +4167,26 @@ msgid ""
 "content creators monetizing their work, tracking income sources and revenue "
 "growth is essential."
 msgstr ""
+"Durch die Verfolgung von Leistungsmetriken kannst du den Erfolg deiner "
+"Inhalte messen, die Vorlieben deiner Zielgruppe verstehen und "
+"datengesteuerte Entscheidungen zur Optimierung deiner Inhalts-Strategie "
+"treffen. Diese Kennzahlen können Aufrufe, Likes, Shares, Kommentare, "
+"Follower-Wachstum und generierte Einnahmen umfassen. Die wichtigsten "
+"Leistungskennzahlen für Inhaltsersteller variieren je nach Plattform und "
+"Inhaltstyp. Für Blogger sind Kennzahlen wie Seitenaufrufe, Absprungrate und "
+"durchschnittliche Sitzungsdauer wichtig. Für Social-Media- und Video-"
+"Ersteller können die Engagement-Rate, das Follower-Wachstum und die Video-"
+"Wiedergabezeit entscheidend sein. Für Inhaltsersteller, die ihre Arbeit "
+"monetarisieren möchten, ist die Verfolgung von Einnahmequellen und "
+"Umsatzwachstum von entscheidender Bedeutung."
 
 #: tutorials/content-creation/index.php:52
 msgid "Ideas on different types of content creation"
-msgstr ""
+msgstr "Ideen zu verschiedenen Arten der Inhaltserstellung"
 
 #: tutorials/content-creation/index.php:53
 msgid "Starting a podcast"
-msgstr ""
+msgstr "Einen Podcast starten"
 
 #: tutorials/content-creation/index.php:54
 #, php-format
@@ -4055,6 +4202,17 @@ msgid ""
 "are key to growing your audience and turning your podcast into a profitable "
 "venture."
 msgstr ""
+"Das Starten eines Podcasts kann für Inhaltsersteller ein lohnendes und "
+"profitables Unterfangen sein. Dieses Medium ermöglicht es dir Geschichten, "
+"Erkenntnisse und Wissen zu einem Thema zu teilen, das dir am Herzen liegt. "
+"Zunächst musst du deine Nische identifizieren, ansprechende Inhalte "
+"erstellen und in hochwertige Aufnahmegeräte investieren. Nachdem du deinen "
+"Podcast aufgenommen und bearbeitet hast, kannst du ihn auf Plattformen wie "
+"%1$s, %2$s, %3$s oder %4$s veröffentlichen. Die Monetarisierung deines "
+"Podcasts kann durch verschiedene Wege wie Sponsoring, Werbung, Hörerspenden "
+"oder abonnementbasierte Inhalte erreicht werden. Denke daran, dass "
+"Konsistenz und Qualität der Schlüssel dazu sind, dein Publikum zu vergrößern "
+"und deinen Podcast zu einem profitablen Unterfangen zu machen."
 
 #: tutorials/content-creation/index.php:54
 msgid "Apple Podcasts"
@@ -4070,7 +4228,7 @@ msgstr "Google Podcasts"
 
 #: tutorials/content-creation/index.php:55
 msgid "Launching an online store"
-msgstr ""
+msgstr "Eröffnung eines Online-Shops"
 
 #: tutorials/content-creation/index.php:56
 #, php-format
@@ -4086,6 +4244,17 @@ msgid ""
 "with your audience, you can generate additional income while enhancing your "
 "brand."
 msgstr ""
+"Die Eröffnung eines Online-Shops ist eine gute Möglichkeit, deine "
+"Leidenschaft als Ersteller von Online-Inhalten zu monetarisieren. Wenn du "
+"physische oder digitale Produkte im Zusammenhang mit deinen Inhalten "
+"erstellst, kannst du diese Produkte über einen Online-Shop direkt an dein "
+"Publikum verkaufen. Plattformen wie %1$s, %2$s oder %3$s erleichtern die "
+"Einrichtung eines Online-Shops und bieten Funktionen wie anpassbare "
+"Storefronts, sichere Zahlungsoptionen und Bestandsverwaltung. Du kannst "
+"deine Produkte in deinen Inhalten, auf Social-Media-Plattformen oder durch E"
+"-Mail-Marketing bewerben. Durch die Bereitstellung hochwertiger Produkte, "
+"die bei deinem Publikum Anklang finden, kannst du zusätzliche Einnahmen "
+"generieren und gleichzeitig deine Marke stärken."
 
 #: tutorials/content-creation/index.php:56
 msgid "Etsy"
@@ -4115,10 +4284,20 @@ msgid ""
 "successful entertainer or comedian takes time, patience, and resilience, but "
 "with passion and dedication, it's certainly achievable."
 msgstr ""
+"Entertainer oder Komiker zu werden ist ein lohnender Weg, der es dir "
+"ermöglicht, deiner Kreativität Ausdruck zu verleihen, anderen Freude zu "
+"bereiten und möglicherweise deinen Lebensunterhalt mit deiner Leidenschaft "
+"zu verdienen. Plattformen wie %1$s, %2$s und %3$s sind großartige Orte, um "
+"deine Inhalte zu teilen und ein Publikum aufzubauen. Wenn du deine "
+"Fangemeinde vergrößerst, kannst du Monetarisierungsmöglichkeiten wie "
+"Werbeeinnahmen, Sponsoring, Live-Auftritte, Warenverkäufe und mehr erkunden. "
+"Denke daran: Um ein erfolgreicher Entertainer oder Komiker zu werden, "
+"braucht es Zeit, Geduld und Belastbarkeit, aber mit Leidenschaft und Hingabe "
+"ist es durchaus erreichbar."
 
 #: tutorials/content-creation/index.php:59
 msgid "Teaching an online course"
-msgstr ""
+msgstr "Einen Online-Kurs unterrichten"
 
 #: tutorials/content-creation/index.php:60
 #, php-format
@@ -4137,14 +4316,30 @@ msgid ""
 "you have the potential to reach students worldwide, but you also enjoy the "
 "flexibility of working from anywhere at any time."
 msgstr ""
+"Ein Online-Lehrer zu werden ist eine lohnende Möglichkeit, dein Wissen und "
+"deine Fachkenntnisse zu teilen und gleichzeitig als Inhaltsersteller Geld zu "
+"verdienen. Diese Rolle umfasst die Erstellung von Bildungsinhalten in Ihrem "
+"Fachgebiet und deren Bereitstellung über digitale Plattformen. Du kannst "
+"wählen, ob du Live-Kurse, vorab aufgezeichnete Lektionen oder eine "
+"Kombination aus beidem anbieten möchtest. Plattformen wie %1$s, %2$s oder %3$"
+"s eignen sich ideal zum Hosten und Verkaufen deiner Kurse an ein globales "
+"Publikum. Um als Online-Lehrer erfolgreich zu sein, musst du die "
+"Lernbedürfnisse deiner Zielgruppe verstehen, ansprechende und informative "
+"Inhalte erstellen und deine Kursmaterialien kontinuierlich aktualisieren, um "
+"relevant zu bleiben. Die Monetarisierung kann durch die Erhebung einer "
+"Gebühr für die Kursanmeldung, das Anbieten von Premium-Inhalten oder die "
+"Bereitstellung von Einzelunterrichtssitzungen erreicht werden. Als Online-"
+"Lehrer hast du nicht nur das Potenzial, Schüler auf der ganzen Welt zu "
+"erreichen, sondern genießt auch die Flexibilität, jederzeit und überall zu "
+"arbeiten."
 
 #: tutorials/content-creation/index.php:60
 msgid "Skillshare"
-msgstr ""
+msgstr "Skillshare"
 
 #: tutorials/content-creation/index.php:61
 msgid "Becoming an influencer"
-msgstr ""
+msgstr "Ein Influencer werden"
 
 #: tutorials/content-creation/index.php:62
 #, php-format
@@ -4163,10 +4358,26 @@ msgid ""
 "It's crucial to maintain transparency, authenticity, and consistency to "
 "build trust and loyalty among your followers."
 msgstr ""
+"Ein Influencer zu werden ist ein aufregender und potenziell lukrativer Weg "
+"im Bereich der Erstellung von Online-Inhalten. Als Influencer besteht deine "
+"Aufgabe darin, eine beträchtliche Fangemeinde auf Social-Media-Plattformen "
+"aufzubauen und diese Zielgruppe zu nutzen, um Produkte, Dienstleistungen "
+"oder Anliegen zu bewerben, die zu deiner Marke passen. Erfolgreiche "
+"Influencer konzentrieren sich oft auf eine bestimmte Nische wie Mode, "
+"Fitness, Reisen oder Essen und teilen Inhalte, die sowohl ansprechend als "
+"auch authentisch sind. Plattformen wie %1$s, %2$s, %3$s und %4$s sind "
+"beliebte Orte für Influencer, um ihre Fangemeinde zu vergrößern. Die "
+"Monetarisierung als Influencer kann durch gesponserte Beiträge, "
+"Markenpartnerschaften, Affiliate-Marketing oder sogar die Einführung Ihrer "
+"Produktlinie erfolgen. Um ein Influencer zu werden, sind jedoch Engagement, "
+"Kreativität und der echte Wunsch erforderlich, mit deinem Publikum in "
+"Kontakt zu treten. Es ist von entscheidender Bedeutung, Transparenz, "
+"Authentizität und Konsistenz aufrechtzuerhalten, um Vertrauen und Loyalität "
+"bei deinen Followern aufzubauen."
 
 #: tutorials/content-creation/index.php:62
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: tutorials/content-creation/index.php:63
 msgid "Becoming a service provider"
@@ -4189,6 +4400,22 @@ msgid ""
 "anywhere, set your rates, and choose projects that align with your interests "
 "and skills."
 msgstr ""
+"Ein Dienstleister zu werden ist eine weitere praktikable Möglichkeit, als "
+"Ersteller von Online-Inhalten Geld zu verdienen. Auf diesem Weg musst du "
+"deine Fähigkeiten und dein Fachwissen nutzen, um Dienstleistungen für Kunden "
+"bereitzustellen. Wenn du dich beispielsweise in den Bereichen Grafikdesign, "
+"Schreiben, Videobearbeitung oder digitales Marketing auszeichnest, kannst du "
+"diese als Dienstleistungen an Einzelpersonen oder Unternehmen anbieten, die "
+"sie benötigen. Plattformen wie %1$s oder %2$s dienen als großartige "
+"Marktplätze, um mit potenziellen Kunden in Kontakt zu treten. Als "
+"Dienstleister ist es von entscheidender Bedeutung, ein starkes Portfolio "
+"deiner Arbeit zu präsentieren, eine klare Kommunikation mit Kunden "
+"aufrechtzuerhalten und stets qualitativ hochwertige Ergebnisse zu liefern. "
+"Dies trägt nicht nur dazu bei, einen guten Ruf aufzubauen, sondern erhöht "
+"auch die Wahrscheinlichkeit, mehr Projekte zu akquirieren und ein stabiles "
+"Einkommen zu erzielen. Darüber hinaus ermöglicht dir dieser Ansatz, flexibel "
+"von überall aus zu arbeiten, deine Tarife festzulegen und Projekte "
+"auszuwählen, die deinen Interessen und Fähigkeiten entsprechen."
 
 #: tutorials/content-creation/index.php:64
 msgid "Fiverr"
@@ -4200,7 +4427,7 @@ msgstr "Upwork"
 
 #: tutorials/content-creation/index.php:65
 msgid "Offering exclusive content"
-msgstr ""
+msgstr "Exklusive Inhalte anbieten"
 
 #: tutorials/content-creation/index.php:66
 #, php-format
@@ -4217,14 +4444,27 @@ msgid ""
 "consistent income but also allows you to reward your most loyal fans with "
 "unique experiences or insights."
 msgstr ""
+"Das Anbieten exklusiver Inhalte ist eine effektive Möglichkeit, deine Online-"
+"Präsenz zu monetarisieren und eine engagierte Unterstützer-Community "
+"aufzubauen. Als Inhaltsersteller kannst du exklusive Inhalte auf Plattformen "
+"wie %1$s, %2$s oder %3$s bereitstellen, wo Abonnenten eine Gebühr für den "
+"Zugriff auf Premium-Materialien zahlen. Dazu können Aufnahmen hinter den "
+"Kulissen, frühzeitiger Zugriff auf neue Arbeiten, persönliche Updates oder "
+"andere Inhalte gehören, die einen einzigartigen Mehrwert bieten, der über "
+"das hinausgeht, was du kostenlos anbietest. Indem du exklusive Inhalte "
+"anbietest, schaffst du einen intimeren Raum für Ihre engagiertesten "
+"Follower, förderst so eine stärkere Verbindung und ein Gefühl der "
+"Exklusivität. Diese Strategie trägt nicht nur dazu bei, konstante Einnahmen "
+"zu generieren, sondern ermöglicht es dir auch, deine treuesten Fans mit "
+"einzigartigen Erlebnissen oder Erkenntnissen zu belohnen."
 
 #: tutorials/content-creation/index.php:67
 msgid "Popular platforms for exclusive content are:"
-msgstr ""
+msgstr "Beliebte Plattformen für exklusive Inhalte sind:"
 
 #: tutorials/content-creation/index.php:76
 msgid "Selling stock photos"
-msgstr ""
+msgstr "Stockfotos verkaufen"
 
 #: tutorials/content-creation/index.php:77
 #, php-format
