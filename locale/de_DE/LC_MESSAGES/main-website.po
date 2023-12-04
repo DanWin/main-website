@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: unnamed project\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2023-12-01 17:15+0100\n"
-"PO-Revision-Date: 2023-12-04 17:47+0000\n"
+"PO-Revision-Date: 2023-12-04 18:47+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/de/>\n"
@@ -3504,10 +3504,17 @@ msgid ""
 "moment, to see how profitable your work is. If you do not know your "
 "financial status, you are vulnerable to overspending without even knowing it."
 msgstr ""
+"Ein sehr wichtiger Teil deines Unternehmens wird die Buchhaltung sein. Jede "
+"Transaktion muss erfasst werden, sobald du sie tätigst, und du müsst den "
+"Überblick über alle ausgehenden und eingehenden Rechnungen behalten. Dies "
+"ist nicht nur für deine Steuern wichtig, sondern auch, um jederzeit einen "
+"Überblick über Ihre Finanzen zu haben und zu sehen, wie profitabel deine "
+"Arbeit ist. Wenn du deine finanzielle Situation nicht kennst, besteht die "
+"Gefahr, dass du zu viel ausgibst, ohne es zu wissen."
 
 #: tutorials/self-employed/index.php:50
 msgid "Choosing the right bank accounts"
-msgstr ""
+msgstr "Auswahl der richtigen Bankkonten"
 
 #: tutorials/self-employed/index.php:51
 #, php-format
@@ -3518,6 +3525,12 @@ msgid ""
 "share your personal transactions with tax advisors or an auditor. You can "
 "freely send money back and forth between your personal and business accounts."
 msgstr ""
+"Während es möglich ist, geschäftliche und private Finanzen auf deinem "
+"Bankkonto zu kombinieren, ist es sehr ratsam, ein separates Geschäftskonto, "
+"wie z. B. %1$s, zu haben, um einen besseren Überblick über deine Finanzen zu "
+"behalten und deine persönlichen Geschäfte nicht mit Steuerberatern oder "
+"einem Wirtschaftsprüfer teilen zu müssen. Du kannst Geld zwischen deinem "
+"Privat- und Geschäftskonto frei hin und her senden."
 
 #: tutorials/self-employed/index.php:52
 #, php-format
