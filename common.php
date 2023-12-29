@@ -21,6 +21,7 @@ $global_style .= 'nav a:hover{color:#000;background-color:#fff}';
 $global_style .= 'nav a:active{color:#fff;background-color:#888}';
 $global_style .= '#menu summary{top:11px;left:2px;position:absolute}#menu summary,#language summary{display:block;width:50px;cursor:pointer}#menu summary::-webkit-details-marker,#language summary::-webkit-details-marker{display: none}';
 $global_style .= '#language{top:11px;right:0;position:absolute;font-size:2em}#language a{text-decoration:none}';
+$global_style .= 'abbr:hover{cursor:help}';
 $global_style .= '.row{display:flex;flex-wrap:wrap}.cell{border: 1px solid #999999;flex:1;padding:3px 3px}.headerrow{display:flex;font-weight:bold}.col{display:flex;flex:1;padding:3px 3px;flex-direction:column;min-width:5em}';
 $global_style .= '.form_limit{max-width:1024px}.red{color:red}.green{color:green}';
 $global_style .= '.burger_nav .bar1,.burger_nav .bar2,.burger_nav .bar3{display:block;width:35px;height:5px;background-color:#fff;margin:6px 6px}';
