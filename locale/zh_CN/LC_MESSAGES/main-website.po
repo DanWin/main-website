@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-01 17:15+0100\n"
+"POT-Creation-Date: 2023-12-29 14:36+0100\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -35,9 +35,9 @@ msgstr "联系丹尼尔温岑"
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
 #: hosting/index.php:21 privacy.php:21 chat/index.php:21
 #: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
-#: blog/dnssec/index.php:26 blog/index.php:21 blog/dane/index.php:26
-#: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
-#: tutorials/successful-sugar-dating/index.php:28
+#: blog/dnssec/index.php:26 blog/index.php:21 blog/vpn/index.php:26
+#: blog/dane/index.php:26 tutorials/get-rich-fast/index.php:29
+#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
 #: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
 msgid "An avatar representing Daniel Winzen"
@@ -47,14 +47,15 @@ msgstr "丹尼尔温岑的头像"
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
 #: blog/ipv6/index.php:29 blog/dnssec/index.php:29 blog/index.php:24
-#: blog/dane/index.php:29 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
+#: blog/vpn/index.php:29 blog/dane/index.php:29
+#: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
+#: tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
 #: tutorials/content-creation/index.php:30 tutorials/findom/index.php:30
 msgid "Daniel"
 msgstr "丹尼尔"
 
-#: imprint.php:27 common.php:129
+#: imprint.php:27 common.php:130
 msgid "Imprint"
 msgstr ""
 
@@ -108,7 +109,7 @@ msgstr ""
 "丹尼尔温岑的个人网站，一名网站开发者、一名系统工程师以及一位网络安全专家 爱好"
 "者"
 
-#: index.php:27 common.php:120
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "首页"
 
@@ -129,7 +130,7 @@ msgid "mail service"
 msgstr ""
 
 #: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
-#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:124
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:125
 #: blog/ipv6/index.php:49
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6代理"
@@ -212,7 +213,7 @@ msgid ""
 "this site"
 msgstr "关于网站开发者、系统管理员以及隐私爱好者丹尼尔温岑和这个网站"
 
-#: about.php:29 common.php:126
+#: about.php:29 common.php:127
 msgid "About"
 msgstr "关于"
 
@@ -302,11 +303,11 @@ msgstr ""
 msgid "Profiles on other sites that I am active on:"
 msgstr "我经常去的网站上的资料"
 
-#: about.php:54
+#: about.php:55
 msgid "About this site"
 msgstr "关于这个网站"
 
-#: about.php:55
+#: about.php:56
 #, fuzzy
 #| msgid ""
 #| "This is my personal site, that I develop in my free time. I started "
@@ -320,7 +321,7 @@ msgstr ""
 "这是我在闲暇时刻开发的个人网站。我从2013年8/9月开始进行网站开发，原因是当时我"
 "希望拥有一个能够托管文件的平台来用于学校作业。"
 
-#: about.php:56
+#: about.php:57
 #, fuzzy, php-format
 #| msgid ""
 #| "Quickly the idea of using a chat at school came up and I came across a "
@@ -341,7 +342,7 @@ msgstr ""
 "署到树莓派上时，聊天室的运行速度简直如龟速一般而且它几乎不可用于多人聊天。所"
 "以我决定替换其中的几个可以用PHP编程的模块。"
 
-#: about.php:57
+#: about.php:58
 #, fuzzy, php-format
 #| msgid ""
 #| "This has been the start for me to get deeper into web-development and I "
@@ -360,7 +361,7 @@ msgstr ""
 "noreferrer\">GitHub账户</a>。从那时开始，我为网站添加了许多功能并增强了网站的"
 "可靠性。"
 
-#: about.php:58
+#: about.php:59
 #, fuzzy
 #| msgid ""
 #| "I used to offer free file hosting, an url shortener, a chat and even a "
@@ -379,36 +380,36 @@ msgstr ""
 "网 网站托管服务。这些项目教了我很多有关编程、网络安全和服务器运维的知识。现"
 "在，只有电子邮箱、XMPP托管，一个Tor网址收集服务仍在正常工作。"
 
-#: about.php:59
+#: about.php:60
 msgid "About the setup"
 msgstr "关于软件配置"
 
-#: about.php:60
+#: about.php:61
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr "以下是我使用的（或曾经使用过的）VPS服务"
 
-#: about.php:62
+#: about.php:63
 #, fuzzy, php-format
 #| msgid "%s - good for short-term and/or low-bandwidth projects"
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
 msgstr "%s - 可用于短期或低性能项目"
 
-#: about.php:62
+#: about.php:63
 msgid "Free Tier Program for businesses"
 msgstr ""
 
-#: about.php:63
+#: about.php:64
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr "%s - 可用于短期或低性能项目"
 
-#: about.php:64
+#: about.php:65
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s - (用于我的明网网关) - 又好又稳定"
 
-#: about.php:65
+#: about.php:66
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -417,17 +418,17 @@ msgstr ""
 "%s - (Используется для моего шлюза clearnet + регистрация домена) - 又好又 稳"
 "定，托管于我的城市"
 
-#: about.php:66
+#: about.php:67
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "家庭托管: 4 Raspberry Pi 4 用于托管主要网站和数据"
 
-#: about.php:72
+#: about.php:73
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
 
-#: about.php:75
+#: about.php:76
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -440,14 +441,14 @@ msgid ""
 "into modern DTMF."
 msgstr ""
 
-#: about.php:76
+#: about.php:77
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
 
-#: about.php:77
+#: about.php:78
 #, fuzzy, php-format
 #| msgid ""
 #| "The clearnet gateways on <a href=\"https://danwin1210.de\" "
@@ -464,11 +465,11 @@ msgstr ""
 "</a>，这是一个Nginx代理，它能将请求传递到家中的树莓派中还有,他们还运行一个"
 "Postfix服务来监听VPN网络来发送邮件到明网"
 
-#: about.php:78
+#: about.php:79
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "所有的服务器由一个Wireguard VPN进行连接"
 
-#: about.php:79
+#: about.php:80
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -594,7 +595,7 @@ msgstr "丹尼尔 - 联系"
 msgid "Contact Daniel Winzen"
 msgstr "联系丹尼尔温岑"
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:128
 msgid "Contact"
 msgstr "联系我"
 
@@ -1051,31 +1052,31 @@ msgstr "我有更多问题"
 msgid "Contact me"
 msgstr "联系我"
 
-#: common.php:109
+#: common.php:110
 msgid "Toggle navigation"
 msgstr ""
 
-#: common.php:121 blog/index.php:27
+#: common.php:122 blog/index.php:27
 msgid "Blog and news"
 msgstr ""
 
-#: common.php:122
+#: common.php:123
 msgid "E-Mail + XMPP"
 msgstr "电子邮箱 + XMPP"
 
-#: common.php:123 tutorials/index.php:27
+#: common.php:124 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "教程"
 
-#: common.php:125
+#: common.php:126
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:128
+#: common.php:129
 msgid "Privacy"
 msgstr "隐私条款"
 
-#: common.php:140
+#: common.php:141
 msgid "Add translation"
 msgstr "添加翻译"
 
@@ -1087,7 +1088,7 @@ msgstr ""
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr ""
 
-#: new-domain.php:29 blog/index.php:36
+#: new-domain.php:29 blog/index.php:37
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr ""
 
@@ -1454,7 +1455,7 @@ msgstr ""
 msgid "9. Warrant canary"
 msgstr ""
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:35
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:36
 #, fuzzy
 #| msgid "Daniel's Chat"
 msgid "Daniel's Chat shutdown"
@@ -1525,7 +1526,7 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:6
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:34
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:35
 #, fuzzy
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
@@ -1569,7 +1570,7 @@ msgid "You can find an alternative link list at for example %s."
 msgstr ""
 
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
-#: blog/ipv6/index.php:32 blog/index.php:33
+#: blog/ipv6/index.php:32 blog/index.php:34
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
 msgstr ""
 
@@ -1743,7 +1744,7 @@ msgid ""
 msgstr ""
 
 #: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
-#: blog/dnssec/index.php:32 blog/index.php:32
+#: blog/dnssec/index.php:32 blog/index.php:33
 msgid "Securing the Web: Unraveling the Power of DNSSEC"
 msgstr ""
 
@@ -1910,33 +1911,329 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: blog/index.php:31 blog/index.php:32 blog/index.php:33
+#: blog/index.php:31
+msgid "December 2023"
+msgstr ""
+
+#: blog/index.php:31 blog/vpn/index.php:6 blog/vpn/index.php:20
+#: blog/vpn/index.php:30 blog/vpn/index.php:32
+msgid "Securing your communication with a VPN"
+msgstr ""
+
+#: blog/index.php:32 blog/index.php:33 blog/index.php:34
 msgid "October 2023"
 msgstr ""
 
-#: blog/index.php:31 blog/dane/index.php:6 blog/dane/index.php:20
+#: blog/index.php:32 blog/dane/index.php:6 blog/dane/index.php:20
 #: blog/dane/index.php:30 blog/dane/index.php:32
 msgid "Fortifying Digital Connections using DANE"
 msgstr ""
 
-#: blog/index.php:34
+#: blog/index.php:35
 msgid "August 2023"
 msgstr ""
 
-#: blog/index.php:35
+#: blog/index.php:36
 msgid "December 2022"
 msgstr ""
 
-#: blog/index.php:36
+#: blog/index.php:37
 msgid "December 2021"
 msgstr ""
 
-#: blog/index.php:37
+#: blog/index.php:38
 msgid "March 2020"
 msgstr ""
 
-#: blog/index.php:37
+#: blog/index.php:38
 msgid "Hosting service shutdown due to hack"
+msgstr ""
+
+#: blog/vpn/index.php:10 blog/vpn/index.php:21
+msgid ""
+"Explore VPN essentials, protocols, and top providers for enhanced online "
+"privacy and security. Stay informed, stay protected."
+msgstr ""
+
+#: blog/vpn/index.php:33
+#, php-format
+msgid ""
+"A %s is a tool that helps ensure your online privacy and safety. It creates "
+"an encrypted tunnel for your data, protects your online identity, lets you "
+"access private networks, and can provide additional perks such as unlocking "
+"geo-restricted content. This article will guide you through the basics of "
+"using a VPN."
+msgstr ""
+
+#: blog/vpn/index.php:33
+msgid "Virtual Private Network"
+msgstr ""
+
+#: blog/vpn/index.php:33
+msgid "VPN"
+msgstr ""
+
+#: blog/vpn/index.php:34
+msgid "Why use a VPN?"
+msgstr ""
+
+#: blog/vpn/index.php:35
+msgid ""
+"In today's era of surveillance and data tracking, it is crucial to maintain "
+"internet privacy. A VPN allows you to:"
+msgstr ""
+
+#: blog/vpn/index.php:37
+msgid ""
+"Maintain privacy: A VPN transmits your data via an encrypted tunnel, making "
+"it unreadable for anyone trying to intercept it."
+msgstr ""
+
+#: blog/vpn/index.php:38
+msgid ""
+"Bypass geographical restrictions: This is one of the most popular uses of "
+"VPNs. VPNs can mask your location, allowing you to access geographically "
+"restricted content."
+msgstr ""
+
+#: blog/vpn/index.php:39
+msgid ""
+"Protection over public Wi-Fi: Public Wi-Fi networks may not be secure and "
+"can expose your data to possible intrusions. A VPN can shield you from such "
+"risks."
+msgstr ""
+
+#: blog/vpn/index.php:40
+msgid ""
+"Avoid throttling: ISPs sometimes throttle bandwidth for certain online "
+"services. A VPN can hide your online activity and thus prevent throttling."
+msgstr ""
+
+#: blog/vpn/index.php:41
+msgid ""
+"Remote Access: With a VPN, businesses can provide their employees with "
+"secure access to company resources anywhere in the world."
+msgstr ""
+
+#: blog/vpn/index.php:43
+msgid "Choosing a VPN"
+msgstr ""
+
+#: blog/vpn/index.php:44
+msgid "When selecting a VPN service, consider the following factors:"
+msgstr ""
+
+#: blog/vpn/index.php:46
+msgid ""
+"Security: Make sure your VPN provider uses high standards of encryption."
+msgstr ""
+
+#: blog/vpn/index.php:47
+msgid ""
+"No-log policy: Your VPN provider should have a no-log policy, meaning they "
+"do not store any details about your online activity."
+msgstr ""
+
+#: blog/vpn/index.php:48
+msgid "Speed: The VPN should not significantly reduce your internet speed."
+msgstr ""
+
+#: blog/vpn/index.php:49
+msgid ""
+"Server Locations: More server locations give you more options to choose "
+"from, especially if you plan to bypass geographical restrictions."
+msgstr ""
+
+#: blog/vpn/index.php:50
+msgid ""
+"Price: While free VPNs exist, they often come with limitations and might "
+"compromise on security."
+msgstr ""
+
+#: blog/vpn/index.php:51
+msgid ""
+"Reputation: Check the reputation of your VPN provider online, before buying "
+"a plan."
+msgstr ""
+
+#: blog/vpn/index.php:53
+msgid "VPN Protocols"
+msgstr ""
+
+#: blog/vpn/index.php:54
+msgid ""
+"When delving into the world of VPNs, understanding the underlying protocols "
+"is paramount. These protocols play a crucial role in determining the "
+"security and performance of your VPN connection."
+msgstr ""
+
+#: blog/vpn/index.php:57
+msgid "WireGuard"
+msgstr ""
+
+#: blog/vpn/index.php:58
+msgid ""
+"Advantages: WireGuard is a popular and efficient VPN known for its speed and "
+"strong security. It achieves this by keeping the codebase minimal and easy "
+"to use."
+msgstr ""
+
+#: blog/vpn/index.php:59
+msgid ""
+"Considerations: Although WireGuard has a modern design and operates "
+"efficiently, it is not yet universally supported."
+msgstr ""
+
+#: blog/vpn/index.php:62
+msgid "OpenVPN"
+msgstr ""
+
+#: blog/vpn/index.php:63
+msgid ""
+"Advantages: OpenVPN is an open-source protocol that supports strong "
+"encryption, making it reliable and flexible for diverse applications."
+msgstr ""
+
+#: blog/vpn/index.php:64
+msgid ""
+"Considerations: Although highly secure, setting up this protocol may be "
+"slightly complex for some users."
+msgstr ""
+
+#: blog/vpn/index.php:68
+msgid "IKEv2/IPsec"
+msgstr ""
+
+#: blog/vpn/index.php:69
+msgid ""
+"Advantages: Known for its speed and efficiency in re-establishing "
+"connections, especially in mobile devices that frequently switch networks, "
+"it offers robust security features and is often preferred for mobile "
+"applications."
+msgstr ""
+
+#: blog/vpn/index.php:70
+msgid ""
+"Considerations: While reliable, it may not be as universally supported as "
+"some other protocols."
+msgstr ""
+
+#: blog/vpn/index.php:73
+msgid "SSTP"
+msgstr ""
+
+#: blog/vpn/index.php:74
+msgid ""
+"Advantages: Microsoft developed SSTP for easy firewall traversal. It uses "
+"SSL/TLS encryption for strong security."
+msgstr ""
+
+#: blog/vpn/index.php:75
+msgid ""
+"Considerations: Limited cross-platform support could be a disadvantage for "
+"users who do not use Windows devices."
+msgstr ""
+
+#: blog/vpn/index.php:78
+msgid "L2TP/IPsec"
+msgstr ""
+
+#: blog/vpn/index.php:79
+msgid ""
+"Advantages: Combining the best of both L2TP and IPsec, this protocol offers "
+"strong security and is natively supported on a wide range of devices. It "
+"provides a good balance between speed and security."
+msgstr ""
+
+#: blog/vpn/index.php:80
+msgid ""
+"Considerations: L2TP/IPsec may not be the quickest option, and if not "
+"configured properly, its security can be compromised."
+msgstr ""
+
+#: blog/vpn/index.php:83
+msgid "PPTP"
+msgstr ""
+
+#: blog/vpn/index.php:84
+msgid ""
+"Advantages: PPTP is easy to set up and generally offers faster connection "
+"speeds than some other protocols."
+msgstr ""
+
+#: blog/vpn/index.php:85
+msgid ""
+"Considerations: Unfortunately, PPTP has several security weaknesses. The "
+"encryption it uses is outdated and vulnerable, making it unsuitable for "
+"ensuring the confidentiality and integrity of sensitive data."
+msgstr ""
+
+#: blog/vpn/index.php:88
+msgid ""
+"Understanding these protocols empowers users to make informed decisions when "
+"selecting a VPN service. The choice of a protocol depends on factors such as "
+"security needs, ease of use, and compatibility with devices. Each protocol "
+"has its strengths, and selecting the right one ensures a secure and reliable "
+"VPN experience."
+msgstr ""
+
+#: blog/vpn/index.php:89
+msgid "Combining VPN and the Tor darknet"
+msgstr ""
+
+#: blog/vpn/index.php:90
+msgid ""
+"When using darknets such as Tor, there's always a risk of being targeted by "
+"your government or ISP in countries where their use is limited or "
+"prohibited. By combining VPN and Tor, you can add another layer of online "
+"privacy and safety, since your ISP will not be able to see that you are "
+"using darknets. In case of an exploit against TorBrowser, the IP leaked "
+"would not be your real IP, but the VPN's IP. Connecting to a VPN via Tor is "
+"also possible, but makes much less sense because your identity is typically "
+"known to your VPN provider. For anonymity reasons, it's best to connect to "
+"the VPN first and connect to Tor via it."
+msgstr ""
+
+#: blog/vpn/index.php:91
+msgid "Recommendations"
+msgstr ""
+
+#: blog/vpn/index.php:93
+msgid ""
+"If you are considering running your own VPN for business or remote home "
+"network access, I would recommend using WireGuard or OpenVPN."
+msgstr ""
+
+#: blog/vpn/index.php:94
+msgid "For everyone else, here are some recommended VPN providers:"
+msgstr ""
+
+#: blog/vpn/index.php:96
+msgid "Mozilla VPN"
+msgstr ""
+
+#: blog/vpn/index.php:97
+msgid "Mullvad VPN"
+msgstr ""
+
+#: blog/vpn/index.php:98
+msgid "Proton VPN"
+msgstr ""
+
+#: blog/vpn/index.php:99
+msgid "ExpressVPN"
+msgstr ""
+
+#: blog/vpn/index.php:100
+msgid "NordVPN"
+msgstr ""
+
+#: blog/vpn/index.php:101
+msgid "Surfshark"
+msgstr ""
+
+#: blog/vpn/index.php:102
+msgid "CyberGhost VPN"
 msgstr ""
 
 #: blog/dane/index.php:10 blog/dane/index.php:21

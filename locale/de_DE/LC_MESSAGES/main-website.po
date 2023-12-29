@@ -4,12 +4,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
-"POT-Creation-Date: 2023-12-01 17:15+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-29 14:36+0100\n"
 "PO-Revision-Date: 2023-12-26 20:37+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
-"main-website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
+"website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,9 +30,9 @@ msgstr "Impressum von Daniel Winzen"
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
 #: hosting/index.php:21 privacy.php:21 chat/index.php:21
 #: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
-#: blog/dnssec/index.php:26 blog/index.php:21 blog/dane/index.php:26
-#: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
-#: tutorials/successful-sugar-dating/index.php:28
+#: blog/dnssec/index.php:26 blog/index.php:21 blog/vpn/index.php:26
+#: blog/dane/index.php:26 tutorials/get-rich-fast/index.php:29
+#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
 #: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
 msgid "An avatar representing Daniel Winzen"
@@ -42,14 +42,15 @@ msgstr "Ein Avatar der Daniel Winzen darstellt"
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
 #: blog/ipv6/index.php:29 blog/dnssec/index.php:29 blog/index.php:24
-#: blog/dane/index.php:29 tutorials/get-rich-fast/index.php:32
-#: tutorials/index.php:24 tutorials/successful-sugar-dating/index.php:31
+#: blog/vpn/index.php:29 blog/dane/index.php:29
+#: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
+#: tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
 #: tutorials/content-creation/index.php:30 tutorials/findom/index.php:30
 msgid "Daniel"
 msgstr "Daniel"
 
-#: imprint.php:27 common.php:129
+#: imprint.php:27 common.php:130
 msgid "Imprint"
 msgstr "Impressum"
 
@@ -109,7 +110,7 @@ msgstr ""
 "Persönliche Webseite von Daniel Winzen, dem Webentwickler, Sysadmin und "
 "Privatsphäre-Enthusiast"
 
-#: index.php:27 common.php:120
+#: index.php:27 common.php:121
 msgid "Home"
 msgstr "Startseite"
 
@@ -139,7 +140,7 @@ msgid "mail service"
 msgstr "E-Mail Dienst"
 
 #: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
-#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:124
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:125
 #: blog/ipv6/index.php:49
 msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 Proxy"
@@ -249,7 +250,7 @@ msgstr ""
 "Über den Webentwickler, Sysadmin und Privatsphäre-Enthusiast Daniel Winzen "
 "und diese Seite"
 
-#: about.php:29 common.php:126
+#: about.php:29 common.php:127
 msgid "About"
 msgstr "Über"
 
@@ -333,11 +334,11 @@ msgstr "Ich bin für Aufträge verfügbar"
 msgid "Profiles on other sites that I am active on:"
 msgstr "Profile auf anderen Seiten, auf denen ich auch aktiv bin:"
 
-#: about.php:54
+#: about.php:55
 msgid "About this site"
 msgstr "Über diese Seite"
 
-#: about.php:55
+#: about.php:56
 msgid ""
 "This is my site, that I develop in my free time. I started development of "
 "this site in August/September 2013 when I wanted to have a platform to host "
@@ -347,7 +348,7 @@ msgstr ""
 "Entwicklung dieser Seite im August/September 2013 angefangen, als ich eine "
 "Platform zum Teilen von Dateien in der Schule haben wollte."
 
-#: about.php:56
+#: about.php:57
 #, php-format
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
@@ -361,7 +362,7 @@ msgstr ""
 "nicht wirklich nutzbar für mehrere Leute. Deshalb habe ich mich entschieden "
 "einige Teile davon zu PHP zu portieren."
 
-#: about.php:57
+#: about.php:58
 #, php-format
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
@@ -375,7 +376,7 @@ msgstr ""
 "ich viele neue Funktionen hinzugefügt sowie die Zuverlässigkeit und meine "
 "Codequalität verbessert."
 
-#: about.php:58
+#: about.php:59
 msgid ""
 "I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
@@ -389,15 +390,15 @@ msgstr ""
 "Serververwaltung beigebracht. Aktuell werden nur noch das anonyme E-Mail und "
 "XMPP Hosting, sowie die Onion Linkliste aktiv gewartet."
 
-#: about.php:59
+#: about.php:60
 msgid "About the setup"
 msgstr "Über das Setup"
 
-#: about.php:60
+#: about.php:61
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr "Hostingprovider die Ich verwende(t habe) und die Server dort:"
 
-#: about.php:62
+#: about.php:63
 #, php-format
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
@@ -405,21 +406,21 @@ msgstr ""
 "%s - gut für kurze und/order Projekte mit wenig Bandbreite. Es wird auch ein "
 "%s angeboten"
 
-#: about.php:62
+#: about.php:63
 msgid "Free Tier Program for businesses"
 msgstr "Kostenloses Programm für Unternehmen"
 
-#: about.php:63
+#: about.php:64
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
 msgstr "%s - gut für kurze und/order Projekte mit wenig Bandbreite"
 
-#: about.php:64
+#: about.php:65
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
 msgstr "%s - (Verwendet für meinen clearnet Gateway) - gut und zuverlässig"
 
-#: about.php:65
+#: about.php:66
 #, php-format
 msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
@@ -428,11 +429,11 @@ msgstr ""
 "%s - (Verwendet für meinen clearnet Gateway + Domain Registrierung) -gut und "
 "zuverlässig, gehosted in meiner Stadt"
 
-#: about.php:66
+#: about.php:67
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Zu Hause gehosted: 4 Raspberry Pi 4 mit der Hauptseite und den Daten"
 
-#: about.php:72
+#: about.php:73
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
@@ -440,7 +441,7 @@ msgstr ""
 "Ein kleines Netzwerk-Rack mit 4 Raspberry Pis darin, ein WLAN Router darauf "
 "und ein Telefon daneben"
 
-#: about.php:75
+#: about.php:76
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -463,7 +464,7 @@ msgstr ""
 "mehr unterstützt, musste ich einen Konverter kaufen, um Pulssignale in "
 "moderne DTMF Signale zu übersetzen."
 
-#: about.php:76
+#: about.php:77
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
@@ -473,7 +474,7 @@ msgstr ""
 "Servern zu teilen, habe ich einen CephFS für verteilte und redundante "
 "Dateispeicher sowie einen MariaDB Galera Cluster eingesetzt."
 
-#: about.php:77
+#: about.php:78
 #, php-format
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
@@ -485,11 +486,11 @@ msgstr ""
 "Instanz, die nur auf dem VPN Netzwerk erreichbar ist, um Mails an das "
 "clearnet zu senden."
 
-#: about.php:78
+#: about.php:79
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Alle Server sind per Wireguard VPN miteinander verbunden."
 
-#: about.php:79
+#: about.php:80
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -628,7 +629,7 @@ msgstr "Daniel - Kontakt"
 msgid "Contact Daniel Winzen"
 msgstr "Kontaktiere Daniel Winzen"
 
-#: contact.php:27 common.php:127
+#: contact.php:27 common.php:128
 msgid "Contact"
 msgstr "Kontakt"
 
@@ -1103,31 +1104,31 @@ msgstr "Ich habe mehr Fragen."
 msgid "Contact me"
 msgstr "Kontaktiere mich"
 
-#: common.php:109
+#: common.php:110
 msgid "Toggle navigation"
 msgstr "Navigation ein-/ausblenden"
 
-#: common.php:121 blog/index.php:27
+#: common.php:122 blog/index.php:27
 msgid "Blog and news"
 msgstr "Blog und Neuigkeiten"
 
-#: common.php:122
+#: common.php:123
 msgid "E-Mail + XMPP"
 msgstr "E-Mail + XMPP"
 
-#: common.php:123 tutorials/index.php:27
+#: common.php:124 tutorials/index.php:27
 msgid "Tutorials"
 msgstr "Anleitungen"
 
-#: common.php:125
+#: common.php:126
 msgid "FAQ"
 msgstr "FAQ"
 
-#: common.php:128
+#: common.php:129
 msgid "Privacy"
 msgstr "Datenschutz"
 
-#: common.php:140
+#: common.php:141
 msgid "Add translation"
 msgstr "Übersetzung hinzufügen"
 
@@ -1139,7 +1140,7 @@ msgstr "Daniel - Neue Domain"
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr "Wir sind zu einer Brandneuen Domain umgezogen - migriere deine Konten"
 
-#: new-domain.php:29 blog/index.php:36
+#: new-domain.php:29 blog/index.php:37
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr "Neue Domain - DanWin1210.Me ist jetzt DanWin1210.De"
 
@@ -1493,8 +1494,8 @@ msgstr ""
 "Diese allgemeinen Daten und Informationen werden in den Server-Logfiles "
 "gespeichert. Erfasst werden können (1) die verwendeten Browsertypen und -"
 "versionen, (2) das vom zugreifenden System verwendete Betriebssystem, (3) "
-"die Website, von der ein zugreifendes System auf meine Website gelangt ("
-"sogenannte Referrer), (4) die sub -Websites, (5) Datum und Uhrzeit des "
+"die Website, von der ein zugreifendes System auf meine Website gelangt "
+"(sogenannte Referrer), (4) die sub -Websites, (5) Datum und Uhrzeit des "
 "Zugriffs auf die Internetseite / E-Mail-Versand, (6) Absender und Empfänger "
 "einer E-Mail und (7) sonstige ähnliche Daten und Informationen, die im Falle "
 "von Angriffen auf meine IT-Systeme verwendet werden können."
@@ -1663,7 +1664,7 @@ msgstr "Bereitstellung von Server-Infrastruktur"
 msgid "9. Warrant canary"
 msgstr "9. Warrant Canary"
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:35
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:36
 msgid "Daniel's Chat shutdown"
 msgstr "Daniel's Chat geschlossen"
 
@@ -1730,7 +1731,7 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:6
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:34
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:35
 msgid "Onion link list shutdown"
 msgstr "Onion Linkliste geschlossen"
 
@@ -1794,7 +1795,7 @@ msgid "You can find an alternative link list at for example %s."
 msgstr "Eine alternative Linkliste findest du zum Beispiel %s."
 
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
-#: blog/ipv6/index.php:32 blog/index.php:33
+#: blog/ipv6/index.php:32 blog/index.php:34
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
 msgstr "IPv6 nutzen: Der Schlüssel zu einem zukunftssicheren Internet"
 
@@ -2053,7 +2054,7 @@ msgstr ""
 "Unterstützung und Beratung bei deiner Implementierung zu bekommen."
 
 #: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
-#: blog/dnssec/index.php:32 blog/index.php:32
+#: blog/dnssec/index.php:32 blog/index.php:33
 msgid "Securing the Web: Unraveling the Power of DNSSEC"
 msgstr "Das Web sichern: Die Leistungsfähigkeit von DNSSEC entfalten"
 
@@ -2291,34 +2292,334 @@ msgstr "Datum"
 msgid "Title"
 msgstr "Titel"
 
-#: blog/index.php:31 blog/index.php:32 blog/index.php:33
+#: blog/index.php:31
+#, fuzzy
+#| msgid "December 2022"
+msgid "December 2023"
+msgstr "Dezember 2022"
+
+#: blog/index.php:31 blog/vpn/index.php:6 blog/vpn/index.php:20
+#: blog/vpn/index.php:30 blog/vpn/index.php:32
+#, fuzzy
+#| msgid "Securing Email Communication"
+msgid "Securing your communication with a VPN"
+msgstr "E-Mail-Kommunikation sichern"
+
+#: blog/index.php:32 blog/index.php:33 blog/index.php:34
 msgid "October 2023"
 msgstr "Oktober 2023"
 
-#: blog/index.php:31 blog/dane/index.php:6 blog/dane/index.php:20
+#: blog/index.php:32 blog/dane/index.php:6 blog/dane/index.php:20
 #: blog/dane/index.php:30 blog/dane/index.php:32
 msgid "Fortifying Digital Connections using DANE"
 msgstr "Stärkung digitaler Verbindungen mit DANE"
 
-#: blog/index.php:34
+#: blog/index.php:35
 msgid "August 2023"
 msgstr "August 2023"
 
-#: blog/index.php:35
+#: blog/index.php:36
 msgid "December 2022"
 msgstr "Dezember 2022"
 
-#: blog/index.php:36
+#: blog/index.php:37
 msgid "December 2021"
 msgstr "Dezember 2021"
 
-#: blog/index.php:37
+#: blog/index.php:38
 msgid "March 2020"
 msgstr "März 2020"
 
-#: blog/index.php:37
+#: blog/index.php:38
 msgid "Hosting service shutdown due to hack"
 msgstr "Hosting Service nach Hack abgeschaltet"
+
+#: blog/vpn/index.php:10 blog/vpn/index.php:21
+msgid ""
+"Explore VPN essentials, protocols, and top providers for enhanced online "
+"privacy and security. Stay informed, stay protected."
+msgstr ""
+
+#: blog/vpn/index.php:33
+#, php-format
+msgid ""
+"A %s is a tool that helps ensure your online privacy and safety. It creates "
+"an encrypted tunnel for your data, protects your online identity, lets you "
+"access private networks, and can provide additional perks such as unlocking "
+"geo-restricted content. This article will guide you through the basics of "
+"using a VPN."
+msgstr ""
+
+#: blog/vpn/index.php:33
+msgid "Virtual Private Network"
+msgstr ""
+
+#: blog/vpn/index.php:33
+msgid "VPN"
+msgstr ""
+
+#: blog/vpn/index.php:34
+msgid "Why use a VPN?"
+msgstr ""
+
+#: blog/vpn/index.php:35
+msgid ""
+"In today's era of surveillance and data tracking, it is crucial to maintain "
+"internet privacy. A VPN allows you to:"
+msgstr ""
+
+#: blog/vpn/index.php:37
+msgid ""
+"Maintain privacy: A VPN transmits your data via an encrypted tunnel, making "
+"it unreadable for anyone trying to intercept it."
+msgstr ""
+
+#: blog/vpn/index.php:38
+msgid ""
+"Bypass geographical restrictions: This is one of the most popular uses of "
+"VPNs. VPNs can mask your location, allowing you to access geographically "
+"restricted content."
+msgstr ""
+
+#: blog/vpn/index.php:39
+msgid ""
+"Protection over public Wi-Fi: Public Wi-Fi networks may not be secure and "
+"can expose your data to possible intrusions. A VPN can shield you from such "
+"risks."
+msgstr ""
+
+#: blog/vpn/index.php:40
+msgid ""
+"Avoid throttling: ISPs sometimes throttle bandwidth for certain online "
+"services. A VPN can hide your online activity and thus prevent throttling."
+msgstr ""
+
+#: blog/vpn/index.php:41
+msgid ""
+"Remote Access: With a VPN, businesses can provide their employees with "
+"secure access to company resources anywhere in the world."
+msgstr ""
+
+#: blog/vpn/index.php:43
+msgid "Choosing a VPN"
+msgstr ""
+
+#: blog/vpn/index.php:44
+msgid "When selecting a VPN service, consider the following factors:"
+msgstr ""
+
+#: blog/vpn/index.php:46
+msgid ""
+"Security: Make sure your VPN provider uses high standards of encryption."
+msgstr ""
+
+#: blog/vpn/index.php:47
+msgid ""
+"No-log policy: Your VPN provider should have a no-log policy, meaning they "
+"do not store any details about your online activity."
+msgstr ""
+
+#: blog/vpn/index.php:48
+msgid "Speed: The VPN should not significantly reduce your internet speed."
+msgstr ""
+
+#: blog/vpn/index.php:49
+msgid ""
+"Server Locations: More server locations give you more options to choose "
+"from, especially if you plan to bypass geographical restrictions."
+msgstr ""
+
+#: blog/vpn/index.php:50
+msgid ""
+"Price: While free VPNs exist, they often come with limitations and might "
+"compromise on security."
+msgstr ""
+
+#: blog/vpn/index.php:51
+msgid ""
+"Reputation: Check the reputation of your VPN provider online, before buying "
+"a plan."
+msgstr ""
+
+#: blog/vpn/index.php:53
+msgid "VPN Protocols"
+msgstr ""
+
+#: blog/vpn/index.php:54
+msgid ""
+"When delving into the world of VPNs, understanding the underlying protocols "
+"is paramount. These protocols play a crucial role in determining the "
+"security and performance of your VPN connection."
+msgstr ""
+
+#: blog/vpn/index.php:57
+msgid "WireGuard"
+msgstr ""
+
+#: blog/vpn/index.php:58
+msgid ""
+"Advantages: WireGuard is a popular and efficient VPN known for its speed and "
+"strong security. It achieves this by keeping the codebase minimal and easy "
+"to use."
+msgstr ""
+
+#: blog/vpn/index.php:59
+msgid ""
+"Considerations: Although WireGuard has a modern design and operates "
+"efficiently, it is not yet universally supported."
+msgstr ""
+
+#: blog/vpn/index.php:62
+msgid "OpenVPN"
+msgstr ""
+
+#: blog/vpn/index.php:63
+msgid ""
+"Advantages: OpenVPN is an open-source protocol that supports strong "
+"encryption, making it reliable and flexible for diverse applications."
+msgstr ""
+
+#: blog/vpn/index.php:64
+msgid ""
+"Considerations: Although highly secure, setting up this protocol may be "
+"slightly complex for some users."
+msgstr ""
+
+#: blog/vpn/index.php:68
+msgid "IKEv2/IPsec"
+msgstr ""
+
+#: blog/vpn/index.php:69
+msgid ""
+"Advantages: Known for its speed and efficiency in re-establishing "
+"connections, especially in mobile devices that frequently switch networks, "
+"it offers robust security features and is often preferred for mobile "
+"applications."
+msgstr ""
+
+#: blog/vpn/index.php:70
+msgid ""
+"Considerations: While reliable, it may not be as universally supported as "
+"some other protocols."
+msgstr ""
+
+#: blog/vpn/index.php:73
+msgid "SSTP"
+msgstr ""
+
+#: blog/vpn/index.php:74
+msgid ""
+"Advantages: Microsoft developed SSTP for easy firewall traversal. It uses "
+"SSL/TLS encryption for strong security."
+msgstr ""
+
+#: blog/vpn/index.php:75
+msgid ""
+"Considerations: Limited cross-platform support could be a disadvantage for "
+"users who do not use Windows devices."
+msgstr ""
+
+#: blog/vpn/index.php:78
+msgid "L2TP/IPsec"
+msgstr ""
+
+#: blog/vpn/index.php:79
+msgid ""
+"Advantages: Combining the best of both L2TP and IPsec, this protocol offers "
+"strong security and is natively supported on a wide range of devices. It "
+"provides a good balance between speed and security."
+msgstr ""
+
+#: blog/vpn/index.php:80
+msgid ""
+"Considerations: L2TP/IPsec may not be the quickest option, and if not "
+"configured properly, its security can be compromised."
+msgstr ""
+
+#: blog/vpn/index.php:83
+msgid "PPTP"
+msgstr ""
+
+#: blog/vpn/index.php:84
+msgid ""
+"Advantages: PPTP is easy to set up and generally offers faster connection "
+"speeds than some other protocols."
+msgstr ""
+
+#: blog/vpn/index.php:85
+msgid ""
+"Considerations: Unfortunately, PPTP has several security weaknesses. The "
+"encryption it uses is outdated and vulnerable, making it unsuitable for "
+"ensuring the confidentiality and integrity of sensitive data."
+msgstr ""
+
+#: blog/vpn/index.php:88
+msgid ""
+"Understanding these protocols empowers users to make informed decisions when "
+"selecting a VPN service. The choice of a protocol depends on factors such as "
+"security needs, ease of use, and compatibility with devices. Each protocol "
+"has its strengths, and selecting the right one ensures a secure and reliable "
+"VPN experience."
+msgstr ""
+
+#: blog/vpn/index.php:89
+msgid "Combining VPN and the Tor darknet"
+msgstr ""
+
+#: blog/vpn/index.php:90
+msgid ""
+"When using darknets such as Tor, there's always a risk of being targeted by "
+"your government or ISP in countries where their use is limited or "
+"prohibited. By combining VPN and Tor, you can add another layer of online "
+"privacy and safety, since your ISP will not be able to see that you are "
+"using darknets. In case of an exploit against TorBrowser, the IP leaked "
+"would not be your real IP, but the VPN's IP. Connecting to a VPN via Tor is "
+"also possible, but makes much less sense because your identity is typically "
+"known to your VPN provider. For anonymity reasons, it's best to connect to "
+"the VPN first and connect to Tor via it."
+msgstr ""
+
+#: blog/vpn/index.php:91
+msgid "Recommendations"
+msgstr ""
+
+#: blog/vpn/index.php:93
+msgid ""
+"If you are considering running your own VPN for business or remote home "
+"network access, I would recommend using WireGuard or OpenVPN."
+msgstr ""
+
+#: blog/vpn/index.php:94
+msgid "For everyone else, here are some recommended VPN providers:"
+msgstr ""
+
+#: blog/vpn/index.php:96
+msgid "Mozilla VPN"
+msgstr ""
+
+#: blog/vpn/index.php:97
+msgid "Mullvad VPN"
+msgstr ""
+
+#: blog/vpn/index.php:98
+msgid "Proton VPN"
+msgstr ""
+
+#: blog/vpn/index.php:99
+msgid "ExpressVPN"
+msgstr ""
+
+#: blog/vpn/index.php:100
+msgid "NordVPN"
+msgstr ""
+
+#: blog/vpn/index.php:101
+msgid "Surfshark"
+msgstr ""
+
+#: blog/vpn/index.php:102
+msgid "CyberGhost VPN"
+msgstr ""
 
 #: blog/dane/index.php:10 blog/dane/index.php:21
 msgid ""
@@ -3556,9 +3857,9 @@ msgstr ""
 "prüfen, wie viel du beiseite legen solltest. Da niedrige und sogar negative "
 "Zinsen die Regel sind, ist es am besten, sich ein Festgeldkonto oder ein "
 "Bankkonto mit hohen Zinssätzen zu suchen, um seine Ersparnisse sicher "
-"aufzubewahren und damit etwas zu verdienen. Zu diesem Zweck verwende ich %2$"
-"s, da sie einen Zinssatz von bis zu 4 %% bieten. Um das richtige Konto für "
-"dich zu finden, kannst du %3$s."
+"aufzubewahren und damit etwas zu verdienen. Zu diesem Zweck verwende ich "
+"%2$s, da sie einen Zinssatz von bis zu 4 %% bieten. Um das richtige Konto "
+"für dich zu finden, kannst du %3$s."
 
 #: tutorials/self-employed/index.php:52
 msgid "online income tax calculator"
@@ -4251,9 +4552,9 @@ msgstr ""
 "Publikum verkaufen. Plattformen wie %1$s, %2$s oder %3$s erleichtern die "
 "Einrichtung eines Online-Shops und bieten Funktionen wie anpassbare "
 "Storefronts, sichere Zahlungsoptionen und Bestandsverwaltung. Du kannst "
-"deine Produkte in deinen Inhalten, auf Social-Media-Plattformen oder durch E"
-"-Mail-Marketing bewerben. Durch die Bereitstellung hochwertiger Produkte, "
-"die bei deinem Publikum Anklang finden, kannst du zusätzliche Einnahmen "
+"deine Produkte in deinen Inhalten, auf Social-Media-Plattformen oder durch E-"
+"Mail-Marketing bewerben. Durch die Bereitstellung hochwertiger Produkte, die "
+"bei deinem Publikum Anklang finden, kannst du zusätzliche Einnahmen "
 "generieren und gleichzeitig deine Marke stärken."
 
 #: tutorials/content-creation/index.php:56
@@ -4321,8 +4622,8 @@ msgstr ""
 "verdienen. Diese Rolle umfasst die Erstellung von Bildungsinhalten in Ihrem "
 "Fachgebiet und deren Bereitstellung über digitale Plattformen. Du kannst "
 "wählen, ob du Live-Kurse, vorab aufgezeichnete Lektionen oder eine "
-"Kombination aus beidem anbieten möchtest. Plattformen wie %1$s, %2$s oder %3$"
-"s eignen sich ideal zum Hosten und Verkaufen deiner Kurse an ein globales "
+"Kombination aus beidem anbieten möchtest. Plattformen wie %1$s, %2$s oder "
+"%3$s eignen sich ideal zum Hosten und Verkaufen deiner Kurse an ein globales "
 "Publikum. Um als Online-Lehrer erfolgreich zu sein, musst du die "
 "Lernbedürfnisse deiner Zielgruppe verstehen, ansprechende und informative "
 "Inhalte erstellen und deine Kursmaterialien kontinuierlich aktualisieren, um "
