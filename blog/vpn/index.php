@@ -62,7 +62,6 @@ global $language, $dir, $locale;
 	<h3><?php echo htmlspecialchars(_('OpenVPN')); ?></h3>
 	<p><?php echo htmlspecialchars(_('Advantages: OpenVPN is an open-source protocol that supports strong encryption, making it reliable and flexible for diverse applications.')); ?></p>
 	<p><?php echo htmlspecialchars(_('Considerations: Although highly secure, setting up this protocol may be slightly complex for some users.')); ?></p>
-	
 </li>
 <li>
 	<h3><abbr title="Internet Key Exchange version 2 with IPsec"><?php echo htmlspecialchars(_('IKEv2/IPsec')); ?></abbr></h3>
@@ -89,10 +88,10 @@ global $language, $dir, $locale;
 <h2><?php echo htmlspecialchars(_('Combining VPN and the Tor darknet')); ?></h2>
 <p><?php echo htmlspecialchars(_('When using darknets such as Tor, there\'s always a risk of being targeted by your government or ISP in countries where their use is limited or prohibited. By combining VPN and Tor, you can add another layer of online privacy and safety, since your ISP will not be able to see that you are using darknets. In case of an exploit against TorBrowser, the IP leaked would not be your real IP, but the VPN\'s IP. Connecting to a VPN via Tor is also possible, but makes much less sense because your identity is typically known to your VPN provider. For anonymity reasons, it\'s best to connect to the VPN first and connect to Tor via it.')); ?></p>
 <h2><?php echo htmlspecialchars(_('Recommendations')); ?></h2>
-
 <p><?php echo htmlspecialchars(_('If you are considering running your own VPN for business or remote home network access, I would recommend using WireGuard or OpenVPN.')); ?></p>
 <p><?php echo htmlspecialchars(_('For everyone else, here are some recommended VPN providers:')); ?></p>
 <ul>
+<li><a href="https://hideme-vpn.pxf.io/rQy9Q3" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Hide.Me VPN')); ?></a></li>
 <li><a href="https://www.mozilla.org/en-US/products/vpn/" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Mozilla VPN')); ?></a></li>
 <li><a href="https://mullvad.net" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Mullvad VPN')); ?></a></li>
 <li><a href="https://protonvpn.com" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Proton VPN')); ?></a></li>
