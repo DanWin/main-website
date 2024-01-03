@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-29 14:36+0100\n"
+"POT-Creation-Date: 2024-01-03 21:38+0100\n"
 "PO-Revision-Date: 2023-08-22 14:27+0000\n"
 "Last-Translator: Goatli <goatli@porcod.io>\n"
 "Language-Team: Russian <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -2426,11 +2426,11 @@ msgid ""
 "slightly complex for some users."
 msgstr ""
 
-#: blog/vpn/index.php:68
+#: blog/vpn/index.php:67
 msgid "IKEv2/IPsec"
 msgstr ""
 
-#: blog/vpn/index.php:69
+#: blog/vpn/index.php:68
 msgid ""
 "Advantages: Known for its speed and efficiency in re-establishing "
 "connections, especially in mobile devices that frequently switch networks, "
@@ -2438,63 +2438,63 @@ msgid ""
 "applications."
 msgstr ""
 
-#: blog/vpn/index.php:70
+#: blog/vpn/index.php:69
 msgid ""
 "Considerations: While reliable, it may not be as universally supported as "
 "some other protocols."
 msgstr ""
 
-#: blog/vpn/index.php:73
+#: blog/vpn/index.php:72
 msgid "SSTP"
 msgstr ""
 
-#: blog/vpn/index.php:74
+#: blog/vpn/index.php:73
 msgid ""
 "Advantages: Microsoft developed SSTP for easy firewall traversal. It uses "
 "SSL/TLS encryption for strong security."
 msgstr ""
 
-#: blog/vpn/index.php:75
+#: blog/vpn/index.php:74
 msgid ""
 "Considerations: Limited cross-platform support could be a disadvantage for "
 "users who do not use Windows devices."
 msgstr ""
 
-#: blog/vpn/index.php:78
+#: blog/vpn/index.php:77
 msgid "L2TP/IPsec"
 msgstr ""
 
-#: blog/vpn/index.php:79
+#: blog/vpn/index.php:78
 msgid ""
 "Advantages: Combining the best of both L2TP and IPsec, this protocol offers "
 "strong security and is natively supported on a wide range of devices. It "
 "provides a good balance between speed and security."
 msgstr ""
 
-#: blog/vpn/index.php:80
+#: blog/vpn/index.php:79
 msgid ""
 "Considerations: L2TP/IPsec may not be the quickest option, and if not "
 "configured properly, its security can be compromised."
 msgstr ""
 
-#: blog/vpn/index.php:83
+#: blog/vpn/index.php:82
 msgid "PPTP"
 msgstr ""
 
-#: blog/vpn/index.php:84
+#: blog/vpn/index.php:83
 msgid ""
 "Advantages: PPTP is easy to set up and generally offers faster connection "
 "speeds than some other protocols."
 msgstr ""
 
-#: blog/vpn/index.php:85
+#: blog/vpn/index.php:84
 msgid ""
 "Considerations: Unfortunately, PPTP has several security weaknesses. The "
 "encryption it uses is outdated and vulnerable, making it unsuitable for "
 "ensuring the confidentiality and integrity of sensitive data."
 msgstr ""
 
-#: blog/vpn/index.php:88
+#: blog/vpn/index.php:87
 msgid ""
 "Understanding these protocols empowers users to make informed decisions when "
 "selecting a VPN service. The choice of a protocol depends on factors such as "
@@ -2503,11 +2503,11 @@ msgid ""
 "VPN experience."
 msgstr ""
 
-#: blog/vpn/index.php:89
+#: blog/vpn/index.php:88
 msgid "Combining VPN and the Tor darknet"
 msgstr ""
 
-#: blog/vpn/index.php:90
+#: blog/vpn/index.php:89
 msgid ""
 "When using darknets such as Tor, there's always a risk of being targeted by "
 "your government or ISP in countries where their use is limited or "
@@ -2520,45 +2520,49 @@ msgid ""
 "the VPN first and connect to Tor via it."
 msgstr ""
 
-#: blog/vpn/index.php:91
+#: blog/vpn/index.php:90
 msgid "Recommendations"
 msgstr ""
 
-#: blog/vpn/index.php:93
+#: blog/vpn/index.php:91
 msgid ""
 "If you are considering running your own VPN for business or remote home "
 "network access, I would recommend using WireGuard or OpenVPN."
 msgstr ""
 
-#: blog/vpn/index.php:94
+#: blog/vpn/index.php:92
 msgid "For everyone else, here are some recommended VPN providers:"
 msgstr ""
 
-#: blog/vpn/index.php:96
+#: blog/vpn/index.php:94
+msgid "Hide.Me VPN"
+msgstr ""
+
+#: blog/vpn/index.php:95
 msgid "Mozilla VPN"
 msgstr ""
 
-#: blog/vpn/index.php:97
+#: blog/vpn/index.php:96
 msgid "Mullvad VPN"
 msgstr ""
 
-#: blog/vpn/index.php:98
+#: blog/vpn/index.php:97
 msgid "Proton VPN"
 msgstr ""
 
-#: blog/vpn/index.php:99
+#: blog/vpn/index.php:98
 msgid "ExpressVPN"
 msgstr ""
 
-#: blog/vpn/index.php:100
+#: blog/vpn/index.php:99
 msgid "NordVPN"
 msgstr ""
 
-#: blog/vpn/index.php:101
+#: blog/vpn/index.php:100
 msgid "Surfshark"
 msgstr ""
 
-#: blog/vpn/index.php:102
+#: blog/vpn/index.php:101
 msgid "CyberGhost VPN"
 msgstr ""
 
