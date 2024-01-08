@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-03 21:38+0100\n"
+"POT-Creation-Date: 2024-01-08 17:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1998,6 +1998,18 @@ msgstr ""
 
 #: blog/vpn/index.php:101
 msgid "CyberGhost VPN"
+msgstr ""
+
+#: blog/vpn/index.php:102
+msgid "Windscribe VPN"
+msgstr ""
+
+#: blog/vpn/index.php:103
+msgid "IVPN"
+msgstr ""
+
+#: blog/vpn/index.php:104
+msgid "CalyxVPN"
 msgstr ""
 
 #: blog/dane/index.php:10 blog/dane/index.php:21
