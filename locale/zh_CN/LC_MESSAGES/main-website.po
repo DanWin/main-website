@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-03 21:38+0100\n"
+"POT-Creation-Date: 2024-01-08 17:25+0100\n"
 "PO-Revision-Date: 2023-01-25 17:34+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.danwin1210.de/projects/"
@@ -2238,6 +2238,18 @@ msgstr ""
 
 #: blog/vpn/index.php:101
 msgid "CyberGhost VPN"
+msgstr ""
+
+#: blog/vpn/index.php:102
+msgid "Windscribe VPN"
+msgstr ""
+
+#: blog/vpn/index.php:103
+msgid "IVPN"
+msgstr ""
+
+#: blog/vpn/index.php:104
+msgid "CalyxVPN"
 msgstr ""
 
 #: blog/dane/index.php:10 blog/dane/index.php:21
