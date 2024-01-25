@@ -28,6 +28,7 @@ global $language, $dir, $locale;
 <p><?php echo htmlspecialchars(_('Blog posts and news related to my services will be posted here.')); ?></p>
 <div class="table">
 <div class="headerrow"><div class="cell"><?php echo htmlspecialchars(_('Date')); ?></div><div class="cell"><?php echo htmlspecialchars(_('Title')); ?></div></div>
+<div class="row"><div class="cell"><?php echo htmlspecialchars(_('January 2024')); ?></div><div class="cell"><a href="/blog/email-service-learnings/"><?php echo htmlspecialchars(_('Learnings from running an email service')); ?></a></div></div>
 <div class="row"><div class="cell"><?php echo htmlspecialchars(_('December 2023')); ?></div><div class="cell"><a href="/blog/vpn/"><?php echo htmlspecialchars(_('Securing your communication with a VPN')); ?></a></div></div>
 <div class="row"><div class="cell"><?php echo htmlspecialchars(_('October 2023')); ?></div><div class="cell"><a href="/blog/dane/"><?php echo htmlspecialchars(_('Fortifying Digital Connections using DANE')); ?></a></div></div>
 <div class="row"><div class="cell"><?php echo htmlspecialchars(_('October 2023')); ?></div><div class="cell"><a href="/blog/dnssec/"><?php echo htmlspecialchars(_('Securing the Web: Unraveling the Power of DNSSEC')); ?></a></div></div>
