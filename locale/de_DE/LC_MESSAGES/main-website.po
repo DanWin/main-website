@@ -4,18 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-01-08 17:25+0100\n"
-"PO-Revision-Date: 2023-12-26 20:37+0000\n"
+"PO-Revision-Date: 2024-02-22 12:17+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3.1\n"
+"X-Generator: Weblate 5.4.1\n"
 "X-Poedit-Basepath: .\n"
 
 #: imprint.php:6 imprint.php:15
@@ -128,12 +128,12 @@ msgstr ""
 "Hallo! Ich bin Daniel Winzen, ein hochqualifizierter deutscher Web-"
 "Entwickler und Systemadministrator. Mit einer tiefen Leidenschaft für "
 "Programmierung, Servermanagement und Cybersicherheit biete ich ein breites "
-"Angebot an Dienstleistungen and, die auf deine Bedürfnisse zugeschnitten "
-"sind. Meine umfangreiche Erfahrung und mein Know-how ermöglichen es mir, "
-"mich schnell an neue Herausforderungen anzupassen und erstklassige Lösungen "
-"für jedes Projekt zu gewährleisten. Ich biete einen kostenlosen und anonymen "
-"%1$s und einen %2$s an, und du interessierst dich vielleicht auch für meine "
-"%3$s. Meine Open-Source-Projekte findest du auf %4$s."
+"Angebot von Dienstleistungen an, die auf deine Bedürfnisse zugeschnitten "
+"sind. Meine umfangreiche Erfahrung und mein Wissen ermöglichen es mir, mich "
+"schnell an neue Herausforderungen anzupassen und erstklassige Lösungen für "
+"jedes Projekt zu gewährleisten. Ich biete einen kostenlosen und anonymen %1$"
+"s und einen %2$s an, und du interessierst dich vielleicht auch für meine %3$"
+"s. Meine Open-Source-Projekte findest du auf %4$s."
 
 #: index.php:28
 msgid "mail service"
@@ -2293,17 +2293,13 @@ msgid "Title"
 msgstr "Titel"
 
 #: blog/index.php:31
-#, fuzzy
-#| msgid "December 2022"
 msgid "December 2023"
-msgstr "Dezember 2022"
+msgstr "Dezember 2023"
 
 #: blog/index.php:31 blog/vpn/index.php:6 blog/vpn/index.php:20
 #: blog/vpn/index.php:30 blog/vpn/index.php:32
-#, fuzzy
-#| msgid "Securing Email Communication"
 msgid "Securing your communication with a VPN"
-msgstr "E-Mail-Kommunikation sichern"
+msgstr "Deine-Kommunikation mit einem VPN sichern"
 
 #: blog/index.php:32 blog/index.php:33 blog/index.php:34
 msgid "October 2023"
@@ -2339,6 +2335,8 @@ msgid ""
 "Explore VPN essentials, protocols, and top providers for enhanced online "
 "privacy and security. Stay informed, stay protected."
 msgstr ""
+"Entdecke VPN-Grundlagen, Protokolle und Top-Anbieter für mehr Online-"
+"Privatsphäre und Sicherheit. Bleibe informiert, bleibe geschützt."
 
 #: blog/vpn/index.php:33
 #, php-format
@@ -2349,30 +2347,42 @@ msgid ""
 "geo-restricted content. This article will guide you through the basics of "
 "using a VPN."
 msgstr ""
+"Ein %s ist ein Tool, das dabei hilft, deine Online-Privatsphäre und "
+"Sicherheit zu gewährleisten. Es erstellt einen verschlüsselten Tunnel für "
+"deine Daten, schützt deine Online-Identität, ermöglicht dir den Zugriff auf "
+"private Netzwerke und kann zusätzliche Vorteile bieten, wie z. B. das "
+"Entsperren geografisch eingeschränkter Inhalte. Dieser Artikel führt dich "
+"durch die Grundlagen der Verwendung eines VPN."
 
 #: blog/vpn/index.php:33
 msgid "Virtual Private Network"
-msgstr ""
+msgstr "Virtuelles privates Netzwerk"
 
 #: blog/vpn/index.php:33
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 #: blog/vpn/index.php:34
 msgid "Why use a VPN?"
-msgstr ""
+msgstr "Warum ein VPN verwenden?"
 
 #: blog/vpn/index.php:35
 msgid ""
 "In today's era of surveillance and data tracking, it is crucial to maintain "
 "internet privacy. A VPN allows you to:"
 msgstr ""
+"Im heutigen Zeitalter der Überwachung und Datenverfolgung ist es von "
+"entscheidender Bedeutung, die Privatsphäre im Internet zu wahren. Ein VPN "
+"ermöglicht dir:"
 
 #: blog/vpn/index.php:37
 msgid ""
 "Maintain privacy: A VPN transmits your data via an encrypted tunnel, making "
 "it unreadable for anyone trying to intercept it."
 msgstr ""
+"Privatsphäre wahren: Ein VPN überträgt deine Daten über einen "
+"verschlüsselten Tunnel und macht sie so für jeden, der versucht sie "
+"abzufangen, unlesbar."
 
 #: blog/vpn/index.php:38
 msgid ""
@@ -2380,6 +2390,9 @@ msgid ""
 "VPNs. VPNs can mask your location, allowing you to access geographically "
 "restricted content."
 msgstr ""
+"Geografische Beschränkungen umgehen: Dies ist eine der beliebtesten "
+"Anwendungen von VPNs. VPNs können deinen Standort maskieren und dir so den "
+"Zugriff auf geografisch eingeschränkte Inhalte ermöglichen."
 
 #: blog/vpn/index.php:39
 msgid ""
@@ -2387,63 +2400,85 @@ msgid ""
 "can expose your data to possible intrusions. A VPN can shield you from such "
 "risks."
 msgstr ""
+"Schutz über öffentliches WLAN: Öffentliche WLAN-Netzwerke sind "
+"möglicherweise nicht sicher und können deine Daten möglichen Eindringlingen "
+"aussetzen. Ein VPN kann dich vor solchen Risiken schützen."
 
 #: blog/vpn/index.php:40
 msgid ""
 "Avoid throttling: ISPs sometimes throttle bandwidth for certain online "
 "services. A VPN can hide your online activity and thus prevent throttling."
 msgstr ""
+"Drosselung vermeiden: ISPs drosseln manchmal die Bandbreite für bestimmte "
+"Online-Dienste. Ein VPN kann deine Online-Aktivitäten verbergen und so eine "
+"Drosselung verhindern."
 
 #: blog/vpn/index.php:41
 msgid ""
 "Remote Access: With a VPN, businesses can provide their employees with "
 "secure access to company resources anywhere in the world."
 msgstr ""
+"Fernzugriff: Mit einem VPN können Unternehmen ihren Mitarbeitern überall auf "
+"der Welt sicheren Zugriff auf Unternehmensressourcen ermöglichen."
 
 #: blog/vpn/index.php:43
 msgid "Choosing a VPN"
-msgstr ""
+msgstr "Auswahl eines VPN"
 
 #: blog/vpn/index.php:44
 msgid "When selecting a VPN service, consider the following factors:"
 msgstr ""
+"Berücksichtige bei der Auswahl eines VPN-Dienstes die folgenden Faktoren:"
 
 #: blog/vpn/index.php:46
 msgid ""
 "Security: Make sure your VPN provider uses high standards of encryption."
 msgstr ""
+"Sicherheit: Stelle sicher, dass dein VPN-Anbieter hohe "
+"Verschlüsselungsstandards verwendet."
 
 #: blog/vpn/index.php:47
 msgid ""
 "No-log policy: Your VPN provider should have a no-log policy, meaning they "
 "do not store any details about your online activity."
 msgstr ""
+"No-Log-Richtlinie: Dein VPN-Anbieter sollte über eine No-Log-Richtlinie "
+"verfügen, was bedeutet, dass er keine Details über deine Online-Aktivitäten "
+"speichert."
 
 #: blog/vpn/index.php:48
 msgid "Speed: The VPN should not significantly reduce your internet speed."
 msgstr ""
+"Geschwindigkeit: Das VPN sollte deine Internetgeschwindigkeit nicht "
+"wesentlich reduzieren."
 
 #: blog/vpn/index.php:49
 msgid ""
 "Server Locations: More server locations give you more options to choose "
 "from, especially if you plan to bypass geographical restrictions."
 msgstr ""
+"Serverstandorte: Mehr Serverstandorte bieten dir mehr Optionen zur Auswahl, "
+"insbesondere wenn du geografische Einschränkungen umgehen möchtest."
 
 #: blog/vpn/index.php:50
 msgid ""
 "Price: While free VPNs exist, they often come with limitations and might "
 "compromise on security."
 msgstr ""
+"Preis: Obwohl es kostenlose VPNs gibt, sind diese oft mit Einschränkungen "
+"verbunden und können Kompromisse bei der Sicherheit eingehen."
 
 #: blog/vpn/index.php:51
 msgid ""
 "Reputation: Check the reputation of your VPN provider online, before buying "
 "a plan."
 msgstr ""
+"Reputation: Überprüfe online die Reputation deines VPN-Anbieters, bevor du "
+"einen Plan kaufst."
 
 #: blog/vpn/index.php:53
 msgid "VPN Protocols"
-msgstr ""
+msgstr "VPN-Protokolle"
 
 #: blog/vpn/index.php:54
 msgid ""
@@ -2451,10 +2486,14 @@ msgid ""
 "is paramount. These protocols play a crucial role in determining the "
 "security and performance of your VPN connection."
 msgstr ""
+"Beim Eintauchen in die Welt der VPNs ist das Verständnis der zugrunde "
+"liegenden Protokolle von größter Bedeutung. Diese Protokolle spielen eine "
+"entscheidende Rolle bei der Bestimmung der Sicherheit und Leistung deiner "
+"VPN-Verbindung."
 
 #: blog/vpn/index.php:57
 msgid "WireGuard"
-msgstr ""
+msgstr "WireGuard"
 
 #: blog/vpn/index.php:58
 msgid ""
@@ -2462,32 +2501,42 @@ msgid ""
 "strong security. It achieves this by keeping the codebase minimal and easy "
 "to use."
 msgstr ""
+"Vorteile: WireGuard ist ein beliebtes und effizientes VPN, das für seine "
+"Geschwindigkeit und starke Sicherheit bekannt ist. Dies wird erreicht, indem "
+"die Codebasis minimal und benutzerfreundlich gehalten wird."
 
 #: blog/vpn/index.php:59
 msgid ""
 "Considerations: Although WireGuard has a modern design and operates "
 "efficiently, it is not yet universally supported."
 msgstr ""
+"Überlegungen: Obwohl WireGuard über ein modernes Design verfügt und "
+"effizient arbeitet, wird es noch nicht durchgängig unterstützt."
 
 #: blog/vpn/index.php:62
 msgid "OpenVPN"
-msgstr ""
+msgstr "OpenVPN"
 
 #: blog/vpn/index.php:63
 msgid ""
 "Advantages: OpenVPN is an open-source protocol that supports strong "
 "encryption, making it reliable and flexible for diverse applications."
 msgstr ""
+"Vorteile: OpenVPN ist ein Open-Source-Protokoll, das eine starke "
+"Verschlüsselung unterstützt und es dadurch zuverlässig und flexibel für "
+"verschiedene Anwendungen macht."
 
 #: blog/vpn/index.php:64
 msgid ""
 "Considerations: Although highly secure, setting up this protocol may be "
 "slightly complex for some users."
 msgstr ""
+"Überlegungen: Obwohl es sehr sicher ist, kann die Einrichtung dieses "
+"Protokolls für einige Benutzer etwas komplex sein."
 
 #: blog/vpn/index.php:67
 msgid "IKEv2/IPsec"
-msgstr ""
+msgstr "IKEv2/IPsec"
 
 #: blog/vpn/index.php:68
 msgid ""
@@ -2496,32 +2545,42 @@ msgid ""
 "it offers robust security features and is often preferred for mobile "
 "applications."
 msgstr ""
+"Vorteile: Bekannt für seine Geschwindigkeit und Effizienz beim "
+"Wiederherstellen von Verbindungen, insbesondere bei Mobilgeräten, die häufig "
+"das Netzwerk wechseln, bietet es robuste Sicherheitsfunktionen und wird oft "
+"für mobile Anwendungen bevorzugt."
 
 #: blog/vpn/index.php:69
 msgid ""
 "Considerations: While reliable, it may not be as universally supported as "
 "some other protocols."
 msgstr ""
+"Überlegungen: Obwohl es zuverlässig ist, wird es möglicherweise nicht so "
+"durchgängig unterstützt wie einige andere Protokolle."
 
 #: blog/vpn/index.php:72
 msgid "SSTP"
-msgstr ""
+msgstr "SSTP"
 
 #: blog/vpn/index.php:73
 msgid ""
 "Advantages: Microsoft developed SSTP for easy firewall traversal. It uses "
 "SSL/TLS encryption for strong security."
 msgstr ""
+"Vorteile: Microsoft hat SSTP für eine einfache Firewall-Durchquerung "
+"entwickelt. Es verwendet SSL/TLS-Verschlüsselung für hohe Sicherheit."
 
 #: blog/vpn/index.php:74
 msgid ""
 "Considerations: Limited cross-platform support could be a disadvantage for "
 "users who do not use Windows devices."
 msgstr ""
+"Überlegungen: Die eingeschränkte plattformübergreifende Unterstützung könnte "
+"für Benutzer, die keine Windows-Geräte verwenden, ein Nachteil sein."
 
 #: blog/vpn/index.php:77
 msgid "L2TP/IPsec"
-msgstr ""
+msgstr "L2TP/IPsec"
 
 #: blog/vpn/index.php:78
 msgid ""
@@ -2529,22 +2588,30 @@ msgid ""
 "strong security and is natively supported on a wide range of devices. It "
 "provides a good balance between speed and security."
 msgstr ""
+"Vorteile: Dieses Protokoll kombiniert das Beste von L2TP und IPsec, bietet "
+"hohe Sicherheit und wird nativ auf einer Vielzahl von Geräten unterstützt. "
+"Es bietet eine gute Balance zwischen Geschwindigkeit und Sicherheit."
 
 #: blog/vpn/index.php:79
 msgid ""
 "Considerations: L2TP/IPsec may not be the quickest option, and if not "
 "configured properly, its security can be compromised."
 msgstr ""
+"Überlegungen: L2TP/IPsec ist möglicherweise nicht die schnellste Option, und "
+"wenn es nicht richtig konfiguriert wird, kann die Sicherheit beeinträchtigt "
+"werden."
 
 #: blog/vpn/index.php:82
 msgid "PPTP"
-msgstr ""
+msgstr "PPTP"
 
 #: blog/vpn/index.php:83
 msgid ""
 "Advantages: PPTP is easy to set up and generally offers faster connection "
 "speeds than some other protocols."
 msgstr ""
+"Vorteile: PPTP ist einfach einzurichten und bietet im Allgemeinen schnellere "
+"Verbindungsgeschwindigkeiten als einige andere Protokolle."
 
 #: blog/vpn/index.php:84
 msgid ""
@@ -2552,6 +2619,10 @@ msgid ""
 "encryption it uses is outdated and vulnerable, making it unsuitable for "
 "ensuring the confidentiality and integrity of sensitive data."
 msgstr ""
+"Überlegungen: Leider weist PPTP mehrere Sicherheitslücken auf. Die "
+"verwendete Verschlüsselung ist veraltet und anfällig und daher nicht "
+"geeignet, die Vertraulichkeit und Integrität sensibler Daten zu "
+"gewährleisten."
 
 #: blog/vpn/index.php:87
 msgid ""
@@ -2561,10 +2632,16 @@ msgid ""
 "has its strengths, and selecting the right one ensures a secure and reliable "
 "VPN experience."
 msgstr ""
+"Das Verständnis dieser Protokolle ermöglicht es Benutzern, fundierte "
+"Entscheidungen bei der Auswahl eines VPN-Dienstes zu treffen. Die Wahl eines "
+"Protokolls hängt von Faktoren wie Sicherheitsanforderungen, "
+"Benutzerfreundlichkeit und Kompatibilität mit Geräten ab. Jedes Protokoll "
+"hat seine Stärken und die Auswahl des richtigen Protokolls gewährleistet ein "
+"sicheres und zuverlässiges VPN-Erlebnis."
 
 #: blog/vpn/index.php:88
 msgid "Combining VPN and the Tor darknet"
-msgstr ""
+msgstr "Kombination von VPN und dem Tor-Darknet"
 
 #: blog/vpn/index.php:89
 msgid ""
@@ -2578,64 +2655,78 @@ msgid ""
 "known to your VPN provider. For anonymity reasons, it's best to connect to "
 "the VPN first and connect to Tor via it."
 msgstr ""
+"Bei der Nutzung von Darknets wie Tor besteht immer das Risiko, dass deine "
+"Regierung oder dein ISP in Ländern ins Visier genommen werden, in denen "
+"deren Nutzung eingeschränkt oder verboten ist. Durch die Kombination von VPN "
+"und Tor kannst du eine weitere Ebene der Online-Privatsphäre und Sicherheit "
+"hinzufügen, da dein ISP nicht erkennen kann, dass du Darknets nutzt. Im "
+"Falle eines Exploits gegen TorBrowser wäre die durchgesickerte IP nicht "
+"deine echte IP, sondern die IP des VPN. Eine Verbindung zu einem VPN über "
+"Tor ist ebenfalls möglich, aber deutlich weniger sinnvoll, da deine "
+"Identität normalerweise deinem VPN-Anbieter bekannt ist. Aus Gründen der "
+"Anonymität ist es am besten, zuerst eine Verbindung zum VPN herzustellen und "
+"sich über dieses mit Tor zu verbinden."
 
 #: blog/vpn/index.php:90
 msgid "Recommendations"
-msgstr ""
+msgstr "Empfehlungen"
 
 #: blog/vpn/index.php:91
 msgid ""
 "If you are considering running your own VPN for business or remote home "
 "network access, I would recommend using WireGuard or OpenVPN."
 msgstr ""
+"Wenn du erwägst, ein eigenes VPN für deine Firma oder Remote-"
+"Heimnetzwerkzugriff zu betreiben, würde ich die Verwendung von WireGuard "
+"oder OpenVPN empfehlen."
 
 #: blog/vpn/index.php:92
 msgid "For everyone else, here are some recommended VPN providers:"
-msgstr ""
+msgstr "Für alle anderen hier einige empfohlene VPN-Anbieter:"
 
 #: blog/vpn/index.php:94
 msgid "Hide.Me VPN"
-msgstr ""
+msgstr "Hide.Me VPN"
 
 #: blog/vpn/index.php:95
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN"
 
 #: blog/vpn/index.php:96
 msgid "Mullvad VPN"
-msgstr ""
+msgstr "Mullvad VPN"
 
 #: blog/vpn/index.php:97
 msgid "Proton VPN"
-msgstr ""
+msgstr "Proton VPN"
 
 #: blog/vpn/index.php:98
 msgid "ExpressVPN"
-msgstr ""
+msgstr "ExpressVPN"
 
 #: blog/vpn/index.php:99
 msgid "NordVPN"
-msgstr ""
+msgstr "NordVPN"
 
 #: blog/vpn/index.php:100
 msgid "Surfshark"
-msgstr ""
+msgstr "Surfshark"
 
 #: blog/vpn/index.php:101
 msgid "CyberGhost VPN"
-msgstr ""
+msgstr "CyberGhost VPN"
 
 #: blog/vpn/index.php:102
 msgid "Windscribe VPN"
-msgstr ""
+msgstr "Windscribe VPN"
 
 #: blog/vpn/index.php:103
 msgid "IVPN"
-msgstr ""
+msgstr "IVPN"
 
 #: blog/vpn/index.php:104
 msgid "CalyxVPN"
-msgstr ""
+msgstr "CalyxVPN"
 
 #: blog/dane/index.php:10 blog/dane/index.php:21
 msgid ""
