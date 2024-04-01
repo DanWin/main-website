@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-08 17:25+0100\n"
+"POT-Creation-Date: 2024-04-01 18:37+0200\n"
 "PO-Revision-Date: 2023-04-30 21:04+0000\n"
 "Last-Translator: big cat <biggiecat@danwin1210.de>\n"
 "Language-Team: Polish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -33,8 +33,10 @@ msgstr ""
 #: hosting/index.php:21 privacy.php:21 chat/index.php:21
 #: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
 #: blog/dnssec/index.php:26 blog/index.php:21 blog/vpn/index.php:26
-#: blog/dane/index.php:26 tutorials/get-rich-fast/index.php:29
-#: tutorials/index.php:21 tutorials/successful-sugar-dating/index.php:28
+#: blog/cluster/index.php:27 blog/dane/index.php:26
+#: blog/email-service-learnings/index.php:21
+#: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
+#: tutorials/successful-sugar-dating/index.php:28
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
 #: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
 msgid "An avatar representing Daniel Winzen"
@@ -44,7 +46,8 @@ msgstr ""
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
 #: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
 #: blog/ipv6/index.php:29 blog/dnssec/index.php:29 blog/index.php:24
-#: blog/vpn/index.php:29 blog/dane/index.php:29
+#: blog/vpn/index.php:29 blog/cluster/index.php:30 blog/dane/index.php:29
+#: blog/email-service-learnings/index.php:24
 #: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
 #: tutorials/successful-sugar-dating/index.php:31
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
@@ -462,7 +465,8 @@ msgid "If there are any further questions, %s."
 msgstr ""
 
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
-#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/dane/index.php:74
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
+#: blog/dane/index.php:74
 msgid "contact me"
 msgstr ""
 
@@ -880,7 +884,7 @@ msgstr ""
 msgid "We moved to a brand new domain - migrate your accounts"
 msgstr ""
 
-#: new-domain.php:29 blog/index.php:37
+#: new-domain.php:29 blog/index.php:39
 msgid "New domain - DanWin1210.Me is now DanWin1210.De"
 msgstr ""
 
@@ -1247,7 +1251,7 @@ msgstr ""
 msgid "9. Warrant canary"
 msgstr ""
 
-#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:36
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:38
 msgid "Daniel's Chat shutdown"
 msgstr ""
 
@@ -1295,7 +1299,7 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:6
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
-#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:35
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:37
 #, fuzzy
 #| msgid "Onion link list"
 msgid "Onion link list shutdown"
@@ -1339,7 +1343,7 @@ msgid "You can find an alternative link list at for example %s."
 msgstr ""
 
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
-#: blog/ipv6/index.php:32 blog/index.php:34
+#: blog/ipv6/index.php:32 blog/index.php:36
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
 msgstr ""
 
@@ -1500,11 +1504,13 @@ msgid ""
 "one step at a time."
 msgstr ""
 
-#: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/dane/index.php:73
+#: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/cluster/index.php:68
+#: blog/dane/index.php:73
 msgid "Hire an expert"
 msgstr ""
 
-#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/dane/index.php:74
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
+#: blog/dane/index.php:74
 #, php-format
 msgid ""
 "If you're considering implementing this for your business, don't hesitate to "
@@ -1513,7 +1519,7 @@ msgid ""
 msgstr ""
 
 #: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
-#: blog/dnssec/index.php:32 blog/index.php:33
+#: blog/dnssec/index.php:32 blog/index.php:35
 msgid "Securing the Web: Unraveling the Power of DNSSEC"
 msgstr ""
 
@@ -1677,40 +1683,60 @@ msgid "Title"
 msgstr ""
 
 #: blog/index.php:31
+msgid "April 2024"
+msgstr ""
+
+#: blog/index.php:31 blog/cluster/index.php:6 blog/cluster/index.php:21
+#: blog/cluster/index.php:31 blog/cluster/index.php:33
+msgid "Cluster setup"
+msgstr ""
+
+#: blog/index.php:32
+msgid "January 2024"
+msgstr ""
+
+#: blog/index.php:32 blog/email-service-learnings/index.php:6
+#: blog/email-service-learnings/index.php:15
+#: blog/email-service-learnings/index.php:25
+#: blog/email-service-learnings/index.php:27
+msgid "Learnings from running an email service"
+msgstr ""
+
+#: blog/index.php:33
 msgid "December 2023"
 msgstr ""
 
-#: blog/index.php:31 blog/vpn/index.php:6 blog/vpn/index.php:20
+#: blog/index.php:33 blog/vpn/index.php:6 blog/vpn/index.php:20
 #: blog/vpn/index.php:30 blog/vpn/index.php:32
 msgid "Securing your communication with a VPN"
 msgstr ""
 
-#: blog/index.php:32 blog/index.php:33 blog/index.php:34
+#: blog/index.php:34 blog/index.php:35 blog/index.php:36
 msgid "October 2023"
 msgstr ""
 
-#: blog/index.php:32 blog/dane/index.php:6 blog/dane/index.php:20
+#: blog/index.php:34 blog/dane/index.php:6 blog/dane/index.php:20
 #: blog/dane/index.php:30 blog/dane/index.php:32
 msgid "Fortifying Digital Connections using DANE"
 msgstr ""
 
-#: blog/index.php:35
+#: blog/index.php:37
 msgid "August 2023"
 msgstr ""
 
-#: blog/index.php:36
+#: blog/index.php:38
 msgid "December 2022"
 msgstr ""
 
-#: blog/index.php:37
+#: blog/index.php:39
 msgid "December 2021"
 msgstr ""
 
-#: blog/index.php:38
+#: blog/index.php:40
 msgid "March 2020"
 msgstr ""
 
-#: blog/index.php:38
+#: blog/index.php:40
 msgid "Hosting service shutdown due to hack"
 msgstr ""
 
@@ -2017,6 +2043,200 @@ msgstr ""
 msgid "CalyxVPN"
 msgstr ""
 
+#: blog/vpn/index.php:105
+msgid "CloudFlare WARP"
+msgstr ""
+
+#: blog/cluster/index.php:10 blog/cluster/index.php:22
+msgid "Seting up a linux server cluster using Ceph and MariaDB Galera"
+msgstr ""
+
+#: blog/cluster/index.php:34
+msgid ""
+"A cluster is a group of servers and other resources that act as a single "
+"system. Utilizing a cluster can increase data reliability, availability, and "
+"scalability. In this article, we will focus on Ceph, a distributed object "
+"storage and file system, and MariaDB Galera, a multi-master database "
+"solution, to achieve high availability and performance. This cluster setup "
+"is the basis for the website that you are currently reading."
+msgstr ""
+
+#: blog/cluster/index.php:35
+msgid "Prerequisites"
+msgstr ""
+
+#: blog/cluster/index.php:36
+msgid ""
+"You will need a minimum of 3 servers set up running on a Linux OS. Having "
+"less than 3 servers is not recommended as it can break the cluster and could "
+"lead to split-brain issues."
+msgstr ""
+
+#: blog/cluster/index.php:37
+msgid "Ceph"
+msgstr ""
+
+#: blog/cluster/index.php:38
+msgid ""
+"Ceph is a highly scalable, fault-tolerant, and highly available storage "
+"system."
+msgstr ""
+
+#: blog/cluster/index.php:39
+msgid "How Ceph works"
+msgstr ""
+
+#: blog/cluster/index.php:40
+msgid "A Ceph Storage Cluster is based on several types of daemons:"
+msgstr ""
+
+#: blog/cluster/index.php:42
+msgid ""
+"Ceph OSD (Object Storage Daemon): These are the heart of Ceph because they "
+"handle data storage, data replication, recovery, rebalancing, and provide "
+"some monitoring statistics to Ceph monitors."
+msgstr ""
+
+#: blog/cluster/index.php:43
+msgid ""
+"Ceph MON (Monitor): They maintain the master copy of the cluster map. A "
+"cluster usually has an odd number of monitors running (e.g., 3, 5, 7)."
+msgstr ""
+
+#: blog/cluster/index.php:44
+msgid ""
+"Ceph MDS (Metadata Server): These servers are optional and store metadata "
+"for the Ceph File System (not block devices or objects)."
+msgstr ""
+
+#: blog/cluster/index.php:45
+msgid ""
+"Ceph MGR (Manager): This daemon is responsible for keeping track of runtime "
+"metrics, managing the cluster's state, and providing additional interfaces "
+"to external monitoring and management systems."
+msgstr ""
+
+#: blog/cluster/index.php:47
+msgid ""
+"All these daemons are installed on multiple servers and interact with each "
+"other to form the cluster."
+msgstr ""
+
+#: blog/cluster/index.php:48
+msgid "Use Cases of Ceph"
+msgstr ""
+
+#: blog/cluster/index.php:49
+msgid ""
+"Ceph is commonly used in clouds of all sizes and types due to its "
+"versatility, massive scalability, and robust data protection."
+msgstr ""
+
+#: blog/cluster/index.php:51
+msgid ""
+"Object Storage: Ceph provides features such as replication and erasure "
+"coding, tiering, and the ability to set up watch/notify and object-level key-"
+"value mappings."
+msgstr ""
+
+#: blog/cluster/index.php:52
+msgid ""
+"Block Storage: Ceph's RADOS Block Device (RBD) supports snapshots, and "
+"replication, and can significantly improve read performance by utilizing the "
+"cache of the client and the Ceph OSD."
+msgstr ""
+
+#: blog/cluster/index.php:53
+msgid ""
+"File System: Ceph's file system (CephFS) ensures highly available and "
+"reliable storage, where all data gets written and read in/from the object "
+"store."
+msgstr ""
+
+#: blog/cluster/index.php:55
+msgid "Performance optimizations"
+msgstr ""
+
+#: blog/cluster/index.php:56
+msgid ""
+"The following optimizations resulted in 10 times faster read times of data "
+"stored on my cluster, which contains mostly websites and emails."
+msgstr ""
+
+#: blog/cluster/index.php:57
+msgid "Tuning encrypted OSDs on SSDs"
+msgstr ""
+
+#: blog/cluster/index.php:58
+msgid ""
+"SSDs are typically faster than HDDs and have much lower latency. For "
+"historical reasons, the Linux kernel uses work queues in dm-crypt, which "
+"offloads encryption and disk read/write work to different threads in the "
+"kernel. This makes sense for slower HDDs, but for SSDs, it can harm "
+"performance due to the overhead of context switches."
+msgstr ""
+
+#: blog/cluster/index.php:59
+#, php-format
+msgid ""
+"To disable this behaviour, we first have to find the relevant device with "
+"the command %1$s. If you have an OSD running, the underlying device will "
+"show up in the list printed by dmsetup. To get only the relevant UUID of the "
+"ceph device, we can use %2$s. Now as a final step we can set persistent "
+"options for the device using %3$s."
+msgstr ""
+
+#: blog/cluster/index.php:60
+msgid "Tuning CephFS for many files in one directory"
+msgstr ""
+
+#: blog/cluster/index.php:61
+#, php-format
+msgid ""
+"CephFS performance suffers when many files are stored in the same directory, "
+"just like with every file system. Using the option %1$s it is however "
+"possible to split directory indexes in multiple parts to increase "
+"performance when operating in directories with many files. I have set this "
+"down to a value of %2$s."
+msgstr ""
+
+#: blog/cluster/index.php:62
+msgid "MariaDB Galera Cluster"
+msgstr ""
+
+#: blog/cluster/index.php:63
+msgid ""
+"MariaDB Galera Cluster is an open-source database system focusing on high "
+"availability, failing over between servers seamlessly, and ensuring data "
+"consistency between those servers. It is a multi-master cluster that uses "
+"synchronous replication."
+msgstr ""
+
+#: blog/cluster/index.php:64
+msgid "How Galera Works"
+msgstr ""
+
+#: blog/cluster/index.php:65
+msgid ""
+"In a Galera Cluster, every database instance (or \"node\") is a master, "
+"meaning data can be written or read from any node, with changes "
+"automatically replicated across all nodes. Using synchronous replication "
+"MariaDB Galera Cluster ensures all nodes have the same data simultaneously."
+msgstr ""
+
+#: blog/cluster/index.php:66
+msgid "Use Cases for MariaDB Galera Cluster"
+msgstr ""
+
+#: blog/cluster/index.php:67
+msgid ""
+"MariaDB Galera Cluster is best suited for applications where data "
+"availability, consistency, and durability are critical across multiple "
+"nodes, such as when deploying a web application with multiple database "
+"servers to scale up a busy service, or when deploying a high-availability "
+"database with multiple nodes."
+msgstr ""
+
 #: blog/dane/index.php:10 blog/dane/index.php:21
 msgid ""
 "Discover the benefits of DANE for boosting online security. Learn how DANE "
@@ -2228,6 +2448,146 @@ msgid ""
 "integrating it into our digital practices is pivotal to safeguarding the "
 "integrity of our digital connections. Stay secure, stay trusted, and embrace "
 "DANE today."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:10
+#: blog/email-service-learnings/index.php:16
+msgid ""
+"My learnings from running a free, anonymous email servcie and what to expect "
+"when you run a service like mine"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:28
+msgid ""
+"Running a public email service can be challenging and frustrating at times. "
+"Nonetheless, I learned a lot from offering a free email service for the past "
+"few years. Here are some of the challenges I had to face and what I learned "
+"from them:"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:29
+msgid "Spam and countermeasures"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:30
+msgid ""
+"Spam is one of the most common issues when dealing with email. Making an "
+"email service completely spam-free is almost impossible. While many spam "
+"filters can filter out the majority of spam we receive daily, they aren't "
+"perfect either. The worst kind of spam is the outgoing kind because it will "
+"damage the reputation of the service and can have a significant long-term "
+"impact. Thus I have taken many steps to reduce the amount of spam my service "
+"will send out by using rate limiting, spam filters, blacklisting of specific "
+"addresses and manually shutting down sending for a couple of hours whenever "
+"a spam wave starts."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:31
+msgid "Reputational damages"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:32
+#, php-format
+msgid ""
+"No matter how much you invest in anti-spam measures, at some point, there "
+"will be spam going out. Just five spam emails a day could be enough to get "
+"your service blacklisted if there aren't enough good emails to make up for "
+"them. For example, %s considers 0.1%% of spam already too much. At a rate of "
+"0.3%%, you can say goodbye to reaching inboxes since all your emails will "
+"get marked as spam. Once your service reputation goes down, it can take "
+"several months to recover."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:33
+msgid "Hate and death threads"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:34
+#, php-format
+msgid ""
+"Unlike some big providers, I never asked for personal details such as phone "
+"numbers or payment details, and it's also possible to use my service from a "
+"Tor hidden service. Unfortunately, this anonymity also attracts some people "
+"who are going to abuse the email service to send hate and death threads. "
+"This trend has been on the rise for the past few years, and there were times "
+"when I had to deal with such threats and their aftermath almost every month. "
+"That includes talking to scared victims, giving statements to the police and "
+"disabling abusive accounts. One of the cases I had to deal with was about "
+"violent death threads sent to %s and her employees. There were several "
+"similar cases, which didn't go public. Although it is unlikely that any of "
+"these threats would have been carried out, they can still have devastating "
+"and traumatic effects on the people who receive them."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:35
+msgid "Law enforcement visits"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:36
+msgid ""
+"Internet crimes may be hard to combat, but law enforcement is trying to "
+"track down these kinds of crimes as well. That means whenever someone "
+"reports an incident to the police, they will investigate and reach out to "
+"the email provider to ask for information. While I don't have much data at "
+"hand, given that my service is anonymous, I still get contacted by law "
+"enforcement regularly, which includes being woken up in the middle of the "
+"night to answer some questions, or having my home searched."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:37
+msgid "Time consuming tasks"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:38
+msgid ""
+"Time is one of the most valuable assets. We all have a limited quantity of "
+"it. You can't get back time you've spent on something less enjoyable. While "
+"I understand that many people prefer wasting their time in front of the TV, "
+"instead of doing something productive with their life, I am building my own "
+"business and often have a busy schedule. That is why I no longer want to "
+"spend so much time running this public email service. It can ruin my entire "
+"day planning when I have to spend some hours dealing with spam before I can "
+"send an urgent email myself. In mid 2023 some very persistent spammers "
+"started abusing my service. I've spent countless hours deleting accounts, "
+"and disabled registration for several months, but still couldn't find a "
+"solution to this problem. It's now 2024 and I still see an abnormal rate of "
+"abuse. Cleaning up after a spam wave can take hours and means halting "
+"outgoing mail for several hours until I have time to deal with it."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:39
+msgid "Closing registration for good"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:40
+msgid ""
+"While I strongly believe in freedom of speech and want to continue offering "
+"the email service, it has become too much of a burden to keep this service "
+"clean. I'm not earning money from it, and it's not worth continuing with the "
+"amount of abuse that I have seen in recent months. I've closed registration "
+"temporarily several times in the past few months, but now I will close it "
+"for good. Existing accounts will continue working, and I do not intend to "
+"shut down this service. I use this email service myself and depend on it. "
+"That is why I also need to take these steps since I am potentially losing "
+"clients whenever my emails land in spam because someone else ruined my email "
+"service reputation (again)."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:41
+msgid "Making use of my experience"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:42
+#, php-format
+msgid ""
+"With many years of experience running email services, I can also help you "
+"fix any problems you might encounter with your email service, such as "
+"restoring your sending reputation, authentication issues with DKIM, SPF and "
+"DMARC, or email security issues. If you are interested, you can %s. "
+msgstr ""
+
+#: blog/email-service-learnings/index.php:42
+msgid "hire me"
 msgstr ""
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
