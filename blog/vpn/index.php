@@ -102,6 +102,7 @@ global $language, $dir, $locale;
 <li><a href="https://windscribe.com" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Windscribe VPN')); ?></a></li>
 <li><a href="https://www.ivpn.net" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('IVPN')); ?></a></li>
 <li><a href="https://calyxinstitute.org/projects/digital-services/vpn" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('CalyxVPN')); ?></a></li>
+<li><a href="https://one.one.one.one/" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('CloudFlare WARP')); ?></a></li>
 </ul>
 </main>
 </body></html>
