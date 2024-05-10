@@ -91,12 +91,12 @@ global $language, $dir, $locale;
 <p><?php echo htmlspecialchars(_('If you are considering running your own VPN for business or remote home network access, I would recommend using WireGuard or OpenVPN.')); ?></p>
 <p><?php echo htmlspecialchars(_('For everyone else, here are some recommended VPN providers:')); ?></p>
 <ul>
-<li><a href="https://hideme-vpn.pxf.io/rQy9Q3" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Hide.Me VPN')); ?></a></li>
+<li><a href="https://nordvpn.sjv.io/5g0akn" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('NordVPN')); ?></a></li>
+<li><a href="https://go.getproton.me/aff_c?offer_id=26&aff_id=6815" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Proton VPN')); ?></a></li>
+<li><a href="https://hide.me/" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Hide.Me VPN')); ?></a></li>
 <li><a href="https://www.mozilla.org/en-US/products/vpn/" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Mozilla VPN')); ?></a></li>
 <li><a href="https://mullvad.net" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Mullvad VPN')); ?></a></li>
-<li><a href="https://go.getproton.me/aff_c?offer_id=26&aff_id=6815" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Proton VPN')); ?></a></li>
 <li><a href="https://www.expressvpn.com" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('ExpressVPN')); ?></a></li>
-<li><a href="https://nordvpn.sjv.io/5g0akn" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('NordVPN')); ?></a></li>
 <li><a href="https://surfshark.com" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Surfshark')); ?></a></li>
 <li><a href="https://www.cyberghostvpn.com" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('CyberGhost VPN')); ?></a></li>
 <li><a href="https://windscribe.com" target="_blank" rel="noopener noreferrer"><?php echo htmlspecialchars(_('Windscribe VPN')); ?></a></li>

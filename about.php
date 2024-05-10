@@ -65,6 +65,7 @@ global $language, $dir, $locale;
 <li><?php printf(htmlspecialchars(_('%s - (Used for my clearnet gateway) - good and reliable')), '<a href="https://hetzner.cloud/?ref=OXqb8WQ8yeXu" target="_blank" rel="noopener noreferrer">Hetzner</a>'); ?></li>
 <li><?php printf(htmlspecialchars(_('%s - (Used for my clearnet gateway + Domain registration) - good and reliable, hosted in my city')), '<a href="https://hosting.de/?partnerId=JZ0DZSUdrJUVJTKoHq7l" target="_blank" rel="noopener noreferrer">Hosting.de</a>'); ?></li>
 <li><?php echo htmlspecialchars(_('Home hosted: 4 Raspberry Pi 4 with the main site and data')); ?></li>
+<li><a href="https://clientarea.space-hosting.net/aff.php?aff=333" target="_blank" rel="noopener noreferrer">Space Hosting</a></li>
 </ul>
 <a href="assets/servers.jpg" target="_blank">
 <picture>
