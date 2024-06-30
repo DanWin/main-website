@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 18:37+0200\n"
+"POT-Creation-Date: 2024-06-30 19:15+0200\n"
 "PO-Revision-Date: 2023-05-06 15:26+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
@@ -442,13 +442,13 @@ msgstr ""
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Evde barındırılan: Ana site ve verilerle birlikte 4 Raspberry Pi 4"
 
-#: about.php:73
+#: about.php:74
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
 
-#: about.php:76
+#: about.php:77
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -461,14 +461,14 @@ msgid ""
 "into modern DTMF."
 msgstr ""
 
-#: about.php:77
+#: about.php:78
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
 
-#: about.php:78
+#: about.php:79
 #, fuzzy, php-format
 #| msgid ""
 #| "The clearnet gateways on <a href=\"https://danwin1210.de\" "
@@ -486,11 +486,11 @@ msgstr ""
 "iletecek bir NginX Proxy'sidir. Ek olarak, postaları clearnet'e göndermek "
 "için yalnızca VPN ağını dinleyen bir Postfix örneği çalıştırırlar."
 
-#: about.php:79
+#: about.php:80
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Tüm sunucular bir Wireguard VPN ile birbirine bağlıdır."
 
-#: about.php:80
+#: about.php:81
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -1565,6 +1565,18 @@ msgid "3. Collection of general data and information"
 msgstr "3. Genel veri ve bilgilerin toplanması"
 
 #: privacy.php:46
+#, fuzzy
+#| msgid ""
+#| "The server of Daniel Winzen collects a series of general data and "
+#| "information when a data subject or automated system calls up the website "
+#| "or other provided services. This general data and information is stored "
+#| "in the server log files. Collected may be (1) the browser types and "
+#| "versions used, (2) the operating system used by the accessing system, (3) "
+#| "the website from which an accessing system reaches my website (so-called "
+#| "referrers), (4) the sub-websites, (5) the date and time of access to the "
+#| "Internet site / email transmission, (6) sender and recipient of an email, "
+#| "and (7) any other similar data and information that may be used in the "
+#| "event of attacks on my information technology systems."
 msgid ""
 "The server of Daniel Winzen collects a series of general data and "
 "information when a data subject or automated system calls up the website or "
@@ -1573,9 +1585,9 @@ msgid ""
 "(2) the operating system used by the accessing system, (3) the website from "
 "which an accessing system reaches my website (so-called referrers), (4) the "
 "sub-websites, (5) the date and time of access to the Internet site / email "
-"transmission, (6) sender and recipient of an email, and (7) any other "
-"similar data and information that may be used in the event of attacks on my "
-"information technology systems."
+"transmission, (6) sender and recipient of an email, (7) IP address, and (8) "
+"any other similar data and information that may be used in the event of "
+"attacks on my information technology systems."
 msgstr ""
 "Daniel Winzen sunucusu, bir veri sahibi veya otomatik sistem web sitesini "
 "veya sağlanan diğer hizmetleri çağırdığında bir dizi genel veri ve bilgi "
@@ -2535,27 +2547,27 @@ msgid "For everyone else, here are some recommended VPN providers:"
 msgstr ""
 
 #: blog/vpn/index.php:94
-msgid "Hide.Me VPN"
+msgid "NordVPN"
 msgstr ""
 
 #: blog/vpn/index.php:95
-msgid "Mozilla VPN"
-msgstr ""
-
-#: blog/vpn/index.php:96
-msgid "Mullvad VPN"
-msgstr ""
-
-#: blog/vpn/index.php:97
 msgid "Proton VPN"
 msgstr ""
 
+#: blog/vpn/index.php:96
+msgid "Hide.Me VPN"
+msgstr ""
+
+#: blog/vpn/index.php:97
+msgid "Mozilla VPN"
+msgstr ""
+
 #: blog/vpn/index.php:98
-msgid "ExpressVPN"
+msgid "Mullvad VPN"
 msgstr ""
 
 #: blog/vpn/index.php:99
-msgid "NordVPN"
+msgid "ExpressVPN"
 msgstr ""
 
 #: blog/vpn/index.php:100

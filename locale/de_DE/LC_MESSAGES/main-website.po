@@ -4,18 +4,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: unnamed project\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-01 18:37+0200\n"
-"PO-Revision-Date: 2024-02-22 12:17+0000\n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
+"POT-Creation-Date: 2024-06-30 19:15+0200\n"
+"PO-Revision-Date: 2024-06-30 17:16+0000\n"
 "Last-Translator: Weblate Admin <daniel@danwin1210.de>\n"
-"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/de/>\n"
+"Language-Team: German <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/de/>\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4.1\n"
+"X-Generator: Weblate 5.5.5\n"
 "X-Poedit-Basepath: .\n"
 
 #: imprint.php:6 imprint.php:15
@@ -436,7 +436,7 @@ msgstr ""
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Zu Hause gehosted: 4 Raspberry Pi 4 mit der Hauptseite und den Daten"
 
-#: about.php:73
+#: about.php:74
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
@@ -444,7 +444,7 @@ msgstr ""
 "Ein kleines Netzwerk-Rack mit 4 Raspberry Pis darin, ein WLAN Router darauf "
 "und ein Telefon daneben"
 
-#: about.php:76
+#: about.php:77
 msgid ""
 "In the image on the left, you can see my current home server setup. I have 4 "
 "Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
@@ -467,7 +467,7 @@ msgstr ""
 "mehr unterstützt, musste ich einen Konverter kaufen, um Pulssignale in "
 "moderne DTMF Signale zu übersetzen."
 
-#: about.php:77
+#: about.php:78
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
@@ -477,7 +477,7 @@ msgstr ""
 "Servern zu teilen, habe ich einen CephFS für verteilte und redundante "
 "Dateispeicher sowie einen MariaDB Galera Cluster eingesetzt."
 
-#: about.php:78
+#: about.php:79
 #, php-format
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
@@ -489,11 +489,11 @@ msgstr ""
 "Instanz, die nur auf dem VPN Netzwerk erreichbar ist, um Mails an das "
 "clearnet zu senden."
 
-#: about.php:79
+#: about.php:80
 msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Alle Server sind per Wireguard VPN miteinander verbunden."
 
-#: about.php:80
+#: about.php:81
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
@@ -1488,9 +1488,9 @@ msgid ""
 "(2) the operating system used by the accessing system, (3) the website from "
 "which an accessing system reaches my website (so-called referrers), (4) the "
 "sub-websites, (5) the date and time of access to the Internet site / email "
-"transmission, (6) sender and recipient of an email, and (7) any other "
-"similar data and information that may be used in the event of attacks on my "
-"information technology systems."
+"transmission, (6) sender and recipient of an email, (7) IP address, and (8) "
+"any other similar data and information that may be used in the event of "
+"attacks on my information technology systems."
 msgstr ""
 "Der Server von Daniel Winzen erfasst mit jedem Aufruf der Website oder "
 "anderer bereitgestellter Dienste durch eine betroffene Person oder ein "
@@ -1498,11 +1498,12 @@ msgstr ""
 "Diese allgemeinen Daten und Informationen werden in den Server-Logfiles "
 "gespeichert. Erfasst werden können (1) die verwendeten Browsertypen und -"
 "versionen, (2) das vom zugreifenden System verwendete Betriebssystem, (3) "
-"die Website, von der ein zugreifendes System auf meine Website gelangt "
-"(sogenannte Referrer), (4) die sub -Websites, (5) Datum und Uhrzeit des "
+"die Website, von der ein zugreifendes System auf meine Website gelangt ("
+"sogenannte Referrer), (4) die sub -Websites, (5) Datum und Uhrzeit des "
 "Zugriffs auf die Internetseite / E-Mail-Versand, (6) Absender und Empfänger "
-"einer E-Mail und (7) sonstige ähnliche Daten und Informationen, die im Falle "
-"von Angriffen auf meine IT-Systeme verwendet werden können."
+"einer E-Mail, (7) IP-Adresse und (8) sonstige ähnliche Daten und "
+"Informationen, die im Falle von Angriffen auf meine IT-Systeme verwendet "
+"werden können."
 
 #: privacy.php:47
 msgid ""
@@ -2304,10 +2305,8 @@ msgstr ""
 
 #: blog/index.php:31 blog/cluster/index.php:6 blog/cluster/index.php:21
 #: blog/cluster/index.php:31 blog/cluster/index.php:33
-#, fuzzy
-#| msgid "About the setup"
 msgid "Cluster setup"
-msgstr "Über das Setup"
+msgstr "Cluster Setup"
 
 #: blog/index.php:32
 msgid "January 2024"
@@ -2713,28 +2712,28 @@ msgid "For everyone else, here are some recommended VPN providers:"
 msgstr "Für alle anderen hier einige empfohlene VPN-Anbieter:"
 
 #: blog/vpn/index.php:94
-msgid "Hide.Me VPN"
-msgstr "Hide.Me VPN"
+msgid "NordVPN"
+msgstr "NordVPN"
 
 #: blog/vpn/index.php:95
-msgid "Mozilla VPN"
-msgstr "Mozilla VPN"
-
-#: blog/vpn/index.php:96
-msgid "Mullvad VPN"
-msgstr "Mullvad VPN"
-
-#: blog/vpn/index.php:97
 msgid "Proton VPN"
 msgstr "Proton VPN"
 
+#: blog/vpn/index.php:96
+msgid "Hide.Me VPN"
+msgstr "Hide.Me VPN"
+
+#: blog/vpn/index.php:97
+msgid "Mozilla VPN"
+msgstr "Mozilla VPN"
+
 #: blog/vpn/index.php:98
-msgid "ExpressVPN"
-msgstr "ExpressVPN"
+msgid "Mullvad VPN"
+msgstr "Mullvad VPN"
 
 #: blog/vpn/index.php:99
-msgid "NordVPN"
-msgstr "NordVPN"
+msgid "ExpressVPN"
+msgstr "ExpressVPN"
 
 #: blog/vpn/index.php:100
 msgid "Surfshark"
@@ -2867,10 +2866,8 @@ msgid ""
 msgstr ""
 
 #: blog/cluster/index.php:55
-#, fuzzy
-#| msgid "Connection optimizations"
 msgid "Performance optimizations"
-msgstr "Verbindungsoptimierungen"
+msgstr "Performance-Optimierungen"
 
 #: blog/cluster/index.php:56
 msgid ""
