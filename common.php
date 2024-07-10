@@ -109,25 +109,16 @@ function menu(string $title = ''): void
 	echo '<details id="menu">';
 	echo '<summary class="burger_nav" aria-label="'.htmlspecialchars(_('Toggle navigation')).'" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary>';
 	echo '<nav>';
-	if(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.de$/', $_SERVER['HTTP_HOST'])){
-		$host='https://danwin1210.de';
-	}elseif(isset($_SERVER['HTTP_HOST']) && preg_match('/\.onion$/', $_SERVER['HTTP_HOST'])){
-		$host='http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion';
-	}elseif(isset($_SERVER['HTTP_HOST']) && preg_match('/danwin1210\.i2p$/', $_SERVER['HTTP_HOST'])){
-		$host='http://danwin1210.i2p';
-	}else{
-		$host='http://edk3pz64esvpy6bqpjtlqat3h7unwzxmvrrhjeg2ab43d6zfkzpa.b32.i2p';
-	}
-	echo "<a href=\"$host/\">".htmlspecialchars(_('Home')).'</a>';
-	echo "<a href=\"$host/blog/\">".htmlspecialchars(_('Blog and news')).'</a>';
-	echo "<a href=\"$host/mail/\">".htmlspecialchars(_('E-Mail + XMPP')).'</a>';
-	echo "<a href=\"$host/tutorials/\">".htmlspecialchars(_('Tutorials')).'</a>';
-	echo "<a href=\"$host/github-ipv6-proxy.php\">".htmlspecialchars(_('GitHub IPv6 proxy')).'</a>';
-	echo "<a href=\"$host/faq.php\">".htmlspecialchars(_('FAQ')).'</a>';
-	echo "<a href=\"$host/about.php\">".htmlspecialchars(_('About')).'</a>';
-	echo "<a href=\"$host/contact.php\">".htmlspecialchars(_('Contact')).'</a>';
-	echo "<a href=\"$host/privacy.php\">".htmlspecialchars(_('Privacy')).'</a>';
-	echo "<a href=\"$host/imprint.php\">".htmlspecialchars(_('Imprint')).'</a>';
+	echo "<a href=\"/\">".htmlspecialchars(_('Home')).'</a>';
+	echo "<a href=\"/blog/\">".htmlspecialchars(_('Blog and news')).'</a>';
+	echo "<a href=\"/mail/\">".htmlspecialchars(_('E-Mail + XMPP')).'</a>';
+	echo "<a href=\"/tutorials/\">".htmlspecialchars(_('Tutorials')).'</a>';
+	echo "<a href=\"/github-ipv6-proxy.php\">".htmlspecialchars(_('GitHub IPv6 proxy')).'</a>';
+	echo "<a href=\"/faq.php\">".htmlspecialchars(_('FAQ')).'</a>';
+	echo "<a href=\"/about.php\">".htmlspecialchars(_('About')).'</a>';
+	echo "<a href=\"/contact.php\">".htmlspecialchars(_('Contact')).'</a>';
+	echo "<a href=\"/privacy.php\">".htmlspecialchars(_('Privacy')).'</a>';
+	echo "<a href=\"/imprint.php\">".htmlspecialchars(_('Imprint')).'</a>';
 	echo '</nav>';
 	echo '</details>';
 	echo '<details id="language">';
