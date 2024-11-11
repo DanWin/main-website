@@ -6,26 +6,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-06-30 19:15+0200\n"
-"PO-Revision-Date: 2023-05-06 15:26+0000\n"
+"PO-Revision-Date: 2024-11-11 21:48+0000\n"
 "Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
-"Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/main-"
-"website/tr/>\n"
-"Language: tr\n"
+"Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/tr/>\n"
+"Language: tr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.8.3\n"
 
 #: imprint.php:6 imprint.php:15
 msgid "Daniel - Imprint"
-msgstr "Daniel - Künye"
+msgstr "Daniel - Şartlar"
 
 #: imprint.php:10 imprint.php:16
 msgid "Imprint of Daniel Winzen"
-msgstr "Daniel Winzen'in Künyesi"
+msgstr "Daniel Winzen'in Dünyası"
 
 #: imprint.php:21 index.php:21 about.php:23 about.php:35
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
@@ -52,11 +52,11 @@ msgstr "Daniel Winzen'i temsil eden bir avatar"
 #: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
 #: tutorials/content-creation/index.php:30 tutorials/findom/index.php:30
 msgid "Daniel"
-msgstr "Daniel Win"
+msgstr "Daniel"
 
 #: imprint.php:27 common.php:130
 msgid "Imprint"
-msgstr "Künye"
+msgstr "Şartlar"
 
 #: imprint.php:33 privacy.php:35
 #, php-format
@@ -104,7 +104,7 @@ msgstr ""
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
-msgstr "Daniel - Ev"
+msgstr "Daniel - Ana Sayfa"
 
 #: index.php:10 index.php:16
 msgid ""
@@ -116,7 +116,7 @@ msgstr ""
 
 #: index.php:27 common.php:121
 msgid "Home"
-msgstr "Ev"
+msgstr "Ana Sayfa"
 
 #: index.php:28
 #, php-format
@@ -129,10 +129,17 @@ msgid ""
 "and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
 "find my open-source projects on %4$s."
 msgstr ""
+"Merhaba! Ben Daniel Winzen, oldukça yetenekli bir Alman web geliştiricisi ve "
+"sistem yöneticisiyim. Programlama, sunucu yönetimi ve siber güvenliğe olan "
+"derin tutkumla ihtiyaçlarınıza göre uyarlanmış çok çeşitli hizmetler "
+"sunuyorum. Kapsamlı deneyimim ve uzmanlığım, yeni zorluklara hızla uyum "
+"sağlamamı ve her proje için birinci sınıf çözümler sağlamamı sağlıyor. "
+"Ücretsiz ve anonim %1$s, %2$s sunuyorum ve %3$s ile de ilgilenebilirsiniz. "
+"Açık kaynaklı projelerimi %4$s adresinde bulabilirsiniz."
 
 #: index.php:28
 msgid "mail service"
-msgstr ""
+msgstr "E-mail Hizmeti"
 
 #: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
 #: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:125
@@ -156,6 +163,14 @@ msgid ""
 "optimization is very important to me, and I can help you improve your "
 "website's loading speed and performance."
 msgstr ""
+"PHP, SQL ve JavaScript'te web uygulamaları geliştirme konusunda uzmanım. "
+"İster bir WordPress web sitesine, ister özel bir PHP uygulamasına veya başka "
+"bir web projesine ihtiyacınız olsun, fikirlerinizi hayata geçirme "
+"becerilerim var. WooCommerce, API bağlayıcıları ve özel eklentiler dahil "
+"olmak üzere WordPress geliştirmede mükemmelim ve diğer hizmetlerinizle "
+"sorunsuz entegrasyon sağlıyorum. Performans optimizasyonu benim için çok "
+"önemlidir ve web sitenizin yükleme hızını ve performansını iyileştirmenize "
+"yardımcı olabilirim."
 
 #: index.php:30
 msgid ""
@@ -167,6 +182,13 @@ msgid ""
 "up firewalls, VPNs, routers, and other security measures to protect your "
 "data from unauthorized access."
 msgstr ""
+"Linux sunucularını, web barındırmalarını ve e-posta hizmetlerini yönetmek "
+"benim uzmanlık alanımdır. Çeşitli barındırma sağlayıcılarıyla deneyimim var "
+"ve Plesk ve WHMCS gibi barındırma panelleriyle çalışmada yetenekliyim. İş "
+"ağı altyapınızı yapılandırmanıza yardımcı olabilir ve optimum performans ve "
+"güvenliği sağlayabilirim, böylece işinizi yürütmeye odaklanabilirsiniz. "
+"Buna, verilerinizi yetkisiz erişimden korumak için güvenlik duvarları, "
+"VPN'ler, yönlendiriciler ve diğer güvenlik önlemlerini kurmak dahildir."
 
 #: index.php:31
 #, php-format
@@ -181,10 +203,20 @@ msgid ""
 "management, and more. I can also help you with incident response and "
 "recovery after a security breach."
 msgstr ""
+"Ben %1$s'im ve siber güvenlik tehditleri konusunda derin bir anlayışa "
+"sahibim. Sürekli öğrenmem ve siber güvenliğe olan tutkum, çevrimiçi "
+"ortamları etkili bir şekilde koruma yeteneğimde etkili oldu. En son "
+"tehditlerin önünde kalmak için becerilerimi ve bilgilerimi sürekli olarak "
+"geliştiriyorum. Sistemlerinizi ve verilerinizi olası tehditlerden korumak "
+"için kapsamlı siber güvenlik çözümleri sunuyorum. Buna güvenlik duvarları, "
+"anti-virüs yazılımı, yedeklemeler, parola yönetimi ve daha fazlası gibi hem "
+"fiziksel hem de dijital güvenlik önlemleri dahildir. Ayrıca bir güvenlik "
+"ihlali sonrasında olay müdahalesi ve kurtarma konusunda da size yardımcı "
+"olabilirim."
 
 #: index.php:31 about.php:41
 msgid "Certified in Cybersecurity"
-msgstr ""
+msgstr "Siber Güvenlikte Sertifikalı"
 
 #: index.php:32
 #, php-format
@@ -192,21 +224,22 @@ msgid ""
 "I'd be happy to answer any questions you may have and look forward to "
 "working with you. %1$s to discuss your project and turn your vision to life!"
 msgstr ""
+"Herhangi bir sorunuz varsa cevaplamaktan mutluluk duyarım ve sizinle "
+"çalışmayı dört gözle bekliyorum. Projenizi tartışmak ve vizyonunuzu hayata "
+"geçirmek için %1$s!"
 
 #: index.php:32
 msgid "Get in touch with me"
-msgstr ""
+msgstr "Benimle iletişime geçin"
 
 #: index.php:33
 #, php-format
 msgid "To learn more about me, check out my %1$s,"
-msgstr ""
+msgstr "Hakkımda daha fazla bilgi edinmek için %1$s'ı inceleyin"
 
 #: index.php:33
-#, fuzzy
-#| msgid "About me"
 msgid "About page"
-msgstr "Benim hakkımda"
+msgstr "Hakkımda Sayfamı"
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
@@ -222,11 +255,11 @@ msgstr ""
 
 #: about.php:29 common.php:127
 msgid "About"
-msgstr "Hakkında"
+msgstr "Hakkımda"
 
 #: about.php:30
 msgid "About me"
-msgstr "Benim hakkımda"
+msgstr "Benim Hakkımda"
 
 #: about.php:38
 #, fuzzy
@@ -287,25 +320,18 @@ msgid ""
 msgstr ""
 
 #: about.php:42
-#, fuzzy, php-format
-#| msgid ""
-#| "Managing servers, email services and developing new web projects is what "
-#| "I thrive on. I like optimizing systems for performance and getting the "
-#| "best out of what I have. Do you need help with managing and optimizing "
-#| "your infrastructure or website? I'm here to help. <a href=\"/contact."
-#| "php\">Get in touch</a> and we'll discuss details."
+#, php-format
 msgid ""
 "Managing servers and email services and developing new web projects is what "
 "I thrive on. I like optimizing systems for performance and getting the best "
 "out of what I have. Do you need help with managing and optimizing your "
 "infrastructure or website? %s."
 msgstr ""
-"Sunucuları, e-posta hizmetlerini yönetmek ve yeni web projeleri geliştirmek, "
-"başarılı olduğum şeyler. Sistemleri performans için optimize etmeyi ve sahip "
-"olduklarımdan en iyi şekilde yararlanmayı seviyorum. Altyapınızı veya web "
-"sitenizi yönetme ve optimize etme konusunda yardıma mı ihtiyacınız var? "
-"Yardım etmek için buradayım. <a href=\"/contact.php\">İletişime geçin</a>, "
-"ayrıntıları görüşelim."
+"Sunucuları ve e-posta hizmetlerini yönetmek ve yeni web projeleri "
+"geliştirmek benim için çok önemli. Sistemleri performans açısından optimize "
+"etmeyi ve sahip olduğum şeylerden en iyi şekilde yararlanmayı seviyorum. "
+"Altyapınızı veya web sitenizi yönetme ve optimize etme konusunda yardıma mı "
+"ihtiyacınız var? %s."
 
 #: about.php:42
 msgid "I'm available for hire"
@@ -335,46 +361,30 @@ msgstr ""
 "platforma sahip olmak istediğimde başladım."
 
 #: about.php:57
-#, fuzzy, php-format
-#| msgid ""
-#| "Quickly the idea of using a chat at school came up and I came across a "
-#| "simple perl chat script called <a href=\"https://github.com/virtualghetto/"
-#| "lechat\" target=\"_blank\" rel=\"noopener noreferrer\">LE-CHAT</a>. When "
-#| "I deployed that on my Raspberry Pi it was running very slowly and wasn't "
-#| "really usable for use with several people. So I decided to port some "
-#| "parts I needed to PHP."
+#, php-format
 msgid ""
 "Quickly the idea of using a chat at school came up, and I came across a "
 "simple Perl chat script called %s. When I deployed that on my Raspberry Pi, "
 "it was running very slowly and wasn't usable for use by several people. So I "
 "decided to port some parts I needed to PHP."
 msgstr ""
-"Okulda sohbet kullanma fikri hemen aklıma geldi ve <a href=\"https://github."
-"com/virtualghetto/lechat\" target=\"_blank\" rel=\"noopener noreferrer\"> "
-"adında basit bir perl sohbet komut dosyasıyla karşılaştım. SOHBET</a>. Bunu "
-"Raspberry Pi'me yerleştirdiğimde çok yavaş çalışıyordu ve birkaç kişiyle "
-"kullanım için gerçekten uygun değildi. Bu yüzden ihtiyacım olan bazı "
-"parçaları PHP'ye taşımaya karar verdim."
+"Okulda bir sohbet kullanma fikri hemen aklıma geldi ve %s adında basit bir "
+"Perl sohbet betiğiyle karşılaştım. Bunu Raspberry Pi'me yerleştirdiğimde çok "
+"yavaş çalışıyordu ve birkaç kişi tarafından kullanılamıyordu. Bu yüzden "
+"ihtiyacım olan bazı parçaları PHP'ye taşımaya karar verdim."
 
 #: about.php:58
-#, fuzzy, php-format
-#| msgid ""
-#| "This has been the start for me to get deeper into web-development and I "
-#| "have since open-sourced that chat script and several other scripts of "
-#| "this site on my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-#| "rel=\"noopener noreferrer\">GitHub account</a>. Since then, I have added "
-#| "many new features and improved reliability and my code a lot."
+#, php-format
 msgid ""
 "This has been the start for me to get deeper into web development and I have "
 "since open-sourced that chat script and several other scripts of this site "
 "on my %s account. Since then, I have added many new features and improved "
 "reliability and my code a lot."
 msgstr ""
-"Bu, web geliştirme konusunda daha derinleşmem için bir başlangıç oldu ve o "
-"zamandan beri bu sohbet komut dosyasını ve bu sitenin diğer birkaç komut "
-"dosyasını <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">GitHub hesabı</a>. O zamandan beri birçok yeni "
-"özellik ekledim ve güvenilirliği ve kodumu çok geliştirdim."
+"Bu, web geliştirmede daha derinlere inmem için bir başlangıç oldu ve o "
+"zamandan beri bu sohbet betiğini ve bu sitenin diğer birkaç betiğini %s "
+"hesabımda açık kaynaklı hale getirdim. O zamandan beri birçok yeni özellik "
+"ekledim ve güvenilirliği ve kodumu çok geliştirdim."
 
 #: about.php:59
 #, fuzzy
@@ -407,12 +417,12 @@ msgstr ""
 "Kullandığım(ed) barındırma sağlayıcıları ve burada barındırılan sunucular:"
 
 #: about.php:63
-#, fuzzy, php-format
-#| msgid "%s - good for short-term and/or low-bandwidth projects"
+#, php-format
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
 msgstr ""
-"%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyi"
+"%s - kısa vadeli ve/veya düşük bant genişliğine sahip projeler için iyidir. "
+"Ayrıca %s sunarlar"
 
 #: about.php:63
 msgid "Free Tier Program for businesses"
@@ -469,22 +479,15 @@ msgid ""
 msgstr ""
 
 #: about.php:79
-#, fuzzy, php-format
-#| msgid ""
-#| "The clearnet gateways on <a href=\"https://danwin1210.de\" "
-#| "target=\"_blank\">danwin1210.de</a> are an NginX Proxy that will forward "
-#| "all requests to the raspberry pis at home. Additionally, they run a "
-#| "Postfix instance only listening on the VPN network to send out mails to "
-#| "clearnet."
+#, php-format
 msgid ""
 "The clearnet gateways on %s are an NginX Proxy that will forward all "
 "requests to the Raspberry Pis at home. Additionally, they run a Postfix "
 "instance only listening on the VPN network to send emails to clearnet."
 msgstr ""
-"<a href=\"https://danwin1210.de\" target=\"_blank\">danwin1210.de</a> "
-"üzerindeki clearnet ağ geçitleri, tüm istekleri evdeki raspberry pis'e "
-"iletecek bir NginX Proxy'sidir. Ek olarak, postaları clearnet'e göndermek "
-"için yalnızca VPN ağını dinleyen bir Postfix örneği çalıştırırlar."
+"%s üzerindeki clearnet ağ geçitleri, tüm istekleri evdeki Raspberry Pi'lere "
+"iletecek bir NginX Proxy'sidir. Ek olarak, yalnızca VPN ağını dinleyen ve "
+"clearnet'e e-postalar gönderen bir Postfix örneği çalıştırırlar."
 
 #: about.php:80
 msgid "All servers are interconnected with a Wireguard VPN."
@@ -505,23 +508,15 @@ msgstr ""
 "indirilmesine izin verir"
 
 #: github-ipv6-proxy.php:34
-#, fuzzy, php-format
-#| msgid ""
-#| "Recently I had to clone a git repository on GitHub via an IPv6 only "
-#| "server that I rented at my favourite hosting provider %s. Unfortunately I "
-#| "realized that GitHub still <a href=\"https://github.com/orgs/community/"
-#| "discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">does "
-#| "not support IPv6</a>."
+#, php-format
 msgid ""
 "Recently I had to clone a git repository on GitHub via an IPv6 only server "
 "that I rented at my favourite hosting provider %1$s. Unfortunately I "
 "realized that GitHub still %2$s."
 msgstr ""
-"Son zamanlarda, favori barındırma sağlayıcım %s'den kiraladığım yalnızca "
-"IPv6 sunucusu aracılığıyla GitHub'da bir git deposunu klonlamak zorunda "
-"kaldım. Maalesef GitHub'ın hala <a href=\"https://github.com/orgs/community/"
-"discussions/10539\" target=\"_blank\" rel=\"noopener noreferrer\">IPv6'yı "
-"desteklemediğini</a> fark ettim."
+"Yakın zamanda favori barındırma sağlayıcım %1$s'de kiraladığım IPv6'ya özel "
+"bir sunucu üzerinden GitHub'da bir git deposunu klonlamak zorunda kaldım. Ne "
+"yazık ki GitHub'ın hala %2$s olduğunu fark ettim."
 
 #: github-ipv6-proxy.php:34
 msgid "does not support IPv6"
@@ -618,10 +613,8 @@ msgstr ""
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
 #: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
 #: blog/dane/index.php:74
-#, fuzzy
-#| msgid "Contact"
 msgid "contact me"
-msgstr "İletişim"
+msgstr "bana ulaşın"
 
 #: contact.php:6 contact.php:15
 msgid "Daniel - Contact"
@@ -669,8 +662,6 @@ msgid "I have read and agreed to the %s"
 msgstr ""
 
 #: contact.php:43
-#, fuzzy
-#| msgid "Privacy policy"
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikası"
 
@@ -691,28 +682,20 @@ msgid "Message successfully sent!"
 msgstr "Mesaj başarıyla iletildi!"
 
 #: contact.php:82
-#, fuzzy, php-format
-#| msgid ""
-#| "If you want to encrypt your message, you can use <a href=\"/pgp.txt\" "
-#| "target=\"_blank\">my public PGP key</a>."
+#, php-format
 msgid "If you want to encrypt your message, you can use %s."
-msgstr ""
-"Mesajınızı şifrelemek istiyorsanız <a href=\"/pgp.txt\" "
-"target=\"_blank\">genel PGP anahtarımı</a> kullanabilirsiniz."
+msgstr "Mesajınızı şifrelemek istiyorsanız %s kullanabilirsiniz."
 
 #: contact.php:82
 msgid "my public PGP key"
 msgstr ""
 
 #: contact.php:83
-#, fuzzy, php-format
-#| msgid ""
-#| "If you prefer to directly get in contact with me, email me at <a "
-#| "href=\"mailto:daniel@danwin1210.de\">daniel@danwin1210.de</a>."
+#, php-format
 msgid "If you prefer to directly get in contact with me, email me at %s."
 msgstr ""
-"Benimle doğrudan iletişime geçmeyi tercih ederseniz, bana <a href=\"mailto:"
-"daniel@danwin1210.de\">daniel@danwin1210.de</a> adresinden e-posta gönderin."
+"Eğer benimle doğrudan iletişime geçmeyi tercih ederseniz, bana %s adresinden "
+"e-posta gönderebilirsiniz."
 
 #: faq.php:6 faq.php:14
 msgid "Daniel - FAQ - Frequently Asked Questions"
@@ -786,18 +769,13 @@ msgstr ""
 "yapabilirim?"
 
 #: faq.php:42
-#, fuzzy, php-format
-#| msgid ""
-#| "Please see my <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-#| "rel=\"noopener noreferrer\">GitHub repositories</a> and check out the "
-#| "individual projects you would like to translate."
+#, php-format
 msgid ""
 "Please see my %s and check out the individual projects you would like to "
 "translate."
 msgstr ""
-"Lütfen <a href=\"https://github.com/DanWin/\" target=\"_blank\" "
-"rel=\"noopener noreferrer\">GitHub depolarıma</a> bakın ve çevirmek "
-"istediğiniz projeleri tek tek inceleyin."
+"Lütfen %s dosyamı inceleyin ve çevirmek istediğiniz bireysel projeleri "
+"kontrol edin."
 
 #: faq.php:42
 msgid "GitHub repositories"
@@ -884,16 +862,7 @@ msgid "Can you hold my hands and teach me programming or hacking step by step?"
 msgstr "Bana programlama veya bilgisayar korsanlığı öğretebilir misin?"
 
 #: faq.php:62
-#, fuzzy, php-format
-#| msgid ""
-#| "Joking aside, Teaching you programming or hacking is a task that will "
-#| "take a long time (years). I've been learning for 10 years and still learn "
-#| "new things all the time. But for the beginning I would recommend reading "
-#| "a beginners introduction book, which can guide you with some simple "
-#| "programs you build yourself and examples. If you prefer watching videos, "
-#| "there are a lot of tutorials on YouTube too. But most importantly you "
-#| "will have to take your keyboard and start typing some programs. Start "
-#| "with something simple and keep yourself challenged with new tasks."
+#, php-format
 msgid ""
 "Teaching you programming or hacking is a task that will take a long time "
 "(years). I've been learning for 10 years and still learn new things all the "
@@ -906,14 +875,16 @@ msgid ""
 "professional course on a platform like %s or %s. Good places to start "
 "learning about hacking are %s, %s or %s."
 msgstr ""
-"Şaka bir yana, size programlama veya bilgisayar korsanlığı öğretmek uzun "
-"zaman (yıllar) alacak bir iştir. 10 yıldır öğreniyorum ve hala her zaman "
-"yeni şeyler öğreniyorum. Ancak başlangıç için, kendi oluşturduğunuz bazı "
-"basit programlar ve örneklerle size rehberlik edebilecek bir başlangıç "
-"kitabı okumanızı tavsiye ederim. Video izlemeyi tercih ediyorsanız, "
-"YouTube'da da pek çok öğretici var. Ama en önemlisi klavyenizi alıp bazı "
-"programları yazmaya başlamanız gerekecek. Basit bir şeyle başlayın ve yeni "
-"görevlerle kendinizi zorlamaya devam edin."
+"Size programlama veya hackleme öğretmek uzun zaman (yıllar) alacak bir "
+"görevdir. 10 yıldır öğreniyorum ve hala sürekli yeni şeyler öğreniyorum. "
+"Ancak başlangıç için, kendiniz oluşturduğunuz bazı basit programlar ve "
+"örneklerle size rehberlik edebilecek bir başlangıç seviyesi giriş kitabı "
+"okumanızı öneririm. Video izlemeyi tercih ediyorsanız, YouTube'de birçok "
+"öğretici var. Ancak en önemlisi, klavyenizi alıp bazı programlar yazmaya "
+"başlamanız gerekecek. Basit bir şeyle başlayın ve kendinizi yeni görevlerle "
+"zorlayın. Ayrıca %s veya %s gibi bir platformda profesyonel bir kursa "
+"kaydolabilirsiniz. Hackleme hakkında öğrenmeye başlamak için iyi yerler %s, "
+"%s veya %s'dir."
 
 #: faq.php:62 tutorials/content-creation/index.php:60
 msgid "Coursera"
@@ -1127,7 +1098,7 @@ msgstr ""
 
 #: faq.php:98 privacy.php:65
 msgid "PGP key"
-msgstr ""
+msgstr "Özel Anahtar"
 
 #: faq.php:101
 msgid "I have more Questions."
@@ -1263,20 +1234,14 @@ msgstr ""
 "yapmak için e-postanızdaki bir bağlantıya tıklayın."
 
 #: new-domain.php:37
-#, fuzzy, php-format
-#| msgid ""
-#| "E-Mail users should also update their PGP key <a href=\"/mail/"
-#| "manage_account.php\" target=\"_blank\">in their account settings</a> to "
-#| "reflect the new domain and allow WKD clients to grab your key "
-#| "automatically."
+#, php-format
 msgid ""
 "E-Mail users should also update their PGP key %s to reflect the new domain "
 "and allow WKD clients to grab your key automatically."
 msgstr ""
-"E-posta kullanıcıları, yeni etki alanını yansıtmak ve WKD istemcilerinin "
-"anahtarınızı otomatik olarak almasına izin vermek için PGP anahtarlarını <a "
-"href=\"/mail/manage_account.php\" target=\"_blank\">hesap ayarlarında</a> "
-"güncellemelidir. ."
+"E-posta kullanıcıları ayrıca yeni etki alanını yansıtmak ve WKD "
+"istemcilerinin anahtarınızı otomatik olarak alabilmesini sağlamak için PGP "
+"anahtarlarını %s güncellemelidir."
 
 #: new-domain.php:37
 #, fuzzy
@@ -1315,20 +1280,13 @@ msgstr ""
 "sunucuları ele geçirmesi olabilir."
 
 #: new-domain.php:42
-#, fuzzy, php-format
-#| msgid ""
-#| "I have taken the opportunity to create a <a href=\"/pgp.txt\" "
-#| "target=\"_blank\">new PGP key</a> and signed it with my <a href=\"/"
-#| "old_pgp.txt\" target=\"_blank\">old PGP key</a>. This can be verified by "
-#| "running a command like this:"
+#, php-format
 msgid ""
 "I have taken the opportunity to create a %1$s and signed it with my %2$s. "
 "This can be verified by running a command like this:"
 msgstr ""
-"<a href=\"/pgp.txt\" target=\"_blank\">yeni bir PGP anahtarı</a> oluşturma "
-"fırsatını yakaladım ve <a href=\"/old_pgp.txt\" target=\"_blank ile "
-"imzaladım \">eski PGP anahtarı</a>. Bu, şöyle bir komut çalıştırılarak "
-"doğrulanabilir:"
+"Bir %1$s oluşturma ve onu %2$s'imle imzalama fırsatını yakaladım. Bu, şu "
+"şekilde bir komut çalıştırılarak doğrulanabilir:"
 
 #: new-domain.php:42
 msgid "new PGP key"
@@ -1339,21 +1297,15 @@ msgid "old PGP key"
 msgstr ""
 
 #: new-domain.php:44
-#, fuzzy, php-format
-#| msgid ""
-#| "It should show proof that it is signed by my old key "
-#| "<code>F8B8CFC35FBDB40D</code>. I have also included signatures of "
-#| "previous keys on my old key, so you can even verify the key, in case you "
-#| "have an older key I was using before."
+#, php-format
 msgid ""
 "It should show proof that it is signed by my old key %s. I have also "
 "included signatures of previous keys on my old key, so you can even verify "
 "the key, in case you have an older key I was using before."
 msgstr ""
-"Eski anahtarım <code>F8B8CFC35FBDB40D</code> tarafından imzalandığına dair "
-"kanıt göstermelidir. Eski anahtarıma önceki anahtarların imzalarını da "
-"ekledim, böylece daha önce kullandığım daha eski bir anahtarınız olması "
-"durumunda anahtarı doğrulayabilirsiniz."
+"Eski anahtarım %s tarafından imzalandığına dair kanıt göstermeli. Ayrıca "
+"eski anahtarıma önceki anahtarların imzalarını da ekledim, böylece daha önce "
+"kullandığım eski bir anahtarınız varsa anahtarı doğrulayabilirsiniz."
 
 #: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
 #: hosting/index.php:27
@@ -1365,47 +1317,19 @@ msgid "Daniel's Hosting - a former darknet web hosting service"
 msgstr "Daniel's Hosting - eski bir darknet web barındırma hizmeti"
 
 #: hosting/index.php:28
-#, fuzzy, php-format
-#| msgid ""
-#| "In March 2020 a hacker deleted all databases related to my hosting, thus "
-#| "I was forced to shut down my hosting service. If you want to contribute "
-#| "or setup your own hosting, check out my open source project at <a "
-#| "href=\"https://github.com/DanWin/hosting\" target=\"_blank\" "
-#| "rel=\"noopener\">https://github.com/DanWin/hosting</a>."
+#, php-format
 msgid ""
 "In March 2020 a hacker deleted all databases related to my hosting, thus I "
 "was forced to shut down my hosting service. If you want to contribute or "
 "setup your own hosting, check out my open source project at %s."
 msgstr ""
-"Mart 2020'de bir bilgisayar korsanı barındırma hizmetimle ilgili tüm "
-"veritabanlarını sildi, bu nedenle barındırma hizmetimi kapatmak zorunda "
-"kaldım. Katkıda bulunmak veya kendi barındırma hizmetinizi kurmak "
-"istiyorsanız, <a href=\"https://github.com/DanWin/hosting\" "
-"target=\"_blank\" rel=\"noopener\">https:// adresindeki açık kaynak projeme "
-"göz atın. github.com/DanWin/hosting</a>."
+"Mart 2020'de bir hacker hostingimle ilgili tüm veritabanlarını sildi, bu "
+"yüzden hosting hizmetimi kapatmak zorunda kaldım. Katkıda bulunmak veya "
+"kendi hostinginizi kurmak istiyorsanız, %s adresindeki açık kaynaklı projemi "
+"inceleyin."
 
 #: hosting/index.php:29
-#, fuzzy, php-format
-#| msgid ""
-#| "Being a darknet hoster has taught me many things. However, this was a "
-#| "free time project I did next to my full time job and it's very time-"
-#| "consuming to try and keep the server clean from illegal and scammy sites. "
-#| "I've spent 10 times more time on deleting accounts than I could find time "
-#| "to continue development. At this time I do not plan on continuing the "
-#| "hosting project, but this doesn't have to be the end. There are other "
-#| "hosting providers like <a href=\"http://"
-#| "hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
-#| "target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-#| "q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqizkpju36fwdyd.onion/\" "
-#| "target=\"_blank\" rel=\"noopener\">OneHost</a>, <a href=\"http://"
-#| "dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
-#| "target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> or a clearnet "
-#| "proxy service <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
-#| "rel=\"noopener\">Clearnet Onion | Easy clearnet relay</a> and my project "
-#| "is <a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
-#| "rel=\"noopener\">available for download</a>, which should enable anyone "
-#| "willing to become the next darknet shared hosting provider to start where "
-#| "I left of."
+#, php-format
 msgid ""
 "Being a darknet hoster has taught me many things. However, this was a free "
 "time project I did next to my full time job and it's very time-consuming to "
@@ -1417,25 +1341,15 @@ msgid ""
 "which should enable anyone willing to become the next darknet shared hosting "
 "provider to start where I left of."
 msgstr ""
-"Bir darknet barındırıcısı olmak bana birçok şey öğretti. Ancak bu, tam "
-"zamanlı işimin yanında yaptığım boş bir zaman projesiydi ve sunucuyu yasa "
-"dışı ve dolandırıcı sitelerden temiz tutmaya çalışmak çok zaman alıyor. "
-"Geliştirmeye devam etmek için ayırabileceğimden 10 kat daha fazlasını "
-"hesapları silmek için harcadım. Şu anda barındırma projesine devam etmeyi "
-"planlamıyorum, ancak bunun son olması gerekmiyor. <a href=\"http://"
-"hzwjmjimhr7bdmfv2doll4upibt5ojjmpo3pbp5ctwcg37n3hyk7qzid.onion/\" "
-"target=\"_blank\" rel=\"noopener\">Ablative Hosting</a>, <a href=\"http://"
-"q3lgwxinynjxkor6wghr6hrhlix7fquja3t25phbagqiz gibi başka barındırma "
-"sağlayıcıları var kpju36fwdyd.onion /\" target=\"_blank\" "
-"rel=\"noopener\">OneHost</a>, <a href=\"http://"
-"dwebkjkovsjobzrb45dz6prnlifnapiyp2dba33vcmcsaikr2re4d5qd.onion\" "
-"target=\"_blank\" rel=\"noopener\">OnionLand Hosting</a> veya bir clearnet "
-"proxy hizmeti <a href=\"https://clearnetonion.eu.org/\" target=\"_blank\" "
-"rel=\"noopener\">Clearnet Onion | Kolay clearnet geçişi</a> ve benim projem "
-"<a href=\"https://github.com/DanWin/hosting/\" target=\"_blank\" "
-"rel=\"noopener\">indirilebilir</a>, ki bu da bir sonraki darknet paylaşımlı "
-"barındırma sağlayıcısı olmaya istekli herkesin kaldığım yerden başlamasını "
-"sağlamak."
+"Darknet hoster'ı olmak bana birçok şey öğretti. Ancak bu, tam zamanlı işimin "
+"yanında yaptığım bir boş zaman projesiydi ve sunucuyu yasadışı ve "
+"dolandırıcı sitelerden temiz tutmaya çalışmak çok zaman alıcıydı. "
+"Geliştirmeye devam etmek için bulabildiğimden 10 kat daha fazla zamanı "
+"hesapları silmeye harcadım. Şu anda hosting projesine devam etmeyi "
+"planlamıyorum ancak bunun son olması gerekmiyor. %1$s, %2$s, %3$s veya "
+"clearnet proxy hizmeti %4$s gibi başka hosting sağlayıcıları var ve benim "
+"projem %5$s, bu da bir sonraki darknet paylaşımlı hosting sağlayıcısı olmak "
+"isteyen herkesin benim bıraktığım yerden başlamasını sağlamalı."
 
 #: hosting/index.php:29
 msgid "available for download"
@@ -1780,21 +1694,13 @@ msgid "After 9 years, I'm shutting down the chat for good."
 msgstr "9 yıl sonra sohbeti tamamen kapatıyorum."
 
 #: chat/index.php:29
-#, fuzzy, php-format
-#| msgid ""
-#| "You can find alternative chats on <a href=\"https://onions.danwin1210.de/?"
-#| "cat=2\">my onion link list</a>. If you are interested in running a "
-#| "similar chat community, you can download my chat script on <a "
-#| "href=\"https://github.com/DanWin/le-chat-php\" target=\"_blank\" "
-#| "rel=\"noopener noreferrer\">GitHub</a>."
+#, php-format
 msgid ""
 "If you are interested in running a similar chat community, you can download "
 "my chat script on %s."
 msgstr ""
-"<a href=\"https://onions.danwin1210.de/?cat=2\">Onion bağlantı listemde</a> "
-"alternatif sohbetler bulabilirsiniz. Benzer bir sohbet topluluğu yürütmekle "
-"ilgileniyorsanız, sohbet komut dosyamı <a href=\"https://github.com/DanWin/"
-"le-chat-php\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>."
+"Eğer siz de benzer bir sohbet topluluğu yönetmekle ilgileniyorsanız, %s "
+"adresindeki sohbet scriptimi indirebilirsiniz."
 
 #: chat/index.php:30
 msgid ""
@@ -2915,10 +2821,8 @@ msgid ""
 msgstr ""
 
 #: blog/dane/index.php:49
-#, fuzzy
-#| msgid "Message:"
 msgid "Usage"
-msgstr "İleti:"
+msgstr "Kullanım Şekli"
 
 #: blog/dane/index.php:50
 msgid "The Usage parameter specifies the intended use of the certificate."
@@ -3520,20 +3424,15 @@ msgid "Various tutorials provided by Daniel Winzen"
 msgstr "Daniel Winzen tarafından sağlanan çeşitli öğreticiler"
 
 #: tutorials/index.php:28
-#, fuzzy, php-format
-#| msgid ""
-#| "Here I upload tutorials that have been asked for a number of times. If "
-#| "you have suggestions on how to improve a tutorial or want me to make one "
-#| "another one, you can <a href=\"/contact.php\">contact me here</a>."
+#, php-format
 msgid ""
 "Here I upload tutorials that have been asked for a number of times. If you "
 "have suggestions on how to improve a tutorial or want me to make one another "
 "one, you can %s."
 msgstr ""
-"Buraya birkaç kez sorulan öğreticileri yüklüyorum. Bir öğreticiyi nasıl "
-"iyileştireceğinize dair önerileriniz varsa veya başka bir öğretici yapmamı "
-"istiyorsanız, <a href=\"/contact.php\">benimle buradan iletişime "
-"geçebilirsiniz</a>."
+"Burada defalarca istenen eğitimleri yüklüyorum. Bir eğitimi nasıl "
+"geliştireceğinize dair önerileriniz varsa veya bir diğerini yapmamı "
+"istiyorsanız, %s yapabilirsiniz."
 
 #: tutorials/index.php:28
 msgid "contact me here"
@@ -4118,16 +4017,13 @@ msgstr ""
 "ve \"Proxy sonunda DNS adı araması yap\" ayarını yapın Evet."
 
 #: tutorials/torify-ftp/index.php:36
-#, fuzzy, php-format
-#| msgid ""
-#| "This tutorial will show you how to torify FTP clients in the example of "
-#| "FileZilla and WinSCP."
+#, php-format
 msgid ""
 "This tutorial will show you how to torify FTP clients in the example of %1$s "
 "and %2$s."
 msgstr ""
-"Bu öğretici, FileZilla ve WinSCP örneğinde FTP istemcilerini nasıl torify "
-"edeceğinizi gösterecektir."
+"Bu eğitim size %1$s ve %2$s örneğinde FTP istemcilerinin nasıl "
+"güçlendirileceğini gösterecektir."
 
 #: tutorials/torify-ftp/index.php:37
 msgid ""
@@ -4152,13 +4048,9 @@ msgid "1. FileZilla"
 msgstr "1. FileZilla"
 
 #: tutorials/torify-ftp/index.php:43
-#, fuzzy, php-format
-#| msgid ""
-#| "If you haven't installed FileZilla yet, you need to first download "
-#| "FileZilla."
+#, php-format
 msgid "If you haven't installed FileZilla yet, you can %s."
-msgstr ""
-"Henüz FileZilla'yı yüklemediyseniz, önce FileZilla'yı indirmeniz gerekir."
+msgstr "Eğer FileZilla'yı henüz yüklemediyseniz, %s yükleyebilirsiniz."
 
 #: tutorials/torify-ftp/index.php:43
 #, fuzzy
@@ -4210,11 +4102,9 @@ msgid "2. WinSCP"
 msgstr "2. WinSCP"
 
 #: tutorials/torify-ftp/index.php:75
-#, fuzzy, php-format
-#| msgid ""
-#| "If you haven't installed WinSCP yet, you need to first download WinSCP."
+#, php-format
 msgid "If you haven't installed WinSCP yet, you can %s."
-msgstr "Henüz WinSCP'yi yüklemediyseniz, önce WinSCP'yi indirmeniz gerekir."
+msgstr "Eğer henüz WinSCP'yi yüklemediyseniz, %s yapabilirsiniz."
 
 #: tutorials/torify-ftp/index.php:80
 msgid "Connection details"
@@ -4791,11 +4681,10 @@ msgid "Telegram"
 msgstr ""
 
 #: tutorials/findom/index.php:10 tutorials/findom/index.php:22
-#, fuzzy
-#| msgid "This tutorial will show you how to torify FTP clients."
 msgid "This tutorial will show you how you can use findom to earn money"
 msgstr ""
-"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
+"Bu eğitim size findom'u kullanarak para kazanmanın nasıl mümkün olduğunu "
+"gösterecek"
 
 #: tutorials/findom/index.php:34
 #, fuzzy
@@ -4856,10 +4745,8 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:42
-#, fuzzy
-#| msgid "How to have a successful sugar dating relationship"
 msgid "How to live in a healthy findom relationship?"
-msgstr "Başarılı bir şeker partner ilişkisine nasıl? sahip olunur"
+msgstr "Sağlıklı bir findom ilişkisi nasıl yaşanır?"
 
 #: tutorials/findom/index.php:43
 msgid ""
