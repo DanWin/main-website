@@ -82,7 +82,7 @@ global $language, $dir, $locale;
 	<li><a href="https://www.companisto.com" target="_blank" rel="noreferrer noopener">Companisto</a></li>
 	<li><a href="https://www.fundernation.eu" target="_blank" rel="noreferrer noopener">FunderNation</a></li>
 	<li><a href="https://exporo.de" target="_blank" rel="noreferrer noopener">Exporo</a></li>
-	<li><a href="https://ecoligo.investments" target="_blank" rel="noreferrer noopener">Ecoligo</a></li>
+	<li><a href="https://ecoligo.com/?network_id=cd71ebcf-9530-41ca-b1c5-e029cb4e9511&utm_source=freunde-werben" target="_blank" rel="noreferrer noopener">Ecoligo</a></li>
 	<li><a href="https://www.dagobertinvest.com" target="_blank" rel="noreferrer noopener">Dagobertinvest</a></li>
 	<li><a href="https://ecozins.de" target="_blank" rel="noreferrer noopener">ecozins</a></li>
 	<li><a href="https://www.greenvesting.com" target="_blank" rel="noreferrer noopener">GreenVesting</a></li>

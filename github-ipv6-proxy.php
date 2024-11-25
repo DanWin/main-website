@@ -12,7 +12,7 @@ global $language, $dir, $locale;
 <link rel="alternate" href="https://danwin1210.de/github-ipv6-proxy.php" hreflang="x-default">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2022-08-20">
-<meta property="article:modified_time" content="2022-11-04">
+<meta property="article:modified_time" content="2024-11-25">
 <meta property="article:tag" content="IPv6">
 <meta property="article:tag" content="GitHub">
 <meta property="article:tag" content="proxy">
@@ -27,7 +27,7 @@ global $language, $dir, $locale;
 <meta property="og:url" content="https://danwin1210.de/github-ipv6-proxy.php">
 <meta property="og:locale" content="<?php echo $locale; ?>">
 <meta property="og:site_name" content="<?php echo htmlspecialchars(_('Daniel')); ?>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article ","headline":"<?php echo htmlspecialchars(_('GitHub IPv6 proxy')); ?>", "datePublished": "2022-08-20", "dateModified": "2022-11-04", "discussionUrl": "https://github.com/orgs/community/discussions/10539", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article ","headline":"<?php echo htmlspecialchars(_('GitHub IPv6 proxy')); ?>", "datePublished": "2022-08-20", "dateModified": "2024-11-25", "discussionUrl": "https://github.com/orgs/community/discussions/10539", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
 <?php alt_links(); ?>
 </head><body>
 <?php menu(_('GitHub IPv6 proxy')); ?>
@@ -49,6 +49,7 @@ global $language, $dir, $locale;
 2a01:4f8:c010:d56::5 objects.githubusercontent.com
 2a01:4f8:c010:d56::6 ghcr.io
 2a01:4f8:c010:d56::7 pkg.github.com npm.pkg.github.com maven.pkg.github.com nuget.pkg.github.com rubygems.pkg.github.com
+2a01:4f8:c010:d56::8 uploads.github.com
 </pre>
 <p><?php echo htmlspecialchars(_('Once added, you can clone as usual, without any changes:')); ?></p>
 <code>git clone https://github.com/DanWin/le-chat-php</code>
@@ -96,6 +97,10 @@ stream {
 	server {
 		listen [2a01:4f8:c010:d56::7]:443 fastopen=100 ipv6only=on;
 		proxy_pass pkg.github.com:443;
+	}
+	server {
+		listen [2a01:4f8:c010:d56::8]:443 fastopen=100 ipv6only=on;
+		proxy_pass uploads.github.com:443;
 	}
 }
 </pre>
