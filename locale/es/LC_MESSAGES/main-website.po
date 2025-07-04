@@ -6,23 +6,26 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-06-30 19:15+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-04 14:19+0000\n"
+"Last-Translator: Aqua573Vocabulum <mansonabadeer@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.danwin1210.de/projects/DanWin/"
+"main-website/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: imprint.php:6 imprint.php:15
 msgid "Daniel - Imprint"
-msgstr ""
+msgstr "Marca de Daniel"
 
 #: imprint.php:10 imprint.php:16
 msgid "Imprint of Daniel Winzen"
-msgstr ""
+msgstr "Marca de Daniel Winzen"
 
 #: imprint.php:21 index.php:21 about.php:23 about.php:35
 #: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
@@ -36,7 +39,7 @@ msgstr ""
 #: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
 #: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
 msgid "An avatar representing Daniel Winzen"
-msgstr ""
+msgstr "Un avatar que representa a Daniel Winzen"
 
 #: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
 #: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
@@ -53,26 +56,26 @@ msgstr ""
 
 #: imprint.php:27 common.php:130
 msgid "Imprint"
-msgstr ""
+msgstr "Marca"
 
 #: imprint.php:33 privacy.php:35
 #, php-format
 msgid "Email: %s"
-msgstr ""
+msgstr "Correo electrónico: %s"
 
 #: imprint.php:34 privacy.php:34
 #, php-format
 msgid "Phone: %s"
-msgstr ""
+msgstr "Teléfono: %s"
 
 #: imprint.php:35 privacy.php:37
 #, php-format
 msgid "VAT ID number: %s"
-msgstr ""
+msgstr "NIF: %s"
 
 #: imprint.php:37
 msgid "Disclaimer - External links"
-msgstr ""
+msgstr "Aviso legal - Enlaces externos"
 
 #: imprint.php:38
 msgid ""
@@ -87,20 +90,34 @@ msgid ""
 "without concrete evidence of legal violations. At knowledge of legal "
 "violations, however, such external links will be deleted immediately."
 msgstr ""
+"Este sitio web incluye enlaces a sitios web de terceros (“enlaces externos”)"
+". Dichos sitios web están sujetos a la responsabilidad de sus respectivos "
+"operadores. Al establecer enlaces a contenido de terceros por primera vez, "
+"el proveedor verificó la ausencia de violaciones legales. En el momento de "
+"la verificación, no se detectaron infracciones legales. El proveedor no "
+"tiene control ni influencia sobre el diseño actual y futuro, ni sobre el "
+"contenido de las páginas enlazadas. La inclusión de enlaces externos no "
+"implica que el proveedor adopte o se apropie del contenido al que se dirige "
+"el enlace. El proveedor no está obligado a realizar un control constante de "
+"los enlaces externos, a menos que existan indicios concretos de violaciones "
+"legales. En caso de tener conocimiento de cualquier violación legal, tales "
+"enlaces externos serán eliminados de inmediato."
 
 #: index.php:6 index.php:15
 msgid "Daniel - Home"
-msgstr ""
+msgstr "Daniel - Inicio"
 
 #: index.php:10 index.php:16
 msgid ""
 "Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
 "enthusiast"
 msgstr ""
+"Sitio web personal de Daniel Winzen, desarrollador web, administrador de "
+"sistemas y entusiasta de la privacidad"
 
 #: index.php:27 common.php:121
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: index.php:28
 #, php-format
@@ -113,20 +130,28 @@ msgid ""
 "and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
 "find my open-source projects on %4$s."
 msgstr ""
+"¡Hola! Soy Daniel Winzen, un desarrollador web y administrador de sistemas "
+"alemán altamente cualificado. Con una profunda pasión por la programación, "
+"la gestión de servidores y la ciberseguridad, ofrezco una amplia gama de "
+"servicios adaptados a tus necesidades. Mi vasta experiencia y conocimientos "
+"me permiten adaptarme rápidamente a nuevos desafíos, asegurando soluciones "
+"de primera categoría para cada proyecto. Ofrezco un %1$s gratuito y anónimo, "
+"%2$s, y quizás también te interese mi %3$s. Puedes encontrar mis proyectos "
+"de código abierto en %4$s."
 
 #: index.php:28
 msgid "mail service"
-msgstr ""
+msgstr "Servicio de correo"
 
 #: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
 #: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:125
 #: blog/ipv6/index.php:49
 msgid "GitHub IPv6 proxy"
-msgstr ""
+msgstr "Proxy IPv6 de GitHub"
 
 #: index.php:28
 msgid "tutorials"
-msgstr ""
+msgstr "tutoriales"
 
 #: index.php:29
 msgid ""
@@ -138,6 +163,14 @@ msgid ""
 "optimization is very important to me, and I can help you improve your "
 "website's loading speed and performance."
 msgstr ""
+"Me especializo en el desarrollo de aplicaciones web con PHP, SQL y "
+"JavaScript. Ya sea que necesites un sitio web en WordPress, una aplicación "
+"PHP a medida o cualquier otro proyecto web, tengo las habilidades para hacer "
+"realidad tus ideas. Sobresalgo en el desarrollo de WordPress, incluyendo "
+"WooCommerce, conectores de API y plugins personalizados, asegurando una "
+"integración perfecta con tus otros servicios. La optimización del "
+"rendimiento es muy importante para mí, y puedo ayudarte a mejorar la "
+"velocidad de carga y el desempeño de tu sitio web."
 
 #: index.php:30
 msgid ""
@@ -149,6 +182,14 @@ msgid ""
 "up firewalls, VPNs, routers, and other security measures to protect your "
 "data from unauthorized access."
 msgstr ""
+"Mi especialidad es la gestión de servidores Linux, alojamientos web y "
+"servicios de correo electrónico. Tengo experiencia con diversos proveedores "
+"de hosting y domino el trabajo con paneles como Plesk y WHMCS. Puedo "
+"ayudarte a configurar la infraestructura de red de tu negocio, y asegurar un "
+"rendimiento y seguridad óptimos para que puedas concentrarte en la dirección "
+"de tu empresa. Esto incluye la configuración de firewalls, VPN, enrutadores "
+"y otras medidas de seguridad para proteger tus datos de accesos no "
+"autorizados."
 
 #: index.php:31
 #, php-format
@@ -163,10 +204,20 @@ msgid ""
 "management, and more. I can also help you with incident response and "
 "recovery after a security breach."
 msgstr ""
+"Soy %1$s y poseo un profundo conocimiento de las amenazas de ciberseguridad. "
+"Mi aprendizaje continuo y mi pasión por la ciberseguridad han sido "
+"fundamentales para mi capacidad de salvaguardar entornos en línea de manera "
+"efectiva. Constantemente actualizo mis habilidades y conocimientos para "
+"mantenerme a la vanguardia de las últimas amenazas. Ofrezco soluciones "
+"integrales de ciberseguridad para proteger tus sistemas y datos de posibles "
+"amenazas. Esto incluye medidas de seguridad tanto físicas como digitales, "
+"como firewalls, software antivirus, copias de seguridad, gestión de "
+"contraseñas y mucho más. También puedo ayudarte con la respuesta y "
+"recuperación ante incidentes después de una brecha de seguridad."
 
 #: index.php:31 about.php:41
 msgid "Certified in Cybersecurity"
-msgstr ""
+msgstr "Certificado en Ciberseguridad"
 
 #: index.php:32
 #, php-format
@@ -174,37 +225,42 @@ msgid ""
 "I'd be happy to answer any questions you may have and look forward to "
 "working with you. %1$s to discuss your project and turn your vision to life!"
 msgstr ""
+"Estaré encantado de responder cualquier pregunta que tengas y espero "
+"trabajar contigo. ¡%1$s para hablar sobre tu proyecto y hacer realidad tu "
+"visión!"
 
 #: index.php:32
 msgid "Get in touch with me"
-msgstr ""
+msgstr "Ponte en contacto conmigo"
 
 #: index.php:33
 #, php-format
 msgid "To learn more about me, check out my %1$s,"
-msgstr ""
+msgstr "Para saber más sobre mí, consulta mi %1$s,"
 
 #: index.php:33
 msgid "About page"
-msgstr ""
+msgstr "Página sobre mí"
 
 #: about.php:6 about.php:17
 msgid "Daniel - About"
-msgstr ""
+msgstr "Sobre Daniel"
 
 #: about.php:10 about.php:18
 msgid ""
 "About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
 "this site"
 msgstr ""
+"Acerca de Daniel Winzen, desarrollador web, administrador de sistemas y "
+"entusiasta de la privacidad, y sobre este sitio"
 
 #: about.php:29 common.php:127
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 #: about.php:30
 msgid "About me"
-msgstr ""
+msgstr "Sobre mí"
 
 #: about.php:38
 msgid ""
@@ -213,6 +269,11 @@ msgid ""
 "source projects and pole dancing, which I picked up during the covid "
 "pandemic and resulting home office because it's fun and keeps me fit."
 msgstr ""
+"Hola, me llamo Daniel Winzen, soy un desarrollador web y administrador de "
+"sistemas alemán. En mi tiempo libre, me gusta leer libros, programar en mis "
+"proyectos de código abierto y practicar pole dancing, afición que adquirí "
+"durante la pandemia de COVID y el teletrabajo resultante porque es divertido "
+"y me mantiene en forma."
 
 #: about.php:39
 msgid ""
@@ -220,12 +281,19 @@ msgid ""
 "also know some basics of Perl, Python, C, C++ and more. With my experience, "
 "I'm able to quickly adapt and work with new languages, when necessary."
 msgstr ""
+"Los lenguajes de programación que uso regularmente son PHP, SQL y "
+"JavaScript, pero también conozco los conceptos básicos de Perl, Python, C, "
+"C++ y más. Con mi experiencia, soy capaz de adaptarme rápidamente y trabajar "
+"con nuevos lenguajes cuando sea necesario."
 
 #: about.php:40
 msgid ""
 "Before I got into coding and server management, I contributed German "
 "translation to various open-source projects since the end of 2011."
 msgstr ""
+"Antes de dedicarme a la programación y la gestión de servidores, contribuí "
+"con traducciones al alemán en varios proyectos de código abierto desde "
+"finales de 2011."
 
 #: about.php:41
 #, php-format
@@ -239,6 +307,14 @@ msgid ""
 "I was learning about hacking, darknet and network security at a very early "
 "age."
 msgstr ""
+"Soy %s y tengo un buen conocimiento de las amenazas de ciberseguridad. "
+"Continuamente amplio mis saberes en este campo, porque lo considero esencial "
+"y divertido. Este sitio probablemente no existiría si no fuera por mi pasión "
+"por la ciberseguridad y el hacking. Como muchos buenos padres, los míos eran "
+"estrictos con mi uso de internet. Así que tuve que ser creativo para "
+"encontrar formas de acceder a internet, incluso cuando el temporizador ya "
+"había expirado. De este modo, aprendí sobre hacking, la darknet y la "
+"seguridad de redes a una edad muy temprana."
 
 #: about.php:42
 #, php-format
@@ -248,18 +324,22 @@ msgid ""
 "out of what I have. Do you need help with managing and optimizing your "
 "infrastructure or website? %s."
 msgstr ""
+"Gestionar servidores y servicios de correo electrónico, y desarrollar nuevos "
+"proyectos web es lo que me apasiona. Me gusta optimizar los sistemas para el "
+"rendimiento y sacar el máximo provecho de lo que tengo. ¿Necesitas ayuda "
+"para administrar y optimizar tu infraestructura o sitio web? %s."
 
 #: about.php:42
 msgid "I'm available for hire"
-msgstr ""
+msgstr "Estoy disponible para contratación"
 
 #: about.php:43
 msgid "Profiles on other sites that I am active on:"
-msgstr ""
+msgstr "Perfiles en otros sitios donde estoy activo:"
 
 #: about.php:55
 msgid "About this site"
-msgstr ""
+msgstr "Acerca de este sitio"
 
 #: about.php:56
 msgid ""
@@ -267,6 +347,9 @@ msgid ""
 "this site in August/September 2013 when I wanted to have a platform to host "
 "files on, to use at school."
 msgstr ""
+"Este es mi sitio, que desarrollo en mi tiempo libre. Empecé a crearlo en "
+"agosto/septiembre de 2013, cuando quería una plataforma para alojar archivos "
+"y usarlos en la escuela."
 
 #: about.php:57
 #, php-format
@@ -276,6 +359,10 @@ msgid ""
 "it was running very slowly and wasn't usable for use by several people. So I "
 "decided to port some parts I needed to PHP."
 msgstr ""
+"Rápidamente surgió la idea de usar un chat en la escuela, y di con un "
+"sencillo script de chat en Perl llamado %s. Cuando lo implementé en mi "
+"Raspberry Pi, funcionaba muy lentamente y no era utilizable para varias "
+"personas. Así que decidí portar algunas partes que necesitaba a PHP."
 
 #: about.php:58
 #, php-format
@@ -285,6 +372,10 @@ msgid ""
 "on my %s account. Since then, I have added many new features and improved "
 "reliability and my code a lot."
 msgstr ""
+"Este fue el comienzo para que me adentrara más en el desarrollo web y, desde "
+"entonces, he liberado ese script de chat y varios otros scripts de este "
+"sitio en mi cuenta de %s. Desde entonces, he añadido muchas características "
+"nuevas y he mejorado mucho la fiabilidad y mi código."
 
 #: about.php:59
 msgid ""
@@ -294,34 +385,43 @@ msgid ""
 "and XMPP hosting, as well as the onion link list are still actively "
 "maintained."
 msgstr ""
+"Solía ofrecer alojamiento de archivos gratuito, un acortador de URL, un chat "
+"e incluso un servicio gratuito de alojamiento web en la darknet. Todos estos "
+"proyectos me han enseñado mucho sobre codificación, seguridad y gestión de "
+"servidores. A partir de ahora, solo el correo electrónico anónimo y el "
+"alojamiento XMPP, así como la lista de enlaces onion, se mantienen "
+"activamente."
 
 #: about.php:60
 msgid "About the setup"
-msgstr ""
+msgstr "Acerca de la configuración"
 
 #: about.php:61
 msgid "Hosting providers I use(ed) and servers hosted there:"
 msgstr ""
+"Proveedores de alojamiento que uso (o he usado) y servidores alojados allí:"
 
 #: about.php:63
 #, php-format
 msgid ""
 "%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
 msgstr ""
+"%s: bueno para proyectos a corto plazo o de bajo ancho de banda. También "
+"ofrecen un %s"
 
 #: about.php:63
 msgid "Free Tier Program for businesses"
-msgstr ""
+msgstr "Programa de Nivel Gratuito para empresas"
 
 #: about.php:64
 #, php-format
 msgid "%s - good for short-term and/or low-bandwidth projects"
-msgstr ""
+msgstr "%s: bueno para proyectos a corto plazo o de bajo ancho de banda"
 
 #: about.php:65
 #, php-format
 msgid "%s - (Used for my clearnet gateway) - good and reliable"
-msgstr ""
+msgstr "%s (utilizado para mi pasarela de clearnet): bueno y confiable"
 
 #: about.php:66
 #, php-format
@@ -329,16 +429,20 @@ msgid ""
 "%s - (Used for my clearnet gateway + Domain registration) - good and "
 "reliable, hosted in my city"
 msgstr ""
+"%s (utilizado para mi pasarela de clearnet + registro de dominios): bueno y "
+"confiable, alojado en mi ciudad"
 
 #: about.php:67
 msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
-msgstr ""
+msgstr "Alojado en casa: 4 Raspberry Pi 4 con el sitio principal y los datos"
 
 #: about.php:74
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
+"Un pequeño bastidor de red con 4 Raspberry Pis, un enrutador wifi encima y "
+"un teléfono al lado"
 
 #: about.php:77
 msgid ""
@@ -352,6 +456,16 @@ msgid ""
 "supports a pulse dial, I had to get a converter to translate pulse signals "
 "into modern DTMF."
 msgstr ""
+"En la imagen de la izquierda, puedes ver mi configuración actual de servidor "
+"doméstico. Tengo 4 Raspberry Pi 4, cada una con un SSD de 500 GB conectado. "
+"Cada SSD tiene 16 GB asignados al sistema operativo y a las aplicaciones, "
+"mientras que el resto del espacio se utiliza para OSD de Ceph. Encima de mi "
+"bastidor, tengo un enrutador de internet, que está conectado a la conexión "
+"de banda ancha más rápida disponible para mí. Aunque apenas uso mi teléfono "
+"fijo, tengo un FeTAp 611-2 (sí, todavía funciona; en los años 80 las cosas "
+"se construían para durar). Como mi enrutador ya no soporta la marcación por "
+"impulsos, tuve que conseguir un convertidor para traducir las señales de "
+"impulsos a DTMF moderno."
 
 #: about.php:78
 msgid ""
@@ -359,6 +473,9 @@ msgid ""
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
+"El sistema operativo que utilizo es Debian Sid. Para compartir datos entre "
+"todos los servidores, implementé un CephFS para almacenamiento de archivos "
+"distribuido y redundante, así como un clúster MariaDB Galera."
 
 #: about.php:79
 #, php-format
