@@ -50,7 +50,6 @@ global $language, $dir, $locale;
 <li><a href="https://www.instagram.com/winzen.daniel/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
 <li><a href="https://www.linkedin.com/in/danwin1210/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
 <li><a href="https://www.xing.com/profile/Daniel_Winzen" target="_blank" rel="noopener noreferrer">Xing</a></li>
-<li><a href="https://www.pinterest.de/danwin1210/" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
 </ul>
 <h2><?php echo htmlspecialchars(_('About this site')); ?></h2>
 <p><?php echo htmlspecialchars(_('This is my site, that I develop in my free time. I started development of this site in August/September 2013 when I wanted to have a platform to host files on, to use at school.')); ?>
@@ -65,7 +64,6 @@ global $language, $dir, $locale;
 <li><?php printf(htmlspecialchars(_('%s - (Used for my clearnet gateway) - good and reliable')), '<a href="https://hetzner.cloud/?ref=OXqb8WQ8yeXu" target="_blank" rel="noopener noreferrer">Hetzner</a>'); ?></li>
 <li><?php printf(htmlspecialchars(_('%s - (Used for my clearnet gateway + Domain registration) - good and reliable, hosted in my city')), '<a href="https://hosting.de/?partnerId=JZ0DZSUdrJUVJTKoHq7l" target="_blank" rel="noopener noreferrer">Hosting.de</a>'); ?></li>
 <li><?php echo htmlspecialchars(_('Home hosted: 4 Raspberry Pi 4 with the main site and data')); ?></li>
-<li><a href="https://clientarea.space-hosting.net/aff.php?aff=333" target="_blank" rel="noopener noreferrer">Space Hosting</a></li>
 </ul>
 <a href="assets/servers.jpg" target="_blank">
 <picture>

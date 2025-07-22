@@ -2,6 +2,5 @@ social=https://www.youtube.com/@danwin1210
 social=https://www.instagram.com/winzen.daniel/
 social=https://www.xing.com/profile/Daniel_Winzen
 social=https://www.linkedin.com/in/danwin1210
-social=https://www.pinterest.de/danwin1210/
 contact=https://danwin1210.de/contact.php
 contact=mailto:daniel@danwin1210.de

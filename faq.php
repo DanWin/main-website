@@ -95,7 +95,7 @@ global $language, $dir, $locale;
     </div>
     <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="row">
         <div itemprop="name" class="cell"><?php echo htmlspecialchars(_('How can I veryify that you are still in control of your server?')); ?></div>
-        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer" class="cell"><div itemprop="text"><?php printf(htmlspecialchars(_('To make sure your data is safe and I am still in controll of my server, you can verify my %1$s with my %2$s.')), '<a href="/canary.txt" target="_blank">'.htmlspecialchars(_('warrant canary')).'</a>', '<a href="/pgp.txt" target="_blank">'.htmlspecialchars(_('PGP key')).'</a>'); ?></div></div>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer" class="cell"><div itemprop="text"><?php printf(htmlspecialchars(_('To make sure your data is safe and I am still in control of my server, you can verify my %1$s with my %2$s.')), '<a href="/canary.txt" target="_blank">'.htmlspecialchars(_('warrant canary')).'</a>', '<a href="/pgp.txt" target="_blank">'.htmlspecialchars(_('PGP key')).'</a>'); ?></div></div>
     </div>
     <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="row">
         <div itemprop="name" class="cell"><?php echo htmlspecialchars(_('I have more Questions.')); ?></div>
