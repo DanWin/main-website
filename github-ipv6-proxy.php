@@ -88,10 +88,6 @@ stream {
 		proxy_pass codeload.github.com:443;
 	}
 	server {
-		listen [2a01:4f8:c010:d56::5]:443 fastopen=100 ipv6only=on;
-		proxy_pass objects.githubusercontent.com:443;
-	}
-	server {
 		listen [2a01:4f8:c010:d56::6]:443 fastopen=100 ipv6only=on;
 		proxy_pass ghcr.io:443;
 	}
