@@ -52,6 +52,7 @@ global $language, $dir, $locale;
 2606:50c0:8000::133 objects.githubusercontent.com www.objects.githubusercontent.com release-assets.githubusercontent.com gist.githubusercontent.com repository-images.githubusercontent.com camo.githubusercontent.com private-user-images.githubusercontent.com avatars0.githubusercontent.com avatars1.githubusercontent.com avatars2.githubusercontent.com avatars3.githubusercontent.com cloud.githubusercontent.com desktop.githubusercontent.com support.github.com
 2606:50c0:8000::154 support-assets.githubassets.com github.githubassets.com opengraph.githubassets.com github-registry-files.githubusercontent.com github-cloud.githubusercontent.com
 </pre>
+<p><?php printf(htmlspecialchars(_('Thanks to %s some of above addresses are now served from official GitHub IPv6 addresses, which aren\'t published in their DNS zone yet.')), '<a href="https://codeberg.org/IPv6-Monostack/delegacy-rpz" target="_blank" rel="noopener noreferrer">DeLegacy IPv6 RPZ</a>'); ?></p>
 <p><?php echo htmlspecialchars(_('Once added, you can clone as usual, without any changes:')); ?></p>
 <code>git clone https://github.com/DanWin/le-chat-php</code>
 
