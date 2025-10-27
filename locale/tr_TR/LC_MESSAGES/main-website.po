@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-06-30 19:15+0200\n"
-"PO-Revision-Date: 2024-11-11 21:48+0000\n"
-"Last-Translator: Daniel Winzen <daniel@danwin1210.de>\n"
+"PO-Revision-Date: 2025-10-27 17:30+0000\n"
+"Last-Translator: Turkish Mark <turkishmark@yandex.com>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/tr/>\n"
 "Language: tr_TR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.3\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: imprint.php:6 imprint.php:15
 msgid "Daniel - Imprint"
@@ -262,24 +262,17 @@ msgid "About me"
 msgstr "Benim Hakkımda"
 
 #: about.php:38
-#, fuzzy
-#| msgid ""
-#| "Hello, my name is Daniel Winzen, a german web developer and system "
-#| "administrator. In my free time I like reading books, programming on my "
-#| "open-source projects and pole dancing, which I picked up in times of the "
-#| "covid pandemic and resulting home office, because it's fun and keeps me "
-#| "fit."
 msgid ""
 "Hello, my name is Daniel Winzen, a German web developer and system "
 "administrator. In my free time, I like reading books, programming on my open-"
 "source projects and pole dancing, which I picked up during the covid "
 "pandemic and resulting home office because it's fun and keeps me fit."
 msgstr ""
-"Merhaba, benim adım Daniel Winzen, Alman web geliştiricisi ve sistem "
-"yöneticisi. Boş zamanlarımda kitap okumayı, açık kaynak projelerim üzerinde "
-"programlama yapmayı ve covid salgını ve bunun sonucunda evde ofis "
-"zamanlarında öğrendiğim direk dansını seviyorum çünkü eğlenceli ve beni "
-"formda tutuyor."
+"Merhaba, benim adım Daniel Winzen, Alman bir web geliştiricisi ve sistem "
+"yöneticisiyim. Boş zamanlarımda kitap okumayı, açık kaynak projelerimde "
+"programlama yapmayı ve pole dansını seviyorum. Pole dansını, COVID salgını "
+"ve bunun sonucunda evden çalışmaya başladığım dönemde, eğlenceli olduğu ve "
+"beni formda tuttuğu için öğrenmeye başladım."
 
 #: about.php:39
 #, fuzzy
@@ -318,6 +311,14 @@ msgid ""
 "I was learning about hacking, darknet and network security at a very early "
 "age."
 msgstr ""
+"Ben %s'im ve siber güvenlik tehditleri konusunda iyi bir anlayışa sahibim. "
+"Bu alanda bilgimi sürekli genişletiyorum, çünkü bunu gerekli ve eğlenceli "
+"buluyorum. Siber güvenlik ve hackleme konusundaki tutkum olmasaydı, bu site "
+"muhtemelen var olmazdı. Birçok iyi ebeveyn gibi, benim ebeveynlerim de "
+"internet kullanımım konusunda katıydılar. Bu yüzden, zamanlayıcı süresi "
+"dolduğunda bile internete erişim yollarını bulmak için yaratıcı olmak "
+"zorundaydım. Böylece çok erken yaşlarda hackleme, darknet ve ağ güvenliği "
+"hakkında bilgi edindim."
 
 #: about.php:42
 #, php-format
@@ -328,14 +329,14 @@ msgid ""
 "infrastructure or website? %s."
 msgstr ""
 "Sunucuları ve e-posta hizmetlerini yönetmek ve yeni web projeleri "
-"geliştirmek benim için çok önemli. Sistemleri performans açısından optimize "
-"etmeyi ve sahip olduğum şeylerden en iyi şekilde yararlanmayı seviyorum. "
-"Altyapınızı veya web sitenizi yönetme ve optimize etme konusunda yardıma mı "
-"ihtiyacınız var? %s."
+"geliştirmek benim en sevdiğim işler. Sistemleri performans açısından "
+"optimize etmek ve sahip olduğum kaynaklardan en iyi şekilde yararlanmak "
+"hoşuma gidiyor. Altyapınızı veya web sitenizi yönetme ve optimize etme "
+"konusunda yardıma mı ihtiyacınız var? %s."
 
 #: about.php:42
 msgid "I'm available for hire"
-msgstr ""
+msgstr "Benimle iletişime geç"
 
 #: about.php:43
 msgid "Profiles on other sites that I am active on:"
@@ -346,19 +347,14 @@ msgid "About this site"
 msgstr "Bu site hakkında"
 
 #: about.php:56
-#, fuzzy
-#| msgid ""
-#| "This is my personal site, that I develop in my free time. I started "
-#| "development of this site in August/September 2013 when I wanted to have a "
-#| "platform to host files on, to use at school."
 msgid ""
 "This is my site, that I develop in my free time. I started development of "
 "this site in August/September 2013 when I wanted to have a platform to host "
 "files on, to use at school."
 msgstr ""
-"Bu benim boş zamanlarımda geliştirdiğim kişisel sitem.Bu siteyi geliştirmeye "
-"Ağustos/Eylül 2013'te, okulda kullanmak üzere dosya barındırmak için bir "
-"platforma sahip olmak istediğimde başladım."
+"Bu, boş zamanlarımda geliştirdiğim sitemdir. Bu sitenin geliştirilmesine, "
+"okulda kullanmak üzere dosyaları barındıracak bir platforma sahip olmak "
+"istediğim 2013 yılının Ağustos/Eylül aylarında başladım."
 
 #: about.php:57
 #, php-format
@@ -409,7 +405,7 @@ msgstr ""
 
 #: about.php:60
 msgid "About the setup"
-msgstr "kurulum hakkında"
+msgstr "Kurulum Hakkında"
 
 #: about.php:61
 msgid "Hosting providers I use(ed) and servers hosted there:"
@@ -426,7 +422,7 @@ msgstr ""
 
 #: about.php:63
 msgid "Free Tier Program for businesses"
-msgstr ""
+msgstr "İşletmeler için Ücretsiz Katman Programı"
 
 #: about.php:64
 #, php-format
@@ -470,6 +466,15 @@ msgid ""
 "supports a pulse dial, I had to get a converter to translate pulse signals "
 "into modern DTMF."
 msgstr ""
+"Soldaki resimde, mevcut ev sunucu kurulumumu görebilirsiniz. 500 GB SSD "
+"takılı 4 adet Raspberry Pi 4'üm var. Her SSD'de 16 GB işletim sistemi ve "
+"uygulamalar için ayrılmış durumda, geri kalan alan ise Ceph OSD'ler için "
+"kullanılıyor. Rafımın üstünde, kullanabileceğim en hızlı geniş bant internet "
+"bağlantısına bağlı bir internet yönlendiricisi var. Sabit telefonumu "
+"neredeyse hiç kullanmıyorum, ancak bir FeTAp 611-2'im var (evet, hala "
+"çalışıyor, 80'lerde her şey uzun ömürlü olacak şekilde üretilirdi). "
+"Yönlendiricim artık darbe çevirmeyi desteklemediğinden, darbe sinyallerini "
+"modern DTMF'ye çevirmek için bir dönüştürücü almam gerekti."
 
 #: about.php:78
 msgid ""
@@ -1779,6 +1784,18 @@ msgid ""
 "find a lot of sites linking to it, including social media posts and reviews "
 "in forums, you might have found the real deal."
 msgstr ""
+"Bir sitenin dolandırıcılık durumunu kontrol etmek için buraya geldiyseniz, "
+"lütfen eleştirel düşünme becerinizi kullanın. Dolandırıcıları kolayca tespit "
+"edebilirsiniz. Kimse size daha az karşılığında daha fazla para vermez. "
+"Anonim olarak kullanmak çok kolay olduğu için \"çalınmış\" kripto para "
+"birimlerini satmak hiç mantıklı değildir. Emanet hizmetini kullanmanın tek "
+"nedeni güvendir, ancak daha önce kimsenin duymadığı anonim bir darknet "
+"emanet hizmetine nasıl güvenebilirsiniz? İlgilendiğiniz site hakkında hala "
+"şüpheleriniz varsa, DuckDuckGo veya Google gibi favori arama motorunuzda "
+"hızlı bir arama yapın. Bulabildiğiniz tek şey, siteyi tanıtan birkaç "
+"siteyse, muhtemelen dolandırıcılıktır. Sosyal medya gönderileri ve "
+"forumlardaki yorumlar da dahil olmak üzere, siteye bağlantı veren birçok "
+"site bulursanız, gerçek bir fırsat bulmuş olabilirsiniz."
 
 #: blog/onion-link-list-shutdown/index.php:30
 #, php-format
@@ -1948,6 +1965,13 @@ msgid ""
 "By doing so, we can create a resilient, secure, and interconnected network - "
 "one step at a time."
 msgstr ""
+"IPv6'nın sadece teknik bir yükseltme değil, bir gereklilik olduğunu anlamak "
+"çok önemlidir. İnternet tabanlı hizmetlerini IPv6'ya geçiren kuruluşlar, "
+"ölçeklenebilirlik, güvenlik ve yenilikçilik gerektiren dijital ortamın ön "
+"saflarında yer almaktadır. IPv6'ya uyum sağlamak sadece değişimi "
+"benimsemekle ilgili değildir; internetin geleceğini şekillendirmekle "
+"ilgilidir. Bunu yaparak, adım adım dayanıklı, güvenli ve birbirine bağlı bir "
+"ağ oluşturabiliriz."
 
 #: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/cluster/index.php:68
 #: blog/dane/index.php:73
@@ -2139,10 +2163,8 @@ msgstr ""
 
 #: blog/index.php:31 blog/cluster/index.php:6 blog/cluster/index.php:21
 #: blog/cluster/index.php:31 blog/cluster/index.php:33
-#, fuzzy
-#| msgid "About the setup"
 msgid "Cluster setup"
-msgstr "kurulum hakkında"
+msgstr "Küme sistemi kurma"
 
 #: blog/index.php:32
 msgid "January 2024"
@@ -2277,6 +2299,9 @@ msgid ""
 "No-log policy: Your VPN provider should have a no-log policy, meaning they "
 "do not store any details about your online activity."
 msgstr ""
+"Kayıt tutmama politikası: VPN sağlayıcınız kayıt tutmama politikasına sahip "
+"olmalıdır, yani çevrimiçi etkinliklerinizle ilgili hiçbir bilgiyi "
+"saklamamalıdır."
 
 #: blog/vpn/index.php:48
 msgid "Speed: The VPN should not significantly reduce your internet speed."
@@ -2808,6 +2833,20 @@ msgid ""
 "can harness the full potential of DANE, strengthening your digital security "
 "and ensuring trustworthy online connections."
 msgstr ""
+"DANE'yi uygulamak karmaşık görünebilir, ancak dikkatli adımlarla dijital "
+"güvenliği artırmak için etkili bir araç haline gelir. Sunucunuz için "
+"güvenilir bir Sertifika Yetkilisi (CA) tarafından dijital sertifika "
+"oluşturarak başlayın. Sertifikayı aldıktan sonra, DANE TLSA (Transport Layer "
+"Security Authentication) kayıtlarını kullanarak bu sertifikayı etki "
+"alanınızın DNS kayıtlarında yayınlayın. Bu kayıtlar, desteklenen şifreleme "
+"yöntemlerini belirten sertifikanızın kriptografik hash değerlerini içerir. "
+"Sertifikanız her değiştiğinde bu kayıtları düzenli olarak güncelleyin. "
+"Güvenlik kurulumunuzun bütünlüğünü korumak için sertifika güncellemelerini "
+"DNS kayıt değişiklikleriyle koordine etmek çok önemlidir. Bu adımları "
+"titizlikle takip ederek ve güncellemeler konusunda dikkatli kalarak, "
+"kuruluşunuz DANE'nin tüm potansiyelinden yararlanabilir, dijital "
+"güvenliğinizi güçlendirebilir ve güvenilir çevrimiçi bağlantılar "
+"sağlayabilir."
 
 #: blog/dane/index.php:47
 msgid "Building TLSA Records"
@@ -2975,6 +3014,18 @@ msgid ""
 "these threats would have been carried out, they can still have devastating "
 "and traumatic effects on the people who receive them."
 msgstr ""
+"Bazı büyük sağlayıcıların aksine, telefon numaraları veya ödeme bilgileri "
+"gibi kişisel bilgileri asla sormadım ve hizmetimi Tor gizli hizmetinden de "
+"kullanmak mümkün. Ne yazık ki, bu anonimlik, e-posta hizmetini nefret ve "
+"ölüm tehditleri göndermek için kötüye kullanacak bazı kişileri de çekiyor. "
+"Bu eğilim son birkaç yıldır artıyor ve neredeyse her ay bu tür tehditler ve "
+"bunların sonuçlarıyla uğraşmak zorunda kaldığım zamanlar oldu. Bu, korkmuş "
+"kurbanlarla konuşmak, polise ifade vermek ve kötüye kullanılan hesapları "
+"devre dışı bırakmak gibi işlemleri içeriyordu. Karşılaştığım vakalardan "
+"biri, %s ve çalışanlarına gönderilen şiddet içeren ölüm tehditleriyle "
+"ilgiliydi. Kamuoyuna açıklanmayan birkaç benzer vaka daha vardı. Bu "
+"tehditlerin herhangi birinin gerçekleştirilmesi olasılığı düşük olsa da, "
+"bunları alan kişiler üzerinde yıkıcı ve travmatik etkileri olabilir."
 
 #: blog/email-service-learnings/index.php:35
 msgid "Law enforcement visits"
@@ -3054,7 +3105,7 @@ msgstr "Bu eğitim, finansal özgürlüğe ulaşmanız için size rehberlik edec
 
 #: tutorials/get-rich-fast/index.php:36
 msgid "A word about fast money"
-msgstr "Hızlı para hakkında bir kelime"
+msgstr "Hızlı para hakkında bir söz"
 
 #: tutorials/get-rich-fast/index.php:37
 msgid ""
