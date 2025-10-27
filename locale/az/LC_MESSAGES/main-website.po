@@ -1,0 +1,4126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 19:15+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: imprint.php:6 imprint.php:15
+msgid "Daniel - Imprint"
+msgstr ""
+
+#: imprint.php:10 imprint.php:16
+msgid "Imprint of Daniel Winzen"
+msgstr ""
+
+#: imprint.php:21 index.php:21 about.php:23 about.php:35
+#: github-ipv6-proxy.php:26 contact.php:21 faq.php:20 new-domain.php:23
+#: hosting/index.php:21 privacy.php:21 chat/index.php:21
+#: blog/onion-link-list-shutdown/index.php:21 blog/ipv6/index.php:26
+#: blog/dnssec/index.php:26 blog/index.php:21 blog/vpn/index.php:26
+#: blog/cluster/index.php:27 blog/dane/index.php:26
+#: blog/email-service-learnings/index.php:21
+#: tutorials/get-rich-fast/index.php:29 tutorials/index.php:21
+#: tutorials/successful-sugar-dating/index.php:28
+#: tutorials/self-employed/index.php:25 tutorials/torify-ftp/index.php:29
+#: tutorials/content-creation/index.php:27 tutorials/findom/index.php:27
+msgid "An avatar representing Daniel Winzen"
+msgstr ""
+
+#: imprint.php:24 index.php:24 about.php:26 github-ipv6-proxy.php:29
+#: contact.php:24 faq.php:23 new-domain.php:26 hosting/index.php:24
+#: privacy.php:24 chat/index.php:24 blog/onion-link-list-shutdown/index.php:24
+#: blog/ipv6/index.php:29 blog/dnssec/index.php:29 blog/index.php:24
+#: blog/vpn/index.php:29 blog/cluster/index.php:30 blog/dane/index.php:29
+#: blog/email-service-learnings/index.php:24
+#: tutorials/get-rich-fast/index.php:32 tutorials/index.php:24
+#: tutorials/successful-sugar-dating/index.php:31
+#: tutorials/self-employed/index.php:28 tutorials/torify-ftp/index.php:32
+#: tutorials/content-creation/index.php:30 tutorials/findom/index.php:30
+msgid "Daniel"
+msgstr ""
+
+#: imprint.php:27 common.php:130
+msgid "Imprint"
+msgstr ""
+
+#: imprint.php:33 privacy.php:35
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: imprint.php:34 privacy.php:34
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: imprint.php:35 privacy.php:37
+#, php-format
+msgid "VAT ID number: %s"
+msgstr ""
+
+#: imprint.php:37
+msgid "Disclaimer - External links"
+msgstr ""
+
+#: imprint.php:38
+msgid ""
+"This website contains links to third party websites (\"external links\"). "
+"These websites are subject to the liability of the respective operator. When "
+"linking first time third-party content, the provider checked whether there "
+"are any legal violations. At the time there were none legal violations "
+"evident. The provider has no influence on the current and future design and "
+"the content of the linked pages. Setting external links does not mean that "
+"the provider claims ownership of the content behind the reference or link. "
+"Constant control of the external links are not reasonable for the provider "
+"without concrete evidence of legal violations. At knowledge of legal "
+"violations, however, such external links will be deleted immediately."
+msgstr ""
+
+#: index.php:6 index.php:15
+msgid "Daniel - Home"
+msgstr ""
+
+#: index.php:10 index.php:16
+msgid ""
+"Personal website of Daniel Winzen, the web developer, sysadmin and privacy "
+"enthusiast"
+msgstr ""
+
+#: index.php:27 common.php:121
+msgid "Home"
+msgstr ""
+
+#: index.php:28
+#, php-format
+msgid ""
+"Hello! I'm Daniel Winzen, a highly skilled German web developer and system "
+"administrator. With a deep passion for programming, server management, and "
+"cybersecurity, I offer a wide range of services tailored to your needs. My "
+"extensive experience and expertise enable me to adapt quickly to new "
+"challenges, ensuring top-notch solutions for every project. I offer a free "
+"and anonymous %1$s, %2$s, and you may also be interested in my %3$s. You can "
+"find my open-source projects on %4$s."
+msgstr ""
+
+#: index.php:28
+msgid "mail service"
+msgstr ""
+
+#: index.php:28 github-ipv6-proxy.php:6 github-ipv6-proxy.php:20
+#: github-ipv6-proxy.php:30 github-ipv6-proxy.php:33 common.php:125
+#: blog/ipv6/index.php:49
+msgid "GitHub IPv6 proxy"
+msgstr ""
+
+#: index.php:28
+msgid "tutorials"
+msgstr ""
+
+#: index.php:29
+msgid ""
+"I specialize in developing web applications in PHP, SQL, and JavaScript. "
+"Whether you need a WordPress website, a custom PHP application, or any other "
+"web project, I have the skills to bring your ideas to life. I excel in "
+"WordPress development, including WooCommerce, API connectors and custom "
+"plugins, ensuring seamless integration with your other services. Performance "
+"optimization is very important to me, and I can help you improve your "
+"website's loading speed and performance."
+msgstr ""
+
+#: index.php:30
+msgid ""
+"Managing Linux servers, web hostings, and email services is my forte. I have "
+"experience with various hosting providers and am proficient in working with "
+"hosting panels like Plesk and WHMCS. I can help you with configuring your "
+"business network infrastructure, and ensure optimal performance and "
+"security, so you can focus on running your business. That includes setting "
+"up firewalls, VPNs, routers, and other security measures to protect your "
+"data from unauthorized access."
+msgstr ""
+
+#: index.php:31
+#, php-format
+msgid ""
+"I'm %1$s and possess a deep understanding of cybersecurity threats. My "
+"continuous learning and passion for cybersecurity have been instrumental in "
+"my ability to safeguard online environments effectively. I'm constantly "
+"upgrading my skills and knowledge to stay ahead of the latest threats. I "
+"offer comprehensive cybersecurity solutions to safeguard your systems and "
+"data from potential threats. That includes both physical and digital "
+"security measures such as firewalls, anti-virus software, backups, password "
+"management, and more. I can also help you with incident response and "
+"recovery after a security breach."
+msgstr ""
+
+#: index.php:31 about.php:41
+msgid "Certified in Cybersecurity"
+msgstr ""
+
+#: index.php:32
+#, php-format
+msgid ""
+"I'd be happy to answer any questions you may have and look forward to "
+"working with you. %1$s to discuss your project and turn your vision to life!"
+msgstr ""
+
+#: index.php:32
+msgid "Get in touch with me"
+msgstr ""
+
+#: index.php:33
+#, php-format
+msgid "To learn more about me, check out my %1$s,"
+msgstr ""
+
+#: index.php:33
+msgid "About page"
+msgstr ""
+
+#: about.php:6 about.php:17
+msgid "Daniel - About"
+msgstr ""
+
+#: about.php:10 about.php:18
+msgid ""
+"About the web developer, sysadmin and privacy enthusiast Daniel Winzen and "
+"this site"
+msgstr ""
+
+#: about.php:29 common.php:127
+msgid "About"
+msgstr ""
+
+#: about.php:30
+msgid "About me"
+msgstr ""
+
+#: about.php:38
+msgid ""
+"Hello, my name is Daniel Winzen, a German web developer and system "
+"administrator. In my free time, I like reading books, programming on my open-"
+"source projects and pole dancing, which I picked up during the covid "
+"pandemic and resulting home office because it's fun and keeps me fit."
+msgstr ""
+
+#: about.php:39
+msgid ""
+"Programming languages I use regularly are PHP, SQL and JavaScript, but I "
+"also know some basics of Perl, Python, C, C++ and more. With my experience, "
+"I'm able to quickly adapt and work with new languages, when necessary."
+msgstr ""
+
+#: about.php:40
+msgid ""
+"Before I got into coding and server management, I contributed German "
+"translation to various open-source projects since the end of 2011."
+msgstr ""
+
+#: about.php:41
+#, php-format
+msgid ""
+"I'm %s and have a good understanding of cybersecurity threats. I "
+"continuously broaden my knowledge in this field, because I consider this "
+"essential and fun. This site would probably not exist, were it not for my "
+"passion for cybersecurity and hacking. Like many good parents, mine were "
+"strict about my internet usage. So I had to become creative in finding ways "
+"of gaining access to the internet, even when the timer already expired. Thus "
+"I was learning about hacking, darknet and network security at a very early "
+"age."
+msgstr ""
+
+#: about.php:42
+#, php-format
+msgid ""
+"Managing servers and email services and developing new web projects is what "
+"I thrive on. I like optimizing systems for performance and getting the best "
+"out of what I have. Do you need help with managing and optimizing your "
+"infrastructure or website? %s."
+msgstr ""
+
+#: about.php:42
+msgid "I'm available for hire"
+msgstr ""
+
+#: about.php:43
+msgid "Profiles on other sites that I am active on:"
+msgstr ""
+
+#: about.php:55
+msgid "About this site"
+msgstr ""
+
+#: about.php:56
+msgid ""
+"This is my site, that I develop in my free time. I started development of "
+"this site in August/September 2013 when I wanted to have a platform to host "
+"files on, to use at school."
+msgstr ""
+
+#: about.php:57
+#, php-format
+msgid ""
+"Quickly the idea of using a chat at school came up, and I came across a "
+"simple Perl chat script called %s. When I deployed that on my Raspberry Pi, "
+"it was running very slowly and wasn't usable for use by several people. So I "
+"decided to port some parts I needed to PHP."
+msgstr ""
+
+#: about.php:58
+#, php-format
+msgid ""
+"This has been the start for me to get deeper into web development and I have "
+"since open-sourced that chat script and several other scripts of this site "
+"on my %s account. Since then, I have added many new features and improved "
+"reliability and my code a lot."
+msgstr ""
+
+#: about.php:59
+msgid ""
+"I used to offer free file hosting, an URL shortener, a chat and even a free "
+"darknet web hosting service. All these projects have taught me a lot about "
+"coding, security and server management. As of now, only the anonymous email "
+"and XMPP hosting, as well as the onion link list are still actively "
+"maintained."
+msgstr ""
+
+#: about.php:60
+msgid "About the setup"
+msgstr ""
+
+#: about.php:61
+msgid "Hosting providers I use(ed) and servers hosted there:"
+msgstr ""
+
+#: about.php:63
+#, php-format
+msgid ""
+"%s - good for short-term and/or low-bandwidth projects. They also offer a %s"
+msgstr ""
+
+#: about.php:63
+msgid "Free Tier Program for businesses"
+msgstr ""
+
+#: about.php:64
+#, php-format
+msgid "%s - good for short-term and/or low-bandwidth projects"
+msgstr ""
+
+#: about.php:65
+#, php-format
+msgid "%s - (Used for my clearnet gateway) - good and reliable"
+msgstr ""
+
+#: about.php:66
+#, php-format
+msgid ""
+"%s - (Used for my clearnet gateway + Domain registration) - good and "
+"reliable, hosted in my city"
+msgstr ""
+
+#: about.php:67
+msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
+msgstr ""
+
+#: about.php:74
+msgid ""
+"A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
+"phone next to it"
+msgstr ""
+
+#: about.php:77
+msgid ""
+"In the image on the left, you can see my current home server setup. I have 4 "
+"Raspberry Pi 4s, which all have a 500GB SSD attached to them. Each SSD has "
+"16GB allocated to OS and applications while the rest of the space is used "
+"for Ceph OSDs. On top of my rack, I have an internet router, which is "
+"connected to the fastest broadband internet connection available to me. "
+"Although I hardly use my landline phone, I have a FeTAp 611-2 (yes it still "
+"works, in the 80s things were built to last). As my router no longer "
+"supports a pulse dial, I had to get a converter to translate pulse signals "
+"into modern DTMF."
+msgstr ""
+
+#: about.php:78
+msgid ""
+"The operating system I use is Debian sid. To share data between all servers, "
+"I deployed a CephFS for distributed and redundant file storage, as well as a "
+"MariaDB Galera cluster."
+msgstr ""
+
+#: about.php:79
+#, php-format
+msgid ""
+"The clearnet gateways on %s are an NginX Proxy that will forward all "
+"requests to the Raspberry Pis at home. Additionally, they run a Postfix "
+"instance only listening on the VPN network to send emails to clearnet."
+msgstr ""
+
+#: about.php:80
+msgid "All servers are interconnected with a Wireguard VPN."
+msgstr ""
+
+#: about.php:81
+msgid ""
+"Backups are very important too, thus I use BorgBackup on all my devices to "
+"regularly create an encrypted backup, stored on remote backup storage, which "
+"takes regular snapshots, ensuring recoverability in case of backup failures."
+msgstr ""
+
+#: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
+msgid ""
+"GitHub IPv6 proxy allows downloading GitHub repositories on IPv6 only servers"
+msgstr ""
+
+#: github-ipv6-proxy.php:34
+#, php-format
+msgid ""
+"Recently I had to clone a git repository on GitHub via an IPv6 only server "
+"that I rented at my favourite hosting provider %1$s. Unfortunately I "
+"realized that GitHub still %2$s."
+msgstr ""
+
+#: github-ipv6-proxy.php:34
+msgid "does not support IPv6"
+msgstr ""
+
+#: github-ipv6-proxy.php:35
+msgid ""
+"My workaround was setting up a WireGuard VPN with one of my dual-stack "
+"servers. An alternative could have been installing Tor to download "
+"anonymously."
+msgstr ""
+
+#: github-ipv6-proxy.php:36
+msgid ""
+"As I'm by far not the only user with an IPv6 only server looking to download "
+"repositories from GitHub, I decided to provide a public proxy server that "
+"can be used to access GitHub on an IPv6 network, until GitHub provides "
+"native IPv6 support. The proxy is only available on IPv6, to prevent IPv4 "
+"users from using unnecessary resources, as they can already clone from "
+"GitHub directly."
+msgstr ""
+
+#: github-ipv6-proxy.php:37
+msgid ""
+"Note, that my https proxy is serving a ssl certificate issued for my domain, "
+"which means I decrypt and re-encrypt your traffic (and could potentially "
+"look into it, but I don't). It is necessary as you'd get an invalid ssl "
+"certificate warning otherwise + github would redirect to the default port "
+"after accepting it. See below for a more permanent solution, that's more "
+"privacy-friendly."
+msgstr ""
+
+#: github-ipv6-proxy.php:38
+#, php-format
+msgid ""
+"So how does it work? Let's assume we want to clone the PHP Chat script I've "
+"published at %s. Normally cloning the repository would look like this:"
+msgstr ""
+
+#: github-ipv6-proxy.php:40
+msgid "On an IPv6 connection, you can use my proxy service like this:"
+msgstr ""
+
+#: github-ipv6-proxy.php:42
+msgid "And if you would like to clone via ssh you can also do it like this:"
+msgstr ""
+
+#: github-ipv6-proxy.php:44
+msgid ""
+"Those wanting to use the proxy more permanently and/or talk directly to "
+"GitHub, without me re-encrypting your traffic, should add the following to /"
+"etc/hosts:"
+msgstr ""
+
+#: github-ipv6-proxy.php:53
+msgid "Once added, you can clone as usual, without any changes:"
+msgstr ""
+
+#: github-ipv6-proxy.php:56
+msgid ""
+"All of this is done with the following nginx configuration on a dual stack "
+"server:"
+msgstr ""
+
+#: github-ipv6-proxy.php:102 chat/index.php:32
+#, php-format
+msgid "If there are any further questions, %s."
+msgstr ""
+
+#: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
+#: blog/dane/index.php:74
+msgid "contact me"
+msgstr ""
+
+#: contact.php:6 contact.php:15
+msgid "Daniel - Contact"
+msgstr ""
+
+#: contact.php:10 contact.php:16
+msgid "Contact Daniel Winzen"
+msgstr ""
+
+#: contact.php:27 common.php:128
+msgid "Contact"
+msgstr ""
+
+#: contact.php:28
+msgid ""
+"You can send me a message here. Don't forget to leave a contact option, if "
+"you want me to answer."
+msgstr ""
+
+#: contact.php:30
+msgid "Name:"
+msgstr ""
+
+#: contact.php:33
+msgid "Honeypot (do not fill anything):"
+msgstr ""
+
+#: contact.php:34
+msgid "Your email:"
+msgstr ""
+
+#: contact.php:37
+msgid "Subject:"
+msgstr ""
+
+#: contact.php:40
+msgid "Message:"
+msgstr ""
+
+#: contact.php:43
+#, php-format
+msgid "I have read and agreed to the %s"
+msgstr ""
+
+#: contact.php:43
+msgid "Privacy Policy"
+msgstr ""
+
+#: contact.php:44
+msgid "Send"
+msgstr ""
+
+#: contact.php:60
+msgid "You filled out the honeypot field :( Are you a human?"
+msgstr ""
+
+#: contact.php:64
+msgid "You haven't entered a message yet."
+msgstr ""
+
+#: contact.php:76
+msgid "Message successfully sent!"
+msgstr ""
+
+#: contact.php:82
+#, php-format
+msgid "If you want to encrypt your message, you can use %s."
+msgstr ""
+
+#: contact.php:82
+msgid "my public PGP key"
+msgstr ""
+
+#: contact.php:83
+#, php-format
+msgid "If you prefer to directly get in contact with me, email me at %s."
+msgstr ""
+
+#: faq.php:6 faq.php:14
+msgid "Daniel - FAQ - Frequently Asked Questions"
+msgstr ""
+
+#: faq.php:9 faq.php:15
+msgid ""
+"A list of frequently asked questions regarding the services I provide and "
+"their answers"
+msgstr ""
+
+#: faq.php:25
+msgid "FAQ - Frequently Asked Questions"
+msgstr ""
+
+#: faq.php:26
+msgid ""
+"Here you have a list of frequently asked questions regarding the services I "
+"provide and their answers."
+msgstr ""
+
+#: faq.php:29
+msgid "Question"
+msgstr ""
+
+#: faq.php:30
+msgid "Answer"
+msgstr ""
+
+#: faq.php:33
+msgid "What is PGP?"
+msgstr ""
+
+#: faq.php:34
+msgid ""
+"PGP is an encryption program, that can be used to encrypt or sign emails and "
+"files."
+msgstr ""
+
+#: faq.php:34
+msgid "More info in this Wikipedia article"
+msgstr ""
+
+#: faq.php:37
+msgid "I have an idea how to make your site better, can you add feature xyz?"
+msgstr ""
+
+#: faq.php:38
+#, php-format
+msgid ""
+"Yes, please %s and I may add it on my ToDo list. It might take a while until "
+"your feature gets added though."
+msgstr ""
+
+#: faq.php:41
+msgid ""
+"I want to translate your site and services into another language, how can I "
+"do this?"
+msgstr ""
+
+#: faq.php:42
+#, php-format
+msgid ""
+"Please see my %s and check out the individual projects you would like to "
+"translate."
+msgstr ""
+
+#: faq.php:42
+msgid "GitHub repositories"
+msgstr ""
+
+#: faq.php:45
+msgid "I heard of red rooms, live murder streams or similar. Are they real?"
+msgstr ""
+
+#: faq.php:46
+msgid ""
+"No, they are just horror stories people commonly tell you. Many people make "
+"YouTube videos about the \"deep web\" and claim there were sites like these. "
+"However, many scammers jump on the train and create a site where they tell "
+"you to pay bitcoins to gain access. Don't pay, because they simply do not "
+"exist."
+msgstr ""
+
+#: faq.php:49
+msgid ""
+"I heard of the shadow web, marianas web or closed shell network. How can I "
+"access them?"
+msgstr ""
+
+#: faq.php:50
+msgid ""
+"You can't, because they do not exist. Some scammers want to sell it to you "
+"though. Don't pay because you won't get anything in return for your money."
+msgstr ""
+
+#: faq.php:53
+msgid ""
+"Isn't the dark net supposed to be scary and full of creepy shit? Why can't I "
+"find any interesting sites?"
+msgstr ""
+
+#: faq.php:54
+msgid ""
+"No, the Tor darknet was created to be able to anonymously browse the "
+"internet, circumvent censorship and anonymously host websites. Of course, "
+"it's not only used for a good cause. There are many phishing sites, scammers "
+"and child porn sites. But apart from the fact that you are anonymous, there "
+"isn't that much of a difference to the clearnet (normal internet). So most "
+"horror stories you have heard about Tor are just that, stories."
+msgstr ""
+
+#: faq.php:57
+msgid "What's the difference between deep web and darknet?"
+msgstr ""
+
+#: faq.php:58
+msgid ""
+"The deep web is any site that can't be indexed by a search engine, so "
+"basically any site where you have to log in or be part of a private network. "
+"To access a darknet, it requires special software like Tor, I2P or Freenet. "
+"The darknet is a small part of the deep web."
+msgstr ""
+
+#: faq.php:61
+msgid "Can you hold my hands and teach me programming or hacking step by step?"
+msgstr ""
+
+#: faq.php:62
+#, php-format
+msgid ""
+"Teaching you programming or hacking is a task that will take a long time "
+"(years). I've been learning for 10 years and still learn new things all the "
+"time. But for the beginning I would recommend reading a beginners "
+"introduction book, which can guide you with some simple programs you build "
+"yourself and examples. If you prefer watching videos, there are a lot of "
+"tutorials on YouTube too. But most importantly you will have to take your "
+"keyboard and start typing some programs. Start with something simple and "
+"keep yourself challenged with new tasks. You may also enroll in a "
+"professional course on a platform like %s or %s. Good places to start "
+"learning about hacking are %s, %s or %s."
+msgstr ""
+
+#: faq.php:62 tutorials/content-creation/index.php:60
+msgid "Coursera"
+msgstr ""
+
+#: faq.php:62 tutorials/content-creation/index.php:60
+msgid "Udemy"
+msgstr ""
+
+#: faq.php:62
+msgid "Hacker101"
+msgstr ""
+
+#: faq.php:62
+msgid "HackTheBox"
+msgstr ""
+
+#: faq.php:62
+msgid "Hack This Site"
+msgstr ""
+
+#: faq.php:65
+msgid ""
+"Can you hack my school or university and change my grades, or find someone "
+"who would do that?"
+msgstr ""
+
+#: faq.php:66 faq.php:70 faq.php:74
+msgid ""
+"Yes, I would love to go to prison for you! - Ehm, or rather not. Sorry, "
+"can't help you with that."
+msgstr ""
+
+#: faq.php:69
+msgid ""
+"Can you give me, or tell me where to reliably get stolen PayPal accounts or "
+"credit cards?"
+msgstr ""
+
+#: faq.php:73
+msgid "Can you do some other illegal things for me?"
+msgstr ""
+
+#: faq.php:77
+msgid "Can you hack my girlfriend? I think she's cheating."
+msgstr ""
+
+#: faq.php:78
+msgid ""
+"Yes, I could try, but I won't. Don't trust the many sites that claim to give "
+"you that, because they are all scams. This is ethically just wrong and is "
+"more likely going to hurt your relationship than helping you. Talk to her, "
+"it's the best you can do. If you are at the point of thinking to hire a "
+"hacker, you should definitely think about breaking up, because relationships "
+"are based on trust, but obviously you can't trust anymore."
+msgstr ""
+
+#: faq.php:81
+msgid "My email doesn't get sent. I'm getting an error about TLS"
+msgstr ""
+
+#: faq.php:82
+#, php-format
+msgid ""
+"You've tried sending an email to a mail server that doesn't accept emails "
+"via encrypted transfer, or is using insecure protocols. This is very "
+"unfortunate, because it would leak your email content to anyone on the "
+"internet, who can intercept your email before it reaches the destination. "
+"You can disable mandatory encryption in your %s, if you still need to send "
+"this email."
+msgstr ""
+
+#: faq.php:82 faq.php:86
+msgid "account settings"
+msgstr ""
+
+#: faq.php:85
+msgid "I can't receive email, the sender gets an error about TLS"
+msgstr ""
+
+#: faq.php:86
+#, php-format
+msgid ""
+"Someone tried emailing you from a mail server that doesn't support sending "
+"emails via encrypted transfer, or is using insecure protocols. This is very "
+"unfortunate, because it would leak your email content to anyone on the "
+"internet, who can intercept your email before it reaches the destination. "
+"You can disable mandatory encryption in your %s, if you still need to "
+"receive this email."
+msgstr ""
+
+#: faq.php:89
+msgid ""
+"I'm in debt and I need to get money fast. How can I quickly make some money?"
+msgstr ""
+
+#: faq.php:90
+#, php-format
+msgid ""
+"Becoming rich and clearing your debts is a process that starts in your head. "
+"Chances of becoming rich overnight are extremely low, you should rather "
+"focus on long term goals. It may take you a few years to become financially "
+"free, but everyone can get there, if you are willing to learn and educate "
+"yourself. I made an in-depth tutorial about some steps you can take: %s."
+msgstr ""
+
+#: faq.php:90 tutorials/get-rich-fast/index.php:6
+#: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
+#: tutorials/get-rich-fast/index.php:35 tutorials/index.php:32
+msgid "How to get rich (fast)"
+msgstr ""
+
+#: faq.php:93
+msgid "I want to sell my kidney, can you help me?"
+msgstr ""
+
+#: faq.php:94
+#, php-format
+msgid ""
+"In most countries, selling organs is illegal. So if you succeed in finding a "
+"doctor that would agree to take out your organs, and have a buyer, then both "
+"of them are risking several years of prison time. For them, it is much safer "
+"and easier to kill you while taking your organs, to prevent you from telling "
+"anyone, and of course not having to pay you. Your motive is most likely "
+"financial gain. However, when you sell your kidney, you can expect to be "
+"paid only a fraction of its worth. For a more detailed answer, you may want "
+"to read %s."
+msgstr ""
+
+#: faq.php:94
+msgid "this Wikipedia article"
+msgstr ""
+
+#: faq.php:97
+msgid "How can I veryify that you are still in control of your server?"
+msgstr ""
+
+#: faq.php:98 privacy.php:65
+#, php-format
+msgid ""
+"To make sure your data is safe and I am still in controll of my server, you "
+"can verify my %1$s with my %2$s."
+msgstr ""
+
+#: faq.php:98 privacy.php:65
+msgid "warrant canary"
+msgstr ""
+
+#: faq.php:98 privacy.php:65
+msgid "PGP key"
+msgstr ""
+
+#: faq.php:101
+msgid "I have more Questions."
+msgstr ""
+
+#: faq.php:102
+msgid "Contact me"
+msgstr ""
+
+#: common.php:110
+msgid "Toggle navigation"
+msgstr ""
+
+#: common.php:122 blog/index.php:27
+msgid "Blog and news"
+msgstr ""
+
+#: common.php:123
+msgid "E-Mail + XMPP"
+msgstr ""
+
+#: common.php:124 tutorials/index.php:27
+msgid "Tutorials"
+msgstr ""
+
+#: common.php:126
+msgid "FAQ"
+msgstr ""
+
+#: common.php:129
+msgid "Privacy"
+msgstr ""
+
+#: common.php:141
+msgid "Add translation"
+msgstr ""
+
+#: new-domain.php:6 new-domain.php:17 new-domain.php:27
+msgid "Daniel - New domain"
+msgstr ""
+
+#: new-domain.php:10 new-domain.php:18
+msgid "We moved to a brand new domain - migrate your accounts"
+msgstr ""
+
+#: new-domain.php:29 blog/index.php:39
+msgid "New domain - DanWin1210.Me is now DanWin1210.De"
+msgstr ""
+
+#: new-domain.php:30
+msgid "Why this sudden and drastic change?"
+msgstr ""
+
+#: new-domain.php:31
+msgid ""
+"In mid-October 2021 I noticed that I was locked out of my registrar's "
+"control panel (Namecheap Inc.) for <q>suspected fraud, a chargeback or some "
+"similar violation of our terms of service</q>. After contacting their "
+"customer support multiple times, even after more than a year, all I have "
+"ever gotten back from them is that I will hear from them soon, as they need "
+"more time to investigate, and they appreciate my patience. I was refused "
+"renewing the domain or moving to a different registrar."
+msgstr ""
+
+#: new-domain.php:32
+msgid ""
+"Given that I was unable to get a satisfying answer and the old domain was "
+"due to expire, I went ahead and bought the new domain danwin1210.de, to "
+"switch over to. danwin1210.me went down after expiry, but thankfully I was "
+"allowed to pay for extension by creating a new account and depositing the "
+"money for renewal there, so it was back up shortly afterwards."
+msgstr ""
+
+#: new-domain.php:33
+msgid ""
+"After a year my domain was due expiry again, so I enquired if I could move "
+"to a different registrar now. They offered me again to pay via an alternate "
+"account, because: <q>Unfortunately, we need more time to investigate your "
+"issue.</q> A year should be more than enough time to solve whatever issue "
+"they might have with my account… This time I decided to let it expire for "
+"good, since almost everyone should have switched over to the new domain by "
+"now."
+msgstr ""
+
+#: new-domain.php:34
+msgid "What does it mean for users?"
+msgstr ""
+
+#: new-domain.php:35
+msgid ""
+"You don't have an account and just browse the site? Not much will change, "
+"just the address in your browsers URL bar."
+msgstr ""
+
+#: new-domain.php:36
+msgid ""
+"You are using the XMPP/E-Mail service? I'm sorry, but this will likely cause "
+"you some struggles, as you now only have a few days left to migrate all your "
+"contacts/accounts to the new address. Any service where you registered with "
+"your email address will need to be updated to reflect the new domain. You "
+"might otherwise get locked out of your accounts, if they require you to e.g. "
+"click a link in your email for login."
+msgstr ""
+
+#: new-domain.php:37
+#, php-format
+msgid ""
+"E-Mail users should also update their PGP key %s to reflect the new domain "
+"and allow WKD clients to grab your key automatically."
+msgstr ""
+
+#: new-domain.php:37
+msgid "in their account settings"
+msgstr ""
+
+#: new-domain.php:38
+msgid ""
+"You can no longer login with your .me user credentials, only with the .de "
+"ones, as the old domain is no longer under my control."
+msgstr ""
+
+#: new-domain.php:39
+msgid "Will the old address still work?"
+msgstr ""
+
+#: new-domain.php:40
+msgid ""
+"After a very brief downtime, it was back online. Now, after a year, it's "
+"expired once more. I may be able to buy it again after Namecheap returns the "
+"domain to the registry. However, Namecheap apparently sells the domain now "
+"for $400…"
+msgstr ""
+
+#: new-domain.php:41
+msgid ""
+"How do I know you are still the same person? This could be law enforcement "
+"taking over the servers."
+msgstr ""
+
+#: new-domain.php:42
+#, php-format
+msgid ""
+"I have taken the opportunity to create a %1$s and signed it with my %2$s. "
+"This can be verified by running a command like this:"
+msgstr ""
+
+#: new-domain.php:42
+msgid "new PGP key"
+msgstr ""
+
+#: new-domain.php:42
+msgid "old PGP key"
+msgstr ""
+
+#: new-domain.php:44
+#, php-format
+msgid ""
+"It should show proof that it is signed by my old key %s. I have also "
+"included signatures of previous keys on my old key, so you can even verify "
+"the key, in case you have an older key I was using before."
+msgstr ""
+
+#: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
+#: hosting/index.php:27
+msgid "Daniel's Hosting shutdown after hack"
+msgstr ""
+
+#: hosting/index.php:10 hosting/index.php:16
+msgid "Daniel's Hosting - a former darknet web hosting service"
+msgstr ""
+
+#: hosting/index.php:28
+#, php-format
+msgid ""
+"In March 2020 a hacker deleted all databases related to my hosting, thus I "
+"was forced to shut down my hosting service. If you want to contribute or "
+"setup your own hosting, check out my open source project at %s."
+msgstr ""
+
+#: hosting/index.php:29
+#, php-format
+msgid ""
+"Being a darknet hoster has taught me many things. However, this was a free "
+"time project I did next to my full time job and it's very time-consuming to "
+"try and keep the server clean from illegal and scammy sites. I've spent 10 "
+"times more time on deleting accounts than I could find time to continue "
+"development. At this time I do not plan on continuing the hosting project, "
+"but this doesn't have to be the end. There are other hosting providers like "
+"%1$s, %2$s, %3$s or a clearnet proxy service %4$s and my project is %5$s, "
+"which should enable anyone willing to become the next darknet shared hosting "
+"provider to start where I left of."
+msgstr ""
+
+#: hosting/index.php:29
+msgid "available for download"
+msgstr ""
+
+#: privacy.php:6 privacy.php:15 privacy.php:25
+msgid "Daniel - Privacy policy"
+msgstr ""
+
+#: privacy.php:10 privacy.php:16
+msgid "Privacy policy of Daniel Winzen"
+msgstr ""
+
+#: privacy.php:27
+msgid "Privacy policy"
+msgstr ""
+
+#: privacy.php:28
+msgid "1. Name and Address of the controller"
+msgstr ""
+
+#: privacy.php:29
+msgid ""
+"Controller for the purposes of the General Data Protection Regulation "
+"(GDPR), other data protection laws applicable in Member states of the "
+"European Union and other provisions related to data protection is:"
+msgstr ""
+
+#: privacy.php:36
+#, php-format
+msgid "Website: %s"
+msgstr ""
+
+#: privacy.php:38
+msgid "2. Cookies"
+msgstr ""
+
+#: privacy.php:39
+msgid ""
+"The Internet pages of Daniel Winzen use cookies. Cookies are text files that "
+"are stored in a computer system via an Internet browser."
+msgstr ""
+
+#: privacy.php:40
+msgid ""
+"Many Internet sites and servers use cookies. Many cookies contain a so-"
+"called cookie ID. A cookie ID is a unique identifier of the cookie. It "
+"consists of a character string through which Internet pages and servers can "
+"be assigned to the specific Internet browser in which the cookie was stored. "
+"This allows visited Internet sites and servers to differentiate the "
+"individual browser of the data subject from other Internet browsers that "
+"contain other cookies. A specific Internet browser can be recognized and "
+"identified using the unique cookie ID."
+msgstr ""
+
+#: privacy.php:41
+msgid ""
+"Through the use of cookies, Daniel Winzen can provide the users of this "
+"website with more user-friendly services that would not be possible without "
+"the cookie setting."
+msgstr ""
+
+#: privacy.php:42
+msgid ""
+"By means of a cookie, the information and offers on my website can be "
+"optimized with the user in mind. Cookies allow me, as previously mentioned, "
+"to recognize my website users. The purpose of this recognition is to make it "
+"easier for users to utilize my website. An example for the use of a cookie "
+"is when you log in to the mail client, the cookie assures that you stay "
+"logged in with your account until closing your browser or logging out."
+msgstr ""
+
+#: privacy.php:43
+msgid ""
+"This site makes only use of technically necessary session cookies and does "
+"not use any form of tracking cookies."
+msgstr ""
+
+#: privacy.php:44
+msgid ""
+"The data subject may, at any time, prevent the setting of cookies through my "
+"website by means of a corresponding setting of the Internet browser used, "
+"and may thus permanently deny the setting of cookies. Furthermore, already "
+"set cookies may be deleted at any time via an Internet browser or other "
+"software programs. This is possible in all popular Internet browsers. If the "
+"data subject deactivates the setting of cookies in the Internet browser "
+"used, not all functions of my website may be entirely usable."
+msgstr ""
+
+#: privacy.php:45
+msgid "3. Collection of general data and information"
+msgstr ""
+
+#: privacy.php:46
+msgid ""
+"The server of Daniel Winzen collects a series of general data and "
+"information when a data subject or automated system calls up the website or "
+"other provided services. This general data and information is stored in the "
+"server log files. Collected may be (1) the browser types and versions used, "
+"(2) the operating system used by the accessing system, (3) the website from "
+"which an accessing system reaches my website (so-called referrers), (4) the "
+"sub-websites, (5) the date and time of access to the Internet site / email "
+"transmission, (6) sender and recipient of an email, (7) IP address, and (8) "
+"any other similar data and information that may be used in the event of "
+"attacks on my information technology systems."
+msgstr ""
+
+#: privacy.php:47
+msgid ""
+"When using these general data and information, Daniel Winzen does not draw "
+"any conclusions about the data subject. Rather, this information is needed "
+"to (1) deliver the content of my website and services correctly, (2) "
+"optimize my services, (3) ensure the long-term viability of my information "
+"technology systems and website technology. Therefore, I may analyze "
+"anonymously collected data and information statistically, with the aim of "
+"increasing the data protection and data security of my services, and to "
+"ensure an optimal level of protection for the personal data I process. The "
+"general data of the server log files are stored separately from all personal "
+"data provided by a data subject for up to 48 hours and are then permanently "
+"deleted."
+msgstr ""
+
+#: privacy.php:48
+msgid "4. Routine erasure and blocking of personal data"
+msgstr ""
+
+#: privacy.php:49
+msgid ""
+"The data controller shall process and store the personal data of the data "
+"subject only for the period necessary to achieve the purpose of storage, or "
+"as far as this is granted by the European legislator or other legislators in "
+"laws or regulations to which the controller is subject to."
+msgstr ""
+
+#: privacy.php:50
+msgid ""
+"If the storage purpose is not applicable, or if a storage period prescribed "
+"by the European legislator or another competent legislator expires, the "
+"personal data are routinely erased in accordance with legal requirements."
+msgstr ""
+
+#: privacy.php:51
+msgid "5. Rights of the data subject"
+msgstr ""
+
+#: privacy.php:52
+msgid ""
+"Each data subject shall have the right of confirmation and access according "
+"to Article 15 GDPR, Right to rectification according to Article 16 GDPR, "
+"Right to erasure (Right to be forgotten) according to Article 17 GDPR, Right "
+"of restriction of processing according to Article 18 GDPR, Right to data "
+"portability according to GDPR article 20, Right to object according to "
+"Article 21 GDPR"
+msgstr ""
+
+#: privacy.php:53
+msgid "6. Legal basis for the processing"
+msgstr ""
+
+#: privacy.php:54
+msgid ""
+"Art. 6(1) lit. a GDPR serves as the legal basis for processing operations "
+"for which I obtain consent for a specific processing purpose. If the "
+"processing of personal data is necessary for the performance of a contract "
+"to which the data subject is party, as is the case, for example, when "
+"processing operations are necessary to provide services, the processing is "
+"based on Article 6(1) lit. b GDPR. The same applies to such processing "
+"operations which are necessary for carrying out pre-contractual measures, "
+"for example in the case of inquiries concerning my services. If I am subject "
+"to a legal obligation by which processing of personal data is required, such "
+"as for the fulfillment of tax obligations, the processing is based on Art. "
+"6(1) lit. c GDPR."
+msgstr ""
+
+#: privacy.php:55
+msgid ""
+"Finally, processing operations could be based on Article 6(1) lit. f GDPR. "
+"This legal basis is used for processing operations which are not covered by "
+"any of the above-mentioned legal grounds, if processing is necessary for the "
+"purposes of the legitimate interests pursued by me or by a third party, "
+"except where such interests are overridden by the interests or fundamental "
+"rights and freedoms of the data subject which require protection of personal "
+"data. Such processing operations are particularly permissible because they "
+"have been specifically mentioned by the European legislator. He considered "
+"that a legitimate interest could be assumed if the data subject is a client "
+"of the controller (Recital 47 Sentence 2 GDPR)."
+msgstr ""
+
+#: privacy.php:56
+msgid "7. Legally binding translation"
+msgstr ""
+
+#: privacy.php:57
+msgid "Legally binding is only the English version of this privacy policy"
+msgstr ""
+
+#: privacy.php:58
+msgid "8. List of sub-processors"
+msgstr ""
+
+#: privacy.php:60
+msgid "Vendor"
+msgstr ""
+
+#: privacy.php:60
+msgid "Purpose"
+msgstr ""
+
+#: privacy.php:61
+msgid "Providing server infrastructure and backup storage"
+msgstr ""
+
+#: privacy.php:62
+msgid "Providing server infrastructure"
+msgstr ""
+
+#: privacy.php:64
+msgid "9. Warrant canary"
+msgstr ""
+
+#: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:38
+msgid "Daniel's Chat shutdown"
+msgstr ""
+
+#: chat/index.php:10 chat/index.php:16
+msgid "Daniel's Chat - a former darknet chat community"
+msgstr ""
+
+#: chat/index.php:25
+msgid "Daniel' Chat shutdown"
+msgstr ""
+
+#: chat/index.php:28
+msgid "After 9 years, I'm shutting down the chat for good."
+msgstr ""
+
+#: chat/index.php:29
+#, php-format
+msgid ""
+"If you are interested in running a similar chat community, you can download "
+"my chat script on %s."
+msgstr ""
+
+#: chat/index.php:30
+msgid ""
+"This chat started as a hobby project for use in school in 2013 and evolved "
+"into a very active darknet chat community. I handed over chat administration "
+"to various other people since 2017, as I was no longer able to find the time "
+"or motivation to administrate the chat. In recent months, the administration "
+"that took over, kept the chat very private, made people spend hours waiting "
+"to get access and randomly kicked people for no reason. This in turn filled "
+"my inbox with messages of people asking for assistance to access the chat "
+"and traffic has decreased to a fraction of what it used to be. In this "
+"state, it doesn't make sense to continue providing the service. Thus I "
+"decided to shut down the chat for good in December 2022, after 9 years."
+msgstr ""
+
+#: chat/index.php:31
+msgid ""
+"Since a few people asked me to make them admin and re-enable the chat: No, "
+"this decision has been made and was long overdue. The chat had nothing at "
+"all to do with me anymore, except that I've programmed it and I maintain the "
+"server. Anyone is welcome to create their own chat, but not here on my site."
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:6
+#: blog/onion-link-list-shutdown/index.php:15
+#: blog/onion-link-list-shutdown/index.php:25
+#: blog/onion-link-list-shutdown/index.php:27 blog/index.php:37
+msgid "Onion link list shutdown"
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:10
+#: blog/onion-link-list-shutdown/index.php:16
+msgid "Onion link list by Daniel has been shut down"
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:28
+#, php-format
+msgid ""
+"After many years of maintaining a list of Tor darknet sites, it is time to "
+"move on. I haven't found time to keep the list up-to-date for almost a year. "
+"I still get regularly contacted by people who fell victim to a scam website, "
+"either because it wasn't listed on my site, or because they were not using "
+"this list correctly. Every day hundreds of new sites come out and I can't "
+"keep up with the demand of reviewing every single site, while more than "
+"99% of them are scams anyway."
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:29
+msgid ""
+"If you came here to check the scam status of a site, please exercise "
+"critical thinking. You can easily spot scammers. Nobody will ever give you "
+"more money in return for less. It doesn't make any sense to sell \"stolen\" "
+"cryptocurrencies, given that it is very easy to use them anonymously. The "
+"only reason you would use an escrow service is trust, but how can you trust "
+"an anonymous darknet escrow service that nobody ever heard of before? If you "
+"still have doubts about the site you are interested in, do a quick search on "
+"your favourite search engine, such as DuckDuckGo or Google. If all you can "
+"come up with is a couple of sites promoting it, it is likely a scam. If you "
+"find a lot of sites linking to it, including social media posts and reviews "
+"in forums, you might have found the real deal."
+msgstr ""
+
+#: blog/onion-link-list-shutdown/index.php:30
+#, php-format
+msgid "You can find an alternative link list at for example %s."
+msgstr ""
+
+#: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
+#: blog/ipv6/index.php:32 blog/index.php:36
+msgid "Embracing IPv6: The Key to a Future-Proof Internet"
+msgstr ""
+
+#: blog/ipv6/index.php:10 blog/ipv6/index.php:21
+msgid ""
+"Discover why implementing IPv6 is crucial for internet-facing services. "
+"Explore the benefits, consequences of not adopting IPv6, and practical "
+"insights on future-proofing your online presence."
+msgstr ""
+
+#: blog/ipv6/index.php:33
+msgid ""
+"In the vast realm of the internet, where connectivity is the lifeblood of "
+"modern society, ensuring a seamless and secure data flow is paramount. "
+"Internet Protocol (IP) addresses serve as digital coordinates, allowing data "
+"packets to find their way across the global network. For decades, IPv4 "
+"(Internet Protocol version 4) has been the backbone of Internet "
+"communication. However, with the internet's exponential growth, IPv4 "
+"addresses are depleting rapidly. That is where IPv6, the next-generation "
+"internet protocol, steps in. In this article, we will explore IPv6 and delve "
+"into why its implementation is vital for internet-facing services."
+msgstr ""
+
+#: blog/ipv6/index.php:34
+msgid "Understanding IPv6"
+msgstr ""
+
+#: blog/ipv6/index.php:35
+msgid ""
+"IPv6, the sixth revision of the Internet Protocol, was developed to succeed "
+"IPv4. Unlike IPv4, which uses 32-bit addresses, IPv6 employs 128-bit "
+"addresses, providing an astronomical number of unique combinations—"
+"approximately 3.4 × 10^38 addresses. To put this into perspective, that’s "
+"enough to assign a unique IP address to every atom on the surface of the "
+"Earth and still have addresses left to spare."
+msgstr ""
+
+#: blog/ipv6/index.php:36
+msgid "The Importance of IPv6 Implementation"
+msgstr ""
+
+#: blog/ipv6/index.php:37
+msgid "Address Space Exhaustion"
+msgstr ""
+
+#: blog/ipv6/index.php:38
+msgid ""
+"The most immediate problem IPv6 addresses is the exhaustion of IPv4 "
+"addresses. With the proliferation of internet-connected devices, from "
+"smartphones to IoT devices, the demand for IP addresses has surged. IPv6 "
+"offers an almost limitless supply of addresses, guaranteeing that every "
+"device can be assigned a unique identifier. This facilitates the growth of "
+"the Internet of Things (IoT) and other interconnected technologies."
+msgstr ""
+
+#: blog/ipv6/index.php:39
+msgid "Enhanced Security"
+msgstr ""
+
+#: blog/ipv6/index.php:40
+msgid ""
+"IPv6 incorporates features like IPsec (Internet Protocol Security) as "
+"standard, providing a robust framework for securing data traffic. With IPv6, "
+"encryption and authentication are seamlessly integrated, offering a more "
+"secure communication environment. This is especially crucial for internet-"
+"facing services, where sensitive data transmission is the norm."
+msgstr ""
+
+#: blog/ipv6/index.php:41
+msgid "Improved Performance"
+msgstr ""
+
+#: blog/ipv6/index.php:42
+msgid ""
+"IPv6 is designed with efficiency in mind. It reduces the complexity of "
+"packet headers, streamlining the routing process and leading to improved "
+"network performance. Internet-facing services leveraging IPv6 can offer "
+"faster and more responsive user experiences, essential for applications "
+"requiring real-time data transmission."
+msgstr ""
+
+#: blog/ipv6/index.php:43
+msgid "Future-Proofing Networks"
+msgstr ""
+
+#: blog/ipv6/index.php:44
+msgid ""
+"As the adoption of IPv6 grows, internet-facing services that embrace this "
+"protocol future-proof their networks. IPv6 readiness ensures that these "
+"services remain accessible and functional as IPv4 addresses become scarcer "
+"and more expensive. It’s a strategic investment in the longevity of digital "
+"infrastructure."
+msgstr ""
+
+#: blog/ipv6/index.php:45
+msgid "SEO and Online Visibility"
+msgstr ""
+
+#: blog/ipv6/index.php:46
+msgid ""
+"Search engines, like Google, recognize IPv6-enabled websites and provide a "
+"slight ranking boost to encourage adoption. IPv6 implementation can, "
+"therefore, positively impact a website’s visibility, making it a valuable "
+"asset for businesses and organizations aiming to reach a broader online "
+"audience."
+msgstr ""
+
+#: blog/ipv6/index.php:47
+msgid "Consequences of not implementing IPv6"
+msgstr ""
+
+#: blog/ipv6/index.php:48
+msgid ""
+"One of the primary repercussions is the service's inaccessibility to users "
+"on IPv6-only networks. As more internet service providers and mobile "
+"networks transition to IPv6, users relying solely on IPv6 addresses would "
+"find themselves unable to connect to websites and applications that have not "
+"adopted this protocol. Consequently, businesses risk alienating a growing "
+"segment of their audience, leading to diminished user engagement and "
+"potential revenue loss. Furthermore, such services may experience degraded "
+"online visibility and SEO rankings, as search engines increasingly "
+"prioritize IPv6-enabled websites. In essence, the failure to implement IPv6 "
+"not only hampers inclusivity but also impedes the service's ability to "
+"thrive in a diverse, interconnected digital landscape, ultimately limiting "
+"its reach and relevance."
+msgstr ""
+
+#: blog/ipv6/index.php:49
+#, php-format
+msgid ""
+"One example of a service that is not IPv6-compatible is %1$s, a widely used "
+"platform for hosting code. This means that users on IPv6-only networks are "
+"unable to access it. As someone who has encountered this problem multiple "
+"times, I've had to search for alternative solutions to download code on IPv6-"
+"only networks. For this reason, I have created a %2$s to address this issue."
+msgstr ""
+
+#: blog/ipv6/index.php:50
+msgid "Challenges and Considerations"
+msgstr ""
+
+#: blog/ipv6/index.php:51
+msgid ""
+"While the benefits of IPv6 implementation are clear, there are challenges, "
+"such as the need for network upgrades and the requirement for IPv4-IPv6 "
+"coexistence during the transition period. However, these challenges are "
+"outweighed by the advantages and long-term sustainability that IPv6 offers."
+msgstr ""
+
+#: blog/ipv6/index.php:52
+msgid ""
+"It is essential to understand that IPv6 is not just a technical upgrade but "
+"a necessity. Organizations that transition their internet-facing services to "
+"IPv6 are positioning themselves at the forefront of the digital landscape "
+"that demands scalability, security, and innovation. Adapting to IPv6 is not "
+"just about embracing change; it is about shaping the future of the internet. "
+"By doing so, we can create a resilient, secure, and interconnected network - "
+"one step at a time."
+msgstr ""
+
+#: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/cluster/index.php:68
+#: blog/dane/index.php:73
+msgid "Hire an expert"
+msgstr ""
+
+#: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
+#: blog/dane/index.php:74
+#, php-format
+msgid ""
+"If you're considering implementing this for your business, don't hesitate to "
+"seek help from an expert. Please %s for assistance and consultation with "
+"your implementation."
+msgstr ""
+
+#: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
+#: blog/dnssec/index.php:32 blog/index.php:35
+msgid "Securing the Web: Unraveling the Power of DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:10 blog/dnssec/index.php:21
+msgid ""
+"Explore the power of DNSSEC in fortifying online security. Learn how to "
+"implement DNSSEC and safeguard your digital presence against cyber threats. "
+"Secure your future in the digital landscape."
+msgstr ""
+
+#: blog/dnssec/index.php:33
+msgid ""
+"Ensuring the security and integrity of data is paramount. Domain Name System "
+"Security Extensions (DNSSEC) stands as the stalwart guardian, fortifying the "
+"digital realm against malicious threats and ensuring that users can trust "
+"the information they receive. In this article, we embark on a journey to "
+"unravel the significance of DNSSEC, exploring its functionalities, benefits, "
+"and the imperative need for its widespread implementation."
+msgstr ""
+
+#: blog/dnssec/index.php:34
+msgid "Understanding DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:35
+msgid ""
+"DNSSEC is a groundbreaking technology designed to protect internet users "
+"from various cyber threats, such as DNS spoofing and man-in-the-middle "
+"attacks. By adding a layer of security to the Domain Name System (DNS), "
+"DNSSEC ensures that the web addresses users visit are authentic and "
+"unaltered. It achieves this through cryptographic signatures, guaranteeing "
+"the legitimacy of the information users receive and enhancing their online "
+"trust."
+msgstr ""
+
+#: blog/dnssec/index.php:36
+msgid "The Importance of DNSSEC Implementation"
+msgstr ""
+
+#: blog/dnssec/index.php:37
+msgid "Enhanced Data Integrity"
+msgstr ""
+
+#: blog/dnssec/index.php:38
+msgid ""
+"DNSSEC uses cryptographic signatures to verify the authenticity of DNS data, "
+"safeguarding users from malicious manipulations. This ensures that the "
+"websites they access are indeed what they claim to be, preventing phishing "
+"attacks and unauthorized domain redirections."
+msgstr ""
+
+#: blog/dnssec/index.php:39
+msgid "Protection Against Cache Poisoning"
+msgstr ""
+
+#: blog/dnssec/index.php:40
+msgid ""
+"DNS cache poisoning is a common tactic used by hackers to redirect users to "
+"malicious websites. DNSSEC mitigates this risk by validating the "
+"authenticity of DNS responses, making it significantly harder for attackers "
+"to manipulate the DNS cache and redirect users unknowingly."
+msgstr ""
+
+#: blog/dnssec/index.php:41
+msgid "Securing Sensitive Transactions"
+msgstr ""
+
+#: blog/dnssec/index.php:42
+msgid ""
+"For websites handling sensitive information, such as online banking "
+"platforms and e-commerce sites, DNSSEC is indispensable. It ensures that "
+"users are securely connected to the intended servers, reducing the risk of "
+"data breaches and ensuring confidential transactions remain private."
+msgstr ""
+
+#: blog/dnssec/index.php:43
+msgid "Building User Trust"
+msgstr ""
+
+#: blog/dnssec/index.php:44
+msgid ""
+"In the age of digital scepticism, DNSSEC plays a pivotal role in building "
+"trust between users and online services. Services that have implemented "
+"DNSSEC demonstrate a commitment to online security, instilling confidence in "
+"users and encouraging them to engage more freely in online activities."
+msgstr ""
+
+#: blog/dnssec/index.php:45
+msgid "The Consequences of Ignoring DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:46
+msgid ""
+"Failing to implement DNSSEC leaves websites and users susceptible to a "
+"myriad of cyber threats. From DNS spoofing attacks, where users are "
+"redirected to fraudulent websites, to man-in-the-middle attacks, where "
+"sensitive data is intercepted, the consequences of neglecting DNSSEC can be "
+"severe. Moreover, businesses risk tarnishing their online reputation and "
+"customer trust, leading to potential financial losses and legal "
+"ramifications in case of data breaches."
+msgstr ""
+
+#: blog/dnssec/index.php:47 blog/dane/index.php:71
+msgid "Conclusion"
+msgstr ""
+
+#: blog/dnssec/index.php:48
+msgid ""
+"In an era where digital threats are abundant, DNSSEC serves as a beacon of "
+"security, guiding the internet towards a safer future. Its implementation is "
+"not just a technical upgrade but a strategic necessity, ensuring the "
+"sanctity of online interactions and bolstering the trust users place in the "
+"digital landscape. Embracing DNSSEC isn't merely a choice but a commitment "
+"to a secure, trustworthy, and resilient internet. As businesses and "
+"individuals, understanding its significance and integrating it into our "
+"digital practices is key to fortifying the web and securing a safer online "
+"experience for everyone."
+msgstr ""
+
+#: blog/dnssec/index.php:49
+msgid "Implementing DNSSEC"
+msgstr ""
+
+#: blog/dnssec/index.php:50
+msgid ""
+"Enabling DNSSEC for your domain can be straightforward, especially with DNS "
+"management providers like Cloudflare, GoDaddy, or nameserver software like "
+"BIND. Begin by accessing your provider's dashboard or BIND configuration "
+"file. Look for DNSSEC settings, usually found under domain security or "
+"advanced options. Enable DNSSEC, generate key pairs, and sign your domain "
+"zone. Most providers offer user-friendly interfaces for these tasks."
+msgstr ""
+
+#: blog/dnssec/index.php:51
+msgid ""
+"Next, update your domain registrar's DS (Delegation Signer) records. "
+"Providers often have dedicated sections for DNSSEC, allowing you to input "
+"your DS records. Periodically rolling DNSSEC keys enhances security. Regular "
+"maintenance and support from DNSSEC-friendly providers ensure a robust "
+"online presence."
+msgstr ""
+
+#: blog/index.php:6 blog/index.php:15 blog/index.php:25
+msgid "Daniel - Blog and news"
+msgstr ""
+
+#: blog/index.php:10 blog/index.php:16
+msgid "Blog and news by Daniel Winzen"
+msgstr ""
+
+#: blog/index.php:28
+msgid "Blog posts and news related to my services will be posted here."
+msgstr ""
+
+#: blog/index.php:30
+msgid "Date"
+msgstr ""
+
+#: blog/index.php:30
+msgid "Title"
+msgstr ""
+
+#: blog/index.php:31
+msgid "April 2024"
+msgstr ""
+
+#: blog/index.php:31 blog/cluster/index.php:6 blog/cluster/index.php:21
+#: blog/cluster/index.php:31 blog/cluster/index.php:33
+msgid "Cluster setup"
+msgstr ""
+
+#: blog/index.php:32
+msgid "January 2024"
+msgstr ""
+
+#: blog/index.php:32 blog/email-service-learnings/index.php:6
+#: blog/email-service-learnings/index.php:15
+#: blog/email-service-learnings/index.php:25
+#: blog/email-service-learnings/index.php:27
+msgid "Learnings from running an email service"
+msgstr ""
+
+#: blog/index.php:33
+msgid "December 2023"
+msgstr ""
+
+#: blog/index.php:33 blog/vpn/index.php:6 blog/vpn/index.php:20
+#: blog/vpn/index.php:30 blog/vpn/index.php:32
+msgid "Securing your communication with a VPN"
+msgstr ""
+
+#: blog/index.php:34 blog/index.php:35 blog/index.php:36
+msgid "October 2023"
+msgstr ""
+
+#: blog/index.php:34 blog/dane/index.php:6 blog/dane/index.php:20
+#: blog/dane/index.php:30 blog/dane/index.php:32
+msgid "Fortifying Digital Connections using DANE"
+msgstr ""
+
+#: blog/index.php:37
+msgid "August 2023"
+msgstr ""
+
+#: blog/index.php:38
+msgid "December 2022"
+msgstr ""
+
+#: blog/index.php:39
+msgid "December 2021"
+msgstr ""
+
+#: blog/index.php:40
+msgid "March 2020"
+msgstr ""
+
+#: blog/index.php:40
+msgid "Hosting service shutdown due to hack"
+msgstr ""
+
+#: blog/vpn/index.php:10 blog/vpn/index.php:21
+msgid ""
+"Explore VPN essentials, protocols, and top providers for enhanced online "
+"privacy and security. Stay informed, stay protected."
+msgstr ""
+
+#: blog/vpn/index.php:33
+#, php-format
+msgid ""
+"A %s is a tool that helps ensure your online privacy and safety. It creates "
+"an encrypted tunnel for your data, protects your online identity, lets you "
+"access private networks, and can provide additional perks such as unlocking "
+"geo-restricted content. This article will guide you through the basics of "
+"using a VPN."
+msgstr ""
+
+#: blog/vpn/index.php:33
+msgid "Virtual Private Network"
+msgstr ""
+
+#: blog/vpn/index.php:33
+msgid "VPN"
+msgstr ""
+
+#: blog/vpn/index.php:34
+msgid "Why use a VPN?"
+msgstr ""
+
+#: blog/vpn/index.php:35
+msgid ""
+"In today's era of surveillance and data tracking, it is crucial to maintain "
+"internet privacy. A VPN allows you to:"
+msgstr ""
+
+#: blog/vpn/index.php:37
+msgid ""
+"Maintain privacy: A VPN transmits your data via an encrypted tunnel, making "
+"it unreadable for anyone trying to intercept it."
+msgstr ""
+
+#: blog/vpn/index.php:38
+msgid ""
+"Bypass geographical restrictions: This is one of the most popular uses of "
+"VPNs. VPNs can mask your location, allowing you to access geographically "
+"restricted content."
+msgstr ""
+
+#: blog/vpn/index.php:39
+msgid ""
+"Protection over public Wi-Fi: Public Wi-Fi networks may not be secure and "
+"can expose your data to possible intrusions. A VPN can shield you from such "
+"risks."
+msgstr ""
+
+#: blog/vpn/index.php:40
+msgid ""
+"Avoid throttling: ISPs sometimes throttle bandwidth for certain online "
+"services. A VPN can hide your online activity and thus prevent throttling."
+msgstr ""
+
+#: blog/vpn/index.php:41
+msgid ""
+"Remote Access: With a VPN, businesses can provide their employees with "
+"secure access to company resources anywhere in the world."
+msgstr ""
+
+#: blog/vpn/index.php:43
+msgid "Choosing a VPN"
+msgstr ""
+
+#: blog/vpn/index.php:44
+msgid "When selecting a VPN service, consider the following factors:"
+msgstr ""
+
+#: blog/vpn/index.php:46
+msgid ""
+"Security: Make sure your VPN provider uses high standards of encryption."
+msgstr ""
+
+#: blog/vpn/index.php:47
+msgid ""
+"No-log policy: Your VPN provider should have a no-log policy, meaning they "
+"do not store any details about your online activity."
+msgstr ""
+
+#: blog/vpn/index.php:48
+msgid "Speed: The VPN should not significantly reduce your internet speed."
+msgstr ""
+
+#: blog/vpn/index.php:49
+msgid ""
+"Server Locations: More server locations give you more options to choose "
+"from, especially if you plan to bypass geographical restrictions."
+msgstr ""
+
+#: blog/vpn/index.php:50
+msgid ""
+"Price: While free VPNs exist, they often come with limitations and might "
+"compromise on security."
+msgstr ""
+
+#: blog/vpn/index.php:51
+msgid ""
+"Reputation: Check the reputation of your VPN provider online, before buying "
+"a plan."
+msgstr ""
+
+#: blog/vpn/index.php:53
+msgid "VPN Protocols"
+msgstr ""
+
+#: blog/vpn/index.php:54
+msgid ""
+"When delving into the world of VPNs, understanding the underlying protocols "
+"is paramount. These protocols play a crucial role in determining the "
+"security and performance of your VPN connection."
+msgstr ""
+
+#: blog/vpn/index.php:57
+msgid "WireGuard"
+msgstr ""
+
+#: blog/vpn/index.php:58
+msgid ""
+"Advantages: WireGuard is a popular and efficient VPN known for its speed and "
+"strong security. It achieves this by keeping the codebase minimal and easy "
+"to use."
+msgstr ""
+
+#: blog/vpn/index.php:59
+msgid ""
+"Considerations: Although WireGuard has a modern design and operates "
+"efficiently, it is not yet universally supported."
+msgstr ""
+
+#: blog/vpn/index.php:62
+msgid "OpenVPN"
+msgstr ""
+
+#: blog/vpn/index.php:63
+msgid ""
+"Advantages: OpenVPN is an open-source protocol that supports strong "
+"encryption, making it reliable and flexible for diverse applications."
+msgstr ""
+
+#: blog/vpn/index.php:64
+msgid ""
+"Considerations: Although highly secure, setting up this protocol may be "
+"slightly complex for some users."
+msgstr ""
+
+#: blog/vpn/index.php:67
+msgid "IKEv2/IPsec"
+msgstr ""
+
+#: blog/vpn/index.php:68
+msgid ""
+"Advantages: Known for its speed and efficiency in re-establishing "
+"connections, especially in mobile devices that frequently switch networks, "
+"it offers robust security features and is often preferred for mobile "
+"applications."
+msgstr ""
+
+#: blog/vpn/index.php:69
+msgid ""
+"Considerations: While reliable, it may not be as universally supported as "
+"some other protocols."
+msgstr ""
+
+#: blog/vpn/index.php:72
+msgid "SSTP"
+msgstr ""
+
+#: blog/vpn/index.php:73
+msgid ""
+"Advantages: Microsoft developed SSTP for easy firewall traversal. It uses "
+"SSL/TLS encryption for strong security."
+msgstr ""
+
+#: blog/vpn/index.php:74
+msgid ""
+"Considerations: Limited cross-platform support could be a disadvantage for "
+"users who do not use Windows devices."
+msgstr ""
+
+#: blog/vpn/index.php:77
+msgid "L2TP/IPsec"
+msgstr ""
+
+#: blog/vpn/index.php:78
+msgid ""
+"Advantages: Combining the best of both L2TP and IPsec, this protocol offers "
+"strong security and is natively supported on a wide range of devices. It "
+"provides a good balance between speed and security."
+msgstr ""
+
+#: blog/vpn/index.php:79
+msgid ""
+"Considerations: L2TP/IPsec may not be the quickest option, and if not "
+"configured properly, its security can be compromised."
+msgstr ""
+
+#: blog/vpn/index.php:82
+msgid "PPTP"
+msgstr ""
+
+#: blog/vpn/index.php:83
+msgid ""
+"Advantages: PPTP is easy to set up and generally offers faster connection "
+"speeds than some other protocols."
+msgstr ""
+
+#: blog/vpn/index.php:84
+msgid ""
+"Considerations: Unfortunately, PPTP has several security weaknesses. The "
+"encryption it uses is outdated and vulnerable, making it unsuitable for "
+"ensuring the confidentiality and integrity of sensitive data."
+msgstr ""
+
+#: blog/vpn/index.php:87
+msgid ""
+"Understanding these protocols empowers users to make informed decisions when "
+"selecting a VPN service. The choice of a protocol depends on factors such as "
+"security needs, ease of use, and compatibility with devices. Each protocol "
+"has its strengths, and selecting the right one ensures a secure and reliable "
+"VPN experience."
+msgstr ""
+
+#: blog/vpn/index.php:88
+msgid "Combining VPN and the Tor darknet"
+msgstr ""
+
+#: blog/vpn/index.php:89
+msgid ""
+"When using darknets such as Tor, there's always a risk of being targeted by "
+"your government or ISP in countries where their use is limited or "
+"prohibited. By combining VPN and Tor, you can add another layer of online "
+"privacy and safety, since your ISP will not be able to see that you are "
+"using darknets. In case of an exploit against TorBrowser, the IP leaked "
+"would not be your real IP, but the VPN's IP. Connecting to a VPN via Tor is "
+"also possible, but makes much less sense because your identity is typically "
+"known to your VPN provider. For anonymity reasons, it's best to connect to "
+"the VPN first and connect to Tor via it."
+msgstr ""
+
+#: blog/vpn/index.php:90
+msgid "Recommendations"
+msgstr ""
+
+#: blog/vpn/index.php:91
+msgid ""
+"If you are considering running your own VPN for business or remote home "
+"network access, I would recommend using WireGuard or OpenVPN."
+msgstr ""
+
+#: blog/vpn/index.php:92
+msgid "For everyone else, here are some recommended VPN providers:"
+msgstr ""
+
+#: blog/vpn/index.php:94
+msgid "NordVPN"
+msgstr ""
+
+#: blog/vpn/index.php:95
+msgid "Proton VPN"
+msgstr ""
+
+#: blog/vpn/index.php:96
+msgid "Hide.Me VPN"
+msgstr ""
+
+#: blog/vpn/index.php:97
+msgid "Mozilla VPN"
+msgstr ""
+
+#: blog/vpn/index.php:98
+msgid "Mullvad VPN"
+msgstr ""
+
+#: blog/vpn/index.php:99
+msgid "ExpressVPN"
+msgstr ""
+
+#: blog/vpn/index.php:100
+msgid "Surfshark"
+msgstr ""
+
+#: blog/vpn/index.php:101
+msgid "CyberGhost VPN"
+msgstr ""
+
+#: blog/vpn/index.php:102
+msgid "Windscribe VPN"
+msgstr ""
+
+#: blog/vpn/index.php:103
+msgid "IVPN"
+msgstr ""
+
+#: blog/vpn/index.php:104
+msgid "CalyxVPN"
+msgstr ""
+
+#: blog/vpn/index.php:105
+msgid "CloudFlare WARP"
+msgstr ""
+
+#: blog/cluster/index.php:10 blog/cluster/index.php:22
+msgid "Seting up a linux server cluster using Ceph and MariaDB Galera"
+msgstr ""
+
+#: blog/cluster/index.php:34
+msgid ""
+"A cluster is a group of servers and other resources that act as a single "
+"system. Utilizing a cluster can increase data reliability, availability, and "
+"scalability. In this article, we will focus on Ceph, a distributed object "
+"storage and file system, and MariaDB Galera, a multi-master database "
+"solution, to achieve high availability and performance. This cluster setup "
+"is the basis for the website that you are currently reading."
+msgstr ""
+
+#: blog/cluster/index.php:35
+msgid "Prerequisites"
+msgstr ""
+
+#: blog/cluster/index.php:36
+msgid ""
+"You will need a minimum of 3 servers set up running on a Linux OS. Having "
+"less than 3 servers is not recommended as it can break the cluster and could "
+"lead to split-brain issues."
+msgstr ""
+
+#: blog/cluster/index.php:37
+msgid "Ceph"
+msgstr ""
+
+#: blog/cluster/index.php:38
+msgid ""
+"Ceph is a highly scalable, fault-tolerant, and highly available storage "
+"system."
+msgstr ""
+
+#: blog/cluster/index.php:39
+msgid "How Ceph works"
+msgstr ""
+
+#: blog/cluster/index.php:40
+msgid "A Ceph Storage Cluster is based on several types of daemons:"
+msgstr ""
+
+#: blog/cluster/index.php:42
+msgid ""
+"Ceph OSD (Object Storage Daemon): These are the heart of Ceph because they "
+"handle data storage, data replication, recovery, rebalancing, and provide "
+"some monitoring statistics to Ceph monitors."
+msgstr ""
+
+#: blog/cluster/index.php:43
+msgid ""
+"Ceph MON (Monitor): They maintain the master copy of the cluster map. A "
+"cluster usually has an odd number of monitors running (e.g., 3, 5, 7)."
+msgstr ""
+
+#: blog/cluster/index.php:44
+msgid ""
+"Ceph MDS (Metadata Server): These servers are optional and store metadata "
+"for the Ceph File System (not block devices or objects)."
+msgstr ""
+
+#: blog/cluster/index.php:45
+msgid ""
+"Ceph MGR (Manager): This daemon is responsible for keeping track of runtime "
+"metrics, managing the cluster's state, and providing additional interfaces "
+"to external monitoring and management systems."
+msgstr ""
+
+#: blog/cluster/index.php:47
+msgid ""
+"All these daemons are installed on multiple servers and interact with each "
+"other to form the cluster."
+msgstr ""
+
+#: blog/cluster/index.php:48
+msgid "Use Cases of Ceph"
+msgstr ""
+
+#: blog/cluster/index.php:49
+msgid ""
+"Ceph is commonly used in clouds of all sizes and types due to its "
+"versatility, massive scalability, and robust data protection."
+msgstr ""
+
+#: blog/cluster/index.php:51
+msgid ""
+"Object Storage: Ceph provides features such as replication and erasure "
+"coding, tiering, and the ability to set up watch/notify and object-level key-"
+"value mappings."
+msgstr ""
+
+#: blog/cluster/index.php:52
+msgid ""
+"Block Storage: Ceph's RADOS Block Device (RBD) supports snapshots, and "
+"replication, and can significantly improve read performance by utilizing the "
+"cache of the client and the Ceph OSD."
+msgstr ""
+
+#: blog/cluster/index.php:53
+msgid ""
+"File System: Ceph's file system (CephFS) ensures highly available and "
+"reliable storage, where all data gets written and read in/from the object "
+"store."
+msgstr ""
+
+#: blog/cluster/index.php:55
+msgid "Performance optimizations"
+msgstr ""
+
+#: blog/cluster/index.php:56
+msgid ""
+"The following optimizations resulted in 10 times faster read times of data "
+"stored on my cluster, which contains mostly websites and emails."
+msgstr ""
+
+#: blog/cluster/index.php:57
+msgid "Tuning encrypted OSDs on SSDs"
+msgstr ""
+
+#: blog/cluster/index.php:58
+msgid ""
+"SSDs are typically faster than HDDs and have much lower latency. For "
+"historical reasons, the Linux kernel uses work queues in dm-crypt, which "
+"offloads encryption and disk read/write work to different threads in the "
+"kernel. This makes sense for slower HDDs, but for SSDs, it can harm "
+"performance due to the overhead of context switches."
+msgstr ""
+
+#: blog/cluster/index.php:59
+#, php-format
+msgid ""
+"To disable this behaviour, we first have to find the relevant device with "
+"the command %1$s. If you have an OSD running, the underlying device will "
+"show up in the list printed by dmsetup. To get only the relevant UUID of the "
+"ceph device, we can use %2$s. Now as a final step we can set persistent "
+"options for the device using %3$s."
+msgstr ""
+
+#: blog/cluster/index.php:60
+msgid "Tuning CephFS for many files in one directory"
+msgstr ""
+
+#: blog/cluster/index.php:61
+#, php-format
+msgid ""
+"CephFS performance suffers when many files are stored in the same directory, "
+"just like with every file system. Using the option %1$s it is however "
+"possible to split directory indexes in multiple parts to increase "
+"performance when operating in directories with many files. I have set this "
+"down to a value of %2$s."
+msgstr ""
+
+#: blog/cluster/index.php:62
+msgid "MariaDB Galera Cluster"
+msgstr ""
+
+#: blog/cluster/index.php:63
+msgid ""
+"MariaDB Galera Cluster is an open-source database system focusing on high "
+"availability, failing over between servers seamlessly, and ensuring data "
+"consistency between those servers. It is a multi-master cluster that uses "
+"synchronous replication."
+msgstr ""
+
+#: blog/cluster/index.php:64
+msgid "How Galera Works"
+msgstr ""
+
+#: blog/cluster/index.php:65
+msgid ""
+"In a Galera Cluster, every database instance (or \"node\") is a master, "
+"meaning data can be written or read from any node, with changes "
+"automatically replicated across all nodes. Using synchronous replication "
+"MariaDB Galera Cluster ensures all nodes have the same data simultaneously."
+msgstr ""
+
+#: blog/cluster/index.php:66
+msgid "Use Cases for MariaDB Galera Cluster"
+msgstr ""
+
+#: blog/cluster/index.php:67
+msgid ""
+"MariaDB Galera Cluster is best suited for applications where data "
+"availability, consistency, and durability are critical across multiple "
+"nodes, such as when deploying a web application with multiple database "
+"servers to scale up a busy service, or when deploying a high-availability "
+"database with multiple nodes."
+msgstr ""
+
+#: blog/dane/index.php:10 blog/dane/index.php:21
+msgid ""
+"Discover the benefits of DANE for boosting online security. Learn how DANE "
+"increases trust in digital communications and strengthens email and web "
+"security. Protect yourself with DANE today."
+msgstr ""
+
+#: blog/dane/index.php:33
+#, php-format
+msgid ""
+"In the expansive digital landscape where trust and security are paramount, a "
+"powerful technology known as DANE (DNS-Based Authentication of Named "
+"Entities) emerges as a beacon of protection. DANE, an innovative extension "
+"of %1$s, revolutionizes online security by enhancing the authenticity and "
+"integrity of digital communications. In this article, we delve into the "
+"transformative potential of DANE, exploring its functionalities, benefits, "
+"and the crucial role it plays in fortifying the trustworthiness of our "
+"digital connections."
+msgstr ""
+
+#: blog/dane/index.php:33
+msgid "DNSSEC (Domain Name System Security Extensions)"
+msgstr ""
+
+#: blog/dane/index.php:34
+msgid "Understanding DANE"
+msgstr ""
+
+#: blog/dane/index.php:35
+msgid ""
+"DANE is a game-changing protocol that uses DNS records to associate digital "
+"certificates with domain names, ensuring encrypted communication channels, "
+"like TLS (Transport Layer Security), are legitimate and unaltered. By "
+"embedding certificates directly into DNS records, DANE provides an "
+"additional layer of validation, offering a secure handshake between servers "
+"and users. This cryptographic binding enhances the trustworthiness of "
+"websites, email servers, and other online services, mitigating the risks of "
+"man-in-the-middle attacks and unauthorized data interception."
+msgstr ""
+
+#: blog/dane/index.php:36
+msgid "The Importance of DANE Implementation"
+msgstr ""
+
+#: blog/dane/index.php:37
+msgid "Enhanced Trust and Security"
+msgstr ""
+
+#: blog/dane/index.php:38
+msgid ""
+"DANE significantly strengthens digital trust and security by validating "
+"certificates through DNS records. However, it does introduce complexity into "
+"the certificate management process. Each certificate change requires "
+"meticulous coordination between certificate updates and DNS record changes, "
+"making the management process more complex."
+msgstr ""
+
+#: blog/dane/index.php:39
+msgid "Securing Email Communication"
+msgstr ""
+
+#: blog/dane/index.php:40
+msgid ""
+"DANE secures email servers, ensuring that the certificates used for "
+"encrypting email exchanges are genuine and unaltered. Despite the added "
+"complexity, its contribution to securing sensitive email communication "
+"cannot be overstated."
+msgstr ""
+
+#: blog/dane/index.php:41
+msgid "Boosting Website Credibility"
+msgstr ""
+
+#: blog/dane/index.php:42
+msgid ""
+"Websites employing DANE provide an additional layer of assurance to "
+"visitors. When combined with HTTPS, DANE guarantees that visitors are "
+"securely connected to the intended server, bolstering the overall security "
+"of online transactions and interactions."
+msgstr ""
+
+#: blog/dane/index.php:43
+msgid "The Consequences of Ignoring DANE"
+msgstr ""
+
+#: blog/dane/index.php:44
+msgid ""
+"Neglecting DANE leaves digital communication channels susceptible to "
+"interception and tampering. Cybercriminals can exploit these "
+"vulnerabilities, compromising sensitive data, and damaging the reputation of "
+"businesses and organizations. Ignoring DANE not only risks user trust but "
+"also exposes entities to legal ramifications and financial losses in the "
+"event of data breaches."
+msgstr ""
+
+#: blog/dane/index.php:45
+msgid "Implementing DANE"
+msgstr ""
+
+#: blog/dane/index.php:46
+msgid ""
+"Implementing DANE may seem complex, but with careful steps, it becomes a "
+"potent tool for enhancing digital security. Begin by generating a digital "
+"certificate from a trusted Certificate Authority (CA) for your server. Once "
+"obtained, publish this certificate in your domain's DNS records using DANE "
+"TLSA (Transport Layer Security Authentication) records. These records "
+"include cryptographic hashes of your certificate, specifying the encryption "
+"methods supported. Regularly update these records whenever your certificate "
+"changes. It’s crucial to coordinate certificate updates with DNS record "
+"changes to maintain the integrity of your security setup. By meticulously "
+"following these steps and staying vigilant about updates, your organization "
+"can harness the full potential of DANE, strengthening your digital security "
+"and ensuring trustworthy online connections."
+msgstr ""
+
+#: blog/dane/index.php:47
+msgid "Building TLSA Records"
+msgstr ""
+
+#: blog/dane/index.php:48
+msgid ""
+"TLSA records are constructed using three key parameters: Usage, Selector, "
+"and Matching Type in combination with the certificate's public key, service "
+"port, protocol, and domain name."
+msgstr ""
+
+#: blog/dane/index.php:49
+msgid "Usage"
+msgstr ""
+
+#: blog/dane/index.php:50
+msgid "The Usage parameter specifies the intended use of the certificate."
+msgstr ""
+
+#: blog/dane/index.php:52
+msgid "0 - Certificate Authority Constraint (PKIX-TA)"
+msgstr ""
+
+#: blog/dane/index.php:53
+msgid "1 - Service Certificate Constraint (PKIX-EE)"
+msgstr ""
+
+#: blog/dane/index.php:54
+msgid "2 - Trust Anchor Assertion (DANE-TA)"
+msgstr ""
+
+#: blog/dane/index.php:55
+msgid "3 - Domain Issued Certificate (DANE-EE)"
+msgstr ""
+
+#: blog/dane/index.php:57
+msgid "Selector"
+msgstr ""
+
+#: blog/dane/index.php:58
+msgid ""
+"The Selector parameter specifies the name of the entity that issued the "
+"certificate."
+msgstr ""
+
+#: blog/dane/index.php:60
+msgid "0 - Full certificate"
+msgstr ""
+
+#: blog/dane/index.php:61
+msgid "1 - Subject Public Key (SPKI)"
+msgstr ""
+
+#: blog/dane/index.php:63
+msgid "Matching Type"
+msgstr ""
+
+#: blog/dane/index.php:64
+msgid ""
+"The Matching Type parameter specifies the type of cryptographic hash used to "
+"verify the certificate."
+msgstr ""
+
+#: blog/dane/index.php:66
+msgid "0 - SHA256"
+msgstr ""
+
+#: blog/dane/index.php:67
+msgid "1 - SHA384"
+msgstr ""
+
+#: blog/dane/index.php:68
+msgid "2 - SHA512"
+msgstr ""
+
+#: blog/dane/index.php:70
+#, php-format
+msgid "A useful tool to generate TLSA records is the %s"
+msgstr ""
+
+#: blog/dane/index.php:70
+msgid "TLSA Record Generator by SSL-Tools"
+msgstr ""
+
+#: blog/dane/index.php:72
+msgid ""
+"In an era where cyber threats are prevalent, DANE emerges as a guardian of "
+"digital trust. Its implementation, while introducing complexity, is a "
+"strategic necessity for businesses and organizations aiming to fortify their "
+"online presence. By integrating DANE into digital infrastructure, we ensure "
+"that users can engage, transact, and communicate with confidence. Embracing "
+"DANE isn’t just a choice but a commitment to a secure, trustworthy, and "
+"resilient digital future. Understanding the significance of DANE and "
+"integrating it into our digital practices is pivotal to safeguarding the "
+"integrity of our digital connections. Stay secure, stay trusted, and embrace "
+"DANE today."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:10
+#: blog/email-service-learnings/index.php:16
+msgid ""
+"My learnings from running a free, anonymous email servcie and what to expect "
+"when you run a service like mine"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:28
+msgid ""
+"Running a public email service can be challenging and frustrating at times. "
+"Nonetheless, I learned a lot from offering a free email service for the past "
+"few years. Here are some of the challenges I had to face and what I learned "
+"from them:"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:29
+msgid "Spam and countermeasures"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:30
+msgid ""
+"Spam is one of the most common issues when dealing with email. Making an "
+"email service completely spam-free is almost impossible. While many spam "
+"filters can filter out the majority of spam we receive daily, they aren't "
+"perfect either. The worst kind of spam is the outgoing kind because it will "
+"damage the reputation of the service and can have a significant long-term "
+"impact. Thus I have taken many steps to reduce the amount of spam my service "
+"will send out by using rate limiting, spam filters, blacklisting of specific "
+"addresses and manually shutting down sending for a couple of hours whenever "
+"a spam wave starts."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:31
+msgid "Reputational damages"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:32
+#, php-format
+msgid ""
+"No matter how much you invest in anti-spam measures, at some point, there "
+"will be spam going out. Just five spam emails a day could be enough to get "
+"your service blacklisted if there aren't enough good emails to make up for "
+"them. For example, %s considers 0.1%% of spam already too much. At a rate of "
+"0.3%%, you can say goodbye to reaching inboxes since all your emails will "
+"get marked as spam. Once your service reputation goes down, it can take "
+"several months to recover."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:33
+msgid "Hate and death threads"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:34
+#, php-format
+msgid ""
+"Unlike some big providers, I never asked for personal details such as phone "
+"numbers or payment details, and it's also possible to use my service from a "
+"Tor hidden service. Unfortunately, this anonymity also attracts some people "
+"who are going to abuse the email service to send hate and death threads. "
+"This trend has been on the rise for the past few years, and there were times "
+"when I had to deal with such threats and their aftermath almost every month. "
+"That includes talking to scared victims, giving statements to the police and "
+"disabling abusive accounts. One of the cases I had to deal with was about "
+"violent death threads sent to %s and her employees. There were several "
+"similar cases, which didn't go public. Although it is unlikely that any of "
+"these threats would have been carried out, they can still have devastating "
+"and traumatic effects on the people who receive them."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:35
+msgid "Law enforcement visits"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:36
+msgid ""
+"Internet crimes may be hard to combat, but law enforcement is trying to "
+"track down these kinds of crimes as well. That means whenever someone "
+"reports an incident to the police, they will investigate and reach out to "
+"the email provider to ask for information. While I don't have much data at "
+"hand, given that my service is anonymous, I still get contacted by law "
+"enforcement regularly, which includes being woken up in the middle of the "
+"night to answer some questions, or having my home searched."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:37
+msgid "Time consuming tasks"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:38
+msgid ""
+"Time is one of the most valuable assets. We all have a limited quantity of "
+"it. You can't get back time you've spent on something less enjoyable. While "
+"I understand that many people prefer wasting their time in front of the TV, "
+"instead of doing something productive with their life, I am building my own "
+"business and often have a busy schedule. That is why I no longer want to "
+"spend so much time running this public email service. It can ruin my entire "
+"day planning when I have to spend some hours dealing with spam before I can "
+"send an urgent email myself. In mid 2023 some very persistent spammers "
+"started abusing my service. I've spent countless hours deleting accounts, "
+"and disabled registration for several months, but still couldn't find a "
+"solution to this problem. It's now 2024 and I still see an abnormal rate of "
+"abuse. Cleaning up after a spam wave can take hours and means halting "
+"outgoing mail for several hours until I have time to deal with it."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:39
+msgid "Closing registration for good"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:40
+msgid ""
+"While I strongly believe in freedom of speech and want to continue offering "
+"the email service, it has become too much of a burden to keep this service "
+"clean. I'm not earning money from it, and it's not worth continuing with the "
+"amount of abuse that I have seen in recent months. I've closed registration "
+"temporarily several times in the past few months, but now I will close it "
+"for good. Existing accounts will continue working, and I do not intend to "
+"shut down this service. I use this email service myself and depend on it. "
+"That is why I also need to take these steps since I am potentially losing "
+"clients whenever my emails land in spam because someone else ruined my email "
+"service reputation (again)."
+msgstr ""
+
+#: blog/email-service-learnings/index.php:41
+msgid "Making use of my experience"
+msgstr ""
+
+#: blog/email-service-learnings/index.php:42
+#, php-format
+msgid ""
+"With many years of experience running email services, I can also help you "
+"fix any problems you might encounter with your email service, such as "
+"restoring your sending reputation, authentication issues with DKIM, SPF and "
+"DMARC, or email security issues. If you are interested, you can %s. "
+msgstr ""
+
+#: blog/email-service-learnings/index.php:42
+msgid "hire me"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
+#: tutorials/index.php:32
+msgid "This tutorial will guide you to achieving financial freedom."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:36
+msgid "A word about fast money"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:37
+msgid ""
+"To become rich, you need to invest your time in education and self-"
+"development. Very few people will get rich overnight. And those that do, "
+"usually lose everything in a short time, because they spend all of it, "
+"sometimes being left with debts due to a lack of financial education."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:38
+msgid "Here are some common ways of getting money fast:"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:40
+msgid "Win a lottery"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:41
+msgid "Gambling"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:42
+msgid "Betting"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:43
+msgid "Win unconditional basic income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:45
+msgid ""
+"All of the above-mentioned options are highly dependent on luck and not "
+"feasible for building long-term wealth."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:46
+msgid "Reduce your expenses"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:47
+msgid "Pay off your high-interest debts"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:48
+msgid ""
+"Credit cards are often used to buy items when you do not have the money for "
+"them. What many forget is that the interest rates you pay can be as high as "
+"20-30%! If you have a credit card, or maybe even multiple ones, start by "
+"paying them off as fast as you can. The interest will otherwise keep you "
+"poor and unable to pay your regular expenses. If your interest payments are "
+"already so high, that you can't pay them off, check on comparison sites, if "
+"there are consumer loans you could take, which have a lower interest rate, "
+"to replace the existing debt with this one. It's also worth trying to give "
+"your credit card company a call and explain that it won't be possible to pay "
+"off the debt and if they could maybe cut your interest."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:49
+msgid "Stop drinking or taking drugs"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:50
+msgid ""
+"While an occasional party can be fun, some people go partying every few days "
+"and spend a large portion of their income on alcohol and/or drugs. Not only "
+"is it a waste of your money, but you're also severely impacting your health "
+"and mental capabilities. You can get social without any mind-altering "
+"substances. If your friends don't understand that, perhaps you should "
+"surround yourself with other people."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:51
+msgid "The 24-hour rule"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:52
+msgid ""
+"Before you buy something, give yourself 24 hours to think about it. "
+"Impulsive shopping is often a major contributor to why you have no money "
+"left at the end of the month. Do you really need a new jacket, when you "
+"already have two hanging in your closet? Is it really necessary to buy "
+"expensive sweets and snacks? You might be surprised that you think about it "
+"differently just a few hours later."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:53
+msgid "Buy luxuries only with passive income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:54
+msgid ""
+"A fatal mistake that many people make is, once they have some money, "
+"directly spending it on expensive luxuries such as watches, cars, or other "
+"non-essential items. No matter how much you earn, if you keep spending all "
+"your income, you have nothing left at the end of the month and need to keep "
+"working to pay for your luxuries. If you however take any excess money and "
+"invest it, you get passive income, which you can use to pay for your "
+"luxuries instead. You won't have your new watch right now, but you will be "
+"able to buy it from your passive income in maybe 5 years. As your passive "
+"income grows, you will be able to buy luxuries more often, without having to "
+"worry about being able to afford them."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:55
+msgid "Preparation and Security"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:56
+msgid "Surround yourself with like-minded people"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:57
+msgid ""
+"If you are the smartest person in the room, you are likely in the wrong "
+"room. You should surround yourself with people that have similar goals as "
+"you and who can support you. If you are starting to build wealth, your "
+"current friends might start turning against you, asking you for money, or "
+"even hating you for changing and becoming more mature and successful than "
+"they are. Think about which people you feel great around, and which people "
+"suck out your energy. If your connection with people is not giving you any "
+"benefits, you should cut ties with them and instead spend time with people "
+"that are good for you."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:58
+msgid "Build an emergency fund"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:59
+msgid ""
+"After reducing your expenses, you should be able to put aside a small "
+"portion of your income. Put this in an account that you only touch in "
+"emergencies. Ideally save enough so that you could live from this for 3-6 "
+"months, in case you lose your job, or something else happens to you."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:60
+msgid "Become financially literate and understand how money works"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:61
+msgid ""
+"Reading this page is your first step to becoming financially free and "
+"understanding how building wealth works. This topic is not taught in school, "
+"nor university, and most likely also not by your parents. The system is "
+"designed to get you on the path of getting good grades, getting a safe job, "
+"and keeping your money in the bank to earn 0.01% interest on it, while the "
+"bank uses your money to give out loans and earns high-interest rates on it. "
+"The system is designed to keep you poor and financially uneducated so that "
+"the rich can keep getting richer at your expense. So unfortunately you will "
+"have to educate yourself and find out how our capitalistic system and money "
+"work, and how you can use it to your advantage. There are plenty of "
+"resources online, through which you can further educate yourself. Never take "
+"any financial advice from someone who either doesn't understand what he is "
+"talking about, or who might want to influence you in a way that would "
+"benefit them. Always form your own opinion and check what others have to say."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:62
+msgid "Increase your income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:63
+msgid "Get a better salary"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:64
+msgid ""
+"If you are unhappy with your current salary, talk to your boss about getting "
+"a raise. You are entitled to getting a raise as your experience grows and "
+"inflation goes up. If your current job is not fulfilling you, look for "
+"alternative jobs that you would enjoy, which offer a similar or better "
+"salary."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:65
+msgid "Become self-employed"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:66
+msgid ""
+"As a self-employed person, you are much more flexible and have a much higher "
+"potential to grow. At the same time, it's also very risky. Don't quit your "
+"job and get self-employed straight away. Instead, talk to your employer and "
+"get an agreement that you can work alongside your primary job. The beginning "
+"will be difficult, but after a while, you will get your first clients and "
+"can grow. If your self-employment is going well, start reducing the hours "
+"you work in your primary job. Take a day or two off, to work on your own "
+"business. When you have reached the point of working at full capacity and "
+"earning as well, or better than in your primary job, it is time to end your "
+"employment contract and become fully self-dependent."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:67
+msgid "Become an entrepreneur, build your own company"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:68
+msgid ""
+"Operating as a company gives you significant tax benefits compared to being "
+"self-employed. However, this also comes along with a lot more "
+"responsibilities, paperwork, and initial investments to set up your company. "
+"Thus you should only operate as a company, if you want to reduce personal "
+"liability or if your profit is much higher than your income needs to be. In "
+"that case, you keep any extra profit in the company or create a second "
+"holding company, to which you transfer the profit, and pay yourself a "
+"regular salary. As business taxes are lower than income taxes, you have more "
+"to invest as a business."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:69
+msgid "Make the money work for you"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:70
+msgid "Investments"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:71
+#, php-format
+msgid ""
+"Put aside a small portion of your income for investments. Even if that is "
+"just 10% or less. Put it into a separate account, so you don't get tempted "
+"to spend this money on anything else. When you are ready to invest this "
+"money, choose an investment platform that suits you and offers projects that "
+"you would like to invest in. This could be for example real estate, "
+"renewable energy projects, or startups. Investments are not risk-free and it "
+"is possible that an investment you made fails and you lose all your money. "
+"That is why you should diversify as much as possible. Use different "
+"platforms, invest small amounts, and spread it over multiple projects."
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:72
+msgid "Here are some investment platforms that I have personally invested in:"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:94
+msgid "Passive income"
+msgstr ""
+
+#: tutorials/get-rich-fast/index.php:95
+msgid ""
+"After you've made your first investments, you will receive a small "
+"percentage of your investment as a dividend. It varies with each investment. "
+"To keep it simple, let's assume that you earn 10% interest on average, and "
+"you invest 10% of your income, and 1/6 of investments fail. This would mean "
+"that after one year of investing every month, you would already have saved "
+"an entire month of your salary and get 10% in dividend payments that year, "
+"which you can directly re-invest along with your regular investments. Keep "
+"doing this for a few years until you can live only from your passive income "
+"streams."
+msgstr ""
+
+#: tutorials/index.php:6 tutorials/index.php:15 tutorials/index.php:25
+msgid "Daniel - Tutorials"
+msgstr ""
+
+#: tutorials/index.php:10 tutorials/index.php:16
+msgid "Various tutorials provided by Daniel Winzen"
+msgstr ""
+
+#: tutorials/index.php:28
+#, php-format
+msgid ""
+"Here I upload tutorials that have been asked for a number of times. If you "
+"have suggestions on how to improve a tutorial or want me to make one another "
+"one, you can %s."
+msgstr ""
+
+#: tutorials/index.php:28
+msgid "contact me here"
+msgstr ""
+
+#: tutorials/index.php:30
+msgid "Name"
+msgstr ""
+
+#: tutorials/index.php:30
+msgid "Short description"
+msgstr ""
+
+#: tutorials/index.php:31 tutorials/torify-ftp/index.php:33
+msgid "Torify FTP clients"
+msgstr ""
+
+#: tutorials/index.php:31
+msgid "This tutorial will show you how to torify FTP clients."
+msgstr ""
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
+#: tutorials/successful-sugar-dating/index.php:22
+#: tutorials/successful-sugar-dating/index.php:32
+#: tutorials/successful-sugar-dating/index.php:34
+msgid "How to have a successful sugar dating relationship"
+msgstr ""
+
+#: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
+#: tutorials/successful-sugar-dating/index.php:23
+msgid "This tutorial will guide you in finding a sugar relationship."
+msgstr ""
+
+#: tutorials/index.php:34 tutorials/findom/index.php:6
+#: tutorials/findom/index.php:21 tutorials/findom/index.php:31
+#: tutorials/findom/index.php:33
+msgid "Earning money with findom"
+msgstr ""
+
+#: tutorials/index.php:34
+msgid "This tutorial will show you how you can use findom to earn money."
+msgstr ""
+
+#: tutorials/index.php:35 tutorials/self-employed/index.php:6
+#: tutorials/self-employed/index.php:19 tutorials/self-employed/index.php:29
+#: tutorials/self-employed/index.php:31
+msgid "Becoming self-employed"
+msgstr ""
+
+#: tutorials/index.php:35 tutorials/self-employed/index.php:10
+#: tutorials/self-employed/index.php:20
+msgid ""
+"This article offers valuable guidance to help you embark on your journey as "
+"a self-employed individual."
+msgstr ""
+
+#: tutorials/index.php:36 tutorials/content-creation/index.php:6
+#: tutorials/content-creation/index.php:21
+#: tutorials/content-creation/index.php:31
+#: tutorials/content-creation/index.php:33
+msgid "Turning passion into profit as a content creator"
+msgstr ""
+
+#: tutorials/index.php:36 tutorials/content-creation/index.php:10
+#: tutorials/content-creation/index.php:22
+#: tutorials/content-creation/index.php:31
+msgid ""
+"This comprehensive guide helps you learn about turning your passion into "
+"profit as an online content creator."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:35
+msgid "What is sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:36
+msgid ""
+"Stereotypically a sugar daddy is a wealthy older man, who's looking for an "
+"attractive young woman, the so-called sugar baby. An attractive man looking "
+"for their sugar mommy or sugar daddy is called a sugar boy. A sugar dating "
+"relationship is a mutually beneficial relationship. Unlike traditional "
+"dating, partners aren't selected for love or a hook-up, but rather to help "
+"each other. Sugar partners have an agreement, on what each partner wants "
+"from the other, and what their boundaries are. This is called an arrangement."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:37
+msgid "How to get to an arrangement?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:38
+msgid ""
+"Everyone is unique, so your arrangement needs to be discussed with your "
+"sugar partner. Typically an arrangement involves the wealthy partner "
+"providing financial help, or mentoring to their partner, who in turn will "
+"come along to business meetings, and parties or give their partner company "
+"for a few hours a month. An arrangement can also include sexual favours, "
+"which are often asked for by men. However, this must be consensual, and if "
+"you as a sugar baby do not feel comfortable with it, then you shouldn't do "
+"it. Think about your priorities, what you need and what you could give to "
+"your partner. Fill out your dating profile with enough details, so that you "
+"can find your match. Once you've found your potential partner, discuss each "
+"of your expectations and come to an arrangement that suits you both."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:39
+msgid "What are the risks of sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:40
+msgid ""
+"Just like with regular dating, you should be comfortable around your partner "
+"and enjoy each other's company. If you don't feel well around your partner, "
+"it will ruin the experience for both of you, so you should better end it "
+"sooner than later. Coming out as a sugar daddy or sugar baby can be "
+"difficult as some people still think of it negatively and will criticise you "
+"for it. It's also possible that as a provider you feel cheated of your money "
+"at a later point in time, or as a sugar baby you could feel sexually "
+"exploited if you agreed to sex just because of the money. That's why it's so "
+"important to be communicative with your sugar partner and form an "
+"arrangement that both of you are happy with."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:41
+msgid "What are the benefits of sugar dating?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:42
+msgid ""
+"As sugar dating is mutually beneficial, both parties involved get something "
+"out of it. There will be no drama, and by discussing each of your needs and "
+"expectations, you avoid running into conflicts. It can be fun, and you will "
+"see things from a different perspective than you are used to. Unlike "
+"traditional dating, you don't have to spend significant time on a dating "
+"site, until you match with someone interesting. It can take only a few hours "
+"or days until you have found someone that matches you. Especially for men, "
+"it is so much easier to find a date, than on regular dating sites, simply "
+"because of the women-to-men ratio, plus women are less selective than on "
+"regular dating sites, given that the type of relationship is mutually "
+"beneficial and not necessarily romantic."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:43
+msgid "Where do I find a sugar partner?"
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:44
+msgid ""
+"You can potentially find your sugar partner on regular dating sites, but it "
+"will be difficult due to most dating sites restricting this type of dating "
+"and banning your accounts for using certain keywords. There are plenty of "
+"dating sites specifically made for sugar dating though. Usually, they are "
+"free for the attractive member, but the wealthy member has to pay to use the "
+"platform. This way the platform also filters out so-called salt daddies, who "
+"pretend to have money but do not."
+msgstr ""
+
+#: tutorials/successful-sugar-dating/index.php:45
+msgid "Here are some popular sugar dating sites:"
+msgstr ""
+
+#: tutorials/self-employed/index.php:32
+msgid ""
+"Note: This article is written with German laws and regulations in mind. Most "
+"of what I described here applies globally, but you should do your research "
+"and clarify the situation in your place of living, which may have different "
+"regulations you need to know about. This article is only meant to give you a "
+"brief overview of things you need to know. I won't go into detail about "
+"everything, and I advise you to do your research, to get familiar with "
+"requirements specific to you, before jumping into it."
+msgstr ""
+
+#: tutorials/self-employed/index.php:33
+msgid "Choosing the right path of self-employment"
+msgstr ""
+
+#: tutorials/self-employed/index.php:34
+msgid ""
+"There are two types of self-employment: Freelancer and tradesman. "
+"Freelancers are a small subset of jobs defined by the law (§ 18 EStG "
+"paragraph 1 number 1) as well as modern jobs similar to the ones described "
+"there. Anything that doesn't fall under the freelancer definition is what "
+"you do as a tradesman. If you are unsure whether you qualify as a freelancer "
+"or not, you should talk to the tax authorities for clarification. If you're "
+"still unsure, or you plan on extending your business beyond the boundaries "
+"of a freelancer, you should register as a tradesman."
+msgstr ""
+
+#: tutorials/self-employed/index.php:35
+msgid "Getting started"
+msgstr ""
+
+#: tutorials/self-employed/index.php:36
+msgid ""
+"When you want to become self-employed, you should first develop a business "
+"idea to earn money. Next, you might want to look, at whether you can get "
+"funding for your business Idea. Sometimes the government wants to support "
+"certain types of businesses, and you can apply for funding to kickstart your "
+"business idea. If you are eligible for funding, check the requirements "
+"thoroughly, you may need to apply, before registering as a business."
+msgstr ""
+
+#: tutorials/self-employed/index.php:37
+msgid ""
+"Before you can get started with your business, you need to register with "
+"your local tax office. As a tradesman, you also need to register with the "
+"trade office first. The registration may take some time to be processed. "
+"During this time you are not yet allowed to do your regular business, but "
+"you can already start preparing, such as building your processes, developing "
+"a website, and so on. However, if you are investing money into it, you may "
+"want to wait for the registration, so you can properly deduct it from your "
+"taxes."
+msgstr ""
+
+#: tutorials/self-employed/index.php:38
+msgid "Small business regulations"
+msgstr ""
+
+#: tutorials/self-employed/index.php:39
+msgid ""
+"As per §19 UStG, you may choose to apply the regulations for small "
+"businesses, if you do not plan to have more than 50k turnover, and haven't "
+"had more than 22k turnover in the previous year. The benefit of these "
+"regulations is, that you can save yourself from having to submit VAT tax "
+"return statements. Your invoices will be without VAT, which is great if "
+"you're more in the b2c market than in the b2b market, and your expenses are "
+"low since you can have competitive lower prices for your clients compared to "
+"what a business would normally charge. However, the big downside is, that "
+"you cannot get VAT tax returns for your expenses. If you have high expenses, "
+"or you're mostly in the b2b market, then you should avoid using small "
+"business regulations during your registration and opt to voluntarily apply "
+"for VAT ID."
+msgstr ""
+
+#: tutorials/self-employed/index.php:40
+msgid "Invoicing"
+msgstr ""
+
+#: tutorials/self-employed/index.php:41
+msgid ""
+"An invoice is a financial document that you send your client so that they "
+"can send you a payment. It must have your and your client's address and VAT-"
+"ID if applicable, a unique, consecutive invoice number, as well as the "
+"invoicing date and date of service, or service period. Your products and "
+"services are best represented in a table with a short description and "
+"individual pricing, then sum up each item and if applicable add additional "
+"VAT. If your products/services have different VAT charges, it may be best to "
+"put these on each item. Finally, you would want to supply your payment "
+"information, as well as payment terms."
+msgstr ""
+
+#: tutorials/self-employed/index.php:42
+msgid "Addressing platform-generated invoices"
+msgstr ""
+
+#: tutorials/self-employed/index.php:43
+#, php-format
+msgid ""
+"German invoicing requirements are more strict than in some other countries. "
+"This, unfortunately, means, that invoices in your name, generated by foreign "
+"platforms, may not be considered valid in Germany. If you are using "
+"platforms such as %1$s or %2$s, you should create your invoices in addition "
+"to the ones generated by the platform. This applies especially if you are "
+"required to account for VAT, which is often not handled correctly by these "
+"platforms. If you are from Europe, and your customer is from the same "
+"country as you, you should get an agreement with them, that you send them "
+"separately an invoice with the correctly accounted VAT, which they will pay "
+"directly to you, while the primary task is paid over the platform you are "
+"using. This is only fair to the platform, and you avoid having to deal with "
+"invalid invoices, that would require you to deduct the missing VAT from your "
+"income."
+msgstr ""
+
+#: tutorials/self-employed/index.php:44
+msgid "Pricing your work"
+msgstr ""
+
+#: tutorials/self-employed/index.php:45
+msgid ""
+"Most of your clients will probably want to know your prices before starting "
+"to work with you. You can either work on an hourly rate, which is safest for "
+"you, especially as a beginner, since you will be able to bill every hour "
+"you've spent on a task. In this model, you estimate the time you need for a "
+"task, and if you end up needing more time, you'd let the client decide "
+"whether you should put more time into it. On the flip side, you can't bill "
+"more, when you need less time (although you could lie about the time you "
+"needed). Project-based pricing is the alternative, that you can use to your "
+"advantage when you have enough experience and have a good feeling about how "
+"much time a task takes. A client will happily pay you the same they would "
+"spend on someone else that takes 3 times longer if you can complete a task "
+"very quickly with your experience. In project-based pricing, you can base "
+"your estimate on the time you would need, as well as the value it brings to "
+"your client's business."
+msgstr ""
+
+#: tutorials/self-employed/index.php:46
+msgid "Tax obligations"
+msgstr ""
+
+#: tutorials/self-employed/index.php:47
+msgid ""
+"Just like everyone, you have to pay income tax. Unless you opted for small "
+"business regulations, you will additionally have to pay VAT. Unlike your "
+"income tax, this is usually a monthly tax that you calculate yourself and "
+"pay directly to the tax office. You will not receive a payment slip, like "
+"with your income tax. Once a year you also have to send a VAT declaration to "
+"summarise your yearly turnover. This also applies to small businesses, which "
+"do not have to pay VAT. If you are a tradesman, you additionally have to pay "
+"a trade tax. This type of tax depends on the community you live in and "
+"differs by geographic region. The trade tax can be deducted from your income "
+"tax, so in most cases, you won't even pay more taxes as a tradesman, unless "
+"you are living in a community where you need to pay a little more trade tax."
+msgstr ""
+
+#: tutorials/self-employed/index.php:48
+msgid "Accounting"
+msgstr ""
+
+#: tutorials/self-employed/index.php:49
+msgid ""
+"A very important part of your business will be accounting. Every transaction "
+"needs to be recorded as soon as you make them and you will need to keep "
+"track of every outgoing and incoming invoice. This is essential not only for "
+"your taxes but also to have an overview of your finances at any given "
+"moment, to see how profitable your work is. If you do not know your "
+"financial status, you are vulnerable to overspending without even knowing it."
+msgstr ""
+
+#: tutorials/self-employed/index.php:50
+msgid "Choosing the right bank accounts"
+msgstr ""
+
+#: tutorials/self-employed/index.php:51
+#, php-format
+msgid ""
+"While it is possible to mix business and personal finances on your bank "
+"account, it is highly advisable to have a separate business account, such as "
+"%1$s, to keep a better overview of your finances and so you don't have to "
+"share your personal transactions with tax advisors or an auditor. You can "
+"freely send money back and forth between your personal and business accounts."
+msgstr ""
+
+#: tutorials/self-employed/index.php:52
+#, php-format
+msgid ""
+"As an employee, taxes are continuously deducted from your income by your "
+"employer. But when you are self-employed, you are responsible for tax "
+"payments yourself. You should make sure that you save enough money to pay "
+"taxes. Each time you pay yourself from your business account, send an amount "
+"equivalent to your estimated income tax to a separate savings account. You "
+"can use an %1$s to check how much you should keep aside. Given that low and "
+"even negative interest rates are the norm, it is best to look for a fixed "
+"deposit account, or a bank account with high-interest rates, to keep your "
+"savings safe and earn a little with it. I use %2$s for this purpose, as they "
+"are offering up to 4%% interest rate. To find the right account for your, "
+"you can %3$s."
+msgstr ""
+
+#: tutorials/self-employed/index.php:52
+msgid "online income tax calculator"
+msgstr ""
+
+#: tutorials/self-employed/index.php:52
+msgid "compare bank accounts here"
+msgstr ""
+
+#: tutorials/self-employed/index.php:53
+msgid "Health insurance"
+msgstr ""
+
+#: tutorials/self-employed/index.php:54
+#, php-format
+msgid ""
+"In Germany, it's mandatory to have health insurance. The amount you pay for "
+"public health insurance is based on your income. With low income, you have "
+"low contributions to public insurance, but if your business is going well "
+"and your earnings are high, your health insurance expenses will go up "
+"significantly. Thus it makes sense to opt for private insurance instead, as "
+"these usually have a fixed pricing based on your age and health. You can %s "
+"or similar platforms to find one that suits your needs."
+msgstr ""
+
+#: tutorials/self-employed/index.php:54
+msgid "compare insurance on Check24"
+msgstr ""
+
+#: tutorials/self-employed/index.php:55
+msgid "E-Mail archiving"
+msgstr ""
+
+#: tutorials/self-employed/index.php:56
+#, php-format
+msgid ""
+"GoBD is a law defining strict requirements concerning your bookkeeping (see "
+"also accounting above). A key aspect that many businesses fail to implement "
+"correctly is mail archiving. Every business-related email must be archived, "
+"especially invoices, quotes, etc. At the same time, you need to be compliant "
+"with GDPR, which mandates you cannot store personal data if not necessary. "
+"So you need to decide on each mail, whether you can, and need to, archive it "
+"or not. I recommend using an archiving solution like %s for this."
+msgstr ""
+
+#: tutorials/self-employed/index.php:57
+msgid "Data processing agreement"
+msgstr ""
+
+#: tutorials/self-employed/index.php:58
+msgid ""
+"Per GDPR you will need to sign a data processing agreement with every sub-"
+"processor that handles personal data. If you are processing personal data "
+"for your clients, which in most cases you do, then they also need such a "
+"data processing agreement from you. The agreement lays the foundation on "
+"which you process data and how you protect it. Legally your clients are "
+"responsible for asking for this contract, but in your best interest, you "
+"should bring this up with your clients and provide them with a contract. It "
+"shows professionalism and many of your clients are probably unaware of these "
+"requirements."
+msgstr ""
+
+#: tutorials/self-employed/index.php:59
+msgid "Useful Tools"
+msgstr ""
+
+#: tutorials/self-employed/index.php:61
+#, php-format
+msgid "For invoicing and accounting, I recommend %s."
+msgstr ""
+
+#: tutorials/self-employed/index.php:62
+#, php-format
+msgid ""
+"For sharing files, video calls, contacts, to-do lists and calendars I "
+"recommend %s."
+msgstr ""
+
+#: tutorials/self-employed/index.php:63
+#, php-format
+msgid "For instant messaging and project task boards, I recommend %s."
+msgstr ""
+
+#: tutorials/self-employed/index.php:64
+#, php-format
+msgid ""
+"To version your work, I recommend using Git and running your own %s server."
+msgstr ""
+
+#: tutorials/self-employed/index.php:65
+#, php-format
+msgid ""
+"To securely share passwords within your team, I recommend running a %s "
+"server."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
+#: tutorials/torify-ftp/index.php:35
+msgid "Tutorials - Torify FTP clients"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:10 tutorials/torify-ftp/index.php:24
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of "
+"FileZilla and WinSCP."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Download FileZilla"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid ""
+"If you haven't installed FileZilla yet, you need to first download FileZilla."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Configure proxy"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:44
+msgid ""
+"Go to Generic Proxy settings and change the type to SOCKS5, host to "
+"localhost and Port to 9050 (if you run Tor as daemon) or 9150 (if you run "
+"TorBrowser)."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Alternatively download WinSCP"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "If you haven't installed WinSCP yet, you need to first download WinSCP."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Enter connection details"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:76
+msgid "When started, enter your connection details."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33
+msgid "Change connection timeout"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:82
+msgid ""
+"Click on the Advanced… button and under Connection, change timeout to 50 as "
+"Tor can be slow at times."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:33 tutorials/torify-ftp/index.php:88
+msgid ""
+"Now switch to the Proxy tab and change the type to SOCKS5, host to 127.0.0.1 "
+"and Port to 9050 (if your run Tor as daemon) or 9150 (if you run TorBrowser) "
+"and set \"Do DNS name lookup at proxy end\" to yes."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:36
+#, php-format
+msgid ""
+"This tutorial will show you how to torify FTP clients in the example of %1$s "
+"and %2$s."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:37
+msgid ""
+"Let's assume you have created an account on my former Hosting service and "
+"you want to upload your files. To do that, you connect with the detials "
+"given in your dashboard. Clearnet works out of the box, but is not torified. "
+"To connect to the hidden service, you need to make a few changes to the "
+"configuration."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:40
+msgid "Hosting dashboard"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:42
+msgid "1. FileZilla"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:43
+#, php-format
+msgid "If you haven't installed FileZilla yet, you can %s."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:43
+msgid "download FileZilla here"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:49
+msgid "FileZilla settings"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:56
+msgid "FileZilla Generic Proxy settings"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:59
+msgid ""
+"If you have changed your proxy settings and get the following error: "
+"\"ECONNREFUSED - Connection refused by server\" that likely means you have "
+"configured your proxy incorrectly. Check if everything is set correctly, Tor "
+"is running and if you still have the issue, switch the Port between 9050 and "
+"9150. This is what's causing most connection issues people have."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:63
+msgid "FileZilla connection error"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:65
+msgid ""
+"Once you have configured everything correctly, you should be able to "
+"successfully connect and start uploading files."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:70
+msgid "FileZilla success"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:74
+msgid "2. WinSCP"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:75
+#, php-format
+msgid "If you haven't installed WinSCP yet, you can %s."
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:80
+msgid "Connection details"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:86
+msgid "Connection optimizations"
+msgstr ""
+
+#: tutorials/torify-ftp/index.php:92
+msgid "Proxy configuration"
+msgstr ""
+
+#: tutorials/content-creation/index.php:34
+msgid "Introduction"
+msgstr ""
+
+#: tutorials/content-creation/index.php:35
+#, php-format
+msgid ""
+"Online content creation is about producing and sharing information on "
+"digital platforms. This can come in various forms, such as videos, blogs, "
+"podcasts, and social media posts. As a content creator, you have the freedom "
+"to express your ideas, share your knowledge, and engage with an audience "
+"worldwide. Over the past few years, %1$s in content creation has become a "
+"rising trend. The ability to work from anywhere, control your schedule, and "
+"turn your passion into profit are some of the factors driving this change. "
+"However, the journey to becoming a successful content creator can be complex "
+"and filled with challenges. This guide will walk you through it."
+msgstr ""
+
+#: tutorials/content-creation/index.php:35
+msgid "self-employment"
+msgstr ""
+
+#: tutorials/content-creation/index.php:36
+msgid "Identify your creator's personality"
+msgstr ""
+
+#: tutorials/content-creation/index.php:37
+msgid ""
+"A unique creator personality is crucial in differentiating yourself in the "
+"crowded digital landscape. It allows you to attract a specific audience and "
+"build a strong connection with them. Your creator personality encompasses "
+"your style, voice, values, and passions. Finding your creator personality "
+"involves introspection and experimentation. Consider your interests, "
+"strengths, and the kind of content you enjoy consuming. Experiment with "
+"different content types and formats to identify what resonates with you and "
+"your audience. Furthermore, seek feedback from your audience to refine your "
+"creator's personality."
+msgstr ""
+
+#: tutorials/content-creation/index.php:38
+msgid "Choose a niche"
+msgstr ""
+
+#: tutorials/content-creation/index.php:39
+msgid ""
+"Selecting a niche is integral to successful content creation. A niche refers "
+"to a specialized segment of the market that you aim to cater to. By focusing "
+"on a specific niche, you can establish yourself as an expert, attract a "
+"targeted audience, and increase the chances of monetizing your content. When "
+"choosing a niche, consider your interests, expertise, and market demand. "
+"Some popular niches include fitness, personal finance, technology, fashion, "
+"travel, and mental health. However, remember that the best niche is one "
+"where your passion meets audience demand."
+msgstr ""
+
+#: tutorials/content-creation/index.php:40
+msgid "A warning about the adult content niche"
+msgstr ""
+
+#: tutorials/content-creation/index.php:41
+msgid ""
+"Adult or pornographic content creation is a niche within the online content "
+"creation industry that requires careful consideration due to its unique set "
+"of risks and challenges. While it can be lucrative, it's essential to "
+"consider the potential long-term implications on your personal and "
+"professional life. This type of content is often stigmatized and can lead to "
+"societal judgment, which could affect future employment opportunities "
+"outside of the adult industry. Privacy is another significant concern, as "
+"creators may face risks such as doxxing, where personal information is "
+"leaked online, or unwanted attention from viewers. Furthermore, there are "
+"legal considerations, including age verification of all participants and "
+"adherence to laws varying by location. Lastly, it's important to remember "
+"that once content is shared online, it can be difficult to remove "
+"completely, potentially leading to issues of piracy or non-consensual "
+"sharing. Therefore, anyone considering this niche should think carefully "
+"about these risks and take necessary precautions to protect themselves."
+msgstr ""
+
+#: tutorials/content-creation/index.php:42
+msgid "Develop your style and personal brand"
+msgstr ""
+
+#: tutorials/content-creation/index.php:43
+msgid ""
+"Personal branding is essential in building trust and loyalty with your "
+"audience. It reflects who you are, what you stand for, and the value you "
+"provide. A strong personal brand can help you attract partnerships, "
+"sponsorships, and monetization opportunities. Developing your style involves "
+"creating a unique visual and tonal consistency across your content. This "
+"includes your choice of colours, fonts, imagery, language, and tone of "
+"voice. Use your style to express your personality and make your content "
+"recognizable and memorable."
+msgstr ""
+
+#: tutorials/content-creation/index.php:44
+msgid "Choose your platform"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#, php-format
+msgid ""
+"There are numerous platforms available for content creators, each offering "
+"unique features and catering to different content types. %1$s and %2$s are "
+"popular for video content, while %3$s and %4$s are ideal for bloggers. "
+"Social media platforms like %5$s and %6$s are great for short-form content, "
+"while %7$s, %8$s and %9$s allow creators to monetize exclusive content. "
+"Choosing the right platform depends on your content type, target audience, "
+"and monetization goals. Consider where your target audience spends their "
+"time online, the algorithms and features of each platform, and how they "
+"align with your content strategy."
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:54
+#: tutorials/content-creation/index.php:58
+#: tutorials/content-creation/index.php:62
+msgid "YouTube"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:58
+#: tutorials/content-creation/index.php:83
+msgid "Twitch"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:81
+msgid "WordPress"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:81
+msgid "Medium"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:58
+#: tutorials/content-creation/index.php:62
+#: tutorials/content-creation/index.php:85
+msgid "Instagram"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:62
+#: tutorials/content-creation/index.php:85
+msgid "TikTok"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:66
+#: tutorials/content-creation/index.php:85
+msgid "OnlyFans"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:66
+#: tutorials/content-creation/index.php:85
+msgid "Fansly"
+msgstr ""
+
+#: tutorials/content-creation/index.php:45
+#: tutorials/content-creation/index.php:66
+#: tutorials/content-creation/index.php:85
+msgid "Patreon"
+msgstr ""
+
+#: tutorials/content-creation/index.php:46
+msgid "Develop a content calendar"
+msgstr ""
+
+#: tutorials/content-creation/index.php:47
+msgid ""
+"A content calendar is a schedule of when and where you plan to publish "
+"upcoming content. It helps you stay organized, maintain a consistent posting "
+"schedule, plan around key dates or events, and track your content's "
+"performance. Developing a content calendar involves identifying key dates "
+"relevant to your niche, planning content around these dates and setting a "
+"consistent posting schedule."
+msgstr ""
+
+#: tutorials/content-creation/index.php:48
+msgid "Equip yourself with the right tools"
+msgstr ""
+
+#: tutorials/content-creation/index.php:49
+msgid ""
+"Content creators require a variety of tools to produce and optimize their "
+"content. This can include cameras or smartphones for filming, microphones "
+"for audio quality, editing software, SEO tools for optimizing blog posts, "
+"social media scheduling tools, and analytics tools for tracking performance. "
+"Choosing the right tools depends on your content type, platform, budget, and "
+"skill level. Consider tools that offer the features you need, are within "
+"your budget, and are user-friendly. Also, utilize free trials to test out "
+"different tools before making a purchase."
+msgstr ""
+
+#: tutorials/content-creation/index.php:50
+msgid "Track performance metrics"
+msgstr ""
+
+#: tutorials/content-creation/index.php:51
+msgid ""
+"Tracking performance metrics allows you to measure the success of your "
+"content, understand your audience's preferences, and make data-driven "
+"decisions to optimize your content strategy. These metrics can include "
+"views, likes, shares, comments, follower growth, and revenue generated. The "
+"key performance metrics for content creators vary depending on the platform "
+"and content type. For bloggers, metrics like page views, bounce rate, and "
+"average session duration are important. For social media and video creators, "
+"engagement rate, follower growth, and video watch time can be crucial. For "
+"content creators monetizing their work, tracking income sources and revenue "
+"growth is essential."
+msgstr ""
+
+#: tutorials/content-creation/index.php:52
+msgid "Ideas on different types of content creation"
+msgstr ""
+
+#: tutorials/content-creation/index.php:53
+msgid "Starting a podcast"
+msgstr ""
+
+#: tutorials/content-creation/index.php:54
+#, php-format
+msgid ""
+"Starting a podcast can be a rewarding and profitable venture for content "
+"creators. This medium allows you to share stories, insights, and knowledge "
+"on a topic you're passionate about. To begin, you'll need to identify your "
+"niche, create engaging content, and invest in quality recording equipment. "
+"After recording and editing your podcast, you can publish it on platforms "
+"like %1$s, %2$s, %3$s or %4$s. Monetization of your podcast can be achieved "
+"through various avenues such as sponsorships, advertisements, listener "
+"donations, or subscription-based content. Remember, consistency and quality "
+"are key to growing your audience and turning your podcast into a profitable "
+"venture."
+msgstr ""
+
+#: tutorials/content-creation/index.php:54
+msgid "Apple Podcasts"
+msgstr ""
+
+#: tutorials/content-creation/index.php:54
+msgid "Spotify"
+msgstr ""
+
+#: tutorials/content-creation/index.php:54
+msgid "Google Podcasts"
+msgstr ""
+
+#: tutorials/content-creation/index.php:55
+msgid "Launching an online store"
+msgstr ""
+
+#: tutorials/content-creation/index.php:56
+#, php-format
+msgid ""
+"Launching an online store is a powerful way to monetize your passion as an "
+"online content creator. If you create physical or digital products related "
+"to your content, an online store allows you to directly sell these products "
+"to your audience. Platforms like %1$s, %2$s or %3$s make setting up an "
+"online store straightforward, offering features such as customizable "
+"storefronts, secure payment options, and inventory management. You can "
+"promote your products within your content, on social media platforms, or "
+"through email marketing. By providing high-quality products that resonate "
+"with your audience, you can generate additional income while enhancing your "
+"brand."
+msgstr ""
+
+#: tutorials/content-creation/index.php:56
+msgid "Etsy"
+msgstr ""
+
+#: tutorials/content-creation/index.php:56
+msgid "Shopify"
+msgstr ""
+
+#: tutorials/content-creation/index.php:56
+msgid "WooCommerce"
+msgstr ""
+
+#: tutorials/content-creation/index.php:57
+msgid "Become an entertainer or comedian"
+msgstr ""
+
+#: tutorials/content-creation/index.php:58
+#, php-format
+msgid ""
+"Becoming an entertainer or comedian is a rewarding path that allows you to "
+"express your creativity, bring joy to others, and potentially earn a living "
+"from your passion. Platforms like %1$s, %2$s and %3$s are great places to "
+"share your content and build an audience. As you grow your following, you "
+"can explore monetization opportunities such as ad revenue, sponsorships, "
+"live performances, merchandise sales, and more. Remember, becoming a "
+"successful entertainer or comedian takes time, patience, and resilience, but "
+"with passion and dedication, it's certainly achievable."
+msgstr ""
+
+#: tutorials/content-creation/index.php:59
+msgid "Teaching an online course"
+msgstr ""
+
+#: tutorials/content-creation/index.php:60
+#, php-format
+msgid ""
+"Becoming an online teacher is a rewarding way to share your knowledge and "
+"expertise while earning money as a content creator. This role involves "
+"creating educational content in your area of expertise and delivering it "
+"through digital platforms. You can choose to offer live classes, pre-"
+"recorded lessons, or a combination of both. Platforms like %1$s, %2$s or "
+"%3$s are ideal for hosting and selling your courses to a global audience. To "
+"succeed as an online teacher, you need to understand your target audience's "
+"learning needs, create engaging and informative content, and continuously "
+"update your course materials to stay relevant. Monetization can be achieved "
+"through charging for course enrollment, offering premium content, or "
+"providing one-on-one tutoring sessions. As an online teacher, not only do "
+"you have the potential to reach students worldwide, but you also enjoy the "
+"flexibility of working from anywhere at any time."
+msgstr ""
+
+#: tutorials/content-creation/index.php:60
+msgid "Skillshare"
+msgstr ""
+
+#: tutorials/content-creation/index.php:61
+msgid "Becoming an influencer"
+msgstr ""
+
+#: tutorials/content-creation/index.php:62
+#, php-format
+msgid ""
+"Becoming an influencer is an exciting and potentially lucrative avenue in "
+"the realm of online content creation. As an influencer, your role involves "
+"building a substantial following on social media platforms and using this "
+"audience to promote products, services, or causes that align with your "
+"brand. Successful influencers often focus on a specific niche, such as "
+"fashion, fitness, travel, or food, and share content that is both engaging "
+"and authentic. Platforms like %1$s, %2$s, %3$s and %4$s are popular spaces "
+"for influencers to grow their following. Monetization as an influencer can "
+"come from sponsored posts, brand partnerships, affiliate marketing, or even "
+"launching your product line. However, becoming an influencer requires "
+"dedication, creativity, and a genuine desire to engage with your audience. "
+"It's crucial to maintain transparency, authenticity, and consistency to "
+"build trust and loyalty among your followers."
+msgstr ""
+
+#: tutorials/content-creation/index.php:62
+msgid "Twitter"
+msgstr ""
+
+#: tutorials/content-creation/index.php:63
+msgid "Becoming a service provider"
+msgstr ""
+
+#: tutorials/content-creation/index.php:64
+#, php-format
+msgid ""
+"Becoming a service provider is another viable way to earn money as an online "
+"content creator. This path involves leveraging your skills and expertise to "
+"provide services for clients. For instance, if you excel in graphic design, "
+"writing, video editing, or digital marketing, you can offer these as "
+"services to individuals or businesses that require them. Platforms like %1$s "
+"or %2$s serve as great marketplaces to connect with potential clients. As a "
+"service provider, it's crucial to showcase a strong portfolio of your work, "
+"maintain clear communication with clients, and deliver high-quality results "
+"consistently. This not only helps you build a solid reputation but also "
+"increases the likelihood of securing more projects and earning a stable "
+"income. Additionally, this approach allows you to work flexibly from "
+"anywhere, set your rates, and choose projects that align with your interests "
+"and skills."
+msgstr ""
+
+#: tutorials/content-creation/index.php:64
+msgid "Fiverr"
+msgstr ""
+
+#: tutorials/content-creation/index.php:64
+msgid "Upwork"
+msgstr ""
+
+#: tutorials/content-creation/index.php:65
+msgid "Offering exclusive content"
+msgstr ""
+
+#: tutorials/content-creation/index.php:66
+#, php-format
+msgid ""
+"Offering exclusive content is an effective way to monetize your online "
+"presence and foster a dedicated community of supporters. As a content "
+"creator, you can provide exclusive content on platforms like %1$s, %2$s or "
+"%3$s, where subscribers pay a fee for access to premium materials. This "
+"could include behind-the-scenes footage, early access to new work, personal "
+"updates, or any other content that adds unique value beyond what you offer "
+"for free. By offering exclusive content, you create a more intimate space "
+"for your most engaged followers, encouraging a stronger connection and "
+"fostering a sense of exclusivity. This strategy not only helps generate "
+"consistent income but also allows you to reward your most loyal fans with "
+"unique experiences or insights."
+msgstr ""
+
+#: tutorials/content-creation/index.php:67
+msgid "Popular platforms for exclusive content are:"
+msgstr ""
+
+#: tutorials/content-creation/index.php:76
+msgid "Selling stock photos"
+msgstr ""
+
+#: tutorials/content-creation/index.php:77
+#, php-format
+msgid ""
+"Selling stock photos is a potentially lucrative way for photographers to "
+"monetize their passion. This involves capturing high-quality images and "
+"selling them on stock photo platforms such as %1$s, %2$s or %3$s. These "
+"websites act as a marketplace where creators can upload their photos and "
+"customers can purchase them for use in their projects, like marketing "
+"campaigns, websites, or blog posts. The key to success in selling stock "
+"photos lies in understanding what kind of imagery buyers are looking for, "
+"such as business-related photos, lifestyle images, or nature shots. It's "
+"also crucial to ensure your photos are well-composed, sharply focused, and "
+"properly lit to meet the high standards of these platforms. Each time a "
+"customer purchases your photo, you earn a commission. Over time, with a "
+"diverse portfolio of quality images, selling stock photos can provide a "
+"steady stream of passive income."
+msgstr ""
+
+#: tutorials/content-creation/index.php:77
+msgid "Shutterstock"
+msgstr ""
+
+#: tutorials/content-creation/index.php:77
+msgid "Adobe Stock"
+msgstr ""
+
+#: tutorials/content-creation/index.php:77
+msgid "Getty Images"
+msgstr ""
+
+#: tutorials/content-creation/index.php:78
+msgid "Publishing an eBook"
+msgstr ""
+
+#: tutorials/content-creation/index.php:79
+#, php-format
+msgid ""
+"Publishing an eBook is a viable way for content creators to share their "
+"knowledge or storytelling skills while generating income. This process "
+"involves writing a book in your area of expertise or interest, formatting it "
+"for digital distribution, and making it available for purchase or download "
+"online. Platforms like %1$s, %2$s or %3$s are popular choices for self-"
+"publishing eBooks. These platforms allow you to retain control over your "
+"content, set your prices, and reach a global audience. Furthermore, the cost "
+"of publishing an eBook is typically lower than traditional publishing, "
+"making it an accessible option for many creators. To succeed in eBook "
+"publishing, it's essential to produce high-quality content, design an "
+"attractive cover, write a compelling book description, and invest in "
+"marketing to reach potential readers. Monetization is usually achieved "
+"through book sales, with the platform taking a small percentage of each sale "
+"as a commission."
+msgstr ""
+
+#: tutorials/content-creation/index.php:79
+msgid "Amazon Kindle Direct Publishing"
+msgstr ""
+
+#: tutorials/content-creation/index.php:79
+msgid "Apple Books"
+msgstr ""
+
+#: tutorials/content-creation/index.php:79
+msgid "Google Play Books"
+msgstr ""
+
+#: tutorials/content-creation/index.php:80
+msgid "Creating a blog"
+msgstr ""
+
+#: tutorials/content-creation/index.php:81
+#, php-format
+msgid ""
+"Creating a blog is an excellent way to express your ideas, share your "
+"knowledge, and engage with an online audience. This form of content creation "
+"involves writing and publishing articles on a specific topic or niche that "
+"you're passionate about. You can start a blog on platforms like %1$s, %2$s "
+"or %3$s, which offer user-friendly interfaces for publishing content. The "
+"key to successful blogging lies in providing valuable, unique, and engaging "
+"content consistently. You can monetize your blog through various methods "
+"such as ad revenue, sponsored posts, and affiliate marketing. Additionally, "
+"blogging enhances your digital presence, helps establish your authority in a "
+"particular field, and allows you to connect with a global audience."
+msgstr ""
+
+#: tutorials/content-creation/index.php:81
+msgid "Blogger"
+msgstr ""
+
+#: tutorials/content-creation/index.php:82
+msgid "Becoming a live streamer"
+msgstr ""
+
+#: tutorials/content-creation/index.php:83
+#, php-format
+msgid ""
+"Becoming a live streamer is an exciting and dynamic way to engage with an "
+"online audience in real-time. This form of content creation involves "
+"broadcasting live videos on platforms such as %1$s, %2$s, %3$s or %4$s, "
+"where you can interact directly with your viewers. As a live streamer, you "
+"can choose to focus on a variety of niches, including gaming, music, "
+"education, fitness, or just casual chats. The key to successful live "
+"streaming lies in maintaining consistent schedules, creating engaging "
+"content, and fostering a community through active viewer interaction. "
+"Monetization strategies for live streaming include viewer donations, brand "
+"partnerships, ad revenue, and subscription-based models. As a live streamer, "
+"you have the opportunity to build a vibrant community around your passion "
+"while also earning income."
+msgstr ""
+
+#: tutorials/content-creation/index.php:83
+msgid "YouTube Live"
+msgstr ""
+
+#: tutorials/content-creation/index.php:83
+msgid "Tango Live"
+msgstr ""
+
+#: tutorials/content-creation/index.php:83
+msgid "BIGO Live"
+msgstr ""
+
+#: tutorials/content-creation/index.php:84
+msgid "Promoting paid content on social media"
+msgstr ""
+
+#: tutorials/content-creation/index.php:85
+#, php-format
+msgid ""
+"Paid content platforms like %1$s, %2$s and %3$s have become popular avenues "
+"for creators to monetize their content. However, attracting subscribers to "
+"these platforms often requires effective promotion. Social media networks "
+"such as %4$s, %5$s and %6$s offer excellent opportunities for creators to "
+"market their paid content and attract a wider audience. Promoting your paid "
+"content on social media platforms requires creativity, consistency, and "
+"engagement. Each platform offers unique features that you can leverage to "
+"attract subscribers. By creating enticing teaser content, building "
+"relationships with your audience, and making it easy for them to access your "
+"paid platform, you can increase your chances of converting followers into "
+"paying subscribers. You can also make use of direct messaging to engage with "
+"your audience. Depending on your content strategy, you could also sell "
+"direct messaging as a service."
+msgstr ""
+
+#: tutorials/content-creation/index.php:85
+msgid "Telegram"
+msgstr ""
+
+#: tutorials/findom/index.php:10 tutorials/findom/index.php:22
+msgid "This tutorial will show you how you can use findom to earn money"
+msgstr ""
+
+#: tutorials/findom/index.php:34
+msgid "What is findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:35
+msgid ""
+"Findom, short for financial domination. It is a fetish in which a dominant "
+"person (dom) receives money from a submissive person (sub). This transaction "
+"provides pleasure to both parties, even though it is a one-way transaction."
+msgstr ""
+
+#: tutorials/findom/index.php:36
+msgid "What are the risks of engaging in findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:37
+msgid ""
+"For a sub, engaging in findom carries the risk of losing money and control. "
+"It can become addictive and lead to overspending, financial instability or "
+"homelessness. For a dom an unhealthy relationship with money could form, "
+"given that they receive potentially a lot of it, and are tempted to spend "
+"all of it. Once a sub no longer spends money on the dom, this could lead to "
+"an existential crisis due to high expenses that need to be maintained."
+msgstr ""
+
+#: tutorials/findom/index.php:38
+msgid "What are the benefits of findom?"
+msgstr ""
+
+#: tutorials/findom/index.php:39
+msgid ""
+"As a sub, you will be motivated to earn more money and climb the career "
+"ladder faster than you would normally do because you are constantly "
+"challenged to give more to your dom. For doms, it is financial gain."
+msgstr ""
+
+#: tutorials/findom/index.php:40
+msgid "What is a findom relationship like?"
+msgstr ""
+
+#: tutorials/findom/index.php:41
+msgid ""
+"Findom relationships come in various forms. Some are short-lived, one-time "
+"transactions, while others can span many years. While findom is purely "
+"financial, it is also often combined with BDSM, content creation and other "
+"erotic services. Some subs enjoy paying for online shopping or buying over-"
+"priced feet pictures, others will go shopping with their dom in real life, "
+"and some would like to be humiliated in public. A scenario could involve a "
+"debt contract, in which the sub commits to paying off a debt to their dom "
+"for an extended period in monthly instalments."
+msgstr ""
+
+#: tutorials/findom/index.php:42
+msgid "How to live in a healthy findom relationship?"
+msgstr ""
+
+#: tutorials/findom/index.php:43
+msgid ""
+"Everyone is unique, so your specific needs need to be discussed with your "
+"findom partner. It is important that both of you are happy with it. While "
+"some subs and doms favour a fast one-time transaction, it is usually best "
+"for both parties, if a long-term relationship can be established. To "
+"maintain a healthy relationship, the dom needs to know a subs financial "
+"situation, including income, expenses and spending habits. This knowledge "
+"allows the dom to help the sub reduce expenses, increase income and "
+"ultimately hand over more cash to the dom, without risking serious debt "
+"problems. While it is an entertaining thought to some subs, ending up "
+"homeless is not beneficial to anyone."
+msgstr ""
+
+#: tutorials/findom/index.php:44
+msgid "Where do I find a findom partner?"
+msgstr ""
+
+#: tutorials/findom/index.php:45
+#, php-format
+msgid ""
+"If you are curious to try this fetish out or would like to thank me, you can "
+"donate or buy me an item from my %s. For a more long-term experience, see "
+"the links below."
+msgstr ""
+
+#: tutorials/findom/index.php:45
+msgid "Amazon wishlist"
+msgstr ""
+
+#: tutorials/findom/index.php:46
+msgid "Popular dating sites used for findom:"
+msgstr ""
+
+#: tutorials/findom/index.php:51
+msgid ""
+"You can find findom content on social media sites with tags like #paypig "
+"#moneyslave #findom #payme #spoilme etc."
+msgstr ""
+
+#: tutorials/findom/index.php:56
+msgid "Popular findom sites:"
+msgstr ""
+
+#: tutorials/findom/index.php:65
+msgid "Popular content creator sites used for findom:"
+msgstr ""
