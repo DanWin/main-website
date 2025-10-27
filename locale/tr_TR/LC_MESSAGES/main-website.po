@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-06-30 19:15+0200\n"
-"PO-Revision-Date: 2025-10-27 17:30+0000\n"
+"PO-Revision-Date: 2025-10-27 17:33+0000\n"
 "Last-Translator: Turkish Mark <turkishmark@yandex.com>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/tr/>\n"
@@ -148,8 +148,6 @@ msgid "GitHub IPv6 proxy"
 msgstr "GitHub IPv6 proxy'si"
 
 #: index.php:28
-#, fuzzy
-#| msgid "Tutorials"
 msgid "tutorials"
 msgstr "Öğreticiler"
 
@@ -275,12 +273,6 @@ msgstr ""
 "beni formda tuttuğu için öğrenmeye başladım."
 
 #: about.php:39
-#, fuzzy
-#| msgid ""
-#| "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
-#| "also know some basics of Perl, Python, C, C++ and more. With my "
-#| "experience I'm able to quickly adapt and work with new languages, when "
-#| "necessary."
 msgid ""
 "Programming languages I use regularly are PHP, SQL and JavaScript, but I "
 "also know some basics of Perl, Python, C, C++ and more. With my experience, "
@@ -383,13 +375,6 @@ msgstr ""
 "ekledim ve güvenilirliği ve kodumu çok geliştirdim."
 
 #: about.php:59
-#, fuzzy
-#| msgid ""
-#| "I used to offer free file hosting, an url shortener, a chat and even a "
-#| "free darknet web hosting service. All these projects have taught me a lot "
-#| "about coding, security and server management. As of now, only the "
-#| "anonymous email and XMPP hosting, as well as the onion link list are "
-#| "still actively maintained."
 msgid ""
 "I used to offer free file hosting, an URL shortener, a chat and even a free "
 "darknet web hosting service. All these projects have taught me a lot about "
@@ -754,10 +739,7 @@ msgstr ""
 "özelliğini ekleyebilir misiniz?"
 
 #: faq.php:38
-#, fuzzy, php-format
-#| msgid ""
-#| "Yes, please <a href=\"%s\">contact me</a> and I may add it on my ToDo "
-#| "list. It might take a while until your feature gets added though."
+#, php-format
 msgid ""
 "Yes, please %s and I may add it on my ToDo list. It might take a while until "
 "your feature gets added though."
@@ -944,14 +926,6 @@ msgid "Can you hack my girlfriend? I think she's cheating."
 msgstr "Kız arkadaşımı hackleyebilir misin? Bence aldatıyor."
 
 #: faq.php:78
-#, fuzzy
-#| msgid ""
-#| "Yes, I could try, but I won't. Don't trust the any sites that claim to "
-#| "give you that, because they are all scams. This is ethically just wrong "
-#| "and is more likely going to hurt your relationship than helping you. Talk "
-#| "to her, it's the best you can do. If you are at the point of thinking to "
-#| "hire a hacker, you should definitely think about breaking up, because "
-#| "relationships are based on trust, but obviously you can't trust anymore."
 msgid ""
 "Yes, I could try, but I won't. Don't trust the many sites that claim to give "
 "you that, because they are all scams. This is ethically just wrong and is "
@@ -973,14 +947,7 @@ msgid "My email doesn't get sent. I'm getting an error about TLS"
 msgstr "E-postam gönderilemiyor. TLS ile ilgili bir hata alıyorum"
 
 #: faq.php:82
-#, fuzzy, php-format
-#| msgid ""
-#| "You've tried sending an email to a mail server that doesn't accept emails "
-#| "via encrypted transfer, or is using insecure protocols. This is very "
-#| "unfortunate, because it would leak your email content to anyone on the "
-#| "internet, who can intercept your email before it reaches the destination. "
-#| "You can disable mandatory encryption in your <a href=\"%s\">account "
-#| "settings</a>, if you still need to send this email."
+#, php-format
 msgid ""
 "You've tried sending an email to a mail server that doesn't accept emails "
 "via encrypted transfer, or is using insecure protocols. This is very "
@@ -1005,14 +972,7 @@ msgid "I can't receive email, the sender gets an error about TLS"
 msgstr "E-posta alamıyorum, gönderen TLS ile ilgili bir hata alıyor"
 
 #: faq.php:86
-#, fuzzy, php-format
-#| msgid ""
-#| "Someone tried emailing you from a mail server that doesn't support "
-#| "sending emails via encrypted transfer, or is using insecure protocols. "
-#| "This is very unfortunate, because it would leak your email content to "
-#| "anyone on the internet, who can intercept your email before it reaches "
-#| "the destination. You can disable mandatory encryption in your <a "
-#| "href=\"%s\">account settings</a>, if you still need to receive this email."
+#, php-format
 msgid ""
 "Someone tried emailing you from a mail server that doesn't support sending "
 "emails via encrypted transfer, or is using insecure protocols. This is very "
@@ -1025,9 +985,8 @@ msgstr ""
 "güvenli olmayan protokoller kullanan bir posta sunucusundan size e-posta "
 "göndermeye çalıştı. Bu çok talihsiz bir durumdur çünkü e-posta içeriğinizi, "
 "hedefe ulaşmadan önce e-postanızı engelleyebilecek internetteki herhangi "
-"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a "
-"href=\"%s\">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı "
-"bırakabilirsiniz."
+"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a href=\"%s\""
+">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:89
 msgid ""
@@ -1037,14 +996,7 @@ msgstr ""
 "kazanabilirim?"
 
 #: faq.php:90
-#, fuzzy, php-format
-#| msgid ""
-#| "Becoming rich and clearing your debts is a process that starts in your "
-#| "head. Chances of becoming rich overnight are extremely low, you should "
-#| "rather focus on long term goals. It may take you a few years to become "
-#| "financially free, but everyone can get there, if you are willing to learn "
-#| "and educate yourself. I made an in-depth tutorial about some steps you "
-#| "can take: <a href=\"%s\">How to get rich (fast)</a>."
+#, php-format
 msgid ""
 "Becoming rich and clearing your debts is a process that starts in your head. "
 "Chances of becoming rich overnight are extremely low, you should rather "
@@ -1110,8 +1062,6 @@ msgid "I have more Questions."
 msgstr "Daha fazla sorum var."
 
 #: faq.php:102
-#, fuzzy
-#| msgid "Contact"
 msgid "Contact me"
 msgstr "İletişim"
 
@@ -1249,8 +1199,6 @@ msgstr ""
 "anahtarlarını %s güncellemelidir."
 
 #: new-domain.php:37
-#, fuzzy
-#| msgid "FileZilla settings"
 msgid "in their account settings"
 msgstr "FileZilla ayarları"
 
@@ -1484,18 +1432,6 @@ msgid "3. Collection of general data and information"
 msgstr "3. Genel veri ve bilgilerin toplanması"
 
 #: privacy.php:46
-#, fuzzy
-#| msgid ""
-#| "The server of Daniel Winzen collects a series of general data and "
-#| "information when a data subject or automated system calls up the website "
-#| "or other provided services. This general data and information is stored "
-#| "in the server log files. Collected may be (1) the browser types and "
-#| "versions used, (2) the operating system used by the accessing system, (3) "
-#| "the website from which an accessing system reaches my website (so-called "
-#| "referrers), (4) the sub-websites, (5) the date and time of access to the "
-#| "Internet site / email transmission, (6) sender and recipient of an email, "
-#| "and (7) any other similar data and information that may be used in the "
-#| "event of attacks on my information technology systems."
 msgid ""
 "The server of Daniel Winzen collects a series of general data and "
 "information when a data subject or automated system calls up the website or "
@@ -1679,8 +1615,6 @@ msgid "9. Warrant canary"
 msgstr ""
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:38
-#, fuzzy
-#| msgid "Daniel's Chat"
 msgid "Daniel's Chat shutdown"
 msgstr "Daniel'in Sohbeti"
 
@@ -1689,8 +1623,6 @@ msgid "Daniel's Chat - a former darknet chat community"
 msgstr "Daniel's Chat - eski bir darknet sohbet topluluğu"
 
 #: chat/index.php:25
-#, fuzzy
-#| msgid "Daniel's Chat"
 msgid "Daniel' Chat shutdown"
 msgstr "Daniel'in Sohbeti"
 
@@ -1748,8 +1680,6 @@ msgstr ""
 #: blog/onion-link-list-shutdown/index.php:15
 #: blog/onion-link-list-shutdown/index.php:25
 #: blog/onion-link-list-shutdown/index.php:27 blog/index.php:37
-#, fuzzy
-#| msgid "Onion link list"
 msgid "Onion link list shutdown"
 msgstr "Onion bağlantı listesi"
 
@@ -1860,8 +1790,6 @@ msgid ""
 msgstr ""
 
 #: blog/ipv6/index.php:39
-#, fuzzy
-#| msgid "Preparation and Security"
 msgid "Enhanced Security"
 msgstr "Hazırlık ve Güvenlik"
 
@@ -2029,8 +1957,6 @@ msgid "The Importance of DNSSEC Implementation"
 msgstr ""
 
 #: blog/dnssec/index.php:37
-#, fuzzy
-#| msgid "Preparation and Security"
 msgid "Enhanced Data Integrity"
 msgstr "Hazırlık ve Güvenlik"
 
@@ -2134,14 +2060,10 @@ msgid ""
 msgstr ""
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
-#, fuzzy
-#| msgid "Daniel - Home"
 msgid "Daniel - Blog and news"
 msgstr "Daniel - Ev"
 
 #: blog/index.php:10 blog/index.php:16
-#, fuzzy
-#| msgid "Contact Daniel Winzen"
 msgid "Blog and news by Daniel Winzen"
 msgstr "Daniel Winzen ile iletişim kurun"
 
@@ -2632,8 +2554,6 @@ msgid ""
 msgstr ""
 
 #: blog/cluster/index.php:55
-#, fuzzy
-#| msgid "Connection optimizations"
 msgid "Performance optimizations"
 msgstr "Bağlantı optimizasyonları"
 
@@ -2762,8 +2682,6 @@ msgid "The Importance of DANE Implementation"
 msgstr ""
 
 #: blog/dane/index.php:37
-#, fuzzy
-#| msgid "Preparation and Security"
 msgid "Enhanced Trust and Security"
 msgstr "Hazırlık ve Güvenlik"
 
@@ -3525,8 +3443,6 @@ msgid "Earning money with findom"
 msgstr ""
 
 #: tutorials/index.php:34
-#, fuzzy
-#| msgid "This tutorial will show you how to torify FTP clients."
 msgid "This tutorial will show you how you can use findom to earn money."
 msgstr ""
 "Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
@@ -3534,8 +3450,6 @@ msgstr ""
 #: tutorials/index.php:35 tutorials/self-employed/index.php:6
 #: tutorials/self-employed/index.php:19 tutorials/self-employed/index.php:29
 #: tutorials/self-employed/index.php:31
-#, fuzzy
-#| msgid "Become self-employed"
 msgid "Becoming self-employed"
 msgstr "Kendi işinizin sahibi olun"
 
@@ -4104,8 +4018,6 @@ msgid "If you haven't installed FileZilla yet, you can %s."
 msgstr "Eğer FileZilla'yı henüz yüklemediyseniz, %s yükleyebilirsiniz."
 
 #: tutorials/torify-ftp/index.php:43
-#, fuzzy
-#| msgid "Download FileZilla"
 msgid "download FileZilla here"
 msgstr "FileZilla'yı İndirin"
 
@@ -4188,8 +4100,6 @@ msgid ""
 msgstr ""
 
 #: tutorials/content-creation/index.php:35
-#, fuzzy
-#| msgid "Become self-employed"
 msgid "self-employment"
 msgstr "Kendi işinizin sahibi olun"
 
@@ -4452,8 +4362,6 @@ msgid "WooCommerce"
 msgstr ""
 
 #: tutorials/content-creation/index.php:57
-#, fuzzy
-#| msgid "Become an entrepreneur, build your own company"
 msgid "Become an entertainer or comedian"
 msgstr "Girişimci ol, kendi şirketini kur"
 
@@ -4523,8 +4431,6 @@ msgid "Twitter"
 msgstr ""
 
 #: tutorials/content-creation/index.php:63
-#, fuzzy
-#| msgid "Become self-employed"
 msgid "Becoming a service provider"
 msgstr "Kendi işinizin sahibi olun"
 
@@ -4671,8 +4577,6 @@ msgid "Blogger"
 msgstr ""
 
 #: tutorials/content-creation/index.php:82
-#, fuzzy
-#| msgid "Become self-employed"
 msgid "Becoming a live streamer"
 msgstr "Kendi işinizin sahibi olun"
 
@@ -4738,8 +4642,6 @@ msgstr ""
 "gösterecek"
 
 #: tutorials/findom/index.php:34
-#, fuzzy
-#| msgid "What is PGP?"
 msgid "What is findom?"
 msgstr "PGP nedir?"
 
@@ -4751,8 +4653,6 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:36
-#, fuzzy
-#| msgid "What are the risks of sugar dating?"
 msgid "What are the risks of engaging in findom?"
 msgstr "Şeker flörtünün riskleri nelerdir?"
 
@@ -4767,8 +4667,6 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:38
-#, fuzzy
-#| msgid "What are the benefits of sugar dating?"
 msgid "What are the benefits of findom?"
 msgstr "Şeker flörtünün faydaları nelerdir?"
 
@@ -4814,8 +4712,6 @@ msgid ""
 msgstr ""
 
 #: tutorials/findom/index.php:44
-#, fuzzy
-#| msgid "Where do I find a sugar partner?"
 msgid "Where do I find a findom partner?"
 msgstr "Nerede bir şeker ortağı bulabilirim?"
 
