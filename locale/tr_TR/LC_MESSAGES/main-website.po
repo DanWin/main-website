@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-06-30 19:15+0200\n"
-"PO-Revision-Date: 2025-10-27 17:33+0000\n"
+"PO-Revision-Date: 2025-10-27 22:09+0000\n"
 "Last-Translator: Turkish Mark <turkishmark@yandex.com>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/tr/>\n"
@@ -149,7 +149,7 @@ msgstr "GitHub IPv6 proxy'si"
 
 #: index.php:28
 msgid "tutorials"
-msgstr "Öğreticiler"
+msgstr "Eğitimler"
 
 #: index.php:29
 msgid ""
@@ -434,10 +434,13 @@ msgid "Home hosted: 4 Raspberry Pi 4 with the main site and data"
 msgstr "Evde barındırılan: Ana site ve verilerle birlikte 4 Raspberry Pi 4"
 
 #: about.php:74
+#, fuzzy
 msgid ""
 "A small network rack with 4 Raspberry Pis in it, a wifi router on top and a "
 "phone next to it"
 msgstr ""
+"İçinde 4 adet Raspberry Pi bulunan küçük bir ağ rafı, üstünde bir wifi "
+"yönlendirici ve yanında bir telefon"
 
 #: about.php:77
 msgid ""
@@ -462,11 +465,15 @@ msgstr ""
 "modern DTMF'ye çevirmek için bir dönüştürücü almam gerekti."
 
 #: about.php:78
+#, fuzzy
 msgid ""
 "The operating system I use is Debian sid. To share data between all servers, "
 "I deployed a CephFS for distributed and redundant file storage, as well as a "
 "MariaDB Galera cluster."
 msgstr ""
+"Kullandığım işletim sistemi Debian sid. Tüm sunucular arasında veri "
+"paylaşmak amacıyla, dağıtılmış ve yedekli dosya depolama için bir CephFS'nin "
+"yanı sıra bir MariaDB Galera kümesi kurdum."
 
 #: about.php:79
 #, php-format
@@ -484,11 +491,16 @@ msgid "All servers are interconnected with a Wireguard VPN."
 msgstr "Tüm sunucular bir Wireguard VPN ile birbirine bağlıdır."
 
 #: about.php:81
+#, fuzzy
 msgid ""
 "Backups are very important too, thus I use BorgBackup on all my devices to "
 "regularly create an encrypted backup, stored on remote backup storage, which "
 "takes regular snapshots, ensuring recoverability in case of backup failures."
 msgstr ""
+"Yedeklemeler de çok önemlidir, bu nedenle düzenli olarak anlık görüntüler "
+"alan ve yedekleme arızası durumunda kurtarılabilirliği garantileyen uzak "
+"yedekleme deposunda saklanan şifreli bir yedeklemeyi düzenli olarak "
+"oluşturmak için tüm cihazlarımda BorgBackup'ı kullanıyorum."
 
 #: github-ipv6-proxy.php:10 github-ipv6-proxy.php:21
 msgid ""
@@ -509,8 +521,9 @@ msgstr ""
 "yazık ki GitHub'ın hala %2$s olduğunu fark ettim."
 
 #: github-ipv6-proxy.php:34
+#, fuzzy
 msgid "does not support IPv6"
-msgstr ""
+msgstr "IPv6'yı desteklemiyor"
 
 #: github-ipv6-proxy.php:35
 msgid ""
@@ -596,9 +609,9 @@ msgstr ""
 "yapılır:"
 
 #: github-ipv6-proxy.php:102 chat/index.php:32
-#, php-format
+#, fuzzy, php-format
 msgid "If there are any further questions, %s."
-msgstr ""
+msgstr "Başka sorularınız varsa %s."
 
 #: github-ipv6-proxy.php:102 faq.php:38 chat/index.php:32
 #: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
@@ -635,8 +648,9 @@ msgid "Honeypot (do not fill anything):"
 msgstr "Honeypot (hiçbir şey doldurmayın):"
 
 #: contact.php:34
+#, fuzzy
 msgid "Your email:"
-msgstr ""
+msgstr "E-postanız:"
 
 #: contact.php:37
 msgid "Subject:"
@@ -649,7 +663,7 @@ msgstr "İleti:"
 #: contact.php:43
 #, php-format
 msgid "I have read and agreed to the %s"
-msgstr ""
+msgstr "%s'nı okudum ve kabul ettim"
 
 #: contact.php:43
 msgid "Privacy Policy"
@@ -677,8 +691,9 @@ msgid "If you want to encrypt your message, you can use %s."
 msgstr "Mesajınızı şifrelemek istiyorsanız %s kullanabilirsiniz."
 
 #: contact.php:82
+#, fuzzy
 msgid "my public PGP key"
-msgstr ""
+msgstr "genel PGP anahtarım"
 
 #: contact.php:83
 #, php-format
@@ -723,14 +738,18 @@ msgid "What is PGP?"
 msgstr "PGP nedir?"
 
 #: faq.php:34
+#, fuzzy
 msgid ""
 "PGP is an encryption program, that can be used to encrypt or sign emails and "
 "files."
 msgstr ""
+"PGP, e-postaları ve dosyaları şifrelemek veya imzalamak için kullanılabilen "
+"bir şifreleme programıdır."
 
 #: faq.php:34
+#, fuzzy
 msgid "More info in this Wikipedia article"
-msgstr ""
+msgstr "Bu Wikipedia makalesinde daha fazla bilgi"
 
 #: faq.php:37
 msgid "I have an idea how to make your site better, can you add feature xyz?"
@@ -765,8 +784,9 @@ msgstr ""
 "kontrol edin."
 
 #: faq.php:42
+#, fuzzy
 msgid "GitHub repositories"
-msgstr ""
+msgstr "GitHub depoları"
 
 #: faq.php:45
 msgid "I heard of red rooms, live murder streams or similar. Are they real?"
@@ -874,24 +894,29 @@ msgstr ""
 "%s veya %s'dir."
 
 #: faq.php:62 tutorials/content-creation/index.php:60
+#, fuzzy
 msgid "Coursera"
-msgstr ""
+msgstr "Coursera"
 
 #: faq.php:62 tutorials/content-creation/index.php:60
+#, fuzzy
 msgid "Udemy"
-msgstr ""
+msgstr "Udemy"
 
 #: faq.php:62
+#, fuzzy
 msgid "Hacker101"
-msgstr ""
+msgstr "Hacker101"
 
 #: faq.php:62
+#, fuzzy
 msgid "HackTheBox"
-msgstr ""
+msgstr "HackTheBox"
 
 #: faq.php:62
+#, fuzzy
 msgid "Hack This Site"
-msgstr ""
+msgstr "Bu Siteyi Hackleyin"
 
 #: faq.php:65
 msgid ""
@@ -964,8 +989,9 @@ msgstr ""
 "zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:82 faq.php:86
+#, fuzzy
 msgid "account settings"
-msgstr ""
+msgstr "hesap ayarları"
 
 #: faq.php:85
 msgid "I can't receive email, the sender gets an error about TLS"
@@ -1018,11 +1044,12 @@ msgid "How to get rich (fast)"
 msgstr "Nasıl zengin olunur (hızlı)"
 
 #: faq.php:93
+#, fuzzy
 msgid "I want to sell my kidney, can you help me?"
-msgstr ""
+msgstr "Böbreğimi satmak istiyorum yardımcı olur musunuz?"
 
 #: faq.php:94
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "In most countries, selling organs is illegal. So if you succeed in finding a "
 "doctor that would agree to take out your organs, and have a buyer, then both "
@@ -1033,25 +1060,38 @@ msgid ""
 "paid only a fraction of its worth. For a more detailed answer, you may want "
 "to read %s."
 msgstr ""
+"Çoğu ülkede organ satışı yasa dışıdır. Yani eğer organlarınızı almayı kabul "
+"edecek bir doktor bulmayı başarırsanız ve bir alıcı bulursanız, her ikisi de "
+"birkaç yıl hapis cezası alma riskiyle karşı karşıya kalacak. Onlar için "
+"organlarınızı alırken sizi öldürmek, kimseye söylemenizi engellemek ve tabii "
+"ki size para ödemek zorunda kalmamak çok daha güvenli ve kolaydır. Amacınız "
+"büyük olasılıkla maddi kazançtır. Ancak böbreğinizi sattığınızda değerinin "
+"yalnızca küçük bir kısmını almayı bekleyebilirsiniz. Daha ayrıntılı bir "
+"cevap için %s okumak isteyebilirsiniz."
 
 #: faq.php:94
+#, fuzzy
 msgid "this Wikipedia article"
-msgstr ""
+msgstr "bu Vikipedi makalesi"
 
 #: faq.php:97
+#, fuzzy
 msgid "How can I veryify that you are still in control of your server?"
-msgstr ""
+msgstr "Sunucunuzun kontrolünün hâlâ sizde olduğunu nasıl doğrulayabilirim?"
 
 #: faq.php:98 privacy.php:65
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "To make sure your data is safe and I am still in controll of my server, you "
 "can verify my %1$s with my %2$s."
 msgstr ""
+"Verilerinizin güvende olduğundan ve sunucumun kontrolünün hala bende "
+"olduğundan emin olmak için %1$s'ımı %2$s'ımla doğrulayabilirsiniz."
 
 #: faq.php:98 privacy.php:65
+#, fuzzy
 msgid "warrant canary"
-msgstr ""
+msgstr "garanti kanarya"
 
 #: faq.php:98 privacy.php:65
 msgid "PGP key"
@@ -1066,12 +1106,14 @@ msgid "Contact me"
 msgstr "İletişim"
 
 #: common.php:110
+#, fuzzy
 msgid "Toggle navigation"
-msgstr ""
+msgstr "Gezinmeyi değiştir"
 
 #: common.php:122 blog/index.php:27
+#, fuzzy
 msgid "Blog and news"
-msgstr ""
+msgstr "Blog ve haberler"
 
 #: common.php:123
 msgid "E-Mail + XMPP"
@@ -1203,10 +1245,14 @@ msgid "in their account settings"
 msgstr "FileZilla ayarları"
 
 #: new-domain.php:38
+#, fuzzy
 msgid ""
 "You can no longer login with your .me user credentials, only with the .de "
 "ones, as the old domain is no longer under my control."
 msgstr ""
+"Eski alan adı artık benim kontrolüm altında olmadığından, artık .me "
+"kullanıcı kimlik bilgilerinizle yalnızca .de kimlik bilgilerinizle giriş "
+"yapamazsınız."
 
 #: new-domain.php:39
 msgid "Will the old address still work?"
@@ -1242,12 +1288,14 @@ msgstr ""
 "şekilde bir komut çalıştırılarak doğrulanabilir:"
 
 #: new-domain.php:42
+#, fuzzy
 msgid "new PGP key"
-msgstr ""
+msgstr "yeni PGP anahtarı"
 
 #: new-domain.php:42
+#, fuzzy
 msgid "old PGP key"
-msgstr ""
+msgstr "eski PGP anahtarı"
 
 #: new-domain.php:44
 #, php-format
@@ -1262,8 +1310,9 @@ msgstr ""
 
 #: hosting/index.php:6 hosting/index.php:15 hosting/index.php:25
 #: hosting/index.php:27
+#, fuzzy
 msgid "Daniel's Hosting shutdown after hack"
-msgstr ""
+msgstr "Daniel's Hosting hacklendikten sonra kapanıyor"
 
 #: hosting/index.php:10 hosting/index.php:16
 msgid "Daniel's Hosting - a former darknet web hosting service"
@@ -1305,8 +1354,9 @@ msgstr ""
 "isteyen herkesin benim bıraktığım yerden başlamasını sağlamalı."
 
 #: hosting/index.php:29
+#, fuzzy
 msgid "available for download"
-msgstr ""
+msgstr "indirilebilir"
 
 #: privacy.php:6 privacy.php:15 privacy.php:25
 msgid "Daniel - Privacy policy"
@@ -1591,28 +1641,34 @@ msgstr ""
 "versiyonudur"
 
 #: privacy.php:58
+#, fuzzy
 msgid "8. List of sub-processors"
-msgstr ""
+msgstr "8. Alt işlemcilerin listesi"
 
 #: privacy.php:60
+#, fuzzy
 msgid "Vendor"
-msgstr ""
+msgstr "Satıcı"
 
 #: privacy.php:60
+#, fuzzy
 msgid "Purpose"
-msgstr ""
+msgstr "Amaç"
 
 #: privacy.php:61
+#, fuzzy
 msgid "Providing server infrastructure and backup storage"
-msgstr ""
+msgstr "Sunucu altyapısı ve yedek depolama sağlanması"
 
 #: privacy.php:62
+#, fuzzy
 msgid "Providing server infrastructure"
-msgstr ""
+msgstr "Sunucu altyapısının sağlanması"
 
 #: privacy.php:64
+#, fuzzy
 msgid "9. Warrant canary"
-msgstr ""
+msgstr "9. Varantlı kanarya"
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:38
 msgid "Daniel's Chat shutdown"
@@ -1685,8 +1741,9 @@ msgstr "Onion bağlantı listesi"
 
 #: blog/onion-link-list-shutdown/index.php:10
 #: blog/onion-link-list-shutdown/index.php:16
+#, fuzzy
 msgid "Onion link list by Daniel has been shut down"
-msgstr ""
+msgstr "Daniel'in hazırladığı soğan bağlantı listesi kapatıldı"
 
 #: blog/onion-link-list-shutdown/index.php:28
 #, php-format
@@ -1699,6 +1756,13 @@ msgid ""
 "keep up with the demand of reviewing every single site, while more than "
 "99% of them are scams anyway."
 msgstr ""
+"Tor darknet sitelerinin listesini yıllarca tuttuktan sonra, artık bu işi "
+"bırakma zamanı geldi. Neredeyse bir yıldır listeyi güncel tutacak zaman "
+"bulamadım. Hala düzenli olarak, ya sitemde listelenmediği için ya da bu "
+"listeyi doğru kullanmadıkları için dolandırıcılık sitelerinin kurbanı olan "
+"kişilerden mesajlar alıyorum. Her gün yüzlerce yeni site açılıyor ve her "
+"birini incelemek için yeterli zamanım yok, üstelik bunların %99'undan "
+"fazlası zaten dolandırıcılık sitesi."
 
 #: blog/onion-link-list-shutdown/index.php:29
 msgid ""
@@ -1728,23 +1792,29 @@ msgstr ""
 "site bulursanız, gerçek bir fırsat bulmuş olabilirsiniz."
 
 #: blog/onion-link-list-shutdown/index.php:30
-#, php-format
+#, fuzzy, php-format
 msgid "You can find an alternative link list at for example %s."
-msgstr ""
+msgstr "Alternatif bir bağlantı listesini örneğin %s adresinde bulabilirsiniz."
 
 #: blog/ipv6/index.php:6 blog/ipv6/index.php:20 blog/ipv6/index.php:30
 #: blog/ipv6/index.php:32 blog/index.php:36
+#, fuzzy
 msgid "Embracing IPv6: The Key to a Future-Proof Internet"
-msgstr ""
+msgstr "IPv6'yı Benimsetmek: Geleceğe Hazır Bir İnternetin Anahtarı"
 
 #: blog/ipv6/index.php:10 blog/ipv6/index.php:21
+#, fuzzy
 msgid ""
 "Discover why implementing IPv6 is crucial for internet-facing services. "
 "Explore the benefits, consequences of not adopting IPv6, and practical "
 "insights on future-proofing your online presence."
 msgstr ""
+"IPv6 uygulamasının internete yönelik hizmetler için neden önemli olduğunu "
+"keşfedin. IPv6'yı benimsememenin avantajlarını, sonuçlarını ve çevrimiçi "
+"varlığınızı geleceğe hazır hale getirmeye yönelik pratik bilgileri keşfedin."
 
 #: blog/ipv6/index.php:33
+#, fuzzy
 msgid ""
 "In the vast realm of the internet, where connectivity is the lifeblood of "
 "modern society, ensuring a seamless and secure data flow is paramount. "
@@ -1756,12 +1826,23 @@ msgid ""
 "internet protocol, steps in. In this article, we will explore IPv6 and delve "
 "into why its implementation is vital for internet-facing services."
 msgstr ""
+"Bağlantının modern toplumun can damarı olduğu geniş internet dünyasında, "
+"kesintisiz ve güvenli bir veri akışının sağlanması son derece önemlidir. "
+"İnternet Protokolü (IP) adresleri, veri paketlerinin küresel ağda yolunu "
+"bulmasına olanak tanıyan dijital koordinatlar görevi görür. Onlarca yıldır "
+"IPv4 (İnternet Protokolü sürüm 4), İnternet iletişiminin omurgası olmuştur. "
+"Ancak internetin katlanarak büyümesiyle birlikte IPv4 adresleri hızla "
+"tükeniyor. İşte bu noktada yeni nesil internet protokolü IPv6 devreye "
+"giriyor. Bu makalede IPv6'yı inceleyeceğiz ve bunun uygulanmasının internete "
+"yönelik hizmetler için neden hayati önem taşıdığını inceleyeceğiz."
 
 #: blog/ipv6/index.php:34
+#, fuzzy
 msgid "Understanding IPv6"
-msgstr ""
+msgstr "IPv6'yı Anlamak"
 
 #: blog/ipv6/index.php:35
+#, fuzzy
 msgid ""
 "IPv6, the sixth revision of the Internet Protocol, was developed to succeed "
 "IPv4. Unlike IPv4, which uses 32-bit addresses, IPv6 employs 128-bit "
@@ -1770,16 +1851,25 @@ msgid ""
 "enough to assign a unique IP address to every atom on the surface of the "
 "Earth and still have addresses left to spare."
 msgstr ""
+"İnternet Protokolünün altıncı revizyonu olan IPv6, IPv4'ün yerini alacak "
+"şekilde geliştirildi. 32 bit adresler kullanan IPv4'ün aksine, IPv6 128 bit "
+"adresler kullanır ve astronomik sayıda benzersiz kombinasyon sağlar ("
+"yaklaşık 3,4 × 10^38 adres). Bunu perspektife koymak gerekirse, Dünya "
+"yüzeyindeki her atoma benzersiz bir IP adresi atamak yeterlidir ve hala "
+"yedek adresler kalmıştır."
 
 #: blog/ipv6/index.php:36
+#, fuzzy
 msgid "The Importance of IPv6 Implementation"
-msgstr ""
+msgstr "IPv6 Uygulamasının Önemi"
 
 #: blog/ipv6/index.php:37
+#, fuzzy
 msgid "Address Space Exhaustion"
-msgstr ""
+msgstr "Adres Alanı Tükenmesi"
 
 #: blog/ipv6/index.php:38
+#, fuzzy
 msgid ""
 "The most immediate problem IPv6 addresses is the exhaustion of IPv4 "
 "addresses. With the proliferation of internet-connected devices, from "
@@ -1788,12 +1878,19 @@ msgid ""
 "device can be assigned a unique identifier. This facilitates the growth of "
 "the Internet of Things (IoT) and other interconnected technologies."
 msgstr ""
+"IPv6 adreslerinin en acil sorunu IPv4 adreslerinin tükenmesidir. Akıllı "
+"telefonlardan IoT cihazlarına kadar internete bağlı cihazların çoğalmasıyla "
+"IP adreslerine olan talep arttı. IPv6 neredeyse sınırsız sayıda adres "
+"sunarak her cihaza benzersiz bir tanımlayıcı atanabileceğini garanti eder. "
+"Bu, Nesnelerin İnterneti'nin (IoT) ve diğer birbirine bağlı teknolojilerin "
+"büyümesini kolaylaştırır."
 
 #: blog/ipv6/index.php:39
 msgid "Enhanced Security"
 msgstr "Hazırlık ve Güvenlik"
 
 #: blog/ipv6/index.php:40
+#, fuzzy
 msgid ""
 "IPv6 incorporates features like IPsec (Internet Protocol Security) as "
 "standard, providing a robust framework for securing data traffic. With IPv6, "
@@ -1801,12 +1898,19 @@ msgid ""
 "secure communication environment. This is especially crucial for internet-"
 "facing services, where sensitive data transmission is the norm."
 msgstr ""
+"IPv6, standart olarak IPsec (İnternet Protokolü Güvenliği) gibi özellikleri "
+"içerir ve veri trafiğini güvence altına almak için sağlam bir çerçeve "
+"sağlar. IPv6 ile şifreleme ve kimlik doğrulama sorunsuz bir şekilde entegre "
+"edilerek daha güvenli bir iletişim ortamı sunulur. Bu, özellikle hassas veri "
+"iletiminin norm olduğu internete yönelik hizmetler için çok önemlidir."
 
 #: blog/ipv6/index.php:41
+#, fuzzy
 msgid "Improved Performance"
-msgstr ""
+msgstr "Geliştirilmiş Performans"
 
 #: blog/ipv6/index.php:42
+#, fuzzy
 msgid ""
 "IPv6 is designed with efficiency in mind. It reduces the complexity of "
 "packet headers, streamlining the routing process and leading to improved "
@@ -1814,12 +1918,19 @@ msgid ""
 "faster and more responsive user experiences, essential for applications "
 "requiring real-time data transmission."
 msgstr ""
+"IPv6 verimlilik göz önünde bulundurularak tasarlanmıştır. Paket "
+"başlıklarının karmaşıklığını azaltır, yönlendirme sürecini kolaylaştırır ve "
+"gelişmiş ağ performansına yol açar. IPv6'dan yararlanan internete yönelik "
+"hizmetler, gerçek zamanlı veri iletimi gerektiren uygulamalar için gerekli "
+"olan daha hızlı ve daha duyarlı kullanıcı deneyimleri sunabilir."
 
 #: blog/ipv6/index.php:43
+#, fuzzy
 msgid "Future-Proofing Networks"
-msgstr ""
+msgstr "Geleceğe Hazır Ağlar"
 
 #: blog/ipv6/index.php:44
+#, fuzzy
 msgid ""
 "As the adoption of IPv6 grows, internet-facing services that embrace this "
 "protocol future-proof their networks. IPv6 readiness ensures that these "
@@ -1827,12 +1938,19 @@ msgid ""
 "and more expensive. It’s a strategic investment in the longevity of digital "
 "infrastructure."
 msgstr ""
+"IPv6'nın benimsenmesi arttıkça, bu protokolü benimseyen internete yönelik "
+"hizmetler, ağlarının geleceğe hazır olmasını sağlar. IPv6 hazırlığı, IPv4 "
+"adresleri azaldıkça ve pahalılaştıkça bu hizmetlerin erişilebilir ve "
+"işlevsel kalmasını sağlar. Bu, dijital altyapının uzun ömürlülüğüne yönelik "
+"stratejik bir yatırımdır."
 
 #: blog/ipv6/index.php:45
+#, fuzzy
 msgid "SEO and Online Visibility"
-msgstr ""
+msgstr "SEO ve Çevrimiçi Görünürlük"
 
 #: blog/ipv6/index.php:46
+#, fuzzy
 msgid ""
 "Search engines, like Google, recognize IPv6-enabled websites and provide a "
 "slight ranking boost to encourage adoption. IPv6 implementation can, "
@@ -1840,12 +1958,19 @@ msgid ""
 "asset for businesses and organizations aiming to reach a broader online "
 "audience."
 msgstr ""
+"Google gibi arama motorları, IPv6 özellikli web sitelerini tanır ve "
+"benimsenmeyi teşvik etmek için sıralamada hafif bir artış sağlar. Bu nedenle "
+"IPv6 uygulaması bir web sitesinin görünürlüğünü olumlu yönde etkileyebilir "
+"ve bu da onu daha geniş bir çevrimiçi kitleye ulaşmayı amaçlayan işletmeler "
+"ve kuruluşlar için değerli bir varlık haline getirebilir."
 
 #: blog/ipv6/index.php:47
+#, fuzzy
 msgid "Consequences of not implementing IPv6"
-msgstr ""
+msgstr "IPv6'yı uygulamamanın sonuçları"
 
 #: blog/ipv6/index.php:48
+#, fuzzy
 msgid ""
 "One of the primary repercussions is the service's inaccessibility to users "
 "on IPv6-only networks. As more internet service providers and mobile "
@@ -1860,9 +1985,22 @@ msgid ""
 "thrive in a diverse, interconnected digital landscape, ultimately limiting "
 "its reach and relevance."
 msgstr ""
+"Bunun başlıca sonuçlarından biri, hizmetin yalnızca IPv6 ağlarındaki "
+"kullanıcılar tarafından erişilememesidir. Daha fazla internet servis "
+"sağlayıcısı ve mobil ağ IPv6'ya geçtikçe, yalnızca IPv6 adreslerine güvenen "
+"kullanıcılar bu protokolü benimsememiş web sitelerine ve uygulamalara "
+"bağlanamayacaklardır. Sonuç olarak işletmeler, hedef kitlelerinin büyüyen "
+"bir bölümünü yabancılaştırma riskiyle karşı karşıya kalıyor ve bu da "
+"kullanıcı katılımının azalmasına ve potansiyel gelir kaybına yol açıyor. "
+"Ayrıca, arama motorları IPv6 özellikli web sitelerine giderek daha fazla "
+"öncelik verdiğinden, bu tür hizmetler çevrimiçi görünürlükte ve SEO "
+"sıralamasında düşüş yaşayabilir. Temelde, IPv6'nın uygulanmaması yalnızca "
+"kapsayıcılığı engellemekle kalmıyor, aynı zamanda hizmetin çeşitli, "
+"birbirine bağlı dijital ortamda başarılı olma becerisini de sekteye "
+"uğratıyor ve sonuçta erişimini ve alaka düzeyini sınırlıyor."
 
 #: blog/ipv6/index.php:49
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "One example of a service that is not IPv6-compatible is %1$s, a widely used "
 "platform for hosting code. This means that users on IPv6-only networks are "
@@ -1870,18 +2008,30 @@ msgid ""
 "times, I've had to search for alternative solutions to download code on IPv6-"
 "only networks. For this reason, I have created a %2$s to address this issue."
 msgstr ""
+"IPv6 uyumlu olmayan hizmetlere bir örnek, kod barındırmak için yaygın olarak "
+"kullanılan bir platform olan %1$s'dir. Bu, yalnızca IPv6 ağlarındaki "
+"kullanıcıların buna erişemeyeceği anlamına gelir. Bu sorunla birden çok kez "
+"karşılaşan biri olarak, yalnızca IPv6 ağlarında kod indirmek için alternatif "
+"çözümler aramak zorunda kaldım. Bu nedenle bu sorunu çözmek için %2$s "
+"oluşturdum."
 
 #: blog/ipv6/index.php:50
+#, fuzzy
 msgid "Challenges and Considerations"
-msgstr ""
+msgstr "Zorluklar ve Dikkat Edilmesi Gerekenler"
 
 #: blog/ipv6/index.php:51
+#, fuzzy
 msgid ""
 "While the benefits of IPv6 implementation are clear, there are challenges, "
 "such as the need for network upgrades and the requirement for IPv4-IPv6 "
 "coexistence during the transition period. However, these challenges are "
 "outweighed by the advantages and long-term sustainability that IPv6 offers."
 msgstr ""
+"IPv6 uygulamasının faydaları açık olsa da, ağ yükseltme ihtiyacı ve geçiş "
+"döneminde IPv4-IPv6'nın bir arada bulunması gerekliliği gibi zorluklar da "
+"mevcut. Ancak IPv6'nın sunduğu avantajlar ve uzun vadeli sürdürülebilirlik, "
+"bu zorluklara ağır basmaktadır."
 
 #: blog/ipv6/index.php:52
 msgid ""
@@ -1903,31 +2053,40 @@ msgstr ""
 
 #: blog/ipv6/index.php:53 blog/dnssec/index.php:52 blog/cluster/index.php:68
 #: blog/dane/index.php:73
+#, fuzzy
 msgid "Hire an expert"
-msgstr ""
+msgstr "Bir uzman kiralayın"
 
 #: blog/ipv6/index.php:54 blog/dnssec/index.php:53 blog/cluster/index.php:69
 #: blog/dane/index.php:74
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "If you're considering implementing this for your business, don't hesitate to "
 "seek help from an expert. Please %s for assistance and consultation with "
 "your implementation."
 msgstr ""
+"İşletmeniz için bunu uygulamayı düşünüyorsanız bir uzmandan yardım almaktan "
+"çekinmeyin. Uygulamanızla ilgili yardım ve danışmanlık için lütfen %s."
 
 #: blog/dnssec/index.php:6 blog/dnssec/index.php:20 blog/dnssec/index.php:30
 #: blog/dnssec/index.php:32 blog/index.php:35
+#, fuzzy
 msgid "Securing the Web: Unraveling the Power of DNSSEC"
-msgstr ""
+msgstr "Web'in Güvenliğini Sağlama: DNSSEC'nin Gücünü Ortaya Çıkarma"
 
 #: blog/dnssec/index.php:10 blog/dnssec/index.php:21
+#, fuzzy
 msgid ""
 "Explore the power of DNSSEC in fortifying online security. Learn how to "
 "implement DNSSEC and safeguard your digital presence against cyber threats. "
 "Secure your future in the digital landscape."
 msgstr ""
+"Çevrimiçi güvenliği güçlendirmede DNSSEC'in gücünü keşfedin. DNSSEC'yi nasıl "
+"uygulayacağınızı ve dijital varlığınızı siber tehditlere karşı nasıl "
+"koruyacağınızı öğrenin. Geleceğinizi dijital ortamda güvence altına alın."
 
 #: blog/dnssec/index.php:33
+#, fuzzy
 msgid ""
 "Ensuring the security and integrity of data is paramount. Domain Name System "
 "Security Extensions (DNSSEC) stands as the stalwart guardian, fortifying the "
@@ -1936,12 +2095,20 @@ msgid ""
 "unravel the significance of DNSSEC, exploring its functionalities, benefits, "
 "and the imperative need for its widespread implementation."
 msgstr ""
+"Verilerin güvenliğini ve bütünlüğünü sağlamak çok önemlidir. Etki Alanı Adı "
+"Sistemi Güvenlik Uzantıları (DNSSEC), dijital alanı kötü niyetli tehditlere "
+"karşı güçlendiren ve kullanıcıların aldıkları bilgilere güvenebilmelerini "
+"sağlayan güçlü bir koruyucudur. Bu makalede, DNSSEC'in önemini ortaya "
+"çıkarmak, işlevlerini, faydalarını ve yaygın uygulanmasına yönelik zorunlu "
+"ihtiyacı keşfetmek için bir yolculuğa çıkıyoruz."
 
 #: blog/dnssec/index.php:34
+#, fuzzy
 msgid "Understanding DNSSEC"
-msgstr ""
+msgstr "DNSSEC'yi Anlamak"
 
 #: blog/dnssec/index.php:35
+#, fuzzy
 msgid ""
 "DNSSEC is a groundbreaking technology designed to protect internet users "
 "from various cyber threats, such as DNS spoofing and man-in-the-middle "
@@ -1951,64 +2118,99 @@ msgid ""
 "the legitimacy of the information users receive and enhancing their online "
 "trust."
 msgstr ""
+"DNSSEC, internet kullanıcılarını DNS sahtekarlığı ve ortadaki adam "
+"saldırıları gibi çeşitli siber tehditlerden korumak için tasarlanmış çığır "
+"açan bir teknolojidir. DNSSEC, Etki Alanı Adı Sistemine (DNS) bir güvenlik "
+"katmanı ekleyerek kullanıcıların ziyaret ettiği web adreslerinin orijinal ve "
+"değiştirilmemiş olmasını sağlar. Bunu, kullanıcıların aldığı bilgilerin "
+"meşruiyetini garanti eden ve çevrimiçi güvenlerini artıran kriptografik "
+"imzalar aracılığıyla gerçekleştirir."
 
 #: blog/dnssec/index.php:36
+#, fuzzy
 msgid "The Importance of DNSSEC Implementation"
-msgstr ""
+msgstr "DNSSEC Uygulamasının Önemi"
 
 #: blog/dnssec/index.php:37
 msgid "Enhanced Data Integrity"
 msgstr "Hazırlık ve Güvenlik"
 
 #: blog/dnssec/index.php:38
+#, fuzzy
 msgid ""
 "DNSSEC uses cryptographic signatures to verify the authenticity of DNS data, "
 "safeguarding users from malicious manipulations. This ensures that the "
 "websites they access are indeed what they claim to be, preventing phishing "
 "attacks and unauthorized domain redirections."
 msgstr ""
+"DNSSEC, DNS verilerinin gerçekliğini doğrulamak için kriptografik imzalar "
+"kullanarak kullanıcıları kötü niyetli manipülasyonlardan korur. Bu, "
+"eriştikleri web sitelerinin gerçekten iddia ettikleri gibi olmasını sağlar "
+"ve kimlik avı saldırılarını ve yetkisiz alan adı yönlendirmelerini önler."
 
 #: blog/dnssec/index.php:39
+#, fuzzy
 msgid "Protection Against Cache Poisoning"
-msgstr ""
+msgstr "Önbellek Zehirlenmesine Karşı Koruma"
 
 #: blog/dnssec/index.php:40
+#, fuzzy
 msgid ""
 "DNS cache poisoning is a common tactic used by hackers to redirect users to "
 "malicious websites. DNSSEC mitigates this risk by validating the "
 "authenticity of DNS responses, making it significantly harder for attackers "
 "to manipulate the DNS cache and redirect users unknowingly."
 msgstr ""
+"DNS önbellek zehirlenmesi, bilgisayar korsanlarının kullanıcıları kötü "
+"amaçlı web sitelerine yönlendirmek için kullandığı yaygın bir taktiktir. "
+"DNSSEC, DNS yanıtlarının orijinalliğini doğrulayarak bu riski azaltır ve "
+"saldırganların DNS önbelleğini değiştirmesini ve kullanıcıları farkında "
+"olmadan yönlendirmesini önemli ölçüde zorlaştırır."
 
 #: blog/dnssec/index.php:41
+#, fuzzy
 msgid "Securing Sensitive Transactions"
-msgstr ""
+msgstr "Hassas İşlemlerin Güvenliğini Sağlama"
 
 #: blog/dnssec/index.php:42
+#, fuzzy
 msgid ""
 "For websites handling sensitive information, such as online banking "
 "platforms and e-commerce sites, DNSSEC is indispensable. It ensures that "
 "users are securely connected to the intended servers, reducing the risk of "
 "data breaches and ensuring confidential transactions remain private."
 msgstr ""
+"Çevrimiçi bankacılık platformları ve e-ticaret siteleri gibi hassas bilgiler "
+"işleyen web siteleri için DNSSEC vazgeçilmezdir. Kullanıcıların amaçlanan "
+"sunuculara güvenli bir şekilde bağlanmasını sağlayarak veri ihlali riskini "
+"azaltır ve gizli işlemlerin gizli kalmasını sağlar."
 
 #: blog/dnssec/index.php:43
+#, fuzzy
 msgid "Building User Trust"
-msgstr ""
+msgstr "Kullanıcı Güveni Oluşturmak"
 
 #: blog/dnssec/index.php:44
+#, fuzzy
 msgid ""
 "In the age of digital scepticism, DNSSEC plays a pivotal role in building "
 "trust between users and online services. Services that have implemented "
 "DNSSEC demonstrate a commitment to online security, instilling confidence in "
 "users and encouraging them to engage more freely in online activities."
 msgstr ""
+"Dijital şüphecilik çağında DNSSEC, kullanıcılar ile çevrimiçi hizmetler "
+"arasında güven oluşturmada çok önemli bir rol oynuyor. DNSSEC'yi uygulayan "
+"hizmetler, çevrimiçi güvenliğe bağlılık göstererek kullanıcılara güven "
+"aşılıyor ve onları çevrimiçi etkinliklere daha özgürce katılmaya teşvik "
+"ediyor."
 
 #: blog/dnssec/index.php:45
+#, fuzzy
 msgid "The Consequences of Ignoring DNSSEC"
-msgstr ""
+msgstr "DNSSEC'yi Yoksaymanın Sonuçları"
 
 #: blog/dnssec/index.php:46
+#, fuzzy
 msgid ""
 "Failing to implement DNSSEC leaves websites and users susceptible to a "
 "myriad of cyber threats. From DNS spoofing attacks, where users are "
@@ -2018,12 +2220,22 @@ msgid ""
 "customer trust, leading to potential financial losses and legal "
 "ramifications in case of data breaches."
 msgstr ""
+"DNSSEC'nin uygulanmaması, web sitelerini ve kullanıcıları sayısız siber "
+"tehdide açık hale getirir. Kullanıcıların sahte web sitelerine "
+"yönlendirildiği DNS sahtekarlığı saldırılarından, hassas verilerin ele "
+"geçirildiği ortadaki adam saldırılarına kadar, DNSSEC'nin ihmal edilmesinin "
+"sonuçları ciddi olabilir. Dahası, işletmeler çevrimiçi itibarlarını ve "
+"müşteri güvenlerini zedeleme riskiyle karşı karşıya kalır, bu da veri "
+"ihlalleri durumunda potansiyel mali kayıplara ve yasal sonuçlara yol "
+"açabilir."
 
 #: blog/dnssec/index.php:47 blog/dane/index.php:71
+#, fuzzy
 msgid "Conclusion"
-msgstr ""
+msgstr "Çözüm"
 
 #: blog/dnssec/index.php:48
+#, fuzzy
 msgid ""
 "In an era where digital threats are abundant, DNSSEC serves as a beacon of "
 "security, guiding the internet towards a safer future. Its implementation is "
@@ -2035,12 +2247,24 @@ msgid ""
 "digital practices is key to fortifying the web and securing a safer online "
 "experience for everyone."
 msgstr ""
+"Dijital tehditlerin bol olduğu bir çağda DNSSEC, bir güvenlik işareti görevi "
+"görerek interneti daha güvenli bir geleceğe doğru yönlendiriyor. Bunun "
+"uygulanması sadece teknik bir yükseltme değil, aynı zamanda çevrimiçi "
+"etkileşimlerin kutsallığını sağlayan ve kullanıcıların dijital ortama "
+"duyduğu güveni artıran stratejik bir gerekliliktir. DNSSEC'yi benimsemek "
+"yalnızca bir seçim değil aynı zamanda güvenli, güvenilir ve dayanıklı bir "
+"internete yönelik bir taahhüttür. İşletmeler ve bireyler olarak bunun "
+"önemini anlamak ve dijital uygulamalarımıza entegre etmek, web'i "
+"güçlendirmenin ve herkes için daha güvenli bir çevrimiçi deneyim sağlamanın "
+"anahtarıdır."
 
 #: blog/dnssec/index.php:49
+#, fuzzy
 msgid "Implementing DNSSEC"
-msgstr ""
+msgstr "DNSSEC'yi Uygulama"
 
 #: blog/dnssec/index.php:50
+#, fuzzy
 msgid ""
 "Enabling DNSSEC for your domain can be straightforward, especially with DNS "
 "management providers like Cloudflare, GoDaddy, or nameserver software like "
@@ -2049,8 +2273,16 @@ msgid ""
 "advanced options. Enable DNSSEC, generate key pairs, and sign your domain "
 "zone. Most providers offer user-friendly interfaces for these tasks."
 msgstr ""
+"Alan adınız için DNSSEC'yi etkinleştirmek, özellikle Cloudflare, GoDaddy "
+"gibi DNS yönetimi sağlayıcıları veya BIND gibi ad sunucusu yazılımıyla kolay "
+"olabilir. Sağlayıcınızın kontrol paneline veya BIND yapılandırma dosyasına "
+"erişerek başlayın. Genellikle etki alanı güvenliği veya gelişmiş seçenekler "
+"altında bulunan DNSSEC ayarlarını arayın. DNSSEC'yi etkinleştirin, anahtar "
+"çiftleri oluşturun ve etki alanı bölgenizi imzalayın. Çoğu sağlayıcı bu "
+"görevler için kullanıcı dostu arayüzler sunar."
 
 #: blog/dnssec/index.php:51
+#, fuzzy
 msgid ""
 "Next, update your domain registrar's DS (Delegation Signer) records. "
 "Providers often have dedicated sections for DNSSEC, allowing you to input "
@@ -2058,6 +2290,11 @@ msgid ""
 "maintenance and support from DNSSEC-friendly providers ensure a robust "
 "online presence."
 msgstr ""
+"Ardından, alan adı kayıt kuruluşunuzun DS (Yetki İmzalayan) kayıtlarını "
+"güncelleyin. Sağlayıcıların genellikle DNSSEC için DS kayıtlarınızı "
+"girmenize olanak tanıyan özel bölümleri vardır. DNSSEC anahtarlarının "
+"periyodik olarak döndürülmesi güvenliği artırır. DNSSEC dostu sağlayıcıların "
+"düzenli bakımı ve desteği, güçlü bir çevrimiçi varlığı garanti eder."
 
 #: blog/index.php:6 blog/index.php:15 blog/index.php:25
 msgid "Daniel - Blog and news"
@@ -2068,20 +2305,24 @@ msgid "Blog and news by Daniel Winzen"
 msgstr "Daniel Winzen ile iletişim kurun"
 
 #: blog/index.php:28
+#, fuzzy
 msgid "Blog posts and news related to my services will be posted here."
 msgstr ""
+"Hizmetlerim ile ilgili blog yazıları ve haberler burada yayınlanacaktır."
 
 #: blog/index.php:30
 msgid "Date"
-msgstr ""
+msgstr "Tarih"
 
 #: blog/index.php:30
+#, fuzzy
 msgid "Title"
-msgstr ""
+msgstr "Başlık"
 
 #: blog/index.php:31
+#, fuzzy
 msgid "April 2024"
-msgstr ""
+msgstr "Nisan 2024"
 
 #: blog/index.php:31 blog/cluster/index.php:6 blog/cluster/index.php:21
 #: blog/cluster/index.php:31 blog/cluster/index.php:33
@@ -2089,62 +2330,76 @@ msgid "Cluster setup"
 msgstr "Küme sistemi kurma"
 
 #: blog/index.php:32
+#, fuzzy
 msgid "January 2024"
-msgstr ""
+msgstr "Ocak 2024"
 
 #: blog/index.php:32 blog/email-service-learnings/index.php:6
 #: blog/email-service-learnings/index.php:15
 #: blog/email-service-learnings/index.php:25
 #: blog/email-service-learnings/index.php:27
+#, fuzzy
 msgid "Learnings from running an email service"
-msgstr ""
+msgstr "Bir e-posta hizmetini çalıştırmanın öğrenilenleri"
 
 #: blog/index.php:33
+#, fuzzy
 msgid "December 2023"
-msgstr ""
+msgstr "Aralık 2023"
 
 #: blog/index.php:33 blog/vpn/index.php:6 blog/vpn/index.php:20
 #: blog/vpn/index.php:30 blog/vpn/index.php:32
+#, fuzzy
 msgid "Securing your communication with a VPN"
-msgstr ""
+msgstr "İletişiminizi bir VPN ile güvence altına alma"
 
 #: blog/index.php:34 blog/index.php:35 blog/index.php:36
+#, fuzzy
 msgid "October 2023"
-msgstr ""
+msgstr "Ekim 2023"
 
 #: blog/index.php:34 blog/dane/index.php:6 blog/dane/index.php:20
 #: blog/dane/index.php:30 blog/dane/index.php:32
+#, fuzzy
 msgid "Fortifying Digital Connections using DANE"
-msgstr ""
+msgstr "DANE kullanarak Dijital Bağlantıları Güçlendirme"
 
 #: blog/index.php:37
+#, fuzzy
 msgid "August 2023"
-msgstr ""
+msgstr "Ağustos 2023"
 
 #: blog/index.php:38
+#, fuzzy
 msgid "December 2022"
-msgstr ""
+msgstr "Aralık 2022"
 
 #: blog/index.php:39
+#, fuzzy
 msgid "December 2021"
-msgstr ""
+msgstr "Aralık 2021"
 
 #: blog/index.php:40
+#, fuzzy
 msgid "March 2020"
-msgstr ""
+msgstr "Mart 2020"
 
 #: blog/index.php:40
+#, fuzzy
 msgid "Hosting service shutdown due to hack"
-msgstr ""
+msgstr "Hack nedeniyle barındırma hizmeti kapatıldı"
 
 #: blog/vpn/index.php:10 blog/vpn/index.php:21
+#, fuzzy
 msgid ""
 "Explore VPN essentials, protocols, and top providers for enhanced online "
 "privacy and security. Stay informed, stay protected."
 msgstr ""
+"Gelişmiş çevrimiçi gizlilik ve güvenlik için VPN temellerini, protokollerini "
+"ve en iyi sağlayıcıları keşfedin. Haberdar olun, korunmaya devam edin."
 
 #: blog/vpn/index.php:33
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "A %s is a tool that helps ensure your online privacy and safety. It creates "
 "an encrypted tunnel for your data, protects your online identity, lets you "
@@ -2152,69 +2407,104 @@ msgid ""
 "geo-restricted content. This article will guide you through the basics of "
 "using a VPN."
 msgstr ""
+"%s çevrimiçi gizliliğinizi ve güvenliğinizi sağlamaya yardımcı olan bir "
+"araçtır. Verileriniz için şifrelenmiş bir tünel oluşturur, çevrimiçi "
+"kimliğinizi korur, özel ağlara erişmenizi sağlar ve coğrafi olarak "
+"kısıtlanmış içeriğin kilidini açmak gibi ek avantajlar sağlayabilir. Bu "
+"makale size VPN kullanmanın temelleri konusunda rehberlik edecektir."
 
 #: blog/vpn/index.php:33
+#, fuzzy
 msgid "Virtual Private Network"
-msgstr ""
+msgstr "Sanal Özel Ağ"
 
 #: blog/vpn/index.php:33
+#, fuzzy
 msgid "VPN"
-msgstr ""
+msgstr "VPN"
 
 #: blog/vpn/index.php:34
+#, fuzzy
 msgid "Why use a VPN?"
-msgstr ""
+msgstr "Neden VPN kullanmalı?"
 
 #: blog/vpn/index.php:35
+#, fuzzy
 msgid ""
 "In today's era of surveillance and data tracking, it is crucial to maintain "
 "internet privacy. A VPN allows you to:"
 msgstr ""
+"Günümüzün gözetleme ve veri izleme çağında internet gizliliğini korumak çok "
+"önemlidir. Bir VPN şunları yapmanızı sağlar:"
 
 #: blog/vpn/index.php:37
+#, fuzzy
 msgid ""
 "Maintain privacy: A VPN transmits your data via an encrypted tunnel, making "
 "it unreadable for anyone trying to intercept it."
 msgstr ""
+"Gizliliği koruyun: Bir VPN, verilerinizi şifrelenmiş bir tünel üzerinden "
+"iletir ve verilerinizi ele geçirmeye çalışan hiç kimse için okunamaz hale "
+"getirir."
 
 #: blog/vpn/index.php:38
+#, fuzzy
 msgid ""
 "Bypass geographical restrictions: This is one of the most popular uses of "
 "VPNs. VPNs can mask your location, allowing you to access geographically "
 "restricted content."
 msgstr ""
+"Coğrafi kısıtlamaları atlayın: Bu, VPN'lerin en popüler kullanımlarından "
+"biridir. VPN'ler konumunuzu maskeleyerek coğrafi olarak kısıtlanmış içeriğe "
+"erişmenize olanak tanır."
 
 #: blog/vpn/index.php:39
+#, fuzzy
 msgid ""
 "Protection over public Wi-Fi: Public Wi-Fi networks may not be secure and "
 "can expose your data to possible intrusions. A VPN can shield you from such "
 "risks."
 msgstr ""
+"Herkese açık Wi-Fi üzerinden koruma: Herkese açık Wi-Fi ağları güvenli "
+"olmayabilir ve verilerinizi olası izinsiz girişlere maruz bırakabilir. Bir "
+"VPN sizi bu tür risklerden koruyabilir."
 
 #: blog/vpn/index.php:40
+#, fuzzy
 msgid ""
 "Avoid throttling: ISPs sometimes throttle bandwidth for certain online "
 "services. A VPN can hide your online activity and thus prevent throttling."
 msgstr ""
+"Kısıtlamadan kaçının: İSS'ler bazen belirli çevrimiçi hizmetler için bant "
+"genişliğini daraltır. Bir VPN çevrimiçi etkinliğinizi gizleyebilir ve "
+"böylece kısıtlamayı önleyebilir."
 
 #: blog/vpn/index.php:41
+#, fuzzy
 msgid ""
 "Remote Access: With a VPN, businesses can provide their employees with "
 "secure access to company resources anywhere in the world."
 msgstr ""
+"Uzaktan Erişim: Bir VPN ile işletmeler, çalışanlarına dünyanın her yerindeki "
+"şirket kaynaklarına güvenli erişim sağlayabilir."
 
 #: blog/vpn/index.php:43
+#, fuzzy
 msgid "Choosing a VPN"
-msgstr ""
+msgstr "VPN seçme"
 
 #: blog/vpn/index.php:44
+#, fuzzy
 msgid "When selecting a VPN service, consider the following factors:"
-msgstr ""
+msgstr "Bir VPN hizmeti seçerken aşağıdaki faktörleri göz önünde bulundurun:"
 
 #: blog/vpn/index.php:46
+#, fuzzy
 msgid ""
 "Security: Make sure your VPN provider uses high standards of encryption."
 msgstr ""
+"Güvenlik: VPN sağlayıcınızın yüksek şifreleme standartları kullandığından "
+"emin olun."
 
 #: blog/vpn/index.php:47
 msgid ""
@@ -2226,140 +2516,203 @@ msgstr ""
 "saklamamalıdır."
 
 #: blog/vpn/index.php:48
+#, fuzzy
 msgid "Speed: The VPN should not significantly reduce your internet speed."
-msgstr ""
+msgstr "Hız: VPN internet hızınızı önemli ölçüde azaltmamalıdır."
 
 #: blog/vpn/index.php:49
+#, fuzzy
 msgid ""
 "Server Locations: More server locations give you more options to choose "
 "from, especially if you plan to bypass geographical restrictions."
 msgstr ""
+"Sunucu Konumları: Daha fazla sunucu konumu, özellikle coğrafi kısıtlamaları "
+"aşmayı planlıyorsanız, size daha fazla seçim seçeneği sunar."
 
 #: blog/vpn/index.php:50
+#, fuzzy
 msgid ""
 "Price: While free VPNs exist, they often come with limitations and might "
 "compromise on security."
 msgstr ""
+"Fiyat: Ücretsiz VPN'ler mevcut olsa da, genellikle sınırlamalarla birlikte "
+"gelirler ve güvenlikten ödün verebilirler."
 
 #: blog/vpn/index.php:51
+#, fuzzy
 msgid ""
 "Reputation: Check the reputation of your VPN provider online, before buying "
 "a plan."
 msgstr ""
+"İtibar: Bir plan satın almadan önce VPN sağlayıcınızın itibarını çevrimiçi "
+"olarak kontrol edin."
 
 #: blog/vpn/index.php:53
+#, fuzzy
 msgid "VPN Protocols"
-msgstr ""
+msgstr "VPN Protokolleri"
 
 #: blog/vpn/index.php:54
+#, fuzzy
 msgid ""
 "When delving into the world of VPNs, understanding the underlying protocols "
 "is paramount. These protocols play a crucial role in determining the "
 "security and performance of your VPN connection."
 msgstr ""
+"VPN dünyasına girerken temel protokolleri anlamak çok önemlidir. Bu "
+"protokoller VPN bağlantınızın güvenliğini ve performansını belirlemede çok "
+"önemli bir rol oynar."
 
 #: blog/vpn/index.php:57
+#, fuzzy
 msgid "WireGuard"
-msgstr ""
+msgstr "Tel Koruma"
 
 #: blog/vpn/index.php:58
+#, fuzzy
 msgid ""
 "Advantages: WireGuard is a popular and efficient VPN known for its speed and "
 "strong security. It achieves this by keeping the codebase minimal and easy "
 "to use."
 msgstr ""
+"Avantajları: WireGuard, hızı ve güçlü güvenliğiyle bilinen popüler ve etkili "
+"bir VPN'dir. Bunu kod tabanını minimumda tutarak ve kullanımı kolay tutarak "
+"başarır."
 
 #: blog/vpn/index.php:59
+#, fuzzy
 msgid ""
 "Considerations: Although WireGuard has a modern design and operates "
 "efficiently, it is not yet universally supported."
 msgstr ""
+"Dikkat Edilmesi Gerekenler: WireGuard modern bir tasarıma sahip olmasına ve "
+"verimli bir şekilde çalışmasına rağmen henüz evrensel olarak "
+"desteklenmemektedir."
 
 #: blog/vpn/index.php:62
+#, fuzzy
 msgid "OpenVPN"
-msgstr ""
+msgstr "OpenVPN"
 
 #: blog/vpn/index.php:63
+#, fuzzy
 msgid ""
 "Advantages: OpenVPN is an open-source protocol that supports strong "
 "encryption, making it reliable and flexible for diverse applications."
 msgstr ""
+"Avantajları: OpenVPN, güçlü şifrelemeyi destekleyen, onu çeşitli uygulamalar "
+"için güvenilir ve esnek kılan açık kaynaklı bir protokoldür."
 
 #: blog/vpn/index.php:64
+#, fuzzy
 msgid ""
 "Considerations: Although highly secure, setting up this protocol may be "
 "slightly complex for some users."
 msgstr ""
+"Dikkat Edilmesi Gerekenler: Oldukça güvenli olmasına rağmen, bu protokolün "
+"kurulumu bazı kullanıcılar için biraz karmaşık olabilir."
 
 #: blog/vpn/index.php:67
+#, fuzzy
 msgid "IKEv2/IPsec"
-msgstr ""
+msgstr "IKEv2/IPsec"
 
 #: blog/vpn/index.php:68
+#, fuzzy
 msgid ""
 "Advantages: Known for its speed and efficiency in re-establishing "
 "connections, especially in mobile devices that frequently switch networks, "
 "it offers robust security features and is often preferred for mobile "
 "applications."
 msgstr ""
+"Avantajları: Özellikle sık sık ağ değiştiren mobil cihazlarda bağlantıların "
+"yeniden kurulmasındaki hızı ve verimliliğiyle bilinen, sağlam güvenlik "
+"özellikleri sunan ve mobil uygulamalarda sıklıkla tercih edilen bir çözümdür."
 
 #: blog/vpn/index.php:69
+#, fuzzy
 msgid ""
 "Considerations: While reliable, it may not be as universally supported as "
 "some other protocols."
 msgstr ""
+"Hususlar: Güvenilir olmasına rağmen, diğer bazı protokoller kadar evrensel "
+"olarak desteklenmeyebilir."
 
 #: blog/vpn/index.php:72
+#, fuzzy
 msgid "SSTP"
-msgstr ""
+msgstr "SSTP"
 
 #: blog/vpn/index.php:73
+#, fuzzy
 msgid ""
 "Advantages: Microsoft developed SSTP for easy firewall traversal. It uses "
 "SSL/TLS encryption for strong security."
 msgstr ""
+"Avantajları: Microsoft, güvenlik duvarı geçişinin kolay olması için SSTP'yi "
+"geliştirdi. Güçlü güvenlik için SSL/TLS şifrelemesini kullanır."
 
 #: blog/vpn/index.php:74
+#, fuzzy
 msgid ""
 "Considerations: Limited cross-platform support could be a disadvantage for "
 "users who do not use Windows devices."
 msgstr ""
+"Dikkat Edilmesi Gerekenler: Sınırlı platformlar arası destek, Windows "
+"aygıtlarını kullanmayan kullanıcılar için bir dezavantaj olabilir."
 
 #: blog/vpn/index.php:77
+#, fuzzy
 msgid "L2TP/IPsec"
-msgstr ""
+msgstr "L2TP/IPsec"
 
 #: blog/vpn/index.php:78
+#, fuzzy
 msgid ""
 "Advantages: Combining the best of both L2TP and IPsec, this protocol offers "
 "strong security and is natively supported on a wide range of devices. It "
 "provides a good balance between speed and security."
 msgstr ""
+"Avantajları: L2TP ve IPsec'in en iyilerini birleştiren bu protokol, güçlü "
+"bir güvenlik sunar ve çok çeşitli cihazlarda yerel olarak desteklenir. Hız "
+"ve güvenlik arasında iyi bir denge sağlar."
 
 #: blog/vpn/index.php:79
+#, fuzzy
 msgid ""
 "Considerations: L2TP/IPsec may not be the quickest option, and if not "
 "configured properly, its security can be compromised."
 msgstr ""
+"Dikkat Edilmesi Gerekenler: L2TP/IPsec en hızlı seçenek olmayabilir ve doğru "
+"şekilde yapılandırılmazsa güvenliği tehlikeye girebilir."
 
 #: blog/vpn/index.php:82
+#, fuzzy
 msgid "PPTP"
-msgstr ""
+msgstr "PPTP"
 
 #: blog/vpn/index.php:83
+#, fuzzy
 msgid ""
 "Advantages: PPTP is easy to set up and generally offers faster connection "
 "speeds than some other protocols."
 msgstr ""
+"Avantajları: PPTP'nin kurulumu kolaydır ve genellikle diğer bazı "
+"protokollerden daha hızlı bağlantı hızları sunar."
 
 #: blog/vpn/index.php:84
+#, fuzzy
 msgid ""
 "Considerations: Unfortunately, PPTP has several security weaknesses. The "
 "encryption it uses is outdated and vulnerable, making it unsuitable for "
 "ensuring the confidentiality and integrity of sensitive data."
 msgstr ""
+"Dikkat Edilmesi Gerekenler: Ne yazık ki, PPTP'nin çeşitli güvenlik "
+"zayıflıkları vardır. Kullandığı şifreleme eski ve savunmasız olduğundan, "
+"hassas verilerin gizliliğini ve bütünlüğünü sağlamak için uygun değildir."
 
 #: blog/vpn/index.php:87
+#, fuzzy
 msgid ""
 "Understanding these protocols empowers users to make informed decisions when "
 "selecting a VPN service. The choice of a protocol depends on factors such as "
@@ -2367,12 +2720,19 @@ msgid ""
 "has its strengths, and selecting the right one ensures a secure and reliable "
 "VPN experience."
 msgstr ""
+"Bu protokolleri anlamak, kullanıcıların bir VPN hizmeti seçerken bilinçli "
+"kararlar vermelerini sağlar. Protokol seçimi güvenlik ihtiyaçları, kullanım "
+"kolaylığı ve cihazlarla uyumluluk gibi faktörlere bağlıdır. Her protokolün "
+"kendine has güçlü yönleri vardır ve doğru olanı seçmek, güvenli ve güvenilir "
+"bir VPN deneyimi sağlar."
 
 #: blog/vpn/index.php:88
+#, fuzzy
 msgid "Combining VPN and the Tor darknet"
-msgstr ""
+msgstr "VPN ile Tor karanlık ağını birleştirmek"
 
 #: blog/vpn/index.php:89
+#, fuzzy
 msgid ""
 "When using darknets such as Tor, there's always a risk of being targeted by "
 "your government or ISP in countries where their use is limited or "
@@ -2384,74 +2744,103 @@ msgid ""
 "known to your VPN provider. For anonymity reasons, it's best to connect to "
 "the VPN first and connect to Tor via it."
 msgstr ""
+"Tor gibi karanlık ağları kullanırken, kullanımlarının sınırlı veya yasak "
+"olduğu ülkelerde hükümetiniz veya İSS'niz tarafından hedef alınma riski her "
+"zaman vardır. VPN ve Tor'u birleştirerek, çevrimiçi gizlilik ve güvenlik "
+"için başka bir katman ekleyebilirsiniz; çünkü İSS'niz, karanlık ağ "
+"kullandığınızı göremeyecektir. TorBrowser'a yönelik bir istismar durumunda "
+"sızdırılan IP, sizin gerçek IP'niz değil, VPN'nin IP'si olacaktır. Tor "
+"aracılığıyla bir VPN'e bağlanmak da mümkündür, ancak kimliğiniz genellikle "
+"VPN sağlayıcınız tarafından bilindiği için çok daha az mantıklıdır. "
+"Anonimlik nedeniyle, önce VPN'e bağlanmak ve Tor'a onun aracılığıyla "
+"bağlanmak en iyisidir."
 
 #: blog/vpn/index.php:90
+#, fuzzy
 msgid "Recommendations"
-msgstr ""
+msgstr "Öneriler"
 
 #: blog/vpn/index.php:91
+#, fuzzy
 msgid ""
 "If you are considering running your own VPN for business or remote home "
 "network access, I would recommend using WireGuard or OpenVPN."
 msgstr ""
+"İş veya uzaktan ev ağı erişimi için kendi VPN'inizi çalıştırmayı "
+"düşünüyorsanız WireGuard veya OpenVPN kullanmanızı tavsiye ederim."
 
 #: blog/vpn/index.php:92
+#, fuzzy
 msgid "For everyone else, here are some recommended VPN providers:"
-msgstr ""
+msgstr "Herkes için önerilen bazı VPN sağlayıcıları şunlardır:"
 
 #: blog/vpn/index.php:94
+#, fuzzy
 msgid "NordVPN"
-msgstr ""
+msgstr "NordVPN"
 
 #: blog/vpn/index.php:95
+#, fuzzy
 msgid "Proton VPN"
-msgstr ""
+msgstr "Proton VPN'i"
 
 #: blog/vpn/index.php:96
+#, fuzzy
 msgid "Hide.Me VPN"
-msgstr ""
+msgstr "Hide.Me VPN'i"
 
 #: blog/vpn/index.php:97
+#, fuzzy
 msgid "Mozilla VPN"
-msgstr ""
+msgstr "Mozilla VPN'i"
 
 #: blog/vpn/index.php:98
+#, fuzzy
 msgid "Mullvad VPN"
-msgstr ""
+msgstr "Mullvad VPN"
 
 #: blog/vpn/index.php:99
+#, fuzzy
 msgid "ExpressVPN"
-msgstr ""
+msgstr "ExpressVPN"
 
 #: blog/vpn/index.php:100
+#, fuzzy
 msgid "Surfshark"
-msgstr ""
+msgstr "Surfshark"
 
 #: blog/vpn/index.php:101
+#, fuzzy
 msgid "CyberGhost VPN"
-msgstr ""
+msgstr "CyberGhost VPN'i"
 
 #: blog/vpn/index.php:102
+#, fuzzy
 msgid "Windscribe VPN"
-msgstr ""
+msgstr "Windscribe VPN'i"
 
 #: blog/vpn/index.php:103
+#, fuzzy
 msgid "IVPN"
-msgstr ""
+msgstr "IVPN"
 
 #: blog/vpn/index.php:104
+#, fuzzy
 msgid "CalyxVPN"
-msgstr ""
+msgstr "CalyxVPN"
 
 #: blog/vpn/index.php:105
+#, fuzzy
 msgid "CloudFlare WARP"
-msgstr ""
+msgstr "CloudFlare WARP"
 
 #: blog/cluster/index.php:10 blog/cluster/index.php:22
+#, fuzzy
 msgid "Seting up a linux server cluster using Ceph and MariaDB Galera"
-msgstr ""
+msgstr "Ceph ve MariaDB Galera kullanarak linux sunucu kümesi kurma"
 
 #: blog/cluster/index.php:34
+#, fuzzy
 msgid ""
 "A cluster is a group of servers and other resources that act as a single "
 "system. Utilizing a cluster can increase data reliability, availability, and "
@@ -2460,114 +2849,169 @@ msgid ""
 "solution, to achieve high availability and performance. This cluster setup "
 "is the basis for the website that you are currently reading."
 msgstr ""
+"Küme, tek bir sistem gibi davranan bir grup sunucu ve diğer kaynaklardan "
+"oluşur. Bir kümenin kullanılması veri güvenilirliğini, kullanılabilirliğini "
+"ve ölçeklenebilirliğini artırabilir. Bu yazıda, yüksek kullanılabilirlik ve "
+"performans elde etmek için dağıtılmış bir nesne depolama ve dosya sistemi "
+"olan Ceph ile çok ana veritabanı çözümü olan MariaDB Galera'ya "
+"odaklanacağız. Bu küme kurulumu, şu anda okuduğunuz web sitesinin temelini "
+"oluşturur."
 
 #: blog/cluster/index.php:35
+#, fuzzy
 msgid "Prerequisites"
-msgstr ""
+msgstr "Önkoşullar"
 
 #: blog/cluster/index.php:36
+#, fuzzy
 msgid ""
 "You will need a minimum of 3 servers set up running on a Linux OS. Having "
 "less than 3 servers is not recommended as it can break the cluster and could "
 "lead to split-brain issues."
 msgstr ""
+"Linux işletim sistemi üzerinde çalışacak şekilde ayarlanmış en az 3 sunucuya "
+"ihtiyacınız olacak. Kümeyi bozabileceği ve bölünmüş beyin sorunlarına yol "
+"açabileceği için 3'ten az sunucuya sahip olmak önerilmez."
 
 #: blog/cluster/index.php:37
+#, fuzzy
 msgid "Ceph"
-msgstr ""
+msgstr "Cep"
 
 #: blog/cluster/index.php:38
+#, fuzzy
 msgid ""
 "Ceph is a highly scalable, fault-tolerant, and highly available storage "
 "system."
 msgstr ""
+"Ceph, yüksek düzeyde ölçeklenebilir, hataya dayanıklı ve yüksek düzeyde "
+"kullanılabilir bir depolama sistemidir."
 
 #: blog/cluster/index.php:39
 msgid "How Ceph works"
-msgstr ""
+msgstr "Ceph nasıl çalışır"
 
 #: blog/cluster/index.php:40
+#, fuzzy
 msgid "A Ceph Storage Cluster is based on several types of daemons:"
-msgstr ""
+msgstr "Bir Ceph Depolama Kümesi çeşitli daemon türlerine dayanmaktadır:"
 
 #: blog/cluster/index.php:42
+#, fuzzy
 msgid ""
 "Ceph OSD (Object Storage Daemon): These are the heart of Ceph because they "
 "handle data storage, data replication, recovery, rebalancing, and provide "
 "some monitoring statistics to Ceph monitors."
 msgstr ""
+"Ceph OSD (Nesne Depolama Arka Planı): Bunlar Ceph'in kalbidir çünkü veri "
+"depolamayı, veri çoğaltmayı, kurtarmayı, yeniden dengelemeyi yönetirler ve "
+"Ceph monitörlerine bazı izleme istatistikleri sağlarlar."
 
 #: blog/cluster/index.php:43
+#, fuzzy
 msgid ""
 "Ceph MON (Monitor): They maintain the master copy of the cluster map. A "
 "cluster usually has an odd number of monitors running (e.g., 3, 5, 7)."
 msgstr ""
+"Ceph MON (Monitör): Küme haritasının ana kopyasını tutarlar. Bir kümede "
+"genellikle tek sayıda çalışan monitör bulunur (ör. 3, 5, 7)."
 
 #: blog/cluster/index.php:44
+#, fuzzy
 msgid ""
 "Ceph MDS (Metadata Server): These servers are optional and store metadata "
 "for the Ceph File System (not block devices or objects)."
 msgstr ""
+"Ceph MDS (Meta Veri Sunucusu): Bu sunucular isteğe bağlıdır ve Ceph Dosya "
+"Sistemi için meta verileri depolar (cihazları veya nesneleri engellemez)."
 
 #: blog/cluster/index.php:45
+#, fuzzy
 msgid ""
 "Ceph MGR (Manager): This daemon is responsible for keeping track of runtime "
 "metrics, managing the cluster's state, and providing additional interfaces "
 "to external monitoring and management systems."
 msgstr ""
+"Ceph MGR (Yönetici): Bu arka plan programı, çalışma zamanı ölçümlerini takip "
+"etmekten, kümenin durumunu yönetmekten ve harici izleme ve yönetim "
+"sistemlerine ek arayüzler sağlamaktan sorumludur."
 
 #: blog/cluster/index.php:47
+#, fuzzy
 msgid ""
 "All these daemons are installed on multiple servers and interact with each "
 "other to form the cluster."
 msgstr ""
+"Tüm bu arka plan programları birden fazla sunucuya kurulur ve kümeyi "
+"oluşturmak için birbirleriyle etkileşime girer."
 
 #: blog/cluster/index.php:48
+#, fuzzy
 msgid "Use Cases of Ceph"
-msgstr ""
+msgstr "Ceph'in Kullanım Durumları"
 
 #: blog/cluster/index.php:49
+#, fuzzy
 msgid ""
 "Ceph is commonly used in clouds of all sizes and types due to its "
 "versatility, massive scalability, and robust data protection."
 msgstr ""
+"Ceph, çok yönlülüğü, büyük ölçeklenebilirliği ve sağlam veri koruması "
+"nedeniyle her boyut ve türdeki bulutlarda yaygın olarak kullanılır."
 
 #: blog/cluster/index.php:51
+#, fuzzy
 msgid ""
 "Object Storage: Ceph provides features such as replication and erasure "
 "coding, tiering, and the ability to set up watch/notify and object-level key-"
 "value mappings."
 msgstr ""
+"Nesne Depolama: Ceph, çoğaltma ve silme kodlaması, katmanlama ve izleme/"
+"bildirim ve nesne düzeyinde anahtar/değer eşlemelerini ayarlama yeteneği "
+"gibi özellikler sağlar."
 
 #: blog/cluster/index.php:52
+#, fuzzy
 msgid ""
 "Block Storage: Ceph's RADOS Block Device (RBD) supports snapshots, and "
 "replication, and can significantly improve read performance by utilizing the "
 "cache of the client and the Ceph OSD."
 msgstr ""
+"Blok Depolama: Ceph'in RADOS Blok Cihazı (RBD), anlık görüntüleri ve "
+"çoğaltmayı destekler ve istemcinin önbelleğini ve Ceph OSD'yi kullanarak "
+"okuma performansını önemli ölçüde artırabilir."
 
 #: blog/cluster/index.php:53
+#, fuzzy
 msgid ""
 "File System: Ceph's file system (CephFS) ensures highly available and "
 "reliable storage, where all data gets written and read in/from the object "
 "store."
 msgstr ""
+"Dosya Sistemi: Ceph'in dosya sistemi (CephFS), tüm verilerin nesne deposuna "
+"yazıldığı ve nesne deposundan okunduğu yüksek düzeyde kullanılabilir ve "
+"güvenilir depolama sağlar."
 
 #: blog/cluster/index.php:55
 msgid "Performance optimizations"
 msgstr "Bağlantı optimizasyonları"
 
 #: blog/cluster/index.php:56
+#, fuzzy
 msgid ""
 "The following optimizations resulted in 10 times faster read times of data "
 "stored on my cluster, which contains mostly websites and emails."
 msgstr ""
+"Aşağıdaki optimizasyonlar, çoğunlukla web sitelerini ve e-postaları içeren "
+"kümemde depolanan verilerin 10 kat daha hızlı okunmasıyla sonuçlandı."
 
 #: blog/cluster/index.php:57
+#, fuzzy
 msgid "Tuning encrypted OSDs on SSDs"
-msgstr ""
+msgstr "SSD'lerde şifrelenmiş OSD'leri ayarlama"
 
 #: blog/cluster/index.php:58
+#, fuzzy
 msgid ""
 "SSDs are typically faster than HDDs and have much lower latency. For "
 "historical reasons, the Linux kernel uses work queues in dm-crypt, which "
@@ -2575,9 +3019,15 @@ msgid ""
 "kernel. This makes sense for slower HDDs, but for SSDs, it can harm "
 "performance due to the overhead of context switches."
 msgstr ""
+"SSD'ler genellikle HDD'lerden daha hızlıdır ve çok daha düşük gecikme "
+"süresine sahiptir. Tarihsel nedenlerden dolayı Linux çekirdeği, şifreleme ve "
+"disk okuma/yazma işlerini çekirdekteki farklı iş parçacıklarına aktaran dm-"
+"crypt'teki iş kuyruklarını kullanır. Bu, daha yavaş HDD'ler için anlamlıdır "
+"ancak SSD'ler için bağlam anahtarlarının yükü nedeniyle performansa zarar "
+"verebilir."
 
 #: blog/cluster/index.php:59
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "To disable this behaviour, we first have to find the relevant device with "
 "the command %1$s. If you have an OSD running, the underlying device will "
@@ -2585,13 +3035,19 @@ msgid ""
 "ceph device, we can use %2$s. Now as a final step we can set persistent "
 "options for the device using %3$s."
 msgstr ""
+"Bu davranışı devre dışı bırakmak için öncelikle %1$s komutuyla ilgili cihazı "
+"bulmamız gerekiyor. Çalışan bir OSD'niz varsa, temel cihaz dmsetup "
+"tarafından yazdırılan listede görünecektir. Ceph cihazının yalnızca ilgili "
+"UUID'sini almak için %2$s kullanabiliriz. Artık son adım olarak %3$s "
+"kullanarak cihaz için kalıcı seçenekler ayarlayabiliriz."
 
 #: blog/cluster/index.php:60
+#, fuzzy
 msgid "Tuning CephFS for many files in one directory"
-msgstr ""
+msgstr "CephFS'yi tek bir dizindeki birçok dosya için ayarlama"
 
 #: blog/cluster/index.php:61
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "CephFS performance suffers when many files are stored in the same directory, "
 "just like with every file system. Using the option %1$s it is however "
@@ -2599,36 +3055,55 @@ msgid ""
 "performance when operating in directories with many files. I have set this "
 "down to a value of %2$s."
 msgstr ""
+"Her dosya sisteminde olduğu gibi, aynı dizinde çok sayıda dosya "
+"depolandığında CephFS performansı düşer. Bununla birlikte, %1$s seçeneğini "
+"kullanarak, çok sayıda dosya içeren dizinlerde çalışırken performansı "
+"artırmak için dizin dizinlerini birden çok parçaya bölmek mümkündür. Bunu %2$"
+"s değerine ayarladım."
 
 #: blog/cluster/index.php:62
+#, fuzzy
 msgid "MariaDB Galera Cluster"
-msgstr ""
+msgstr "MariaDB Galera Kümesi"
 
 #: blog/cluster/index.php:63
+#, fuzzy
 msgid ""
 "MariaDB Galera Cluster is an open-source database system focusing on high "
 "availability, failing over between servers seamlessly, and ensuring data "
 "consistency between those servers. It is a multi-master cluster that uses "
 "synchronous replication."
 msgstr ""
+"MariaDB Galera Cluster, yüksek kullanılabilirliğe, sunucular arasında "
+"sorunsuz bir şekilde yük devredilmeye ve bu sunucular arasında veri "
+"tutarlılığının sağlanmasına odaklanan açık kaynaklı bir veritabanı "
+"sistemidir. Eşzamanlı çoğaltma kullanan çok yöneticili bir kümedir."
 
 #: blog/cluster/index.php:64
 msgid "How Galera Works"
-msgstr ""
+msgstr "Galera Nasıl Çalışır"
 
 #: blog/cluster/index.php:65
+#, fuzzy
 msgid ""
 "In a Galera Cluster, every database instance (or \"node\") is a master, "
 "meaning data can be written or read from any node, with changes "
 "automatically replicated across all nodes. Using synchronous replication "
 "MariaDB Galera Cluster ensures all nodes have the same data simultaneously."
 msgstr ""
+"Galera Kümesinde, her veritabanı örneği (veya \"düğüm\") bir ana öğedir; bu, "
+"değişikliklerin tüm düğümlere otomatik olarak kopyalanmasıyla verilerin "
+"herhangi bir düğümden yazılabileceği veya okunabileceği anlamına gelir. "
+"Senkronize çoğaltmayı kullanan MariaDB Galera Cluster, tüm düğümlerin aynı "
+"anda aynı verilere sahip olmasını sağlar."
 
 #: blog/cluster/index.php:66
+#, fuzzy
 msgid "Use Cases for MariaDB Galera Cluster"
-msgstr ""
+msgstr "MariaDB Galera Kümesi için Kullanım Örnekleri"
 
 #: blog/cluster/index.php:67
+#, fuzzy
 msgid ""
 "MariaDB Galera Cluster is best suited for applications where data "
 "availability, consistency, and durability are critical across multiple "
@@ -2636,16 +3111,25 @@ msgid ""
 "servers to scale up a busy service, or when deploying a high-availability "
 "database with multiple nodes."
 msgstr ""
+"MariaDB Galera Cluster, yoğun bir hizmeti ölçeklendirmek için birden fazla "
+"veritabanı sunucusuyla bir web uygulamasının dağıtılması veya birden fazla "
+"düğümle yüksek kullanılabilirliğe sahip bir veritabanının dağıtılması gibi "
+"birden fazla düğümde veri kullanılabilirliği, tutarlılık ve dayanıklılığın "
+"kritik olduğu uygulamalar için en uygunudur."
 
 #: blog/dane/index.php:10 blog/dane/index.php:21
+#, fuzzy
 msgid ""
 "Discover the benefits of DANE for boosting online security. Learn how DANE "
 "increases trust in digital communications and strengthens email and web "
 "security. Protect yourself with DANE today."
 msgstr ""
+"Çevrimiçi güvenliği artırmak için DANE'in avantajlarını keşfedin. DANE'in "
+"dijital iletişime olan güveni nasıl artırdığını, e-posta ve web güvenliğini "
+"nasıl güçlendirdiğini öğrenin. Bugün kendinizi DANE ile koruyun."
 
 #: blog/dane/index.php:33
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "In the expansive digital landscape where trust and security are paramount, a "
 "powerful technology known as DANE (DNS-Based Authentication of Named "
@@ -2656,16 +3140,27 @@ msgid ""
 "and the crucial role it plays in fortifying the trustworthiness of our "
 "digital connections."
 msgstr ""
+"Güven ve güvenliğin en üst düzeyde olduğu geniş dijital ortamda, DANE ("
+"Adlandırılmış Varlıkların DNS Tabanlı Kimlik Doğrulaması) olarak bilinen "
+"güçlü bir teknoloji, bir koruma işareti olarak ortaya çıkıyor. %1$s'nin "
+"yenilikçi bir uzantısı olan DANE, dijital iletişimin özgünlüğünü ve "
+"bütünlüğünü geliştirerek çevrimiçi güvenlikte devrim yaratıyor. Bu makalede, "
+"DANE'in dönüştürücü potansiyelini inceleyerek işlevlerini, faydalarını ve "
+"dijital bağlantılarımızın güvenilirliğini güçlendirmede oynadığı önemli rolü "
+"araştırıyoruz."
 
 #: blog/dane/index.php:33
+#, fuzzy
 msgid "DNSSEC (Domain Name System Security Extensions)"
-msgstr ""
+msgstr "DNSSEC (Alan Adı Sistemi Güvenlik Uzantıları)"
 
 #: blog/dane/index.php:34
+#, fuzzy
 msgid "Understanding DANE"
-msgstr ""
+msgstr "DANE'i Anlamak"
 
 #: blog/dane/index.php:35
+#, fuzzy
 msgid ""
 "DANE is a game-changing protocol that uses DNS records to associate digital "
 "certificates with domain names, ensuring encrypted communication channels, "
@@ -2676,16 +3171,27 @@ msgid ""
 "websites, email servers, and other online services, mitigating the risks of "
 "man-in-the-middle attacks and unauthorized data interception."
 msgstr ""
+"DANE, dijital sertifikaları alan adlarıyla ilişkilendirmek için DNS "
+"kayıtlarını kullanan, TLS (Aktarım Katmanı Güvenliği) gibi şifrelenmiş "
+"iletişim kanallarının meşru ve değiştirilmemiş olmasını sağlayan, oyunun "
+"kurallarını değiştiren bir protokoldür. DANE, sertifikaları doğrudan DNS "
+"kayıtlarına yerleştirerek ek bir doğrulama katmanı sağlayarak sunucular ve "
+"kullanıcılar arasında güvenli bir el sıkışma sunar. Bu kriptografik bağlama, "
+"web sitelerinin, e-posta sunucularının ve diğer çevrimiçi hizmetlerin "
+"güvenilirliğini artırarak, ortadaki adam saldırıları ve yetkisiz veri "
+"müdahalesi risklerini azaltır."
 
 #: blog/dane/index.php:36
+#, fuzzy
 msgid "The Importance of DANE Implementation"
-msgstr ""
+msgstr "DANE Uygulamasının Önemi"
 
 #: blog/dane/index.php:37
 msgid "Enhanced Trust and Security"
 msgstr "Hazırlık ve Güvenlik"
 
 #: blog/dane/index.php:38
+#, fuzzy
 msgid ""
 "DANE significantly strengthens digital trust and security by validating "
 "certificates through DNS records. However, it does introduce complexity into "
@@ -2693,36 +3199,55 @@ msgid ""
 "meticulous coordination between certificate updates and DNS record changes, "
 "making the management process more complex."
 msgstr ""
+"DANE, sertifikaları DNS kayıtları aracılığıyla doğrulayarak dijital güveni "
+"ve güvenliği önemli ölçüde güçlendirir. Ancak sertifika yönetim sürecine "
+"karmaşıklık katar. Her sertifika değişikliği, sertifika güncellemeleri ile "
+"DNS kaydı değişiklikleri arasında titiz bir koordinasyon gerektirir ve bu da "
+"yönetim sürecini daha karmaşık hale getirir."
 
 #: blog/dane/index.php:39
+#, fuzzy
 msgid "Securing Email Communication"
-msgstr ""
+msgstr "E-posta İletişiminin Güvenliğini Sağlama"
 
 #: blog/dane/index.php:40
+#, fuzzy
 msgid ""
 "DANE secures email servers, ensuring that the certificates used for "
 "encrypting email exchanges are genuine and unaltered. Despite the added "
 "complexity, its contribution to securing sensitive email communication "
 "cannot be overstated."
 msgstr ""
+"DANE, e-posta alışverişlerini şifrelemek için kullanılan sertifikaların "
+"orijinal ve değiştirilmemiş olmasını sağlayarak e-posta sunucularının "
+"güvenliğini sağlar. Eklenen karmaşıklığa rağmen, hassas e-posta iletişiminin "
+"güvenliğine olan katkısı göz ardı edilemez."
 
 #: blog/dane/index.php:41
+#, fuzzy
 msgid "Boosting Website Credibility"
-msgstr ""
+msgstr "Web Sitesinin Güvenilirliğini Artırma"
 
 #: blog/dane/index.php:42
+#, fuzzy
 msgid ""
 "Websites employing DANE provide an additional layer of assurance to "
 "visitors. When combined with HTTPS, DANE guarantees that visitors are "
 "securely connected to the intended server, bolstering the overall security "
 "of online transactions and interactions."
 msgstr ""
+"DANE kullanan web siteleri ziyaretçilere ek bir güvence katmanı sağlar. "
+"DANE, HTTPS ile birleştirildiğinde ziyaretçilerin amaçlanan sunucuya güvenli "
+"bir şekilde bağlanmasını garanti ederek çevrimiçi işlemlerin ve "
+"etkileşimlerin genel güvenliğini artırır."
 
 #: blog/dane/index.php:43
+#, fuzzy
 msgid "The Consequences of Ignoring DANE"
-msgstr ""
+msgstr "DANE'ı Görmezden Gelmenin Sonuçları"
 
 #: blog/dane/index.php:44
+#, fuzzy
 msgid ""
 "Neglecting DANE leaves digital communication channels susceptible to "
 "interception and tampering. Cybercriminals can exploit these "
@@ -2731,10 +3256,18 @@ msgid ""
 "also exposes entities to legal ramifications and financial losses in the "
 "event of data breaches."
 msgstr ""
+"DANE'in ihmal edilmesi, dijital iletişim kanallarının müdahaleye ve "
+"kurcalanmaya açık hale gelmesine neden olur. Siber suçlular bu güvenlik "
+"açıklarından yararlanarak hassas verileri tehlikeye atabilir ve işletmelerin "
+"ve kuruluşların itibarına zarar verebilir. DANE'in göz ardı edilmesi "
+"yalnızca kullanıcının güvenini tehlikeye atmakla kalmaz, aynı zamanda veri "
+"ihlalleri durumunda kuruluşları yasal sonuçlarla ve mali kayıplarla karşı "
+"karşıya bırakır."
 
 #: blog/dane/index.php:45
+#, fuzzy
 msgid "Implementing DANE"
-msgstr ""
+msgstr "DANE'in Uygulanması"
 
 #: blog/dane/index.php:46
 msgid ""
@@ -2767,90 +3300,113 @@ msgstr ""
 "sağlayabilir."
 
 #: blog/dane/index.php:47
+#, fuzzy
 msgid "Building TLSA Records"
-msgstr ""
+msgstr "TLSA Kayıtları Oluşturma"
 
 #: blog/dane/index.php:48
+#, fuzzy
 msgid ""
 "TLSA records are constructed using three key parameters: Usage, Selector, "
 "and Matching Type in combination with the certificate's public key, service "
 "port, protocol, and domain name."
 msgstr ""
+"TLSA kayıtları üç temel parametre kullanılarak oluşturulur: Kullanım, Seçici "
+"ve Eşleştirme Türü ile birlikte sertifikanın genel anahtarı, hizmet bağlantı "
+"noktası, protokol ve alan adı."
 
 #: blog/dane/index.php:49
 msgid "Usage"
 msgstr "Kullanım Şekli"
 
 #: blog/dane/index.php:50
+#, fuzzy
 msgid "The Usage parameter specifies the intended use of the certificate."
-msgstr ""
+msgstr "Kullanım parametresi, sertifikanın amaçlanan kullanımını belirtir."
 
 #: blog/dane/index.php:52
+#, fuzzy
 msgid "0 - Certificate Authority Constraint (PKIX-TA)"
-msgstr ""
+msgstr "0 - Sertifika Yetkilisi Kısıtlaması (PKIX-TA)"
 
 #: blog/dane/index.php:53
+#, fuzzy
 msgid "1 - Service Certificate Constraint (PKIX-EE)"
-msgstr ""
+msgstr "1 - Hizmet Sertifikası Kısıtlaması (PKIX-EE)"
 
 #: blog/dane/index.php:54
+#, fuzzy
 msgid "2 - Trust Anchor Assertion (DANE-TA)"
-msgstr ""
+msgstr "2 - Güven Bağlantı Noktası İddiası (DANE-TA)"
 
 #: blog/dane/index.php:55
+#, fuzzy
 msgid "3 - Domain Issued Certificate (DANE-EE)"
-msgstr ""
+msgstr "3 - Alan Adı Tarafından Verilen Sertifika (DANE-EE)"
 
 #: blog/dane/index.php:57
+#, fuzzy
 msgid "Selector"
-msgstr ""
+msgstr "Seçici"
 
 #: blog/dane/index.php:58
+#, fuzzy
 msgid ""
 "The Selector parameter specifies the name of the entity that issued the "
 "certificate."
-msgstr ""
+msgstr "Selector parametresi, sertifikayı veren varlığın adını belirtir."
 
 #: blog/dane/index.php:60
+#, fuzzy
 msgid "0 - Full certificate"
-msgstr ""
+msgstr "0 - Tam sertifika"
 
 #: blog/dane/index.php:61
+#, fuzzy
 msgid "1 - Subject Public Key (SPKI)"
-msgstr ""
+msgstr "1 - Konu Genel Anahtarı (SPKI)"
 
 #: blog/dane/index.php:63
+#, fuzzy
 msgid "Matching Type"
-msgstr ""
+msgstr "Eşleştirme Türü"
 
 #: blog/dane/index.php:64
+#, fuzzy
 msgid ""
 "The Matching Type parameter specifies the type of cryptographic hash used to "
 "verify the certificate."
 msgstr ""
+"Eşleştirme Türü parametresi, sertifikayı doğrulamak için kullanılan "
+"şifreleme karma türünü belirtir."
 
 #: blog/dane/index.php:66
+#, fuzzy
 msgid "0 - SHA256"
-msgstr ""
+msgstr "0 - SHA256"
 
 #: blog/dane/index.php:67
+#, fuzzy
 msgid "1 - SHA384"
-msgstr ""
+msgstr "1 - SHA384"
 
 #: blog/dane/index.php:68
+#, fuzzy
 msgid "2 - SHA512"
-msgstr ""
+msgstr "2 - SHA512"
 
 #: blog/dane/index.php:70
-#, php-format
+#, fuzzy, php-format
 msgid "A useful tool to generate TLSA records is the %s"
-msgstr ""
+msgstr "TLSA kayıtları oluşturmak için kullanışlı bir araç %s'dır"
 
 #: blog/dane/index.php:70
+#, fuzzy
 msgid "TLSA Record Generator by SSL-Tools"
-msgstr ""
+msgstr "SSL-Tools'tan TLSA Kayıt Oluşturucu"
 
 #: blog/dane/index.php:72
+#, fuzzy
 msgid ""
 "In an era where cyber threats are prevalent, DANE emerges as a guardian of "
 "digital trust. Its implementation, while introducing complexity, is a "
@@ -2863,27 +3419,47 @@ msgid ""
 "integrity of our digital connections. Stay secure, stay trusted, and embrace "
 "DANE today."
 msgstr ""
+"Siber tehditlerin yaygın olduğu bir çağda DANE, dijital güvenin koruyucusu "
+"olarak ortaya çıkıyor. Karmaşıklığa yol açsa da uygulanması, çevrimiçi "
+"varlıklarını güçlendirmeyi amaçlayan işletmeler ve kuruluşlar için stratejik "
+"bir zorunluluktur. DANE'i dijital altyapıya entegre ederek kullanıcıların "
+"güvenle etkileşimde bulunabilmesini, işlem yapabilmesini ve iletişim "
+"kurabilmesini sağlıyoruz. DANE'i benimsemek sadece bir seçim değil aynı "
+"zamanda güvenli, güvenilir ve dayanıklı bir dijital geleceğe yönelik bir "
+"taahhüttür. DANE'in önemini anlamak ve onu dijital uygulamalarımıza entegre "
+"etmek, dijital bağlantılarımızın bütünlüğünü korumak açısından çok "
+"önemlidir. Güvende kalın, güvenilir kalın ve bugün DANE'i kucaklayın."
 
 #: blog/email-service-learnings/index.php:10
 #: blog/email-service-learnings/index.php:16
+#, fuzzy
 msgid ""
 "My learnings from running a free, anonymous email servcie and what to expect "
 "when you run a service like mine"
 msgstr ""
+"Ücretsiz, anonim bir e-posta hizmeti çalıştırmaktan öğrendiklerim ve benimki "
+"gibi bir hizmeti çalıştırdığınızda neler bekleyeceğiniz"
 
 #: blog/email-service-learnings/index.php:28
+#, fuzzy
 msgid ""
 "Running a public email service can be challenging and frustrating at times. "
 "Nonetheless, I learned a lot from offering a free email service for the past "
 "few years. Here are some of the challenges I had to face and what I learned "
 "from them:"
 msgstr ""
+"Herkese açık bir e-posta hizmeti yürütmek bazen zorlayıcı ve sinir bozucu "
+"olabilir. Yine de son birkaç yıldır ücretsiz bir e-posta hizmeti sunmaktan "
+"çok şey öğrendim. İşte karşılaştığım zorluklardan bazıları ve onlardan "
+"öğrendiklerim:"
 
 #: blog/email-service-learnings/index.php:29
+#, fuzzy
 msgid "Spam and countermeasures"
-msgstr ""
+msgstr "Spam ve karşı önlemler"
 
 #: blog/email-service-learnings/index.php:30
+#, fuzzy
 msgid ""
 "Spam is one of the most common issues when dealing with email. Making an "
 "email service completely spam-free is almost impossible. While many spam "
@@ -2895,13 +3471,23 @@ msgid ""
 "addresses and manually shutting down sending for a couple of hours whenever "
 "a spam wave starts."
 msgstr ""
+"Spam, e-postayla uğraşırken en sık karşılaşılan sorunlardan biridir. Bir e-"
+"posta hizmetini tamamen spam'siz hale getirmek neredeyse imkansızdır. Birçok "
+"spam filtresi, günlük olarak aldığımız spam'lerin çoğunu filtreleyebilse de, "
+"bunlar da mükemmel değildir. En kötü spam türü, hizmetin itibarına zarar "
+"vereceğinden ve uzun vadeli önemli bir etkiye sahip olabileceğinden, giden "
+"türdür. Bu nedenle, hız sınırlama, spam filtreleri kullanarak, belirli "
+"adresleri kara listeye alarak ve bir spam dalgası başladığında gönderimi "
+"birkaç saatliğine manuel olarak kapatarak hizmetimin göndereceği spam "
+"miktarını azaltmak için birçok adım attım."
 
 #: blog/email-service-learnings/index.php:31
+#, fuzzy
 msgid "Reputational damages"
-msgstr ""
+msgstr "İtibar zararları"
 
 #: blog/email-service-learnings/index.php:32
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "No matter how much you invest in anti-spam measures, at some point, there "
 "will be spam going out. Just five spam emails a day could be enough to get "
@@ -2911,10 +3497,18 @@ msgid ""
 "get marked as spam. Once your service reputation goes down, it can take "
 "several months to recover."
 msgstr ""
+"Spam karşıtı önlemlere ne kadar yatırım yaparsanız yapın, bir noktada spam "
+"ortaya çıkacaktır. Günde yalnızca beş spam e-posta, bunları telafi edecek "
+"kadar iyi e-posta yoksa hizmetinizin kara listeye alınması için yeterli "
+"olabilir. Örneğin, %s_, spam'in %%0,1'inin zaten çok fazla olduğunu "
+"düşünüyor. Tüm e-postalarınız spam olarak işaretleneceği için %%0,3 oranında "
+"gelen kutularınıza ulaşmaya elveda diyebilirsiniz. Hizmet itibarınız "
+"düştükten sonra toparlanması birkaç ay sürebilir."
 
 #: blog/email-service-learnings/index.php:33
+#, fuzzy
 msgid "Hate and death threads"
-msgstr ""
+msgstr "Nefret ve ölüm konuları"
 
 #: blog/email-service-learnings/index.php:34
 #, php-format
@@ -2946,10 +3540,12 @@ msgstr ""
 "bunları alan kişiler üzerinde yıkıcı ve travmatik etkileri olabilir."
 
 #: blog/email-service-learnings/index.php:35
+#, fuzzy
 msgid "Law enforcement visits"
-msgstr ""
+msgstr "Kolluk kuvvetleri ziyaretleri"
 
 #: blog/email-service-learnings/index.php:36
+#, fuzzy
 msgid ""
 "Internet crimes may be hard to combat, but law enforcement is trying to "
 "track down these kinds of crimes as well. That means whenever someone "
@@ -2959,12 +3555,21 @@ msgid ""
 "enforcement regularly, which includes being woken up in the middle of the "
 "night to answer some questions, or having my home searched."
 msgstr ""
+"İnternet suçlarıyla mücadele etmek zor olabilir ancak kolluk kuvvetleri de "
+"bu tür suçların izini sürmeye çalışıyor. Bu, birisi bir olayı polise "
+"bildirdiğinde, olayı araştıracak ve bilgi istemek için e-posta sağlayıcısına "
+"ulaşacakları anlamına geliyor. Elimde çok fazla veri olmamasına rağmen, "
+"hizmetimin anonim olması nedeniyle kolluk kuvvetleri tarafından düzenli "
+"olarak benimle iletişime geçiliyor; buna bazı soruları yanıtlamak için gece "
+"yarısı uyandırılmak veya evimin aranması da dahil."
 
 #: blog/email-service-learnings/index.php:37
+#, fuzzy
 msgid "Time consuming tasks"
-msgstr ""
+msgstr "Zaman alıcı görevler"
 
 #: blog/email-service-learnings/index.php:38
+#, fuzzy
 msgid ""
 "Time is one of the most valuable assets. We all have a limited quantity of "
 "it. You can't get back time you've spent on something less enjoyable. While "
@@ -2980,12 +3585,28 @@ msgid ""
 "abuse. Cleaning up after a spam wave can take hours and means halting "
 "outgoing mail for several hours until I have time to deal with it."
 msgstr ""
+"Zaman en değerli varlıklardan biridir. Hepimizde sınırlı miktarda var. Daha "
+"az keyifli bir şeye harcadığınız zamanı geri alamazsınız. Birçok insanın "
+"hayatlarında verimli bir şeyler yapmak yerine zamanlarını televizyon "
+"karşısında harcamayı tercih ettiğini anlasam da, ben kendi işimi kuruyorum "
+"ve çoğu zaman yoğun bir programım var. Bu yüzden artık bu genel e-posta "
+"hizmetini çalıştırarak çok fazla zaman harcamak istemiyorum. Kendime acil "
+"bir e-posta göndermeden önce birkaç saatimi spam ile uğraşmak zorunda kalmam "
+"tüm gün planlamamı mahvedebilir. 2023'ün ortalarında bazı ısrarcı spam "
+"gönderenler hizmetimi kötüye kullanmaya başladı. Hesapları silmek için "
+"sayısız saatler harcadım ve birkaç ay boyunca kayıt işlemini devre dışı "
+"bıraktım ama yine de bu soruna bir çözüm bulamadım. Yıl 2024 ve hala anormal "
+"bir istismar oranı görüyorum. Bir spam dalgasının ardından temizlik yapmak "
+"saatler sürebilir ve bu durumla ilgilenecek zamanım olana kadar giden "
+"postaları birkaç saatliğine durdurmak anlamına gelir."
 
 #: blog/email-service-learnings/index.php:39
+#, fuzzy
 msgid "Closing registration for good"
-msgstr ""
+msgstr "Kayıtlar tamamen kapatılıyor"
 
 #: blog/email-service-learnings/index.php:40
+#, fuzzy
 msgid ""
 "While I strongly believe in freedom of speech and want to continue offering "
 "the email service, it has become too much of a burden to keep this service "
@@ -2998,23 +3619,39 @@ msgid ""
 "clients whenever my emails land in spam because someone else ruined my email "
 "service reputation (again)."
 msgstr ""
+"İfade özgürlüğüne güçlü bir şekilde inansam ve e-posta hizmetini sunmaya "
+"devam etmek istesem de, bu hizmeti temiz tutmak artık çok büyük bir yük "
+"haline geldi. Bundan para kazanmıyorum ve son aylarda gördüğüm bu kadar çok "
+"istismara devam etmeye değmez. Son birkaç ayda kaydı birkaç kez geçici "
+"olarak kapattım, ancak şimdi tamamen kapatacağım. Mevcut hesaplar çalışmaya "
+"devam edecek ve bu hizmeti kapatmayı düşünmüyorum. Bu e-posta hizmetini "
+"kendim kullanıyorum ve ona güveniyorum. Bu nedenle, başka biri e-posta "
+"hizmetimin itibarını (yine) mahvettiği için e-postalarım spam'e düştüğünde "
+"potansiyel olarak müşterileri kaybedeceğim için bu adımları atmam gerekiyor."
 
 #: blog/email-service-learnings/index.php:41
+#, fuzzy
 msgid "Making use of my experience"
-msgstr ""
+msgstr "Tecrübelerimden faydalanıyorum"
 
 #: blog/email-service-learnings/index.php:42
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "With many years of experience running email services, I can also help you "
 "fix any problems you might encounter with your email service, such as "
 "restoring your sending reputation, authentication issues with DKIM, SPF and "
 "DMARC, or email security issues. If you are interested, you can %s. "
 msgstr ""
+"E-posta hizmetlerini yürütme konusunda uzun yıllara dayanan deneyimim "
+"sayesinde, e-posta hizmetinizde karşılaşabileceğiniz gönderme itibarınızı "
+"geri yükleme, DKIM, SPF ve DMARC ile ilgili kimlik doğrulama sorunları veya "
+"e-posta güvenliği sorunları gibi sorunları çözmenize de yardımcı olabilirim. "
+"Eğer ilgileniyorsanız, %s yapabilirsiniz. "
 
 #: blog/email-service-learnings/index.php:42
+#, fuzzy
 msgid "hire me"
-msgstr ""
+msgstr "beni işe al"
 
 #: tutorials/get-rich-fast/index.php:10 tutorials/get-rich-fast/index.php:24
 #: tutorials/index.php:32
@@ -3404,8 +4041,9 @@ msgstr ""
 "istiyorsanız, %s yapabilirsiniz."
 
 #: tutorials/index.php:28
+#, fuzzy
 msgid "contact me here"
-msgstr ""
+msgstr "benimle buradan iletişime geç"
 
 #: tutorials/index.php:30
 msgid "Name"
@@ -3439,8 +4077,9 @@ msgstr "Bu eğitim, bir şeker ilişkisi bulmanızda size rehberlik edecektir."
 #: tutorials/index.php:34 tutorials/findom/index.php:6
 #: tutorials/findom/index.php:21 tutorials/findom/index.php:31
 #: tutorials/findom/index.php:33
+#, fuzzy
 msgid "Earning money with findom"
-msgstr ""
+msgstr "Findom ile para kazanmak"
 
 #: tutorials/index.php:34
 msgid "This tutorial will show you how you can use findom to earn money."
@@ -3455,25 +4094,32 @@ msgstr "Kendi işinizin sahibi olun"
 
 #: tutorials/index.php:35 tutorials/self-employed/index.php:10
 #: tutorials/self-employed/index.php:20
+#, fuzzy
 msgid ""
 "This article offers valuable guidance to help you embark on your journey as "
 "a self-employed individual."
 msgstr ""
+"Bu makale, serbest meslek sahibi bir birey olarak yolculuğunuza başlamanıza "
+"yardımcı olacak değerli rehberlik sunmaktadır."
 
 #: tutorials/index.php:36 tutorials/content-creation/index.php:6
 #: tutorials/content-creation/index.php:21
 #: tutorials/content-creation/index.php:31
 #: tutorials/content-creation/index.php:33
+#, fuzzy
 msgid "Turning passion into profit as a content creator"
-msgstr ""
+msgstr "Bir içerik oluşturucu olarak tutkuyu kazanca dönüştürmek"
 
 #: tutorials/index.php:36 tutorials/content-creation/index.php:10
 #: tutorials/content-creation/index.php:22
 #: tutorials/content-creation/index.php:31
+#, fuzzy
 msgid ""
 "This comprehensive guide helps you learn about turning your passion into "
 "profit as an online content creator."
 msgstr ""
+"Bu kapsamlı kılavuz, bir çevrimiçi içerik yaratıcısı olarak tutkunuzu "
+"kazanca dönüştürmeyi öğrenmenize yardımcı olur."
 
 #: tutorials/successful-sugar-dating/index.php:35
 msgid "What is sugar dating?"
@@ -3613,6 +4259,7 @@ msgid "Here are some popular sugar dating sites:"
 msgstr "Bazı popüler şeker arkadaşlık siteleri şunlardır:"
 
 #: tutorials/self-employed/index.php:32
+#, fuzzy
 msgid ""
 "Note: This article is written with German laws and regulations in mind. Most "
 "of what I described here applies globally, but you should do your research "
@@ -3622,12 +4269,21 @@ msgid ""
 "everything, and I advise you to do your research, to get familiar with "
 "requirements specific to you, before jumping into it."
 msgstr ""
+"Not: Bu makale Alman yasa ve yönetmelikleri dikkate alınarak yazılmıştır. "
+"Burada anlattıklarımın çoğu küresel olarak geçerlidir, ancak araştırmanızı "
+"yapmalı ve yaşadığınız yerdeki durumu netleştirmelisiniz, zira bilmeniz "
+"gereken farklı düzenlemeler olabilir. Bu makale yalnızca bilmeniz gerekenler "
+"hakkında kısa bir genel bakış sunmayı amaçlamaktadır. Her şeyin ayrıntısına "
+"girmeyeceğim ve bu konuya girmeden önce araştırma yapmanızı, size özel "
+"gereksinimleri öğrenmenizi tavsiye ederim."
 
 #: tutorials/self-employed/index.php:33
+#, fuzzy
 msgid "Choosing the right path of self-employment"
-msgstr ""
+msgstr "Serbest meslek için doğru yolu seçmek"
 
 #: tutorials/self-employed/index.php:34
+#, fuzzy
 msgid ""
 "There are two types of self-employment: Freelancer and tradesman. "
 "Freelancers are a small subset of jobs defined by the law (§ 18 EStG "
@@ -3638,12 +4294,22 @@ msgid ""
 "still unsure, or you plan on extending your business beyond the boundaries "
 "of a freelancer, you should register as a tradesman."
 msgstr ""
+"Serbest meslek sahibi olmanın iki türü vardır: Serbest meslek sahibi ve "
+"esnaf. Serbest çalışanlar, kanunla tanımlanan işlerin küçük bir alt "
+"kümesidir (§ 18 EStG paragraf 1, sayı 1) ve burada açıklananlara benzer "
+"modern işlerdir. Serbest çalışan tanımına girmeyen her şey, bir esnaf olarak "
+"yaptığınız şeydir. Serbest çalışan olarak uygun olup olmadığınızdan emin "
+"değilseniz, açıklama için vergi yetkilileriyle görüşmelisiniz. Hala emin "
+"değilseniz veya işinizi serbest çalışanın sınırlarının ötesine genişletmeyi "
+"planlıyorsanız, esnaf olarak kaydolmalısınız."
 
 #: tutorials/self-employed/index.php:35
+#, fuzzy
 msgid "Getting started"
-msgstr ""
+msgstr "Başlarken"
 
 #: tutorials/self-employed/index.php:36
+#, fuzzy
 msgid ""
 "When you want to become self-employed, you should first develop a business "
 "idea to earn money. Next, you might want to look, at whether you can get "
@@ -3652,8 +4318,16 @@ msgid ""
 "business idea. If you are eligible for funding, check the requirements "
 "thoroughly, you may need to apply, before registering as a business."
 msgstr ""
+"Serbest meslek sahibi olmak istediğinizde öncelikle para kazanmaya yönelik "
+"bir iş fikri geliştirmelisiniz. Daha sonra iş fikriniz için fon alıp "
+"alamayacağınıza bakmak isteyebilirsiniz. Bazen hükümet belirli türdeki "
+"işletmeleri desteklemek ister ve siz de iş fikrinizi başlatmak için "
+"finansman başvurusunda bulunabilirsiniz. Finansman almaya uygunsanız, "
+"gereksinimleri iyice kontrol edin; işletme olarak kaydolmadan önce başvuruda "
+"bulunmanız gerekebilir."
 
 #: tutorials/self-employed/index.php:37
+#, fuzzy
 msgid ""
 "Before you can get started with your business, you need to register with "
 "your local tax office. As a tradesman, you also need to register with the "
@@ -3664,12 +4338,21 @@ msgid ""
 "want to wait for the registration, so you can properly deduct it from your "
 "taxes."
 msgstr ""
+"İşinize başlamadan önce yerel vergi dairenize kaydolmanız gerekir. Esnaf "
+"olarak öncelikle ticaret ofisine kayıt olmanız gerekmektedir. Kaydın "
+"işlenmesi biraz zaman alabilir. Bu süre zarfında henüz normal işlerinizi "
+"yapmanıza izin verilmiyor, ancak süreçlerinizi oluşturmak, bir web sitesi "
+"geliştirmek vb. gibi hazırlıklara zaten başlayabilirsiniz. Ancak, eğer buna "
+"para yatırıyorsanız, kayıt işlemini beklemek isteyebilirsiniz, böylece bunu "
+"vergilerinizden uygun şekilde düşebilirsiniz."
 
 #: tutorials/self-employed/index.php:38
+#, fuzzy
 msgid "Small business regulations"
-msgstr ""
+msgstr "Küçük işletme düzenlemeleri"
 
 #: tutorials/self-employed/index.php:39
+#, fuzzy
 msgid ""
 "As per §19 UStG, you may choose to apply the regulations for small "
 "businesses, if you do not plan to have more than 50k turnover, and haven't "
@@ -3684,12 +4367,26 @@ msgid ""
 "business regulations during your registration and opt to voluntarily apply "
 "for VAT ID."
 msgstr ""
+"UStG §19 uyarınca, 50 binden fazla ciroya sahip olmayı planlamıyorsanız ve "
+"önceki yılda 22 binden fazla ciro yapmadıysanız, küçük işletmelere yönelik "
+"düzenlemeleri uygulamayı seçebilirsiniz. Bu düzenlemelerin faydası, "
+"kendinizi KDV vergi beyannamesi verme zorunluluğundan kurtarabilmenizdir. "
+"Faturalarınız KDV'siz olacaktır; bu, eğer b2b pazarından daha fazla b2c "
+"pazarındaysanız harikadır ve müşterileriniz için bir işletmenin normalde "
+"talep edeceği fiyatlara kıyasla rekabetçi daha düşük fiyatlara sahip "
+"olabileceğiniz için harcamalarınız düşüktür. Ancak en büyük dezavantajı "
+"harcamalarınız için KDV beyannamesi alamamanızdır. Harcamalarınız yüksekse "
+"veya çoğunlukla b2b pazarındaysanız, kayıt sırasında küçük işletme "
+"düzenlemelerini kullanmaktan kaçınmalı ve KDV Numarası için gönüllü olarak "
+"başvuruda bulunmayı tercih etmelisiniz."
 
 #: tutorials/self-employed/index.php:40
+#, fuzzy
 msgid "Invoicing"
-msgstr ""
+msgstr "Faturalama"
 
 #: tutorials/self-employed/index.php:41
+#, fuzzy
 msgid ""
 "An invoice is a financial document that you send your client so that they "
 "can send you a payment. It must have your and your client's address and VAT-"
@@ -3701,13 +4398,23 @@ msgid ""
 "put these on each item. Finally, you would want to supply your payment "
 "information, as well as payment terms."
 msgstr ""
+"Fatura, müşterinize size ödeme gönderebilmesi için gönderdiğiniz mali bir "
+"belgedir. Bu belgede sizin ve müşterinizin adresi ve varsa KDV Numarası, "
+"benzersiz, ardışık bir fatura numarası, ayrıca fatura tarihi ve hizmet "
+"tarihi veya hizmet dönemi bulunmalıdır. Ürünleriniz ve hizmetleriniz en iyi "
+"şekilde kısa bir açıklama ve ayrı fiyatlandırma içeren bir tabloda temsil "
+"edilir, ardından her bir öğeyi özetleyin ve mümkünse ek KDV ekleyin. Ürü"
+"nlerinizin/hizmetlerinizin farklı KDV bedelleri varsa bunları her bir öğeye "
+"koymak en iyisi olabilir. Son olarak, ödeme bilgilerinizin yanı sıra ödeme "
+"koşullarınızı da sağlamak istersiniz."
 
 #: tutorials/self-employed/index.php:42
+#, fuzzy
 msgid "Addressing platform-generated invoices"
-msgstr ""
+msgstr "Platform tarafından oluşturulan faturaların adreslenmesi"
 
 #: tutorials/self-employed/index.php:43
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "German invoicing requirements are more strict than in some other countries. "
 "This, unfortunately, means, that invoices in your name, generated by foreign "
@@ -3723,12 +4430,26 @@ msgid ""
 "invalid invoices, that would require you to deduct the missing VAT from your "
 "income."
 msgstr ""
+"Almanya'da faturalandırma gereksinimleri diğer bazı ülkelere göre daha "
+"katıdır. Bu da ne yazık ki yabancı platformlar tarafından adınıza kesilen "
+"faturaların Almanya'da geçerli sayılmayacağı anlamına geliyor. %1$s veya %2$"
+"s gibi platformları kullanıyorsanız platformun oluşturduğu faturalara ek "
+"olarak kendi faturalarınızı da oluşturmalısınız. Bu, özellikle bu "
+"platformlar tarafından genellikle doğru şekilde ele alınmayan KDV'yi hesaba "
+"katmanız gerekiyorsa geçerlidir. Avrupalıysanız ve müşteriniz sizinle aynı "
+"ülkedense, ana görev kullandığınız platform üzerinden ödenirken, doğrudan "
+"size ödeyecekleri, doğru hesaplanmış KDV'yi içeren bir faturayı onlara ayrı "
+"ayrı göndermeniz konusunda onlarla bir anlaşma yapmalısınız. Bu yalnızca "
+"platform için adildir ve eksik KDV'yi gelirinizden düşmenizi gerektirecek "
+"geçersiz faturalarla uğraşmak zorunda kalmazsınız."
 
 #: tutorials/self-employed/index.php:44
+#, fuzzy
 msgid "Pricing your work"
-msgstr ""
+msgstr "Çalışmanızı fiyatlandırma"
 
 #: tutorials/self-employed/index.php:45
+#, fuzzy
 msgid ""
 "Most of your clients will probably want to know your prices before starting "
 "to work with you. You can either work on an hourly rate, which is safest for "
@@ -3745,12 +4466,30 @@ msgid ""
 "your estimate on the time you would need, as well as the value it brings to "
 "your client's business."
 msgstr ""
+"Müşterilerinizin çoğu muhtemelen sizinle çalışmaya başlamadan önce "
+"fiyatlarınızı bilmek isteyecektir. Özellikle yeni başlayan biri olarak sizin "
+"için en güvenli olan saatlik ücret üzerinden çalışabilirsiniz, çünkü bir "
+"göreve harcadığınız her saati faturalandırabileceksiniz. Bu modelde, bir "
+"görev için ihtiyacınız olan süreyi tahmin edersiniz ve daha fazla zamana "
+"ihtiyacınız olursa, müşteriye daha fazla zaman ayırıp ayırmamanız "
+"gerektiğine karar vermesine izin verirsiniz. Diğer taraftan, daha az zamana "
+"ihtiyacınız olduğunda daha fazla fatura kesemezsiniz (her ne kadar "
+"ihtiyacınız olan zaman hakkında yalan söyleyebilseniz de). Proje bazlı "
+"fiyatlandırma, yeterli deneyime sahip olduğunuzda ve bir işin ne kadar zaman "
+"alacağı konusunda iyi bir fikir sahibi olduğunuzda avantajınıza "
+"kullanabileceğiniz bir alternatiftir. Bir müşteri, deneyiminizle bir görevi "
+"çok hızlı bir şekilde tamamlayabilirseniz, 3 kat daha uzun süren başka "
+"birine harcayacağı paranın aynısını size memnuniyetle ödeyecektir. Proje "
+"bazlı fiyatlandırmada, tahmininizi ihtiyaç duyacağınız süreye ve bunun "
+"müşterinizin işine katacağı değere göre yapabilirsiniz."
 
 #: tutorials/self-employed/index.php:46
+#, fuzzy
 msgid "Tax obligations"
-msgstr ""
+msgstr "Vergi yükümlülükleri"
 
 #: tutorials/self-employed/index.php:47
+#, fuzzy
 msgid ""
 "Just like everyone, you have to pay income tax. Unless you opted for small "
 "business regulations, you will additionally have to pay VAT. Unlike your "
@@ -3764,12 +4503,26 @@ msgid ""
 "tax, so in most cases, you won't even pay more taxes as a tradesman, unless "
 "you are living in a community where you need to pay a little more trade tax."
 msgstr ""
+"Herkes gibi sizin de gelir vergisi ödemeniz gerekiyor. Küçük işletme "
+"düzenlemelerini tercih etmediğiniz sürece ayrıca KDV ödemeniz gerekecektir. "
+"Gelir verginizden farklı olarak bu genellikle sizin hesapladığınız ve "
+"doğrudan vergi dairesine ödediğiniz aylık bir vergidir. Gelir verginizde "
+"olduğu gibi ödeme makbuzu almayacaksınız. Ayrıca yılda bir kez, yıllık "
+"cironuzu özetleyen bir KDV beyanı göndermeniz gerekir. Bu aynı zamanda KDV "
+"ödemek zorunda olmayan küçük işletmeler için de geçerlidir. Esnaf iseniz "
+"ayrıca ticaret vergisi de ödemeniz gerekir. Bu vergi türü, yaşadığınız "
+"topluluğa bağlıdır ve coğrafi bölgeye göre farklılık gösterir. Ticaret "
+"vergisi gelir verginizden düşülebilir; dolayısıyla, biraz daha fazla ticaret "
+"vergisi ödemeniz gereken bir toplulukta yaşamıyorsanız, çoğu durumda bir "
+"esnaf olarak daha fazla vergi bile ödemezsiniz."
 
 #: tutorials/self-employed/index.php:48
+#, fuzzy
 msgid "Accounting"
-msgstr ""
+msgstr "Muhasebe"
 
 #: tutorials/self-employed/index.php:49
+#, fuzzy
 msgid ""
 "A very important part of your business will be accounting. Every transaction "
 "needs to be recorded as soon as you make them and you will need to keep "
@@ -3778,13 +4531,21 @@ msgid ""
 "moment, to see how profitable your work is. If you do not know your "
 "financial status, you are vulnerable to overspending without even knowing it."
 msgstr ""
+"İşletmenizin çok önemli bir kısmı muhasebe olacaktır. Her işlemin, "
+"yaptığınız anda kaydedilmesi gerekir ve giden ve gelen her faturayı takip "
+"etmeniz gerekir. Bu sadece vergileriniz için değil, aynı zamanda herhangi "
+"bir anda mali durumunuza ilişkin genel bir bakışa sahip olmak ve işinizin ne "
+"kadar karlı olduğunu görmek için de gereklidir. Mali durumunuzu "
+"bilmiyorsanız, farkında bile olmadan aşırı harcamalara karşı savunmasız "
+"olursunuz."
 
 #: tutorials/self-employed/index.php:50
+#, fuzzy
 msgid "Choosing the right bank accounts"
-msgstr ""
+msgstr "Doğru banka hesaplarını seçmek"
 
 #: tutorials/self-employed/index.php:51
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "While it is possible to mix business and personal finances on your bank "
 "account, it is highly advisable to have a separate business account, such as "
@@ -3792,6 +4553,11 @@ msgid ""
 "share your personal transactions with tax advisors or an auditor. You can "
 "freely send money back and forth between your personal and business accounts."
 msgstr ""
+"Banka hesabınızda ticari ve kişisel finansmanı karıştırmak mümkün olsa da, "
+"mali durumunuza daha iyi bir genel bakış sağlamak ve kişisel işlemlerinizi "
+"vergi danışmanları veya denetçilerle paylaşmak zorunda kalmamak için %1$s "
+"gibi ayrı bir ticari hesaba sahip olmanız önemle tavsiye edilir. Kişisel ve "
+"ticari hesaplarınız arasında serbestçe para gönderebilirsiniz."
 
 #: tutorials/self-employed/index.php:52
 #, php-format
@@ -3808,21 +4574,36 @@ msgid ""
 "are offering up to 4%% interest rate. To find the right account for your, "
 "you can %3$s."
 msgstr ""
+"Bir çalışan olarak, gelirinizden işvereniniz tarafından sürekli olarak vergi "
+"kesintisi yapılır. Ancak serbest meslek sahibiyseniz, vergi ödemelerinden "
+"kendiniz sorumlusunuz. Vergi ödemek için yeterli miktarda para "
+"biriktirdiğinizden emin olmalısınız. İşletme hesabınızdan kendinize ödeme "
+"yaptığınız her seferinde, tahmini gelir vergisine eşdeğer bir tutarı ayrı "
+"bir tasarruf hesabına gönderin. %1$s kullanarak ne kadar para biriktirmeniz "
+"gerektiğini kontrol edebilirsiniz. Düşük ve hatta negatif faiz oranlarının "
+"norm olduğu göz önüne alındığında, birikimlerinizi güvende tutmak ve "
+"bunlardan biraz kazanç elde etmek için sabit mevduat hesabı veya yüksek "
+"faizli bir banka hesabı aramak en iyisidir. Bu amaçla %2$s kullanıyorum, "
+"çünkü %4'e varan faiz oranı sunuyorlar. Size uygun hesabı bulmak için %3$s "
+"yapabilirsiniz."
 
 #: tutorials/self-employed/index.php:52
+#, fuzzy
 msgid "online income tax calculator"
-msgstr ""
+msgstr "çevrimiçi gelir vergisi hesaplayıcı"
 
 #: tutorials/self-employed/index.php:52
+#, fuzzy
 msgid "compare bank accounts here"
-msgstr ""
+msgstr "banka hesaplarını burada karşılaştırın"
 
 #: tutorials/self-employed/index.php:53
+#, fuzzy
 msgid "Health insurance"
-msgstr ""
+msgstr "Sağlık sigortası"
 
 #: tutorials/self-employed/index.php:54
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "In Germany, it's mandatory to have health insurance. The amount you pay for "
 "public health insurance is based on your income. With low income, you have "
@@ -3832,17 +4613,27 @@ msgid ""
 "these usually have a fixed pricing based on your age and health. You can %s "
 "or similar platforms to find one that suits your needs."
 msgstr ""
+"Almanya'da sağlık sigortası yaptırmak zorunludur. Genel sağlık sigortası "
+"için ödeyeceğiniz tutar gelirinize bağlıdır. Geliriniz düşükse, kamu "
+"sigortasına katkı payınız düşüktür, ancak işiniz iyi gidiyorsa ve kazancınız "
+"yüksekse sağlık sigortası harcamalarınız önemli ölçüde artacaktır. Bu "
+"nedenle, bunun yerine özel sigortayı tercih etmek mantıklıdır çünkü bunların "
+"genellikle yaşınıza ve sağlığınıza bağlı olarak sabit bir fiyatı vardır. "
+"İhtiyaçlarınıza uygun olanı bulmak için %s veya benzer platformları "
+"kullanabilirsiniz."
 
 #: tutorials/self-employed/index.php:54
+#, fuzzy
 msgid "compare insurance on Check24"
-msgstr ""
+msgstr "Check24'te sigortayı karşılaştırın"
 
 #: tutorials/self-employed/index.php:55
+#, fuzzy
 msgid "E-Mail archiving"
-msgstr ""
+msgstr "E-Posta arşivleme"
 
 #: tutorials/self-employed/index.php:56
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "GoBD is a law defining strict requirements concerning your bookkeeping (see "
 "also accounting above). A key aspect that many businesses fail to implement "
@@ -3852,12 +4643,22 @@ msgid ""
 "So you need to decide on each mail, whether you can, and need to, archive it "
 "or not. I recommend using an archiving solution like %s for this."
 msgstr ""
+"GoBD, muhasebe işlemlerinize ilişkin katı gereklilikleri tanımlayan bir "
+"yasadır (yukarıdaki muhasebeye de bakın). Pek çok işletmenin doğru şekilde "
+"uygulayamadığı önemli bir husus da posta arşivlemedir. İşle ilgili her e-"
+"posta, özellikle faturalar, fiyat teklifleri vb. arşivlenmelidir. Aynı "
+"zamanda, gerekmedikçe kişisel verileri saklayamayacağınızı zorunlu kılan "
+"GDPR'ye uyumlu olmanız gerekir. Bu nedenle, her postayı arşivleyip "
+"arşivleyemeyeceğinize ve arşivlemeniz gerekip gerekmediğine karar vermeniz "
+"gerekir. Bunun için %s gibi bir arşivleme çözümü kullanmanızı öneririm."
 
 #: tutorials/self-employed/index.php:57
+#, fuzzy
 msgid "Data processing agreement"
-msgstr ""
+msgstr "Veri işleme sözleşmesi"
 
 #: tutorials/self-employed/index.php:58
+#, fuzzy
 msgid ""
 "Per GDPR you will need to sign a data processing agreement with every sub-"
 "processor that handles personal data. If you are processing personal data "
@@ -3869,40 +4670,56 @@ msgid ""
 "shows professionalism and many of your clients are probably unaware of these "
 "requirements."
 msgstr ""
+"GDPR uyarınca, kişisel verileri işleyen her alt işleyiciyle bir veri işleme "
+"sözleşmesi imzalamanız gerekecektir. Müşterileriniz için kişisel veriler "
+"işliyorsanız (ki çoğu durumda bunu yapıyorsunuz), onların da sizden böyle "
+"bir veri işleme sözleşmesine ihtiyaçları var. Anlaşma, verileri işleme "
+"şeklinizin ve bu verileri nasıl koruyacağınızın temelini oluşturur. Yasal "
+"olarak müşterileriniz bu sözleşmeyi talep etmekle sorumludur, ancak sizin "
+"çıkarınız için bu konuyu müşterilerinizle görüşmeli ve onlara bir sözleşme "
+"sunmalısınız. Bu, profesyonelliği gösterir ve müşterilerinizin çoğu "
+"muhtemelen bu gereksinimlerin farkında değildir."
 
 #: tutorials/self-employed/index.php:59
+#, fuzzy
 msgid "Useful Tools"
-msgstr ""
+msgstr "Yararlı Araçlar"
 
 #: tutorials/self-employed/index.php:61
-#, php-format
+#, fuzzy, php-format
 msgid "For invoicing and accounting, I recommend %s."
-msgstr ""
+msgstr "Faturalama ve muhasebe için %s_'yı öneririm."
 
 #: tutorials/self-employed/index.php:62
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "For sharing files, video calls, contacts, to-do lists and calendars I "
 "recommend %s."
 msgstr ""
+"Dosyaları, video görüşmelerini, kişileri, yapılacaklar listelerini ve "
+"takvimleri paylaşmak için %s_'yı öneririm."
 
 #: tutorials/self-employed/index.php:63
-#, php-format
+#, fuzzy, php-format
 msgid "For instant messaging and project task boards, I recommend %s."
-msgstr ""
+msgstr "Anlık mesajlaşma ve proje görev panoları için %s_'yı öneririm."
 
 #: tutorials/self-employed/index.php:64
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "To version your work, I recommend using Git and running your own %s server."
 msgstr ""
+"Çalışmanızı versiyonlamak için Git'i kullanmanızı ve kendi %s sunucunuzu "
+"çalıştırmanızı öneririm."
 
 #: tutorials/self-employed/index.php:65
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "To securely share passwords within your team, I recommend running a %s "
 "server."
 msgstr ""
+"Ekibiniz içinde şifreleri güvenli bir şekilde paylaşmak için bir %s sunucusu "
+"çalıştırmanızı öneririm."
 
 #: tutorials/torify-ftp/index.php:6 tutorials/torify-ftp/index.php:23
 #: tutorials/torify-ftp/index.php:35
@@ -4082,11 +4899,12 @@ msgid "Proxy configuration"
 msgstr "Proxy yapılandırması"
 
 #: tutorials/content-creation/index.php:34
+#, fuzzy
 msgid "Introduction"
-msgstr ""
+msgstr "giriiş"
 
 #: tutorials/content-creation/index.php:35
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Online content creation is about producing and sharing information on "
 "digital platforms. This can come in various forms, such as videos, blogs, "
@@ -4098,16 +4916,28 @@ msgid ""
 "However, the journey to becoming a successful content creator can be complex "
 "and filled with challenges. This guide will walk you through it."
 msgstr ""
+"Çevrimiçi içerik oluşturma, dijital platformlarda bilgi üretmek ve "
+"paylaşmakla ilgilidir. Bu, videolar, bloglar, podcast'ler ve sosyal medya "
+"gönderileri gibi çeşitli biçimlerde olabilir. Bir içerik oluşturucu olarak "
+"fikirlerinizi ifade etme, bilginizi paylaşma ve dünya çapındaki kitleyle "
+"etkileşim kurma özgürlüğüne sahipsiniz. Geçtiğimiz birkaç yılda %1$s içerik "
+"oluşturmada yükselen bir trend haline geldi. Her yerden çalışabilme, "
+"programınızı kontrol edebilme ve tutkunuzu kazanca dönüştürebilme yeteneği "
+"bu değişimi tetikleyen faktörlerden bazıları. Ancak başarılı bir içerik "
+"oluşturucu olma yolculuğu karmaşık ve zorluklarla dolu olabilir. Bu kılavuz "
+"size bu konuda yol gösterecektir."
 
 #: tutorials/content-creation/index.php:35
 msgid "self-employment"
 msgstr "Kendi işinizin sahibi olun"
 
 #: tutorials/content-creation/index.php:36
+#, fuzzy
 msgid "Identify your creator's personality"
-msgstr ""
+msgstr "Yaratıcınızın kişiliğini tanımlayın"
 
 #: tutorials/content-creation/index.php:37
+#, fuzzy
 msgid ""
 "A unique creator personality is crucial in differentiating yourself in the "
 "crowded digital landscape. It allows you to attract a specific audience and "
@@ -4119,12 +4949,24 @@ msgid ""
 "your audience. Furthermore, seek feedback from your audience to refine your "
 "creator's personality."
 msgstr ""
+"Benzersiz bir içerik oluşturucu kişiliği, kalabalık dijital ortamda "
+"kendinizi farklılaştırmanız açısından çok önemlidir. Belirli bir hedef "
+"kitlenin ilgisini çekmenize ve onlarla güçlü bir bağ kurmanıza olanak tanır. "
+"Yaratıcı kişiliğiniz tarzınızı, sesinizi, değerlerinizi ve tutkularınızı "
+"kapsar. Yaratıcı kişiliğinizi bulmak, iç gözlem ve deney yapmayı gerektirir. "
+"İlgi alanlarınızı, güçlü yönlerinizi ve tüketmekten keyif aldığınız içerik "
+"türünü göz önünde bulundurun. Sizde ve hedef kitlenizde neyin yankı "
+"uyandırdığını belirlemek için farklı içerik türlerini ve formatlarını "
+"deneyin. Ayrıca yaratıcınızın kişiliğini geliştirmek için hedef kitlenizden "
+"geri bildirim alın."
 
 #: tutorials/content-creation/index.php:38
+#, fuzzy
 msgid "Choose a niche"
-msgstr ""
+msgstr "Bir niş seçin"
 
 #: tutorials/content-creation/index.php:39
+#, fuzzy
 msgid ""
 "Selecting a niche is integral to successful content creation. A niche refers "
 "to a specialized segment of the market that you aim to cater to. By focusing "
@@ -4135,12 +4977,23 @@ msgid ""
 "travel, and mental health. However, remember that the best niche is one "
 "where your passion meets audience demand."
 msgstr ""
+"Bir niş seçmek, başarılı içerik oluşturmanın ayrılmaz bir parçasıdır. Niş, "
+"pazarın hitap etmeyi hedeflediğiniz özel bir bölümünü ifade eder. Belirli "
+"bir niş alana odaklanarak kendinizi bir uzman olarak tanıtabilir, hedef "
+"kitlenin ilgisini çekebilir ve içeriğinizden para kazanma şansınızı "
+"artırabilirsiniz. Bir niş seçerken ilgi alanlarınızı, uzmanlığınızı ve pazar "
+"talebini göz önünde bulundurun. Bazı popüler nişler arasında fitness, "
+"kişisel finans, teknoloji, moda, seyahat ve zihinsel sağlık yer alır. Ancak "
+"en iyi nişin tutkunuzun hedef kitlenin talebiyle buluştuğu niş olduğunu "
+"unutmayın."
 
 #: tutorials/content-creation/index.php:40
+#, fuzzy
 msgid "A warning about the adult content niche"
-msgstr ""
+msgstr "Yetişkinlere yönelik içerik alanıyla ilgili bir uyarı"
 
 #: tutorials/content-creation/index.php:41
+#, fuzzy
 msgid ""
 "Adult or pornographic content creation is a niche within the online content "
 "creation industry that requires careful consideration due to its unique set "
@@ -4158,12 +5011,31 @@ msgid ""
 "sharing. Therefore, anyone considering this niche should think carefully "
 "about these risks and take necessary precautions to protect themselves."
 msgstr ""
+"Yetişkinlere yönelik veya pornografik içerik oluşturma, çevrimiçi içerik "
+"oluşturma endüstrisinde kendine özgü riskler ve zorluklar nedeniyle dikkatli "
+"bir şekilde değerlendirilmesi gereken bir niş alanıdır. Kazançlı olsa da, "
+"kişisel ve mesleki yaşamınız üzerindeki uzun vadeli olası etkilerini dikkate "
+"almak önemlidir. Bu tür içerikler genellikle damgalanır ve toplumsal "
+"yargılara yol açabilir; bu da yetişkin endüstrisi dışında gelecekteki "
+"istihdam fırsatlarını etkileyebilir. İçerik oluşturucular, kişisel "
+"bilgilerin çevrimiçi olarak sızdırılması veya izleyicilerin istenmeyen "
+"ilgisi gibi kişisel bilgilerin ifşa edilmesi gibi risklerle karşı karşıya "
+"kalabileceğinden gizlilik de bir diğer önemli endişe kaynağıdır. Ayrıca, tüm "
+"katılımcıların yaşlarının doğrulanması ve konuma göre değişen yasalara uyma "
+"gibi yasal hususlar da vardır. Son olarak, içeriğin çevrimiçi olarak "
+"paylaşılmasının ardından tamamen kaldırılmasının zor olabileceğini, bunun da "
+"potansiyel olarak korsanlık veya rıza dışı paylaşım sorunlarına yol "
+"açabileceğini unutmamak önemlidir. Bu nedenle bu işi düşünen herkesin bu "
+"riskleri iyi düşünmesi ve kendini korumak için gerekli önlemleri alması "
+"gerekir."
 
 #: tutorials/content-creation/index.php:42
+#, fuzzy
 msgid "Develop your style and personal brand"
-msgstr ""
+msgstr "Tarzınızı ve kişisel markanızı geliştirin"
 
 #: tutorials/content-creation/index.php:43
+#, fuzzy
 msgid ""
 "Personal branding is essential in building trust and loyalty with your "
 "audience. It reflects who you are, what you stand for, and the value you "
@@ -4174,13 +5046,22 @@ msgid ""
 "voice. Use your style to express your personality and make your content "
 "recognizable and memorable."
 msgstr ""
+"Kişisel markalaşma, hedef kitlenizde güven ve sadakat oluşturmak için çok "
+"önemlidir. Kim olduğunuzu, neyi temsil ettiğinizi ve sağladığınız değeri "
+"yansıtır. Güçlü bir kişisel marka, ortaklıkları, sponsorlukları ve para "
+"kazanma fırsatlarını çekmenize yardımcı olabilir. Tarzınızı geliştirmek, "
+"içeriğinizde benzersiz bir görsel ve ton tutarlılığı yaratmayı içerir. Buna "
+"renk, yazı tipi, görüntü, dil ve ses tonu seçiminiz de dahildir. "
+"Kişiliğinizi ifade etmek ve içeriğinizi tanınabilir ve unutulmaz kılmak için "
+"tarzınızı kullanın."
 
 #: tutorials/content-creation/index.php:44
+#, fuzzy
 msgid "Choose your platform"
-msgstr ""
+msgstr "Platformunuzu seçin"
 
 #: tutorials/content-creation/index.php:45
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "There are numerous platforms available for content creators, each offering "
 "unique features and catering to different content types. %1$s and %2$s are "
@@ -4192,66 +5073,86 @@ msgid ""
 "time online, the algorithms and features of each platform, and how they "
 "align with your content strategy."
 msgstr ""
+"İçerik oluşturucular için her biri benzersiz özellikler sunan ve farklı "
+"içerik türlerine hitap eden çok sayıda platform bulunmaktadır. %1$s ve %2$s "
+"video içeriği için popülerken, %3$s ve %4$s blog yazarları için idealdir. %5$"
+"s ve %6$s gibi sosyal medya platformları kısa içerik için idealdir; %7$s, %8$"
+"s ve %9$s ise içerik oluşturucuların özel içerikten para kazanmasına olanak "
+"tanır. Doğru platformu seçmek içerik türünüze, hedef kitlenize ve para "
+"kazanma hedeflerinize bağlıdır. Hedef kitlenizin çevrimiçi ortamda zamanını "
+"nerede geçirdiğini, her platformun algoritmalarını ve özelliklerini ve "
+"bunların içerik stratejinizle nasıl uyumlu olduğunu düşünün."
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:54
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:62
+#, fuzzy
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:83
+#, fuzzy
 msgid "Twitch"
-msgstr ""
+msgstr "Seğirme"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:81
+#, fuzzy
 msgid "WordPress"
-msgstr ""
+msgstr "WordPress"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:81
+#, fuzzy
 msgid "Medium"
-msgstr ""
+msgstr "Orta"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
 #: tutorials/content-creation/index.php:62
 #: tutorials/content-creation/index.php:85
+#, fuzzy
 msgid "Instagram"
-msgstr ""
+msgstr "instagram"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:62
 #: tutorials/content-creation/index.php:85
+#, fuzzy
 msgid "TikTok"
-msgstr ""
+msgstr "Tiktok"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
 #: tutorials/content-creation/index.php:85
+#, fuzzy
 msgid "OnlyFans"
-msgstr ""
+msgstr "Sadece Hayranlar"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
 #: tutorials/content-creation/index.php:85
+#, fuzzy
 msgid "Fansly"
-msgstr ""
+msgstr "Hayranlıkla"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:66
 #: tutorials/content-creation/index.php:85
+#, fuzzy
 msgid "Patreon"
-msgstr ""
+msgstr "Patreon"
 
 #: tutorials/content-creation/index.php:46
+#, fuzzy
 msgid "Develop a content calendar"
-msgstr ""
+msgstr "Bir içerik takvimi geliştirin"
 
 #: tutorials/content-creation/index.php:47
+#, fuzzy
 msgid ""
 "A content calendar is a schedule of when and where you plan to publish "
 "upcoming content. It helps you stay organized, maintain a consistent posting "
@@ -4260,12 +5161,21 @@ msgid ""
 "relevant to your niche, planning content around these dates and setting a "
 "consistent posting schedule."
 msgstr ""
+"İçerik takvimi, gelecek içeriği ne zaman ve nerede yayınlamayı "
+"planladığınızı gösteren bir programdır. Düzenli kalmanıza, tutarlı bir "
+"paylaşım programı sürdürmenize, önemli tarihler veya etkinliklere göre plan "
+"yapmanıza ve içeriğinizin performansını izlemenize yardımcı olur. Bir içerik "
+"takvimi geliştirmek, nişinizle ilgili önemli tarihleri belirlemeyi, bu "
+"tarihler etrafında içerik planlamayı ve tutarlı bir paylaşım programı "
+"oluşturmayı içerir."
 
 #: tutorials/content-creation/index.php:48
+#, fuzzy
 msgid "Equip yourself with the right tools"
-msgstr ""
+msgstr "Kendinizi doğru araçlarla donatın"
 
 #: tutorials/content-creation/index.php:49
+#, fuzzy
 msgid ""
 "Content creators require a variety of tools to produce and optimize their "
 "content. This can include cameras or smartphones for filming, microphones "
@@ -4276,12 +5186,23 @@ msgid ""
 "your budget, and are user-friendly. Also, utilize free trials to test out "
 "different tools before making a purchase."
 msgstr ""
+"İçerik yaratıcıları, içeriklerini üretmek ve optimize etmek için çeşitli "
+"araçlara ihtiyaç duyar. Bu, filme almak için kameraları veya akıllı "
+"telefonları, ses kalitesi için mikrofonları, düzenleme yazılımını, blog "
+"gönderilerini optimize etmek için SEO araçlarını, sosyal medya planlama "
+"araçlarını ve performansı izlemek için analiz araçlarını içerebilir. Doğru "
+"araçları seçmek içerik türünüze, platformunuza, bütçenize ve beceri "
+"seviyenize bağlıdır. İhtiyacınız olan özellikleri sunan, bütçeniz dahilinde "
+"ve kullanıcı dostu araçları düşünün. Ayrıca, satın alma işlemi yapmadan önce "
+"farklı araçları test etmek için ücretsiz denemelerden yararlanın."
 
 #: tutorials/content-creation/index.php:50
+#, fuzzy
 msgid "Track performance metrics"
-msgstr ""
+msgstr "Performans ölçümlerini izleyin"
 
 #: tutorials/content-creation/index.php:51
+#, fuzzy
 msgid ""
 "Tracking performance metrics allows you to measure the success of your "
 "content, understand your audience's preferences, and make data-driven "
@@ -4294,17 +5215,30 @@ msgid ""
 "content creators monetizing their work, tracking income sources and revenue "
 "growth is essential."
 msgstr ""
+"Performans ölçümlerini takip etmek, içeriğinizin başarısını ölçmenize, hedef "
+"kitlenizin tercihlerini anlamanıza ve içerik stratejinizi optimize etmek "
+"için veriye dayalı kararlar almanıza olanak tanır. Bu ölçümler "
+"görüntülemeleri, beğenileri, paylaşımları, yorumları, takipçi artışını ve "
+"elde edilen geliri içerebilir. İçerik oluşturucular için temel performans "
+"ölçümleri platforma ve içerik türüne göre değişir. Blogcular için sayfa "
+"görüntülemeleri, hemen çıkma oranı ve ortalama oturum süresi gibi metrikler "
+"önemlidir. Sosyal medya ve video yaratıcıları için etkileşim oranı, takipçi "
+"artışı ve video izlenme süresi çok önemli olabilir. Çalışmalarından para "
+"kazanan içerik oluşturucular için gelir kaynaklarını ve gelir artışını takip "
+"etmek çok önemlidir."
 
 #: tutorials/content-creation/index.php:52
+#, fuzzy
 msgid "Ideas on different types of content creation"
-msgstr ""
+msgstr "Farklı içerik oluşturma türlerine ilişkin fikirler"
 
 #: tutorials/content-creation/index.php:53
+#, fuzzy
 msgid "Starting a podcast"
-msgstr ""
+msgstr "Podcast başlatma"
 
 #: tutorials/content-creation/index.php:54
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Starting a podcast can be a rewarding and profitable venture for content "
 "creators. This medium allows you to share stories, insights, and knowledge "
@@ -4317,25 +5251,39 @@ msgid ""
 "are key to growing your audience and turning your podcast into a profitable "
 "venture."
 msgstr ""
+"Bir podcast başlatmak, içerik oluşturucular için ödüllendirici ve karlı bir "
+"girişim olabilir. Bu ortam, tutkulu olduğunuz bir konu hakkındaki "
+"hikayeleri, içgörüleri ve bilgileri paylaşmanıza olanak tanır. Başlamak için "
+"nişinizi tanımlamanız, ilgi çekici içerik oluşturmanız ve kaliteli kayıt "
+"ekipmanına yatırım yapmanız gerekir. Podcast'inizi kaydedip düzenledikten "
+"sonra %1$s, %2$s, %3$s veya %4$s gibi platformlarda yayınlayabilirsiniz. "
+"Podcast'inizden para kazanma, sponsorluklar, reklamlar, dinleyici bağışları "
+"veya aboneliğe dayalı içerik gibi çeşitli yollarla sağlanabilir. Tutarlılık "
+"ve kalitenin kitlenizi büyütmenin ve podcast'inizi karlı bir girişime "
+"dönüştürmenin anahtarı olduğunu unutmayın."
 
 #: tutorials/content-creation/index.php:54
+#, fuzzy
 msgid "Apple Podcasts"
-msgstr ""
+msgstr "Apple Podcast'leri"
 
 #: tutorials/content-creation/index.php:54
+#, fuzzy
 msgid "Spotify"
-msgstr ""
+msgstr "Spotify"
 
 #: tutorials/content-creation/index.php:54
+#, fuzzy
 msgid "Google Podcasts"
-msgstr ""
+msgstr "Google Podcast'leri"
 
 #: tutorials/content-creation/index.php:55
+#, fuzzy
 msgid "Launching an online store"
-msgstr ""
+msgstr "Çevrimiçi mağaza açma"
 
 #: tutorials/content-creation/index.php:56
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Launching an online store is a powerful way to monetize your passion as an "
 "online content creator. If you create physical or digital products related "
@@ -4348,25 +5296,37 @@ msgid ""
 "with your audience, you can generate additional income while enhancing your "
 "brand."
 msgstr ""
+"Çevrimiçi bir mağaza açmak, çevrimiçi içerik oluşturucu olarak tutkunuzdan "
+"para kazanmanın güçlü bir yoludur. İçeriğinizle ilgili fiziksel veya dijital "
+"ürünler oluşturursanız çevrimiçi mağaza, bu ürünleri doğrudan hedef "
+"kitlenize satmanıza olanak tanır. %1$s, %2$s veya %3$s gibi platformlar, "
+"özelleştirilebilir vitrinler, güvenli ödeme seçenekleri ve envanter yönetimi "
+"gibi özellikler sunarak çevrimiçi mağaza kurmayı kolaylaştırır. Ürünlerinizi "
+"içeriğinizde, sosyal medya platformlarında veya e-postayla pazarlama yoluyla "
+"tanıtabilirsiniz. Hedef kitlenizde yankı uyandıracak yüksek kaliteli ürünler "
+"sunarak, markanızı geliştirirken ek gelir elde edebilirsiniz."
 
 #: tutorials/content-creation/index.php:56
+#, fuzzy
 msgid "Etsy"
-msgstr ""
+msgstr "Etsy"
 
 #: tutorials/content-creation/index.php:56
+#, fuzzy
 msgid "Shopify"
-msgstr ""
+msgstr "Shopify"
 
 #: tutorials/content-creation/index.php:56
+#, fuzzy
 msgid "WooCommerce"
-msgstr ""
+msgstr "WooCommerce"
 
 #: tutorials/content-creation/index.php:57
 msgid "Become an entertainer or comedian"
 msgstr "Girişimci ol, kendi şirketini kur"
 
 #: tutorials/content-creation/index.php:58
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Becoming an entertainer or comedian is a rewarding path that allows you to "
 "express your creativity, bring joy to others, and potentially earn a living "
@@ -4377,13 +5337,23 @@ msgid ""
 "successful entertainer or comedian takes time, patience, and resilience, but "
 "with passion and dedication, it's certainly achievable."
 msgstr ""
+"Bir şovmen veya komedyen olmak, yaratıcılığınızı ifade etmenize, başkalarına "
+"neşe getirmenize ve potansiyel olarak tutkunuzdan geçiminizi sağlamanıza "
+"olanak tanıyan ödüllendirici bir yoldur. %1$s, %2$s ve %3$s gibi platformlar "
+"içeriğinizi paylaşmak ve bir kitle oluşturmak için harika yerlerdir. Takipçi "
+"sayınızı artırdıkça reklam geliri, sponsorluklar, canlı performanslar, ürün "
+"satışları ve daha fazlası gibi para kazanma fırsatlarını keşfedebilirsiniz. "
+"Başarılı bir şovmen veya komedyen olmanın zaman, sabır ve dayanıklılık "
+"gerektirdiğini, ancak tutku ve özveriyle bunun kesinlikle başarılabileceğini "
+"unutmayın."
 
 #: tutorials/content-creation/index.php:59
+#, fuzzy
 msgid "Teaching an online course"
-msgstr ""
+msgstr "Çevrimiçi kurs öğretmek"
 
 #: tutorials/content-creation/index.php:60
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Becoming an online teacher is a rewarding way to share your knowledge and "
 "expertise while earning money as a content creator. This role involves "
@@ -4399,17 +5369,34 @@ msgid ""
 "you have the potential to reach students worldwide, but you also enjoy the "
 "flexibility of working from anywhere at any time."
 msgstr ""
+"Çevrimiçi öğretmen olmak, içerik oluşturucu olarak para kazanırken bilginizi "
+"ve uzmanlığınızı paylaşmanın ödüllendirici bir yoludur. Bu rol, uzmanlık "
+"alanınızda eğitim içeriği oluşturmayı ve bunu dijital platformlar "
+"aracılığıyla sunmayı içerir. Canlı dersler, önceden kaydedilmiş dersler veya "
+"her ikisinin bir kombinasyonunu sunmayı seçebilirsiniz. %1$s, %2$s veya %3$s "
+"gibi platformlar kurslarınızı barındırmak ve küresel bir kitleye satmak için "
+"idealdir. Çevrimiçi bir öğretmen olarak başarılı olmak için hedef kitlenizin "
+"öğrenme ihtiyaçlarını anlamanız, ilgi çekici ve bilgilendirici içerik "
+"oluşturmanız ve kurs materyallerinizi güncel kalacak şekilde sürekli "
+"güncellemeniz gerekir. Para kazanma, kurs kaydı için ücret alınması, premium "
+"içerik sunulması veya bire bir özel ders oturumları sağlanması yoluyla "
+"sağlanabilir. Çevrimiçi bir öğretmen olarak, yalnızca dünya çapındaki "
+"öğrencilere ulaşma potansiyeline sahip olmakla kalmaz, aynı zamanda "
+"istediğiniz zaman istediğiniz yerden çalışmanın esnekliğinden de "
+"yararlanırsınız."
 
 #: tutorials/content-creation/index.php:60
+#, fuzzy
 msgid "Skillshare"
-msgstr ""
+msgstr "Beceri paylaşımı"
 
 #: tutorials/content-creation/index.php:61
+#, fuzzy
 msgid "Becoming an influencer"
-msgstr ""
+msgstr "Etkileyici olmak"
 
 #: tutorials/content-creation/index.php:62
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Becoming an influencer is an exciting and potentially lucrative avenue in "
 "the realm of online content creation. As an influencer, your role involves "
@@ -4425,17 +5412,32 @@ msgid ""
 "It's crucial to maintain transparency, authenticity, and consistency to "
 "build trust and loyalty among your followers."
 msgstr ""
+"Etkileyici olmak, çevrimiçi içerik oluşturma alanında heyecan verici ve "
+"potansiyel olarak kazançlı bir yoldur. Bir etkileyici olarak rolünüz, sosyal "
+"medya platformlarında önemli bir takipçi kitlesi oluşturmayı ve bu kitleyi "
+"markanızla uyumlu ürünleri, hizmetleri veya amaçları tanıtmak için "
+"kullanmayı içerir. Başarılı etkileyiciler genellikle moda, fitness, seyahat "
+"veya yemek gibi belirli bir alana odaklanır ve hem ilgi çekici hem de özgün "
+"içerik paylaşırlar. %1$s, %2$s, %3$s ve %4$s gibi platformlar, "
+"etkileyicilerin takipçilerini artırabilecekleri popüler alanlardır. "
+"Etkileyici biri olarak para kazanma, sponsorlu gönderilerden, marka "
+"ortaklıklarından, bağlı kuruluş pazarlamasından ve hatta ürün grubunuzu "
+"piyasaya sürmekten gelebilir. Bununla birlikte, etkileyici olmak özveri, "
+"yaratıcılık ve hedef kitlenizle etkileşime geçmek için gerçek bir istek "
+"gerektirir. Takipçileriniz arasında güven ve sadakat oluşturmak için "
+"şeffaflığı, özgünlüğü ve tutarlılığı korumak çok önemlidir."
 
 #: tutorials/content-creation/index.php:62
+#, fuzzy
 msgid "Twitter"
-msgstr ""
+msgstr "heyecan"
 
 #: tutorials/content-creation/index.php:63
 msgid "Becoming a service provider"
 msgstr "Kendi işinizin sahibi olun"
 
 #: tutorials/content-creation/index.php:64
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Becoming a service provider is another viable way to earn money as an online "
 "content creator. This path involves leveraging your skills and expertise to "
@@ -4451,21 +5453,38 @@ msgid ""
 "anywhere, set your rates, and choose projects that align with your interests "
 "and skills."
 msgstr ""
+"Hizmet sağlayıcı olmak, çevrimiçi içerik oluşturucu olarak para kazanmanın "
+"başka bir geçerli yoludur. Bu yol, müşterilere hizmet sunmak için "
+"becerilerinizden ve uzmanlığınızdan yararlanmayı içerir. Örneğin grafik "
+"tasarım, yazarlık, video düzenleme veya dijital pazarlama konularında "
+"uzmansanız bunları ihtiyaç duyan kişilere veya işletmelere hizmet olarak "
+"sunabilirsiniz. %1$s veya %2$s gibi platformlar, potansiyel müşterilerle "
+"bağlantı kurmak için harika pazar yerleri olarak hizmet veriyor. Bir hizmet "
+"sağlayıcı olarak, güçlü bir çalışma portföyü sergilemeniz, müşterilerle açık "
+"iletişim kurmanız ve tutarlı bir şekilde yüksek kaliteli sonuçlar sunmanız "
+"çok önemlidir. Bu yalnızca sağlam bir itibar oluşturmanıza yardımcı olmakla "
+"kalmaz, aynı zamanda daha fazla proje güvence altına alma ve istikrarlı bir "
+"gelir elde etme olasılığını da artırır. Ayrıca bu yaklaşım, her yerden esnek "
+"bir şekilde çalışmanıza, oranlarınızı belirlemenize ve ilgi alanlarınıza ve "
+"becerilerinize uygun projeleri seçmenize olanak tanır."
 
 #: tutorials/content-creation/index.php:64
+#, fuzzy
 msgid "Fiverr"
-msgstr ""
+msgstr "Beşrr"
 
 #: tutorials/content-creation/index.php:64
+#, fuzzy
 msgid "Upwork"
-msgstr ""
+msgstr "çalışma"
 
 #: tutorials/content-creation/index.php:65
+#, fuzzy
 msgid "Offering exclusive content"
-msgstr ""
+msgstr "Özel içerik sunmak"
 
 #: tutorials/content-creation/index.php:66
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Offering exclusive content is an effective way to monetize your online "
 "presence and foster a dedicated community of supporters. As a content "
@@ -4479,17 +5498,30 @@ msgid ""
 "consistent income but also allows you to reward your most loyal fans with "
 "unique experiences or insights."
 msgstr ""
+"Özel içerik sunmak, çevrimiçi varlığınızdan para kazanmanın ve özel bir "
+"destekçi topluluğu oluşturmanın etkili bir yoludur. Bir içerik oluşturucu "
+"olarak, abonelerin premium materyallere erişim için ücret ödediği %1$s, %2$s "
+"veya %3$s gibi platformlarda özel içerik sağlayabilirsiniz. Bu, kamera "
+"arkası çekimlerini, yeni çalışmalara erken erişimi, kişisel güncellemeleri "
+"veya ücretsiz olarak sunduklarınızın ötesinde benzersiz değer katan diğer "
+"içerikleri içerebilir. Özel içerik sunarak, en aktif takipçileriniz için "
+"daha samimi bir alan yaratır, daha güçlü bir bağlantı kurar ve ayrıcalık "
+"duygusunu geliştirirsiniz. Bu strateji yalnızca tutarlı bir gelir elde "
+"etmenize yardımcı olmakla kalmaz, aynı zamanda en sadık hayranlarınızı "
+"benzersiz deneyimler veya bilgilerle ödüllendirmenize de olanak tanır."
 
 #: tutorials/content-creation/index.php:67
+#, fuzzy
 msgid "Popular platforms for exclusive content are:"
-msgstr ""
+msgstr "Özel içerik için popüler platformlar şunlardır:"
 
 #: tutorials/content-creation/index.php:76
+#, fuzzy
 msgid "Selling stock photos"
-msgstr ""
+msgstr "Stok fotoğraf satışı"
 
 #: tutorials/content-creation/index.php:77
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Selling stock photos is a potentially lucrative way for photographers to "
 "monetize their passion. This involves capturing high-quality images and "
@@ -4505,25 +5537,43 @@ msgid ""
 "diverse portfolio of quality images, selling stock photos can provide a "
 "steady stream of passive income."
 msgstr ""
+"Stok fotoğraf satmak, fotoğrafçıların tutkularından para kazanmaları için "
+"potansiyel olarak kazançlı bir yoldur. Bu, yüksek kaliteli görseller çekmeyi "
+"ve bunları %1$s, %2$s veya %3$s gibi stok fotoğraf platformlarında satmayı "
+"içerir. Bu web siteleri, içerik oluşturucuların fotoğraflarını "
+"yükleyebilecekleri ve müşterilerin bunları pazarlama kampanyaları, web "
+"siteleri veya blog gönderileri gibi projelerinde kullanmak üzere satın "
+"alabilecekleri bir pazar yeri görevi görür. Stok fotoğraf satmada başarının "
+"anahtarı, alıcıların işle ilgili fotoğraflar, yaşam tarzı görselleri veya "
+"doğa çekimleri gibi ne tür görseller aradığını anlamaktır. Fotoğraflarınızın "
+"iyi kompozisyonlu, keskin odaklı ve bu platformların yüksek standartlarını "
+"karşılayacak şekilde aydınlatılmış olmasını sağlamak da çok önemlidir. Bir "
+"müşteri fotoğrafınızı her satın aldığında komisyon kazanırsınız. Zamanla, "
+"kaliteli görsellerden oluşan çeşitli bir portföyle stok fotoğraf satmak, "
+"istikrarlı bir pasif gelir akışı sağlayabilir."
 
 #: tutorials/content-creation/index.php:77
+#, fuzzy
 msgid "Shutterstock"
-msgstr ""
+msgstr "Shutterstock"
 
 #: tutorials/content-creation/index.php:77
+#, fuzzy
 msgid "Adobe Stock"
-msgstr ""
+msgstr "Adobe Stock"
 
 #: tutorials/content-creation/index.php:77
+#, fuzzy
 msgid "Getty Images"
-msgstr ""
+msgstr "Getty Images"
 
 #: tutorials/content-creation/index.php:78
+#, fuzzy
 msgid "Publishing an eBook"
-msgstr ""
+msgstr "Bir e-Kitap yayınlama"
 
 #: tutorials/content-creation/index.php:79
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Publishing an eBook is a viable way for content creators to share their "
 "knowledge or storytelling skills while generating income. This process "
@@ -4540,25 +5590,44 @@ msgid ""
 "through book sales, with the platform taking a small percentage of each sale "
 "as a commission."
 msgstr ""
+"Bir e-Kitap yayınlamak, içerik oluşturucuların gelir elde ederken "
+"bilgilerini veya hikaye anlatma becerilerini paylaşmaları için uygun bir "
+"yoldur. Bu süreç, uzmanlık veya ilgi alanınızda bir kitap yazmayı, bunu "
+"dijital dağıtım için biçimlendirmeyi ve çevrimiçi olarak satın alınabilecek "
+"veya indirilebilecek hale getirmeyi içerir. %1$s, %2$s veya %3$s gibi "
+"platformlar, kendi kendine yayın yapan e-Kitaplar için popüler seçimlerdir. "
+"Bu platformlar içeriğiniz üzerinde kontrol sahibi olmanıza, fiyatlarınızı "
+"belirlemenize ve küresel bir kitleye ulaşmanıza olanak tanır. Ayrıca, bir e-"
+"Kitap yayınlamanın maliyeti genellikle geleneksel yayıncılıktan daha "
+"düşüktür ve bu da onu birçok yaratıcı için erişilebilir bir seçenek haline "
+"getirir. E-Kitap yayıncılığında başarılı olmak için yüksek kaliteli içerik "
+"üretmek, çekici bir kapak tasarlamak, ilgi çekici bir kitap açıklaması "
+"yazmak ve potansiyel okuyuculara ulaşmak için pazarlamaya yatırım yapmak çok "
+"önemlidir. Para kazanma genellikle kitap satışları yoluyla sağlanıyor ve "
+"platform her satıştan küçük bir yüzdeyi komisyon olarak alıyor."
 
 #: tutorials/content-creation/index.php:79
+#, fuzzy
 msgid "Amazon Kindle Direct Publishing"
-msgstr ""
+msgstr "Amazon Kindle Doğrudan Yayınlama"
 
 #: tutorials/content-creation/index.php:79
+#, fuzzy
 msgid "Apple Books"
-msgstr ""
+msgstr "Apple Kitapları"
 
 #: tutorials/content-creation/index.php:79
+#, fuzzy
 msgid "Google Play Books"
-msgstr ""
+msgstr "Google Play Kitaplar"
 
 #: tutorials/content-creation/index.php:80
+#, fuzzy
 msgid "Creating a blog"
-msgstr ""
+msgstr "Blog oluşturma"
 
 #: tutorials/content-creation/index.php:81
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Creating a blog is an excellent way to express your ideas, share your "
 "knowledge, and engage with an online audience. This form of content creation "
@@ -4571,17 +5640,29 @@ msgid ""
 "blogging enhances your digital presence, helps establish your authority in a "
 "particular field, and allows you to connect with a global audience."
 msgstr ""
+"Blog oluşturmak fikirlerinizi ifade etmenin, bilginizi paylaşmanın ve "
+"çevrimiçi hedef kitleyle etkileşim kurmanın mükemmel bir yoludur. Bu içerik "
+"oluşturma biçimi, tutkulu olduğunuz belirli bir konu veya niş hakkında "
+"makaleler yazmayı ve yayınlamayı içerir. İçerik yayınlamak için kullanıcı "
+"dostu arayüzler sunan %1$s, %2$s veya %3$s gibi platformlarda blog "
+"başlatabilirsiniz. Başarılı bloglamanın anahtarı, tutarlı bir şekilde "
+"değerli, benzersiz ve ilgi çekici içerik sağlamakta yatmaktadır. Blogunuzdan "
+"reklam geliri, sponsorlu gönderiler ve bağlı kuruluş pazarlaması gibi "
+"çeşitli yöntemlerle para kazanabilirsiniz. Ayrıca blog yazmak dijital "
+"varlığınızı geliştirir, belirli bir alanda otoritenizi oluşturmanıza "
+"yardımcı olur ve küresel bir hedef kitleyle bağlantı kurmanıza olanak tanır."
 
 #: tutorials/content-creation/index.php:81
+#, fuzzy
 msgid "Blogger"
-msgstr ""
+msgstr "Blogcu"
 
 #: tutorials/content-creation/index.php:82
 msgid "Becoming a live streamer"
 msgstr "Kendi işinizin sahibi olun"
 
 #: tutorials/content-creation/index.php:83
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Becoming a live streamer is an exciting and dynamic way to engage with an "
 "online audience in real-time. This form of content creation involves "
@@ -4596,25 +5677,41 @@ msgid ""
 "you have the opportunity to build a vibrant community around your passion "
 "while also earning income."
 msgstr ""
+"Canlı yayıncı olmak, çevrimiçi izleyicilerle gerçek zamanlı olarak etkileşim "
+"kurmanın heyecan verici ve dinamik bir yoludur. Bu içerik oluşturma biçimi, "
+"izleyicilerinizle doğrudan etkileşim kurabileceğiniz %1$s, %2$s, %3$s veya "
+"%4$s gibi platformlarda canlı video yayınlamayı içerir. Canlı yayıncı olarak "
+"oyun, müzik, eğitim, fitness veya sıradan sohbetler gibi çeşitli alanlara "
+"odaklanmayı seçebilirsiniz. Başarılı canlı yayının anahtarı tutarlı "
+"programların sürdürülmesinde, ilgi çekici içerik oluşturulmasında ve aktif "
+"izleyici etkileşimi yoluyla bir topluluğun desteklenmesinde yatmaktadır. "
+"Canlı yayına yönelik para kazanma stratejileri arasında izleyici bağışları, "
+"marka ortaklıkları, reklam geliri ve aboneliğe dayalı modeller yer alır. "
+"Canlı yayıncı olarak tutkunuzun etrafında canlı bir topluluk oluşturma ve "
+"aynı zamanda gelir elde etme fırsatına sahipsiniz."
 
 #: tutorials/content-creation/index.php:83
+#, fuzzy
 msgid "YouTube Live"
-msgstr ""
+msgstr "YouTube Canlı"
 
 #: tutorials/content-creation/index.php:83
+#, fuzzy
 msgid "Tango Live"
-msgstr ""
+msgstr "Tango Canlı"
 
 #: tutorials/content-creation/index.php:83
+#, fuzzy
 msgid "BIGO Live"
-msgstr ""
+msgstr "BIGO Canlı"
 
 #: tutorials/content-creation/index.php:84
+#, fuzzy
 msgid "Promoting paid content on social media"
-msgstr ""
+msgstr "Sosyal medyada ücretli içeriğin tanıtılması"
 
 #: tutorials/content-creation/index.php:85
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "Paid content platforms like %1$s, %2$s and %3$s have become popular avenues "
 "for creators to monetize their content. However, attracting subscribers to "
@@ -4630,10 +5727,25 @@ msgid ""
 "your audience. Depending on your content strategy, you could also sell "
 "direct messaging as a service."
 msgstr ""
+"%1$s, %2$s ve %3$s gibi ücretli içerik platformları, içerik oluşturucuların "
+"içeriklerinden para kazanmaları için popüler yollar haline geldi. Ancak "
+"aboneleri bu platformlara çekmek çoğu zaman etkili bir tanıtım gerektirir. "
+"%4$s, %5$s ve %6$s gibi sosyal medya ağları, içerik oluşturuculara ücretli "
+"içeriklerini pazarlamaları ve daha geniş bir kitlenin ilgisini çekmeleri "
+"için mükemmel fırsatlar sunuyor. Ücretli içeriğinizi sosyal medya "
+"platformlarında tanıtmak yaratıcılık, tutarlılık ve katılım gerektirir. Her "
+"platform, abone çekmek için yararlanabileceğiniz benzersiz özellikler sunar. "
+"İlgi çekici tanıtım içeriği oluşturarak, hedef kitlenizle ilişkiler kurarak "
+"ve onların ücretli platformunuza erişmelerini kolaylaştırarak, "
+"takipçilerinizi ödeme yapan abonelere dönüştürme şansınızı artırabilirsiniz. "
+"Hedef kitlenizle etkileşime geçmek için doğrudan mesajlaşmayı da "
+"kullanabilirsiniz. İçerik stratejinize bağlı olarak doğrudan mesajlaşmayı "
+"bir hizmet olarak da satabilirsiniz."
 
 #: tutorials/content-creation/index.php:85
+#, fuzzy
 msgid "Telegram"
-msgstr ""
+msgstr "Telgraf"
 
 #: tutorials/findom/index.php:10 tutorials/findom/index.php:22
 msgid "This tutorial will show you how you can use findom to earn money"
@@ -4646,17 +5758,22 @@ msgid "What is findom?"
 msgstr "PGP nedir?"
 
 #: tutorials/findom/index.php:35
+#, fuzzy
 msgid ""
 "Findom, short for financial domination. It is a fetish in which a dominant "
 "person (dom) receives money from a submissive person (sub). This transaction "
 "provides pleasure to both parties, even though it is a one-way transaction."
 msgstr ""
+"Findom, finansal hakimiyetin kısaltması. Baskın bir kişinin (dom), itaatkar "
+"bir kişiden (alt) para almasıyla oluşan bir fetiş. Bu işlem her ne kadar tek "
+"yönlü bir işlem olsa da her iki tarafa da keyif vermektedir."
 
 #: tutorials/findom/index.php:36
 msgid "What are the risks of engaging in findom?"
 msgstr "Şeker flörtünün riskleri nelerdir?"
 
 #: tutorials/findom/index.php:37
+#, fuzzy
 msgid ""
 "For a sub, engaging in findom carries the risk of losing money and control. "
 "It can become addictive and lead to overspending, financial instability or "
@@ -4665,23 +5782,37 @@ msgid ""
 "all of it. Once a sub no longer spends money on the dom, this could lead to "
 "an existential crisis due to high expenses that need to be maintained."
 msgstr ""
+"Bir sub için findom'a katılmak para ve kontrol kaybı riski taşır. Bağımlılık "
+"yapabilir ve aşırı harcamaya, finansal istikrarsızlığa veya evsizliğe yol "
+"açabilir. Bir domino için, potansiyel olarak çok fazla para aldıkları ve "
+"hepsini harcama eğiliminde oldukları göz önüne alındığında, parayla "
+"sağlıksız bir ilişki oluşabilir. Bir denizaltının artık dom'a para "
+"harcamaması, sürdürülmesi gereken yüksek harcamalar nedeniyle varoluşsal bir "
+"krize yol açabilir."
 
 #: tutorials/findom/index.php:38
 msgid "What are the benefits of findom?"
 msgstr "Şeker flörtünün faydaları nelerdir?"
 
 #: tutorials/findom/index.php:39
+#, fuzzy
 msgid ""
 "As a sub, you will be motivated to earn more money and climb the career "
 "ladder faster than you would normally do because you are constantly "
 "challenged to give more to your dom. For doms, it is financial gain."
 msgstr ""
+"Bir yedek olarak, daha fazla para kazanmak ve kariyer basamaklarını normalde "
+"olduğundan daha hızlı tırmanmak için motive olacaksınız çünkü sürekli olarak "
+"evinize daha fazlasını verme konusunda zorlanacaksınız. Domlar için maddi "
+"kazançtır."
 
 #: tutorials/findom/index.php:40
+#, fuzzy
 msgid "What is a findom relationship like?"
-msgstr ""
+msgstr "Findom ilişkisi nasıldır?"
 
 #: tutorials/findom/index.php:41
+#, fuzzy
 msgid ""
 "Findom relationships come in various forms. Some are short-lived, one-time "
 "transactions, while others can span many years. While findom is purely "
@@ -4692,12 +5823,22 @@ msgid ""
 "debt contract, in which the sub commits to paying off a debt to their dom "
 "for an extended period in monthly instalments."
 msgstr ""
+"Findom ilişkileri çeşitli şekillerde gelir. Bazıları kısa ömürlü, tek "
+"seferlik işlemlerdir, bazıları ise uzun yıllara yayılabilir. Findom tamamen "
+"finansal olsa da sıklıkla BDSM, içerik oluşturma ve diğer erotik hizmetlerle "
+"de birleştirilir. Bazı aboneler çevrimiçi alışveriş için para ödemekten veya "
+"aşırı fiyatlı ayak fotoğrafları satın almaktan hoşlanır, diğerleri gerçek "
+"hayatta evleriyle alışverişe gider ve bazıları da toplum içinde küçük "
+"düşürülmek ister. Bir senaryo, abonenin kendi evine olan borcunu uzun bir "
+"süre boyunca aylık taksitlerle ödemeyi taahhüt ettiği bir borç sözleşmesini "
+"içerebilir."
 
 #: tutorials/findom/index.php:42
 msgid "How to live in a healthy findom relationship?"
 msgstr "Sağlıklı bir findom ilişkisi nasıl yaşanır?"
 
 #: tutorials/findom/index.php:43
+#, fuzzy
 msgid ""
 "Everyone is unique, so your specific needs need to be discussed with your "
 "findom partner. It is important that both of you are happy with it. While "
@@ -4710,40 +5851,60 @@ msgid ""
 "problems. While it is an entertaining thought to some subs, ending up "
 "homeless is not beneficial to anyone."
 msgstr ""
+"Herkes benzersizdir, bu nedenle özel ihtiyaçlarınızın findom ortağınızla "
+"tartışılması gerekir. İkinizin de bundan memnun olması önemlidir. Bazı "
+"aboneler ve domlar tek seferlik hızlı bir işlemi tercih etse de, uzun vadeli "
+"bir ilişki kurulabiliyorsa bu genellikle her iki taraf için de en iyisidir. "
+"Sağlıklı bir ilişki sürdürmek için evin, gelir, harcamalar ve harcama "
+"alışkanlıkları da dahil olmak üzere alt mali durumunu bilmesi gerekir. Bu "
+"bilgi, dom'un, ciddi borç sorunları riskine girmeden, alt birimin "
+"giderlerini azaltmasına, gelirini artırmasına ve sonuçta doma daha fazla "
+"nakit aktarmasına yardımcı olmasına olanak tanır. Bazı denizaltılar için bu "
+"eğlenceli bir düşünce olsa da evsiz kalmak hiç kimseye fayda sağlamaz."
 
 #: tutorials/findom/index.php:44
 msgid "Where do I find a findom partner?"
 msgstr "Nerede bir şeker ortağı bulabilirim?"
 
 #: tutorials/findom/index.php:45
-#, php-format
+#, fuzzy, php-format
 msgid ""
 "If you are curious to try this fetish out or would like to thank me, you can "
 "donate or buy me an item from my %s. For a more long-term experience, see "
 "the links below."
 msgstr ""
+"Bu fetişi denemeyi merak ediyorsanız veya bana teşekkür etmek istiyorsanız, "
+"bağışta bulunabilir veya %s_ adresimden bana bir ürün satın alabilirsiniz. "
+"Daha uzun vadeli bir deneyim için aşağıdaki bağlantılara bakın."
 
 #: tutorials/findom/index.php:45
+#, fuzzy
 msgid "Amazon wishlist"
-msgstr ""
+msgstr "Amazon istek listesi"
 
 #: tutorials/findom/index.php:46
+#, fuzzy
 msgid "Popular dating sites used for findom:"
-msgstr ""
+msgstr "Findom için kullanılan popüler tanışma siteleri:"
 
 #: tutorials/findom/index.php:51
+#, fuzzy
 msgid ""
 "You can find findom content on social media sites with tags like #paypig "
 "#moneyslave #findom #payme #spoilme etc."
 msgstr ""
+"Findom içeriklerini sosyal medya sitelerinde #paypig #moneyslave #findom #"
+"payme #spoilme vb. etiketlerle bulabilirsiniz."
 
 #: tutorials/findom/index.php:56
+#, fuzzy
 msgid "Popular findom sites:"
-msgstr ""
+msgstr "Popüler findom siteleri:"
 
 #: tutorials/findom/index.php:65
+#, fuzzy
 msgid "Popular content creator sites used for findom:"
-msgstr ""
+msgstr "Findom için kullanılan popüler içerik oluşturucu siteleri:"
 
 #, php-format
 #~ msgid "(Save 50€ on your first investment with the code \"%s\")"
