@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: daniel@danwin1210.de\n"
 "POT-Creation-Date: 2024-06-30 19:15+0200\n"
-"PO-Revision-Date: 2025-10-27 22:20+0000\n"
-"Last-Translator: Turkish Mark <turkishmark@yandex.com>\n"
+"PO-Revision-Date: 2025-10-28 23:01+0000\n"
+"Last-Translator: Turkish Language Team <turkishmark@yandex.com>\n"
 "Language-Team: Turkish <https://weblate.danwin1210.de/projects/DanWin/"
 "main-website/tr/>\n"
 "Language: tr_TR\n"
@@ -621,11 +621,11 @@ msgstr "Daniel - İletişim"
 
 #: contact.php:10 contact.php:16
 msgid "Contact Daniel Winzen"
-msgstr "Daniel Winzen ile iletişim kurun"
+msgstr "Daniel Winzen ile iletişime geçin"
 
 #: contact.php:27 common.php:128
 msgid "Contact"
-msgstr "İletişim"
+msgstr "Bize ulaşın"
 
 #: contact.php:28
 msgid ""
@@ -755,8 +755,8 @@ msgid ""
 "Yes, please %s and I may add it on my ToDo list. It might take a while until "
 "your feature gets added though."
 msgstr ""
-"Evet, lütfen <a href=\"%s\">benimle iletişime geçin</a> ve onu Yapılacaklar "
-"listeme ekleyebilirim. Yine de özelliğinizin eklenmesi biraz zaman alabilir."
+"Evet, lütfen %s ve bunu yapılacaklar listeme ekleyebilirim. Ancak, "
+"özelliğinizin eklenmesi biraz zaman alabilir."
 
 #: faq.php:41
 msgid ""
@@ -886,11 +886,11 @@ msgstr ""
 
 #: faq.php:62 tutorials/content-creation/index.php:60
 msgid "Coursera"
-msgstr "Coursera"
+msgstr "Eğitim"
 
 #: faq.php:62 tutorials/content-creation/index.php:60
 msgid "Udemy"
-msgstr "Udemy"
+msgstr "Akademi"
 
 #: faq.php:62
 msgid "Hacker101"
@@ -967,11 +967,11 @@ msgid ""
 "You can disable mandatory encryption in your %s, if you still need to send "
 "this email."
 msgstr ""
-"Şifreli aktarım yoluyla e-postaları kabul etmeyen veya güvenli olmayan "
+"Şifreli aktarım yoluyla e-posta kabul etmeyen veya güvenli olmayan "
 "protokoller kullanan bir posta sunucusuna e-posta göndermeyi denediniz. Bu "
-"çok talihsiz bir durumdur çünkü e-posta içeriğinizi, hedefe ulaşmadan önce e-"
-"postanızı engelleyebilecek internetteki herhangi birine sızdırabilir. Hâlâ "
-"bu e-postayı göndermeniz gerekiyorsa, <a href=\"%s\">hesap ayarlarınızda</a> "
+"çok talihsiz bir durumdur, çünkü e-postanızın içeriği, e-postanız hedefine "
+"ulaşmadan önce onu ele geçirebilecek internet üzerindeki herkese "
+"sızdırılacaktır. Bu e-postayı yine de göndermeniz gerekiyorsa, %s'nizde "
 "zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:82 faq.php:86
@@ -994,10 +994,10 @@ msgid ""
 msgstr ""
 "Birisi, şifreli aktarım yoluyla e-posta göndermeyi desteklemeyen veya "
 "güvenli olmayan protokoller kullanan bir posta sunucusundan size e-posta "
-"göndermeye çalıştı. Bu çok talihsiz bir durumdur çünkü e-posta içeriğinizi, "
-"hedefe ulaşmadan önce e-postanızı engelleyebilecek internetteki herhangi "
-"birine sızdırabilir. Hâlâ bu e-postayı almanız gerekiyorsa, <a href=\"%s\""
-">hesap ayarlarınızda</a> zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
+"göndermeye çalıştı. Bu çok talihsiz bir durumdur, çünkü e-postanızın "
+"içeriği, e-postanız hedefine ulaşmadan önce onu ele geçirebilecek "
+"internetteki herkese sızdırılabilir. Bu e-postayı yine de almanız "
+"gerekiyorsa, %s'nizde zorunlu şifrelemeyi devre dışı bırakabilirsiniz."
 
 #: faq.php:89
 msgid ""
@@ -1015,12 +1015,12 @@ msgid ""
 "free, but everyone can get there, if you are willing to learn and educate "
 "yourself. I made an in-depth tutorial about some steps you can take: %s."
 msgstr ""
-"Zengin olmak ve borçlarınızı temizlemek kafanızda başlayan bir süreçtir. Bir "
-"gecede zengin olma şansı son derece düşük, uzun vadeli hedeflere odaklanmayı "
-"tercih etmelisiniz. Finansal olarak özgürleşmeniz birkaç yıl alabilir, ancak "
-"öğrenmeye ve kendinizi eğitmeye istekliyseniz herkes oraya ulaşabilir. "
-"Yapabileceğiniz bazı adımlarla ilgili ayrıntılı bir eğitim hazırladım: <a "
-"href=\"%s\">Nasıl zengin olunur (hızlı)</a>."
+"Zengin olmak ve borçlarınızı ödemek, kafanızda başlayan bir süreçtir. Bir "
+"gecede zengin olma şansı son derece düşüktür, bunun yerine uzun vadeli "
+"hedeflere odaklanmalısınız. Finansal özgürlüğe kavuşmak birkaç yılınızı "
+"alabilir, ancak öğrenmeye ve kendinizi geliştirmeye istekliyseniz, herkes bu "
+"hedefe ulaşabilir. Atabileceğiniz bazı adımlar hakkında ayrıntılı bir eğitim "
+"hazırladım: %s."
 
 #: faq.php:90 tutorials/get-rich-fast/index.php:6
 #: tutorials/get-rich-fast/index.php:23 tutorials/get-rich-fast/index.php:33
@@ -1076,7 +1076,7 @@ msgstr "garanti kanarya"
 
 #: faq.php:98 privacy.php:65
 msgid "PGP key"
-msgstr "Özel Anahtar"
+msgstr "PGP anahtarı"
 
 #: faq.php:101
 msgid "I have more Questions."
@@ -1084,7 +1084,7 @@ msgstr "Daha fazla sorum var."
 
 #: faq.php:102
 msgid "Contact me"
-msgstr "İletişim"
+msgstr "Bana ulaşın"
 
 #: common.php:110
 msgid "Toggle navigation"
@@ -1221,7 +1221,7 @@ msgstr ""
 
 #: new-domain.php:37
 msgid "in their account settings"
-msgstr "FileZilla ayarları"
+msgstr "hesap ayarlarında"
 
 #: new-domain.php:38
 msgid ""
@@ -1468,15 +1468,16 @@ msgid ""
 "any other similar data and information that may be used in the event of "
 "attacks on my information technology systems."
 msgstr ""
-"Daniel Winzen sunucusu, bir veri sahibi veya otomatik sistem web sitesini "
+"Daniel Winzen'in sunucusu, bir veri sahibi veya otomatik sistem web sitesini "
 "veya sağlanan diğer hizmetleri çağırdığında bir dizi genel veri ve bilgi "
-"toplar. Bu genel veriler ve bilgiler, sunucu günlük dosyalarında saklanır. "
-"Toplananlar (1) kullanılan tarayıcı türleri ve sürümleri, (2) erişim sistemi "
-"tarafından kullanılan işletim sistemi, (3) erişim sisteminin web siteme "
-"ulaştığı web sitesi (yönlendirenler), (4) alt -web siteleri, (5) İnternet "
-"sitesine erişim tarihi ve saati / e-posta iletimi, (6) bir e-postanın "
-"göndericisi ve alıcısı ve (7) saldırı durumunda kullanılabilecek diğer "
-"benzer veri ve bilgiler bilgi teknolojisi sistemlerim."
+"toplar. Bu genel veri ve bilgiler sunucu günlük dosyalarında saklanır. "
+"Toplanan bilgiler şunlar olabilir: (1) kullanılan tarayıcı türleri ve "
+"sürümleri, (2) erişim sisteminin kullandığı işletim sistemi, (3) erişim "
+"sisteminin web siteme ulaştığı web sitesi (yani yönlendirenler), (4) alt web "
+"siteleri, (5) internet sitesine erişim tarihi ve saati / e-posta iletimi, (6)"
+" e-postanın göndereni ve alıcısı, (7) IP adresi ve (8) bilgi teknolojisi "
+"sistemlerime saldırı durumunda kullanılabilecek diğer benzer veriler ve "
+"bilgiler."
 
 #: privacy.php:47
 msgid ""
@@ -1640,7 +1641,7 @@ msgstr "9. Varantlı kanarya"
 
 #: chat/index.php:6 chat/index.php:15 chat/index.php:27 blog/index.php:38
 msgid "Daniel's Chat shutdown"
-msgstr "Daniel'in Sohbeti"
+msgstr "Daniel'in Sohbeti kapatıldı"
 
 #: chat/index.php:10 chat/index.php:16
 msgid "Daniel's Chat - a former darknet chat community"
@@ -1648,7 +1649,7 @@ msgstr "Daniel's Chat - eski bir darknet sohbet topluluğu"
 
 #: chat/index.php:25
 msgid "Daniel' Chat shutdown"
-msgstr "Daniel'in Sohbeti"
+msgstr "Daniel'ın sohbeti kapatıldı"
 
 #: chat/index.php:28
 msgid "After 9 years, I'm shutting down the chat for good."
@@ -1846,7 +1847,7 @@ msgstr ""
 
 #: blog/ipv6/index.php:39
 msgid "Enhanced Security"
-msgstr "Hazırlık ve Güvenlik"
+msgstr "Gelişmiş Güvenlik"
 
 #: blog/ipv6/index.php:40
 msgid ""
@@ -2074,7 +2075,7 @@ msgstr "DNSSEC Uygulamasının Önemi"
 
 #: blog/dnssec/index.php:37
 msgid "Enhanced Data Integrity"
-msgstr "Hazırlık ve Güvenlik"
+msgstr "Geliştirilmiş Veri Bütünlüğü"
 
 #: blog/dnssec/index.php:38
 msgid ""
@@ -2835,7 +2836,7 @@ msgstr ""
 
 #: blog/cluster/index.php:55
 msgid "Performance optimizations"
-msgstr "Bağlantı optimizasyonları"
+msgstr "Performans optimizasyonları"
 
 #: blog/cluster/index.php:56
 msgid ""
@@ -3015,7 +3016,7 @@ msgstr "DANE Uygulamasının Önemi"
 
 #: blog/dane/index.php:37
 msgid "Enhanced Trust and Security"
-msgstr "Hazırlık ve Güvenlik"
+msgstr "Gelişmiş Güven ve Güvenlik"
 
 #: blog/dane/index.php:38
 msgid ""
@@ -3696,7 +3697,7 @@ msgstr ""
 
 #: tutorials/get-rich-fast/index.php:65
 msgid "Become self-employed"
-msgstr "Kendi işinizin sahibi olun"
+msgstr "Serbest meslek sahibi olun"
 
 #: tutorials/get-rich-fast/index.php:66
 msgid ""
@@ -3724,7 +3725,7 @@ msgstr ""
 
 #: tutorials/get-rich-fast/index.php:67
 msgid "Become an entrepreneur, build your own company"
-msgstr "Girişimci ol, kendi şirketini kur"
+msgstr "Girişimci olun ve kendi şirketinizi kurun"
 
 #: tutorials/get-rich-fast/index.php:68
 msgid ""
@@ -3846,14 +3847,15 @@ msgstr "FTP istemcilerini Torify"
 #: tutorials/index.php:31
 msgid "This tutorial will show you how to torify FTP clients."
 msgstr ""
-"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
+"Bu eğitimde, FTP istemcilerini torify etmenin nasıl yapıldığı "
+"gösterilecektir."
 
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:6
 #: tutorials/successful-sugar-dating/index.php:22
 #: tutorials/successful-sugar-dating/index.php:32
 #: tutorials/successful-sugar-dating/index.php:34
 msgid "How to have a successful sugar dating relationship"
-msgstr "Başarılı bir şeker partner ilişkisine nasıl? sahip olunur"
+msgstr "Başarılı bir ücretli partner ilişkisine nasıl? sahip olunur"
 
 #: tutorials/index.php:33 tutorials/successful-sugar-dating/index.php:10
 #: tutorials/successful-sugar-dating/index.php:23
@@ -3869,13 +3871,13 @@ msgstr "Findom ile para kazanmak"
 #: tutorials/index.php:34
 msgid "This tutorial will show you how you can use findom to earn money."
 msgstr ""
-"Bu eğitim size FTP istemcilerini nasıl torify edeceğinizi gösterecektir."
+"Bu eğitimde, findom'u kullanarak nasıl para kazanabileceğinizi göstereceğiz."
 
 #: tutorials/index.php:35 tutorials/self-employed/index.php:6
 #: tutorials/self-employed/index.php:19 tutorials/self-employed/index.php:29
 #: tutorials/self-employed/index.php:31
 msgid "Becoming self-employed"
-msgstr "Kendi işinizin sahibi olun"
+msgstr "Serbest meslek sahibi olmak"
 
 #: tutorials/index.php:35 tutorials/self-employed/index.php:10
 #: tutorials/self-employed/index.php:20
@@ -3985,7 +3987,7 @@ msgstr ""
 
 #: tutorials/successful-sugar-dating/index.php:41
 msgid "What are the benefits of sugar dating?"
-msgstr "Şeker flörtünün faydaları nelerdir?"
+msgstr "Şeker randevusunun faydaları nelerdir?"
 
 #: tutorials/successful-sugar-dating/index.php:42
 msgid ""
@@ -4015,7 +4017,7 @@ msgstr ""
 
 #: tutorials/successful-sugar-dating/index.php:43
 msgid "Where do I find a sugar partner?"
-msgstr "Nerede bir şeker ortağı bulabilirim?"
+msgstr "Nereden bir arkadaş bulabilirim?"
 
 #: tutorials/successful-sugar-dating/index.php:44
 msgid ""
@@ -4561,8 +4563,8 @@ msgid ""
 "This tutorial will show you how to torify FTP clients in the example of %1$s "
 "and %2$s."
 msgstr ""
-"Bu eğitim size %1$s ve %2$s örneğinde FTP istemcilerinin nasıl "
-"güçlendirileceğini gösterecektir."
+"Bu eğitimde, %1$s ve %2$s örnekleri üzerinden FTP istemcilerini torify "
+"etmenin nasıl yapıldığı gösterilecektir."
 
 #: tutorials/torify-ftp/index.php:37
 msgid ""
@@ -4593,7 +4595,7 @@ msgstr "Eğer FileZilla'yı henüz yüklemediyseniz, %s yükleyebilirsiniz."
 
 #: tutorials/torify-ftp/index.php:43
 msgid "download FileZilla here"
-msgstr "FileZilla'yı İndirin"
+msgstr "FileZilla'yı buradan indirin"
 
 #: tutorials/torify-ftp/index.php:49
 msgid "FileZilla settings"
@@ -4685,7 +4687,7 @@ msgstr ""
 
 #: tutorials/content-creation/index.php:35
 msgid "self-employment"
-msgstr "Kendi işinizin sahibi olun"
+msgstr "serbest meslek"
 
 #: tutorials/content-creation/index.php:36
 msgid "Identify your creator's personality"
@@ -4851,7 +4853,7 @@ msgstr "WordPress"
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:81
 msgid "Medium"
-msgstr "Orta"
+msgstr "Orta seviyede"
 
 #: tutorials/content-creation/index.php:45
 #: tutorials/content-creation/index.php:58
@@ -5153,7 +5155,7 @@ msgstr "heyecan"
 
 #: tutorials/content-creation/index.php:63
 msgid "Becoming a service provider"
-msgstr "Kendi işinizin sahibi olun"
+msgstr "Hizmet sağlayıcı olmak"
 
 #: tutorials/content-creation/index.php:64
 #, php-format
@@ -5364,7 +5366,7 @@ msgstr "Blogcu"
 
 #: tutorials/content-creation/index.php:82
 msgid "Becoming a live streamer"
-msgstr "Kendi işinizin sahibi olun"
+msgstr "Canlı yayıncı olmak"
 
 #: tutorials/content-creation/index.php:83
 #, php-format
@@ -5450,12 +5452,11 @@ msgstr "Telgraf"
 #: tutorials/findom/index.php:10 tutorials/findom/index.php:22
 msgid "This tutorial will show you how you can use findom to earn money"
 msgstr ""
-"Bu eğitim size findom'u kullanarak para kazanmanın nasıl mümkün olduğunu "
-"gösterecek"
+"Bu eğitimde, findom'u kullanarak nasıl para kazanabileceğinizi göstereceğiz"
 
 #: tutorials/findom/index.php:34
 msgid "What is findom?"
-msgstr "PGP nedir?"
+msgstr "Findom nedir?"
 
 #: tutorials/findom/index.php:35
 msgid ""
@@ -5469,7 +5470,7 @@ msgstr ""
 
 #: tutorials/findom/index.php:36
 msgid "What are the risks of engaging in findom?"
-msgstr "Şeker flörtünün riskleri nelerdir?"
+msgstr "Findom ile uğraşmanın riskleri nelerdir?"
 
 #: tutorials/findom/index.php:37
 msgid ""
@@ -5558,7 +5559,7 @@ msgstr ""
 
 #: tutorials/findom/index.php:44
 msgid "Where do I find a findom partner?"
-msgstr "Nerede bir şeker ortağı bulabilirim?"
+msgstr "Nerede bir hayat ortağı bulabilirim?"
 
 #: tutorials/findom/index.php:45
 #, php-format
